@@ -184,15 +184,15 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
   return (
     <div className={`w-full mx-auto flex flex-col items-center ${compact ? "pt-0 pb-2 max-w-4xl" : "pt-4 sm:pt-8 max-w-4xl"}`}>
-      {/* 1. Category Switcher Pills + Trust Badge */}
-      <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
-        <div className="flex items-center gap-2 bg-white p-1 rounded-full border-2 border-slate-300 shadow-xs">
+      {/* 1. Category Switcher Pills - Clean Circular Font & Zero Clutter */}
+      <div className="flex flex-wrap items-center justify-center gap-2.5 mb-3">
+        <div className="flex items-center gap-1.5 bg-white p-1 rounded-full border border-slate-300 shadow-xs font-outfit">
           <button
             type="button"
             onClick={() => setSelectedCategory("image")}
             className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
               selectedCategory === "image"
-                ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
+                ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
             }`}
           >
@@ -205,7 +205,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
             onClick={() => setSelectedCategory("video")}
             className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
               selectedCategory === "video"
-                ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
+                ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
             }`}
           >
@@ -218,7 +218,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
             onClick={() => setSelectedCategory("ui")}
             className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
               selectedCategory === "ui"
-                ? "bg-slate-900 text-white shadow-sm scale-[1.02]"
+                ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
             }`}
           >
@@ -227,13 +227,13 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           </button>
 
           {selectedCategory !== "ui" && (
-            <div className="flex items-center gap-1 pl-2.5 pr-1 border-l border-slate-200">
+            <div className="flex items-center gap-1 pl-2 pr-1 border-l border-slate-200 font-mono">
               {["16:9", "9:16", "1:1"].map((ar) => (
                 <button
                   key={ar}
                   type="button"
                   onClick={() => setAspectRatio(ar)}
-                  className={`px-2.5 py-0.5 rounded-full text-[11px] font-mono transition font-semibold ${
+                  className={`px-2.5 py-0.5 rounded-full text-[11px] transition font-bold ${
                     aspectRatio === ar ? "bg-slate-900 text-white" : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
                   }`}
                 >
@@ -245,9 +245,9 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         </div>
 
         {/* 100% Free • No Login • No Sign-Up Trust Badge */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold shadow-2xs">
+        <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold shadow-2xs font-outfit">
           <Shield className="w-3.5 h-3.5 text-emerald-600" />
-          <span>100% Free • No Login • No Sign-Up</span>
+          <span>100% Free • Zero Login</span>
         </div>
       </div>
 
@@ -295,16 +295,15 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
           {/* Bottom Bar inside the White Box */}
           <div className="flex items-center justify-between pt-3 mt-1 border-t border-slate-100 relative">
-            {/* Left Corner: Gemini-style Model Dropdown (Opens DOWNWARD) */}
+            {/* Left Corner: Clean Circular Pill Model Dropdown (Opens DOWNWARD) */}
             <div className="relative">
               <button
                 type="button"
                 onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
-                className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold transition active:scale-95 border border-slate-200 shadow-2xs"
+                className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold transition active:scale-95 border border-slate-200 shadow-2xs font-outfit"
               >
                 <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
                 <span className="font-extrabold text-slate-900 tracking-tight">{activeModelObj.name}</span>
-                <span className="text-[10px] text-slate-500 font-mono font-semibold">({activeModelObj.badge})</span>
                 <ChevronDown className={`w-3.5 h-3.5 text-slate-600 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
               </button>
 

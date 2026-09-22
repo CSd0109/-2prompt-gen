@@ -83,17 +83,14 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
             setCurrentTab("gallery");
             setSelectedFilter("image");
           }}
-          className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition ${
+          className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-sm transition ${
             currentTab === "gallery" && selectedFilter === "image"
                ? "bg-slate-100 text-slate-900 font-bold"
                : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
           }`}
         >
-          <div className="flex items-center gap-3">
-            <ImageIcon className="w-4 h-4 text-purple-600" />
-            <span>Image Prompts</span>
-          </div>
-          <span className="text-[11px] text-slate-400 font-mono">Flux/MJ</span>
+          <ImageIcon className="w-4 h-4 text-purple-600" />
+          <span>Image Prompts</span>
         </button>
 
         <button
@@ -101,17 +98,14 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
             setCurrentTab("gallery");
             setSelectedFilter("couple-poses");
           }}
-          className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition ${
+          className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-sm transition ${
             currentTab === "gallery" && selectedFilter === "couple-poses"
               ? "bg-rose-50 text-rose-700 font-bold"
               : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
           }`}
         >
-          <div className="flex items-center gap-3">
-            <Heart className="w-4 h-4 text-rose-500 fill-rose-500/20" />
-            <span>Couple Poses</span>
-          </div>
-          <span className="text-[11px] text-rose-500 font-bold font-mono">HOT</span>
+          <Heart className="w-4 h-4 text-rose-500 fill-rose-500/20" />
+          <span>Couple Poses</span>
         </button>
 
         <button
@@ -119,17 +113,14 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
             setCurrentTab("gallery");
             setSelectedFilter("video");
           }}
-          className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition ${
+          className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-sm transition ${
             currentTab === "gallery" && selectedFilter === "video"
               ? "bg-slate-100 text-slate-900 font-bold"
               : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
           }`}
         >
-          <div className="flex items-center gap-3">
-            <Video className="w-4 h-4 text-rose-600" />
-            <span>Video Prompts</span>
-          </div>
-          <span className="text-[11px] text-slate-400 font-mono">Sora</span>
+          <Video className="w-4 h-4 text-rose-600" />
+          <span>Video Prompts</span>
         </button>
 
         <button
@@ -137,53 +128,81 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
             setCurrentTab("gallery");
             setSelectedFilter("ui");
           }}
-          className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-sm transition ${
+          className={`w-full flex items-center gap-3 px-3 py-2 rounded-xl text-sm transition ${
             currentTab === "gallery" && selectedFilter === "ui"
               ? "bg-slate-100 text-slate-900 font-bold"
               : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
           }`}
         >
-          <div className="flex items-center gap-3">
-            <Layout className="w-4 h-4 text-cyan-600" />
-            <span>Website UI</span>
-          </div>
-          <span className="text-[11px] text-slate-400 font-mono">Next.js</span>
+          <Layout className="w-4 h-4 text-cyan-600" />
+          <span>Website UI</span>
         </button>
       </div>
 
-      {/* 3. AI Models Quick Engine Select */}
-      <div className="py-3 border-b border-slate-200 space-y-1">
-        <div className="px-3 py-1 text-xs font-bold uppercase tracking-wider text-slate-400">
-          Available Models
-        </div>
-
-        {AI_MODELS.map((model) => (
-          <div
-            key={model.id}
-            onClick={() => {
-              setCurrentTab("generator");
-            }}
-            className="flex items-center justify-between px-3 py-2 rounded-lg text-xs text-[#cccccc] hover:text-white hover:bg-[#272727] cursor-pointer transition"
-          >
-            <div className="flex items-center gap-2.5">
-              <span className={`w-2 h-2 rounded-full bg-gradient-to-r ${model.color}`} />
-              <span className="font-medium text-[13px]">{model.name}</span>
-            </div>
-            <span className="text-[10px] font-mono text-[#888888]">{model.badge}</span>
-          </div>
-        ))}
+      {/* 3. Clean All Models Dropdown Option (replaces blurry list) */}
+      <div className="py-3 border-b border-slate-200">
+        <SidebarModelsDropdown onSelectModel={() => setCurrentTab("generator")} />
       </div>
 
       {/* 4. Bottom System Status */}
-      <div className="mt-auto pt-3 text-xs text-[#717171] px-3 space-y-1">
-        <div className="flex items-center justify-between">
-          <span>Engine:</span>
-          <span className="text-green-500 font-mono font-bold">● Active 2.0</span>
+      <div className="mt-auto pt-3 text-xs text-slate-500 px-3 space-y-1">
+        <div className="flex items-center justify-between font-medium">
+          <span>Engine Status:</span>
+          <span className="text-emerald-600 font-bold flex items-center gap-1">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Active 2.0
+          </span>
         </div>
-        <p className="text-[11px] text-[#555555] pt-1">
+        <p className="text-[11px] text-slate-400 pt-0.5">
           AI Prompt Generate • High Performance
         </p>
       </div>
     </aside>
+  );
+}
+
+function SidebarModelsDropdown({ onSelectModel }: { onSelectModel: () => void }) {
+  const [open, setOpen] = React.useState(false);
+
+  return (
+    <div className="space-y-1 relative">
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold bg-slate-50 hover:bg-slate-100 text-slate-800 border border-slate-200 transition shadow-2xs"
+      >
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-3.5 h-3.5 text-blue-600" />
+          <span className="font-extrabold font-outfit text-slate-900 tracking-tight">All Models</span>
+        </div>
+        <div className="flex items-center gap-1 text-[11px] text-slate-500">
+          <span>{AI_MODELS.length} Active</span>
+          <span className={`text-[10px] transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▼</span>
+        </div>
+      </button>
+
+      {open && (
+        <div className="mt-1.5 p-1.5 rounded-2xl bg-white border-2 border-slate-200 shadow-xl space-y-1 max-h-64 overflow-y-auto z-30">
+          {AI_MODELS.map((model) => (
+            <div
+              key={model.id}
+              onClick={() => {
+                onSelectModel();
+                setOpen(false);
+              }}
+              className="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs hover:bg-slate-50 cursor-pointer transition"
+            >
+              <div className="flex items-center gap-2">
+                <span className={`w-2 h-2 rounded-full bg-gradient-to-r ${model.color}`} />
+                <span className="font-semibold text-slate-800 text-[12px]">{model.name}</span>
+              </div>
+              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-600">
+                {model.badge}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
   );
 }

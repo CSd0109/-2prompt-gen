@@ -23,22 +23,22 @@ export default function HomePage() {
   const [activeModalItem, setActiveModalItem] = useState<PromptItem | null>(null);
   const [displayCount, setDisplayCount] = useState<number>(PAGE_SIZE);
 
-  // Clean, focused category chips without messy 'All'
+  // Clean, focused category chips with circular style font
   const chips = [
     { id: "image", label: "🖼️ Image Prompts" },
     { id: "characters-tab", label: "👤 AI Characters" },
     { id: "couple-poses", label: "👩‍❤️‍👨 Couple Poses" },
     { id: "banana", label: "🍌 Banana Prompts" },
-    { id: "video", label: "🎥 Video Prompts (Sora / Kling)" },
-    { id: "flux", label: "⚡ Flux 1.1 Pro" },
+    { id: "video", label: "🎥 Video Prompts" },
+    { id: "flux", label: "⚡ Flux" },
     { id: "midjourney", label: "🎨 Midjourney" },
-    { id: "people", label: "👤 Portraits & People" },
-    { id: "photography", label: "📷 Photography & Macro" },
-    { id: "digital-art", label: "✨ Digital Art & 3D" },
-    { id: "nature", label: "🌿 Nature & Animals" },
-    { id: "webpage", label: "💻 Web & UI Prompts" },
-    { id: "youmind", label: "💡 YouMind Studio" },
-    { id: "slides", label: "📊 Slides & Pitches" },
+    { id: "people", label: "👤 Portraits" },
+    { id: "photography", label: "📷 Photography" },
+    { id: "digital-art", label: "✨ Digital Art" },
+    { id: "nature", label: "🌿 Nature" },
+    { id: "webpage", label: "💻 Web & UI" },
+    { id: "youmind", label: "💡 YouMind" },
+    { id: "slides", label: "📊 Slides" },
   ];
 
   // Filtered prompts
@@ -174,14 +174,26 @@ export default function HomePage() {
               <span className="text-emerald-700 font-bold">100% Free Forever</span>
             </div>
 
-            {/* Live Ultra-Powerful AI Models Ticker Badge */}
-            <div className="flex flex-wrap items-center justify-center gap-1.5 text-[11px] font-bold text-slate-700 pt-1">
-              <span className="px-2.5 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">ChatGPT-4o</span>
-              <span className="px-2.5 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200">o3-mini</span>
-              <span className="px-2.5 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">Gemini 2.5 Pro</span>
-              <span className="px-2.5 py-0.5 rounded-md bg-amber-50 text-amber-700 border border-amber-200">Claude 3.7</span>
-              <span className="px-2.5 py-0.5 rounded-md bg-cyan-50 text-cyan-700 border border-cyan-200">DeepSeek R1</span>
-              <span className="px-2.5 py-0.5 rounded-md bg-purple-50 text-purple-700 border border-purple-200">Qwen 2.5 Max</span>
+            {/* Clean Rounded Model Highlights */}
+            <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs font-bold font-outfit">
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                ChatGPT-4o
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                o3-mini
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                Gemini 2.5 Pro
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                Claude 3.7
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                DeepSeek R1
+              </span>
+              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
+                Qwen 2.5 Max
+              </span>
             </div>
 
             <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight font-outfit">
@@ -224,13 +236,17 @@ export default function HomePage() {
                 </button>
               </div>
 
-            {/* Category Filter Chips Bar */}
+            {/* Category Filter Chips Bar - Clean Circular Pill Styling */}
             <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
               {chips.map((chip) => (
                 <button
                   key={chip.id}
                   onClick={() => handleFilterChange(chip.id)}
-                  className={`yt-chip text-[13px] px-3.5 py-1.5 rounded-lg whitespace-nowrap ${selectedFilter === chip.id ? "active" : ""}`}
+                  className={`px-4 py-1.5 rounded-full text-xs font-bold font-outfit whitespace-nowrap transition-all border ${
+                    selectedFilter === chip.id
+                      ? "bg-slate-900 text-white border-slate-900 shadow-sm"
+                      : "bg-white text-slate-700 border-slate-200/80 hover:bg-slate-100 hover:text-slate-900"
+                  }`}
                 >
                   {chip.label}
                 </button>
