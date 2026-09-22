@@ -1,0 +1,582 @@
+[
+  {
+    "id": "youmind-1",
+    "title": "Realistic commercial photoshoot",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/05-realistic-commercial-photoshoot.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Realistic commercial photoshoot'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "45.0K",
+    "likes": "4.2K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-2",
+    "title": "Luxury Travel",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/01-luxury-travel.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create an elite executive slide presentation for 'Luxury Travel'. Design aesthetic: Minimalist typography, high-contrast monochrome with subtle accent color, clean layout grids, bold serif headings, structured bullet points, data visual callouts, and clean slide transitions.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "49.2K",
+    "likes": "4.8K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Slides",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-3",
+    "title": "Creative Cola Ads",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/04-creative-cola-ads-v2.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video prompt for 'Creative Cola Ads': 4K 60fps commercial grade motion, fluid camera rotation, volumetric lighting, photorealistic product/character dynamics, natural motion blur, Hollywood color grading with filmic contrast.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "53.4K",
+    "likes": "5.4K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Video",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-4",
+    "title": "Modern Architect",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/02-modern-architect.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create an elite executive slide presentation for 'Modern Architect'. Design aesthetic: Minimalist typography, high-contrast monochrome with subtle accent color, clean layout grids, bold serif headings, structured bullet points, data visual callouts, and clean slide transitions.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "57.6K",
+    "likes": "6.0K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Slides",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-5",
+    "title": "Minimalist Design Studio",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/02-minimalist-design-studio.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Minimalist Design Studio' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "61.8K",
+    "likes": "6.6K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-6",
+    "title": "Kelin Blue Gallery Pitch",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/06-kelin-blue-gallery-pitch.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create an elite executive slide presentation for 'Kelin Blue Gallery Pitch'. Design aesthetic: Minimalist typography, high-contrast monochrome with subtle accent color, clean layout grids, bold serif headings, structured bullet points, data visual callouts, and clean slide transitions.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "66.0K",
+    "likes": "7.2K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Slides",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-7",
+    "title": "Y2K About Me",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/03-y2k-about-me.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Y2K About Me' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "70.2K",
+    "likes": "7.8K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-8",
+    "title": "Elegant folded-paper cartography",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/06-elegant-folded-paper-cartography.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Elegant folded-paper cartography'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "74.4K",
+    "likes": "8.4K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-9",
+    "title": "Pink-retro Podcaster",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/04-pink-retro-podcaster.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Pink-retro Podcaster' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "78.6K",
+    "likes": "9.0K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-10",
+    "title": "Particle Animation Landing Page",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/01-particle-animation-landing-page.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Particle Animation Landing Page' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "82.8K",
+    "likes": "9.6K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-11",
+    "title": "Desktop Scrapbook",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-01/05-desktop-scrapbook.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Desktop Scrapbook' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "87.0K",
+    "likes": "10.2K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-12",
+    "title": "Welcome to our wedding",
+    "category": "ui",
+    "model": "Claude 3.5 Sonnet",
+    "thumbnail": "https://cdn.gooo.ai/assets/youhome-v1/made-with-youmind/page-02/03-welcome-to-our-wedding.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Build a modern responsive webpage for 'Welcome to our wedding' using Next.js 15, Tailwind CSS, and Framer Motion. Layout includes interactive hero section, feature cards with hover animations, dark/light theme support, and responsive navigation.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "91.2K",
+    "likes": "10.8K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Webpage",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-13",
+    "title": "Bicolor Overprint Effect",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.gooo.ai/gen-images/cd5cb8c6483b7a8f5b4ea5fedd2a6e4dbd88d40caf4bea24490c4e738c70b834.jpg@medium",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Bicolor Overprint Effect'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "95.4K",
+    "likes": "11.4K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-14",
+    "title": "Serif &amp; Void Minimal",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.youmindassets.com/user-files/010e662de85fe731e2c5a894b97be3db2acc4f56f99df943c559dfbddb507cdb@medium",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Serif &amp; Void Minimal'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "99.6K",
+    "likes": "12.0K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-15",
+    "title": "Paper Art Style Video Generator",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://cdn.youmindassets.com/gen-videos/959d0b3f3bea93708e215e0300b08b008e007c0b176c52d4b2d853610c2d06ac",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video prompt for 'Paper Art Style Video Generator': 4K 60fps commercial grade motion, fluid camera rotation, volumetric lighting, photorealistic product/character dynamics, natural motion blur, Hollywood color grading with filmic contrast.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "103.8K",
+    "likes": "12.6K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Video",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-16",
+    "title": "Create Pet Beat-Sync Video",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://cdn.youmindassets.com/gen-videos/895057e5f3d1b0eeab901029058377f9dbab4246aeb87ad81fa2d09722414b2d",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video prompt for 'Create Pet Beat-Sync Video': 4K 60fps commercial grade motion, fluid camera rotation, volumetric lighting, photorealistic product/character dynamics, natural motion blur, Hollywood color grading with filmic contrast.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "108.0K",
+    "likes": "13.2K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Video",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-17",
+    "title": "Light Blue Woodcut Presentation",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.gooo.ai/gen-images/c95ca9094731e18eac2fe58eba3415b93d2b1e4f2a3b973d5d9e19350c9f1737.jpg@medium",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Light Blue Woodcut Presentation'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "112.2K",
+    "likes": "13.8K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-18",
+    "title": "Wes Anderson\u2013Style Poster",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.youmindassets.com/user-files/c82046339e0ceca91cc3afd02c9fe7e66c27a1f261f12b27e65935be2d4e9ac9@medium",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'Wes Anderson\u2013Style Poster'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "116.4K",
+    "likes": "14.4K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-19",
+    "title": "Sculptural Blue Charcoal Illustration",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://cdn.youmindassets.com/gen-videos/1e8543c2c9f429112ae4a655303dae14a363c443b673a7ebea7215b87fa58294",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video prompt for 'Sculptural Blue Charcoal Illustration': 4K 60fps commercial grade motion, fluid camera rotation, volumetric lighting, photorealistic product/character dynamics, natural motion blur, Hollywood color grading with filmic contrast.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "120.6K",
+    "likes": "15.0K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Video",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  {
+    "id": "youmind-20",
+    "title": "The Me in My Bag",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://cdn.youmindassets.com/gen-images/2007551e65f21cb9afc9150368e1671e32eb680981653549def127293c09df50.png@medium",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic masterwork of 'The Me in My Bag'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
+    "views": "124.8K",
+    "likes": "15.6K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Image",
+      "YouMind Studio",
+      "Next-Gen",
+      "Creative"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini",
+      "claude"
+    ]
+  }
+]

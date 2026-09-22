@@ -1,0 +1,452 @@
+[
+  {
+    "id": "prompthome-1",
+    "title": "Fantasy Mythical Worlds: Floating Dragon Citadel",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic aerial camera tracking shot soaring past ancient floating islands in a mystical sunset sky, colossal winged emerald dragon gliding effortlessly through golden volumetric clouds, ancient cascading waterfalls falling into the abyss, epic fantasy orchestra feel, 4k 60fps, photorealistic atmospheric haze.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "115.0K",
+    "likes": "12.1K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Fantasy",
+      "Dragon",
+      "Mythical",
+      "Sora",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-2",
+    "title": "Emotional & Storytelling: Grandfather and Child on Ocean Pier",
+    "category": "video",
+    "model": "Runway Gen-3",
+    "thumbnail": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Intimate slow 35mm film shot of an elderly grandfather teaching his young granddaughter how to cast a vintage fishing line at dusk, gentle ocean breeze fluttering warm woolen coats, golden sunset caustics dancing on the sea foam, tender cinematic warmth, Kodak Vision3 500T 5219 film stock.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "123.4K",
+    "likes": "13.2K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Storytelling",
+      "Emotional",
+      "Cinematic",
+      "Runway Gen-3",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-3",
+    "title": "Time Lapse & Slow Motion: Tokyo Shibuya Crossing Rain Streaks",
+    "category": "video",
+    "model": "Luma Dream",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "High-altitude static timelapse looking down over Shibuya scramble crossing during evening monsoon rain, hundreds of translucent umbrella canopies moving in rapid fluid synchronization, car taillights creating seamless light trails across wet asphalt, 8k hyper-lapse.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "131.8K",
+    "likes": "14.3K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Timelapse",
+      "Tokyo",
+      "Urban",
+      "Luma Dream",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-4",
+    "title": "Lofi Aesthetic AI Videos: Cozy Rainy Window Study Desk",
+    "category": "video",
+    "model": "Kling AI",
+    "thumbnail": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Continuous looping cozy aesthetic shot: Soft rain droplets tapping against a cafe window overlooking foggy neon street lamps, steaming mug of matcha latte on rustic wooden table next to an open notebook and glowing vintage desk lamp, gentle ambient dust particles in warm tungsten light.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "140.2K",
+    "likes": "15.4K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Lofi",
+      "Aesthetic",
+      "Cozy",
+      "Chill",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-5",
+    "title": "Vintage & Retro AI Videos: 1970s California Coastal Highway Ride",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Authentic vintage 1970s Super 8mm camera footage tracking an open-top vintage Mustang cruising along Pacific Coast Highway at magic hour, sun flares leaking into the lens with natural chromatic aberration, warm muted tones, authentic analog film scratches and gate weave.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "148.6K",
+    "likes": "16.5K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Vintage",
+      "Retro",
+      "Super 8",
+      "1970s",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-6",
+    "title": "Drone Footage AI Videos: Iceland Black Sand Beach Glacier Crest",
+    "category": "video",
+    "model": "Veo 2",
+    "thumbnail": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Professional DJI Inspire 3 cinematic aerial dive descending from 500 meters down to skim inches above volcanic black sand beaches in Vik Iceland, crashing turquoise Atlantic waves, dramatic sea stacks shrouded in sea mist, high dynamic range, crisp 4k 60fps.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "157.0K",
+    "likes": "17.6K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Drone",
+      "Aerial",
+      "Iceland",
+      "Veo 2",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-7",
+    "title": "Commercial & Product Ads: Luxury Perfume Atomizer Liquid Explosion",
+    "category": "video",
+    "model": "Runway Gen-3",
+    "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "High-speed phantom flex 1000fps commercial advertisement of an emerald glass perfume bottle, slow-motion golden mist spraying directly towards camera, micro liquid beads catching intense studio rim lighting, pristine caustic refractions, luxury brand aesthetic.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "165.4K",
+    "likes": "18.7K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Product",
+      "Perfume",
+      "Slow Motion",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-8",
+    "title": "Gaming & RPG Style: Cybernetic Samurai Katana Duel in Neo-Seoul",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Unreal Engine 5 cinematic trailer sequence: Two cybernetic warriors clashing electrified plasma blades in a rain-soaked neon alleyway, sparks flying in slow-motion, dynamic motion blur, high-octane anime camera spin, 4k 60fps photorealistic rendering.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "173.8K",
+    "likes": "19.8K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Gaming",
+      "RPG",
+      "Cyberpunk",
+      "Samurai",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-9",
+    "title": "Horror & Dark Atmosphere: Victorian Mansion Candlelit Hallway",
+    "category": "video",
+    "model": "Kling AI",
+    "thumbnail": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Slow, suspenseful first-person Steadicam walking down an ornate, decaying Victorian hallway lined with dusty oil portraits whose eyes subtly shift, heavy volumetric fog rolling along floorboards, candle flames flickering violently in the draft, chilling Gothic horror atmosphere.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "182.2K",
+    "likes": "20.9K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Horror",
+      "Gothic",
+      "Suspense",
+      "Dark",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-10",
+    "title": "Surreal & Abstract Art: Liquid Chrome Metamorphosis in Zero-G",
+    "category": "video",
+    "model": "Luma Dream",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Surreal hypnotic 3D animation of a floating orb of liquid mirror chrome that morphs smoothly into abstract organic ribbons and anatomical flowers, reflecting kaleidoscopic neon studio lights, zero-gravity physics, seamless loop.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "190.6K",
+    "likes": "22.0K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Surreal",
+      "Abstract",
+      "Liquid Chrome",
+      "3D",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-11",
+    "title": "Motion Graphics & VFX: Cosmic Energy Portal Opening in Forest",
+    "category": "video",
+    "model": "Runway Gen-3",
+    "thumbnail": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "VFX shot filmed on Arri Alexa: A swirling circular portal of iridescent purple quantum energy tears open between redwood trees, ambient dust and leaves defying gravity and flying upwards into the vortex, cinematic lighting interaction on foliage.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "199.0K",
+    "likes": "23.1K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "VFX",
+      "Portal",
+      "Motion Graphics",
+      "Sci-Fi",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-12",
+    "title": "Fashion & Lifestyle: Haute Couture Runway Walk in Milan",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Vogue runway broadcast 4k: An elegant high-fashion model gliding down a minimalist white catwalk in a flowing pleated holographic dress that shifts color with every step, flashbulbs popping in background, crisp telephoto camera tracking, haute couture poise.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "207.4K",
+    "likes": "24.2K",
+    "timestamp": "4 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Fashion",
+      "Runway",
+      "Lifestyle",
+      "Vogue",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-13",
+    "title": "Anime & Manga AI Videos: Studio Ghibli Meadow Wind Gust",
+    "category": "video",
+    "model": "Kling AI",
+    "thumbnail": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Authentic 2D Studio Ghibli style anime animation: A gentle summer wind sweeps across a rolling green hillside dotted with wildflowers, fluffy cumulus clouds drifting lazily across vibrant blue skies, hand-painted watercolor textures, heartwarming nostalgic pacing.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "215.8K",
+    "likes": "25.3K",
+    "timestamp": "1 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Anime",
+      "Studio Ghibli",
+      "Manga",
+      "Animation",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-14",
+    "title": "AI Talking Avatar & Presenters: Photorealistic AI Tech Keynote",
+    "category": "video",
+    "model": "Veo 2",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic AI presenter delivering an executive keynote speech on an illuminated glass stage, natural micro-facial expressions, perfect lip sync, warm engaging eye contact, professional broadcast studio lighting, 4k 60fps.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "224.2K",
+    "likes": "26.4K",
+    "timestamp": "2 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Presenter",
+      "Avatar",
+      "Keynote",
+      "Corporate",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "prompthome-15",
+    "title": "Cinematic & Hollywood Thriller: Rainy City Car Chase Interception",
+    "category": "video",
+    "model": "Sora",
+    "thumbnail": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "High-octane Hollywood chase sequence: Low-slung camera tracking alongside two muscle cars screeching around a rain-slicked city corner, tire spray catching street lamp glare, explosive action cinematography, authentic motion blur, Hans Zimmer style intensity.",
+    "negativePrompt": "blurry, low frame rate, glitchy, unnatural jitter, deformed anatomy, low resolution",
+    "views": "232.6K",
+    "likes": "27.5K",
+    "timestamp": "3 days ago",
+    "creator": {
+      "name": "2Prompt Creator",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Thriller",
+      "Action",
+      "Hollywood",
+      "Car Chase",
+      "ThePromptHome",
+      "Cinematic AI"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  }
+]

@@ -1,69 +1,425 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import React, { useState, useMemo } from "react";
+import { Navbar } from "@/components/Navbar";
+import { Sidebar } from "@/components/Sidebar";
+import { PromptCard } from "@/components/PromptCard";
+import { DetailModal } from "@/components/DetailModal";
+import { PromptGeneratorStudio } from "@/components/PromptGeneratorStudio";
+import { CharactersGallery } from "@/components/CharactersGallery";
+import { BlogsAndFaqSection } from "@/components/BlogsAndFaqSection";
+import { BacklinkDirectorySection } from "@/components/BacklinkDirectorySection";
+import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
+import { Dices } from "lucide-react";
+import confetti from "canvas-confetti";
+
+const PAGE_SIZE = 16;
+
+export default function HomePage() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [currentTab, setCurrentTab] = useState<"gallery" | "generator" | "characters">("gallery");
+  const [selectedFilter, setSelectedFilter] = useState<string>("image");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [activeModalItem, setActiveModalItem] = useState<PromptItem | null>(null);
+  const [displayCount, setDisplayCount] = useState<number>(PAGE_SIZE);
+
+  // Clean, focused category chips without messy 'All'
+  const chips = [
+    { id: "image", label: "🖼️ Image Prompts" },
+    { id: "characters-tab", label: "👤 AI Characters" },
+    { id: "couple-poses", label: "👩‍❤️‍👨 Couple Poses" },
+    { id: "banana", label: "🍌 Banana Prompts" },
+    { id: "video", label: "🎥 Video Prompts (Sora / Kling)" },
+    { id: "flux", label: "⚡ Flux 1.1 Pro" },
+    { id: "midjourney", label: "🎨 Midjourney" },
+    { id: "people", label: "👤 Portraits & People" },
+    { id: "photography", label: "📷 Photography & Macro" },
+    { id: "digital-art", label: "✨ Digital Art & 3D" },
+    { id: "nature", label: "🌿 Nature & Animals" },
+    { id: "webpage", label: "💻 Web & UI Prompts" },
+    { id: "youmind", label: "💡 YouMind Studio" },
+    { id: "slides", label: "📊 Slides & Pitches" },
+  ];
+
+  // Filtered prompts
+  const filteredPrompts = useMemo(() => {
+    return SAMPLE_PROMPTS.filter((item) => {
+      let matchesCategory = true;
+      if (selectedFilter === "couple-poses") {
+        matchesCategory = item.category === "image" && (
+          item.tags.some(t => t.toLowerCase().includes("couple")) ||
+          item.title.toLowerCase().includes("couple") ||
+          item.prompt.toLowerCase().includes("couple") ||
+          item.prompt.toLowerCase().includes("bride and groom") ||
+          item.prompt.toLowerCase().includes("husband and wife") ||
+          item.prompt.toLowerCase().includes("embracing")
+        );
+      } else if (selectedFilter === "banana") {
+        matchesCategory = item.tags.includes("BananaPrompts") || item.creator.name === "BananaPrompts";
+      } else if (selectedFilter === "image") {
+        matchesCategory = item.category === "image";
+      } else if (selectedFilter === "video") {
+        matchesCategory = item.category === "video";
+      } else if (selectedFilter === "youmind") {
+        matchesCategory = item.tags.some(t => t.toLowerCase().includes("youmind"));
+      } else if (selectedFilter === "slides") {
+        matchesCategory = item.tags.some(t => t.toLowerCase().includes("slides")) || item.title.toLowerCase().includes("pitch") || item.title.toLowerCase().includes("presentation");
+      } else if (selectedFilter === "webpage") {
+        matchesCategory = item.category === "ui" || item.tags.some(t => t.toLowerCase().includes("webpage"));
+      } else if (selectedFilter === "people") {
+        matchesCategory = item.category === "image" && (
+          item.tags.some(t => ["woman", "man", "portrait", "people", "girl"].some(k => t.toLowerCase().includes(k))) ||
+          item.title.toLowerCase().includes("man") || item.title.toLowerCase().includes("woman")
+        );
+      } else if (selectedFilter === "photography") {
+        matchesCategory = item.category === "image" && (
+          item.tags.some(t => ["macro", "shot", "photography", "close"].some(k => t.toLowerCase().includes(k))) ||
+          item.prompt.toLowerCase().includes("photography")
+        );
+      } else if (selectedFilter === "digital-art") {
+        matchesCategory = item.category === "image" && item.tags.some(t => ["art", "digital", "illustration", "doll"].some(k => t.toLowerCase().includes(k)));
+      } else if (selectedFilter === "nature") {
+        matchesCategory = item.category === "image" && item.tags.some(t => ["nature", "mountain", "forest", "rabbit", "cat"].some(k => t.toLowerCase().includes(k)));
+      } else if (selectedFilter === "flux") {
+        matchesCategory = item.category === "image" && item.model.toLowerCase().includes("flux");
+      } else if (selectedFilter === "midjourney") {
+        matchesCategory = item.category === "image" && item.model.toLowerCase().includes("midjourney");
+      }
+
+      const matchesSearch =
+        !searchQuery ||
+        item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.prompt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.tags.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase())) ||
+        item.model.toLowerCase().includes(searchQuery.toLowerCase());
+
+      return matchesCategory && matchesSearch;
+    });
+  }, [selectedFilter, searchQuery]);
+
+  // Infinite/Fast Paginated slice for instant 60fps scrolling
+  const visiblePrompts = useMemo(() => {
+    return filteredPrompts.slice(0, displayCount);
+  }, [filteredPrompts, displayCount]);
+
+  const handleFilterChange = (filterId: string) => {
+    if (filterId === "characters-tab") {
+      setCurrentTab("characters");
+      return;
+    }
+    if (currentTab !== "gallery") {
+      setCurrentTab("gallery");
+    }
+    setSelectedFilter(filterId);
+    setDisplayCount(PAGE_SIZE);
+  };
+
+  const handleLoadMore = () => {
+    setDisplayCount((prev) => prev + PAGE_SIZE);
+  };
+
+  const handleRandomPrompt = () => {
+    if (SAMPLE_PROMPTS.length === 0) return;
+    const randomIndex = Math.floor(Math.random() * SAMPLE_PROMPTS.length);
+    const randomItem = SAMPLE_PROMPTS[randomIndex];
+    setActiveModalItem(randomItem);
+    confetti({
+      particleCount: 40,
+      spread: 60,
+      origin: { y: 0.6 },
+      colors: ["#a855f7", "#3b82f6", "#ec4899"]
+    });
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <div className="min-h-screen bg-[#f8fafc] text-slate-900 flex flex-col font-sans selection:bg-black selection:text-white">
+      {/* 1. Official Clean Topbar */}
+      <Navbar
+        onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
+        searchQuery={searchQuery}
+        setSearchQuery={(q) => {
+          setSearchQuery(q);
+          setDisplayCount(PAGE_SIZE);
+        }}
+        onOpenGenerator={() => setCurrentTab("generator")}
+        onGoHome={() => {
+          setCurrentTab("gallery");
+          setSelectedFilter("all");
+          setSearchQuery("");
+          setDisplayCount(PAGE_SIZE);
+        }}
+      />
+
+      {/* Main Body */}
+      <div className="flex flex-1 relative">
+        <Sidebar
+          currentTab={currentTab}
+          setCurrentTab={(tab) => setCurrentTab(tab as any)}
+          selectedFilter={selectedFilter}
+          setSelectedFilter={handleFilterChange}
+          isOpen={sidebarOpen}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+
+        {/* Main Feed: Generator Box at Top + Content Below */}
+        <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
+          {/* Top Gemini-Style White Pill Command Bar */}
+          <section className="mb-10 w-full flex justify-center">
+            <PromptGeneratorStudio compact={true} />
+          </section>
+
+          {currentTab === "characters" ? (
+            <CharactersGallery />
+          ) : (
+            /* Prompt Gallery Section */
+            <div className="space-y-6">
+              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+                <div className="flex items-center gap-2.5">
+                  <h2 className="text-base sm:text-xl font-extrabold text-slate-900 tracking-tight">
+                    {selectedFilter === "video" ? "🎥 Video Prompts Library" : "🖼️ Curated Prompt Gallery"}
+                  </h2>
+                  <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-200 text-slate-700 font-mono text-[11px] font-semibold">
+                    {filteredPrompts.length} Prompts
+                  </span>
+                </div>
+
+                {/* Surprise Me / Random Prompt Button */}
+                <button
+                  onClick={handleRandomPrompt}
+                  title="Discover a random master prompt"
+                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white text-xs font-bold shadow-sm hover:shadow-md transition active:scale-95 cursor-pointer"
+                >
+                  <Dices className="w-4 h-4 animate-spin-slow" />
+                  <span className="hidden sm:inline">Surprise Me</span>
+                  <span className="sm:hidden">Random</span>
+                </button>
+              </div>
+
+            {/* Category Filter Chips Bar */}
+            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+              {chips.map((chip) => (
+                <button
+                  key={chip.id}
+                  onClick={() => handleFilterChange(chip.id)}
+                  className={`yt-chip text-[13px] px-3.5 py-1.5 rounded-lg whitespace-nowrap ${selectedFilter === chip.id ? "active" : ""}`}
+                >
+                  {chip.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Grid of Cards (Responsive YouTube 4 Columns) - Instant Fast Render */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-x-4 gap-y-9">
+              {visiblePrompts.map((item) => (
+                <PromptCard
+                  key={item.id}
+                  item={item}
+                  onOpenDetail={(selected) => setActiveModalItem(selected)}
+                />
+              ))}
+            </div>
+
+              {/* Superfast "Load More" / Infinite button */}
+              {visiblePrompts.length < filteredPrompts.length && (
+                <div className="flex justify-center pt-6 pb-12">
+                  <button
+                    onClick={handleLoadMore}
+                    className="px-6 py-2.5 rounded-full bg-[#272727] hover:bg-[#3f3f3f] text-white text-sm font-semibold transition active:scale-95 shadow-md flex items-center gap-2"
+                  >
+                    <span>Load More Prompts</span>
+                    <span className="text-xs text-[#aaaaaa]">({visiblePrompts.length} of {filteredPrompts.length})</span>
+                  </button>
+                </div>
+              )}
+
+              {filteredPrompts.length === 0 && (
+                <div className="py-24 text-center space-y-3">
+                  <h3 className="text-base font-medium text-slate-800">No matching prompts found</h3>
+                  <p className="text-xs text-slate-500">
+                    Try different keywords or select another category.
+                  </p>
+                  <button
+                    onClick={() => {
+                      setSelectedFilter("image");
+                      setSearchQuery("");
+                      setDisplayCount(PAGE_SIZE);
+                    }}
+                    className="mt-2 px-4 py-2 rounded-full bg-slate-900 text-white text-xs font-medium hover:bg-slate-800 transition"
+                  >
+                    Reset to Image Prompts
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs (Hidden from casual glance, reached only at very bottom scroll) */}
+          <BlogsAndFaqSection />
+
+          {/* Semantic SEO Crawl & Backlink Footer */}
+          <footer className="mt-16 pt-10 pb-8 border-t border-slate-200 text-slate-600 space-y-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+              <div className="space-y-3">
+                <h3 className="font-bold text-slate-900">2Prompt Gen</h3>
+                <p className="text-xs leading-relaxed text-slate-500">
+                  The world&apos;s fastest, 100% free AI prompt generator & AI character library. Empowering creators with high-fidelity Midjourney, Flux 1.1, and Sora prompts.
+                </p>
+                <div className="text-[11px] text-slate-400">
+                  © {new Date().getFullYear()} 2Prompt Gen. All rights reserved.
+                </div>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Top AI Categories</h4>
+                <ul className="space-y-1.5 text-xs">
+                  <li>
+                    <button onClick={() => handleFilterChange("couple-poses")} className="hover:text-purple-600 text-left">
+                      👩‍❤️‍👨 Couple Poses Prompts (85+ Prompts)
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("banana")} className="hover:text-purple-600 text-left">
+                      🍌 BananaPrompts Master Collection
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("characters-tab")} className="hover:text-purple-600 text-left">
+                      👤 Free AI Characters & Avatars
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("flux")} className="hover:text-purple-600 text-left">
+                      ⚡ Flux 1.1 Pro Photorealism
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("video")} className="hover:text-purple-600 text-left">
+                      🎥 Sora & Kling 4K Video Prompts
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Supported AI Engines</h4>
+                <ul className="space-y-1.5 text-xs text-slate-500">
+                  <li>• OpenAI ChatGPT & Sora</li>
+                  <li>• Google Gemini 2.5 Flash</li>
+                  <li>• Midjourney v6.1 Photorealistic</li>
+                  <li>• Black Forest Labs Flux 1.1 Pro</li>
+                  <li>• Anthropic Claude 3.5 Sonnet</li>
+                  <li>• DeepSeek AI & Groq Llama 3</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why 2Prompt Gen?</h4>
+                <p className="text-xs leading-relaxed text-slate-500">
+                  Unlike platforms with strict paywalls and login barriers, 2Prompt Gen provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
+                </p>
+              </div>
+            </div>
+
+            {/* Google Ranking SEO Content & Keyword Cloud */}
+            <div className="pt-8 border-t border-slate-200 text-xs text-slate-500 space-y-4 leading-relaxed">
+              <h4 className="font-bold text-slate-800 text-sm">
+                100% Free & Unlimited AI Prompt Generator – Top AI Models (ChatGPT-4o, Claude 3.5, Gemini 2.5, DeepSeek, Flux & Sora)
+              </h4>
+              <p>
+                Welcome to <strong>2Prompt Gen</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
+                <div className="bg-white p-4 rounded-xl border border-slate-200">
+                  <h5 className="font-bold text-slate-800 text-xs mb-1">ChatGPT-6 Astra & Claude Opus</h5>
+                  <p className="text-[11px] text-slate-500">
+                    Switch freely between ChatGPT-6 Astra (chatgpt6astra), Claude 3.5 / 3.7 Opus (Cloude Opos), Gemini 2.5, and DeepSeek with 1-click model dropdown. 100% free unlimited prompt synthesis.
+                  </p>
+                </div>
+                <div className="bg-white p-4 rounded-xl border border-slate-200">
+                  <h5 className="font-bold text-slate-800 text-xs mb-1">Unlimited Image & Video</h5>
+                  <p className="text-[11px] text-slate-500">
+                    Engineered for Midjourney v6.1, Flux 1.1 Pro, and Sora 4K video with cinematic camera angles, lens depths, lighting, and negative prompts.
+                  </p>
+                </div>
+                <div className="bg-white p-4 rounded-xl border border-slate-200">
+                  <h5 className="font-bold text-slate-800 text-xs mb-1">Free AI Characters Vault</h5>
+                  <p className="text-[11px] text-slate-500">
+                    A free alternative to Media.io and Character.ai. Save models and cyberpunk avatars to your private collection and download in 8K resolution free.
+                  </p>
+                </div>
+                <div className="bg-white p-4 rounded-xl border border-slate-200">
+                  <h5 className="font-bold text-slate-800 text-xs mb-1">Full Website & UI Prompts</h5>
+                  <p className="text-[11px] text-slate-500">
+                    Generate Tailwind CSS, Next.js, and React dashboard prompts ready to paste directly into Claude Artifacts, v0, or ChatGPT Canvas.
+                  </p>
+                </div>
+              </div>
+
+              {/* High-Intent Keyword Cloud for Indexation */}
+              <div className="pt-4 flex flex-wrap gap-1.5 items-center">
+                <span className="font-bold text-slate-700 text-[11px] mr-1">Trending Searches:</span>
+                {[
+                  "chatgpt6astra", "Claude Opus", "Cloude Opos", "ChatGPT 6 Astra", "Claude 3.5 Opus",
+                  "Prompt Generator", "AI Prompt Generator Free", "Prompt Generator ChatGPT",
+                  "Prompt Generator for Claude", "Prompt Generator for Video", "Prompt Generator RP",
+                  "Prompt Generator Writing", "Prompt Generator from Image", "Prompt Generator AI",
+                  "Midjourney Prompts Copy Paste", "Flux 1.1 Photorealism", "Sora Video Prompts",
+                  "Free AI Characters", "Save AI Characters Free", "Media.io Alternative",
+                  "BananaPrompts Gallery", "Couple Poses Prompts", "Gemini 2.5 Prompts",
+                  "Photorealistic Portraits", "Cyberpunk Avatars", "Cinematic Lighting",
+                  "Prompt Cowboy Alternative", "Feedough AI Alternative", "Quillbot Prompt Generator Alternative"
+                ].map((kw, i) => (
+                  <span key={i} className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-mono hover:text-purple-600 cursor-pointer">
+                    #{kw}
+                  </span>
+                ))}
+              </div>
+
+              {/* People Also Ask (FAQ Section for Organic Rank #1) */}
+              <div className="pt-6 border-t border-slate-200 space-y-3">
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">
+                  Frequently Asked Questions (People Also Ask)
+                </h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[11px]">
+                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
+                    <span className="font-bold text-slate-800">Q: How do I generate prompts from an image or rough idea?</span>
+                    <p className="text-slate-500">
+                      Enter any rough concept into our Gemini-style command bar, select your target model (ChatGPT, Gemini, Claude, DeepSeek), and get a high-performing production prompt with lighting, framing, and aspect ratios.
+                    </p>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
+                    <span className="font-bold text-slate-800">Q: Is 2Prompt Gen free with unlimited generation & no sign-up?</span>
+                    <p className="text-slate-500">
+                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, 2Prompt Gen is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
+                    </p>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
+                    <span className="font-bold text-slate-800">Q: Can I generate video prompts for Sora & Kling?</span>
+                    <p className="text-slate-500">
+                      Yes, our library features a dedicated 4K Video Prompts gallery with camera motions, volumetric lighting, and temporal parameters tailored for Sora, Kling, Runway Gen-3, and Luma Dream Machine.
+                    </p>
+                  </div>
+                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
+                    <span className="font-bold text-slate-800">Q: How can I save and download AI characters?</span>
+                    <p className="text-slate-500">
+                      Click the &quot;AI Characters&quot; tab to explore official Media.io demo models and BananaPrompts characters. Tap &quot;Save Free&quot; to bookmark them privately or click &quot;Download HD&quot; for instant zero-watermark downloads.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Authoritative AI Ecosystem & Competitor Backlink Hub */}
+              <BacklinkDirectorySection />
+            </div>
+          </footer>
+        </main>
+      </div>
+
+      {/* Detail Modal */}
+      <DetailModal
+        item={activeModalItem}
+        onClose={() => setActiveModalItem(null)}
+        onSelectRelated={(item) => setActiveModalItem(item)}
+      />
     </div>
   );
 }
