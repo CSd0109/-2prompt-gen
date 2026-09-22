@@ -157,6 +157,9 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: "-yfvWRXWru-nI88GjH0kbcHvNF1ro1a4jKhqaXXYtUk",
+  },
 };
 
 // Rich Structured Data Schema (JSON-LD) for Google Bot
