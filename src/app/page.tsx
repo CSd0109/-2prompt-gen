@@ -259,12 +259,12 @@ export default function HomePage() {
           <footer className="mt-16 pt-10 pb-8 border-t border-slate-200 text-slate-600 space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
               <div className="space-y-3">
-                <h3 className="font-bold text-slate-900">Prompt Generator</h3>
+                <h3 className="font-bold text-slate-900">AI Prompt Generate</h3>
                 <p className="text-xs leading-relaxed text-slate-500">
                   The world&apos;s fastest, 100% free AI prompt generator & AI character library. Empowering creators with high-fidelity Midjourney, Flux 1.1, and Sora prompts.
                 </p>
                 <div className="text-[11px] text-slate-400">
-                  © {new Date().getFullYear()} Prompt Generator. All rights reserved.
+                  © {new Date().getFullYear()} AI Prompt Generate. All rights reserved.
                 </div>
               </div>
 
@@ -312,9 +312,9 @@ export default function HomePage() {
               </div>
 
               <div className="space-y-2">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why Prompt Generator?</h4>
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why AI Prompt Generate?</h4>
                 <p className="text-xs leading-relaxed text-slate-500">
-                  Unlike platforms with strict paywalls and login barriers, Prompt Generator provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
+                  Unlike platforms with strict paywalls and login barriers, AI Prompt Generate provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
                 </p>
               </div>
             </div>
@@ -322,10 +322,10 @@ export default function HomePage() {
             {/* Google Ranking SEO Content & Keyword Cloud */}
             <div className="pt-8 border-t border-slate-200 text-xs text-slate-500 space-y-4 leading-relaxed">
               <h4 className="font-bold text-slate-800 text-sm">
-                100% Free & Unlimited AI Prompt Generator – Top AI Models (ChatGPT-4o, Claude 3.5, Gemini 2.5, DeepSeek, Flux & Sora)
+                100% Free & Unlimited AI AI Prompt Generate – Top AI Models (ChatGPT-4o, Claude 3.5, Gemini 2.5, DeepSeek, Flux & Sora)
               </h4>
               <p>
-                Welcome to <strong>Prompt Generator</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
+                Welcome to <strong>AI Prompt Generate</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
                 <div className="bg-white p-4 rounded-xl border border-slate-200">
@@ -359,14 +359,14 @@ export default function HomePage() {
                 <span className="font-bold text-slate-700 text-[11px] mr-1">Trending Searches:</span>
                 {[
                   "chatgpt6astra", "Claude Opus", "Cloude Opos", "ChatGPT 6 Astra", "Claude 3.5 Opus",
-                  "Prompt Generator", "AI Prompt Generator Free", "Prompt Generator ChatGPT",
-                  "Prompt Generator for Claude", "Prompt Generator for Video", "Prompt Generator RP",
-                  "Prompt Generator Writing", "Prompt Generator from Image", "Prompt Generator AI",
+                  "AI Prompt Generate", "AI AI Prompt Generate Free", "AI Prompt Generate ChatGPT",
+                  "AI Prompt Generate for Claude", "AI Prompt Generate for Video", "AI Prompt Generate RP",
+                  "AI Prompt Generate Writing", "AI Prompt Generate from Image", "AI Prompt Generate AI",
                   "Midjourney Prompts Copy Paste", "Flux 1.1 Photorealism", "Sora Video Prompts",
                   "Free AI Characters", "Save AI Characters Free", "Media.io Alternative",
                   "BananaPrompts Gallery", "Couple Poses Prompts", "Gemini 2.5 Prompts",
                   "Photorealistic Portraits", "Cyberpunk Avatars", "Cinematic Lighting",
-                  "Prompt Cowboy Alternative", "Feedough AI Alternative", "Quillbot Prompt Generator Alternative"
+                  "Prompt Cowboy Alternative", "Feedough AI Alternative", "Quillbot AI Prompt Generate Alternative"
                 ].map((kw, i) => (
                   <span key={i} className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-mono hover:text-purple-600 cursor-pointer">
                     #{kw}
@@ -400,10 +400,10 @@ export default function HomePage() {
                       Zero Cost Guarantee
                     </div>
                     <h5 className="font-black text-slate-900 text-sm leading-snug">
-                      Is Prompt Generator free with unlimited generation & no sign-up?
+                      Is AI Prompt Generate free with unlimited generation & no sign-up?
                     </h5>
                     <p className="text-slate-600 leading-relaxed font-medium">
-                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, Prompt Generator is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
+                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, AI Prompt Generate is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
                     </p>
                   </div>
 

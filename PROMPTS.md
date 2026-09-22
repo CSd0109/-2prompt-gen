@@ -3,7 +3,7 @@
 A curated cheat sheet of production-grade prompts for **Flux 1.1 Pro**, **Midjourney v6.1**, **OpenAI Sora**, and **Claude 3.5**.
 
 > 💡 **Tip:** To generate customized variations, copy with 1-click, and browse 10,000+ free prompts, visit the official live web application:  
-> 👉 **[https://promptgenerator.xyz](https://promptgenerator.xyz)**
+> 👉 **[https://aipromptgenerate.xyz](https://aipromptgenerate.xyz)**
 
 ---
 
@@ -13,7 +13,7 @@ A curated cheat sheet of production-grade prompts for **Flux 1.1 Pro**, **Midjou
 ```text
 A candid street portrait of an elderly watchmaker in a sun-drenched Zurich workshop, dust particles visible in warm golden volumetric rays, intense focus on wrinkled expressive hands holding micro tweezers, shot on Hasselblad H6D-100c, 80mm lens, f/2.2, photorealistic, natural skin texture, 8k resolution --ar 16:9
 ```
-*Live Generator Link:* [Explore More Flux Prompts on Prompt Generator](https://promptgenerator.xyz/#flux)
+*Live Generator Link:* [Explore More Flux Prompts on AI Prompt Generate](https://aipromptgenerate.xyz/#flux)
 
 ---
 
@@ -23,7 +23,7 @@ A candid street portrait of an elderly watchmaker in a sun-drenched Zurich works
 ```text
 Atmospheric rainy cyberpunk back-alley in neo-Shinjuku, towering holographic advertisements reflecting in wet puddles, subtle rim lighting on a lone cybernetic wanderer with transparent umbrella, moody teal and magenta color grading, cinematic composition, Unreal Engine 5 render style --v 6.1 --ar 21:9 --style raw
 ```
-*Live Generator Link:* [Browse Image Prompts on Prompt Generator](https://promptgenerator.xyz/#image)
+*Live Generator Link:* [Browse Image Prompts on AI Prompt Generate](https://aipromptgenerate.xyz/#image)
 
 ---
 
@@ -33,7 +33,7 @@ Atmospheric rainy cyberpunk back-alley in neo-Shinjuku, towering holographic adv
 ```text
 FPV high-speed drone footage weaving gracefully through a misty pine forest in Norway during autumn sunrise, golden morning mist clinging to orange canopies, camera swoops over a glassy alpine lake with perfect reflections, ultra-smooth stabilization, 60fps, 4k cinematic grading.
 ```
-*Live Generator Link:* [Explore Video Prompts on Prompt Generator](https://promptgenerator.xyz/#video-prompts-sora)
+*Live Generator Link:* [Explore Video Prompts on AI Prompt Generate](https://aipromptgenerate.xyz/#video-prompts-sora)
 
 ---
 
@@ -43,17 +43,17 @@ FPV high-speed drone footage weaving gracefully through a misty pine forest in N
 ```text
 Editorial fashion portrait of a young couple laughing together on a breezy Santorini terrace during golden hour, candid emotional expressions, fluttering linen clothing, warm sun flare hitting hair strands, depth of field, 35mm film grain, vogue editorial aesthetic --ar 4:5
 ```
-*Live Generator Link:* [Browse Couple Poses on Prompt Generator](https://promptgenerator.xyz/#couple-poses)
+*Live Generator Link:* [Browse Couple Poses on AI Prompt Generate](https://aipromptgenerate.xyz/#couple-poses)
 
 ---
 
 ## 👤 5. Free AI Characters & Avatars
 
 Looking for high-fidelity consistent AI characters, Cyberpunk avatars, or corporate headshots?  
-👉 Access the **[Free AI Characters Vault on Prompt Generator](https://promptgenerator.xyz/#characters)** (Zero login, 8K instant download).
+👉 Access the **[Free AI Characters Vault on AI Prompt Generate](https://aipromptgenerate.xyz/#characters)** (Zero login, 8K instant download).
 
 ---
 
 ## 🚀 Full Directory & Continuous Updates
 
-All prompts are updated daily and community verified. Visit **[Prompt Generator](https://promptgenerator.xyz)** to test the live generative studio.
+All prompts are updated daily and community verified. Visit **[AI Prompt Generate](https://aipromptgenerate.xyz)** to test the live generative studio.

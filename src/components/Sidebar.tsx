@@ -50,7 +50,7 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
         >
           <div className="flex items-center gap-3.5">
             <Sparkles className="w-5 h-5 flex-shrink-0 text-amber-500" />
-            <span>Prompt Generator</span>
+            <span>AI Prompt Generate</span>
           </div>
           <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-blue-600 text-white">AI</span>
         </button>
@@ -181,7 +181,7 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
           <span className="text-green-500 font-mono font-bold">● Active 2.0</span>
         </div>
         <p className="text-[11px] text-[#555555] pt-1">
-          Prompt Generator • High Performance
+          AI Prompt Generate • High Performance
         </p>
       </div>
     </aside>

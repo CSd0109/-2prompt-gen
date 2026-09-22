@@ -19,7 +19,7 @@ export function BacklinkDirectorySection() {
             Authoritative AI Directories & Peer Prompt Engines
           </h3>
           <p className="text-xs sm:text-sm font-medium text-slate-500">
-            Explore peer prompt generators, AI foundation models, and top-tier AI indexes partnering with Prompt Generator.
+            Explore peer prompt generators, AI foundation models, and top-tier AI indexes partnering with AI Prompt Generate.
           </p>
         </div>
 
@@ -102,11 +102,11 @@ export function BacklinkDirectorySection() {
             Are you an AI Tool Developer, Prompt Creator or Webmaster?
           </h4>
           <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-2xl leading-relaxed">
-            Exchange high-authority backlinks or feature your prompt directory on Prompt Generator for verified DoFollow SEO synergy and mutual organic search boost.
+            Exchange high-authority backlinks or feature your prompt directory on AI Prompt Generate for verified DoFollow SEO synergy and mutual organic search boost.
           </p>
         </div>
         <a
-          href="mailto:contact@promptgenerator.xyz?subject=Backlink%20Exchange%20Inquiry%20-%20Prompt%20Generator"
+          href="mailto:contact@aipromptgenerate.xyz?subject=Backlink%20Exchange%20Inquiry%20-%20Prompt%20Generator"
           className="relative z-10 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-black text-xs sm:text-sm whitespace-nowrap shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer active:scale-95"
         >
           Submit Backlink / Exchange 🤝

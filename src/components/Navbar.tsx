@@ -35,10 +35,10 @@ export function Navbar({ onToggleSidebar, searchQuery, setSearchQuery, onOpenGen
           </div>
           <div className="flex items-center">
             <span className="text-slate-900 font-black tracking-tight text-lg font-heading">
-              Prompt
+              AIPrompt
             </span>
             <span className="text-blue-600 font-black tracking-tight text-lg font-heading ml-1">
-              Generator
+              Generate
             </span>
             <span className="px-1.5 py-0.5 ml-1.5 rounded-md bg-purple-100 text-purple-700 text-[10px] font-black tracking-wider uppercase font-mono">
               XYZ

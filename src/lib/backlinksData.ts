@@ -61,7 +61,7 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
   },
   {
     title: "Official AI Foundation Engines",
-    description: "Official generative image, video, and LLM reasoning engines supported by Prompt Generator",
+    description: "Official generative image, video, and LLM reasoning engines supported by AI Prompt Generate",
     links: [
       {
         name: "OpenAI ChatGPT & Sora",

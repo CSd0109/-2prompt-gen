@@ -288,7 +288,7 @@ export function BlogsAndFaqSection() {
             <div className="text-sm text-slate-700 leading-relaxed space-y-4">
               <p>{selectedBlogModal.content}</p>
               <p>
-                As part of our commitment to democratizing advanced visual synthesis, Prompt Generator provides verified prompt patterns to millions of artists with zero paywalls. This ensures maximum prompt fidelity, consistent lighting rigs, and zero token corruption across all generative platforms.
+                As part of our commitment to democratizing advanced visual synthesis, AI Prompt Generate provides verified prompt patterns to millions of artists with zero paywalls. This ensures maximum prompt fidelity, consistent lighting rigs, and zero token corruption across all generative platforms.
               </p>
             </div>
           </div>
