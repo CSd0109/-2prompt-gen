@@ -19,13 +19,13 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://2promptgen.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://promptgenerator.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "2Prompt Gen – 100% Free Unlimited AI Prompt Generator (ChatGPT-6 Astra, Claude Opus, Gemini 2.5, Flux, Sora)",
-    template: "%s | 2Prompt Gen",
+    default: "Prompt Generator – 100% Free Unlimited AI Prompt Generator (ChatGPT-6 Astra, Claude Opus, Gemini 2.5, Flux, Sora)",
+    template: "%s | Prompt Generator",
   },
   description:
     "100% Free & Unlimited AI Prompt Generator powered by next-gen AI giants: ChatGPT-6 Astra (chatgpt6astra), Claude 3.5 / 3.7 Opus (Cloude Opos), Google Gemini 2.5 Flash, DeepSeek-V3, Flux 1.1 Pro & Sora. Generate unlimited Image, Video, and Website UI prompts with zero login, no sign-up, and zero paywalls.",
@@ -107,9 +107,9 @@ export const metadata: Metadata = {
     "Groq fast prompt generation",
     "Kimi Moonshot AI prompts",
   ],
-  authors: [{ name: "2Prompt Gen Team", url: siteUrl }],
-  creator: "2Prompt Gen",
-  publisher: "2Prompt Gen",
+  authors: [{ name: "Prompt Generator Team", url: siteUrl }],
+  creator: "Prompt Generator",
+  publisher: "Prompt Generator",
   formatDetection: {
     email: false,
     address: false,
@@ -119,11 +119,11 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "2Prompt Gen – 100% Free Unlimited AI Prompt Generator & Top AI Models",
+    title: "Prompt Generator – 100% Free Unlimited AI Prompt Generator & Top AI Models",
     description:
       "Generate unlimited production-ready prompts with top AI models (ChatGPT, Claude 3.5 Sonnet, Gemini 2.5 Flash, DeepSeek, Flux, Sora). 100% free, zero login, zero credit limits.",
     url: siteUrl,
-    siteName: "2Prompt Gen",
+    siteName: "Prompt Generator",
     locale: "en_US",
     type: "website",
     images: [
@@ -131,13 +131,13 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "2Prompt Gen AI Prompts & Characters Gallery",
+        alt: "Prompt Generator AI Prompts & Characters Gallery",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "2Prompt Gen – 100% Free Unlimited AI Prompt Generator Hub",
+    title: "Prompt Generator – 100% Free Unlimited AI Prompt Generator Hub",
     description:
       "Top AI Models: ChatGPT, Claude, Gemini, DeepSeek, Flux 1.1 Pro & Sora. 100% free unlimited prompt generation with zero login.",
     images: ["https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80"],
@@ -163,7 +163,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       "url": siteUrl,
-      "name": "2Prompt Gen",
+      "name": "Prompt Generator",
       "description": "World's Best Free AI Prompts & Characters Generator Hub",
       "potentialAction": {
         "@type": "SearchAction",
@@ -174,7 +174,7 @@ const jsonLd = {
     {
       "@type": "SoftwareApplication",
       "@id": `${siteUrl}/#app`,
-      "name": "2Prompt Gen AI Studio",
+      "name": "Prompt Generator AI Studio",
       "applicationCategory": "DesignApplication",
       "operatingSystem": "All",
       "offers": {
@@ -199,10 +199,10 @@ const jsonLd = {
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is 2Prompt Gen 100% free and unlimited for ChatGPT, Claude, and Gemini?",
+          "name": "Is Prompt Generator 100% free and unlimited for ChatGPT, Claude, and Gemini?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, 2Prompt Gen provides 100% free, unlimited prompt generation across top AI models including ChatGPT-4o, Claude 3.5 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Flux 1.1 Pro, and Sora with zero credit caps, no subscription fees, and no sign-up required."
+            "text": "Yes, Prompt Generator provides 100% free, unlimited prompt generation across top AI models including ChatGPT-4o, Claude 3.5 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Flux 1.1 Pro, and Sora with zero credit caps, no subscription fees, and no sign-up required."
           }
         },
         {
@@ -215,7 +215,7 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          "name": "Which top AI models are available in the 2Prompt Gen studio?",
+          "name": "Which top AI models are available in the Prompt Generator studio?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "You can select and run prompts directly with ChatGPT-4o, Claude 3.5 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Groq Llama 3.3, and Kimi Moonshot AI."
@@ -223,10 +223,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          "name": "How does 2Prompt Gen compare to Media.io and BananaPrompts?",
+          "name": "How does Prompt Generator compare to Media.io and BananaPrompts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Unlike Media.io which requires paid credits and mandatory login to save or apply characters, 2Prompt Gen provides 100% free instant saves, free HD downloads, and includes all BananaPrompts gallery items verified 1-to-1."
+            "text": "Unlike Media.io which requires paid credits and mandatory login to save or apply characters, Prompt Generator provides 100% free instant saves, free HD downloads, and includes all BananaPrompts gallery items verified 1-to-1."
           }
         },
         {
@@ -234,7 +234,7 @@ const jsonLd = {
           "name": "How do I generate prompts from an image or rough idea?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Simply enter your basic concept or theme into the 2Prompt Gen command box, choose your target AI model (ChatGPT, Gemini, Claude, DeepSeek, or Flux), and our prompt engineering system will craft an expansive, production-grade prompt with camera angles, lighting, and negative prompts."
+            "text": "Simply enter your basic concept or theme into the Prompt Generator command box, choose your target AI model (ChatGPT, Gemini, Claude, DeepSeek, or Flux), and our prompt engineering system will craft an expansive, production-grade prompt with camera angles, lighting, and negative prompts."
           }
         },
         {
@@ -242,7 +242,7 @@ const jsonLd = {
           "name": "What is the best AI prompt generator for ChatGPT, Claude, and Midjourney?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2Prompt Gen is considered one of the top AI prompt generators because it provides model-specific prompting for ChatGPT, Midjourney v6.1, Flux 1.1 Pro, and Claude, complete with a verified 1,200+ prompt gallery and 100% free access without sign-up."
+            "text": "Prompt Generator is considered one of the top AI prompt generators because it provides model-specific prompting for ChatGPT, Midjourney v6.1, Flux 1.1 Pro, and Claude, complete with a verified 1,200+ prompt gallery and 100% free access without sign-up."
           }
         },
         {
@@ -250,7 +250,7 @@ const jsonLd = {
           "name": "Can I use these prompts for commercial AI art generation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, all curated prompts provided in 2Prompt Gen are free to copy, modify, and use in commercial projects across Midjourney, Flux, DALL-E, Sora, and other generative AI platforms."
+            "text": "Yes, all curated prompts provided in Prompt Generator are free to copy, modify, and use in commercial projects across Midjourney, Flux, DALL-E, Sora, and other generative AI platforms."
           }
         }
       ]

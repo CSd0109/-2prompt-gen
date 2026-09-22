@@ -259,12 +259,12 @@ export default function HomePage() {
           <footer className="mt-16 pt-10 pb-8 border-t border-slate-200 text-slate-600 space-y-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
               <div className="space-y-3">
-                <h3 className="font-bold text-slate-900">2Prompt Gen</h3>
+                <h3 className="font-bold text-slate-900">Prompt Generator</h3>
                 <p className="text-xs leading-relaxed text-slate-500">
                   The world&apos;s fastest, 100% free AI prompt generator & AI character library. Empowering creators with high-fidelity Midjourney, Flux 1.1, and Sora prompts.
                 </p>
                 <div className="text-[11px] text-slate-400">
-                  © {new Date().getFullYear()} 2Prompt Gen. All rights reserved.
+                  © {new Date().getFullYear()} Prompt Generator. All rights reserved.
                 </div>
               </div>
 
@@ -312,9 +312,9 @@ export default function HomePage() {
               </div>
 
               <div className="space-y-2">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why 2Prompt Gen?</h4>
+                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why Prompt Generator?</h4>
                 <p className="text-xs leading-relaxed text-slate-500">
-                  Unlike platforms with strict paywalls and login barriers, 2Prompt Gen provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
+                  Unlike platforms with strict paywalls and login barriers, Prompt Generator provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
                 </p>
               </div>
             </div>
@@ -325,7 +325,7 @@ export default function HomePage() {
                 100% Free & Unlimited AI Prompt Generator – Top AI Models (ChatGPT-4o, Claude 3.5, Gemini 2.5, DeepSeek, Flux & Sora)
               </h4>
               <p>
-                Welcome to <strong>2Prompt Gen</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
+                Welcome to <strong>Prompt Generator</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
                 <div className="bg-white p-4 rounded-xl border border-slate-200">
@@ -387,9 +387,9 @@ export default function HomePage() {
                     </p>
                   </div>
                   <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
-                    <span className="font-bold text-slate-800">Q: Is 2Prompt Gen free with unlimited generation & no sign-up?</span>
+                    <span className="font-bold text-slate-800">Q: Is Prompt Generator free with unlimited generation & no sign-up?</span>
                     <p className="text-slate-500">
-                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, 2Prompt Gen is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
+                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, Prompt Generator is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
                     </p>
                   </div>
                   <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">

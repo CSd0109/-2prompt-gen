@@ -1,11 +1,11 @@
-# 2Prompt Gen - Free AI Prompt Generator & AI Characters Vault 🚀
+# Prompt Generator - Free AI Prompt Generator & AI Characters Vault 🚀
 
-[![Website](https://img.shields.io/badge/Website-2promptgen.com-blue?style=for-the-badge&logo=google-chrome)](https://2promptgen.com)
+[![Website](https://img.shields.io/badge/Website-promptgenerator.xyz-blue?style=for-the-badge&logo=google-chrome)](https://promptgenerator.xyz)
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-38bdf8?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-> **Official Live App:** [https://2promptgen.com](https://2promptgen.com)  
+> **Official Live App:** [https://promptgenerator.xyz](https://promptgenerator.xyz)  
 > The world's fastest, 100% free and unlimited AI prompt generator, AI characters vault, and prompt discovery engine.
 
 ---
@@ -23,11 +23,11 @@
 
 ## 🔗 Live Links & Ecosystem
 
-- **Live Application:** [2promptgen.com](https://2promptgen.com)
-- **Image Prompts Directory:** [https://2promptgen.com/#image](https://2promptgen.com/#image)
-- **AI Characters Vault:** [https://2promptgen.com/#characters](https://2promptgen.com/#characters)
-- **Couple Poses Prompts:** [https://2promptgen.com/#couple-poses](https://2promptgen.com/#couple-poses)
-- **Flux 1.1 Pro Gallery:** [https://2promptgen.com/#flux](https://2promptgen.com/#flux)
+- **Live Application:** [promptgenerator.xyz](https://promptgenerator.xyz)
+- **Image Prompts Directory:** [https://promptgenerator.xyz/#image](https://promptgenerator.xyz/#image)
+- **AI Characters Vault:** [https://promptgenerator.xyz/#characters](https://promptgenerator.xyz/#characters)
+- **Couple Poses Prompts:** [https://promptgenerator.xyz/#couple-poses](https://promptgenerator.xyz/#couple-poses)
+- **Flux 1.1 Pro Gallery:** [https://promptgenerator.xyz/#flux](https://promptgenerator.xyz/#flux)
 
 ---
 
@@ -47,10 +47,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/2prompt-gen.git
+git clone https://github.com/YOUR_USERNAME/promptgenerator.git
 
 # Navigate to the project directory
-cd 2prompt-gen
+cd promptgenerator
 
 # Install dependencies
 npm install
@@ -66,7 +66,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 🤝 SEO & Backlink Partnerships
 
 Interested in exchanging high-authority AI tool backlinks or featuring your prompt library?  
-Visit [2Prompt Gen Partner Section](https://2promptgen.com) or reach out at `contact@2promptgen.com`.
+Visit [Prompt Generator Partner Section](https://promptgenerator.xyz) or reach out at `contact@promptgenerator.xyz`.
 
 ---
 

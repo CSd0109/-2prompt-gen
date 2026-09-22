@@ -1,4 +1,4 @@
-# Contributing to 2Prompt Gen 🤝
+# Contributing to Prompt Generator 🤝
 
 We love contributions from the generative AI, prompt engineering, and open-source community!
 
@@ -6,14 +6,14 @@ We love contributions from the generative AI, prompt engineering, and open-sourc
 
 1. **Submit New Prompts:**
    - Share high-converting prompts for Midjourney, Flux 1.1, Sora, Kling, or ChatGPT.
-   - Test them on our live platform at [2Prompt Gen](https://2promptgen.com).
+   - Test them on our live platform at [Prompt Generator](https://promptgenerator.xyz).
 
 2. **Add Categories & Features:**
    - Open a pull request or file an issue to suggest new prompt categories (e.g. 3D Icons, Architecture, UI Design).
 
 3. **Link Exchange & AI Partnerships:**
    - If you run an AI tool, directory, or generative art blog, we welcome backlink partnerships.
-   - Contact us via our partner portal at [https://2promptgen.com](https://2promptgen.com) or reach out via email.
+   - Contact us via our partner portal at [https://promptgenerator.xyz](https://promptgenerator.xyz) or reach out via email.
 
 ---
 

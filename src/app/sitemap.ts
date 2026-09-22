@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://2promptgen.com";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://promptgenerator.xyz";
   const now = new Date();
 
   return [

@@ -181,7 +181,7 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
           <span className="text-green-500 font-mono font-bold">● Active 2.0</span>
         </div>
         <p className="text-[11px] text-[#555555] pt-1">
-          2Prompt Gen • High Performance
+          Prompt Generator • High Performance
         </p>
       </div>
     </aside>
