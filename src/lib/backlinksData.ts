@@ -56,6 +56,13 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
         description: "Curated aesthetic & high-converting image generation prompt gallery.",
         badge: "Partner",
         rel: "noopener noreferrer"
+      },
+      {
+        name: "Replit AI Hub",
+        url: "https://ai-prompt-generate-backlink-hub--sunildhital977.replit.app",
+        description: "Cloud-hosted high performance developer portal & prompt generator mirror.",
+        badge: "Replit Cloud",
+        rel: "noopener noreferrer"
       }
     ]
   },
