@@ -164,26 +164,31 @@ export default function HomePage() {
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
           {/* Top Headline H1 with Semantic Hierarchy & 90% ChatGPT/Google Gemini Keywords */}
           <div className="text-center pt-2 pb-6 max-w-4xl mx-auto space-y-2.5">
-            {/* Live Ultra-Powerful AI Models Ticker Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-purple-50 via-blue-50 to-emerald-50 border border-slate-300 text-slate-800 text-[11px] font-bold shadow-xs">
-              <span className="flex h-2 w-2 relative">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+            {/* World's Top #1 Free AI Platform Crown Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-blue-500/10 border-2 border-amber-400/60 text-slate-900 text-xs font-black shadow-xs">
+              <span className="text-sm">👑</span>
+              <span className="bg-gradient-to-r from-amber-600 via-purple-700 to-blue-600 bg-clip-text text-transparent uppercase tracking-wider font-extrabold">
+                #1 Top Free AI Website in the World
               </span>
-              <span>Ultra-Powerful AI Models Live:</span>
-              <span className="text-purple-700 font-extrabold">ChatGPT-4o</span> •
-              <span className="text-blue-700 font-extrabold">o3-mini</span> •
-              <span className="text-indigo-700 font-extrabold">Gemini 2.5 Pro</span> •
-              <span className="text-amber-700 font-extrabold">Claude 3.7</span> •
-              <span className="text-cyan-700 font-extrabold">DeepSeek R1</span> •
-              <span className="text-sky-700 font-extrabold">Qwen 2.5</span>
+              <span className="text-slate-400">•</span>
+              <span className="text-emerald-700 font-bold">100% Free Forever</span>
+            </div>
+
+            {/* Live Ultra-Powerful AI Models Ticker Badge */}
+            <div className="flex flex-wrap items-center justify-center gap-1.5 text-[11px] font-bold text-slate-700 pt-1">
+              <span className="px-2.5 py-0.5 rounded-md bg-emerald-50 text-emerald-700 border border-emerald-200">ChatGPT-4o</span>
+              <span className="px-2.5 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200">o3-mini</span>
+              <span className="px-2.5 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200">Gemini 2.5 Pro</span>
+              <span className="px-2.5 py-0.5 rounded-md bg-amber-50 text-amber-700 border border-amber-200">Claude 3.7</span>
+              <span className="px-2.5 py-0.5 rounded-md bg-cyan-50 text-cyan-700 border border-cyan-200">DeepSeek R1</span>
+              <span className="px-2.5 py-0.5 rounded-md bg-purple-50 text-purple-700 border border-purple-200">Qwen 2.5 Max</span>
             </div>
 
             <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight font-outfit">
-              Free AI Prompt Generator for ChatGPT & Google Gemini
+              Top 1 Free AI Prompt Generator for ChatGPT & Google Gemini
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 font-medium font-sans">
-              World&apos;s #1 Unlimited Free AI Studio. Synthesize high-impact prompts for ChatGPT, Google Gemini 2.5, DeepSeek R1 & Claude with zero login, zero credit caps & 100% free access.
+              The world&apos;s #1 free generative AI studio. Synthesize production-ready prompts for ChatGPT-4o, Google Gemini, and Claude with zero login, zero credit limits, and 100% free access.
             </p>
           </div>
 

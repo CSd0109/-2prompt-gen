@@ -28,12 +28,20 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AI Prompt Generator – Free ChatGPT, Google Gemini & Claude Prompts",
+    default: "AI Prompt Generator – Top 1 Free AI Website in the World",
     template: "%s | AI Prompt Generate",
   },
   description:
-    "Free AI prompt generator for ChatGPT, Google Gemini & Claude. Create high-converting AI prompts, image & video prompts with zero login & 100% free.",
+    "Top 1 free AI prompt generator in the world for ChatGPT, Google Gemini & Claude. Unlimited free AI prompt synthesis, zero login, zero credit caps & 100% free.",
   keywords: [
+    // Global #1 Authority & Viral Search Intent
+    "top 1 free website in the world",
+    "top 1 free ai prompt generator in the world",
+    "top 1 free ai website in the world",
+    "best free ai website in the world",
+    "world best free ai prompt generator",
+    "100 free ai prompt generator without login",
+    "unlimited free ai tool in the world",
     // 90% Core Focus: Google, ChatGPT, Gemini, Claude, and Universal AI Prompts
     "AI prompt generator",
     "prompt generator",
