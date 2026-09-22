@@ -162,8 +162,22 @@ export default function HomePage() {
 
         {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
+          {/* Header Intro: 1-Line Ultra Bold Black with Animated Gradient & High SEO Value */}
+          <div className="w-full text-center pt-3 pb-2 sm:pt-4 sm:pb-3 max-w-4xl mx-auto">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-black font-outfit text-black tracking-tight leading-tight">
+              Top #1 Free AI Prompt Generator for{" "}
+              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
+                ChatGPT, Gemini & Claude
+              </span>
+            </h1>
+            <p className="text-xs sm:text-sm font-bold text-slate-500 mt-1 flex items-center justify-center gap-2">
+              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+              <span>100% Free Forever • Unlimited Master Prompts • Zero Login Required</span>
+            </p>
+          </div>
+
           {/* Top Gemini-Style White Pill Command Bar */}
-          <section className="mb-8 w-full flex justify-center pt-2">
+          <section className="mb-10 w-full flex justify-center pt-2">
             <PromptGeneratorStudio compact={true} />
           </section>
 
