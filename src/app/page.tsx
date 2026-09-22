@@ -162,13 +162,13 @@ export default function HomePage() {
 
         {/* Main Feed: Generator Box at Top + Content Below */}
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
-          {/* Top Headline H1 with Semantic Hierarchy & Keywords */}
+          {/* Top Headline H1 with Semantic Hierarchy & 90% ChatGPT/Google Gemini Keywords */}
           <div className="text-center pt-2 pb-6 max-w-4xl mx-auto space-y-1.5">
             <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight font-outfit">
-              Free AI Prompt Generator for Midjourney, Flux & Sora
+              Free AI Prompt Generator for ChatGPT & Google Gemini
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 font-medium font-sans">
-              Create production-ready image, video & UI prompts with top AI models. 100% Free, zero login, unlimited.
+              Create high-performing prompts for ChatGPT-4o, Claude & Google Gemini. 100% Free, zero login, unlimited.
             </p>
           </div>
 
