@@ -23,7 +23,7 @@ export const viewport: Viewport = {
   maximumScale: 5,
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aipromptgenerate.xyz";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerate.xyz";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
