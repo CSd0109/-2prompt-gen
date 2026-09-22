@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Sidebar } from "@/components/Sidebar";
 import { PromptCard } from "@/components/PromptCard";
@@ -22,6 +22,45 @@ export default function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeModalItem, setActiveModalItem] = useState<PromptItem | null>(null);
   const [displayCount, setDisplayCount] = useState<number>(PAGE_SIZE);
+
+  // Typewriter effect states for punchy 1-line headline
+  const phrases = useMemo(() => [
+    "ChatGPT & Gemini",
+    "Midjourney & Flux",
+    "Claude & DeepSeek",
+    "Sora & Video AI",
+    "100% Free Forever"
+  ], []);
+
+  const [phraseIndex, setPhraseIndex] = useState(0);
+  const [displayText, setDisplayText] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentPhrase = phrases[phraseIndex];
+    let timeout: NodeJS.Timeout;
+
+    if (!isDeleting && displayText === currentPhrase) {
+      // Pause when fully typed
+      timeout = setTimeout(() => setIsDeleting(true), 2000);
+    } else if (isDeleting && displayText === "") {
+      // Switch phrase when fully erased
+      setIsDeleting(false);
+      setPhraseIndex((prev) => (prev + 1) % phrases.length);
+    } else {
+      // Typing or erasing speed
+      const speed = isDeleting ? 45 : 90;
+      timeout = setTimeout(() => {
+        setDisplayText((prev) =>
+          isDeleting
+            ? currentPhrase.substring(0, prev.length - 1)
+            : currentPhrase.substring(0, prev.length + 1)
+        );
+      }, speed);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [displayText, isDeleting, phraseIndex, phrases]);
 
   // Clean, focused category chips with circular style font
   const chips = [
@@ -162,17 +201,18 @@ export default function HomePage() {
 
         {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: 1-Line Ultra Bold Black with Animated Gradient & High SEO Value */}
-          <div className="w-full text-center pt-3 pb-2 sm:pt-4 sm:pb-3 max-w-4xl mx-auto">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-black font-outfit text-black tracking-tight leading-tight">
-              Top #1 Free AI Prompt Generator for{" "}
-              <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
-                ChatGPT, Gemini & Claude
+          {/* Header Intro: Ultra Bold Black with Live Typing/Erasing Animation */}
+          <div className="w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-3xl mx-auto">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-outfit text-black tracking-tight leading-tight flex items-center justify-center flex-wrap gap-x-2">
+              <span>Free AI Prompts for</span>
+              <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-black">
+                {displayText}
+                <span className="w-0.5 h-6 sm:h-8 bg-blue-600 ml-1 inline-block animate-pulse" />
               </span>
             </h1>
-            <p className="text-xs sm:text-sm font-bold text-slate-500 mt-1 flex items-center justify-center gap-2">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-              <span>100% Free Forever • Unlimited Master Prompts • Zero Login Required</span>
+            <p className="text-xs sm:text-sm font-extrabold text-slate-500 mt-1.5 flex items-center justify-center gap-2 font-outfit">
+              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
+              <span>100% Free Forever • Zero Login • Instant Unlimited Prompts</span>
             </p>
           </div>
 
