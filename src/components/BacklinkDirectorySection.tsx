@@ -57,28 +57,30 @@ export function BacklinkDirectorySection() {
                     href={link.url}
                     target="_blank"
                     rel={link.rel || "noopener noreferrer"}
-                    className="group p-4 rounded-3xl bg-white border-2 border-slate-200/80 hover:border-purple-400 hover:shadow-md transition-all flex flex-col justify-between"
+                    className="group p-5 rounded-3xl bg-white border-2 border-slate-200/90 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-200 flex flex-col justify-between cursor-pointer"
                   >
                     <div>
-                      <div className="flex items-center justify-between gap-1 mb-1">
-                        <span className="text-xs font-bold text-slate-800 group-hover:text-purple-600 transition flex items-center gap-1">
+                      <div className="flex items-center justify-between gap-2 mb-2">
+                        <span className="text-sm font-black text-slate-900 group-hover:text-purple-600 transition flex items-center gap-1.5 tracking-tight">
                           {link.name}
-                          <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-purple-600 transition" />
+                          <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-purple-600 transition" />
                         </span>
                         {link.badge && (
-                          <span className="text-[9px] px-1.5 py-0.5 rounded bg-slate-100 group-hover:bg-purple-50 group-hover:text-purple-700 text-slate-500 font-medium">
+                          <span className="text-[10px] px-2.5 py-0.5 rounded-full bg-purple-50 group-hover:bg-purple-100 text-purple-700 font-extrabold tracking-wide border border-purple-200/60 font-mono uppercase">
                             {link.badge}
                           </span>
                         )}
                       </div>
-                      <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">
+                      <p className="text-xs text-slate-600 font-medium leading-relaxed">
                         {link.description}
                       </p>
                     </div>
 
-                    <div className="mt-2.5 pt-2 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-mono">
-                      <span>{new URL(link.url).hostname}</span>
-                      <span className="text-purple-500 opacity-0 group-hover:opacity-100 transition">Visit ↗</span>
+                    <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                      <span className="text-slate-400 font-mono text-[11px]">{new URL(link.url).hostname}</span>
+                      <span className="text-purple-600 group-hover:translate-x-1 transition-transform flex items-center gap-1 font-black">
+                        Visit ↗
+                      </span>
                     </div>
                   </a>
                 ))}
@@ -88,22 +90,26 @@ export function BacklinkDirectorySection() {
         })}
       </div>
 
-      {/* Webmaster Exchange Callout */}
-      <div className="p-4 rounded-xl bg-gradient-to-r from-purple-50 to-indigo-50 border border-purple-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
-        <div className="space-y-0.5">
-          <div className="font-bold text-slate-800 flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-purple-600" />
-            <span>Are you an AI Tool Developer, Prompt Creator or Webmaster?</span>
+      {/* Webmaster Exchange Callout - Babal Redesign */}
+      <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-purple-900 via-indigo-950 to-slate-900 border-2 border-purple-800/60 shadow-xl shadow-purple-950/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 text-white relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="space-y-2 relative z-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-purple-300 font-extrabold text-[11px] uppercase tracking-wider">
+            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <span>Webmaster & Creator Alliance</span>
           </div>
-          <p className="text-slate-600 text-[11px]">
-            Exchange backlinks or get your AI prompt directory listed on Prompt Generator with high-authority dofollow SEO synergy.
+          <h4 className="text-lg sm:text-xl font-black text-white tracking-tight leading-snug">
+            Are you an AI Tool Developer, Prompt Creator or Webmaster?
+          </h4>
+          <p className="text-xs sm:text-sm text-slate-300 font-medium max-w-2xl leading-relaxed">
+            Exchange high-authority backlinks or feature your prompt directory on Prompt Generator for verified DoFollow SEO synergy and mutual organic search boost.
           </p>
         </div>
         <a
-          href="mailto:contact@promptgenerator.xyz?subject=Backlink%20Exchange%20Inquiry%20-%202Prompt%20Gen"
-          className="px-3.5 py-1.5 rounded-lg bg-purple-600 hover:bg-purple-700 text-white font-semibold text-xs whitespace-nowrap shadow-sm transition"
+          href="mailto:contact@promptgenerator.xyz?subject=Backlink%20Exchange%20Inquiry%20-%20Prompt%20Generator"
+          className="relative z-10 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-black text-xs sm:text-sm whitespace-nowrap shadow-lg hover:shadow-xl transition-all duration-200 cursor-pointer active:scale-95"
         >
-          Submit Backlink / Exchange
+          Submit Backlink / Exchange 🤝
         </a>
       </div>
     </div>
