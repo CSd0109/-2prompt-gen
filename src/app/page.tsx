@@ -160,52 +160,10 @@ export default function HomePage() {
           isOpen={sidebarOpen}
         />
 
-        {/* Main Feed: Generator Box at Top + Content Below */}
+        {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
-          {/* Top Headline H1 with Semantic Hierarchy & 90% ChatGPT/Google Gemini Keywords */}
-          <div className="text-center pt-2 pb-6 max-w-4xl mx-auto space-y-2.5">
-            {/* World's Top #1 Free AI Platform Crown Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-blue-500/10 border-2 border-amber-400/60 text-slate-900 text-xs font-black shadow-xs">
-              <span className="text-sm">👑</span>
-              <span className="bg-gradient-to-r from-amber-600 via-purple-700 to-blue-600 bg-clip-text text-transparent uppercase tracking-wider font-extrabold">
-                #1 Top Free AI Website in the World
-              </span>
-              <span className="text-slate-400">•</span>
-              <span className="text-emerald-700 font-bold">100% Free Forever</span>
-            </div>
-
-            {/* Clean Rounded Model Highlights */}
-            <div className="flex flex-wrap items-center justify-center gap-2 pt-1 text-xs font-bold font-outfit">
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                ChatGPT-4o
-              </span>
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                o3-mini
-              </span>
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                Gemini 2.5 Pro
-              </span>
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                Claude 3.7
-              </span>
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                DeepSeek R1
-              </span>
-              <span className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 border border-slate-200 transition">
-                Qwen 2.5 Max
-              </span>
-            </div>
-
-            <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight font-outfit">
-              Top 1 Free AI Prompt Generator for ChatGPT & Google Gemini
-            </h1>
-            <p className="text-xs sm:text-sm text-slate-600 font-medium font-sans">
-              The world&apos;s #1 free generative AI studio. Synthesize production-ready prompts for ChatGPT-4o, Google Gemini, and Claude with zero login, zero credit limits, and 100% free access.
-            </p>
-          </div>
-
           {/* Top Gemini-Style White Pill Command Bar */}
-          <section className="mb-10 w-full flex justify-center">
+          <section className="mb-8 w-full flex justify-center pt-2">
             <PromptGeneratorStudio compact={true} />
           </section>
 
@@ -544,6 +502,22 @@ export default function HomePage() {
 
               {/* Authoritative AI Ecosystem & Competitor Backlink Hub */}
               <BacklinkDirectorySection />
+
+              {/* Official Semantic SEO & Global Brand Footnote (At Bottom for Clean Top UI) */}
+              <div className="pt-8 border-t border-slate-200/90 text-center space-y-3 pb-6">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-blue-500/10 border border-amber-300 text-slate-800 text-[11px] font-bold shadow-2xs font-outfit">
+                  <span>👑</span>
+                  <span className="font-extrabold text-amber-800 tracking-tight">Top 1 Free AI Website in the World</span>
+                  <span className="text-slate-400">•</span>
+                  <span className="text-emerald-700">100% Free Forever</span>
+                </div>
+                <h1 className="text-base sm:text-lg font-black text-slate-900 tracking-tight font-outfit">
+                  Top 1 Free AI Prompt Generator for ChatGPT & Google Gemini
+                </h1>
+                <p className="text-xs text-slate-500 font-medium max-w-2xl mx-auto leading-relaxed">
+                  The world&apos;s #1 free generative AI studio. Synthesize production-ready prompts for ChatGPT-4o, Google Gemini 2.5 Pro, Claude 3.7, DeepSeek R1 & OpenAI o3-mini with zero login, zero credit limits, and 100% free access.
+                </p>
+              </div>
             </div>
           </footer>
         </main>
