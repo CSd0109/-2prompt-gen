@@ -375,32 +375,58 @@ export default function HomePage() {
               </div>
 
               {/* People Also Ask (FAQ Section for Organic Rank #1) */}
-              <div className="pt-6 border-t border-slate-200 space-y-3">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">
-                  Frequently Asked Questions (People Also Ask)
-                </h4>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-[11px]">
-                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
-                    <span className="font-bold text-slate-800">Q: How do I generate prompts from an image or rough idea?</span>
-                    <p className="text-slate-500">
-                      Enter any rough concept into our Gemini-style command bar, select your target model (ChatGPT, Gemini, Claude, DeepSeek), and get a high-performing production prompt with lighting, framing, and aspect ratios.
+              <div className="pt-8 border-t border-slate-200/90 space-y-4">
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-purple-600 animate-pulse" />
+                  <h4 className="font-extrabold text-slate-900 text-sm tracking-tight uppercase">
+                    Frequently Asked Questions (People Also Ask)
+                  </h4>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-purple-300 hover:shadow-md transition-all space-y-2">
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-50 text-purple-700 font-extrabold text-[10px] uppercase">
+                      Quick Guide
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm leading-snug">
+                      How do I generate prompts from an image or rough idea?
+                    </h5>
+                    <p className="text-slate-600 leading-relaxed font-medium">
+                      Enter any rough concept into our command studio bar, choose your target AI model (ChatGPT, Gemini, Claude, DeepSeek), and receive a high-performing production prompt with cinematic lighting, framing, and aspect ratios.
                     </p>
                   </div>
-                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
-                    <span className="font-bold text-slate-800">Q: Is Prompt Generator free with unlimited generation & no sign-up?</span>
-                    <p className="text-slate-500">
+
+                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-emerald-300 hover:shadow-md transition-all space-y-2">
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold text-[10px] uppercase">
+                      Zero Cost Guarantee
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm leading-snug">
+                      Is Prompt Generator free with unlimited generation & no sign-up?
+                    </h5>
+                    <p className="text-slate-600 leading-relaxed font-medium">
                       Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, Prompt Generator is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
                     </p>
                   </div>
-                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
-                    <span className="font-bold text-slate-800">Q: Can I generate video prompts for Sora & Kling?</span>
-                    <p className="text-slate-500">
+
+                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-blue-300 hover:shadow-md transition-all space-y-2">
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 font-extrabold text-[10px] uppercase">
+                      Next-Gen Video AI
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm leading-snug">
+                      Can I generate video prompts for Sora & Kling?
+                    </h5>
+                    <p className="text-slate-600 leading-relaxed font-medium">
                       Yes, our library features a dedicated 4K Video Prompts gallery with camera motions, volumetric lighting, and temporal parameters tailored for Sora, Kling, Runway Gen-3, and Luma Dream Machine.
                     </p>
                   </div>
-                  <div className="p-3 bg-white rounded-xl border border-slate-200 space-y-1">
-                    <span className="font-bold text-slate-800">Q: How can I save and download AI characters?</span>
-                    <p className="text-slate-500">
+
+                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-pink-300 hover:shadow-md transition-all space-y-2">
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-pink-50 text-pink-700 font-extrabold text-[10px] uppercase">
+                      Free Characters Vault
+                    </div>
+                    <h5 className="font-black text-slate-900 text-sm leading-snug">
+                      How can I save and download AI characters?
+                    </h5>
+                    <p className="text-slate-600 leading-relaxed font-medium">
                       Click the &quot;AI Characters&quot; tab to explore official Media.io demo models and BananaPrompts characters. Tap &quot;Save Free&quot; to bookmark them privately or click &quot;Download HD&quot; for instant zero-watermark downloads.
                     </p>
                   </div>

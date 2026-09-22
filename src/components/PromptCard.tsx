@@ -70,14 +70,14 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
         </div>
 
         {/* Floating Model Badge (Top Left) */}
-        <div className="absolute top-2 left-2">
-          <span className="px-2 py-0.5 rounded-full text-[10px] font-bold tracking-wide bg-white/90 text-slate-900 border border-slate-200 shadow-xs">
+        <div className="absolute top-2.5 left-2.5">
+          <span className="px-2.5 py-1 rounded-full text-[10px] font-black tracking-wider uppercase bg-white/95 text-slate-900 border border-slate-200/90 shadow-xs backdrop-blur-xs">
             {item.model}
           </span>
         </div>
 
         {/* Quick Actions (Top Right) */}
-        <div className="absolute top-2 right-2 flex items-center gap-1.5">
+        <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5">
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -85,7 +85,7 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
               window.open(`https://chatgpt.com/?q=${encodeURIComponent(item.prompt)}`, "_blank");
             }}
             title="Run on ChatGPT"
-            className={`px-2 py-1 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-[10px] font-bold shadow-md transition-opacity duration-200 flex items-center gap-1 ${
+            className={`px-2.5 py-1 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-[10px] font-extrabold shadow-md transition-opacity duration-200 flex items-center gap-1 cursor-pointer ${
               isHovered ? "opacity-100" : "opacity-0"
             }`}
           >
@@ -96,7 +96,7 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
           <button
             onClick={handleCopy}
             title="Copy Prompt"
-            className={`p-1.5 rounded-full bg-white/95 text-slate-800 shadow-md transition-opacity duration-200 ${
+            className={`p-1.5 rounded-full bg-white/95 text-slate-800 shadow-md transition-opacity duration-200 cursor-pointer ${
               isHovered ? "opacity-100" : "opacity-0"
             } hover:bg-slate-100`}
           >
@@ -106,31 +106,31 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
       </div>
 
       {/* 2. Video Details Row */}
-      <div className="flex gap-3 pt-3 px-0.5 items-start">
+      <div className="flex gap-3 pt-3.5 px-0.5 items-start">
         {/* Channel Avatar */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={item.creator.avatar}
           alt={item.creator.name}
-          className="w-9 h-9 rounded-full object-cover flex-shrink-0 mt-0.5 border border-slate-200"
+          className="w-10 h-10 rounded-full object-cover flex-shrink-0 mt-0.5 border-2 border-slate-200 shadow-2xs"
         />
 
         {/* Video Title & Meta */}
         <div className="flex flex-col flex-1 min-w-0 pr-1">
-          <h3 className="font-semibold text-[14px] sm:text-[15px] leading-snug text-slate-900 line-clamp-2 group-hover:text-blue-600 transition-colors">
+          <h3 className="font-extrabold text-[14px] sm:text-[15px] leading-snug text-slate-900 line-clamp-2 group-hover:text-blue-600 transition-colors tracking-tight">
             {item.title}
           </h3>
 
           {/* Channel Name with Verified Tick */}
-          <div className="flex items-center gap-1 text-[13px] text-slate-500 mt-1 hover:text-slate-800">
-            <span className="truncate font-medium">{item.creator.name}</span>
+          <div className="flex items-center gap-1 text-[13px] text-slate-500 mt-1 hover:text-slate-800 font-semibold">
+            <span className="truncate">{item.creator.name}</span>
             {item.creator.verified && (
               <CheckCircle2 className="w-3.5 h-3.5 text-blue-600 fill-blue-600 text-white" />
             )}
           </div>
 
           {/* Views and Upload Time */}
-          <div className="flex items-center gap-1 text-[12px] text-slate-400 leading-4 mt-0.5 font-medium">
+          <div className="flex items-center gap-1 text-[12px] text-slate-400 leading-4 mt-0.5 font-bold font-mono">
             <span>{item.views} views</span>
             <span>•</span>
             <span>{item.timestamp}</span>

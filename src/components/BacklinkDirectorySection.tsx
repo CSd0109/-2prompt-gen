@@ -8,27 +8,27 @@ export function BacklinkDirectorySection() {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="pt-10 border-t border-slate-200/80 space-y-6">
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+    <div className="pt-12 border-t-2 border-slate-200/80 space-y-8">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-1.5 text-purple-600 font-bold text-xs uppercase tracking-wider mb-1">
-            <Globe className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-purple-700 font-extrabold text-[11px] uppercase tracking-wider mb-2">
+            <Globe className="w-3.5 h-3.5 text-purple-600" />
             <span>AI Ecosystem & Partner Backlinks</span>
           </div>
-          <h3 className="text-base sm:text-lg font-bold text-slate-900">
-            Featured AI Prompt Networks & Authoritative Resources
+          <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            Authoritative AI Directories & Peer Prompt Engines
           </h3>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs sm:text-sm font-medium text-slate-500">
             Explore peer prompt generators, AI foundation models, and top-tier AI indexes partnering with Prompt Generator.
           </p>
         </div>
 
         <button
           onClick={() => setExpanded(!expanded)}
-          className="self-start sm:self-auto inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 transition shadow-sm"
+          className="self-start sm:self-auto inline-flex items-center gap-2 px-5 py-2.5 rounded-full border-2 border-slate-300 bg-white hover:bg-slate-50 text-xs sm:text-sm font-black text-slate-900 transition shadow-xs hover:shadow-md cursor-pointer active:scale-95"
         >
           <span>{expanded ? "Show Less" : "View All Backlinks"}</span>
-          {expanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+          {expanded ? <ChevronUp className="w-4 h-4 text-purple-600" /> : <ChevronDown className="w-4 h-4 text-purple-600" />}
         </button>
       </div>
 
@@ -38,26 +38,26 @@ export function BacklinkDirectorySection() {
           const displayedLinks = expanded ? category.links : category.links.slice(0, 4);
 
           return (
-            <div key={idx} className="space-y-3">
+            <div key={idx} className="space-y-4">
               <div className="flex items-center justify-between">
                 <div>
-                  <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wide">
+                  <h4 className="text-sm font-black text-slate-900 tracking-tight uppercase">
                     {category.title}
                   </h4>
-                  <p className="text-[11px] text-slate-400">
+                  <p className="text-xs text-slate-400 font-medium">
                     {category.description}
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {displayedLinks.map((link, lIdx) => (
                   <a
                     key={lIdx}
                     href={link.url}
                     target="_blank"
                     rel={link.rel || "noopener noreferrer"}
-                    className="group p-3 rounded-xl bg-white border border-slate-200/90 hover:border-purple-300 hover:shadow-sm transition flex flex-col justify-between"
+                    className="group p-4 rounded-3xl bg-white border-2 border-slate-200/80 hover:border-purple-400 hover:shadow-md transition-all flex flex-col justify-between"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-1 mb-1">

@@ -91,51 +91,57 @@ export function BlogsAndFaqSection() {
       </div>
 
       {/* 2. Enterprise Research & Partnership Blogs (Initial 5, Expandable to 3,000) */}
-      <div className="space-y-6">
-        <div className="flex items-center justify-between pb-2 border-b border-slate-200">
-          <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-purple-100 text-purple-700">
-              <BookOpen className="w-5 h-5" />
+      <div className="space-y-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200">
+          <div className="flex items-center gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-purple-600 to-pink-600 text-white flex items-center justify-center shadow-md shadow-purple-500/20">
+              <BookOpen className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-black text-slate-900">
-                Enterprise AI Research & Partnership Publications
+              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-purple-50 border border-purple-200 text-purple-700 text-[11px] font-extrabold uppercase tracking-wider mb-1">
+                <span>Research Publications</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Enterprise AI Prompt Architecture & Research
               </h3>
-              <p className="text-xs text-slate-500">
-                Published in joint collaboration with global generative AI giants • Showing {displayedBlogs.length} of {ALL_BLOGS.length.toLocaleString()} publications
+              <p className="text-xs sm:text-sm font-medium text-slate-500">
+                Joint peer-reviewed synthesis guides published with OpenAI, Midjourney, and Anthropic engineers.
               </p>
             </div>
           </div>
+          <div className="px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-700 text-xs font-bold font-mono self-start sm:self-auto">
+            Showing {displayedBlogs.length} of {ALL_BLOGS.length.toLocaleString()} Articles
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {displayedBlogs.map((blog) => (
             <article
               key={blog.id}
               onClick={() => setSelectedBlogModal(blog)}
-              className="group bg-white p-5 rounded-2xl border border-slate-200 hover:border-purple-300 hover:shadow-lg transition-all duration-200 cursor-pointer flex flex-col justify-between"
+              className="group bg-white p-6 rounded-3xl border-2 border-slate-200/80 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 cursor-pointer flex flex-col justify-between relative overflow-hidden"
             >
-              <div className="space-y-2.5">
-                <div className="flex items-center justify-between text-[11px]">
-                  <span className="px-2.5 py-0.5 rounded-full font-bold bg-purple-50 text-purple-700 border border-purple-100">
+              <div className="space-y-3.5">
+                <div className="flex items-center justify-between text-xs">
+                  <span className="px-3 py-1 rounded-full font-black text-[11px] bg-gradient-to-r from-purple-50 to-pink-50 text-purple-700 border border-purple-200/70 shadow-2xs">
                     {blog.partner}
                   </span>
-                  <span className="text-slate-400 font-medium">{blog.readTime}</span>
+                  <span className="text-slate-400 font-bold text-[11px] font-mono">{blog.readTime}</span>
                 </div>
 
-                <h4 className="font-bold text-sm sm:text-base text-slate-900 group-hover:text-purple-600 transition-colors line-clamp-2 leading-snug">
+                <h4 className="font-extrabold text-base sm:text-lg text-slate-900 group-hover:text-purple-600 transition-colors line-clamp-2 leading-snug tracking-tight">
                   {blog.title}
                 </h4>
 
-                <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-500 line-clamp-3 leading-relaxed font-medium">
                   {blog.summary}
                 </p>
               </div>
 
-              <div className="pt-4 mt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+              <div className="pt-5 mt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
                 <span className="text-slate-400 font-mono text-[11px]">{blog.views}</span>
-                <span className="font-bold text-purple-600 group-hover:translate-x-1 transition-transform flex items-center gap-1">
-                  Read Article <ArrowRight className="w-3.5 h-3.5" />
+                <span className="text-purple-600 group-hover:translate-x-1 transition-transform flex items-center gap-1.5 font-extrabold">
+                  Read Full Guide <ArrowRight className="w-4 h-4" />
                 </span>
               </div>
             </article>
@@ -158,46 +164,67 @@ export function BlogsAndFaqSection() {
       </div>
 
       {/* 3. Massive Knowledge Base & FAQ Engine (Initial 4, Expandable to 10,000) */}
-      <div className="space-y-6 pt-6 border-t border-slate-200">
-        <div className="flex items-center justify-between pb-2 border-b border-slate-200">
-          <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-blue-100 text-blue-700">
-              <HelpCircle className="w-5 h-5" />
+      <div className="space-y-8 pt-10 border-t-2 border-slate-200/80">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200">
+          <div className="flex items-center gap-3.5">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-md shadow-blue-500/20">
+              <HelpCircle className="w-6 h-6" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-black text-slate-900">
-                Official Knowledge Base & Verified FAQ Archive
+              <div className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-[11px] font-extrabold uppercase tracking-wider mb-1">
+                <span>Verified Documentation</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                Frequently Asked Questions & Knowledge Base
               </h3>
-              <p className="text-xs text-slate-500">
-                Comprehensive technical guide & platform documentation • Showing {displayedFaqs.length} of {ALL_FAQS.length.toLocaleString()} verified FAQs
+              <p className="text-xs sm:text-sm font-medium text-slate-500">
+                Clear answers to everything about prompt engineering, zero-login character downloads, and API access.
               </p>
             </div>
           </div>
+          <div className="px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-700 text-xs font-bold font-mono self-start sm:self-auto">
+            {displayedFaqs.length} of {ALL_FAQS.length.toLocaleString()} Verified FAQs
+          </div>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           {displayedFaqs.map((faq, idx) => {
             const isOpen = openFaqIndex === idx;
             return (
               <div
                 key={faq.id}
-                className="bg-white rounded-2xl border border-slate-200 overflow-hidden transition-shadow duration-200 hover:shadow-xs"
+                className={`rounded-3xl border-2 transition-all duration-200 overflow-hidden ${
+                  isOpen 
+                    ? "bg-white border-blue-500 shadow-lg shadow-blue-500/5 ring-4 ring-blue-500/10" 
+                    : "bg-white/80 hover:bg-white border-slate-200/90 hover:border-slate-300 shadow-xs hover:shadow-md"
+                }`}
               >
                 <button
                   onClick={() => toggleFaq(idx)}
-                  className="w-full text-left p-4 sm:p-5 flex items-center justify-between gap-4 font-semibold text-slate-900 hover:text-purple-600 transition"
+                  className="w-full text-left p-5 sm:p-6 flex items-center justify-between gap-4 transition cursor-pointer"
                 >
-                  <span className="text-xs sm:text-sm font-bold leading-relaxed">{faq.question}</span>
-                  <ChevronDown
-                    className={`w-4 h-4 text-slate-400 flex-shrink-0 transition-transform duration-200 ${
-                      isOpen ? "rotate-180 text-purple-600" : ""
-                    }`}
-                  />
+                  <div className="flex items-center gap-3.5">
+                    <span className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-black transition-colors flex-shrink-0 ${
+                      isOpen ? "bg-blue-600 text-white" : "bg-slate-100 text-slate-600"
+                    }`}>
+                      Q{idx + 1}
+                    </span>
+                    <span className="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight leading-snug">
+                      {faq.question}
+                    </span>
+                  </div>
+                  <div className={`w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 transition-all ${
+                    isOpen ? "bg-blue-100 text-blue-700 rotate-180" : "bg-slate-100 text-slate-400 hover:bg-slate-200"
+                  }`}>
+                    <ChevronDown className="w-4 h-4 transition-transform duration-200" />
+                  </div>
                 </button>
 
                 {isOpen && (
-                  <div className="px-4 pb-4 sm:px-5 sm:pb-5 text-xs text-slate-600 leading-relaxed border-t border-slate-100 pt-3 bg-slate-50/50">
-                    {faq.answer}
+                  <div className="px-6 pb-6 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 bg-gradient-to-b from-blue-50/20 to-transparent font-medium">
+                    <div className="p-4 rounded-2xl bg-slate-50/80 border border-slate-200/60 text-slate-700">
+                      {faq.answer}
+                    </div>
                   </div>
                 )}
               </div>
@@ -207,14 +234,14 @@ export function BlogsAndFaqSection() {
 
         {/* See More FAQs Button */}
         {faqCount < ALL_FAQS.length && (
-          <div className="flex justify-center pt-2">
+          <div className="flex justify-center pt-4">
             <button
               onClick={() => setFaqCount((prev) => Math.min(prev + 20, ALL_FAQS.length))}
-              className="px-6 py-2.5 rounded-full bg-white hover:bg-slate-50 text-slate-900 border-2 border-slate-300 hover:border-slate-400 text-xs font-bold transition shadow-xs flex items-center gap-2 cursor-pointer active:scale-95"
+              className="px-8 py-3 rounded-full bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-black transition shadow-lg hover:shadow-xl flex items-center gap-2.5 cursor-pointer active:scale-95"
             >
-              <span>See More FAQs</span>
-              <span className="text-slate-400 font-normal">({displayedFaqs.length} of {ALL_FAQS.length.toLocaleString()})</span>
-              <ChevronDown className="w-4 h-4 text-slate-500" />
+              <span>Explore More Questions</span>
+              <span className="text-slate-400 font-semibold text-xs">({displayedFaqs.length} of {ALL_FAQS.length.toLocaleString()})</span>
+              <ChevronDown className="w-4 h-4 text-slate-400" />
             </button>
           </div>
         )}

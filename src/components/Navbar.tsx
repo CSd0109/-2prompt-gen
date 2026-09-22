@@ -28,17 +28,20 @@ export function Navbar({ onToggleSidebar, searchQuery, setSearchQuery, onOpenGen
           <Menu className="w-5 h-5" />
         </button>
 
-        <div onClick={onGoHome} className="flex items-center gap-1.5 cursor-pointer">
-          {/* YouTube Official Red Badge with Play Triangle */}
-          <div className="w-7 h-5 bg-red-600 rounded-lg flex items-center justify-center relative shadow-xs">
-            <div className="w-0 h-0 border-y-[4px] border-y-transparent border-l-[7px] border-l-white ml-0.5" />
+        <div onClick={onGoHome} className="flex items-center gap-2 cursor-pointer group">
+          {/* YouTube-style Gradient Play Badge */}
+          <div className="w-8 h-6 bg-gradient-to-tr from-red-600 to-pink-600 rounded-xl flex items-center justify-center relative shadow-sm group-hover:scale-105 transition-transform">
+            <div className="w-0 h-0 border-y-[5px] border-y-transparent border-l-[8px] border-l-white ml-0.5" />
           </div>
           <div className="flex items-center">
-            <span className="text-slate-900 font-extrabold tracking-tight text-lg font-sans">
-              2Prompt
+            <span className="text-slate-900 font-black tracking-tight text-lg font-heading">
+              Prompt
             </span>
-            <span className="text-slate-500 text-[10px] font-bold ml-1 tracking-wider uppercase">
-              GEN
+            <span className="text-blue-600 font-black tracking-tight text-lg font-heading ml-1">
+              Generator
+            </span>
+            <span className="px-1.5 py-0.5 ml-1.5 rounded-md bg-purple-100 text-purple-700 text-[10px] font-black tracking-wider uppercase font-mono">
+              XYZ
             </span>
           </div>
         </div>
