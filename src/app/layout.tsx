@@ -28,11 +28,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://aipromptgenerate.xy
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AI Prompt Generate – 100% Free Unlimited AI AI Prompt Generate (ChatGPT-6 Astra, Claude Opus, Gemini 2.5, Flux, Sora)",
+    default: "AI Prompt Generate – #1 Free AI Prompt Generator for Midjourney, Flux & Sora",
     template: "%s | AI Prompt Generate",
   },
   description:
-    "100% Free & Unlimited AI AI Prompt Generate powered by next-gen AI giants: ChatGPT-6 Astra (chatgpt6astra), Claude 3.5 / 3.7 Opus (Cloude Opos), Google Gemini 2.5 Flash, DeepSeek-V3, Flux 1.1 Pro & Sora. Generate unlimited Image, Video, and Website UI prompts with zero login, no sign-up, and zero paywalls.",
+    "AI Prompt Generate (aipromptgenerate.xyz) is the #1 free AI prompt generator. Create photorealistic Midjourney v6.1, Flux 1.1 Pro, ChatGPT-4o & Sora 4K video prompts with 1 click. Zero login, no sign-up, 100% unlimited.",
   keywords: [
     // Next-Gen Viral Keyword Targets: ChatGPT-6 Astra & Claude Opus
     "chatgpt6astra",
