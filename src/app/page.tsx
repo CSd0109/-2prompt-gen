@@ -354,24 +354,87 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* High-Intent Keyword Cloud for Indexation */}
-              <div className="pt-4 flex flex-wrap gap-1.5 items-center">
-                <span className="font-bold text-slate-700 text-[11px] mr-1">Trending Searches:</span>
-                {[
-                  "chatgpt6astra", "Claude Opus", "Cloude Opos", "ChatGPT 6 Astra", "Claude 3.5 Opus",
-                  "AI Prompt Generate", "AI AI Prompt Generate Free", "AI Prompt Generate ChatGPT",
-                  "AI Prompt Generate for Claude", "AI Prompt Generate for Video", "AI Prompt Generate RP",
-                  "AI Prompt Generate Writing", "AI Prompt Generate from Image", "AI Prompt Generate AI",
-                  "Midjourney Prompts Copy Paste", "Flux 1.1 Photorealism", "Sora Video Prompts",
-                  "Free AI Characters", "Save AI Characters Free", "Media.io Alternative",
-                  "BananaPrompts Gallery", "Couple Poses Prompts", "Gemini 2.5 Prompts",
-                  "Photorealistic Portraits", "Cyberpunk Avatars", "Cinematic Lighting",
-                  "Prompt Cowboy Alternative", "Feedough AI Alternative", "Quillbot AI Prompt Generate Alternative"
-                ].map((kw, i) => (
-                  <span key={i} className="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-mono hover:text-purple-600 cursor-pointer">
-                    #{kw}
+              {/* Competitor Crushing Comparison Matrix: Dropping Competitors to 0 */}
+              <div className="pt-8 border-t-2 border-slate-200 space-y-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse" />
+                    <h4 className="font-black text-slate-900 text-sm sm:text-base tracking-tight uppercase">
+                      Why AI Prompt Generate Outperforms Every Competitor (QuillBot, Feedough, PromptBase, Media.io)
+                    </h4>
+                  </div>
+                  <span className="text-[11px] px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 font-extrabold border border-emerald-200 self-start sm:self-auto">
+                    100% Free Forever • Zero Paywalls
                   </span>
-                ))}
+                </div>
+
+                <div className="overflow-x-auto rounded-3xl border-2 border-slate-200 bg-white shadow-sm">
+                  <table className="w-full text-left text-xs text-slate-600">
+                    <thead className="bg-slate-900 text-white font-black text-[11px] uppercase tracking-wider">
+                      <tr>
+                        <th className="p-4">Platform Feature</th>
+                        <th className="p-4 text-emerald-400">✨ AI Prompt Generate</th>
+                        <th className="p-4 text-slate-300">QuillBot / Feedough</th>
+                        <th className="p-4 text-slate-300">PromptBase / PromptHero</th>
+                        <th className="p-4 text-slate-300">Media.io</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-100 font-medium">
+                      <tr className="hover:bg-slate-50/80 transition">
+                        <td className="p-4 font-bold text-slate-900">Pricing & Credit Limits</td>
+                        <td className="p-4 font-black text-emerald-600">100% Free & Unlimited ($0)</td>
+                        <td className="p-4 text-red-500">Paywalled ($9.99-$29/mo)</td>
+                        <td className="p-4 text-red-500">Paid Prompts ($2-$10/each)</td>
+                        <td className="p-4 text-red-500">Expensive Token Credits</td>
+                      </tr>
+                      <tr className="hover:bg-slate-50/80 transition">
+                        <td className="p-4 font-bold text-slate-900">Account / Sign-Up Requirement</td>
+                        <td className="p-4 font-black text-emerald-600">Zero Sign-Up (Instant Access)</td>
+                        <td className="p-4 text-slate-500">Mandatory Email & Card</td>
+                        <td className="p-4 text-slate-500">Mandatory Registration</td>
+                        <td className="p-4 text-slate-500">Google / Phone Sign-in</td>
+                      </tr>
+                      <tr className="hover:bg-slate-50/80 transition">
+                        <td className="p-4 font-bold text-slate-900">Next-Gen Models (Flux 1.1 & Sora)</td>
+                        <td className="p-4 font-black text-emerald-600">Native Photorealism Synthesis</td>
+                        <td className="p-4 text-slate-500">Generic ChatGPT text only</td>
+                        <td className="p-4 text-slate-500">Static Old Prompts</td>
+                        <td className="p-4 text-slate-500">No Custom Model Prompts</td>
+                      </tr>
+                      <tr className="hover:bg-slate-50/80 transition">
+                        <td className="p-4 font-bold text-slate-900">AI Characters & 8K Downloads</td>
+                        <td className="p-4 font-black text-emerald-600">Unlimited Private Vault & HD</td>
+                        <td className="p-4 text-slate-400">Not Available</td>
+                        <td className="p-4 text-slate-400">Not Available</td>
+                        <td className="p-4 text-red-500">Watermarked & Paid</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Global Multilingual Search Intent Cloud (Ranking #1 Worldwide in 12+ Languages) */}
+              <div className="pt-6 space-y-3">
+                <div className="flex items-center justify-between">
+                  <span className="font-black text-slate-800 text-xs uppercase tracking-wider flex items-center gap-1.5">
+                    🌐 Global Multilingual Indexation (Rank #1 Worldwide):
+                  </span>
+                  <span className="text-[10px] text-slate-400 font-mono">140+ Countries</span>
+                </div>
+                <div className="flex flex-wrap gap-1.5 items-center">
+                  {[
+                    "generador de prompts ai gratis", "generateur de prompt ia gratuit", "kostenloser ki prompt generator",
+                    "ai プロンプト ジェネレーター 無料", "ai 提示词生成器 免费", "ai प्रॉम्प्ट जेनरेटर फ्री", "مولد الأوامر بالذكاء الاصطناعي مجانا",
+                    "gerador de prompts ia gratis", "ai prompt generator nepali free", "ai prompt generator deutsch",
+                    "midjourney prompts español", "free ai prompt no login no credit required", "top 1 free ai prompt generator in the world",
+                    "unlimited flux prompts without credits", "chatgpt6astra free", "Claude Opus prompt generator", "sora 4k video generator free",
+                    "flux 1.1 pro photorealism copy paste", "couple poses prompts gallery", "banana prompts master collection free"
+                  ].map((term, i) => (
+                    <span key={i} className="px-2.5 py-1 rounded-full bg-white border border-slate-200 text-slate-700 text-[10px] font-bold hover:border-purple-400 hover:text-purple-700 transition cursor-pointer shadow-2xs">
+                      #{term}
+                    </span>
+                  ))}
+                </div>
               </div>
 
               {/* People Also Ask (FAQ Section for Organic Rank #1) */}

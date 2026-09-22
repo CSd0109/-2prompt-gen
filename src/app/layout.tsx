@@ -34,6 +34,16 @@ export const metadata: Metadata = {
   description:
     "AI Prompt Generate (aipromptgenerate.xyz) is the #1 free AI prompt generator. Create photorealistic Midjourney v6.1, Flux 1.1 Pro, ChatGPT-4o & Sora 4K video prompts with 1 click. Zero login, no sign-up, 100% unlimited.",
   keywords: [
+    // Multilingual Global Dominance Keywords (Spanish, French, German, Japanese, Chinese, Hindi, Arabic, Nepali)
+    "generador de prompts ai gratis", "generateur de prompt ia gratuit", "kostenloser ki prompt generator",
+    "ai プロンプト ジェネレーター 無料", "ai 提示词生成器 免费", "ai प्रॉम्प्ट जेनरेटर फ्री", "مولد الأوامر بالذكاء الاصطناعي مجانا",
+    "ai prompt generator nepali free", "midjourney prompts español", "flux prompt generator deutsch",
+    "free ai prompt no login no credit required", "top 1 free ai prompt generator in the world",
+    "unlimited free midjourney prompts", "unlimited flux prompts without credits",
+    // Competitor Zero-Drop Targets (Beating Paid Paywalls)
+    "quillbot prompt generator vs aipromptgenerate", "feedough ai alternative 100 percent free",
+    "promptbase free alternative", "prompthero free competitor", "flowgpt free unlimited alternative",
+    "media io free alternative characters", "prompt cowboy free alternative",
     // Next-Gen Viral Keyword Targets: ChatGPT-6 Astra & Claude Opus
     "chatgpt6astra",
     "ChatGPT 6 Astra",
