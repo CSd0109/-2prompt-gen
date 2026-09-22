@@ -259,264 +259,154 @@ export default function HomePage() {
           {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs (Hidden from casual glance, reached only at very bottom scroll) */}
           <BlogsAndFaqSection />
 
-          {/* Semantic SEO Crawl & Backlink Footer */}
-          <footer className="mt-16 pt-10 pb-8 border-t border-slate-200 text-slate-600 space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+          {/* Clean, Modern, Organized 4-Column Footer */}
+          <footer className="mt-20 pt-12 pb-10 border-t border-slate-200 text-slate-600 bg-white/50 rounded-3xl p-6 sm:p-10 border shadow-xs space-y-8 font-outfit">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+              {/* Col 1: Brand & Bio */}
               <div className="space-y-3">
-                <h3 className="font-bold text-slate-900">AI Prompt Generate</h3>
-                <p className="text-xs leading-relaxed text-slate-500">
-                  The world&apos;s fastest, 100% free AI prompt generator & AI character library. Empowering creators with high-fidelity Midjourney, Flux 1.1, and Sora prompts.
+                <div className="flex items-center gap-2">
+                  <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-white font-black text-sm shadow-md">
+                    AI
+                  </div>
+                  <span className="font-extrabold text-base text-slate-900 tracking-tight">
+                    AI Prompt Generate
+                  </span>
+                </div>
+                <p className="text-xs text-slate-500 leading-relaxed font-sans font-medium">
+                  The world&apos;s #1 free AI prompt synthesis studio and character library. 100% Free forever, no login required.
                 </p>
-                <div className="text-[11px] text-slate-400">
-                  © {new Date().getFullYear()} AI Prompt Generate. All rights reserved.
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[11px] font-bold border border-emerald-200">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  <span>100% Free Forever</span>
                 </div>
               </div>
 
-              <div className="space-y-2">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Top AI Categories</h4>
-                <ul className="space-y-1.5 text-xs">
+              {/* Col 2: Quick Links */}
+              <div className="space-y-3">
+                <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                  Quick Links
+                </h4>
+                <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <button onClick={() => handleFilterChange("couple-poses")} className="hover:text-purple-600 text-left">
-                      👩‍❤️‍👨 Couple Poses Prompts (85+ Prompts)
+                    <button
+                      onClick={() => {
+                        setCurrentTab("generator");
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                      }}
+                      className="hover:text-purple-600 transition"
+                    >
+                      AI Command Studio
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("banana")} className="hover:text-purple-600 text-left">
-                      🍌 BananaPrompts Master Collection
+                    <button
+                      onClick={() => {
+                        setCurrentTab("characters");
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                      }}
+                      className="hover:text-purple-600 transition"
+                    >
+                      AI Characters Vault
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("characters-tab")} className="hover:text-purple-600 text-left">
-                      👤 Free AI Characters & Avatars
+                    <button
+                      onClick={() => {
+                        setCurrentTab("gallery");
+                        setSelectedFilter("image");
+                      }}
+                      className="hover:text-purple-600 transition"
+                    >
+                      Master Prompt Gallery
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("flux")} className="hover:text-purple-600 text-left">
-                      ⚡ Flux 1.1 Pro Photorealism
-                    </button>
-                  </li>
-                  <li>
-                    <button onClick={() => handleFilterChange("video")} className="hover:text-purple-600 text-left">
-                      🎥 Sora & Kling 4K Video Prompts
+                    <button
+                      onClick={handleRandomPrompt}
+                      className="hover:text-purple-600 transition flex items-center gap-1"
+                    >
+                      <span>Surprise Me</span>
+                      <span className="text-[10px] px-1.5 py-0.2 rounded bg-purple-100 text-purple-700 font-bold">Random</span>
                     </button>
                   </li>
                 </ul>
               </div>
 
-              <div className="space-y-2">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Supported AI Engines</h4>
-                <ul className="space-y-1.5 text-xs text-slate-500">
-                  <li>• OpenAI ChatGPT & Sora</li>
-                  <li>• Google Gemini 2.5 Flash</li>
-                  <li>• Midjourney v6.1 Photorealistic</li>
-                  <li>• Black Forest Labs Flux 1.1 Pro</li>
-                  <li>• Anthropic Claude 3.5 Sonnet</li>
-                  <li>• DeepSeek AI & Groq Llama 3</li>
+              {/* Col 3: Prompt Galleries */}
+              <div className="space-y-3">
+                <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                  Prompt Galleries
+                </h4>
+                <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
+                  <li>
+                    <button onClick={() => handleFilterChange("couple-poses")} className="hover:text-purple-600 transition">
+                      Couple Poses
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("banana")} className="hover:text-purple-600 transition">
+                      Banana Prompts
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("video")} className="hover:text-purple-600 transition">
+                      Video Prompts (Sora / Kling)
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("flux")} className="hover:text-purple-600 transition">
+                      Flux 1.1 Pro Photorealism
+                    </button>
+                  </li>
+                  <li>
+                    <button onClick={() => handleFilterChange("midjourney")} className="hover:text-purple-600 transition">
+                      Midjourney v6.1 Art
+                    </button>
+                  </li>
                 </ul>
               </div>
 
-              <div className="space-y-2">
-                <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">Why AI Prompt Generate?</h4>
-                <p className="text-xs leading-relaxed text-slate-500">
-                  Unlike platforms with strict paywalls and login barriers, AI Prompt Generate provides instant 1-click prompt copying, unlimited free AI character saves to your private vault, and zero-registration HD downloads.
-                </p>
+              {/* Col 4: Supported AI Engines */}
+              <div className="space-y-3">
+                <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
+                  Supported AI Engines
+                </h4>
+                <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
+                  <li className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                    <span>ChatGPT-4o & o3-mini</span>
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                    <span>Google Gemini 2.5 Pro</span>
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                    <span>Claude 3.7 Sonnet</span>
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span>
+                    <span>DeepSeek R1 Reasoner</span>
+                  </li>
+                  <li className="flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
+                    <span>Qwen 2.5 Max (Alibaba)</span>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            {/* Google Ranking SEO Content & Keyword Cloud */}
-            <div className="pt-8 border-t border-slate-200 text-xs text-slate-500 space-y-4 leading-relaxed">
-              <h4 className="font-bold text-slate-800 text-sm">
-                100% Free & Unlimited AI AI Prompt Generate – Top AI Models (ChatGPT-4o, Claude 3.5, Gemini 2.5, DeepSeek, Flux & Sora)
-              </h4>
+            {/* Bottom Copyright & Semantic SEO Microdata Bar */}
+            <div className="pt-6 border-t border-slate-200/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400 font-sans">
               <p>
-                Welcome to <strong>AI Prompt Generate</strong>, the world&apos;s most powerful <strong>100% free and unlimited AI prompt generator</strong>. Powered by industry-leading LLMs and diffusion vision models—including <strong>ChatGPT-4o</strong>, <strong>Claude 3.5 Sonnet</strong>, <strong>Google Gemini 2.5 Flash</strong>, <strong>DeepSeek-V3</strong>, and <strong>Groq Llama 3.3</strong>—we deliver production-grade prompt engineering for <strong>Unlimited Image</strong>, <strong>4K Video (Sora, Kling, Runway)</strong>, and <strong>Full Website UI</strong> creations with zero credit limits and no login barriers.
+                © {new Date().getFullYear()} <strong className="text-slate-700">AI Prompt Generate</strong>. All rights reserved. Zero Login • 100% Free Forever.
               </p>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pt-2">
-                <div className="bg-white p-4 rounded-xl border border-slate-200">
-                  <h5 className="font-bold text-slate-800 text-xs mb-1">ChatGPT-6 Astra & Claude Opus</h5>
-                  <p className="text-[11px] text-slate-500">
-                    Switch freely between ChatGPT-6 Astra (chatgpt6astra), Claude 3.5 / 3.7 Opus (Cloude Opos), Gemini 2.5, and DeepSeek with 1-click model dropdown. 100% free unlimited prompt synthesis.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded-xl border border-slate-200">
-                  <h5 className="font-bold text-slate-800 text-xs mb-1">Unlimited Image & Video</h5>
-                  <p className="text-[11px] text-slate-500">
-                    Engineered for Midjourney v6.1, Flux 1.1 Pro, and Sora 4K video with cinematic camera angles, lens depths, lighting, and negative prompts.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded-xl border border-slate-200">
-                  <h5 className="font-bold text-slate-800 text-xs mb-1">Free AI Characters Vault</h5>
-                  <p className="text-[11px] text-slate-500">
-                    A free alternative to Media.io and Character.ai. Save models and cyberpunk avatars to your private collection and download in 8K resolution free.
-                  </p>
-                </div>
-                <div className="bg-white p-4 rounded-xl border border-slate-200">
-                  <h5 className="font-bold text-slate-800 text-xs mb-1">Full Website & UI Prompts</h5>
-                  <p className="text-[11px] text-slate-500">
-                    Generate Tailwind CSS, Next.js, and React dashboard prompts ready to paste directly into Claude Artifacts, v0, or ChatGPT Canvas.
-                  </p>
-                </div>
-              </div>
-
-              {/* Competitor Crushing Comparison Matrix: Dropping Competitors to 0 */}
-              <div className="pt-8 border-t-2 border-slate-200 space-y-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                  <div className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full bg-emerald-500 animate-pulse" />
-                    <h4 className="font-black text-slate-900 text-sm sm:text-base tracking-tight uppercase">
-                      Why AI Prompt Generate Outperforms Every Competitor (QuillBot, Feedough, PromptBase, Media.io)
-                    </h4>
-                  </div>
-                  <span className="text-[11px] px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 font-extrabold border border-emerald-200 self-start sm:self-auto">
-                    100% Free Forever • Zero Paywalls
-                  </span>
-                </div>
-
-                <div className="overflow-x-auto rounded-3xl border-2 border-slate-200 bg-white shadow-sm">
-                  <table className="w-full text-left text-xs text-slate-600">
-                    <thead className="bg-slate-900 text-white font-black text-[11px] uppercase tracking-wider">
-                      <tr>
-                        <th className="p-4">Platform Feature</th>
-                        <th className="p-4 text-emerald-400">✨ AI Prompt Generate</th>
-                        <th className="p-4 text-slate-300">QuillBot / Feedough</th>
-                        <th className="p-4 text-slate-300">PromptBase / PromptHero</th>
-                        <th className="p-4 text-slate-300">Media.io</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100 font-medium">
-                      <tr className="hover:bg-slate-50/80 transition">
-                        <td className="p-4 font-bold text-slate-900">Pricing & Credit Limits</td>
-                        <td className="p-4 font-black text-emerald-600">100% Free & Unlimited ($0)</td>
-                        <td className="p-4 text-red-500">Paywalled ($9.99-$29/mo)</td>
-                        <td className="p-4 text-red-500">Paid Prompts ($2-$10/each)</td>
-                        <td className="p-4 text-red-500">Expensive Token Credits</td>
-                      </tr>
-                      <tr className="hover:bg-slate-50/80 transition">
-                        <td className="p-4 font-bold text-slate-900">Account / Sign-Up Requirement</td>
-                        <td className="p-4 font-black text-emerald-600">Zero Sign-Up (Instant Access)</td>
-                        <td className="p-4 text-slate-500">Mandatory Email & Card</td>
-                        <td className="p-4 text-slate-500">Mandatory Registration</td>
-                        <td className="p-4 text-slate-500">Google / Phone Sign-in</td>
-                      </tr>
-                      <tr className="hover:bg-slate-50/80 transition">
-                        <td className="p-4 font-bold text-slate-900">Next-Gen Models (Flux 1.1 & Sora)</td>
-                        <td className="p-4 font-black text-emerald-600">Native Photorealism Synthesis</td>
-                        <td className="p-4 text-slate-500">Generic ChatGPT text only</td>
-                        <td className="p-4 text-slate-500">Static Old Prompts</td>
-                        <td className="p-4 text-slate-500">No Custom Model Prompts</td>
-                      </tr>
-                      <tr className="hover:bg-slate-50/80 transition">
-                        <td className="p-4 font-bold text-slate-900">AI Characters & 8K Downloads</td>
-                        <td className="p-4 font-black text-emerald-600">Unlimited Private Vault & HD</td>
-                        <td className="p-4 text-slate-400">Not Available</td>
-                        <td className="p-4 text-slate-400">Not Available</td>
-                        <td className="p-4 text-red-500">Watermarked & Paid</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Global Multilingual Search Intent Cloud (Ranking #1 Worldwide in 12+ Languages) */}
-              <div className="pt-6 space-y-3">
-                <div className="flex items-center justify-between">
-                  <span className="font-black text-slate-800 text-xs uppercase tracking-wider flex items-center gap-1.5">
-                    🌐 Global Multilingual Indexation (Rank #1 Worldwide):
-                  </span>
-                  <span className="text-[10px] text-slate-400 font-mono">140+ Countries</span>
-                </div>
-                <div className="flex flex-wrap gap-1.5 items-center">
-                  {[
-                    "generador de prompts ai gratis", "generateur de prompt ia gratuit", "kostenloser ki prompt generator",
-                    "ai プロンプト ジェネレーター 無料", "ai 提示词生成器 免费", "ai प्रॉम्प्ट जेनरेटर फ्री", "مولد الأوامر بالذكاء الاصطناعي مجانا",
-                    "gerador de prompts ia gratis", "ai prompt generator nepali free", "ai prompt generator deutsch",
-                    "midjourney prompts español", "free ai prompt no login no credit required", "top 1 free ai prompt generator in the world",
-                    "unlimited flux prompts without credits", "chatgpt6astra free", "Claude Opus prompt generator", "sora 4k video generator free",
-                    "flux 1.1 pro photorealism copy paste", "couple poses prompts gallery", "banana prompts master collection free"
-                  ].map((term, i) => (
-                    <span key={i} className="px-2.5 py-1 rounded-full bg-white border border-slate-200 text-slate-700 text-[10px] font-bold hover:border-purple-400 hover:text-purple-700 transition cursor-pointer shadow-2xs">
-                      #{term}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* People Also Ask (FAQ Section for Organic Rank #1) */}
-              <div className="pt-8 border-t border-slate-200/90 space-y-4">
-                <div className="flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-purple-600 animate-pulse" />
-                  <h4 className="font-extrabold text-slate-900 text-sm tracking-tight uppercase">
-                    Frequently Asked Questions (People Also Ask)
-                  </h4>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-purple-300 hover:shadow-md transition-all space-y-2">
-                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-purple-50 text-purple-700 font-extrabold text-[10px] uppercase">
-                      Quick Guide
-                    </div>
-                    <h5 className="font-black text-slate-900 text-sm leading-snug">
-                      How do I generate prompts from an image or rough idea?
-                    </h5>
-                    <p className="text-slate-600 leading-relaxed font-medium">
-                      Enter any rough concept into our command studio bar, choose your target AI model (ChatGPT, Gemini, Claude, DeepSeek), and receive a high-performing production prompt with cinematic lighting, framing, and aspect ratios.
-                    </p>
-                  </div>
-
-                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-emerald-300 hover:shadow-md transition-all space-y-2">
-                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-extrabold text-[10px] uppercase">
-                      Zero Cost Guarantee
-                    </div>
-                    <h5 className="font-black text-slate-900 text-sm leading-snug">
-                      Is AI Prompt Generate free with unlimited generation & no sign-up?
-                    </h5>
-                    <p className="text-slate-600 leading-relaxed font-medium">
-                      Yes! Unlike QuillBot, Feedough, or Prompt Cowboy, AI Prompt Generate is 100% free with unlimited copying, private character bookmarking, and HD downloading without creating an account.
-                    </p>
-                  </div>
-
-                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-blue-300 hover:shadow-md transition-all space-y-2">
-                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 font-extrabold text-[10px] uppercase">
-                      Next-Gen Video AI
-                    </div>
-                    <h5 className="font-black text-slate-900 text-sm leading-snug">
-                      Can I generate video prompts for Sora & Kling?
-                    </h5>
-                    <p className="text-slate-600 leading-relaxed font-medium">
-                      Yes, our library features a dedicated 4K Video Prompts gallery with camera motions, volumetric lighting, and temporal parameters tailored for Sora, Kling, Runway Gen-3, and Luma Dream Machine.
-                    </p>
-                  </div>
-
-                  <div className="p-5 bg-white rounded-3xl border-2 border-slate-200/80 hover:border-pink-300 hover:shadow-md transition-all space-y-2">
-                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-pink-50 text-pink-700 font-extrabold text-[10px] uppercase">
-                      Free Characters Vault
-                    </div>
-                    <h5 className="font-black text-slate-900 text-sm leading-snug">
-                      How can I save and download AI characters?
-                    </h5>
-                    <p className="text-slate-600 leading-relaxed font-medium">
-                      Click the &quot;AI Characters&quot; tab to explore official Media.io demo models and BananaPrompts characters. Tap &quot;Save Free&quot; to bookmark them privately or click &quot;Download HD&quot; for instant zero-watermark downloads.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Authoritative AI Ecosystem & Competitor Backlink Hub */}
-              <BacklinkDirectorySection />
-
-              {/* Official Semantic SEO & Global Brand Footnote (At Bottom for Clean Top UI) */}
-              <div className="pt-8 border-t border-slate-200/90 text-center space-y-3 pb-6">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gradient-to-r from-amber-500/10 via-purple-500/10 to-blue-500/10 border border-amber-300 text-slate-800 text-[11px] font-bold shadow-2xs font-outfit">
-                  <span>👑</span>
-                  <span className="font-extrabold text-amber-800 tracking-tight">Top 1 Free AI Website in the World</span>
-                  <span className="text-slate-400">•</span>
-                  <span className="text-emerald-700">100% Free Forever</span>
-                </div>
-                <h1 className="text-base sm:text-lg font-black text-slate-900 tracking-tight font-outfit">
-                  Top 1 Free AI Prompt Generator for ChatGPT & Google Gemini
-                </h1>
-                <p className="text-xs text-slate-500 font-medium max-w-2xl mx-auto leading-relaxed">
-                  The world&apos;s #1 free generative AI studio. Synthesize production-ready prompts for ChatGPT-4o, Google Gemini 2.5 Pro, Claude 3.7, DeepSeek R1 & OpenAI o3-mini with zero login, zero credit limits, and 100% free access.
-                </p>
+              <div className="flex items-center gap-4 text-[11px] font-semibold text-slate-500 font-outfit">
+                <span>Top 1 Free AI Website in the World</span>
+                <span>•</span>
+                <span>Privacy First</span>
+                <span>•</span>
+                <span>Global Free Access</span>
               </div>
             </div>
           </footer>
