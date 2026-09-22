@@ -28,11 +28,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AI Prompt Generate – #1 Free AI Prompt Generator for Midjourney, Flux & Sora",
+    default: "AI Prompt Generate – Free AI Prompt Generator for Midjourney & Flux",
     template: "%s | AI Prompt Generate",
   },
   description:
-    "AI Prompt Generate (aipromptgenerate.xyz) is the #1 free AI prompt generator. Create photorealistic Midjourney v6.1, Flux 1.1 Pro, ChatGPT-4o & Sora 4K video prompts with 1 click. Zero login, no sign-up, 100% unlimited.",
+    "Free AI prompt generator for Midjourney, Flux 1.1 Pro, ChatGPT & Sora. Generate photorealistic prompts, save AI characters, zero login & 100% free.",
   keywords: [
     // Multilingual Global Dominance Keywords (Spanish, French, German, Japanese, Chinese, Hindi, Arabic, Nepali)
     "generador de prompts ai gratis", "generateur de prompt ia gratuit", "kostenloser ki prompt generator",
