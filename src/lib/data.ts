@@ -30825,10 +30825,12 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
 ];
 
 export const AI_MODELS = [
-  { id: "chatgpt", name: "ChatGPT-6 Astra", provider: "OpenAI", badge: "GPT-6 Astra", color: "from-emerald-500 to-teal-600" },
-  { id: "claude", name: "Claude 3.5 / 3.7 Opus", provider: "Anthropic", badge: "Claude Opus", color: "from-amber-500 to-orange-600" },
-  { id: "gemini", name: "Gemini 2.0 Flash", provider: "Google DeepMind", badge: "Gemini Pro", color: "from-blue-500 to-indigo-600" },
-  { id: "deepseek", name: "DeepSeek R1", provider: "DeepSeek", badge: "R1 Reasoner", color: "from-cyan-500 to-blue-600" },
-  { id: "kimi", name: "Kimi / Kivi AI", provider: "Moonshot", badge: "Kimi K1", color: "from-purple-500 to-pink-600" },
-  { id: "groq", name: "Groq LLaMA 3.3", provider: "Meta / Groq", badge: "Ultra Fast", color: "from-orange-500 to-red-600" },
+  { id: "chatgpt", name: "ChatGPT-4o / GPT-6 Astra", provider: "OpenAI", badge: "GPT-6 Astra", color: "from-emerald-500 to-teal-600" },
+  { id: "o3-mini", name: "OpenAI o3-mini (High Reasoning)", provider: "OpenAI", badge: "o3 Reasoning", color: "from-green-600 to-emerald-700" },
+  { id: "gemini", name: "Gemini 2.5 Flash / Pro", provider: "Google DeepMind", badge: "Gemini 2.5 Ultra", color: "from-blue-500 to-indigo-600" },
+  { id: "claude", name: "Claude 3.7 Sonnet / Opus", provider: "Anthropic", badge: "Claude 3.7", color: "from-amber-500 to-orange-600" },
+  { id: "deepseek", name: "DeepSeek R1 (Open Reasoner)", provider: "DeepSeek", badge: "R1 Reasoner", color: "from-cyan-500 to-blue-600" },
+  { id: "qwen", name: "Qwen 2.5 Max (Alibaba)", provider: "Alibaba Cloud", badge: "Qwen 2.5", color: "from-sky-500 to-indigo-600" },
+  { id: "kimi", name: "Kimi / Moonshot AI", provider: "Moonshot", badge: "Kimi K1", color: "from-purple-500 to-pink-600" },
+  { id: "groq", name: "Groq LLaMA 3.3 (Fast 120B)", provider: "Meta / Groq", badge: "Ultra Fast", color: "from-orange-500 to-red-600" },
 ];

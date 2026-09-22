@@ -57,6 +57,19 @@ function ProviderIcon({ id, className = "w-4 h-4" }: { id: string; className?: s
           <circle cx="15.5" cy="7.5" r="1.5" fill="#C084FC" />
         </svg>
       );
+    case "o3-mini":
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="#10A37F">
+          <circle cx="12" cy="12" r="10" stroke="#10A37F" strokeWidth="2" fill="none" />
+          <path d="M12 6v6l4 2" stroke="#10A37F" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      );
+    case "qwen":
+      return (
+        <svg className={className} viewBox="0 0 24 24" fill="#0284C7">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#0284C7" strokeWidth="2" fill="none" />
+        </svg>
+      );
     case "groq":
       return (
         <svg className={className} viewBox="0 0 24 24" fill="#F97316">

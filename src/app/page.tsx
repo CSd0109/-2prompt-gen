@@ -163,12 +163,27 @@ export default function HomePage() {
         {/* Main Feed: Generator Box at Top + Content Below */}
         <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
           {/* Top Headline H1 with Semantic Hierarchy & 90% ChatGPT/Google Gemini Keywords */}
-          <div className="text-center pt-2 pb-6 max-w-4xl mx-auto space-y-1.5">
+          <div className="text-center pt-2 pb-6 max-w-4xl mx-auto space-y-2.5">
+            {/* Live Ultra-Powerful AI Models Ticker Badge */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-purple-50 via-blue-50 to-emerald-50 border border-slate-300 text-slate-800 text-[11px] font-bold shadow-xs">
+              <span className="flex h-2 w-2 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              <span>Ultra-Powerful AI Models Live:</span>
+              <span className="text-purple-700 font-extrabold">ChatGPT-4o</span> •
+              <span className="text-blue-700 font-extrabold">o3-mini</span> •
+              <span className="text-indigo-700 font-extrabold">Gemini 2.5 Pro</span> •
+              <span className="text-amber-700 font-extrabold">Claude 3.7</span> •
+              <span className="text-cyan-700 font-extrabold">DeepSeek R1</span> •
+              <span className="text-sky-700 font-extrabold">Qwen 2.5</span>
+            </div>
+
             <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight font-outfit">
               Free AI Prompt Generator for ChatGPT & Google Gemini
             </h1>
             <p className="text-xs sm:text-sm text-slate-600 font-medium font-sans">
-              Create high-performing prompts for ChatGPT-4o, Claude & Google Gemini. 100% Free, zero login, unlimited.
+              World&apos;s #1 Unlimited Free AI Studio. Synthesize high-impact prompts for ChatGPT, Google Gemini 2.5, DeepSeek R1 & Claude with zero login, zero credit caps & 100% free access.
             </p>
           </div>
 
