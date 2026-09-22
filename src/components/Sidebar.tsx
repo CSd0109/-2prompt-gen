@@ -5,6 +5,7 @@ import {
   Home, Compass, PlaySquare, Sparkles, Image as ImageIcon, Video, Layout, Settings, Heart, UserCheck
 } from "lucide-react";
 import { AI_MODELS } from "@/lib/data";
+import { ProviderIcon } from "@/components/PromptGeneratorStudio";
 
 interface SidebarProps {
   currentTab: string;
@@ -169,20 +170,23 @@ function SidebarModelsDropdown({ onSelectModel }: { onSelectModel: () => void })
       <button
         type="button"
         onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold bg-slate-50 hover:bg-slate-100 text-slate-800 border border-slate-200 transition shadow-2xs"
+        className="w-full flex items-center justify-between px-3.5 py-2.5 rounded-2xl text-xs font-outfit font-extrabold bg-gradient-to-r from-blue-50/80 to-indigo-50/80 hover:from-blue-100/90 hover:to-indigo-100/90 text-blue-900 border-2 border-blue-200/80 transition-all duration-200 shadow-xs active:scale-[0.98]"
       >
         <div className="flex items-center gap-2">
-          <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-          <span className="font-extrabold font-outfit text-slate-900 tracking-tight">All Models</span>
+          <Sparkles className="w-4 h-4 text-blue-600 animate-pulse" />
+          <span className="font-extrabold tracking-tight text-slate-900 text-xs">All Models</span>
         </div>
-        <div className="flex items-center gap-1 text-[11px] text-slate-500">
-          <span>{AI_MODELS.length} Active</span>
+        <div className="flex items-center gap-1.5 text-[11px] font-bold text-blue-700">
+          <span className="px-1.5 py-0.5 rounded-full bg-blue-100 text-blue-800 text-[10px] font-extrabold">8 Live</span>
           <span className={`text-[10px] transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▼</span>
         </div>
       </button>
 
       {open && (
-        <div className="mt-1.5 p-1.5 rounded-2xl bg-white border-2 border-slate-200 shadow-xl space-y-1 max-h-64 overflow-y-auto z-30">
+        <div className="mt-1.5 p-2 rounded-2xl bg-white border-2 border-slate-200 shadow-xl space-y-1 max-h-72 overflow-y-auto z-30 animate-in fade-in zoom-in-95 duration-150">
+          <div className="px-2 py-1 text-[10px] font-extrabold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1">
+            Choose AI Engine
+          </div>
           {AI_MODELS.map((model) => (
             <div
               key={model.id}
@@ -190,15 +194,13 @@ function SidebarModelsDropdown({ onSelectModel }: { onSelectModel: () => void })
                 onSelectModel();
                 setOpen(false);
               }}
-              className="flex items-center justify-between px-2.5 py-1.5 rounded-lg text-xs hover:bg-slate-50 cursor-pointer transition"
+              className="flex items-center justify-between px-2.5 py-2 rounded-xl text-xs hover:bg-blue-50/70 hover:text-blue-900 cursor-pointer transition active:scale-[0.98] font-outfit"
             >
-              <div className="flex items-center gap-2">
-                <span className={`w-2 h-2 rounded-full bg-gradient-to-r ${model.color}`} />
-                <span className="font-semibold text-slate-800 text-[12px]">{model.name}</span>
+              <div className="flex items-center gap-2.5">
+                <ProviderIcon id={model.id} className="w-4 h-4 flex-shrink-0" />
+                <span className="font-bold text-slate-800 text-xs tracking-tight">{model.name}</span>
               </div>
-              <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-600">
-                {model.badge}
-              </span>
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
             </div>
           ))}
         </div>
