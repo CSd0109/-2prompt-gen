@@ -7,11 +7,15 @@ export async function POST(req: NextRequest) {
   try {
     const urlsToPing = [
       `https://${HOST}/`,
-      `https://${HOST}/#characters`,
-      `https://${HOST}/#couple-poses`,
-      `https://${HOST}/#flux`,
-      `https://${HOST}/#video-prompts-sora`,
-      `https://${HOST}/#banana-prompts`
+      `https://${HOST}/chatgpt-prompts`,
+      `https://${HOST}/gemini-prompts`,
+      `https://${HOST}/claude-prompts`,
+      `https://${HOST}/deepseek-prompts`,
+      `https://${HOST}/midjourney-prompts`,
+      `https://${HOST}/flux-prompts`,
+      `https://${HOST}/video-prompts`,
+      `https://${HOST}/couple-poses-prompts`,
+      `https://${HOST}/ai-characters`
     ];
 
     const payload = {

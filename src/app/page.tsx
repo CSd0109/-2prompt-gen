@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
+import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Sidebar } from "@/components/Sidebar";
 import { PromptCard } from "@/components/PromptCard";
@@ -393,29 +394,29 @@ export default function HomePage() {
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <button onClick={() => handleFilterChange("couple-poses")} className="hover:text-purple-600 transition">
-                      Couple Poses
-                    </button>
+                    <Link href="/couple-poses-prompts" className="hover:text-purple-600 transition block">
+                      Couple Poses Prompts
+                    </Link>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("banana")} className="hover:text-purple-600 transition">
-                      Banana Prompts
-                    </button>
+                    <Link href="/ai-characters" className="hover:text-purple-600 transition block">
+                      AI Characters & Models
+                    </Link>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("video")} className="hover:text-purple-600 transition">
+                    <Link href="/video-prompts" className="hover:text-purple-600 transition block">
                       Video Prompts (Sora / Kling)
-                    </button>
+                    </Link>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("flux")} className="hover:text-purple-600 transition">
+                    <Link href="/flux-prompts" className="hover:text-purple-600 transition block">
                       Flux 1.1 Pro Photorealism
-                    </button>
+                    </Link>
                   </li>
                   <li>
-                    <button onClick={() => handleFilterChange("midjourney")} className="hover:text-purple-600 transition">
+                    <Link href="/midjourney-prompts" className="hover:text-purple-600 transition block">
                       Midjourney v6.1 Art
-                    </button>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -426,25 +427,35 @@ export default function HomePage() {
                   Supported AI Engines
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
-                  <li className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    <span>ChatGPT-4o & o3-mini</span>
+                  <li>
+                    <Link href="/chatgpt-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                      <span>ChatGPT-4o & Astra</span>
+                    </Link>
                   </li>
-                  <li className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                    <span>Google Gemini 2.5 Pro</span>
+                  <li>
+                    <Link href="/gemini-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                      <span>Google Gemini 2.5 Pro</span>
+                    </Link>
                   </li>
-                  <li className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
-                    <span>Claude 3.7 Sonnet</span>
+                  <li>
+                    <Link href="/claude-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
+                      <span>Claude 3.7 Sonnet</span>
+                    </Link>
                   </li>
-                  <li className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span>
-                    <span>DeepSeek R1 Reasoner</span>
+                  <li>
+                    <Link href="/deepseek-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span>
+                      <span>DeepSeek R1 Reasoner</span>
+                    </Link>
                   </li>
-                  <li className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
-                    <span>Qwen 2.5 Max (Alibaba)</span>
+                  <li>
+                    <Link href="/flux-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
+                      <span>Flux 1.1 Pro & Schnell</span>
+                    </Link>
                   </li>
                 </ul>
               </div>
