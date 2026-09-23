@@ -376,21 +376,22 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 )}
               </div>
 
-              {/* ALL SERVICES BABAL BUTTON (Desktop Only) */}
+              {/* ALL SERVICES BABAL BUTTON (Visible on Mobile & Desktop) */}
               {onToggleAllServices && (
                 <button
                   type="button"
                   onClick={onToggleAllServices}
-                  className={`hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black transition-all active:scale-95 shadow-sm font-outfit border ${
+                  className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-full text-[11px] sm:text-xs font-black transition-all active:scale-95 shadow-xs font-outfit border ${
                     showAllServices
                       ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white border-purple-500 shadow-md ring-2 ring-purple-300"
                       : "bg-gradient-to-r from-slate-900 to-indigo-950 hover:from-purple-700 hover:to-indigo-700 text-white border-slate-800 hover:shadow-md"
                   }`}
+                  title={showAllServices ? "Close Services Dashboard" : "Open All AI & PDF Services Dashboard"}
                 >
-                  <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
-                  <span>ALL SERVICES</span>
-                  <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-white/20 text-white font-extrabold ml-0.5 uppercase tracking-wider">
-                    {showAllServices ? "Close" : "Open"}
+                  <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 animate-pulse flex-shrink-0" />
+                  <span className="whitespace-nowrap">SERVICES</span>
+                  <span className="text-[8px] sm:text-[9px] px-1 sm:px-1.5 py-0.5 rounded-full bg-white/20 text-white font-extrabold uppercase tracking-wider">
+                    {showAllServices ? "✕" : "All"}
                   </span>
                 </button>
               )}

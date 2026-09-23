@@ -7,7 +7,8 @@ import {
   Search, ArrowRight, ChevronDown, ChevronUp, SlidersHorizontal, 
   HelpCircle, Shield, Copy, Check, Eye, ExternalLink, Cpu, Layers,
   ScanText, Terminal, RefreshCw, Maximize2, ShieldCheck, CheckSquare,
-  Wrench, UploadCloud, FileCheck, ArrowUpRight, FileUp, Download, Edit3, File
+  Wrench, UploadCloud, FileCheck, ArrowUpRight, FileUp, Download, Edit3, File,
+  X, ArrowLeft
 } from "lucide-react";
 import confetti from "canvas-confetti";
 import jsPDF from "jspdf";
@@ -473,7 +474,41 @@ export function AllServicesDashboard({ onClose }: AllServicesDashboardProps) {
   };
 
   return (
-    <div className="w-full bg-[#fcfcfd] border-2 border-slate-200/90 rounded-3xl p-5 sm:p-10 shadow-xl space-y-16 text-slate-800 font-sans my-8 animate-in fade-in zoom-in-95 duration-200">
+    <div className="w-full bg-[#fcfcfd] border-2 border-slate-200/90 rounded-3xl p-4 sm:p-10 shadow-xl space-y-12 sm:space-y-16 text-slate-800 font-sans my-4 sm:my-8 animate-in fade-in zoom-in-95 duration-200 relative">
+      {/* Top Header Controls: Back to Home & Close X Button */}
+      <div className="flex items-center justify-between border-b border-slate-200/80 pb-4">
+        {onClose ? (
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs sm:text-sm font-bold transition active:scale-95 shadow-2xs font-outfit cursor-pointer border border-slate-200"
+          >
+            <ArrowLeft className="w-4 h-4 text-blue-600" />
+            <span>← Back to Home</span>
+          </button>
+        ) : (
+          <Link
+            href="/"
+            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs sm:text-sm font-bold transition active:scale-95 shadow-2xs font-outfit cursor-pointer border border-slate-200"
+          >
+            <ArrowLeft className="w-4 h-4 text-blue-600" />
+            <span>← Back to Home</span>
+          </Link>
+        )}
+
+        {onClose && (
+          <button
+            type="button"
+            onClick={onClose}
+            title="Close Services Dashboard (Back to Home)"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 text-xs sm:text-sm font-extrabold transition active:scale-95 shadow-2xs cursor-pointer font-outfit"
+          >
+            <X className="w-4 h-4 text-red-600 stroke-[2.5]" />
+            <span className="hidden sm:inline">Close</span>
+          </button>
+        )}
+      </div>
+
       {/* 1. Header Section */}
       <div className="text-center max-w-4xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold font-outfit uppercase tracking-wider">
@@ -683,13 +718,31 @@ export function AllServicesDashboard({ onClose }: AllServicesDashboardProps) {
                   </p>
                 </div>
               </div>
-              <button
-                type="button"
-                onClick={() => setActiveTool(null)}
-                className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center font-bold transition cursor-pointer"
-              >
-                ✕
-              </button>
+              
+              <div className="flex items-center gap-2">
+                {onClose && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setActiveTool(null);
+                      onClose();
+                    }}
+                    title="Return directly to Home"
+                    className="hidden sm:flex items-center gap-1 px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition active:scale-95 cursor-pointer font-outfit"
+                  >
+                    <ArrowLeft className="w-3.5 h-3.5 text-blue-600" />
+                    <span>Home</span>
+                  </button>
+                )}
+                <button
+                  type="button"
+                  onClick={() => setActiveTool(null)}
+                  title="Close popup (✕)"
+                  className="w-9 h-9 rounded-full bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 flex items-center justify-center font-black transition cursor-pointer active:scale-95 shadow-2xs"
+                >
+                  <X className="w-4 h-4 stroke-[2.5]" />
+                </button>
+              </div>
             </div>
 
             {/* File Upload Zone (Supports multi-image for Image to PDF) */}
@@ -942,6 +995,33 @@ export function AllServicesDashboard({ onClose }: AllServicesDashboardProps) {
                 </pre>
               </div>
             )}
+
+            {/* Bottom Modal Actions (Close / Done & Home) */}
+            <div className="flex items-center justify-between pt-4 border-t border-slate-100">
+              {onClose ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setActiveTool(null);
+                    onClose();
+                  }}
+                  className="text-xs font-bold text-slate-500 hover:text-slate-900 flex items-center gap-1.5 transition"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5 text-blue-600" />
+                  <span>Return to Home</span>
+                </button>
+              ) : (
+                <div />
+              )}
+              
+              <button
+                type="button"
+                onClick={() => setActiveTool(null)}
+                className="px-5 py-2 rounded-xl bg-slate-900 hover:bg-black text-white text-xs font-bold transition active:scale-95 shadow-xs font-outfit"
+              >
+                Close Popup (✕)
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -1144,6 +1224,39 @@ export function AllServicesDashboard({ onClose }: AllServicesDashboardProps) {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Bottom Floating/Footer Close Bar */}
+      <div className="pt-6 border-t border-slate-200/80 flex flex-wrap items-center justify-between gap-4">
+        {onClose ? (
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-900 hover:bg-black text-white text-xs sm:text-sm font-black transition active:scale-95 shadow-md font-outfit cursor-pointer"
+          >
+            <ArrowLeft className="w-4 h-4 text-blue-400" />
+            <span>← Back to Prompt Studio & Home</span>
+          </button>
+        ) : (
+          <Link
+            href="/"
+            className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-slate-900 hover:bg-black text-white text-xs sm:text-sm font-black transition active:scale-95 shadow-md font-outfit cursor-pointer"
+          >
+            <ArrowLeft className="w-4 h-4 text-blue-400" />
+            <span>← Back to Prompt Studio & Home</span>
+          </Link>
+        )}
+
+        {onClose && (
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 text-xs sm:text-sm font-extrabold transition active:scale-95 cursor-pointer font-outfit"
+          >
+            <X className="w-4 h-4 text-red-600 stroke-[2.5]" />
+            <span>Close Dashboard (✕)</span>
+          </button>
+        )}
       </div>
     </div>
   );

@@ -496,5 +496,174 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "No. Everything runs 100% free in your browser with zero registration or app installation required."
       }
     ]
+  },
+
+  // 8. DEDICATED SEO PAGES FOR ALL DASHBOARD SERVICES
+  "ai-humanizer": {
+    slug: "ai-humanizer",
+    title: "Free AI Humanizer – Bypass AI Detection & Humanize Text",
+    h1: "Free AI Humanizer – Convert Robotic AI Content to 100% Human Score",
+    metaTitle: "Free AI Humanizer – Bypass Turnitin & GPTZero AI Detectors (100% Free)",
+    metaDescription: "Convert robotic ChatGPT, Gemini and Claude drafts into natural human writing. Bypass AI detectors like Turnitin, GPTZero and CopyLeaks with zero login.",
+    keywords: [
+      "free ai humanizer",
+      "ai text humanizer online",
+      "bypass ai detection free",
+      "humanize ai text without login",
+      "undetectable ai free",
+      "turnitin ai bypass free"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Instantly transform sterile, repetitive AI writing into genuine, engaging human expression. Optimizes perplexity, burstiness, and sentence cadence so your content passes AI detectors effortlessly.",
+    faqs: [
+      {
+        q: "How does the AI Humanizer bypass AI detectors?",
+        a: "It restructures sentence length diversity (burstiness) and vocabulary richness (perplexity), removing signature robotic phrasing while preserving your core meaning."
+      },
+      {
+        q: "Is the AI Humanizer free without character limits?",
+        a: "Yes! You can humanize unlimited essays, blog posts, and scripts with zero signup or subscription fees."
+      }
+    ]
+  },
+  "ai-text-detector": {
+    slug: "ai-text-detector",
+    title: "Free AI Text Detector & Content Audit",
+    h1: "Free AI Text Detector – Check AI Content Probability & Perplexity Score",
+    metaTitle: "Free AI Text Detector – Instant AI Probability Scanner (No Login)",
+    metaDescription: "Audit your content with our free AI text detector. Scans for synthetic sentence rhythms, repetitive syntax, and AI probability percentage with 100% accuracy.",
+    keywords: [
+      "ai text detector",
+      "free ai detector online",
+      "check ai content free",
+      "gptzero alternative free",
+      "chatgpt detector online"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Deeply analyze articles, essays, and marketing copy for AI generation probability. Delivers an immediate breakdown of sentence perplexity and robotic phrasing markers.",
+    faqs: [
+      {
+        q: "How accurate is this free AI detector?",
+        a: "It cross-checks text patterns against GPT-4o, Claude 3.7, and Gemini syntaxes to detect unnatural vocabulary frequency and uniform sentence lengths."
+      }
+    ]
+  },
+  "ai-prompt-optimizer": {
+    slug: "ai-prompt-optimizer",
+    title: "AI Prompt Optimizer – Sharpen System Constraints",
+    h1: "Free AI Prompt Optimizer – Transform Rough Prompts into Master Instructions",
+    metaTitle: "AI Prompt Optimizer Free – Maximize Accuracy for ChatGPT & Claude",
+    metaDescription: "Paste any raw prompt and let our optimizer inject sharp constraints, chain-of-thought protocols, and output formatting. 100% free with zero login.",
+    keywords: [
+      "ai prompt optimizer",
+      "prompt enhancer free",
+      "optimize prompt for chatgpt",
+      "claude prompt refiner",
+      "master prompt generator"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Turn vague, conversational questions into high-performance system instructions. Adds few-shot examples, strict output schemas, and zero-hallucination guardrails.",
+    faqs: [
+      {
+        q: "Why should I optimize my AI prompts?",
+        a: "Optimized prompts reduce LLM hallucination rates by up to 80% and force models to output structured, production-ready markdown without conversational filler."
+      }
+    ]
+  },
+  "ai-prompt-checker": {
+    slug: "ai-prompt-checker",
+    title: "AI Prompt Quality Checker & Audit",
+    h1: "Free AI Prompt Checker – Audit Hallucination Risk & Constraint Quality",
+    metaTitle: "AI Prompt Checker – Instant Prompt Quality & Hallucination Audit Free",
+    metaDescription: "Audit your prompts before running them. Checks clarity scores, constraint boundaries, and hallucination likelihood for GPT-4o and Gemini 2.5.",
+    keywords: [
+      "ai prompt checker",
+      "prompt audit online",
+      "check prompt quality",
+      "prompt debugger free",
+      "ai instruction auditor"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Verify whether your prompt has adequate context, clear output constraints, and minimal ambiguity before sending it to expensive LLM tokens.",
+    faqs: [
+      {
+        q: "What does the prompt checker look for?",
+        a: "It scans for vague phrasing, missing response formatting specifications, unhandled edge cases, and excessive open-ended questions."
+      }
+    ]
+  },
+  "deepseek-prompts": {
+    slug: "deepseek-prompts",
+    title: "DeepSeek Prompts – R1 Reasoning & Coding Prompts",
+    h1: "DeepSeek Prompts – Master Coding, Math & Chain-of-Thought Reasoning Prompts",
+    metaTitle: "DeepSeek Prompts Free – Best Reasoning & Coding Prompts for DeepSeek R1",
+    metaDescription: "Master DeepSeek-R1 and DeepSeek-V3 with curated reasoning prompts. Optimized for complex algorithmic debugging, math proofs, and system architecture with zero login.",
+    keywords: [
+      "deepseek prompts",
+      "deepseek r1 prompts",
+      "deepseek coding prompts",
+      "free deepseek prompt generator",
+      "deepseek reasoning prompts"
+    ],
+    filterType: "custom",
+    filterValue: "deepseek",
+    introText: "Harness DeepSeek's open-weights mathematical and algorithmic reasoning engine. Structured prompts engineered to activate thorough reflection chains.",
+    faqs: [
+      {
+        q: "How to prompt DeepSeek-R1 for software engineering?",
+        a: "Encourage step-by-step verification, state edge case scenarios upfront, and request strict TypeScript or Python type safety."
+      }
+    ]
+  },
+  "grok-prompts": {
+    slug: "grok-prompts",
+    title: "Grok Prompts – Real-Time X/Twitter & Direct Prompts",
+    h1: "Grok Prompts – Direct, Unfiltered & Real-Time Search Prompts for Grok 2 & 3",
+    metaTitle: "Grok Prompts Free – Master Prompts for xAI Grok (Zero Login)",
+    metaDescription: "Extract maximum intelligence from xAI Grok. Real-time news synthesis, unfiltered debate, code generation, and financial analysis with zero login.",
+    keywords: [
+      "grok prompts",
+      "xai grok prompts",
+      "best grok 2 prompts",
+      "grok prompt generator free",
+      "unfiltered ai prompts"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Leverage Grok's real-time access to global social sentiment and direct reasoning style without corporate guardrails.",
+    faqs: [
+      {
+        q: "What makes Grok prompts unique?",
+        a: "Grok has real-time awareness of breaking events and cultural trends on X (Twitter), making it ideal for viral marketing and market analysis."
+      }
+    ]
+  },
+  "website-prompt-generator": {
+    slug: "website-prompt-generator",
+    title: "Website UI Prompt Generator",
+    h1: "Website Prompt Generator – Next.js, Tailwind & React UI Prompts",
+    metaTitle: "Website UI Prompt Generator – Free Web Design & Next.js Prompts",
+    metaDescription: "Generate production-grade frontend prompts for v0, Lovable, Bolt.new, and Cursor. Build responsive Next.js landing pages with zero login.",
+    keywords: [
+      "website prompt generator",
+      "ui prompt generator",
+      "v0 prompt generator",
+      "web design prompt maker",
+      "react component prompts free"
+    ],
+    filterType: "custom",
+    filterValue: "website",
+    introText: "Generate pixel-perfect UI instructions with modern color palettes, accessible Lucide icon layouts, and responsive Tailwind styling.",
+    faqs: [
+      {
+        q: "Can I use these prompts on v0.dev and Bolt.new?",
+        a: "Yes! All website prompts are tested and optimized for rapid frontend code execution on v0 by Vercel, Bolt.new, and Lovable."
+      }
+    ]
   }
 };
+
