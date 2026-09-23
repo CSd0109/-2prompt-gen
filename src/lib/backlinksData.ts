@@ -235,6 +235,13 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
         description: "Comprehensive 2026 directory linking free prompt generation, couple portraits, and video tools.",
         badge: "DA 91 Live",
         rel: "noopener noreferrer"
+      },
+      {
+        name: "Google Sites Official AI Prompts Hub",
+        url: "https://sites.google.com/view/aipromptgenerate-free/home",
+        description: "Official Google-hosted high authority directory connecting free prompt generators and AI media tools.",
+        badge: "DA 98 Live",
+        rel: "noopener noreferrer"
       }
     ]
   }
