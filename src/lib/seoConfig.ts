@@ -701,6 +701,205 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes! The toolkit is engineered with an ultra-fast responsive design optimized for smartphones, tablets, and desktops."
       }
     ]
+  },
+  "free-ai-prompts-library": {
+    slug: "free-ai-prompts-library",
+    title: "4500+ Free AI Prompts Library – Professional Prompt Engineering",
+    h1: "Explore 4500+ Free AI Prompts – Master Prompt Engineering Without Spending a Penny",
+    metaTitle: "4500+ Free AI Prompts Library (100% Free) – Master ChatGPT, Claude & Midjourney",
+    metaDescription: "Explore our collection of 4500+ free AI prompts. Learn professional prompt engineering and create stunning results without spending a penny. Zero login, 1-click copy.",
+    keywords: [
+      "free ai prompts library",
+      "4500 free ai prompts",
+      "learn prompt engineering free",
+      "best free prompt library",
+      "chatgpt prompts library free",
+      "midjourney prompt collection",
+      "free ai prompts copy paste"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Welcome to the world's most expansive free AI prompt library. Browse and copy over 4,500+ production-verified prompts for ChatGPT, Claude, Midjourney, Flux, and Sora without spending a single penny or logging in.",
+    faqs: [
+      {
+        q: "Are all 4,500+ AI prompts completely free to copy?",
+        a: "Yes, 100% free. Every single prompt is open-access with 1-click copy and zero paywalls."
+      },
+      {
+        q: "Can I use these prompts for commercial client work?",
+        a: "Yes, all prompts are royalty-free and approved for commercial advertising, software development, and graphic design."
+      }
+    ]
+  },
+  "ready-to-use-ai-prompts": {
+    slug: "ready-to-use-ai-prompts",
+    title: "Ready-To-Use AI Prompts for ChatGPT, Claude, Gemini & Grok",
+    h1: "Build Ready-to-Use Prompts for ChatGPT, Claude, Gemini, Grok & Video AI Models",
+    metaTitle: "Ready-To-Use AI Prompts (Free) – Copy Prompts for Text, Image & Video Models",
+    metaDescription: "Build ready-to-use prompts for ChatGPT, Claude, Gemini, Grok, and other AI models across text, image, and video tasks. Instant 1-click generation, zero login.",
+    keywords: [
+      "ready to use ai prompts",
+      "ready made chatgpt prompts",
+      "claude prompts copy paste",
+      "grok prompts ready to use",
+      "gemini prompt templates free",
+      "text image video prompts ai"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Deploy instant, field-tested AI prompts engineered for maximum precision. Tailored for OpenAI ChatGPT-4o, Anthropic Claude 3.7, Google Gemini 2.5 Flash, and xAI Grok across text, image, and video tasks.",
+    faqs: [
+      {
+        q: "What makes these prompts ready-to-use?",
+        a: "They include predefined parameters, camera angles, negative constraints, and output formatting rules so you get perfect results on your first attempt."
+      }
+    ]
+  },
+  "ai-prompt-generator-online": {
+    slug: "ai-prompt-generator-online",
+    title: "Free AI Prompt Generator Online – Craft Consistent Master Prompts",
+    h1: "Free AI Prompt Generator – Craft Perfect Prompts for ChatGPT, Gemini & Claude",
+    metaTitle: "Free AI Prompt Generator Online – High-Quality Prompts From Any LLM (No Sign-Up)",
+    metaDescription: "Use our free AI Prompt Generator to craft perfect prompts for ChatGPT, Gemini, Claude, & more. Get consistent, high-quality prompts from any LLMs with zero login.",
+    keywords: [
+      "free ai prompt generator online",
+      "craft perfect prompts ai",
+      "prompt generator for any llm",
+      "consistent ai prompts maker",
+      "chatgpt gemini claude prompt builder",
+      "ai prompt writer free"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Transform rough concepts into high-performing master instructions with our online AI Prompt Generator. Eliminates model hallucination and produces consistent, production-grade output across any modern LLM.",
+    faqs: [
+      {
+        q: "How does this generator ensure consistent output from LLMs?",
+        a: "It injects strict system personas, structured chain-of-thought protocols, and output syntax constraints to prevent conversational drift."
+      }
+    ]
+  },
+  "banana-prompts": {
+    slug: "banana-prompts",
+    title: "Banana Prompts for Nano Banana AI Image Generation",
+    h1: "Explore Banana Prompts for Nano Banana AI – 8K Photorealistic AI Image Prompts",
+    metaTitle: "Banana Prompts Free – 1-Click Copy Prompts for Nano Banana AI Image Generator",
+    metaDescription: "Explore Banana Prompts for Nano Banana AI image generation. Get inspired, copy prompts with one click, and start creating stunning AI art instantly with zero login.",
+    keywords: [
+      "banana prompts",
+      "nano banana prompts",
+      "nano banana ai art generator",
+      "banana prompts free copy",
+      "photorealistic nano banana prompts",
+      "8k editorial banana prompts"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Discover the elite collection of Banana Prompts engineered specifically for Nano Banana Pro. Achieve breathtaking 8K editorial fashion, natural skin micro-textures, and cinematic analog lighting with 1-click copy.",
+    faqs: [
+      {
+        q: "What are Banana Prompts?",
+        a: "Banana Prompts are curated, high-fidelity visual instructions optimized for Nano Banana Pro's ultra-realistic character generation and cinematic lighting."
+      }
+    ]
+  },
+  "ai-prompt-idea-library": {
+    slug: "ai-prompt-idea-library",
+    title: "Free AI Prompt Idea Library – Midjourney, Flux, Ideogram & Sora",
+    h1: "Curated AI Prompt Idea Library – Book Covers, Photography, Wallpapers & UI",
+    metaTitle: "Free AI Prompt Idea Library – Best Prompts for Midjourney, Flux & Ideogram",
+    metaDescription: "Explore our free AI prompt idea library. Curated prompts for Midjourney, Flux, Ideogram, Sora, ChatGPT: book covers, photography, wallpapers, and 3D icons.",
+    keywords: [
+      "ai prompt idea library",
+      "free prompt ideas midjourney",
+      "flux prompt ideas free",
+      "ideogram prompt library",
+      "book cover ai prompts",
+      "photography prompt ideas ai",
+      "wallpaper prompt library free"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Ignite your creativity with our comprehensive AI prompt idea library. Featuring curated themes for commercial book covers, high-fashion editorial photography, 8K desktop wallpapers, and 3D UI assets.",
+    faqs: [
+      {
+        q: "Which image models are supported in the Idea Library?",
+        a: "Prompts are verified across Midjourney v6.1, Flux 1.1 Pro, Ideogram 2.0, DALL-E 3, and Nano Banana Pro."
+      }
+    ]
+  },
+  "picsart-image-to-prompt-alternative": {
+    slug: "picsart-image-to-prompt-alternative",
+    title: "Picsart Image to Prompt Free Alternative – 100% Free Reverse Engineering",
+    h1: "Turn Any Image into a Detailed AI Prompt – Free Picsart Image-to-Prompt Alternative",
+    metaTitle: "Free Image to Prompt Generator (Picsart Alternative) – Zero Paywalls, Unlimited",
+    metaDescription: "Turn any image into a detailed AI prompt with our free Image to Prompt Generator. Upload a photo, pick your AI model, and generate prompts in seconds with zero login.",
+    keywords: [
+      "picsart image to prompt alternative",
+      "free image to prompt generator",
+      "turn image into ai prompt",
+      "reverse engineer image prompt free",
+      "photo to prompt generator no login",
+      "image to prompt without signup"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Looking for an unlimited, 100% free alternative to Picsart's Image to Prompt? Upload any photo to extract subjects, camera lenses, volumetric lighting, and color grading into a copy-ready master prompt in seconds.",
+    faqs: [
+      {
+        q: "Why use AI Prompt Generate instead of Picsart?",
+        a: "Unlike Picsart which caps daily uploads and pushes paid Pro subscriptions, our Image to Prompt tool is 100% free forever with zero sign-up."
+      }
+    ]
+  },
+  "professional-ai-prompts": {
+    slug: "professional-ai-prompts",
+    title: "Professional AI Prompts for Enterprise & Productivity",
+    h1: "Generate Professional AI Prompts for ChatGPT, Claude, Gemini & Enterprise Workflows",
+    metaTitle: "Professional AI Prompts Free – Boost Output Quality & Productivity 10x",
+    metaDescription: "Generate professional AI prompts for ChatGPT, Claude, Gemini and other AI models. Enhance output quality and boost productivity with our free prompt studio.",
+    keywords: [
+      "professional ai prompts",
+      "enterprise chatgpt prompts",
+      "boost productivity with ai prompts",
+      "professional prompt engineering",
+      "executive ai prompt generator",
+      "high quality claude prompts"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Elevate your business productivity with enterprise-grade professional AI prompts. Engineered for strategic analysis, executive communications, code refactoring, and market research across ChatGPT, Claude, and Gemini.",
+    faqs: [
+      {
+        q: "How do professional prompts boost output quality?",
+        a: "They eliminate casual chatter by establishing executive personas, clear evaluation criteria, and structured markdown deliverables."
+      }
+    ]
+  },
+  "proxima-art-alternatives": {
+    slug: "proxima-art-alternatives",
+    title: "Proxima.art Alternatives – 2000+ Free AI Image Prompts (Flux & Nano Banana)",
+    h1: "Best Proxima.art Alternatives – Free Text-to-Image Prompts for Flux, Nano Banana & SeaDream",
+    metaTitle: "Proxima.art Alternatives – Browse Free AI Image Prompts (Flux, Anime & Portraits)",
+    metaDescription: "Browse free AI image prompts on the best Proxima.art alternative. Copy text-to-image prompts for Flux, Nano Banana, SeaDream, Qwen, Z-Image, anime, portrait, and 8K art.",
+    keywords: [
+      "proxima art alternatives",
+      "proxima art free prompts",
+      "flux text to image prompts",
+      "seadream prompt generator",
+      "qwen z-image prompts free",
+      "anime portrait ai prompts",
+      "best free ai art prompt website"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Discover the ultimate alternative to Proxima.art. Browse and copy thousands of verified text-to-image prompts for Flux 1.1 Pro, Nano Banana, SeaDream, Qwen, anime character design, and 8K photorealistic portraits with zero registration.",
+    faqs: [
+      {
+        q: "Is AI Prompt Generate a free alternative to Proxima.art?",
+        a: "Yes! AI Prompt Generate provides instant 1-click prompt copying for Flux, Midjourney, and Nano Banana with zero login and no credit limits."
+      }
+    ]
   }
 };
 
