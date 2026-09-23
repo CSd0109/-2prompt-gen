@@ -1044,6 +1044,147 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "They are mathematically and syntactically structured instructions that maximize LLM deterministic reasoning and eliminate hallucination."
       }
     ]
+  },
+  "copy-paste-ai-image-prompts": {
+    slug: "copy-paste-ai-image-prompts",
+    title: "Best AI Image Prompts – 50+ Copy-Paste Templates",
+    h1: "Best AI Image Prompts – Copy-Paste Templates for Portraits, Anime, Landscapes & Logos",
+    metaTitle: "Best AI Image Prompts – 50+ Copy-Paste Templates (Portraits & Anime)",
+    metaDescription: "Looking for the best AI image prompts? Discover 50+ copy-paste prompt templates for portraits, anime, landscapes, logos, and food photography with zero login.",
+    keywords: [
+      "best ai image prompts",
+      "copy paste ai image prompts",
+      "portrait prompt templates free",
+      "anime ai image prompts",
+      "landscape prompt templates",
+      "logo design ai prompts"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Browse our hand-tested collection of over 50+ copy-paste AI image prompt templates. Perfect for generating breathtaking hyper-realistic portraits, Japanese anime styles, landscapes, and minimal vector logos.",
+    faqs: [
+      {
+        q: "Can I copy and paste these templates directly into Midjourney and Flux?",
+        a: "Yes! Simply copy the prompt, replace the bracketed subject with your idea, and generate."
+      }
+    ]
+  },
+  "chatgpt-images-prompts": {
+    slug: "chatgpt-images-prompts",
+    title: "ChatGPT Images Prompts – Preset Filters & Precise Edits",
+    h1: "ChatGPT Images Prompts – Generate High-Quality AI Images with Precise Edits",
+    metaTitle: "ChatGPT Images Prompts – Preset Filters & Trending AI Prompts Free",
+    metaDescription: "Generate high-quality AI images quickly with ChatGPT Images, featuring precise edits, preset filters, and trending prompts. 100% free with zero login.",
+    keywords: [
+      "chatgpt images prompts",
+      "chatgpt image generator prompts",
+      "dall-e 3 chatgpt prompts",
+      "chatgpt photo editing prompts",
+      "trending chatgpt image prompts"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Supercharge ChatGPT's native DALL-E 3 image generation. Master prompts tailored for sequential photo edits, aesthetic lighting filters, and trending digital compositions.",
+    faqs: [
+      {
+        q: "How do I make ChatGPT generate realistic photos?",
+        a: "Specify precise focal lengths, Kodak or Fujifilm film stocks, volumetric natural lighting, and photographic texture details."
+      }
+    ]
+  },
+  "ai-image-prompt-examples": {
+    slug: "ai-image-prompt-examples",
+    title: "AI Image Prompt Examples with Real Results & Variations",
+    h1: "AI Image Prompt Examples – Compare Real Text Prompts & Resulting Art",
+    metaTitle: "AI Image Prompt Examples – Real Prompts, Images & Variations Free",
+    metaDescription: "Browse AI image prompt examples to see real text prompts, the resulting image, and prompt variations to try. 100% free copy-ready library.",
+    keywords: [
+      "ai image prompt examples",
+      "see prompts and resulting images",
+      "prompt variations to try",
+      "ai art prompt with results",
+      "real text prompts examples"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Eliminate the guesswork of prompt writing. View real-world AI image prompt examples alongside their generated visual outputs, camera settings, and prompt iterations.",
+    faqs: [
+      {
+        q: "Why are side-by-side prompt examples useful?",
+        a: "They allow you to see the exact relationship between technical keywords (e.g. 'octane render', 'rim light') and visual art outputs."
+      }
+    ]
+  },
+  "promptplum-alternative": {
+    slug: "promptplum-alternative",
+    title: "PromptPlum Alternative – Free AI Photo Editing Prompts Library",
+    h1: "Best PromptPlum Alternative – High-Quality AI Photo Editing Prompts for Gemini & ChatGPT",
+    metaTitle: "PromptPlum Alternative (100% Free) – Battle-Tested Photo Editing Prompts",
+    metaDescription: "PromptPlum is a battle-tested AI photo editing prompts library for Gemini & ChatGPT. AI Prompt Generate is the 100% free alternative with zero paywalls.",
+    keywords: [
+      "promptplum alternative",
+      "promptplum free",
+      "ai photo editing prompts library",
+      "restyle photos with ai prompts",
+      "battle tested editing prompts",
+      "gemini photo editing prompts"
+    ],
+    filterType: "custom",
+    filterValue: "gemini",
+    introText: "Looking for an open, unrestricted alternative to PromptPlum? Discover battle-tested photo editing prompts optimized for Google Gemini 2.5 and ChatGPT-4o to restyle, retouch, and transform your photos.",
+    faqs: [
+      {
+        q: "How does this compare to PromptPlum?",
+        a: "We offer completely free, unlimited access to photo editing and restyling prompts without requiring credit card subscriptions."
+      }
+    ]
+  },
+  "ai-image-analyzer-prompt": {
+    slug: "ai-image-analyzer-prompt",
+    title: "AI Image Analyzer & Reverse Image to Prompt Tool",
+    h1: "AI Image Analyzer – Instantly Analyze Any Image & Generate Accurate Prompts",
+    metaTitle: "AI Image Analyzer & Reverse Prompt Tool (100% Free) – Upload & Copy",
+    metaDescription: "Use our AI Image Analyzer and Image to Prompt tool to instantly analyze any image and generate highly accurate and precise AI text prompts. 100% free.",
+    keywords: [
+      "ai image analyzer",
+      "reverse image to prompt tool",
+      "analyze image generate prompt",
+      "precise ai text prompts from photo",
+      "image prompt reader online free"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Upload any screenshot or photo to decompose its artistic composition. Our AI Image Analyzer reverse-engineers camera lenses, lighting ratios, subject tags, and color palettes into ready-to-run prompts.",
+    faqs: [
+      {
+        q: "What details does the AI Image Analyzer extract?",
+        a: "It detects art style, subject positioning, camera focal length (e.g. 85mm), lighting setups, and color saturation profiles."
+      }
+    ]
+  },
+  "figurine-style-prompts": {
+    slug: "figurine-style-prompts",
+    title: "Custom Figurine & Miniature Style Prompts (Nano Banana & Gemini)",
+    h1: "Photo to Figurine Style Prompts – Turn Favorite Pics into Custom Miniature Figures",
+    metaTitle: "Photo to Figurine Style Prompts – Custom 3D Miniature Figures Free",
+    metaDescription: "From photo to figurine style in just one prompt. Turn your favorite pics into images of custom miniature figures with Nano Banana and Gemini. 100% free.",
+    keywords: [
+      "figurine style prompts",
+      "photo to figurine prompt",
+      "custom miniature figures ai",
+      "nano banana figurine prompt",
+      "gemini custom 3d figure prompts",
+      "clay figurine style ai prompt"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Transform any person, pet, or character photo into an adorable custom collectible figurine, 3D vinyl toy, or clay miniature. Optimized for Nano Banana in Google Gemini.",
+    faqs: [
+      {
+        q: "How does the Photo-to-Figurine prompt work?",
+        a: "It instructs the AI model to render subjects with glossy PVC plastic textures, realistic miniature studio lighting, and blister-pack toy collectible display stands."
+      }
+    ]
   }
 };
 
