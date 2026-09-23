@@ -13,6 +13,7 @@ import { BlogsAndFaqSection } from "@/components/BlogsAndFaqSection";
 import { BacklinkDirectorySection } from "@/components/BacklinkDirectorySection";
 import { AlternativesComparisonSection } from "@/components/AlternativesComparisonSection";
 import { MultilingualSeoSection } from "@/components/MultilingualSeoSection";
+import { SocialVideoDownloader } from "@/components/SocialVideoDownloader";
 import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
 import { Dices } from "lucide-react";
 import confetti from "canvas-confetti";
@@ -230,7 +231,7 @@ export default function HomePage() {
             />
           </section>
 
-          {/* Babal ALL SERVICES Dashboard (Exact replica of GeneratePrompt.net Free AI Tools) */}
+          {/* Babal ALL SERVICES Dashboard */}
           {showAllServices && (
             <section className="w-full flex justify-center mb-10">
               <AllServicesDashboard 
@@ -238,6 +239,9 @@ export default function HomePage() {
               />
             </section>
           )}
+
+          {/* Universal Social Media Video Downloader (Facebook, TikTok, Instagram, Shorts) */}
+          <SocialVideoDownloader />
 
           {currentTab === "characters" ? (
             <CharactersGallery />

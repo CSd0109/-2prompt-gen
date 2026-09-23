@@ -31,7 +31,9 @@ export async function POST(req: NextRequest) {
       `https://${HOST}/pdf-editor`,
       // 6. Alternatives & Competitors
       `https://${HOST}/aipromptgenerator-alternatives`,
-      `https://${HOST}/properprompt-alternatives`
+      `https://${HOST}/properprompt-alternatives`,
+      // 7. Video Downloaders
+      `https://${HOST}/social-video-downloader`
     ];
 
     const payload = {

@@ -460,5 +460,41 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Top alternatives include AI Prompt Generate (#1 free pick), PromptProGen, BestPromptGen, Prompt-Genie.app, PromptGenerator.org, and PromptMuse.net."
       }
     ]
+  },
+
+  // 7. SOCIAL VIDEO DOWNLOADER (Facebook, TikTok, Instagram, Shorts)
+  "social-video-downloader": {
+    slug: "social-video-downloader",
+    title: "Free Social Media Video Downloader (TikTok, FB, Insta)",
+    h1: "Free Social Video Downloader – Download TikTok, Facebook & Instagram Videos Online",
+    metaTitle: "Social Video Downloader – Download TikTok, FB & Instagram HD Videos",
+    metaDescription: "Download TikTok videos without watermark, Facebook Watch videos, and Instagram Reels in 1080p Full HD MP4. 100% free with zero login and unlimited downloads.",
+    keywords: [
+      "social video downloader",
+      "download tiktok video without watermark",
+      "facebook video downloader",
+      "instagram reels downloader free",
+      "download fb video",
+      "insta video download",
+      "youtube shorts downloader",
+      "online video downloader free"
+    ],
+    filterType: "custom",
+    filterValue: "video",
+    introText: "Download public videos from TikTok, Instagram, Facebook, and YouTube Shorts in original 1080p Full HD without watermarks. Free, fast, and completely anonymous.",
+    faqs: [
+      {
+        q: "Can I download TikTok videos without watermark?",
+        a: "Yes! Our downloader strips watermarks and exports crisp original HD MP4 files directly to your device."
+      },
+      {
+        q: "Does it support Facebook and Instagram Reels?",
+        a: "Yes. Simply paste the link from Facebook Watch or Instagram Reels to generate instant download links."
+      },
+      {
+        q: "Do I need to create an account or install an app?",
+        a: "No. Everything runs 100% free in your browser with zero registration or app installation required."
+      }
+    ]
   }
 };
