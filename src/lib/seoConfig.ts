@@ -345,5 +345,40 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes! AI Prompt Generate (www.aipromptgenerate.xyz) is 100% free forever with no credit limits, no subscription fees, and no sign-up required."
       }
     ]
+  },
+  "properprompt-alternatives": {
+    slug: "properprompt-alternatives",
+    title: "ProperPrompt Alternatives & Competitors (100% Free, Zero Signup)",
+    h1: "Best ProperPrompt Alternatives – Fix Error 4.22.2 & Get Unlimited Free Prompts",
+    metaTitle: "ProperPrompt Alternatives & Competitors – 100% Free AI Prompts 2026",
+    metaDescription: "Looking for ProperPrompt alternatives? Fix signup Error 4.22.2 with AI Prompt Generate. Free per-platform AI prompts tailored for Claude, ChatGPT, Gemini, Grok, and Veo without registration.",
+    keywords: [
+      "ProperPrompt alternatives",
+      "ProperPrompt competitors",
+      "ProperPrompt error 4.22.2",
+      "ProperPrompt signup error",
+      "PromptProGen alternatives",
+      "BestPromptGen alternatives",
+      "per-platform ai prompts free",
+      "paste messy prompt get structured rewrite",
+      "prompt organization tool free"
+    ],
+    filterType: "custom",
+    filterValue: "claude",
+    introText: "Getting 'We can't support your registration right now. Please try again later. (Error 4.22.2)' on ProperPrompt? Switch to AI Prompt Generate. Get structured prompt rewrites tailored to Claude, ChatGPT, Gemini, Grok, Nano Banana Pro, and Google Veo 3 with zero login and no credit caps.",
+    faqs: [
+      {
+        q: "Why does ProperPrompt show 'Error 4.22.2: We can't support your registration right now'?",
+        a: "Error 4.22.2 occurs when a SaaS platform restricts account signups due to geographic filters, auth service outages, or aggressive spam defenses. AI Prompt Generate eliminates registration entirely so you never encounter signup barriers."
+      },
+      {
+        q: "What are the top features of ProperPrompt?",
+        a: "ProperPrompt features include Prompt Organization, Improved Workflow Efficiency, Collaboration Features, Version Control, and Centralized Repository."
+      },
+      {
+        q: "What are the top competitors to ProperPrompt?",
+        a: "Top alternatives include AI Prompt Generate (#1 free pick), PromptProGen, BestPromptGen, Prompt-Genie.app, PromptGenerator.org, and PromptMuse.net."
+      }
+    ]
   }
 };

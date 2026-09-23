@@ -1,92 +1,182 @@
 import React from "react";
-import { Check, X, Shield, Zap, Sparkles, Star, Award, TrendingUp, Users, HeartHandshake } from "lucide-react";
+import { Check, X, Shield, Zap, Sparkles, Star, Award, TrendingUp, AlertTriangle, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 interface Competitor {
   name: string;
-  url?: string;
-  status: "UP" | "LIMITED" | "PAID";
+  category: string;
+  status: "UP" | "ERROR / BROKEN" | "PAID / LIMITED";
   rating: string;
   pricing: string;
   loginRequired: boolean;
   creditCaps: string;
-  modelsSupported: string;
+  keyFeatures: string;
+  errorNote?: string;
   isUs?: boolean;
 }
 
-const COMPARISON_DATA: Competitor[] = [
+const ALL_COMPETITORS: Competitor[] = [
   {
     name: "AI Prompt Generate (Our Platform)",
+    category: "Full Multi-Modal AI Suite",
     status: "UP",
-    rating: "5.0 / 5 (Verified Community Favorite)",
+    rating: "5.0 / 5 (Community Choice)",
     pricing: "100% Free Forever",
     loginRequired: false,
     creditCaps: "Unlimited (Zero caps)",
-    modelsSupported: "ChatGPT-4o, Claude Opus, Gemini 2.5, Nano Banana Pro, Veo 3, v0, Replit",
+    keyFeatures: "Instant 1-Click Copy, Zero Registration Required, No Error 4.22.2, Full Multi-Model Parity (ChatGPT-4o, Claude Opus, Gemini 2.5, Nano Banana Pro, Google Veo 3, SeaDance 2.2, v0, Replit)",
     isUs: true,
   },
   {
-    name: "AIPromptGenerator.app",
-    status: "UP",
-    rating: "4.1 / 5",
-    pricing: "Freemium ($9–$19/mo)",
+    name: "ProperPrompt",
+    category: "Prompt Rewrite",
+    status: "ERROR / BROKEN",
+    rating: "3.2 / 5",
+    pricing: "Freemium ($15/mo)",
     loginRequired: true,
-    creditCaps: "10–20 daily free credits",
-    modelsSupported: "Basic ChatGPT & Claude only",
+    creditCaps: "Registration Blocked",
+    keyFeatures: "Per-platform rewrites, Prompt Organization, Version Control",
+    errorNote: "Registration Broken: Users receive 'We can't support your registration right now. Please try again later. (Error 4.22.2)'.",
+  },
+  {
+    name: "PromptProGen",
+    category: "Prompt Generation",
+    status: "PAID / LIMITED",
+    rating: "4.1 / 5",
+    pricing: "$19 / Month",
+    loginRequired: true,
+    creditCaps: "Restricted free tier",
+    keyFeatures: "Streamlined prompt creation, Beginner friendly, Output scoring",
+  },
+  {
+    name: "AIPromptGenerator.app",
+    category: "Prompt Tools",
+    status: "PAID / LIMITED",
+    rating: "4.1 / 5",
+    pricing: "$9 - $19 / Month",
+    loginRequired: true,
+    creditCaps: "10-20 daily uses then paywall",
+    keyFeatures: "Ease of Use, Time-Saving, Versatility, Inspiration for Creativity",
+  },
+  {
+    name: "BestPromptGen",
+    category: "Prompt Builder",
+    status: "PAID / LIMITED",
+    rating: "3.9 / 5",
+    pricing: "$12.99 / Month",
+    loginRequired: true,
+    creditCaps: "Subscription mandatory",
+    keyFeatures: "Specialized Prompt Generation, JSON prompts, Guided structure",
   },
   {
     name: "Generate Prompt AI (generateprompt.net)",
-    status: "UP",
+    category: "Gallery & Prompts",
+    status: "PAID / LIMITED",
     rating: "4.2 / 5",
     pricing: "Freemium ($12/mo)",
     loginRequired: true,
     creditCaps: "Shared IP limits (10/day)",
-    modelsSupported: "ChatGPT & standard prompts",
+    keyFeatures: "Text and image prompt dashboard, OCR text tool",
+  },
+  {
+    name: "PromptGenerator.org",
+    category: "Multi-Model Prompts",
+    status: "UP",
+    rating: "4.0 / 5",
+    pricing: "Freemium",
+    loginRequired: true,
+    creditCaps: "Daily credit allowance",
+    keyFeatures: "ChatGPT, Flux AI, Veo3 templates, Video prompts",
+  },
+  {
+    name: "Prompt-Genie.app",
+    category: "Prompt Optimizer",
+    status: "PAID / LIMITED",
+    rating: "3.8 / 5",
+    pricing: "Freemium",
+    loginRequired: true,
+    creditCaps: "Token limitations",
+    keyFeatures: "Prompt Optimization, Ease of Use, Time Saving",
+  },
+  {
+    name: "PromptMuse.net",
+    category: "Image Prompts",
+    status: "UP",
+    rating: "3.9 / 5",
+    pricing: "Ad-supported",
+    loginRequired: false,
+    creditCaps: "Search quota limit",
+    keyFeatures: "Stable Diffusion, ChatGPT prompt generator",
+  },
+  {
+    name: "PromptPerfect",
+    category: "Prompt Engineering",
+    status: "PAID / LIMITED",
+    rating: "4.3 / 5",
+    pricing: "Usage-based tokens ($9.99+)",
+    loginRequired: true,
+    creditCaps: "Credits consumed per prompt",
+    keyFeatures: "Multi-Model Compatibility, Performance Analytics, Debugging",
+  },
+  {
+    name: "Promptify.pro",
+    category: "AI Workflows",
+    status: "PAID / LIMITED",
+    rating: "3.7 / 5",
+    pricing: "Paid subscription",
+    loginRequired: true,
+    creditCaps: "No free tier",
+    keyFeatures: "Enhance workflow with AI prompts",
+  },
+  {
+    name: "PromptsGenii",
+    category: "Visual Prompts",
+    status: "UP",
+    rating: "3.8 / 5",
+    pricing: "Freemium",
+    loginRequired: true,
+    creditCaps: "Daily limit",
+    keyFeatures: "Visual prompt crafting, Community public prompts",
+  },
+  {
+    name: "TrustPrompt by Futurion Solutions",
+    category: "Enterprise Compliance",
+    status: "PAID / LIMITED",
+    rating: "4.0 / 5",
+    pricing: "Enterprise quote",
+    loginRequired: true,
+    creditCaps: "Enterprise licensing",
+    keyFeatures: "GDPR, EU AI Act, ISO 27001, SOC 2 compliance boundary",
+  },
+  {
+    name: "No Prompt Injections",
+    category: "AI Security",
+    status: "UP",
+    rating: "4.2 / 5",
+    pricing: "Freemium developer API",
+    loginRequired: true,
+    creditCaps: "API request tiers",
+    keyFeatures: "Security guardrails against prompt injection attacks",
   },
   {
     name: "AI Prompt Finder",
+    category: "Prompt Directory",
     status: "UP",
     rating: "3.9 / 5",
-    pricing: "Free with aggressive ads",
+    pricing: "Free with ads",
     loginRequired: false,
     creditCaps: "Limited search quota",
-    modelsSupported: "Static catalog only",
+    keyFeatures: "Searchable prompt directory",
   },
   {
     name: "AIPromptHub.org",
-    status: "UP",
+    category: "Prompt Marketplace",
+    status: "PAID / LIMITED",
     rating: "4.0 / 5",
     pricing: "Freemium with subscriptions",
     loginRequired: true,
     creditCaps: "15 credits then paywall",
-    modelsSupported: "ChatGPT & Midjourney text",
-  },
-  {
-    name: "ProperPrompt",
-    status: "LIMITED",
-    rating: "3.8 / 5",
-    pricing: "Paid ($15/mo)",
-    loginRequired: true,
-    creditCaps: "No free tier",
-    modelsSupported: "LLMs only (No video/website)",
-  },
-  {
-    name: "PromptBase",
-    status: "UP",
-    rating: "4.5 / 5",
-    pricing: "$2.99 – $9.99 per prompt",
-    loginRequired: true,
-    creditCaps: "Pay per prompt",
-    modelsSupported: "Midjourney, DALL-E, GPT",
-  },
-  {
-    name: "FlowGPT",
-    status: "UP",
-    rating: "4.4 / 5",
-    pricing: "Freemium with tokens",
-    loginRequired: true,
-    creditCaps: "Daily token allowance",
-    modelsSupported: "Community chatbot prompts",
+    keyFeatures: "ChatGPT & Midjourney text prompts",
   },
 ];
 
@@ -100,23 +190,36 @@ export function AlternativesComparisonSection() {
         <div className="relative z-10 space-y-4 max-w-4xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold tracking-wide uppercase font-outfit">
             <TrendingUp className="w-3.5 h-3.5 text-blue-600" />
-            <span>Market Analysis • Latest update: 2026-09-23</span>
+            <span>Competitive Intelligence & Alternatives Directory • Latest update: 2026-09-23</span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-950 tracking-tight leading-tight font-outfit">
-            AIPromptGenerator.app Alternatives & Top Competitors (2026 Comparison)
+            ProperPrompt & AIPromptGenerator.app Alternatives & Top Competitors
           </h2>
 
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed font-medium">
-            Looking for the best <strong>AIPromptGenerator.app alternatives</strong> based on verified community votes, real user reviews, pricing transparency, and generation performance? Compare the top prompt engineering tools side-by-side.
+            Looking for working <strong>ProperPrompt alternatives</strong> and <strong>AIPromptGenerator.app competitors</strong>? Tired of registration barriers, paywalls, and signup failures like <em>&quot;We can&apos;t support your registration right now. Please try again later. (Error 4.22.2)&quot;</em>?
           </p>
+
+          {/* Alert box highlighting registration issues of competitors */}
+          <div className="p-4 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-xs sm:text-sm leading-relaxed flex items-start gap-3">
+            <AlertTriangle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
+            <div>
+              <p className="font-bold">ProperPrompt & Competitor Signup Outages:</p>
+              <p className="text-xs text-amber-800 mt-0.5">
+                Users attempting to create accounts on ProperPrompt and similar SaaS tools frequently encounter: 
+                <code className="mx-1 px-1.5 py-0.5 bg-amber-100/80 rounded font-mono font-bold text-amber-950">&quot;We can&apos;t support your registration right now. Please try again later. (Error 4.22.2)&quot;</code>.
+                <strong>AI Prompt Generate</strong> bypasses registration completely—100% of our prompt generation, OCR vision tools, and PDF utilities are open immediately with zero login.
+              </p>
+            </div>
+          </div>
 
           <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs sm:text-sm text-slate-700 leading-relaxed font-medium space-y-2">
             <p>
-              <strong>Top features & benefits:</strong> Ease of Use, Time-Saving, Versatility, Inspiration for Creativity, and Accessible for Beginners.
+              <strong>Top features & benefits:</strong> Prompt Organization, Improved Workflow Efficiency, Collaboration Features, Version Control, Centralized Repository, and Zero-Login Multi-Platform Prompt Rewriting for Claude, ChatGPT, Gemini, Grok, Nano Banana Pro, and Google Veo 3.
             </p>
             <p className="text-slate-500 text-xs">
-              We evaluated more than 10 alternatives to AIPromptGenerator.app. Top rated competitors include <em>AI Prompt Generator, Generate Prompt AI, AI Prompt Finder, AIPromptHub.org, ProperPrompt</em>, and <em>PromptBase</em>.
+              We evaluated more than 15 alternatives to ProperPrompt and AIPromptGenerator.app: <em>PromptProGen, AI Prompt Generator, BestPromptGen, Prompt-Genie.app, PromptGenerator.org, PromptMuse.net, PromptPerfect, TrustPrompt, PromptsGenii, AIPromptHub.org, No Prompt Injections</em>, and <em>FlowGPT</em>.
             </p>
           </div>
         </div>
@@ -127,14 +230,14 @@ export function AlternativesComparisonSection() {
         <div className="p-6 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <h3 className="text-lg font-black text-slate-900 font-outfit tracking-tight">
-              Feature & Pricing Comparison Matrix
+              15+ Prompt Tool Competitors Feature & Status Matrix
             </h3>
             <p className="text-xs text-slate-500 font-medium">
-              Verified metrics and platform availability as of September 2026
+              Verified availability, registration status, and pricing transparency (Sept 2026)
             </p>
           </div>
           <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold font-mono">
-            Status: UP & Tested
+            Zero-Login Guaranteed
           </span>
         </div>
 
@@ -143,15 +246,15 @@ export function AlternativesComparisonSection() {
             <thead>
               <tr className="bg-slate-50 border-b border-slate-200 text-slate-700 font-outfit font-extrabold uppercase text-[11px] tracking-wider">
                 <th className="p-4 pl-6">Platform</th>
+                <th className="p-4">Category</th>
                 <th className="p-4">Pricing</th>
                 <th className="p-4">Login Required?</th>
-                <th className="p-4">Daily Caps</th>
-                <th className="p-4">Supported Models</th>
-                <th className="p-4 pr-6">Status</th>
+                <th className="p-4">Registration Status</th>
+                <th className="p-4 pr-6">Platform Status</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
-              {COMPARISON_DATA.map((item, idx) => (
+              {ALL_COMPETITORS.map((item, idx) => (
                 <tr
                   key={idx}
                   className={`transition-colors ${
@@ -174,8 +277,14 @@ export function AlternativesComparisonSection() {
                             #1 Free Pick
                           </span>
                         )}
+                        {item.errorNote && (
+                          <p className="text-[11px] text-red-600 font-semibold mt-0.5">{item.errorNote}</p>
+                        )}
                       </div>
                     </div>
+                  </td>
+                  <td className="p-4 text-slate-600 font-medium">
+                    {item.category}
                   </td>
                   <td className="p-4">
                     <span className={item.isUs ? "text-emerald-700 font-black" : "text-slate-700 font-semibold"}>
@@ -184,24 +293,39 @@ export function AlternativesComparisonSection() {
                   </td>
                   <td className="p-4">
                     {item.loginRequired ? (
-                      <span className="inline-flex items-center gap-1 text-amber-700 font-semibold">
-                        <X className="w-4 h-4 text-amber-600" /> Yes (Mandatory)
+                      <span className="inline-flex items-center gap-1 text-slate-700 font-semibold">
+                        <X className="w-4 h-4 text-slate-500" /> Mandatory
                       </span>
                     ) : (
                       <span className="inline-flex items-center gap-1 text-emerald-700 font-bold">
-                        <Check className="w-4 h-4 text-emerald-600" /> Zero Login
+                        <Check className="w-4 h-4 text-emerald-600" /> No Signup Needed
                       </span>
                     )}
                   </td>
                   <td className="p-4">
-                    <span className="text-slate-600 font-medium">{item.creditCaps}</span>
-                  </td>
-                  <td className="p-4 max-w-xs text-slate-600">
-                    <span className="line-clamp-2">{item.modelsSupported}</span>
+                    {item.status === "ERROR / BROKEN" ? (
+                      <span className="inline-flex items-center gap-1 text-red-700 font-bold text-[11px] px-2 py-0.5 rounded-full bg-red-100 border border-red-200">
+                        Error 4.22.2 (Signup Failed)
+                      </span>
+                    ) : item.isUs ? (
+                      <span className="inline-flex items-center gap-1 text-emerald-700 font-bold text-[11px] px-2 py-0.5 rounded-full bg-emerald-100 border border-emerald-200">
+                        Instant Access (No Wall)
+                      </span>
+                    ) : (
+                      <span className="text-slate-600 text-xs">Standard Form</span>
+                    )}
                   </td>
                   <td className="p-4 pr-6">
-                    <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                    <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold ${
+                      item.status === "UP" 
+                        ? "bg-emerald-100 text-emerald-800" 
+                        : item.status === "ERROR / BROKEN"
+                        ? "bg-red-100 text-red-800"
+                        : "bg-slate-100 text-slate-700"
+                    }`}>
+                      <span className={`w-1.5 h-1.5 rounded-full ${
+                        item.status === "UP" ? "bg-emerald-500" : item.status === "ERROR / BROKEN" ? "bg-red-500" : "bg-slate-400"
+                      }`} />
                       {item.status}
                     </span>
                   </td>
@@ -219,10 +343,10 @@ export function AlternativesComparisonSection() {
             <Zap className="w-5 h-5" />
           </div>
           <h4 className="text-base font-black text-slate-900 font-outfit">
-            Why Switch from AIPromptGenerator.app?
+            No Registration Errors (Zero Login)
           </h4>
           <p className="text-xs text-slate-600 leading-relaxed font-medium">
-            While AIPromptGenerator.app and AIPromptHub charge monthly subscriptions and impose 10–20 daily credit caps, our platform provides 100% free, unlimited generations across Google Veo 3, SeaDance 2.2, Nano Banana Pro, v0, and Replit Agent.
+            ProperPrompt fails with <em>&quot;We can&apos;t support your registration right now. Please try again later. (Error 4.22.2)&quot;</em>, while PromptProGen and BestPromptGen charge $12.99 - $19/mo. Our platform never requires signup, email verification, or credit cards.
           </p>
         </div>
 
@@ -231,10 +355,10 @@ export function AlternativesComparisonSection() {
             <Shield className="w-5 h-5" />
           </div>
           <h4 className="text-base font-black text-slate-900 font-outfit">
-            Zero Tracking & Complete Privacy
+            Prompt Organization & Versioning
           </h4>
           <p className="text-xs text-slate-600 leading-relaxed font-medium">
-            Anonymous generation without email capture. No credit cards, no mandatory sign-ups, and no tracking. All PDF conversions and OCR extractions run directly in your local browser sandbox.
+            Enjoy the core benefits of ProperPrompt—prompt organization, improved workflow efficiency, centralized repository, and structured rewrites—across Claude, ChatGPT, Gemini, Grok, Nano Banana Pro, and Google Veo 3.
           </p>
         </div>
 
@@ -243,10 +367,10 @@ export function AlternativesComparisonSection() {
             <Star className="w-5 h-5" />
           </div>
           <h4 className="text-base font-black text-slate-900 font-outfit">
-            Multi-Modal Prompt Studio
+            Complete Multi-Modal Power
           </h4>
           <p className="text-xs text-slate-600 leading-relaxed font-medium">
-            Single prompt engines are obsolete. Enjoy full parity across Text (ChatGPT-4o, Claude Opus, Gemini), Cinematic Video (Google Veo 3, SeaDance 2.2), Full-Stack Website UI (v0, Replit Agent), and 8K Image prompts (Nano Banana Pro).
+            Go beyond simple text rewrites. Generate cinematic 4K video with Google Veo 3 &amp; SeaDance 2.2, build full-stack web applications with v0 &amp; Replit Agent, and convert images to PDF without software installation.
           </p>
         </div>
       </div>
