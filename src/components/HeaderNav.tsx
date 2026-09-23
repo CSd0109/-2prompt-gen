@@ -7,11 +7,16 @@ export function HeaderNav() {
     <header className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-white font-black text-sm shadow-md">
-            AI
+          <div className="relative w-8 h-8 rounded-lg overflow-hidden flex-shrink-0 bg-white border border-slate-200 shadow-xs flex items-center justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo-icon.png"
+              alt="aipromptgenerate logo"
+              className="w-full h-full object-contain p-0.5"
+            />
           </div>
           <span className="font-extrabold text-base text-slate-900 tracking-tight">
-            AI Prompt Generator
+            aiprompt<span className="text-blue-600">generate</span>
           </span>
           <span className="hidden sm:inline-block px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
             100% Free

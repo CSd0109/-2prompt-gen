@@ -349,12 +349,17 @@ export default function HomePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               {/* Col 1: Brand & Bio */}
               <div className="space-y-3">
-                <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-purple-600 to-indigo-600 flex items-center justify-center text-white font-black text-sm shadow-md">
-                    AI
+                <div className="flex items-center gap-2.5">
+                  <div className="relative w-8 h-8 rounded-lg overflow-hidden bg-white border border-slate-200 shadow-xs flex items-center justify-center flex-shrink-0">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/logo-icon.png"
+                      alt="aipromptgenerate logo"
+                      className="w-full h-full object-contain p-0.5"
+                    />
                   </div>
                   <span className="font-extrabold text-base text-slate-900 tracking-tight">
-                    AI Prompt Generate
+                    aiprompt<span className="text-blue-600">generate</span>
                   </span>
                 </div>
                 <p className="text-xs text-slate-500 leading-relaxed font-sans font-medium">
