@@ -280,15 +280,15 @@ export default function HomePage() {
               </div>
 
             {/* Category Filter Chips Bar - Clean Circular Pill Styling */}
-            <div className="flex items-center gap-2 overflow-x-auto pb-1 scrollbar-none">
+            <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-none">
               {chips.map((chip) => (
                 <button
                   key={chip.id}
                   onClick={() => handleFilterChange(chip.id)}
-                  className={`px-4 py-1.5 rounded-full text-xs font-bold font-outfit whitespace-nowrap transition-all border ${
+                  className={`px-4 py-2 rounded-full text-xs font-black font-heading whitespace-nowrap transition-all border cursor-pointer active:scale-95 ${
                     selectedFilter === chip.id
-                      ? "bg-slate-900 text-white border-slate-900 shadow-sm"
-                      : "bg-white text-slate-700 border-slate-200/80 hover:bg-slate-100 hover:text-slate-900"
+                      ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-slate-900/10"
+                      : "bg-white text-slate-700 border-slate-200/90 hover:bg-slate-50 hover:text-slate-950 hover:border-slate-300 shadow-xs"
                   }`}
                 >
                   {chip.label}

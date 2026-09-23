@@ -125,7 +125,7 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
             </div>
 
             {/* 2. Prompt Title */}
-            <h1 className="text-lg sm:text-xl font-bold text-white leading-snug">
+            <h1 className="text-xl sm:text-2xl font-black text-white leading-tight font-heading tracking-tight">
               {item.title}
             </h1>
 
@@ -136,16 +136,16 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
                 <img
                   src={item.creator.avatar}
                   alt={item.creator.name}
-                  className="w-10 h-10 rounded-full object-cover ring-1 ring-[#333333]"
+                  className="w-10 h-10 rounded-full object-cover ring-2 ring-[#333333]"
                 />
                 <div>
-                  <div className="flex items-center gap-1 font-semibold text-sm text-white">
-                    {item.creator.name}
+                  <div className="flex items-center gap-1 font-black text-sm text-white font-heading tracking-tight">
+                    <span>{item.creator.name}</span>
                     {item.creator.verified && (
                       <CheckCircle2 className="w-3.5 h-3.5 text-[#3ea6ff]" />
                     )}
                   </div>
-                  <div className="text-xs text-[#aaaaaa] flex items-center gap-2">
+                  <div className="text-xs text-[#aaaaaa] flex items-center gap-2 font-sans font-medium">
                     <span>{item.views} uses</span>
                     <span>•</span>
                     <span>{item.timestamp}</span>
@@ -157,7 +157,7 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
               <div className="flex items-center gap-2">
                 <button
                   onClick={() => handleCopyPrompt(item.prompt)}
-                  className="yt-btn-pill bg-[#3ea6ff]/15 hover:bg-[#3ea6ff]/25 text-[#3ea6ff]"
+                  className="px-4 py-2 rounded-full text-xs font-black font-heading transition active:scale-95 flex items-center gap-2 bg-[#3ea6ff]/15 hover:bg-[#3ea6ff]/25 text-[#3ea6ff] border border-[#3ea6ff]/30 shadow-xs cursor-pointer"
                 >
                   {copiedPrompt ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
                   <span>{copiedPrompt ? "Copied!" : "Copy Prompt"}</span>
@@ -165,7 +165,7 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
 
                 <button
                   onClick={handleShare}
-                  className="yt-btn-pill"
+                  className="px-4 py-2 rounded-full text-xs font-black font-heading transition active:scale-95 flex items-center gap-2 bg-[#272727] hover:bg-[#383838] text-white border border-[#383838] shadow-xs cursor-pointer"
                 >
                   <Share2 className="w-4 h-4" />
                   <span>{shareCopied ? "Link Copied!" : "Share"}</span>
@@ -174,20 +174,20 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
             </div>
 
             {/* 4. 🔥 1-CLICK GENERATOR BUTTONS (ChatGPT, Gemini, Claude/v0) */}
-            <div className="p-4 rounded-xl bg-[#1a1a1a] border border-[#333333] space-y-3">
+            <div className="p-4 sm:p-5 rounded-2xl bg-[#181818] border border-[#2d2d2d] space-y-3 shadow-lg">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold text-white flex items-center gap-1.5">
+                <span className="text-xs font-black uppercase tracking-wider text-slate-200 flex items-center gap-1.5 font-heading">
                   <Sparkles className="w-4 h-4 text-amber-400" />
                   Direct 1-Click Execution (Auto-Paste & Open):
                 </span>
-                <span className="text-[11px] text-[#aaaaaa]">Click button to generate</span>
+                <span className="text-[11px] text-[#aaaaaa] font-medium font-sans">Zero login required</span>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
                 {/* Try with ChatGPT */}
                 <button
                   onClick={handleTryChatGPT}
-                  className="flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-[#10a37f] hover:bg-[#0e8e6e] text-white text-xs sm:text-sm font-semibold transition active:scale-95 shadow-md"
+                  className="flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-full bg-[#10a37f] hover:bg-[#0e8e6e] text-white text-xs sm:text-sm font-black font-heading transition active:scale-95 shadow-md cursor-pointer border border-[#14b88a]/30"
                 >
                   <Bot className="w-4 h-4" />
                   <span>Try with ChatGPT</span>
@@ -197,7 +197,7 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
                 {/* Try with Gemini */}
                 <button
                   onClick={handleTryGemini}
-                  className="flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-[#1a73e8] hover:bg-[#1557b0] text-white text-xs sm:text-sm font-semibold transition active:scale-95 shadow-md"
+                  className="flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-full bg-[#1a73e8] hover:bg-[#1557b0] text-white text-xs sm:text-sm font-black font-heading transition active:scale-95 shadow-md cursor-pointer border border-[#4285f4]/30"
                 >
                   <Sparkles className="w-4 h-4" />
                   <span>Try with Gemini</span>
@@ -207,7 +207,7 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
                 {/* Try with Claude / v0 */}
                 <button
                   onClick={handleTryClaudeOrDev}
-                  className="flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-[#d97706] hover:bg-[#b45309] text-white text-xs sm:text-sm font-semibold transition active:scale-95 shadow-md"
+                  className="flex items-center justify-center gap-2 px-3.5 py-2.5 rounded-full bg-[#d97706] hover:bg-[#b45309] text-white text-xs sm:text-sm font-black font-heading transition active:scale-95 shadow-md cursor-pointer border border-[#f59e0b]/30"
                 >
                   <Terminal className="w-4 h-4" />
                   <span>{item.category === "ui" ? "Build on v0.dev" : "Try with Claude"}</span>
@@ -217,17 +217,18 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
             </div>
 
             {/* 5. Full Prompt Code Block Box */}
-            <div className="p-4 rounded-xl bg-[#212121] text-sm text-[#f1f1f1] space-y-3">
+            <div className="p-4 sm:p-5 rounded-2xl bg-[#1c1c1c] border border-[#2d2d2d] space-y-3 shadow-md">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-bold uppercase tracking-wider text-[#3ea6ff]">
+                <span className="text-xs font-black uppercase tracking-wider text-[#3ea6ff] font-heading flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-[#3ea6ff]" />
                   Optimized Command Prompt:
                 </span>
-                <span className="px-2 py-0.5 rounded bg-[#2c2c2c] text-white font-mono text-[11px]">
+                <span className="px-3 py-1 rounded-full bg-[#2a2a2a] text-white font-mono text-[11px] font-bold border border-[#3a3a3a]">
                   Target: {item.model}
                 </span>
               </div>
 
-              <div className="p-3.5 rounded-lg bg-[#141414] border border-[#2a2a2a] font-mono text-xs sm:text-sm leading-relaxed text-slate-200 select-all">
+              <div className="p-4 rounded-xl bg-[#111111] border border-[#262626] font-mono text-xs sm:text-sm leading-relaxed text-slate-200 select-all shadow-inner">
                 {item.prompt}
               </div>
 

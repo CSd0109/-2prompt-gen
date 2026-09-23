@@ -324,10 +324,10 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 <button
                   type="button"
                   onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
-                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold transition active:scale-95 border border-slate-200 shadow-2xs font-outfit"
+                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-black transition active:scale-95 border border-slate-200 shadow-2xs font-heading"
                 >
                   <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
-                  <span className="font-extrabold text-slate-900 tracking-tight">{activeModelObj.name}</span>
+                  <span className="font-black text-slate-900 tracking-tight">{activeModelObj.name}</span>
                   <ChevronDown className={`w-3.5 h-3.5 text-slate-600 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
                 </button>
 
@@ -339,7 +339,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                       onClick={() => setModelDropdownOpen(false)}
                     />
                     <div className="absolute left-0 top-full mt-2 w-72 rounded-2xl bg-white border-2 border-slate-200 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
-                      <div className="px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1 flex items-center justify-between">
+                      <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1 flex items-center justify-between font-heading">
                         <span>Select AI Model</span>
                         <span className="text-[10px] text-emerald-600 font-bold">● Active Engine</span>
                       </div>
@@ -354,15 +354,15 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                                 setSelectedModel(m.id);
                                 setModelDropdownOpen(false);
                               }}
-                              className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left text-sm font-outfit transition ${
+                              className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left text-sm font-heading transition ${
                                 isSelected
-                                  ? "bg-blue-50 text-blue-700 font-extrabold border border-blue-200 shadow-2xs"
+                                  ? "bg-blue-50 text-blue-700 font-black border border-blue-200 shadow-2xs"
                                   : "text-slate-700 hover:bg-slate-100 hover:text-slate-900 font-bold"
                               }`}
                             >
                               <div className="flex items-center gap-2.5">
                                 <ProviderIcon id={m.id} className="w-5 h-5 flex-shrink-0" />
-                                <span className="font-extrabold tracking-tight">{m.name}</span>
+                                <span className="font-black tracking-tight">{m.name}</span>
                               </div>
                               {isSelected && (
                                 <span className="w-2 h-2 rounded-full bg-blue-600 shadow-xs" />
@@ -457,14 +457,14 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
               </span>
-              <span className="text-xs font-extrabold uppercase tracking-wider text-emerald-700">
+              <span className="text-xs font-black uppercase tracking-wider text-emerald-700 font-heading">
                 {selectedModel.toUpperCase()} Master Prompt Generated
               </span>
             </div>
 
             <button
               onClick={() => handleCopy(result.prompt)}
-              className="flex items-center gap-2 px-4 py-1.5 rounded-xl text-xs font-bold bg-slate-900 text-white hover:bg-black transition active:scale-95 shadow-xs"
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-xs font-black font-heading bg-slate-900 text-white hover:bg-black transition active:scale-95 shadow-md cursor-pointer"
             >
               {copied ? <Check className="w-3.5 h-3.5 text-emerald-400 stroke-[3]" /> : <Copy className="w-3.5 h-3.5" />}
               <span>{copied ? "Copied Prompt!" : "Copy Prompt"}</span>
@@ -472,7 +472,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           </div>
 
           {/* Prompt Box */}
-          <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 font-mono text-xs sm:text-sm text-slate-900 leading-relaxed whitespace-pre-wrap select-all shadow-inner">
+          <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border-2 border-slate-200/90 font-mono text-xs sm:text-sm text-slate-900 leading-relaxed whitespace-pre-wrap select-all shadow-inner">
             {result.prompt}
           </div>
 

@@ -179,20 +179,20 @@ export default async function PromptDetailPage({ params }: Props) {
                   <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200">100% Free</span>
                 </div>
 
-                <h1 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight leading-tight">
+                <h1 className="text-xl sm:text-2xl md:text-3xl font-black text-slate-950 tracking-tight leading-tight font-heading">
                   {prompt.title}
                 </h1>
 
                 {/* Prompt Box */}
-                <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 relative group">
-                  <p className="text-xs sm:text-sm text-slate-800 leading-relaxed font-mono select-all">
+                <div className="p-4 sm:p-5 rounded-2xl bg-slate-50 border-2 border-slate-200/90 relative group shadow-inner">
+                  <p className="text-xs sm:text-sm text-slate-900 leading-relaxed font-mono select-all">
                     {prompt.prompt}
                   </p>
                 </div>
 
                 {prompt.negativePrompt && (
-                  <div className="p-3 rounded-xl bg-rose-50/50 border border-rose-100 text-xs text-rose-900">
-                    <span className="font-bold text-rose-700">Negative Prompt: </span>
+                  <div className="p-3.5 rounded-xl bg-rose-50/70 border border-rose-200 text-xs text-rose-900">
+                    <span className="font-black text-rose-800 font-heading">Negative Prompt: </span>
                     <span className="font-mono text-[11px]">{prompt.negativePrompt}</span>
                   </div>
                 )}
@@ -205,7 +205,7 @@ export default async function PromptDetailPage({ params }: Props) {
                     <Link
                       key={t}
                       href={`/tag/${encodeURIComponent(t.toLowerCase().replace(/[^a-z0-9-]/g, "-"))}`}
-                      className="px-2.5 py-1 rounded-full bg-slate-100 hover:bg-purple-50 hover:text-purple-700 text-slate-600 text-[11px] font-semibold transition"
+                      className="px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-black font-heading transition border border-slate-200/60 shadow-2xs"
                     >
                       #{t}
                     </Link>
@@ -214,7 +214,7 @@ export default async function PromptDetailPage({ params }: Props) {
 
                 <Link
                   href="/"
-                  className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-slate-900 hover:bg-slate-800 text-white font-bold text-sm shadow-md transition"
+                  className="w-full inline-flex items-center justify-center gap-2 py-3.5 rounded-full bg-slate-900 hover:bg-black text-white font-black font-heading text-sm shadow-md transition active:scale-98 cursor-pointer"
                 >
                   <Sparkles className="w-4 h-4 text-purple-400" />
                   <span>Open in AI Prompt Studio</span>

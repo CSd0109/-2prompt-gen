@@ -62,8 +62,8 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
         )}
 
         {/* Floating Top AI Model Badge */}
-        <div className="absolute top-2 left-2">
-          <span className="px-2 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-white/95 text-slate-900 shadow-sm backdrop-blur-md font-outfit border border-slate-200/80">
+        <div className="absolute top-2.5 left-2.5">
+          <span className="px-2.5 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-white/95 text-slate-900 shadow-md backdrop-blur-md font-heading border border-slate-200/90">
             {item.model.replace("-preview", "").replace(" Pro", "")}
           </span>
         </div>
@@ -72,12 +72,12 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
         <button
           onClick={handleCopy}
           title="Copy Prompt"
-          className="absolute top-2 right-2 w-8 h-8 rounded-full bg-white/95 text-slate-800 shadow-md flex items-center justify-center hover:bg-white active:scale-90 transition cursor-pointer"
+          className="absolute top-2.5 right-2.5 w-8 h-8 rounded-full bg-white/95 text-slate-800 shadow-md flex items-center justify-center hover:bg-white hover:text-blue-600 active:scale-90 transition cursor-pointer border border-slate-200/80"
         >
           {copied ? (
             <Check className="w-4 h-4 text-emerald-600 stroke-[3]" />
           ) : (
-            <Copy className="w-3.5 h-3.5 text-slate-700" />
+            <Copy className="w-3.5 h-3.5" />
           )}
         </button>
 
@@ -86,16 +86,17 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
       </div>
 
       {/* 2. Compact, Ultra-Clean Card Info */}
-      <div className="p-2.5 flex flex-col justify-between flex-1 bg-white">
-        <h3 className="font-extrabold text-[12px] sm:text-[13px] leading-snug text-slate-900 line-clamp-2 font-outfit group-hover:text-blue-600 transition-colors">
+      <div className="p-3 flex flex-col justify-between flex-1 bg-white">
+        <h3 className="font-extrabold text-[13px] sm:text-[14px] leading-tight text-slate-900 line-clamp-2 font-heading tracking-tight group-hover:text-blue-600 transition-colors">
           {item.title}
         </h3>
 
-        <div className="flex items-center justify-between text-[10px] sm:text-[11px] text-slate-400 mt-2 pt-1.5 border-t border-slate-100 font-mono">
-          <span className="truncate max-w-[80px] sm:max-w-[120px] font-sans font-bold text-slate-600">
+        <div className="flex items-center justify-between text-[11px] text-slate-400 mt-2.5 pt-2 border-t border-slate-100/90">
+          <span className="truncate max-w-[85px] sm:max-w-[130px] font-bold text-slate-600 font-sans tracking-tight">
             {item.creator.name}
           </span>
-          <span className="text-emerald-600 font-bold flex-shrink-0">
+          <span className="inline-flex items-center gap-1 text-emerald-600 font-extrabold flex-shrink-0 font-heading text-[10px] sm:text-[11px] bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200/60">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
             {item.timestamp}
           </span>
         </div>
