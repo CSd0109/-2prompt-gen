@@ -21,6 +21,4944 @@ export interface PromptItem {
 }
 
 export const SAMPLE_PROMPTS: PromptItem[] = [
+{
+    "id": "oz-ad-6a26754567d8",
+    "title": "Google Search Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_278_b7dd6d52d150484d519765cddef1b6b6.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Google Search Solution Ad. Visual elements and ad copy typography: Search bar text: \"Non-melatonin sleep aids that work\", Brand name: \"NUMO\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "21.2K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a26731267d8",
+    "title": "Customer Discovery Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_294_73dfce5202676312dced42956708147f.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Customer Discovery Testimonial Ad. Visual elements and ad copy typography: Testimonial Headline: \"I never knew I could take creatine as a gummy\", Result 1: \"-Boob fat : down\", Result 2: \"-Arm fat : down\", Result 3: \"-Waist fat : down\", Result 4: \"-Bum : BIGGER!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "54.6K",
+    "likes": "4.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2670e167d8",
+    "title": "Before & After Sleep Comparison Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_277_5a6d6f6d321d80304e12535467038f57.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Before & After Sleep Comparison Ad. Visual elements and ad copy typography: Headline: \"Real people, Real deep sleep.\", Before title: \"Nights without Numo Deep Sleep Gummies\", After title: \"with Numo Deep Sleep Gummies\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "80.8K",
+    "likes": "12.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a266f0167d8",
+    "title": "Funny Reminder Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_300_57c7a1edbe14947887b34f97a2a30174.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Funny Reminder Ad. Visual elements and ad copy typography: Board text: \"STOP SKIPPING YOUR CREATINE\", Supporting text: \"Creatine is gross, we made it tasty so you never forget again.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "57.9K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a266d6567d8",
+    "title": "All-In-One Beauty Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_337_a28f49692ec4628fdf4c85a20d56f008.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: All-In-One Beauty Solution Ad. Visual elements and ad copy typography: Headline: \"ALL-IN-ONE BEAUTY GLOW UP\", Left section title: \"HECTIC SUPPLEMENT REGIMEN\", Supplement 1: \"Collagen\", Supplement 2: \"Fat Burner\", Supplement 3: \"MCT oil\", Right Section Title: \"BURN ELITE\", Benefit text: \"All of that combined, easy\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "77.2K",
+    "likes": "12.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a26699b67d8",
+    "title": "Customer Comment Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_259_d8644e75ad7d57a00ec796f9a878a3a1.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Customer Comment Testimonial Ad. Visual elements and ad copy typography: Headline: \"PRIMAL QUEEN\", Customer comment: \"As someone with Endometriosis, ADHD, and PTSD... this isn't the answer to all of those things... but holy cow! They immensely improve my quality of life all around and help me waaay more than anything else a doctor has prescribed me! My cycle is regular, my cramps are bearable, my nails are STRONG, my brain fog is much easier to power through and I hardly bruise anymore. I simply feel better all around. I've only been taking these for about 2.5 months and to have such amazing results already, I'm sold for life. I recommend PQ to everyone I know who's curious.  \". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "22.4K",
+    "likes": "9.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a26669667d8",
+    "title": "Mushrooms Blend Benefits Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_249_acc36d1561161e57a3d96ad9752a00ea.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Mushrooms Blend Benefits Ad. Visual elements and ad copy typography: Headline: \"Become A Lion In Bed\", Description: \"Each organic mushroom in our blend was carefully handpicked for its distinct health benefits:\", Benefit 1: \"Digestion\", Benefit 2: \"Energy\", Benefit 3: \"Sleep\", Benefit 4: \"Focus\", Social proof: \"200,000+ Reviews \", Footer text: \"No jitters, no crash!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "85.1K",
+    "likes": "13.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a26639b67d8",
+    "title": "Subscription Sale Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_243_a201c9a4b33ade1471c691d2a770e75e.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Subscription Sale Ad. Visual elements and ad copy typography: Headline: \"OUR SUBSCRIPTION SALE IS HERE\", Offer text: \"GET 4 FREE GIFTS\", Price text: \"$44\", Badge text: \"SUBSCRIBE AND SAVE\", Badge ring text: \"SPECIAL OFFER - SPECIAL OFFER - SPECIAL OFFER\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "17.2K",
+    "likes": "15.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2661bf67d8",
+    "title": "Before & After Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_241_765e1ac924f3ff2d88c1fcb0558c763c.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare, health fitness. Concept: Before & After Testimonial Ad. Visual elements and ad copy typography: Before label: \"Last year\", After label: \"Today\", Testimonial text: \"\"I started Primal Queen to make my period lighter and less painful, i didn't expect it to have such an amazing effect on my skin, too\"\", Customer name: \"-Marie Bennett - Verified Buyer\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "61.8K",
+    "likes": "17.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a265de267d8",
+    "title": "Belly Fat Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_233_c91bcc3033244aa1483ac85831013d30.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Belly Fat Solution Ad. Visual elements and ad copy typography: Headline: \"Stubborn Menobelly?\", Supporting text: \"You probably feel drained and frustrated...\", Solution text: \"Creatine Gummies can fix that:\", Guarantee text: \"LOSE WEIGHT & BOOST ENERGY - IF NOT, YOUR MONEY BACK!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "64.4K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a265b9e67d8",
+    "title": "Period Support Benefits Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_227_453e79e6d346bdba600479e237f64293.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Period Support Benefits Ad. Visual elements and ad copy typography: Brand name: \"PRIMAL QUEEN\", Headline: \"HOW NOT TO ROT IN BED ON YOUR PERIOD\", Benefit 1: \"More energy\", Benefit 2: \"Balanced hormones\", Benefit 3: \"Better mood\", Benefit 4: \"Lighter periods\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "56.8K",
+    "likes": "6.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2659d967d8",
+    "title": "Customer Survey Results Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_215_526a788797285f01824c5405ff082c13.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Customer Survey Results Ad. Visual elements and ad copy typography: Headline: \"THE DATA IS IN!\", Survey text: \"Survey Results Of 21,395 Primal Queen Customers Reveals:\", Stat 1: \"83.3% Feel more energized throughout the day\", Stat 2: \"80.6% Experience fewer energy crashes \", Stat 3: \"83.4% Report a better mood & more mental clarity\", Stat 4: \"69.5% Feel more in control of their appetite\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "26.6K",
+    "likes": "19.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23d3c4a820",
+    "title": "Deep Sleep Lifestyle Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_281_54ddf7c65eccf04235c2c4e888764f8e.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Deep Sleep Lifestyle Ad. Visual elements and ad copy typography: Headline: \"SLEEP LIKE YOU'VE BEEN KNOCKED OUT\", CTA text: \"TRY PRIMAL QUEEN TODAY\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "76.9K",
+    "likes": "16.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23d274a820",
+    "title": "Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_307_62e2eedd090fc35b41f2766cc4617033.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Offer Ad. Visual elements and ad copy typography: Offer text: \"SUBSCRIBE & SAVE 25%OFF\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "55.2K",
+    "likes": "13.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23cfb4a820",
+    "title": "Sleep Support Benefits Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_200_ac9bf3d48ea29f23232fd9c4ccd1db8c.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Sleep Support Benefits Ad. Visual elements and ad copy typography: Headline: \"NO MORE INSOMNIA\", Feature 1: \"Vegan Friendly\", Feature 2: \"Og Added Sugar\", Feature 3: \"Organic Cacao\", Feature 4: \"Caffeine-Free\", Offer text: \"25% OFF DON'T MISS OUT\", Ingredient 1: \"REISHI\", Ingredient 2: \"L-THEANINE\", Ingredient 3: \"MELATONIN\", Ingredient 4: \"GLYCINE\", Guarantee text: \"30-DAY SATISFACTION GUARANTEE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "50.6K",
+    "likes": "17.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23cc20a820",
+    "title": "Fat Burner Sale Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_199_78f51c43cdf0a3be2e2e6a1411600825.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Fat Burner Sale Ad. Visual elements and ad copy typography: Headline: \"CLINICALLY PROVEN\", Benefit 1: \"CURB APPETITE\", Benefit 2: \"BURN CALORIES\", Benefit 3: \"LOSE WEIGHT\", Sale text: \"BLACK FRIDAY SPECIAL!\", Offer badge: \"UPTO 40% OFF\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "75.2K",
+    "likes": "19.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23c45da820",
+    "title": "New Year Free Gift Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_194_04e03f0c5854ed94aeb26a533d01791b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: New Year Free Gift Ad. Visual elements and ad copy typography: Sale headline: \"NEW YEAR SALE\", Offer text: \"FREE PREVITALIZE\", Value text: \"WORTH $49 (with any purchase over $80)\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "34.8K",
+    "likes": "16.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23c2c5a820",
+    "title": "New Year Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_188_7825f20d1dd4992a24f8ff80d8034fcb.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: New Year Offer Ad. Visual elements and ad copy typography: Headline: \"NEW YEAR NEW ME\", Offer text: \"LIMITED TIME OFFER\", Brand name: \"PRIMAL QUEEN\", Promo code: \"CODE: NEWYEAR\", Discount text: \"20% OFF ENDS SOON\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "23.8K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a23c0b8a820",
+    "title": "RYZE Matcha Benefit Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_181_bcdcf8ef231e884659c022d289e50354.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for food drinks, health fitness. Concept: RYZE Matcha Benefit Ad. Visual elements and ad copy typography: Headline: \"Ceremonial-grade Japanese matcha\", Benefit 1: \"FREE Gifts Inside\", Benefit 2: \"28% OFF This Week Only\", Benefit 3: \"G ADAPTOGENIC MUSHROOMS\", Benefit 4: \"100% USDA ORGANIC\", Brand name: \"RYZE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "37.4K",
+    "likes": "3.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22b04fa820",
+    "title": "Bloating Relief Product Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_069_e5f49b2607f54c04fd09d1094ed6afcf.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Bloating Relief Product Offer Ad. Visual elements and ad copy typography: Main headline: \"Bloating? TRY RYZE\", Feature 1: \"CAFFEINE-FREE\", Feature 2: \"ADAPTOGENS\", Feature 3: \"VEGAN\", Origin text: \"MADE IN USA\", Offer text: \"GET 25% OFF\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "24.1K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22ae19a820",
+    "title": "Black Friday Discount Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_072_6224dcfc9f56ed7ab047f316723074c1.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for food drinks, health fitness. Concept: Black Friday Discount Ad. Visual elements and ad copy typography: Brand name: \"MUD\\WTR\", Campaign text: \"Black Friday Cyber Monday\", Offer text: \"GET 50% OFF\", Repeated discount text: \"50%OFF | 50% OFF | 50% OFF | 50%OFF\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "69.5K",
+    "likes": "19.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22abe8a820",
+    "title": "Sale Comment Promo Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_217_2b910f304261ac571ea372a908350ae6.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Sale Comment Promo Ad. Visual elements and ad copy typography: Comment text: \"Have you shopped Glossier's sale yet? Up to 30% off ends tonight!!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "38.3K",
+    "likes": "13.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22ab01a820",
+    "title": "Grounding Mat Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_287_91485b369b34b71f032de917eb6392e5.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for books media, food drinks, health fitness. Concept: Grounding Mat Ad. Visual elements and ad copy typography: Main headline: \"EASE YOUR PAIN\", Sub headline: \"Discover Grounding Mats for Plantar Fasciitis!\", Benefit 1: \"Eases Inflammation\", Benefit 2: \"Reduces Pain\", Benefit 3: \"Improves Circulation\", Benefit 4: \"Relieves Tension\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "84.6K",
+    "likes": "8.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "booksmedia",
+      "healthfitness",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22a822a820",
+    "title": "Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_052_d2195d04b678061c37a09bc9538ccad7.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Product Ad. Visual elements and ad copy typography: Offer text: \"FREE SPOON + SHIPPING\", Description text: \"CEREMONIAL-GRADE JAPANESE MATCHA\", Feature text: \"G ADSPTOGENIC MUSHROOMS\", Origin text: \"MADE IN USA\", Urgency text: \"LIMITED TIME OFFER\", Old price text: \"OLD PRICE $50\", Actual price: \"$36\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "45.9K",
+    "likes": "14.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22a538a820",
+    "title": "Testimonial Comment Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_036_f3790faa6e97de5f4715d5682b4cb1eb.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Testimonial Comment Ad. Visual elements and ad copy typography: Main headline: \"YOUR LIFE DOESN'T PAUSE FOR PERIOD PAIN.\", Testimonial text: \"Emma - OMG!!! Where do I even start?! I'm in my 20s and struggled with awful period cramps, constant bloating, and feeling so drained all the time. After a few weeks, no more period pain, way less bloating, and I feel so much stronger!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "46.2K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22a314a820",
+    "title": "Product Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_028_a88849023e629e0f96986d4f81c3c171.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Product Offer Ad. Visual elements and ad copy typography: Main headline: \"ENERGY WITHOUT CAFFEINE\", Offer text: \"ENERGY FREE SPOON + SCOOP + MAGNET\", Benefit 1: \"Caffeine-free\", Benefit 2: \"Nutrient Rich\", Benefit 3: \"Natural Prebiotic\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "31.3K",
+    "likes": "6.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a22a0e5a820",
+    "title": "Special Offer Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_024_00e06ceb2c166c7f9cc78d8f1a20dc05.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Special Offer Product Ad. Visual elements and ad copy typography: Offer headline: \"SPECIAL OFFERS GET 4 FREE GIFTS\", Benefit 1: \"Feel Stronger\", Benefit 2: \"Balanced Hormones\", Benefit 3: \"Better Libido\", Benefit 4 : \"Better Periods \", Benefit 5: \"More Energy\", Benefit 6: \"Weight Loss\", Trust badge: \"Trustpilot\", Review section: \"4.9 Reviews | 1,044+ Excellent\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "83.6K",
+    "likes": "7.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a229df1a820",
+    "title": "Testimonial Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_017_c1b132f3a5a0918ed4aeb50d6d79dd18.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Testimonial Product Ad. Visual elements and ad copy typography: Main headline: \"WHAT PRIMAL QUEEN'S ARE SAYING\", Customer testimonial text: \"Jessica Chekaldln - Day 15 I am a size 14 and all my pants are loose now\", day text: \"3 days ago\", CTA text : \"SUBSCRIBE & SAVE LIMITED TIME DISCOUNT \". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "85.7K",
+    "likes": "5.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a229b9da820",
+    "title": "New Year Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_016_1ac4fe9c6ac07621f553c55401c249a7.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: New Year Ad. Visual elements and ad copy typography: Brand name: \"PRIMAL QUEEN\", Main headline: \"CUSTOMERS ENTERING 2025\", New Year text: \"New Year\", Energy text: \"Same badass energy\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "57.7K",
+    "likes": "7.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a229988a820",
+    "title": "Testimonial Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_004_1cf5a7e7dd7a862ab98a218176f9604b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Testimonial Product Ad. Visual elements and ad copy typography: Main headline: \"I decided to try Primal Queen and had NO IDEA it was about to change my life.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "17.3K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a229789a820",
+    "title": "Free Gift Purchase Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_003_3c711fb32ee871ef01d0aa28829ac8ab.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Free Gift Purchase Ad. Visual elements and ad copy typography: Main headline: \"FREE PREVITALIZE\", Offer text: \"for WAISTLINES with DEADLINES ENDS JAN 9 \"With any purchase over $80.\", Badge text: \"FREE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "44.2K",
+    "likes": "12.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a228c95a820",
+    "title": "Sunrise Sale Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_336_3d6b83af93cd599957098a5e4c50cd3a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Sunrise Sale Ad. Visual elements and ad copy typography: Brand name: \"MUD\\WTR\", Headline: \"Support your local sunrise\", Description: \"We're giving you a better reason to wake up early this Black Friday\", Offer badge: \"UP TO 50%OFF SUBSCRIPTIONS\", Footer text: \"BLACK FRIDAY CYBER MONDAY SALE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "47.5K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2289b4a820",
+    "title": "Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_335_81377f45c593487b4c8002cc4b552939.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Solution Ad. Visual elements and ad copy typography: Headline: \"FEELING LOW?\", Solution text: \"Creatine is the best natural remedy:\", Benefit 1: \"Scientifically proven to boost mood\", Benefit 2 : \"Improve brain function\", Benefit 3: \"Tastes amazing\", Benefit 4: \"365-day money back guarantee\", Supporting text: \"Your mental health is worth it!\", CTA text: \"Try RISK FREE today\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "58.4K",
+    "likes": "11.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2286a7a820",
+    "title": "Capsule Benefits Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_330_c1e250405f96da05b5deb457a75b6633.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Capsule Benefits Ad. Visual elements and ad copy typography: Headline: \"OZEMPIC POWER IN A CAPSULE\", Benefit 1: \"APPETITE Suppression\", Benefit 2: \"Burn \"HARD TO LOOSE\" to areas\", Benefit 3: \"WEIGHT LOSS\", Benefit 4: \"Smooth CELLULITE and skin\", Benefit 5: \"Increase HAIR Growth\", Benefit 6: \"Boost METABOLISM all day\", Guarantee text: \"90 DAY BUY & TRY GUARANTEE\", Disclaimer: \"*INDIVIDUAL RESULTS MAY VARY\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "68.3K",
+    "likes": "6.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a21a3d6a820",
+    "title": "Black Friday Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_339_b8fe2e76a16317c6d390965c21768c2b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Black Friday Ad. Visual elements and ad copy typography: Sale headline: \"BLACK FRIDAY SALE\", Offer text: \"Buy 1, Get 1 FREE\", Brand name: \"NUMO\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "84.8K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a21a1daa820",
+    "title": "Problem Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_347_2343aacee3fe9ddd69a0c52cc1c63c49.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare, health fitness. Concept: Problem Solution Ad. Visual elements and ad copy typography: Problem callout 1: \"Lack of nutrients\", Problem callout 2: \"Imbalanced hormones\", Headline: \"Stop Starving Your Hair\", CTA text: \"Try Primal Queen Today\", Repeating brand text: \"Primal Queen Primal Queen Primal Queen\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "75.3K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a219f13a820",
+    "title": "Sticky Note Promotion Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_350_6ea5e005957e981191791f9cb9c91ea8.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Sticky Note Promotion Ad. Visual elements and ad copy typography: Note text 1: \"Don't forget - FREE Previtalize before Jan 9 TRUST ME!\", Note text 2: \"Don't Hide This Deal From A Girlfriend! Spend over $80 get Previtalize FREE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "38.7K",
+    "likes": "8.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a219d4da820",
+    "title": "Jitter Killer Benefit Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_351_ddda1d49442455474e5078f235999e80.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for food drinks, health fitness. Concept: Jitter Killer Benefit Ad. Visual elements and ad copy typography: Headline: \"Jitter Killer\", Benefit 1: \"Energy \", Benefit 2: \"Immunity\", Benefit 3: \"No Jitters\", Benefit 4: \"Focus\", Social proof: \"OVER 1M HAOOY CUSTOMERS - OVER 1M HAPPY CUSTOMERS - OVER 1M HAPP\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "17.6K",
+    "likes": "7.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a219a10a820",
+    "title": "Sleep Benefits Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_360_46bd02d9009572bf923c718e28564391.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Sleep Benefits Offer Ad. Visual elements and ad copy typography: Headline: \"97.3% OF POOR SLEEPERS HAVE NO CLUE THIS METHOD WORKS\", Benefit 1: \"Wake up rested & refreshed\", Benefit 2: \"Support a healthy sleep cycle \", Benefit 3: \"Fall into deep sleep & stay asleep\", Offer badge: \"50% Sale (until noon)\", CTA text: \"Grab The Deal \". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "16.2K",
+    "likes": "10.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2197a9a820",
+    "title": "Reminder Notes Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_413_aab304247361095220f8746c6e315130.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Reminder Notes Ad. Visual elements and ad copy typography: Headline: \"REMINDER:\", Notes text: \"Get locked in at the 25%/mo lifetime discount so you don't pay higher prices with inflation\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "55.9K",
+    "likes": "15.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a21963da820",
+    "title": "Product Upgrade Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_418_fb7a3ee4dfca430fa67ab5d17ac76680.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Product Upgrade Ad. Visual elements and ad copy typography: Announcement Headline: \"DETOX JUST GOT AN UPGRADE\", Review text: \"\"It's horrible! It helped me detox throughout the night and I feel so much better now!\"\", Benefit 1: \"REDUCE PAIN\", Benefit 2 : \"IMPROVES SLEEP\", Benefit 3: \"BOOST ENERGY\", Offer text: \"SUMMER SALE IS ON - 50% OFF!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "46.3K",
+    "likes": "17.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a211cf6a820",
+    "title": "New Size Launch Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_392_b526f28cdc2ec65881bc15fef7c09e31.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: New Size Launch Ad. Visual elements and ad copy typography: Announcement text: \"New size!\", Product name: \"Glossier you.\", Description: \"The best-selling fragrance, now available in a bigger size.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "72.2K",
+    "likes": "5.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a211afda820",
+    "title": "Ingredient Spotlight Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad/ad_328_577c9642b4f03197a8c4f7b74b037491.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Ingredient Spotlight Ad. Visual elements and ad copy typography: Ingredient line: \"MELATONIN + REISHI + GLYCINE\", headline: \"STRESS-FREE EVENINGS\", Cut price: \"$36\", Actual price: \"$27\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "87.3K",
+    "likes": "15.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2118efa820",
+    "title": "Product Comparison Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_327_e3ab311e967e33aa345493c7fee63a04.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Product Comparison Testimonial Ad. Visual elements and ad copy typography: Headline: \"DITCH THE VIRAL GREENS DRINK\", Secondary headline: \"And try this instead\", Benefit 1: \"More Energy\", Benefit 2: \"Balanced Hormones\", Benefit 3: \"Improved Libido\", Benefit 4: \"Improved Mood \", Benefit 5: \"Optimal Menstruation\", Comparison point 1: \"Beef Uterus contains 100X more vitamin B12 than spinach \", Comparison point 2: \"Fallopian Tubes contain 11X more Zinc than broccoli\", Comparison point 3: \"Kidney contains 3.5X more Iron than the kale \", Testimonial: \"Greens drink girly no more. Beef organs made a WAY bigger difference for me.  Grace Bennett - Verified Buyer\", Badge text: \"Formulated for women\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "66.2K",
+    "likes": "9.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a2112e2a820",
+    "title": "Product Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_310_e57b607a634b0e9c8897523feb83b9c8.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness, fashion clothing. Concept: Product Offer Ad. Visual elements and ad copy typography: Headline: \"SAY NO TO BLOATING\", Subtitle: \"CAFFEINE-FREE BLEND\", Benefit 1: \"1000mg Adaptogenic Mushrooms\", Benefit 2: \"Stable Energy, No Jitters, No Crash\", Benefit 3: \"No Sugar, Non-GMO\", Cut price: \"$36\", Actual price: \"$27\", CTA text: \"SHOP NOW\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "41.2K",
+    "likes": "5.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a210f40a820",
+    "title": "Sleep Benefits Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_288_ca1ffe86d6c3dc8531e893d5a584d6dc.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Sleep Benefits Offer Ad. Visual elements and ad copy typography: Headline: \"97.3% OF POOR SLEEPERS HAVE NO CLUE THIS METHOD WORKS\", Benefit 1: \"Wake up rested & refreshed\", Benefit 2: \"Support a healthy sleep cycle\", Benefit 3: \"Fall into deep sleep & stay asleep\", CTA text: \"Grab The Deal\", Offer text: \"50% Sale (until noon)\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "33.8K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a210bb7a820",
+    "title": "Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_276_63d312281a732e456940906483a3f09b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Testimonial Ad. Visual elements and ad copy typography: Headline : \"NO MORE HOODED EYELIDS.\", Testimonial: \"Will be ordering this again.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "79.9K",
+    "likes": "6.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a210a2da820",
+    "title": "Product Launch Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_251_6eeec0d07ecff22e18d7c79315480638.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Product Launch Ad. Visual elements and ad copy typography: Announcement text: \"New Size!\", Sub headline: \"After Baume\", Product description: \"A buttery, cocooning cream that locks in hydration.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "24.8K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a204df3a820",
+    "title": "Offer Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_201_d13601139388f93c523463aa0c89ac5a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Offer Product Ad. Visual elements and ad copy typography: Offer headline: \"BUY 1 + 1 FREE\", Urgency text: \"TODAY ONLY\", Price info: \"$6.49/lift\", Social proof: \"100,000+ Happy Customers\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "71.5K",
+    "likes": "7.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a204be5a820",
+    "title": "Clean Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_131_c70aff6ec705efbec39e929e0ee95e69.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Clean Product Ad. Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "44.4K",
+    "likes": "12.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a204a9da820",
+    "title": "Mascara Benefit Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_183_64a1ff6053db52efc89aae976da98b70.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Mascara Benefit Ad. Visual elements and ad copy typography: Headline: \"No more flaking or smudging.\", Subheadline: \"Just lengthened and lifted, natural-looking lashes.\", Brand name: \"Glossier.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "39.5K",
+    "likes": "16.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1ec2f0a820",
+    "title": "DM Fitness Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_419_1162f61e24f80fcbf19ff8fcda8f9c6b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: DM Fitness Ad. Visual elements and ad copy typography: Sender name: \"Kate Wright\", Time: \"7:16 AM\", Message 1: \"Girlll you said you started gym right?\", Message 2: \"What if I told you there are gummy candies that will help you get that slim thick ass way quicker ? \", Message 3: \"I've been taking it for years look \". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "80.1K",
+    "likes": "5.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1ebc9ba820",
+    "title": "Sale Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_393_1262cf53a1b92c03e771a12a56020c75.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Sale Ad. Visual elements and ad copy typography: Sale headline: \"Black Friday Sale\", Discount text: \"25% off everything\", Disclaimer: \"T&Cs apply.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "32.4K",
+    "likes": "19.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1ebaf9a820",
+    "title": "Lash Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_405_af9b7b032b25ccd51f525068710f97a8.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Lash Offer Ad. Visual elements and ad copy typography: Offer Headline: \"BUY 1 GET 1 FREE\", Price line: \"THIS WILL COST ONLY 5$ PER USE\", Supporting line: \"CHANGE YOUR LASHES\", Benefit 1: \"Fast Result \", Benefit 2: \"Curled Lashes\", Benefit 3: \"Natural Ingredients\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "56.5K",
+    "likes": "10.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eb80aa820",
+    "title": "Social Post Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_402_7ee39312c09ae8b400cab708f900d3a1.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Social Post Ad. Visual elements and ad copy typography: Main Text: \"My new favorite hoodie\", Brand tag: \"@glossier\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "48.6K",
+    "likes": "6.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eb57da820",
+    "title": "Fragrance New Size Launch Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad/ad_422_a93695dcbf1a1d6d9c4a82e403e11961.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Fragrance New Size Launch Ad. Visual elements and ad copy typography: Tag: \"New size!\", Main headline: \"Glossier you.\", Subtitle: \"The best-selling fragrance, now in a bigger size.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "19.2K",
+    "likes": "3.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eb2f8a820",
+    "title": "Product Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_432_7768a38b6abee5bed31b17f9fc926477.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Product Offer Ad. Visual elements and ad copy typography: Offer text: \"Free Body Hero! With all qualifying orders\", Disclaimer: \"T&C apply.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "36.6K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eb0dea820",
+    "title": "Minimal Brand Bag Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_313_68ab0634b644fda000cdd0a9be4938b2.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Minimal Brand Bag Ad. Visual elements and ad copy typography: Main headline: \"Stylish, Smart Space-saving \", Brand NAME: \"Ridge Travel\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "78.5K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eaf21a820",
+    "title": "Bag collage offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_216_55ce22c5403587f5871ec7934fc3b94a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Bag collage offer Ad. Visual elements and ad copy typography: Offer text: \"$85 OFF\", Bundle Text : \"FREQUENT FLYER KIT\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "78.9K",
+    "likes": "14.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eaccfa820",
+    "title": "Customer Request Message Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_207_4b08cb7ac2c99b2ca9bb3b98b4bb3314.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Customer Request Message Ad. Visual elements and ad copy typography: Message text: \"Hello I really love your x gymshark leggings. Can you bring them back?!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "45.5K",
+    "likes": "3.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1eab7aa820",
+    "title": "Doux Perfume Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_163_b82e3e5b5801b18bea5c40b2b69eaebd.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Doux Perfume Ad. Visual elements and ad copy typography: Comparison Line: \"more of Glossier you.\", Main headline: \"meet Doux\", Product type: \"eau de parfum\", Supporting line: \"the balance of you.\", CTA: \"Shop now\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "22.6K",
+    "likes": "19.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d774e73db",
+    "title": "Period Cramps Relief Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_416_e28598b7a645d6ce5829688b6d780ab6.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Period Cramps Relief Testimonial Ad. Visual elements and ad copy typography: Main headline: \"Painful Cramps?\", Testimonial text: \"\"I usually have the worst period cramps. This month my pain was actually tolerable! I was able to work, enjoy time with my kids!\" - Haovey C Verified Buyer\", Guarantee : \"365-Day Money Back Guarantee\", Shipping : \"Free Shipping\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "52.6K",
+    "likes": "11.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d746273db",
+    "title": "Bloating Relief Feature Stack Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_409_d30a0e8051ebf1c396e4633fe6af44dd.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Bloating Relief Feature Stack Ad. Visual elements and ad copy typography: Main headline: \"BLOATING? TRY RYZE\", Feature 1: \"100% ORGANIC INGREDIENTS\", Feature 2: \"1000 MG ADAPTOGENIC MUSHROOMS\", Feature 3: \"25 CAL PER SERVING\", actual price: \"$36\", Cut price: \"$50\", Offer text: \"SPECIAL DEAL\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "32.5K",
+    "likes": "17.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d71c673db",
+    "title": "Customer Review Social Proof Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_395_7fe8edc811995737d6fb3a72cae708ef.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Customer Review Social Proof Ad. Visual elements and ad copy typography: Testimonial text: \"In the first month I have lost 7 pounds. My energy is stable, I don't have cravings and my blood sugar is not dipping low. I love this product!\"\", Customer name: \"Seneca Metis Landrie - Happy Customer\", Platform : \"Trustpilot\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "59.4K",
+    "likes": "19.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d6e2b73db",
+    "title": "Discount ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_388_23b0efdca238febb06a3661234fb42bc.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Discount ad. Visual elements and ad copy typography: Headline: \"DISCOUNT\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "72.8K",
+    "likes": "19.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d6d9f73db",
+    "title": "Natural Pain Relief Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_383_80ce713ea1fc1490300ebbdc4832536e.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Natural Pain Relief Offer Ad. Visual elements and ad copy typography: Product tag: \"Nutmeg For\", Main headline: \"NATURAL PAIN RELIEF\", Offer text: \"SPECIAL DEAL $27 THIS WEEK ONLY\", Cut price: \"$36\", Feature line: \"POWERED WITH 6 ADAPTOGENIC MUSHROOMS\", CTA: \"ORDER NOW\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "64.5K",
+    "likes": "7.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d6af173db",
+    "title": "Ryze Mushroom Benefits Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_381_255f9a6fa4facfc3420c6ce7e82c6002.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Ryze Mushroom Benefits Ad. Visual elements and ad copy typography: Main headline: \"BLOATING? TRY RYZE\", Feature 1: \"6 Adaptogenic Mushrooms\", Feature 2 : \"100% USDA ORGANIC\", Feature 3: \"15 Cal Per Serving\", Bonus text: \"FREE GIFTS INSIDE\", Cut prize : \"$36\", Actual prize: \"$27\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "77.8K",
+    "likes": "7.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d676a73db",
+    "title": "Results or Money Back Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_374_7632043486c7b14706051e2856c1cdc2.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Results or Money Back Ad. Visual elements and ad copy typography: Main headline: \"THICKER BOOTY\", Supporting line: \"OR GET YOUR\", Highlight text: \"MONEY BACK\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "79.4K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d65c273db",
+    "title": "Better Sleep Supplement Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_370_e4796c9a8588c7e7b8bf3b5972de2924.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Better Sleep Supplement Ad. Visual elements and ad copy typography: Main headline: \"Get the Rest You Deserve\", Subtitle: \"It's Time to Try Numo Deep Sleep Gummies\", Benefit 1: \"Natural Sleep Support\", Benefit 2 : \"No Melatonin\", Benefit 3: \"Deep Restorative Sleep\", Benefit 4 : \"Gut Health Boost\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "48.4K",
+    "likes": "4.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d637373db",
+    "title": "Top Rated Supplement Bonus Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_367_b1eff612fab554e9a85fc025e4428944.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Top Rated Supplement Bonus Ad. Visual elements and ad copy typography: Main headline: \"Best Menopausal Symptom Relief Supplement of 2024\", Price & Guarantee: \"FROM $49 365 Day Money-Back Guarantee\", Bonus offer: \"4 FREE GIFTS\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "70.8K",
+    "likes": "11.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d613f73db",
+    "title": "Healthy & Happy Testimonial Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_364_958252b4683bf9174be2994ecbb3df51.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Healthy & Happy Testimonial Ad. Visual elements and ad copy typography: Main headline : \"I just feel really healthy, grateful, balanced... and happy finally:\", Supporting text: \"Don't miss the new sale!\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "82.2K",
+    "likes": "7.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d5feb73db",
+    "title": "Weight Gain Transformation Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_361_f2bbc5e0e5c007171fdc91ee9f53fd6b.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Weight Gain Transformation Ad. Visual elements and ad copy typography: Main headline: \"GOAL WEIGHT : ACHIEVED!\", Benefit 1: \"Balanced my hormones = no hormonal weight gain\", Benefit 2: \"Gave me more energy to work out\", Benefit 3: \"I understand what a women's body finally needs\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "18.8K",
+    "likes": "15.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1d5b7c73db",
+    "title": "Matcha Supplement Discount Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_354_4988b59921089da513fbaeffefa667e2.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Matcha Supplement Discount Ad. Visual elements and ad copy typography: Main offer: \"28% OFF This Week Only \", Origin tag: \"MADE IN USA\", Description: \"This is no ordinary matcha. We us the highest quality ceremonial-grade organic. Japanese matcha on the planet, infused with 6 functional mushrooms.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "60.8K",
+    "likes": "9.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19b82373db",
+    "title": "Bag Restock Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_209_bfdf8234d777f219d88fb0d6be4679f8.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Bag Restock Ad. Visual elements and ad copy typography: Main headline: \"This Carry-On Sold Out 5 Times. And Will Sellout Again\", Restock message: \"BASECAMP ORANGE IS BACK IN STOCK\", Brand name: \"RIDGE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "30.1K",
+    "likes": "14.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19b6b373db",
+    "title": "Bag Carry-On Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_161_836335e64bdabf81ef482f358bd290c6.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Bag Carry-On Ad. Visual elements and ad copy typography: Main product text: \"RIDGE WEATHERPROOF CARRY-ONS\", Left side text: \"FROM SNOWY PEAKS\", Right side text: \"TO TROPICAL BEACHES\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "28.7K",
+    "likes": "8.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19b3cf73db",
+    "title": "Eye Transformation Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_137_3d61799b4a1f0a8b696e9c165daf74c3.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye Transformation Ad. Visual elements and ad copy typography: Main headline: \"This is the love child\", Supporting text: \"of an eye cream and brow lift\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "60.6K",
+    "likes": "4.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19b22b73db",
+    "title": "Pain Relief Mat Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_127_d9ee2328e095ad430247b402d7658210.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Pain Relief Mat Ad. Visual elements and ad copy typography: Main headline: \"FRUSTATED WITH FOOT PAIN?\", Subtitle: \"TRY OUR GROUNDING MAT\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "45.1K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19b0f873db",
+    "title": "Ring Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_098_22768e32a089f6ea31bfbd455303e77a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for jewelry watches. Concept: Ring Offer Ad. Visual elements and ad copy typography: Main headline : \"SAYING YES\", Supporting line: \"DOESN'T HAVE TO BREAK THE BANK\", Offer Badge: \"Last Chance UP TO 30%OFF LIMITED TIME\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "40.7K",
+    "likes": "15.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "jewelrywatches"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19af6273db",
+    "title": "Grounding Mat Relief Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_002_cedb55b5b56c466f5cfd986ce1071552.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Grounding Mat Relief Ad. Visual elements and ad copy typography: Main headline : \"Looking for Relief from Lymphedema?\", subtitle: \"Have You Tried A Grounding Mat?\", Benefit 1: \"Natural Relief\", Benefit 2: \"Enhanced Circulation\", Benefit 3: \"Reduce Swelling\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "20.5K",
+    "likes": "11.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19abea73db",
+    "title": "Functional drink Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_397_2958d9ae96f66255c528563f075ee51a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for food drinks. Concept: Functional drink Ad. Visual elements and ad copy typography: main headline: \"Clarity and focus in every sip\", Discount badge: \"Black Friday 50% off SALE\", Brand name: \"MUD \\ WTR TM\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "25.4K",
+    "likes": "4.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19a92d73db",
+    "title": "Holiday wallet Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_061_e63e49621dd5ce311cf5231eaa440fc8.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Holiday wallet Ad. Visual elements and ad copy typography: Main headline: \"LAST CALL FOR A HOLIDAY UPGRADE\", Subtitle: \"UP TO 40% OFF THIS HOLIDAY\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "75.6K",
+    "likes": "16.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19a13673db",
+    "title": "Eye cream testimonial review ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_014_1137f9559d8a25d965cb9b77100cc740.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye cream testimonial review ad. Visual elements and ad copy typography: brand name: \"CITY BEAUTY\", Testimonial text: \"\"This product isn't like other ones I've tired, because it actually works. I forget how it feels to be this confident in my apperance. Targets my hooded eyes,  and saggy  thin skin; everything! You need this!\"\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "82.5K",
+    "likes": "15.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a199c4f73db",
+    "title": "Eye cream Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_047_56db6559d94f89602dd068d4b064d59c.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye cream Ad. Visual elements and ad copy typography: Main headline: \"5-in-1 Lid Lifting Solution \", Subtitle: \"Reverse the signs of aging eyes with our Lid Lifting Treatment, a potent blend of peptides, antioxidants, and hyaluronic Acid\", CTA button: \"ORDER NOW\", Guarantee: \"60-day money-back guarantee\", benefit 1: \"Instantly lifts and firms sagging eyelids\", benefit 2: \"Hydrates and nourishes delicate skin\", benefit 3: \"Brightens and reduces puffiness\", benefit 4: \"Reduces appearance of wrinkles and fine lines\", benefit 5: \"Improves skin elasticity and tone\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "35.2K",
+    "likes": "8.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1997f573db",
+    "title": "Eye treatment ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_103_a774e687eee08fb95949598501bd47a3.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye treatment ad. Visual elements and ad copy typography: Main headline: \"Don't let your eye wrinkles reveal your age. Treat yourself to lifted-looking skin on your eyelids.\", subtitle: \"Lid Lifting Treatment See Results or Full Refund \". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "54.7K",
+    "likes": "6.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19954e73db",
+    "title": "Candle product ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_111_77b5ec2f54649dd9044fd8fc7daedb67.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for food drinks. Concept: Candle product ad. Visual elements and ad copy typography: Top label: \"New!\", main headline: \"Sandstone Candle\", subtitle: \"Soft, green, and woody.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "68.2K",
+    "likes": "10.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fooddrinks"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a198ba873db",
+    "title": "Bag ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad/ad_040_e621ba4389d4cc217d711c6f73433ff2.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Bag ad. Visual elements and ad copy typography: headline : \"Stylish, Smart Space-saving\", brand name: \"Ridge Travel\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "83.7K",
+    "likes": "5.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a19880473db",
+    "title": "Skincare Offer Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_126_75b7141228b9cea8ea553bfb2f807d24.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Skincare Offer Ad. Visual elements and ad copy typography: Main headline: \"Receive a FREE Travel Size UItra Nourishing Moisturizer \", Condition text : \"with orders $125+\", Value badge: \"$56 VALUE\", Offer valid: \"Offer valid 2/3 - 2/14\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "84.6K",
+    "likes": "12.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a195d75ced3",
+    "title": "Brow Lift Solution Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_099_ace92ed5b97792e524a11f4580997d5e.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Brow Lift Solution Ad. Visual elements and ad copy typography: main headline: \"Botox browlifts are leaving women with excess drooping \", Subtitle: \"NON-SURGICAL SOLUTION\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "29.3K",
+    "likes": "8.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a195c1aced3",
+    "title": "Body Firming Cream Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_080_b34654feb16f2e8de0a21153cc0ea28d.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Body Firming Cream Ad. Visual elements and ad copy typography: Main offer: \"50% OFF\", Subtitle: \"AMERICA'S FAVORITE BODY FIRMING WHIP\", Urgency text: \"TODAY ONLY\", CTA line: \"SHOP GET-DREAMY AT\", Retailer : \"ULTA BEAUTY\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "73.4K",
+    "likes": "10.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a195993ced3",
+    "title": "Perfume ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_053_9d918bbea7e0ded6ffdf394fef01dacc.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Perfume ad. Visual elements and ad copy typography: Top label: \"3 days only!\", Main headline: \"20% off Glossier you.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "30.2K",
+    "likes": "3.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1956ccced3",
+    "title": "Bag Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_097_a23c5203c7738e40c385acefbf462df1.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Bag Ad. Visual elements and ad copy typography: Brand name: \"RIDGE\", Headline : \"This Carry-On Will Sell Out... Again.\", subtitle: \"Back In Stock For Now\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "42.4K",
+    "likes": "11.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a195637ced3",
+    "title": "Ring Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_027_0780966746410c2c392b70bfb899af14.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for jewelry watches. Concept: Ring Ad. Visual elements and ad copy typography: Main headling: \"Wedding Bands Are Weird.\", Supporting line: \"They don't make sense.\", Problem description: \"They represent a lifelong commitment, but the average guy changes ring sizes 2-3 times and that doesn't count when rings get lost.\", Product limitation: \"The bands from the jewelry store won't last.\", Solution Description: \"We have a very simple solution. Buy a ring from us - it looks great, fits comfortably. Andone day, when you need a new ring Just let us know, we'll send you a new one.\", Guarantee statement: \"For FREE, you ask? Yes THAT's our lifelong commitment.\", Feature badge: \"NEVER LOST, FOREVER FIT\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "88.4K",
+    "likes": "6.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "jewelrywatches"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1950faced3",
+    "title": "Eye cream ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_030_064c7ff3525d65cab1382581ba92e23a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye cream ad. Visual elements and ad copy typography: headline: \"NO MORE HOODED EYELIDS\", subtitle: \"(WILL BE ORDERING THIS AGAIN)\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "59.7K",
+    "likes": "8.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a194ee9ced3",
+    "title": "Eyecream Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_133_199cd9c5290b608a487db36448527f98.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eyecream Ad. Visual elements and ad copy typography: Guarantee Badge: \"60 DAY - MONEY BACK GUARANTEE - MONEY BACK GUARANTEE\", Headline: \"Say Goodbye to Drooping Eyelids\", subtitle: \"Solution For: Sagging eyelids, Excess creases, Fine lines, Wrinkles\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "35.9K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a194a21ced3",
+    "title": "Pet Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_011_de5bfdf3f45d3064d161134642b316e2.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for pets. Concept: Pet Product Ad. Visual elements and ad copy typography: Main headline: \"THE FOUNTAIN BUILT TO LAST YOUR CAT A LIFETIME\", Comparison 1: \"YEAR 1\", Comparison 2: \"YEAR 2\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "38.7K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "pets"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a194873ced3",
+    "title": "Clothing Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_031_253c9d8c61a1a1444bf75cbd05bf66ad.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Clothing Ad. Visual elements and ad copy typography: Brand name: \"GYMSHARK\", Campaign headline: \"BLACK VITAL\", subtitle: \"BESPAAR NU TOT 70% OP ALLEZ\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "68.8K",
+    "likes": "6.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1945cdced3",
+    "title": "wallet ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_332_54933df24a8c67081b9c986719eef983.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: wallet ad. Visual elements and ad copy typography: headline: \"LAST CHANCE\", Subtitle: \"NEVER LOSE YOUR WALLET WITH RIDGE AIRTAG ATTACHMENT\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "24.5K",
+    "likes": "9.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a186623ced3",
+    "title": "Luggage ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_349_dd15e4222f53883223f86b1505aac7ac.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Luggage ad. Visual elements and ad copy typography: Main headline: \"LAST CHANCE\", Scarcity Message: \"SOLD OUT 5 TIMES AND WILL SELL OUT AGAIN\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "15.7K",
+    "likes": "11.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a186519ced3",
+    "title": "Eye Cream Clinical Results Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_253_81212c289b1ae53edad29111c62de858.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye Cream Clinical Results Ad. Visual elements and ad copy typography: Result circle 1: \"92% SAID THEIR EYELID AREA LOOKED SMOOTHER*\", Result Circle 2: \"92% SAID THE FINE LINES ON THEIR EYELIDS LOOKED MORE FILLED IN*\", Result circle 3: \"92% SAID THEIR SKIN LOOKED MORE ELASTIC*\", Guarantee circle: \"100% MONEY-BACK GUARANTEE - TRY IT RISK-FREE\", Study Disclaimer: \"*RESULTS ARE FROM A 12 WEEK USER-GROUP TESTING OF 23 USERS AGES 54-72. ACTUAL RESULTS MAY VARY\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "26.6K",
+    "likes": "19.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a186283ced3",
+    "title": "Wallet Sale Brand Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_371_ffd278e6badcd694ac4fb2a6b4e77b78.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for fashion clothing. Concept: Wallet Sale Brand Ad. Visual elements and ad copy typography: Main headline: \"THESE WALLETS LAST FOREVER. THIS SALE WON'T\", Subtitle: \"CYBER SALE\", Discount offer: \"UP TO 47% OFF\", colour : \"BASECAMP ORANGE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "30.1K",
+    "likes": "19.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "fashionclothing"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1860afced3",
+    "title": "Eye Cream Product Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_384_4bd63d74003153a69bba1430a579c9c0.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for beauty skincare. Concept: Eye Cream Product Ad. Visual elements and ad copy typography: Main headline: \"NO MORE HOODED EYELIDS.\", Subtitle: \"Will be ordering this again.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "40.6K",
+    "likes": "16.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "beautyskincare",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a185fcfced3",
+    "title": "Joint pain relief supplement offer ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_411_51e3b1bb2bbcf3d5578a9c3e75076758.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Joint pain relief supplement offer ad. Visual elements and ad copy typography: Top banner: \"FREE SECRET GIFTS INCLUDED\", Main headline: \"No More JOINT PAIN\", Subtitle: \"No Jitters, No Crash, Improves Digestion, Better Focus, Reduces Inflammation!\", cut prize: \"$36\", actual prize: \"$27\", Urgency text: \"LIMITED TIME OFFER\", Guarantee text: \"TRY 30 - DAYS RISK-FREE\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "33.3K",
+    "likes": "16.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a185da6ced3",
+    "title": "Supplement Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_420_3b377cbcaa806b5d017a6c4e8983196e.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Supplement Ad. Visual elements and ad copy typography: Top label: \"MADE IN USA\", Main offer headline: \"FREE SPOON + SHIPPING\", Discount badge: \"28% OFF\", Benefit 1: \"REDUCED INFLAMMATION\", Benefit 2: \"BRIGHTER SKIN\", Benefit 3: \"HEALTHY GUT\", Benefit 4: \"NATURAL ENERGY\", Social proof: \"200,000+ 5 STAR REVIEWS\", Urgency text: \"LIMITED TIME OFFER\", Section heading: \"+FREE SCOOP\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "31.3K",
+    "likes": "10.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a185ad1ced3",
+    "title": "Testimonial Supplement Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_423_0852023aac7a7f595afa85e7ee8e2b46.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Testimonial Supplement Ad. Visual elements and ad copy typography: Headline: \"POV: YOU GOT YOUR LIFE BACK AT 43\", Testimonial : \"After two years of brutal perimenopause symptoms at 43 - the hot flashes, nausea, and irritability are GONE! Three weeks on these beef organs and my energy is through the roof - Tiffany G, Verified Buyer\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "46.3K",
+    "likes": "18.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a18416ac141",
+    "title": "Varicose vein relief supplement ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_427_d0b4e5c7a9b61eebc7f19f0cdeb7ba47.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Varicose vein relief supplement ad. Visual elements and ad copy typography: Main headline: \"Tired of Varicose Veins Try This Natural Remedy\", cut prize: \"$138\", Actual prize: \"$69\", Benefit 1: \"Normalizes Blood Flow\", Benefit 2: \"Lowers Inflammation and Discomfort\", Benefit 3: \"Promotes Vein Health\", Benefit 4: \"Improves Blood Circulation\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "42.4K",
+    "likes": "10.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a18126bc141",
+    "title": "Grounding Mat Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/capture-studio/static-ads/ad_408_303ae44bca869e82a35c67c8abf25a85.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Grounding Mat Ad. Visual elements and ad copy typography: Headline : \"FIGHT SWELLING WITH OUR GROUNDING MAT \", Discount Highlight: \"SAVE $70\", Shipping Information: \"FREE SHIPPING WORLDWIDE FROM USA\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "88.8K",
+    "likes": "10.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1810e3c141",
+    "title": "Neuropathy Relief Mat ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/capture-studio/static-ads/ad_433_9dbc3f0c89c756fc899a0b7ba59c3d7f.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Neuropathy Relief Mat ad. Visual elements and ad copy typography: Main Headline: \"This Simple Mat Can Help Relieve Neuropathy In 2 Weeks\", Benefit 1: \"Relieves Nerve Discomfort\", Benefit 2: \"Reduces Tingling Sensations \", Benefit 3: \"Improves Nerve Function\", Benefit 4: \"Soothes Burning Pain \", Social Proof: \"Top rated with over 20,000 +5 star reviews\", Cut prize: \"$139\", Actual prize : \"$69\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "49.8K",
+    "likes": "15.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a180e0cc141",
+    "title": "Customer Review Supplement Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/capture-studio/static-ads/ad_434_5c4fbdd6b195f44663763d0f91fcb431.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Customer Review Supplement Ad. Visual elements and ad copy typography: Main Headline: \"What Primal Queens Are Saying\", Testimonial 1: \"Avery Rose - The vitamins have done wonders after only a month of being on them and the customer service is phenomenal!!!\", Testimonial 2 : \"Harper Ellse - I've not been using them an entire month yet, but I have noticed more energy which is so great!!!\", Testimonial 3: \"Riley Evans - I am so happy I decided to try this product. I have so much more energy.\", Testimonial 4: \"Olivia Morgan - I have been using it for a week and WOW I can already feel a difference. It is amazing how much more energy I have and want to get up and go. I can't wait to see even more results from this.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "54.6K",
+    "likes": "16.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a180a53c141",
+    "title": "Herbal Pain Relief Supplement Ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/capture-studio/static-ads/ad_437_7dc7ea4c3c2b94445dbf866dc30d036a.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Herbal Pain Relief Supplement Ad. Visual elements and ad copy typography: Main headline: \"NUTMEG\", Subtitle: \"FOR NATURAL PAIN RELIEF\", Section heading: \"What's inside?\", Ingredient 1: \"BLACK TEA\", Ingredient 2: \"NUTMEG\", Ingredient 3: \"CARDAMOM\", Ingredient 4: \"GINGER\", Ingredient 5: \"CINNAMON\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "36.8K",
+    "likes": "12.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a17e7a5c141",
+    "title": "supplement ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_043_f3e320279545a1185df6c5c2ff5d6296.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: supplement ad. Visual elements and ad copy typography: Customer Testimonial: \"\"Zombie mom to supermom in a month. Finally have my energy and joy back!\" -Steph R. Verified Buyer\", Offer Highlight: \"PLUS 4 FREE GIFTS\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "71.8K",
+    "likes": "5.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a17dca7c141",
+    "title": "supplement ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_008_399c0a814b997ed77ea7470a2e765c73.webp",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: supplement ad. Visual elements and ad copy typography: headline: \"SPA FOR YOUR BRAIN\", subtitle: \"Let the soothing warth of our hot cocoa guide you to sweet dreams\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "38.1K",
+    "likes": "16.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-ad-6a1692c18761",
+    "title": "Product in bed ad \u2013 High Converting Static Ad",
+    "category": "image",
+    "model": "ChatGPT-4o",
+    "thumbnail": "https://cdn.heyoz.com/content-studio/static-ads/ad_435_d5a2ac5e2c083a6d01790e500279b986.jpg",
+    "aspectRatio": "1:1",
+    "prompt": "Professional high-converting commercial static ad design for health fitness. Concept: Product in bed ad. Visual elements and ad copy typography: Cut price: \"$36\", Actual price: \"$27\", Headline: \"Fall Asleep Stay Asleep\", Sub-heading: \"Enjoy better sleep while supporting your immune system and reducing stress.\". Clean modern layout, premium studio lighting, crisp product photography framing, high contrast editorial advertising typography, viral social media CTR aesthetic, 8k resolution.",
+    "negativePrompt": "blurry text, bad typography, low resolution, artifacts, distorted logo, poor composition, amateur lighting",
+    "views": "35.2K",
+    "likes": "14.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Studio",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Commercial",
+      "Marketing",
+      "Ecommerce",
+      "AdCreative",
+      "StaticAd",
+      "healthfitness"
+    ],
+    "suggestedTools": [
+      "nano-banana",
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab3790898d7",
+    "title": "Uniform Crowd Synchrony \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/uniform-crowd-synchrony/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Uniform Crowd Synchrony. Scene description & motion dynamics: A cinematic mood film built directly on an attached reference clip. A lone bare-headed figure walks past the front rank of a helmeted crowd, through to the centre, and turns to camera \u2014 then the whole crowd bends and rises in a rolling churn while they alone stand still. The reference clip is wired into the video step as a fixed motion, crowd and setting anchor, so the pacing, the choreography, the helmets and the courtyard are inherited rather than described. Only the lead changes. Camera & styling: Best as a brand mood film, a title sequence or an account opener rather than a product ad \u2014 fashion, music, film, an agency reel. There is no product in it and nowhere to put one. Skip it if you need a product on screen, a claim made, or a call to action. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "75.8K",
+    "likes": "21.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab2194898d7",
+    "title": "Floating Giant Product Snatch \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/floating-giant-product-snatc/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Floating Giant Product Snatch. Scene description & motion dynamics: A short street sketch locked to a 9-second reference edit. An enormous version of the product hangs in mid-air on a wet cobbled corner, unsupported, casting its shadow on the stones. A woman runs in, glances around, grabs it, and turns it to the lens grinning with the label filling the frame. Then it shrinks in her hands to its real size \u2014 she tucks it under her arm and bolts, and the film ends on the empty corner. No dialogue, upbeat electronic bed with two comic sound effects. The avatar and the product swap. Camera & styling: Best for products with a bold, readable label that survives being blown up to the size of a person \u2014 jars, tubs, bottles, cartons, tins. Food, drink and beauty all work. The gag is scale, so it needs packaging that looks funny huge and normal small. Skip for products with fine print, for anything with no distinct container, and for brands that don't want to be shown being stolen. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "84.7K",
+    "likes": "13.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab21b6398d7",
+    "title": "Bag POV Product Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/bag-pov-product-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Bag POV Product Reveal. Scene description & motion dynamics: A single-gimmick influencer demo locked to a 15-second reference edit. The camera lies inside a handbag looking straight up out of it, the bag's opening forming a soft leather vignette around the whole frame. She leans over the bag from above against blue sky and city rooftops, reaches in, lifts the product out, uncaps it, drops it onto the back of her hand and rubs it in, then holds it up again \u2014 all in the same unbroken POV. It cuts out of the bag once, at the end, for a sunlit close-up of her holding it beside her face. No dialogue, no on-screen text, upbeat electronic bed. The avatar and the product swap. Camera & styling: Best for small bag-carried beauty and personal care that can be demonstrated in one gesture \u2014 serums, ampoules, oils, mists, balms, hand cream, fragrance. The gimmick needs a product that fits in a handbag and a label that reads when held at arm's length. Skip for large packaging, for anything used at home rather than out, and for products that need more than a few seconds to show. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "87.3K",
+    "likes": "17.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab21cea98d7",
+    "title": "Lava Drop Ingredient Transformation \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/lava-drop-ingredient-transformation/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Lava Drop Ingredient Transformation. Scene description & motion dynamics: An absurd photoreal transformation locked to a 12-second reference edit. A fluffy white cat sits in an open helicopter doorway high above a churning lava field, beside a hessian sack of the product's raw ingredients. It paws them out one by one; they tumble down and vanish into the molten rock, which blooms white-gold \u2014 then the finished product erupts back up out of the pit in a column, rains down around the cat and fills the sack. The cat catches one and reacts, deadpan. No dialogue, no music, just helicopter blades and sizzle. The raw ingredients and the product both derive from whatever is selected. Camera & styling: Best for products with recognisable raw ingredients and a satisfying finished form \u2014 snacks, drinks, confectionery, condiments, coffee, baked goods, soap and candles. The gag needs an input that looks like an input and an output that reads instantly at a distance. Skip for products with no visible raw material, for anything assembled rather than cooked or made, and for brands that can't take a completely ridiculous premise. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "59.6K",
+    "likes": "17.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab17c7998d7",
+    "title": "Sand Etch Wave Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/sand-etch-wave-reveal-thumb.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Sand Etch Wave Reveal. Scene description & motion dynamics: A locked top-down product reveal shot on wet beach sand. A thin twig draws the product's silhouette into the sand as one continuous groove, the brand wordmark rises in relief inside the outline, then a single wave sweeps diagonally across frame and the real product materialises in the exact position the drawing occupied. The water recedes, the sand dries under hard sun, and the light falls off into a moody end card. No people, no dialogue, no cuts \u2014 one unbroken overhead take carried entirely by sand, water and light. Camera & styling: Best for a single hero SKU with a strong silhouette and a legible wordmark \u2014 serum and dropper bottles, fragrance, lipstick and mascara tubes, watches, sunglasses, a slim can, a jar of skincare. Best when the brand wants a premium wordless feel and will add the handle / CTA overlay in post. Skip for anything that needs a person, a demo, spoken proof or a before-after; skip for products with a busy, low-contrast or all-over-print silhouette (a shoe, a plush toy, a multi-piece set) because the sand drawing reads as a shapeless blob; skip for anything that cannot plausibly sit on wet sand without looking damaged (electronics, paper packaging, food that would spoil). High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "90.1K",
+    "likes": "10.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6ab17b3b98d7",
+    "title": "Glow Figure Splash Mascot \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/glow-figure-splash-mascot/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Glow Figure Splash Mascot. Scene description & motion dynamics: Real product footage with a hand-drawn glowing character animated over it, all in one locked-off shot. The product sits on a warm wooden counter in a caf\u00e9, sharp against a soft background. A glowing white stick figure walks in from the lower left, climbs the side of the product, stands on top of it and gives the camera a thumbs-up \u2014 then crouches, leaps, and drops straight in, throwing up a real liquid splash. A beat later its head rises back out of the drink, grinning, and it waves at the viewer while the product holds centre frame. No cuts, no dialogue, no text. Camera & styling: Best for a product with an open top or a visible liquid the character can drop into \u2014 iced drinks, smoothies, shakes, soups, sauces, a tub of ice cream, a jar of honey. The splash is the payoff, so it needs something to splash. Also works for a sealed product if the direction replaces the splash with another interaction. Skip for products with no top surface to climb or land on, and where a cartoon mascot would be off-brand. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "68.6K",
+    "likes": "19.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aaced3b98d7",
+    "title": "Silver Service Suite Ritual \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/silver-service-suite-ritual/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Silver Service Suite Ritual. Scene description & motion dynamics: A quiet luxury film locked to a 15-second reference edit. A silver service trolley rolls across the carpet of a grand suite; a white-gloved hand lifts the cloche and there, beside an iced coffee, is the product. She picks it up, uncaps it, uses it in extreme close-up, checks herself in a hand mirror, and drops it into her purse. The butler sets down a saucer, she lifts her coffee, and it closes on a split frame of her and the product. Photoreal, warm neutrals, very shallow focus, soft jazz, two spoken lines. The avatar and the product swap. Camera & styling: Best for small luxury beauty and personal care presented as an everyday indulgence \u2014 balms, glosses, serums, fragrance, hand cream, a compact. The whole idea is a humble product served like room service, so it needs something small, elegant and used in one quick gesture. Skip for large or utilitarian packaging, for anything that needs explaining, and for products that cannot be shown going on in macro. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "44.1K",
+    "likes": "11.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa12d3298d7",
+    "title": "Leather Incision Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/leather-incision-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Leather Incision Reveal. Scene description & motion dynamics: A dark, near-monochrome product reveal shot flat-on in macro. A panel of deep leather fills the frame with the product's own silhouette debossed into it, so you can see something is inside. A gloved hand in the same colour enters with a slim blade, sets it at the top of that shape, and draws a single cut down the centre line. The real product appears through the widening incision \u2014 a sliver of label, then the liquid, then the collar. The hand parts the two flaps, the product emerges, and the hand lifts it clear. Then one cut to a dark hold. No people beyond a gloved hand, no dialogue, no text. Camera & styling: Best for a premium product with a strong, instantly recognisable silhouette and a rich saturated colour to build the whole frame from \u2014 fragrance, a spirits bottle, a serum, a lipstick, a boxed watch. It needs a label or detail bright enough to read against a dark monochrome world. Skip for pale or colourless packaging, for products with a vague outline, and for brands that cannot use a blade on screen. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "73.9K",
+    "likes": "12.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aab9cb698d7",
+    "title": "On The Go City Routine \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/on-the-go-city-routine/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: On The Go City Routine. Scene description & motion dynamics: A polished lifestyle brand film locked to a 30-second reference edit. It opens on a bathroom shelf, she reaches past everything else and takes one thing, and then the film follows her whole day through the city with it \u2014 the subway, the street, a coffee run, a hire bike, a taxi \u2014 using it in small snatched moments along the way. It closes back on the same shelf as she takes it again. A third-person voiceover over upbeat pop, real city sound, two wardrobe looks. The avatar and the product swap. Camera & styling: Best for small portable everyday products that get used more than once a day and look good in a hand \u2014 haircare, skincare, fragrance, lip products, supplements, small tech. The whole pitch is \"it goes everywhere with her\", so the product must be bag-sized and quick to use. Skip for anything too large to carry, anything used only at home, and for products that need explaining rather than showing. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "91.1K",
+    "likes": "25.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aab95eb98d7",
+    "title": "Snack Hook Product Montage \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/snack-hook/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Snack Hook Product Montage. Scene description & motion dynamics: A scroll-stopper locked to a 15.6-second reference edit. It opens on five seconds of candid, letterboxed phone footage \u2014 a couple sitting close, sharing a chocolate bar, feeding each other and laughing \u2014 which has nothing to do with the product and is there purely to stop the thumb. Then it cuts hard into a fast, sun-drenched montage of the product: lifted in a basket, pressed into foam, on a hot-pink plinth, in a foamy hand against the sea, on a poolside table, in a shop, on a billboard, packed in a suitcase. Closes on the avatar holding it to her cheek in warm sun. The avatar and the product swap. Camera & styling: Best for bright, colourful consumer goods that photograph well wet and in sunlight \u2014 body wash, shower gel, suncream, haircare, drinks, minis. The hook is deliberately unrelated to the product, so it suits brands happy to trade a literal opening for retention. Skip for muted or clinical packaging, for anything needing explanation, and for products that can't carry seven fast beauty shots on looks alone. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "43.1K",
+    "likes": "10.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aab96e998d7",
+    "title": "Street Snatch Bag Payback \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/street-snatch-bag-payback/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Snatch Bag Payback. Scene description & motion dynamics: A cinematic street sketch locked to a 17-second reference edit. A woman walks a wet autumn city street with her phone in her hand; a man in a hood snatches the PHONE straight out of her grip and bolts. She pulls the product off her own shoulder and hurls it after him \u2014 it spins through the air, lands square on the back of his head and puts him face-down on the tarmac, the phone skittering out of his hand. The product bounces off and comes to rest upright on the wet road, beaded with rain, while she walks up, crouches, retrieves her phone, drops it inside and tells the camera not to mess with her. Shot like a real short film, not a commercial. The avatar and the product swap. Camera & styling: Built for a product the hero can throw at someone: a handbag, tote, clutch, backpack, bottle, hard case, boot. The gag only works if it survives the impact looking immaculate, so it suits brands selling durability, structure or quality of materials \u2014 and it needs a product that reads well wet and at a distance. Skip for anything fragile, anything soft enough to flop in the air, anything that opens or spills, and any brand that can't be seen in a story about street crime. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "95.6K",
+    "likes": "13.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aab93cf98d7",
+    "title": "Harvest To Bottle Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/harvest-to-bottle-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Harvest To Bottle Reveal. Scene description & motion dynamics: A luxurious origin-story reveal locked to a 10-second reference edit. A gloved hand lifts the product's hero ingredient out of its natural setting, still dripping; a gold blade slices through it in macro; it goes into an ornate gold press and runs out in threads; the stream pours into the empty bottle; and the finished product stands on dark polished marble in drifting smoke. No people beyond a gloved hand, no dialogue, building orchestral score. The hero ingredient is derived from whichever product is selected. Camera & styling: Best for products with a single romantic hero ingredient worth showing at source \u2014 fragrance, oils, honey and preserves, spirits, coffee, botanical skincare. The format sells provenance, so it needs an ingredient that looks good raw and a bottle worth filling on camera. Skip for products with no natural origin story, for anything whose ingredient is unappealing raw, and for multi-piece ranges. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "85.8K",
+    "likes": "16.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aaaeffe98d7",
+    "title": "Dark Corridor Butterfly Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/dark-corridor-butterfly-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Dark Corridor Butterfly Reveal. Scene description & motion dynamics: A dark, cinematic mood film locked to a 10.6-second reference edit. A long symmetrical corridor lit only by warm sconces; a butterfly flies out of the depth toward the lens and settles into focus, wings spread, golden eye-spots showing. The frame drops to black and two glowing amber eyes open in it. The figure is revealed standing in the corridor, then in profile with the butterfly on a raised hand, then in extreme close-up with it perched on their cheek. Very low key, deep shadow, warm amber only. No product, no dialogue. The avatar swaps; the butterfly and everything else stay exactly as they are. Camera & styling: Best as a brand mood film or an account opener rather than a product ad \u2014 fashion, fragrance, jewellery, music, anything sold on atmosphere. There is no product in it and no place to put one, so it builds a world rather than making a case. Skip it entirely if you need the product on screen, a claim made, or a call to action. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "79.4K",
+    "likes": "15.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa917a798d7",
+    "title": "Animated Story Testimonial \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/animated-story-testimonial/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Animated Story Testimonial. Scene description & motion dynamics: A 30-second 2D-animated sung ad, built on the format that is working for a wave of supplement and consumer brands. Flat cel-shaded adult-animation \u2014 thick outlines, simple shapes, the look of a TV comedy \u2014 with an original song playing over the top as a backing track and burned-in lyric captions. Nobody lip-syncs and nobody talks to camera: the character just lives the story while the song tells it. Eight beats take it from the character's ordinary day, through the turn, to the product and a closing product shot. The advertiser supplies the story; the character and the product swap. Camera & styling: Best for products bought out of a lived frustration \u2014 supplements, drinks, tools, work gear, services \u2014 where a customer's own experience is the pitch. The animated treatment stages a whole life cheaply, and a sung hook is far more repeatable than a voiceover. Skip for products that need real texture on screen, for anything where photoreal detail is the selling point, and for any story you can't substantiate. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "92.9K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa917b198d7",
+    "title": "Crane Hoist Fashion Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/crane-hoist-fashion-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Crane Hoist Fashion Reveal. Scene description & motion dynamics: A surreal one-joke fashion campaign locked to a 10-second reference edit. It opens tight on a model's face, wind in her hair, eyes wide in heightened campaign shock \u2014 then pulls back to reveal her suspended from a construction crane high above a city street, holding the product above her head like a trophy. A man on a rooftop stops mid-hot-dog, gapes, and photographs her. A backlit hero shot of the product, then a clean pack shot. The whole film is photoreal and naturalistic, with the product as the only colour against creams, glass and sky. The avatar and the product swap. Camera & styling: Built for one hero accessory with a strong silhouette and a confident colour: handbags, totes, shoes, fragrance, a watch. The gag is that the product is strong enough to hang a person from, so it suits fashion and luxury brands with a sense of humour and a piece that reads as well made. Skip for muted or multicoloured packaging, for anything too small to read at a distance, for anything visibly soft or flimsy, and for ranges rather than a single hero piece. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "27.5K",
+    "likes": "9.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa917c198d7",
+    "title": "Drawn Outline Beauty Demo \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/drawn-outline-beauty-demo/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Drawn Outline Beauty Demo. Scene description & motion dynamics: A calm, photoreal product demo locked to a 13-second reference edit. A woman holds the product's dropper and draws its silhouette in the air in front of her in a single thin dark line \u2014 then the outline fills and the real product is there in her hand. From there it plays straight: the product still on a sunlit stone ledge, a macro of a droplet leaving the pipette, the serum going onto her cheek with her fingertips, and her hands opening the box. Soft window light, warm neutral palette, no dialogue, minimal piano. The avatar and the product swap. Camera & styling: Best for skincare and beauty with a clean, distinctive bottle \u2014 serums, oils, essences, droppers and pumps \u2014 where the packaging is part of the pitch and the texture of the product is worth a macro. The drawn-outline hook needs a silhouette that reads in one continuous line. Skip for busy or irregular packaging, for multi-piece ranges, and for anything without a visible texture to dispense. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "51.9K",
+    "likes": "17.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3eb3d98d7",
+    "title": "Car Mirror Window Handoff \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/car-mirror-window-handoff/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Car Mirror Window Handoff. Scene description & motion dynamics: A single unbroken locked-off close-up on a car's wing mirror. A gloved hand knocks on the window, the window rolls down inside the mirror's reflection, the product is raised into the reflection with its label facing camera, and a bare hand from inside the car takes it. Warm retro grade, no dialogue, music only. Everything happens inside the mirror \u2014 the camera never moves and no face is ever in frame, so no avatar is needed. One product swaps into the handoff. Camera & styling: Best for drinks, cups, small packaged goods and anything handheld with a label that reads at arm's length \u2014 coffee, bubble tea, energy drinks, snack boxes, small cartons. Also strong for delivery and drive-thru positioning. Skip for products too large to hold in one gloved hand, for anything needing a spoken pitch or a person on camera, and for products whose label detail is fine print. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "88.2K",
+    "likes": "19.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3eb5d98d7",
+    "title": "Street Bait Venue Skit \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/street-bait-venue-skit/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Bait Venue Skit. Scene description & motion dynamics: A fast, playful skit built on a fixed 11-beat spine: a banknote lies as bait on a narrow laneway, a hand grabs the passer-by's ankle and drags them flat into a venue, staff force-feed them the product, they pay by phone, and staff bow and wave them out under a dimmed end card. Hard sub-second cuts, handheld documentary look, one enthusiastic off-camera host voice across the whole ad. The beat order, camera moves and pacing are locked \u2014 only the avatar, the product and the spoken lines change per run. Camera & styling: Best for walk-in venues and impulse products with a physical \"hand it to them\" moment: cafes, dessert bars, takeaway counters, barbers, nail bars, arcades. Also works for any product a person can be handed and visibly enjoy on camera. Skip for services with no premises, anything with a serious or clinical tone, regulated categories where being force-fed a product reads badly (supplements, medical, alcohol in strict markets), and B2B or considered purchases. 15 seconds is this format's native pacing \u2014 longer durations dilate the same 11 beats and the comedy softens, so pick 15s unless you specifically need length. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "48.2K",
+    "likes": "14.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3eb7c98d7",
+    "title": "Liquid Fill Product Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/liquis-fill-product-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Liquid Fill Product Reveal. Scene description & motion dynamics: A locked-off tabletop reveal on a seamless coloured backdrop. The product stands centre frame as an empty transparent shell \u2014 a glass ghost of itself \u2014 ringed by the raw ingredient melting into a glossy pool. A thick stream pours in from the top of frame and the bottle fills from the bottom up, and everything below the rising fill line turns into the real, fully rendered product while everything above it stays a ghost. The fill reaches the cap, the stream stops, the finished product holds, and the frame dims to a dark hold for the end card. No people, no dialogue, no camera movement \u2014 the only thing that moves is liquid. Camera & styling: Best for a product in a container you can see through or plausibly fill \u2014 serum and oil bottles, fragrance, foundation, a drink can or bottle, a jar of honey or sauce, a shampoo bottle. It needs ONE signature ingredient, flavour or shade with an obvious colour and texture, because that ingredient is what pours in and what dresses the set. Skip for products with no fillable form (a compact, a palette, a bar of soap, apparel, devices), for anything whose colour is not distinctive, and for anything needing a person, a demo or a spoken claim. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "77.4K",
+    "likes": "20.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3ebb198d7",
+    "title": "Fold-Out Feature Demo \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/fold-out-feature-demo/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Fold-Out Feature Demo. Scene description & motion dynamics: A fast handheld UGC feature demo in six acts. It opens on the product held small and closed in her hands on a white bed, then opens out to full size. She shows it in real use in a mirror, then works through its features one by one \u2014 each one physically demonstrated rather than claimed: what it holds, how it packs away, how it attaches, how it expands. She holds it up delighted, we see it laid out with everything it carries, and she picks it up and walks out of frame. First-person narration in her own voice throughout, and no text on screen. Camera & styling: Best for a product whose selling points are physical and demonstrable in a second each \u2014 bags and luggage, folding and collapsible gear, organisers, travel accessories, kitchen tools, prams and carriers, tech with a visible mechanism. It needs at least three features you can SHOW. Skip where the benefits are invisible or claim-based, where nothing moves or opens, and for consumables that get used up rather than operated. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "73.9K",
+    "likes": "6.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b84fb98d7",
+    "title": "UGC \u2014 Store Find \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/ugc-store-find/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: UGC \u2014 Store Find. Scene description & motion dynamics: A UGC ad that opens with a hook where the actor walks toward a shelf, picks up the product, turns to camera with a shush gesture, then zooms in to photograph it \u2014 framing the product as a secret find worth sharing. The hook cuts into a direct-to-camera talking-head where the actor speaks to the product's benefits. Each clip is composed as a still frame first and then animated, so the aisle, the outfit and the shelf hold together across the cut. Native voice lip-sync. The hook is always 5 seconds; talking-head clips fill the rest. Camera & styling: Best for products sold in physical retail or products the audience would recognise from a shelf \u2014 supplements, skincare, food/drink, household, wellness. The store-find hook works because it frames the product as a discovery rather than an ad: \"I found something you need to know about.\" Also strong for DTC brands expanding into retail as a credibility signal, or for any product where the physical packaging is the hero.\n\nNote on the aisle: every other product on the shelves is generated as generic, unbranded packaging with blank or illegible labels. Only your product carries a readable label. That is deliberate \u2014 a store shelf is full of other companies' trademarks, and this template will not put them on screen.\n\nSkip for purely digital products, services, or anything that has no plausible \"found it in a store\" context.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "77.1K",
+    "likes": "6.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3adaa98d7",
+    "title": "Skit Hook Testimonial \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/skit-hook-testimonial/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Skit Hook Testimonial. Scene description & motion dynamics: A UGC testimonial that opens with a pattern interrupt. She is out in the street in sunglasses, apparently furious at a car \u2014 arms wide, yelling \u2014 and then turns to the lens, drops the act completely, and cheerfully tells you about the product. Cut indoors to the real testimonial: what her ideal version of this product would look like, the specs shown as flatlays, her actually using it, the honest complaint about everything else on the market, and the reversal. It closes on the product held up to camera with the call to action. Her voice throughout, lip-synced where she faces the lens, and no text on screen. Camera & styling: Best for a repeat-purchase consumer product with a few concrete, checkable specs and at least two flavours or variants \u2014 protein bars and snacks, supplements, drinks, coffee, skincare with an ingredient story, pet treats. It needs a real category frustration to push against, because act E is built on naming one. Skip for products with no competitors to compare against, for anything that cannot be held up or consumed on camera, and for brands that cannot use a loud comic opening. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "55.1K",
+    "likes": "14.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa30a2198d7",
+    "title": "POV Bag Spill Product Find \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/pov-bag-spill-product-find/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: POV Bag Spill Product Find. Scene description & motion dynamics: A one-take POV phone skit locked to an 8.6-second reference edit. The camera walks up to a woman face-down on a tiled floor with the contents of her handbag scattered around her, pats her shoulder to check she's alive, notices the product in the scatter, picks it up, reads the label \u2014 and walks off with it, leaving her there. Shot entirely first-person looking down, handheld, no cuts, off-camera dialogue. The product swaps. Camera & styling: Best for anything that lives in a handbag and reads at arm's length \u2014 mists, serums, lip products, minis, compacts, small tech, snacks, supplements. The joke is that the product is worth more than the person, so it suits playful, self-aware brands. Skip for anything too large to hold one-handed in a phone POV, for products whose label is fine print, and for brands that can't take a gag at a customer's expense. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "79.7K",
+    "likes": "9.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3079498d7",
+    "title": "Stencil Spray Fill Product Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/stencil-spray-fill-product-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Stencil Spray Fill Product Reveal. Scene description & motion dynamics: A locked overhead transformation locked to a 15.7-second reference edit. The product starts as a thin white line drawing on sunlit concrete. A hand sprays from off-frame right and the body fills from the bottom up, turning photoreal as it goes. A second pass fills the cap. The finished product holds, the liquid inside comes alive and splashes, then everything drains back to the line drawing it started as. Locked camera, no people beyond a hand, no dialogue. The product swaps. Camera & styling: Best for products with a clear silhouette, a distinct body colour and a visibly separate cap or lid \u2014 fragrance, serums, toners, spirits, sodas, sauces, nail polish. The liquid-comes-alive beat needs a see-through or translucent body, so it lands hardest on glass and clear plastic. Skip for opaque boxes, sachets, apparel, anything with a fussy or asymmetric outline, and anything where the label is dense fine print. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "70.6K",
+    "likes": "16.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa3094598d7",
+    "title": "Plaza Fall Recover Product \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/plaza-fall-recover-product/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Plaza Fall Recover Product. Scene description & motion dynamics: A hard-cut skit locked to the beats of a 17.8-second reference edit. The avatar drops out of frame onto the paving of a sunlit modern plaza, peels herself off the ground, grabs her bag, flips her hair, puts on sunglasses and strides at the camera as if nothing happened. Mid-stride she pulls the product from her tote, shakes it high overhead, drinks it and walks past the lens. Handheld low angle throughout, no dialogue, music only, no text or logo on screen at any point. The avatar and the product both swap. Camera & styling: Best for handheld consumables with attitude \u2014 energy drinks, canned coffee, sodas, shot bottles, supplements, mists \u2014 sold on confidence rather than explanation. Also works for fashion and accessory brands that want the pratfall-recovery beat. Skip for anything needing a spoken pitch or a talking head, for products too large to hold in one raised hand, and for brands that can't be seen hitting the ground in a designer dress. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "93.7K",
+    "likes": "25.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa306cd98d7",
+    "title": "VHS Alter Ego Lookbook \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/vhs-alter-ego-lookbook/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: VHS Alter Ego Lookbook. Scene description & motion dynamics: A fast, witty VHS-era montage locked to a 20-second reference edit. Opens on CRT static with a handwritten title, then whips through six completely different 1980s alter-egos of the SAME woman \u2014 arcade girl, ballroom glamour, LA cool girl, garden romance, corporate power woman, nightclub diva \u2014 each with its own setting, wardrobe, hair and handwritten caption, joined by whip pans, camera flashes, a car swipe, petals and a phone-slam match cut. Ends on a rapid-fire flash through all six and a CRT freeze-frame. The avatar swaps; the six looks are fixed. Camera & styling: Best for fashion, beauty and accessory brands selling range rather than one hero item \u2014 a lipstick or shade that works across every look, a collection drop, a lookbook. The gag is one face proving it has range, so it needs an avatar whose identity holds up across six wardrobe changes. Skip for single-product demos, for anything needing the product physically handled on camera, and for brands that can't carry a dry joke. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "69.4K",
+    "likes": "15.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6aa1a2b598d7",
+    "title": "Rolling Motif Journey \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.dev.heyoz.com/video-templates/previews/rolling-motif-journey/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Rolling Motif Journey. Scene description & motion dynamics: A single piece of the product's signature ingredient escapes a market crate and rolls. Six ground-level shots follow it through a warm little world - past a cat that paws at it, along a dusty path, down a sunlit pier, through a cobbled alley, into tall grass at dusk. It comes to rest, and the product rises slowly out of the ground beside it against the sunset. No people, no dialogue, no music, no text. Camera & styling: Best for a product built on one recognisable natural ingredient that is round enough to roll - a citrus fragrance, a fruit drink or jam, an olive oil, a nut butter, a botanical skincare. The whole film rides on that object being instantly readable as the product's own note. Skip where the hero ingredient is powdered, liquid or abstract, and for anything with no natural motif. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "51.8K",
+    "likes": "15.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b844498d7",
+    "title": "Street Interview \u2014 Confession & Pivot \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/street-interview-confession-pivot/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Interview \u2014 Confession & Pivot. Scene description & motion dynamics: A man-on-the-street ad where the interviewer asks for a confession or vulnerable answer \u2014 something most people wouldn't share, but do when a mic is in their face in the right setting. The interviewer empathizes, then pivots to the product as something that genuinely helps with the underlying issue. The most emotionally resonant of the street-interview formats. Warm and curious tone, college campus setting, mic in frame. Each clip is composed as a still frame first and then animated, so the campus and the interviewer hold together while every stranger stays a different person. Outputs 15 / 30 / 45 / 60 seconds of vertical video. Camera & styling: Wellness, lifestyle, and everyday-frustration categories \u2014 sleep, stress, focus, confidence, money worries, habit change, self-image. Works best when the confession itself is relatable enough that the viewer nods along before the pivot happens.\n\nTwo things to settle before you run this one. First, the confessions are written by the template and performed by a generated face, but the format's persuasive power comes from looking like unscripted documentary footage \u2014 so treat it as you would any dramatised testimonial: label it as AI-generated where your platform requires it, and don't present it as a record of real people's statements. Second, keep the struggle in everyday territory. This template will not write confessions about diagnosed conditions, grief, addiction or self-harm, and it will not let the pivot imply the product treats a condition \u2014 if your product needs that kind of claim, this is the wrong format.\n\nSkip for B2B/SaaS, for regulated health categories where an implied benefit creates compliance risk, and for products that don't map to an emotional or lifestyle struggle.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "36.9K",
+    "likes": "6.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b84b298d7",
+    "title": "Street Interview \u2014 Problem & Solution \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/street-interview-problem-solution/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Interview \u2014 Problem & Solution. Scene description & motion dynamics: A man-on-the-street ad where the interviewer asks a confessional question that surfaces the exact problem your product solves. Strangers admit the struggle \u2014 \"honestly, I genuinely don't know\" \u2014 and the product enters as the answer rather than the pitch. Renders as handheld documentary footage, mic in frame, real ambient city sound. Each beat is composed as a still frame first and then animated, so the interviewee's outfit and the sidewalk hold together across the whole cut. Outputs 15 / 30 / 45 / 60 seconds of vertical video. Camera & styling: DTC products that solve a clear daily frustration \u2014 sleep, sweat, skin, energy, gut health, money, focus. Best when the admission ('I haven''t slept eight hours in months') is more persuasive than any brand claim. Also strong for categories with social permission to complain (beauty fails, fitness guilt, stress). Skip for B2B/SaaS, regulated categories with compliance risk around unscripted reactions, and products that need detailed feature explanation. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "43.6K",
+    "likes": "12.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a96886598d7",
+    "title": "ASMR \u2014 Product in Use \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/asmr-product-visuals/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: ASMR \u2014 Product in Use. Scene description & motion dynamics: Fast-cut ASMR ad showing the product being used \u2014 opened, applied, poured, dispensed, or held \u2014 with 5 cuts per 15-second clip. Hands-on footage with deliberate tactile sounds. No face, no voiceover. The product in action feels more desirable than the product on a surface. Each block is composed as a still frame first and then animated, so the surface, the light and the camera distance hold identical across every cut. Rich ambient foley. Outputs 15 / 30 / 45 / 60 seconds. Camera & styling: Skincare, supplements, food, drinks, fragrance, candles \u2014 any product with a satisfying application or preparation ritual. Best when the act of using the product is itself appealing: squeezing a cream, pouring a drink, dispensing a serum, snapping open a compact. The sounds of use communicate quality better than any packaging shot.\n\nThis is the hands-only, wordless sibling of the ASMR \u2014 UGC Whisper template. Use that one when you want a creator on camera confiding about the product; use this one when the product's ritual should speak for itself.\n\nSkip for digital products or anything with no physical interaction.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "74.9K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b87b298d7",
+    "title": "Street Interview \u2014 Live Reaction / Blind Test \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/street-interview-live-reactions/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Interview \u2014 Live Reaction / Blind Test. Scene description & motion dynamics: A man-on-the-street ad where the interviewer hands strangers the product and asks them to try it on the spot \u2014 smell it, taste it, feel it. The reaction IS the entire ad. No pitch, no description, no selling: just real faces going from skeptical to genuinely surprised. Renders as handheld documentary footage, mic in frame, real ambient sound at a beach boardwalk. Each beat is composed as a still frame first and then animated, so the boardwalk and the interviewer hold together while every stranger stays a different person. Outputs 15 / 30 / 45 / 60 seconds of vertical video. Camera & styling: Products with a strong sensory hook \u2014 fragrance, food/drink, skincare texture, materials, supplements with a notable taste. The format is at its peak when the product reaction is immediately visible on the interviewee's face: a smell, a taste, a texture. Canonical examples: fragrance blindfold tests, hot sauce taste tests, skincare texture reveals. Skip for products that need explanation to appreciate, B2B/SaaS, regulated categories with compliance risk, or anything that can't produce a visible reaction in 2-3 seconds. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "74.1K",
+    "likes": "6.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a95314198d7",
+    "title": "Surreal Object Orbit & Fall \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/surreal-object-orbit-fall/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Surreal Object Orbit & Fall. Scene description & motion dynamics: A cinematic golden-hour street ad that starts grounded and goes surreal. It opens tight on the subject's boots and rises up her body in one unbroken move as she walks toward a retreating camera, backlit by a dead-centre sunset. She strides in hero framing with the product in hand \u2014 a man passes on her right and brushes her shoulder \u2014 and everything she is holding lets go and hangs in the air. Three slow-motion macro shots follow, each object drifting past the lens huge in frame. She is thrown backward by nothing at all, and the camera settles at ground level on the scattered objects while pedestrians walk past, completely oblivious. Camera & styling: Best for fashion, accessories and lifestyle brands selling an object you can hold and rotate in the hand \u2014 sunglasses, a bag, a watch, a phone case, sneakers, a fragrance bottle, a compact, a canned or bottled drink. The macro shots are the whole ad, so the product has to look expensive at extreme close range with hard backlight on it. Skip for products that read as packaging rather than an object, for anything needing a spoken claim or demo (nothing is said in this format), and for services or software with no physical hero. Skip if the brand can't tolerate a surreal, slightly absurd tone \u2014 a person is thrown to the pavement in the final beats. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "62.7K",
+    "likes": "14.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a95316198d7",
+    "title": "Step-In Transform Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/step-in-transform-reveal/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Step-In Transform Reveal. Scene description & motion dynamics: A single unbroken low-angle take on a polished marble floor. A bare foot steps onto the product and crushes it; what oozes out climbs the foot and hardens into a piece of fantasy couture footwear whose colours, materials and jewels are translated from the product's own ingredients. Ornament grows up the ankle, the debris fades away, the room resolves into a bright hall, and the shoe holds in a hero beat before the second foot joins it in the matching shoe and both walk away. No cuts, no face, no dialogue. Camera & styling: Built for FOOD, DRINK and packaged-goods brands with a bold, recognisable palette and a signature ingredient \u2014 burgers, fries, fried chicken, pizza, desserts, confectionery, a soft drink, a coffee, a snack in branded packaging. The product is what gets crushed, and its colours and ingredients are translated into couture footwear, so it needs strong colour and obvious texture to translate. Also works for cosmetics and fragrance. Skip for products that are themselves footwear or apparel (the transformation has nowhere to go), for anything with no physical form, and for anything needing a spoken claim, a demo or a visible person. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "51.1K",
+    "likes": "20.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a95313498d7",
+    "title": "Mixed-Media Craving Meme \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/mixed-media-craving-meme/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Mixed-Media Craving Meme. Scene description & motion dynamics: A silent, loopable meme ad built as a flat social-post composite with one moving layer. The frame reads as a screenshot of the brand's own Instagram post: the real product \u2014 an upright cup or bottle from the reference photo, label out \u2014 stands at the top against clean white; a full black Instagram UI band cuts across the middle, with the action icons row, the brand's bold lowercase username leading a short caption, and a profile row whose circular avatar carries the brand's own logo; below, a crude hand-drawn doodle character sits leaned back on the white, head tipped back, mouth wide open \u2014 wearing a dark apron printed with the brand's logo. The stream is ALREADY CONNECTED in the very first frame: one unbroken line of the product's contents running from the product's rim, down its front face, straight down and visibly IN FRONT of the black UI band, into the character's mouth. The single animation is flow: the connected stream pours continuously \u2014 rippling, wobbling, never pausing \u2014 while splatter and a puddle accumulate on the apron and the ground. The full composite is on screen from the first frame to the last; nothing zooms, fades or gets revealed. Product, character, camera and every piece of text stay frozen; the flowing stream is the entire performance. Silent by design, built to loop, and it reads as a native post, not an ad. Each beat of the pour is designed as a still composite first, so the layout, the doodle's linework, the logo, the caption AND the stream's connected path survive animation.\n Camera & styling: Best for drinkable, pourable or visually indulgent products where the craving is the whole pitch \u2014 matcha and specialty coffee, smoothies, boba, syrups, honey, sauces, thick serums \u2014 and for cafe, QSR and DTC brands that already post meme-format content. The brand-logo apron and the avatar make it read as the brand's own self-aware shitpost, which is the charm. Skip it for anything needing a spoken claim, a demo or a person on camera; skip it for products with no visible liquid or pourable substance, since the stream IS the ad; and skip it for somber or luxury brands where a scribbled doodle is off-tone.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "32.5K",
+    "likes": "19.9K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a95304498d7",
+    "title": "Scoop Challenge Haul \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/scoop-challenge-haul/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Scoop Challenge Haul. Scene description & motion dynamics: A single unbroken handheld take in a grand retail arcade. A shopper stands behind a large clear bin heaped with the brand's products, holding an empty transparent scoop, and asks the shop assistant about the deal. She looks down at the bin, dips the scoop in once, and lifts it out heaped and overflowing. She reacts, wide-eyed and delighted, tips the haul into the brand's shopping bag held out from the right, keeps one unit back, and holds it up to the lens to name it and say she loves it. Two voices, one face, no cuts, no captions. Camera & styling: Best for brands selling many small, colourful, similarly-sized units that read as a heap \u2014 lipsticks and glosses, nail polish, sachets, minis, confectionery, bath bombs, socks, hair clips, stationery. The whole ad is a value-for-money claim made visually, so it needs a bulk offer or a fixed-price deal to be about. Skip for single hero products, for anything too large or too few to fill a bin, for services and software, and for anything where a mixed pile would look cheap rather than abundant. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "42.9K",
+    "likes": "22.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b879598d7",
+    "title": "ASMR \u2014 UGC Whisper \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/asmr-ugc-1782891255063.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: ASMR \u2014 UGC Whisper. Scene description & motion dynamics: ASMR UGC \u2014 actor whispers directly to camera as if sharing a secret with a single viewer. 4 fast cuts per 15-second clip alternating between face-to-camera and product interaction, keeping the intimacy without losing pace. Each clip is composed as a still frame first and then animated, so the room, the outfit and the product label hold together across the whole cut. No music. Native Seedance voice synthesis. Outputs 15 / 30 / 45 / 60 seconds. Camera & styling: Products with a personal use story \u2014 skincare, supplements, wellness, sleep, beauty, fragrance. Best when the recommendation feels more credible as a whispered confession than a normal-volume claim. Skip for products needing loud energy (sports, gaming) or large-group social proof, and for anything where a hushed, insider tone would undercut the claim (medical, financial, safety). High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "37.2K",
+    "likes": "9.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b877398d7",
+    "title": "Order Packing & Fulfillment \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/order-packing-fulfillment-1782891162742.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Order Packing & Fulfillment. Scene description & motion dynamics: A satisfying, process-driven product ad shot entirely behind the scenes of fulfilling an order. No talking head \u2014 just clean, ASMR-style hands preparing, wrapping, labeling and presenting the product, cut every 2-3 seconds in time with the packing rhythm. The arc moves from product reveal \u2192 packaging \u2192 labeling \u2192 a premium unboxing / delivery moment, and closes on the finished package with a bold call-to-action added in the edit. Each step is composed as a still frame first and then animated, so the surface, the light and the packaging materials hold together while the box fills up across the cut. Built for e-commerce sellers who want a clean, premium \"how your order arrives\" creative. Camera & styling: Best for DTC and marketplace sellers with a physical product and a strong packaging experience \u2014 apparel, beauty, candles, food/treat boxes, homeware, handmade and small-batch goods. Skip it for services, software, or anything with no physical package to open (there's nothing to pack), and skip it when you need spoken testimonial or a presenter on camera. If you want the lived-in, hand-held \"small business owner\" feel instead of this clean premium one, use the UGC Small Business \u2014 Order Packing template. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "88.7K",
+    "likes": "5.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b874e98d7",
+    "title": "Viral Meme \u2014 Stadium Goal Interruption \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/viral-stadium-interruption-1782891148265.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Viral Meme \u2014 Stadium Goal Interruption. Scene description & motion dynamics: A surreal, high-engagement viral video format. Opens with the actor casually sitting in a stadium crowd holding your product. They notice the camera, casually get up, walk directly onto the field during a live professional soccer game, steal the ball, score a goal, and smile at the lens. Each beat is composed as a still frame first and then animated, so the stadium, the crowd and the kit colours hold together across the cut. Camera & styling: Brand awareness, meme marketing, and stopping the scroll. This format doesn't rely on a hard sell; it relies on \"main character energy\" and surrealism to grab attention, with your product featured prominently in the opening hook.\n\nOne thing to know: everything on the pitch is invented and unbranded by design. The template will not depict a real club, national team, league, competition, stadium or player \u2014 no crests, no sponsor logos, no broadcast graphics \u2014 because those are trademarked and because the sequence needs to read as obvious fantasy rather than footage of a real incident at a real venue. If you need a licensed team or an official partnership shown on screen, this is the wrong template.\n\nSkip it for considered or high-trust purchases, for regulated categories, and for brands whose tone can't carry absurdity.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "42.2K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b870198d7",
+    "title": "UGC \"Yap\" Session \u2014 Direct to Camera \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/ugc-dim-room-yap-1782891373760.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: UGC \"Yap\" Session \u2014 Direct to Camera. Scene description & motion dynamics: The classic TikTok \"yap\" format. An actor talks directly to the camera in a casual, highly authentic stream-of-consciousness style. To mask AI background inconsistencies, this template uses a \"jump cut\" strategy, deliberately changing the actor's pose and location (desk, bed, floor) in every clip to mimic real creator editing. Each jump cut is composed as a still frame first and then animated, so the new spot looks like a deliberate creator move rather than a glitch \u2014 same person, same outfit, same apartment, new corner of the room. Camera & styling: Best for any product that benefits from a highly authentic, peer-to-peer recommendation style \u2014 software and apps, digital products, skincare, supplements, or a brand taking an opinionated stance. It works hardest when the pitch is genuinely a conversation: a hot take, a late-night confession, a \"nobody talks about this\" angle. Around 30 seconds is the sweet spot; a full minute of one person talking is a lot to ask of a cold audience.\n\nSkip it when the product has to be SEEN to be sold \u2014 there is no b-roll and no product cutaway in this format, so anything that lives or dies on texture, fit, or a visible demo belongs in a try-on or unboxing template instead. Skip it too for premium or high-trust categories where a phone-camera rant reads as off-brand, and for claims that need substantiating on screen.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "84.6K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b864798d7",
+    "title": "Open World Rampage \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/open-world-rampage-thumb.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Open World Rampage. Scene description & motion dynamics: A photoreal open-world video-game-gameplay parody ad. A hooded street protagonist walks through a sunny city, grabs your product, and the instant he uses it the city erupts into a product-themed chaos payoff \u2014 a brand monster truck, a delivery-bike swarm, a feeding-frenzy mob, whatever fits the product \u2014 and he tears off on a grounded, comedic destruction rampage, smashing market stalls, scooters, and fruit carts while NPCs scramble. A classic game HUD (cash counter, energy meter, wanted stars, minimap, item slot) sits on top. Every 15-second scene is pre-visualised as a still frame and then animated, so the product stays on-model. You pick the product and set length, shape, and quality in Output \u2014 everything else creative is locked, with one optional box to nudge the direction. This is the AI open-world-gameplay meme format that's been going viral, turned into a one-click brand ad. Camera & styling: Best for fun, meme-fluent consumer products that can be physically grabbed or used on the move and have a bold, recognizable look \u2014 energy drinks, sodas and snacks, footwear and apparel, gadgets and phones, QSR and delivery. Skip it for serious, sensitive, or abstract offerings (finance, insurance, B2B software, healthcare, anything luxury or somber) and for products with tiny fiddly packaging or lots of fine print on the label, which tends to smear in AI video. Shorter is stronger here: 15s and 30s land the gag cleanly, while 45s and 60s ask the rampage to keep escalating without new information. If your brand can't be the butt of an affectionate joke, pick a different template. High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "44.3K",
+    "likes": "8.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b861c98d7",
+    "title": "Ancestral Origin Story \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/ancestral-origin-story-1782891071893.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Ancestral Origin Story. Scene description & motion dynamics: A two-act natural-remedy ad. Act one is a string of Pixar-style animated ingredient characters \u2014 a lemon, an egg, a clove of garlic \u2014 each waking up in a warm storybook setting and introducing itself (\"hello, I'm\u2026\"). Act two cuts to a real rustic kitchen where a person uses the product, with HD close-ups of the raw ingredients and the physical book or bottle. The whole thing sells the offer as inherited ancestral knowledge rather than a modern compilation. Every beat is composed as a still frame first and then animated, so the character cast stays one family and the kitchen holds together across the cut. Pick the product and a duration and the template derives the ingredient cast from the product itself and scales the beat sheet to length. Camera & styling: Best for natural-remedy and old-craft products where heritage is the pitch:\nherbal remedy books, tinctures and tonics, apothecary kits, ancestral-diet and\nhomesteading guides, traditional supplements, raw-ingredient food brands.\n\nTwo things this template will not do, both deliberate. It will not invent the\ncount in your offer line \u2014 \"175+ remedies\" has to be a real number from your\nproduct record, because it is a claim about what the buyer receives. And it will\nnot frame traditional remedies as medically effective or as something to use\ninstead of care: the language stays traditional-use (\"has been used for\ngenerations\") rather than efficacy, and never implies that any remedy treats,\nprevents or replaces treatment for anything.\n\nSkip for fast-moving tech, fashion, or any brand whose whole pitch is novelty and\nbeing new \u2014 the ancestral frame will fight the positioning. Skip too if your offer\nneeds to make an efficacy claim to land.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "30.2K",
+    "likes": "18.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b85ec98d7",
+    "title": "Hero Swing (Masked Web-Line Vigilante) \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/previews/hero-swing-nyc/a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Hero Swing (Masked Web-Line Vigilante). Scene description & motion dynamics: A cinematic, fun vertical hero moment, cut like a trailer: the chosen avatar becomes a masked, acrobatic street-hero. It opens intimate \u2014 the avatar perched on their bedroom window sill in a streetwear-layered hero look, delivering a cool one-liner to camera \u2014 then HARD-CUTS through a fast edited sequence: a wide shot of the fall, an extreme close-up of a silk-like cord firing from the wrist, and a montage of swinging through a canyon of skyscrapers from different angles, all under moody overcast gray light. Their only ability is the swing itself. The hero look is designed as a still character frame first and then animated, so the original suit stays locked instead of drifting shot to shot. The advertiser only picks an avatar; the template writes the one-liner and the shot sequence itself. Native spoken one-liner.\n Camera & styling: Best as a high-energy personal / creator \"put yourself in the action\" piece \u2014 profile reveals, gaming or streamer intros, fan-style hype clips, brand mascots, and playful social content where the fun IS the transformation into an acrobatic masked street-hero. It is deliberately archetypal and original, not tied to any named franchise. The shortest duration is the format's native length \u2014 it is built as a single trailer beat. Skip it for straight product demos (there's no product slot), for somber or corporate contexts where a costumed-hero fantasy is off-brand, and for any use that needs a specific, recognizable branded character (this template is intentionally generic to stay clear of copyrighted designs).\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "53.8K",
+    "likes": "25.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b85ad98d7",
+    "title": "3D Animation \u2014 \"What Happens When...\" \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/3d-animated-timeline-explainer-1782891213195.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: 3D Animation \u2014 \"What Happens When...\". Scene description & motion dynamics: A 3D animated (Pixar/Disney style) timeline ad. Uses the highly converting \"What happens when you stop using X and start using Y\" hook, followed by a chronological breakdown of the product's benefits (e.g., 24 hours, Day 7, Week 4). Each scene is designed as a still 3D frame first and then animated, so the character design and the render style hold together across the whole timeline. Perfect for visual storytelling without needing live actors. Camera & styling: Best for any problem-solving product with progressive or multi-stage benefits. Originally designed for supplements, but highly effective for skincare (Day 1 vs Day 30), productivity software (Hour 1 vs Week 2), fitness apps, or financial tools. The timeline demonstrates the \"journey\" of solving the problem.\n\nA note on length: 60 seconds is this format's natural shape \u2014 it fits a hook plus three milestones plus the product close. The shorter cuts compress the timeline, and the 15-second version has room for only one milestone, so it reads as a before/after rather than a journey.\n\nSkip it for products whose benefit is immediate and single-step (there is no timeline to walk), for anything whose staged results you cannot substantiate, and where a real human face is needed for trust \u2014 this format has no live actor at all.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "77.8K",
+    "likes": "21.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b857a98d7",
+    "title": "UGC Small Business \u2014 Order Packing \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/ugc-small-biz-order-packing-1782891234388.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: UGC Small Business \u2014 Order Packing. Scene description & motion dynamics: A high-energy \"pack an order with me\" template based on a proven indie-maker format. Opens with the creator showing off their handmade product alongside crafting supplies, transitions to boxing the item with a freebie, and ends with a personal selfie-style CTA. Each beat is composed as a still frame first and then animated, so the workbench, the outfit and the light hold together while the box fills up across the cut. Camera & styling: Best for handmade goods, art, custom apparel, bespoke cosmetics, jewellery, or any physical product where the \"small business owner\" narrative adds value. Requires a product that looks good sitting on a table and fits in a shipping box. It works hardest when the making and packing genuinely are done by one person \u2014 the format's whole appeal is that the viewer feels like they are watching a real maker at their own table.\n\nSkip it for products that aren't shipped in a box (services, digital goods, food eaten on site), for anything mass-manufactured where a handmade framing would misrepresent the business, and for premium or clinical categories where a home-workspace aesthetic reads as unprofessional.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "85.8K",
+    "likes": "12.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b854198d7",
+    "title": "Street Interview \u2014 Question & Reveal \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/street-interview-question-reveal-1782891285827.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Street Interview \u2014 Question & Reveal. Scene description & motion dynamics: A man-on-the-street ad where the interviewer asks an open question that primes a stranger to be searching for \u2014 or wishing they had \u2014 the product. The interviewee describes a problem or desire unprompted, and the interviewer reveals the product as if it were made for them. The \"wait, this exists?\" close. Neutral journalistic tone, mall setting, mic in frame. Each clip is composed as a still frame first and then animated, so the mall and the interviewer hold together while every shopper stays a different person. Outputs 15 / 30 / 45 / 60 seconds of vertical video. Camera & styling: Products that solve a problem the target audience is already aware of but hasn't found a solution for \u2014 \"I wish I had something that did X,\" and this product does exactly X. Also strong for launch moments where the category itself is new and strangers genuinely wouldn't know the product exists. Best for DTC brands entering a category with a novel mechanism or a new take on a familiar category.\n\nWorth being deliberate about one thing before you run this. This format's hook is a double claim: that the stranger's answer was unprompted, and that the product turning up was a coincidence \u2014 and the reveal line says \"weird coincidence\" out loud. Both are written by the template and performed by a generated face. That's a legitimate dramatisation, but it isn't documentation: label the output as AI-generated where your platform requires it, and don't present it as a record of a real unscripted encounter.\n\nSkip for products the viewer already knows well, B2B/SaaS, and regulated categories where an unscripted-looking product reaction creates compliance risk.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "55.8K",
+    "likes": "17.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b840198d7",
+    "title": "Paper-Cut Collage Ad \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/paper-cut-collage-ad-1782890933328.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: Paper-Cut Collage Ad. Scene description & motion dynamics: A torn-paper, stop-motion-style collage ad: hand-ripped cardstock layers, crayon and chalk textures, sticker cutouts (alarm clocks, keys, coffee cups, calendars), masking-tape text labels, and your real product packshot dropped straight into the craft scene. It walks a problem -> solution -> benefits arc in a warm, handmade, scrapbook aesthetic, voiced by a friendly off-screen narrator. Built for paid social, with a hard visual cut every 3 seconds to keep retention high. Each scene is composed as a still paper-craft frame first and then animated, so the handmade look holds together from the first cut to the last. You pick a product and a length; the look, the arc, the narrator's voice and the script are all handled for you.\n Camera & styling: Best for DTC supplements, food and drink, beauty and wellness products where a craft / scrapbook tone lands (greens powders, gummies, snacks, skincare). Also strong for any \"ditch the old messy routine, switch to our easy thing\" story. Skip it for luxury, fintech or B2B SaaS, or any brand whose identity is sleek-minimal or premium-serious \u2014 the handmade paper look will fight the brand. Skip it too if you need a real person on camera; this format is product-only, no human in frame.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "52.5K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+  {
+    "id": "oz-vid-6a7b839398d7",
+    "title": "3D Animated \u2014 \"The Mascot Squad\" Explainer \u2013 Cinematic AI Video Ad",
+    "category": "video",
+    "model": "Google Veo 3",
+    "thumbnail": "https://cdn.heyoz.com/video-templates/thumbnails/3d-animated-mascot-squad-1782891180931.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic AI video ad prompt: 3D Animated \u2014 \"The Mascot Squad\" Explainer. Scene description & motion dynamics: A dynamic 3D animated explainer that turns your product's key ingredients or features into cute, heroic 3D mascots. Opens with a dramatic \"war zone\" problem state, then introduces the mascots to explain how they defeat the problem in the first person, and ends with an epic product reveal. Every scene is designed as a still 3D frame first and then animated, so the mascots stay on-model from the hook to the CTA. No avatar, no filming, no actor needed. Camera & styling: Best for products with multiple active ingredients or key features that work together to solve a specific, visceral problem \u2014 oral care (bacteria vs. minerals), skincare (acne/aging vs. serums), gut health (bad bacteria vs. probiotics), supplements, or household cleaners. It gamifies the product's mechanism of action, so it works hardest when the mechanism is the selling point.\n\nSkip for products whose value is taste, status, fit, or aesthetics (fashion, fragrance, jewelry, restaurants) \u2014 there's no \"enemy\" to fight, and the mascot conceit reads as filler. Also skip when the brand needs a real human face for trust (services, coaching, high-ticket B2B) \u2014 use a UGC format instead.\n High production value, 4K UHD, 60fps cinematic camera motion, photorealistic physics, viral marketing hook.",
+    "negativePrompt": "jitter, camera shake, visual warping, unnatural human movement, flickering, low frame rate, cartoon artifacts",
+    "views": "37.8K",
+    "likes": "15.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "Oz Video Lab",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Sora",
+      "CinematicVideo",
+      "ViralMarketing",
+      "TikTokAd",
+      "Veo3",
+      "VideoAd"
+    ],
+    "suggestedTools": [
+      "veo",
+      "sora",
+      "runway"
+    ]
+  },
+
   {
     "id": "apg-image-9-16-3d-cg-3d-cg-oriental-fantasy-beaut-2065",
     "title": "Rainborn Aquatic Fantasy Muse",

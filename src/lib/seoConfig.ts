@@ -1448,6 +1448,57 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Specify fabric type (e.g. Kanjeevaram silk, Banarasi brocade) along with golden zari thread work and macro textile texture."
       }
     ]
+  },
+  "ai-ad-generator-prompts": {
+    slug: "ai-ad-generator-prompts",
+    title: "AI Ad Generator Prompts & Static Ad Templates",
+    h1: "AI Ad Generator Prompts – High-Converting Static Ads & Commercials",
+    metaTitle: "AI Ad Generator Prompts – Static Ad Templates (Free)",
+    metaDescription: "150+ high-converting AI ad generator prompts for eCommerce, beauty, fashion, and fitness. Create viral static ads and TikTok video creatives with zero login.",
+    keywords: [
+      "ai ad generator prompts",
+      "static ad prompt generator",
+      "commercial ai ad templates",
+      "high converting ad copy prompts",
+      "ecommerce ai advertising prompts",
+      "tiktok video ad prompts"
+    ],
+    filterType: "custom",
+    filterValue: "Commercial",
+    introText: "Supercharge your ad ROAS with battle-tested commercial ad prompts. Features high-converting static image ads, UGC hooks, discount banners, and 4K video commercial templates.",
+    faqs: [
+      {
+        q: "How do these prompts increase ad conversions?",
+        a: "They are structured around proven direct-response marketing psychology—combining high-contrast typography, clear value propositions, and clean product focus."
+      },
+      {
+        q: "Which AI models work best for ad creatives?",
+        a: "ChatGPT-4o and Gemini 2.5 Flash produce exceptional ad typography and layout compositions, while Veo 3 powers cinematic video commercials."
+      }
+    ]
+  },
+  "static-ad-prompts": {
+    slug: "static-ad-prompts",
+    title: "Commercial Static Ad AI Prompts",
+    h1: "Commercial Static Ad AI Prompts – E-commerce & Social Media Ads",
+    metaTitle: "Commercial Static Ad AI Prompts (Copy & Paste Free)",
+    metaDescription: "Generate professional static ads for Instagram, Facebook, and Google. Copy-paste prompt templates for beauty, skincare, fashion, and tech with zero signup.",
+    keywords: [
+      "commercial static ad prompts",
+      "static ad templates ai",
+      "instagram ad prompt generator",
+      "facebook static creative prompts",
+      "product photography ad prompts"
+    ],
+    filterType: "custom",
+    filterValue: "StaticAd",
+    introText: "Design scroll-stopping static ads in seconds. Calibrated prompt templates for product offers, customer testimonials, before-and-after comparisons, and minimalist brand showcases.",
+    faqs: [
+      {
+        q: "Can I customize the brand names and copy?",
+        a: "Yes! All templates feature swappable placeholder fields so you can instantly inject your brand name, discount offers, and slogans."
+      }
+    ]
   }
 };
 
