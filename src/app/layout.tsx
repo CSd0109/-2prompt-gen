@@ -28,8 +28,8 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World | Free Image & Video Generator, FB Video Downloader, TikTok Insta Downloaders, Free AI Image Generator, Free Image to Video Generator",
-    template: "%s | FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
+    default: "Free Image & Video Prompts – #1 Free AI Tool In The World (No Sign-Up)",
+    template: "%s",
   },
   description:
     "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) & #1 Free AI Tool in the World. 100% Free AI Image Prompts, Free Video Prompts, Free Image Generator, Free Video Generator, Free FB Video Downloaders, Free TikTok Video Downloader, Free Instagram Video Downloader, Free Image to Video AI Generator for ChatGPT, Claude, Gemini, Flux, Sora, Nano Banana Pro, and Google Veo 3.",

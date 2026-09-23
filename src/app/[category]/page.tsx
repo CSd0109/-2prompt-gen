@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonicalUrl = `${siteUrl}/${config.slug}`;
 
   return {
-    title: `${config.metaTitle} | AI Prompt Generate`,
+    title: config.metaTitle,
     description: config.metaDescription,
     keywords: config.keywords,
     alternates: {
