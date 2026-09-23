@@ -228,6 +228,13 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
         description: "Viral 2-photo face merging and couple photography guide with direct backlinks.",
         badge: "DA 91 Live",
         rel: "noopener noreferrer"
+      },
+      {
+        name: "Telegra.ph Ultimate AI Prompts & Tools Directory",
+        url: "https://telegra.ph/Ultimate-Free-AI-Prompts-and-Tools-Directory-2026-09-23",
+        description: "Comprehensive 2026 directory linking free prompt generation, couple portraits, and video tools.",
+        badge: "DA 91 Live",
+        rel: "noopener noreferrer"
       }
     ]
   }

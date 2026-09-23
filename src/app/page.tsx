@@ -395,6 +395,11 @@ export default function HomePage() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/free-ai-prompts-tools" className="hover:text-purple-600 font-bold transition block text-purple-700">
+                      ⭐ Free AI Prompts &amp; Tools Directory
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/chatgpt-prompts" className="hover:text-purple-600 transition block">
                       ChatGPT-4o & Astra Code
                     </Link>
