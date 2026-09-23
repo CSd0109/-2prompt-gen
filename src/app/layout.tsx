@@ -28,12 +28,28 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AI Prompt Generator – Top 1 Free AI Website in the World",
-    template: "%s | AI Prompt Generate",
+    default: "AI Prompt Generator Free – Best AI Image & Video Prompts (Zero Login)",
+    template: "%s | AI Prompt Generator",
   },
   description:
-    "Create better AI prompts for ChatGPT, Claude, Gemini, Grok, Midjourney, Nano Banana and Veo. Generate, optimize and explore copy-ready prompts 100% free with zero login and zero credit caps.",
+    "100% Free AI Prompt Generator for ChatGPT, Claude, Gemini, Grok, Nano Banana Pro, and Google Veo 3. Generate photorealistic image prompts, cinematic video prompts, and website code with zero signup and zero credit limits.",
   keywords: [
+    // Real Core Search Volume Terms (Image Prompts, Video Prompts, Prompt Generator Free)
+    "ai prompt generator free",
+    "prompt generator free",
+    "free ai prompt generator",
+    "ai prompt generator",
+    "image prompt generator",
+    "ai image prompts",
+    "free image prompts",
+    "video prompt generator",
+    "ai video prompts",
+    "free video prompts",
+    "photorealistic image prompts",
+    "cinematic video prompts",
+    "ai prompts free",
+    "prompt generator without login",
+    "no signup ai prompt generator",
     // Competitor & Alternatives High-Search Intent
     "AIPromptGenerator.app alternatives",
     "AIPromptGenerator alternatives",

@@ -159,6 +159,86 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
     ]
   },
 
+  // 0. BROAD GLOBAL HIGH-VOLUME TARGET PAGES (Prompt Generator Free, Image Prompts, Video Prompts)
+  "ai-prompt-generator-free": {
+    slug: "ai-prompt-generator-free",
+    title: "AI Prompt Generator Free – Top 1 Free Prompt Generator Online",
+    h1: "Free AI Prompt Generator – Unlimited AI Prompts for Image, Video & Text (Zero Login)",
+    metaTitle: "AI Prompt Generator Free – Best Free AI Prompt Generator 2026",
+    metaDescription: "Generate 100% free copy-ready AI prompts for ChatGPT, Claude, Gemini, Grok, Nano Banana Pro, and Google Veo 3. Zero signup, zero credit limits, and instant 1-click copy.",
+    keywords: [
+      "ai prompt generator free",
+      "prompt generator free",
+      "free ai prompt generator",
+      "ai prompt generator without login",
+      "unlimited free ai prompt generator",
+      "best free prompt generator",
+      "prompt maker online free"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Welcome to the world's #1 free AI prompt generator. Create, optimize, and synthesize production-grade instructions for image models, video generators, code assistants, and reasoning LLMs—completely free with zero login.",
+    faqs: [
+      {
+        q: "Is this AI Prompt Generator really 100% free with no limits?",
+        a: "Yes. Unlike other tools that cap you at 10 daily generations or force paid subscriptions, our AI Prompt Generator is 100% free forever with zero login required."
+      },
+      {
+        q: "Which AI models can I generate prompts for?",
+        a: "You can generate prompts for ChatGPT-4o/Astra, Claude Opus & 3.7 Sonnet, Google Gemini 2.5, Grok, Nano Banana Pro, Google Veo 3, SeaDance 2.2, and Midjourney."
+      }
+    ]
+  },
+  "ai-image-prompts": {
+    slug: "ai-image-prompts",
+    title: "AI Image Prompts – 100% Free Copy-Ready Image Prompts Library",
+    h1: "Free AI Image Prompts – Photorealistic, 8K Portraits, Cinematic & Aesthetic Prompts",
+    metaTitle: "AI Image Prompts – 1,000+ Free Copy & Paste Image Prompts (8K)",
+    metaDescription: "Copy 1,000+ verified AI image prompts for free. Ultra-photorealistic portraits, camera lighting, cinematic angles, Nano Banana Pro, and Midjourney aesthetics with zero login.",
+    keywords: [
+      "ai image prompts",
+      "image prompt generator",
+      "free image prompts",
+      "ai image prompt copy paste",
+      "photorealistic image prompts",
+      "image prompts for ai art",
+      "best ai image prompts free"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Browse and copy over 1,000+ meticulously engineered AI image prompts. Complete with negative prompts, aspect ratios, lighting parameters, and lens specs for photorealistic output.",
+    faqs: [
+      {
+        q: "How to use these AI image prompts?",
+        a: "Click 'Copy Prompt' on any card and paste it directly into your AI image generator such as Nano Banana Pro, Midjourney, or DALL-E."
+      }
+    ]
+  },
+  "ai-video-prompts": {
+    slug: "ai-video-prompts",
+    title: "AI Video Prompts – Cinematic 4K/8K Video Prompt Generator",
+    h1: "Free AI Video Prompts – Cinematic Camera Moves, Drone Shots & Viral Hooks",
+    metaTitle: "AI Video Prompts – Best Free Video AI Prompts (Veo 3 & SeaDance)",
+    metaDescription: "Supercharge text-to-video with free AI video prompts. Engineered for Google Veo 3, SeaDance 2.2, Sora, and Kling AI with cinematic camera directions and fluid physics.",
+    keywords: [
+      "ai video prompts",
+      "video prompt generator",
+      "free video prompts ai",
+      "cinematic video prompts",
+      "text to video prompt copy paste",
+      "ai video camera prompts"
+    ],
+    filterType: "custom",
+    filterValue: "veo",
+    introText: "Generate high-converting cinematic video prompts. Features precise camera pans, crane pushes, drone flyovers, fluid character physics, and multi-scene commercial storyboards.",
+    faqs: [
+      {
+        q: "What video AI models do these prompts support?",
+        a: "They are optimized for Google Veo 3, SeaDance 2.2, Sora, Runway Gen-3 Alpha, and Kling AI."
+      }
+    ]
+  },
+
   // 3. TOP IMAGE PROMPTS (Nano Banana Pro, BananaPrompts, Photorealistic AI)
   "nano-banana-pro-prompts": {
     slug: "nano-banana-pro-prompts",
