@@ -207,26 +207,16 @@ export default function HomePage() {
 
         {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-2.5 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: Desktop Only (Hidden on phone for clean zero-distraction experience) */}
-          <div className="hidden sm:block w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-4xl mx-auto">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-black uppercase tracking-wider mb-2 font-outfit">
-              <span className="w-2 h-2 rounded-full bg-blue-600 animate-ping" />
-              <span>#1 FREE AI TOOL IN THE WORLD • 100% UNLIMITED NO LOGIN NO SIGNUP</span>
-            </div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-outfit text-black tracking-tight leading-tight">
-              FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD
-            </h1>
-            <p className="text-sm sm:text-base font-bold text-indigo-700 mt-1 font-outfit">
-              #1 Free AI Tool In The World: Free Image & Video Generator, FB Video Downloader, TikTok & Insta Downloaders, Free AI Image Generator, Free Image to Video Generator
-            </p>
-            <p className="text-xs sm:text-sm font-extrabold text-slate-500 mt-1 flex items-center justify-center gap-2 font-outfit">
+          {/* Header Intro: Clean typewriter & trust pill only */}
+          <div className="hidden sm:block w-full text-center pt-2 pb-2 max-w-4xl mx-auto">
+            <p className="text-xs sm:text-sm font-extrabold text-slate-600 flex items-center justify-center gap-2 font-heading">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
               <span>Prompting for: </span>
               <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-black">
                 {displayText}
                 <span className="w-0.5 h-4 sm:h-5 bg-blue-600 ml-1 inline-block animate-pulse" />
               </span>
-              <span>• Zero Login • Instant Copy</span>
+              <span>• Zero Login • 100% Free Forever</span>
             </p>
           </div>
 
