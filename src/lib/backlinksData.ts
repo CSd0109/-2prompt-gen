@@ -207,6 +207,27 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
         description: "Visual moodboards, aesthetic girl portraits, and couple photography ideas.",
         badge: "DA 94",
         rel: "noopener noreferrer"
+      },
+      {
+        name: "Telegra.ph Master AI Prompts Hub",
+        url: "https://telegra.ph/500-Best-Free-AI-Prompts-Copy-and-Paste-for-ChatGPT--Gemini-2026-09-23",
+        description: "Authority publication featuring 500+ free prompts for ChatGPT 4o and Gemini 2.5.",
+        badge: "DA 91 Live",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "Telegra.ph TikTok Video Downloader Guide",
+        url: "https://telegra.ph/How-to-Download-TikTok-Videos-Without-Watermark-in-1080p-Full-HD-Free-2026-09-23",
+        description: "High-DA technical editorial ranking for watermark-free social media video downloading.",
+        badge: "DA 91 Live",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "Telegra.ph Couple AI Portrait Blueprint",
+        url: "https://telegra.ph/Turn-Two-Photos-into-Stunning-Couple-Portraits-30-Copy-Paste-AI-Prompts-2026-09-23",
+        description: "Viral 2-photo face merging and couple photography guide with direct backlinks.",
+        badge: "DA 91 Live",
+        rel: "noopener noreferrer"
       }
     ]
   }
