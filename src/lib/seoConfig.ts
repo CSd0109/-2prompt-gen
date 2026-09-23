@@ -664,6 +664,43 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes! All website prompts are tested and optimized for rapid frontend code execution on v0 by Vercel, Bolt.new, and Lovable."
       }
     ]
+  },
+  "free-ai-toolkit": {
+    slug: "free-ai-toolkit",
+    title: "Free AI Toolkit – All-in-One Online AI Suite (No Sign-Up)",
+    h1: "Free AI Toolkit – Prompt Generator, AI Humanizer, Image-to-Text & AI Detector",
+    metaTitle: "Free AI Toolkit (No Sign-Up) – Unlimited Prompt Generator, Humanizer & AI Tools",
+    metaDescription: "100% Free AI Toolkit with powerful tools: Prompt Generator, AI Humanizer, Image to Text OCR, Video Prompts, AI Detector & PDF Tools. No login, zero sign-up, unlimited use.",
+    keywords: [
+      "free ai toolkit",
+      "best free ai toolkit online",
+      "free ai tools without login",
+      "free ai tools no sign up",
+      "all in one ai toolkit free",
+      "unlimited ai toolkit",
+      "ai humanizer free",
+      "ai prompt generator free",
+      "image to text ocr free",
+      "ai detector free online",
+      "free ai video prompts"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Welcome to the ultimate Free AI Toolkit. Access production-grade AI tools in one unified dashboard: generate precision prompts for ChatGPT and Claude, humanize AI text to bypass detection, extract OCR text from images, create cinematic video prompts, and analyze content with our AI detector—all 100% free with no sign-up required.",
+    faqs: [
+      {
+        q: "What tools are included in the Free AI Toolkit?",
+        a: "The toolkit includes AI Prompt Generator, AI Humanizer, Image to Text (OCR), AI Video Prompts, AI Text Detector, Prompt Optimizer, Prompt Quality Checker, Image to PDF Converter, and PDF Editor."
+      },
+      {
+        q: "Is there really no sign-up or credit card required?",
+        a: "Yes, exactly zero sign-up. You never need an account, email, or credit card. Everything is 100% free and unlimited forever."
+      },
+      {
+        q: "Can I use the Free AI Toolkit on mobile phones?",
+        a: "Yes! The toolkit is engineered with an ultra-fast responsive design optimized for smartphones, tablets, and desktops."
+      }
+    ]
   }
 };
 
