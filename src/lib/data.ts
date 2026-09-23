@@ -22,34 +22,6 @@ export interface PromptItem {
 
 export const SAMPLE_PROMPTS: PromptItem[] = [
   {
-    "id": "gp-exact-2097318122",
-    "title": "Decline a client engagement",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Decline a client engagement: Professional non-representation letter preserving the relationship",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.5K",
-    "likes": "12.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2222894962",
     "title": "Use the Attached Image of the Model as Facial Reference and Physical F",
     "category": "image",
@@ -218,34 +190,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-1706111363",
-    "title": "Prepare a kickoff brief",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Prepare a kickoff brief: Get every team to the same starting point before the first meeting",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "51.1K",
-    "likes": "8.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1906935928",
     "title": "Premium Travel-Food Advertisement Poster for CITY/COUNTRY",
     "category": "image",
@@ -256,34 +200,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "89.3K",
     "likes": "16.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-3407072845",
-    "title": "Respond to an employee complaint",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Respond to an employee complaint: Acknowledge the concern, outline next steps, and build trust in the HR process",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "72.4K",
-    "likes": "14.0K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -722,34 +638,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-1144221224",
-    "title": "Present an analytics roadmap",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Present an analytics roadmap: Build a phased plan that earns organizational trust and investment",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "56.6K",
-    "likes": "13.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1314282105",
     "title": "Digital Artwork in a Surreal, Dynamic Style Inspired by Premium Athlet",
     "category": "image",
@@ -760,62 +648,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "74.6K",
     "likes": "16.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-2812185953",
-    "title": "Structure a letter of intent",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Structure a letter of intent: Binding and non-binding terms for deal negotiations",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "86.0K",
-    "likes": "13.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-794672094",
-    "title": "Respond to a competing offer",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Respond to a competing offer: Navigate a counteroffer situation with transparency instead of pressure",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "61.2K",
-    "likes": "18.3K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -1114,34 +946,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-3330500224",
-    "title": "Request a client testimonial",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Request a client testimonial: Specific ask that makes it easy for them to say yes",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "86.0K",
-    "likes": "13.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-3598698058",
     "title": "Ultra Realistic Portrait of a Ginger Cat Wrapped in a Soft White Towel",
     "category": "image",
@@ -1236,34 +1040,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "55.5K",
     "likes": "12.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-1595830658",
-    "title": "Frame a workshop invite",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Frame a workshop invite: Calendar invite that sets purpose, expected outputs, and pre-work so attendees arrive prepared",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "79.2K",
-    "likes": "21.0K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -1422,34 +1198,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-473413276",
-    "title": "Understand an industry fast",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Understand an industry fast: Key players, trends, and dynamics in any market",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "81.4K",
-    "likes": "8.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-288396453",
     "title": "Technical Blueprint Sketch and Realistic 3D\u2013render Fusion of a Custom ",
     "category": "image",
@@ -1562,34 +1310,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-3237499758",
-    "title": "Draft UI microcopy",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Draft UI microcopy: Nail modal titles, button labels, and validation messages for one component",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.5K",
-    "likes": "12.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-708288688",
     "title": "Clear, 45\u00b0 Top-Down Isometric Miniature 3D Educational Diorama Explain",
     "category": "image",
@@ -1646,34 +1366,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-3494106395",
-    "title": "Create a getting-started guide",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Create a getting-started guide: Reduce support tickets with a step-by-step setup walkthrough",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "52.2K",
-    "likes": "9.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2485030562",
     "title": "A Retro-Inspired Studio Photoshoot Featuring a Young Woman Styled in F",
     "category": "image",
@@ -1712,34 +1404,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "86.0K",
     "likes": "13.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-2912443385",
-    "title": "Craft an event-triggered cold email",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Craft an event-triggered cold email: Outreach timed to funding rounds, new hires, or product launches",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "61.2K",
-    "likes": "18.3K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -1852,34 +1516,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "59.0K",
     "likes": "16.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-1071842245",
-    "title": "Evaluate training effectiveness",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Evaluate training effectiveness: Measure reaction, learning, and intended behavior change beyond just \"did they like it\"",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "80.3K",
-    "likes": "7.1K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -2290,34 +1926,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-2578784799",
-    "title": "Recognize a team accomplishment",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Recognize a team accomplishment: Make people feel genuinely seen with specific, meaningful praise",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "57.7K",
-    "likes": "14.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1664720252",
     "title": "A Hyperrealistic 8k Black and White Cinematic Mid Shot Portrait of a B",
     "category": "image",
@@ -2542,34 +2150,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-2561761475",
-    "title": "Generate headline A/B variants",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Generate headline A/B variants: Five challenger headlines testing distinct conversion hypotheses",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "56.6K",
-    "likes": "13.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2720846838",
     "title": "A Dreamy Anime Fashion Illustration Highlighting a Highly Creative, Su",
     "category": "image",
@@ -2682,34 +2262,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-2380994196",
-    "title": "Draft a service outage apology",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Draft a service outage apology: Rebuild trust after an incident with transparency and prevention steps",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "62.3K",
-    "likes": "19.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-3774323857",
     "title": "Elemental 3D Brand Logo",
     "category": "image",
@@ -2748,34 +2300,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "92.6K",
     "likes": "19.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-3997766077",
-    "title": "Resolve a billing dispute",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Resolve a billing dispute: De-escalate a billing complaint with empathy and a specific resolution",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "57.7K",
-    "likes": "14.6K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -2962,34 +2486,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-3925335955",
-    "title": "Map the buying committee",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Map the buying committee: Stakeholder roles, stances, and engagement strategies for each contact",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "56.6K",
-    "likes": "13.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-3875515893",
     "title": "Cinematic Nighttime Portrait of a Stylish Young Asian Woman Standing o",
     "category": "image",
@@ -3092,34 +2588,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     },
     "tags": [
       "Veo3Video",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-1861911067",
-    "title": "Respond to a feature request",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Respond to a feature request: Deliver a roadmap decision honestly without losing the relationship",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "57.7K",
-    "likes": "14.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
       "Trending",
       "ProductionReady",
       "Featured"
@@ -3326,34 +2794,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-3222456560",
-    "title": "Simplify a complex document",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Simplify a complex document: Rewrite dense or technical content in plain English",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "85.8K",
-    "likes": "12.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2230159650",
     "title": "Famous Soccer Players Ronaldo and Messi on Other Side in Iconic Jersey",
     "category": "image",
@@ -3476,34 +2916,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "57.7K",
     "likes": "14.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-468569794",
-    "title": "Build a deployment checklist",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Build a deployment checklist: Sequenced pre-flight, execution, and rollback steps with verification",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "59.0K",
-    "likes": "16.1K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -3746,34 +3158,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-269615708",
-    "title": "Draft a no-reply follow-up email",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Draft a no-reply follow-up email: Second touch with a fresh angle, not a reminder",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "86.0K",
-    "likes": "13.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-3130213089",
     "title": "A Noble Knight in Armor Easily Overcomes All Four Forces, Understandin",
     "category": "image",
@@ -3820,34 +3204,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     },
     "tags": [
       "Veo3Video",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-639706401",
-    "title": "Create canned response templates",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Create canned response templates: Build five ready-to-send replies for your most common support tickets",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "63.4K",
-    "likes": "20.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
       "Trending",
       "ProductionReady",
       "Featured"
@@ -4082,34 +3438,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-88957643",
-    "title": "Propose a retainer engagement",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Propose a retainer engagement: Monthly retainer proposal with clear inclusions and boundaries",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "53.3K",
-    "likes": "10.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-454475560",
     "title": "Character Reacting Deeply to Surroundings\u2014wind, Music, Silence",
     "category": "image",
@@ -4222,34 +3550,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-4209342233",
-    "title": "Research a company pre-call",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Research a company pre-call: Intel brief covering tech stack, news, and pain hypotheses",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "92.6K",
-    "likes": "19.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1202770922",
     "title": "Full-Body 3D Stylized Anthropomorphic Cartoon Dog Character Wearing Mo",
     "category": "image",
@@ -4288,34 +3588,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "87.1K",
     "likes": "14.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-1890338968",
-    "title": "Communicate a feature delay",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Communicate a feature delay: Deliver timeline bad news with honesty, ownership, and a concrete next step",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "64.5K",
-    "likes": "21.6K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -4380,34 +3652,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     },
     "tags": [
       "Veo3Video",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-321633469",
-    "title": "Synthesize research into insights",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Synthesize research into insights: Turn raw interview notes into named patterns with product implications",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "65.6K",
-    "likes": "7.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
       "Trending",
       "ProductionReady",
       "Featured"
@@ -4586,34 +3830,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-79108389",
-    "title": "Translate findings for execs",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Translate findings for execs: Reframe a technical analysis as a business-ready slide or email",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "53.3K",
-    "likes": "10.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1796406864",
     "title": "Short Vertical Video Clip of a Realistic City Suddenly Experiencing Co",
     "category": "image",
@@ -4754,34 +3970,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-4234646151",
-    "title": "Document a data pipeline",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Document a data pipeline: Generate docstrings, usage examples, and a data flow guide for a Python pipeline",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "66.7K",
-    "likes": "8.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-1094046120",
     "title": "The Tea House Grandma",
     "category": "video",
@@ -4820,34 +4008,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "94.8K",
     "likes": "21.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-3907103890",
-    "title": "Negotiate a contract renewal",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Negotiate a contract renewal: Collaborative renewal email that opens terms discussion from a position of partnership",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "76.8K",
-    "likes": "18.4K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -5370,34 +4530,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-1508829810",
-    "title": "Craft a product update notice",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Craft a product update notice: Announce a feature so customers feel it was built for their workflow",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "59.0K",
-    "likes": "16.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2659786448",
     "title": "Fashion VN Magazine Cover",
     "category": "image",
@@ -5454,34 +4586,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-exact-2117077858",
-    "title": "Prepare QBR internal notes",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Prepare QBR internal notes: Anticipate customer concerns and prepare talking points before the review",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "61.2K",
-    "likes": "18.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
     "id": "gp-exact-2695812143",
     "title": "Subject and Composition a Solitary, Rugged Rocky Islet Standing as a S",
     "category": "image",
@@ -5492,34 +4596,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "89.3K",
     "likes": "16.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-260697850",
-    "title": "Draft a deprecation notice",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Draft a deprecation notice: Retire a feature with honesty, a clear migration path, and enough lead time",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "63.4K",
-    "likes": "20.5K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -5576,34 +4652,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "77.0K",
     "likes": "19.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-659547622",
-    "title": "Distill meeting notes",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Distill meeting notes: Clean up messy notes into a clear summary and next steps",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "84.7K",
-    "likes": "11.2K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -5772,62 +4820,6 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "57.7K",
     "likes": "14.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-2729583946",
-    "title": "Write a client newsletter article",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Write a client newsletter article: Actionable financial planning piece tied to current conditions that clients will actually read",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "89.3K",
-    "likes": "16.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "ProductionReady",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-exact-3142608219",
-    "title": "Win back a churned customer",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
-    "aspectRatio": "16:9",
-    "prompt": "Win back a churned customer: Re-engagement emails that lead with what has changed since they left",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "57.7K",
-    "likes": "14.6K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
