@@ -41,7 +41,9 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={item.thumbnail}
-          alt={item.title}
+          alt={`${item.title} - Free AI Prompt for ${item.model}`}
+          title={`${item.title} - AI Prompt Generator`}
+          itemProp="image"
           decoding="async"
           loading="lazy"
           onError={(e) => {

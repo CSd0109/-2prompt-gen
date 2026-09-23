@@ -22,846 +22,2162 @@ export interface PromptItem {
 
 export const SAMPLE_PROMPTS: PromptItem[] = [
   {
-      "id": "banana-94217bcd-4143-4004-8f53-abdccd68e2bf",
-      "title": "Tocha Flamejante",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/TOCHA_FLAMEJANTE.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Um homem musculoso, atlético e com musculos definidos e volumosos, sem camisa (use a referência da imagem carregada para o rosto, seja 100% fiel) com cabelo escuro e ondulado e abdominais definidos, vestindo shorts de cor clara, em pé com água na altura da cintura em água escura à noite. Ele está segurando uma tocha flamejante em sua mão direita, iluminando seu corpo com um brilho quente e tremeluzente. Ele está olhando para o lado com uma expressão determinada. O fundo é um céu noturno escuro e sem lua e água escura. Iluminação dramática, cinematográfico, hiper-realista, brilho de tocha, tema de aventura, 8k",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "45.0K",
-      "likes": "8.0K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-1",
+    "title": "Character: Firefly (liuying) from Honkai: Star Rai...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062425721256264123-character-firefly-liuying-from-honkai-star-rail.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Character: Firefly (liuying) from Honkai: Star Rail 2 AM Candid Phone Snapshot",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "35.0K",
+    "likes": "4.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-01931fda-8cf1-47f5-9643-bbd8f0588f42",
-      "title": "Realistic image",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Realistic_image.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A slim-fit 5'7 young man walking down stone steps,\\\\r\\\n\\\\r\\\nwearing a relaxed white linen shirt with the top buttons casually open, light blue straight-fit jeans, and clean white Nike Air Force 1 sneakers. He accessorizes with a silver wristwatch and narrow-frame rectangular classy sunglasses. The outfit gives off a minimal, effortless, and summery vibe, captured in natural daylight with soft shadows and a cinematic film tone, as if taken from a Leica cinema-grade camera with an 85mm prime lens.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "46.1K",
-      "likes": "9.1K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-2",
+    "title": "Technical Blueprint Sketch and Realistic 3D\u2013render...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-26cb3d0c-cff1-4935-b569-6128fc20b9a5-highly-detailed-technical-blueprint-sketch-and-realistic.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Technical Blueprint Sketch and Realistic 3D\u2013render Fusion of a Custom Modified Car",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "38.1K",
+    "likes": "5.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-8a507e10-bbed-4ec9-b238-62a45e736d55",
-      "title": "Monochromatic minimal elegant",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/MONOCHROMATIC_MINIMAL_ELEGANT.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Recreate this scene using my submitted photo as a reference, maintaining the same framing, pose, lighting, and style as the example image.\n\nThe composition should show a half-length **male** portrait, with the model sitting and leaning slightly forward. The right arm should cross the body, with the left hand resting gently on the opposite arm, conveying elegance and confidence.\n\nThe facial expression should be serene, confident, and slightly enigmatic. The gaze should be directed toward the camera, with lips softly closed and a firm posture.\n\nThe outfit consists of a dark, sophisticated ensemble—a structured **black blazer** worn over a **fitted black shirt (or T-shirt/sweater)**. **The hair should be neatly groomed and styled appropriately for a man (e.g., short, slicked back, or a modern cut and wearing Sunglasses).**\n\nThe lighting should be studio-style, with soft, contrasting directional light (Rembrandt-style or sidelight), highlighting the contours of the face, creating elegant shadows and a subtle gradient in the background.\n\nThe background should be smooth and neutral, in dark gray tones, with slight depth and no distracting elements. \n\nThe final style should be black and white, with refined contrast, smooth skin texture, and a realistic editorial portrait look.\n\nVertical format (1080x1920), portrait aspect ratio, professional studio photo quality, and a cinematic, realistic finish.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "47.2K",
-      "likes": "10.2K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-3",
+    "title": "A 3x3 Grid Collage Containing Nine Separate Photos...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064674801159967138-a-3x3-grid-collage-containing-nine-separate-photos-of-a-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A 3x3 Grid Collage Containing Nine Separate Photos of a Single Young Asian Woman",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "41.2K",
+    "likes": "6.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-a859d3c0-8de7-4d1b-b77d-b140e00cd6a0",
-      "title": "Shelby GT500 Night Portrait",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SHELBY_GT500_NIGHT_PORTRAIT.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A hyper-realistic cinematic portrait of a 190cm tall man (same face as reference) leaning casually against a modified orange Ford Mustang Shelby gt500 with neon under glow. The photo is taken at night under a single warm streetlight, with reflections glimmering on the car’s polished surface. The man faces directly toward the camera with a calm, confident expression. Shot from a high angle looking down, captured using a Canon EOS R5 with 85mm lens, f/1.4, ISO 400, 8K resolution. Neon blue and magenta hues blend across the car body and pavement, creating a deep cinematic atmosphere with soft shadows and lens bokeh.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "48.3K",
-      "likes": "11.3K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-4",
+    "title": "Vertical Hyper-Realistic 3D Render in the Style of...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-9a2deae2-516c-4c8e-82dd-475f4d8c958a-create-a-vertical-hyper-realistic-3d-render-in-the-style.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Vertical Hyper-Realistic 3D Render in the Style of Pixar/dreamworks Animation in",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "44.3K",
+    "likes": "7.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-a7766546-323c-4c10-a25f-491400943b59",
-      "title": "Doble exposición",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Doble_exposición.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Basándote en nuestra foto sin cambiar los rostros, crea una fotografía de doble exposición o superposición. Una imagen es la silueta transparente y magnificada de la pareja, y la otra es una escena más pequeña y definida donde están parados sobre la orilla del mar.\n• Primer Plano (Pareja Pequeña): La pareja se encuentra de pie enfrente a la orilla del mar.\n•Vestuario del hombre: traje sastre negro, camisa de vestir negra y mocasines de cuero negros.\nVestuario de la mujer: Vestido de noche negro sin tirantes con abertura alta, combinado con tacones negros. Cabello castaño largo, ligeramente ondulado\n• El hombre abraza suavemente a la mujer por la cintura, y ella tiene sus manos sobre las de él. Ambos se miran con una expresión de afecto.\n• La luz es suave y difusa, creando una atmósfera brumosa.\n• Fondo (Superposición Grande): Los rostros y torsos de la pareja aparecen en un tamaño muy grande y transparente, superpuestos a la escena del bote. Se están mirando y la mujer sostiene un objeto o su mano cerca del r",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "49.4K",
-      "likes": "12.4K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-5",
+    "title": "Professional Luxury Birthday Poster, 3:4 Portrait ...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064903441806450903-professional-luxury-birthday-poster-3-4-portrait-composi.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Professional Luxury Birthday Poster, 3:4 Portrait Composition, Ultra High-End",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "47.4K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-ab478028-4f76-4f8d-9e5c-a7ad14593c30",
-      "title": "Gini",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/GINI.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Maintain the same face and person (use attached photo for accurate face\\\\r\\\n\\\\r\\\n‎Hyper-realistic cinematic Create an 8k photorealistic image using the attached photo. A close-up portrait of a woman with long, jet-black, slightly wind-swept hair falling across her face. Her striking, light-colored eyes gaze upwards and to the right, catching a sharp, diagonal beam of natural light that illuminates the high points of her cheekbone, nose, and plump, glossy, mauve-toned lips a slightly light weight silk",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "50.5K",
-      "likes": "13.5K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-6",
+    "title": "Digital Artwork in a Surreal, Dynamic Style Inspir...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2047721704202617219-a-highly-detailed-digital-artwork-in-a-surreal-dynamic-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Digital Artwork in a Surreal, Dynamic Style Inspired by Premium Athletic",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "50.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-cb8cbddf-d8ab-4aa6-b157-d2ec5a589575",
-      "title": "Urban Reflection in Dramatic Light",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/URBAN_REFLECTION_IN_DRAMATIC_LIGHT.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Dramatic, ultra-realistic close-up in black and white with high-contrast cinematic lighting from the side, highlighting the contours of his face and beard, casting deep shadows. He wears round, reflective sunglasses. He gazes confidently upward into a dark void. The sunglasses reflect a city's towering skyline. The atmosphere is mysterious with a minimalist black background. Details in 4K. Keep the subject's exact facial structure, hair texture, the original photo.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "51.6K",
-      "likes": "14.6K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-7",
+    "title": "Premium Editorial Travel Poster Illustration of DE...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2053347075648278737-create-a-premium-editorial-travel-poster-illustration-of.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Premium Editorial Travel Poster Illustration of DESTINATION",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "53.6K",
+    "likes": "4.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-a1d98d08-d3c2-4e92-9b13-e66acdd033a2",
-      "title": "Horse Rider in Golden Daylight",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Horse_Rider_in_Golden_Daylight.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A realistic outdoor portrait of a man confidently riding a majestic black horse in a green open field. The man wears a stylish casual outfit — a Black shirt with rolled-up sleeves and black jeans. He looks composed and natural, holding the reins with a relaxed posture, sitting upright on the saddle. The background shows soft-focus tall trees and subtle city buildings in the distance. The lighting is bright and natural, with a cinematic depth and warm daylight tones. Use my reference image for the face identity while keeping the same pose, outfit, and overall look. Ultra-realistic, 4K detail, editorial photography style, shallow depth of field, --ar 3:2 --v 6 --style raw --q 2",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "52.7K",
-      "likes": "15.7K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-8",
+    "title": "Large Arabic Infographic in the Form of a Small Th...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2054295667485327716-create-a-large-arabic-infographic-in-the-form-of-a-small.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Large Arabic Infographic in the Form of a Small Three-Dimensional Children's",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "56.7K",
+    "likes": "5.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-66db5714-0240-4071-ac1b-b3a4fab78155",
-      "title": "Propt moto esportiva",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/PROPT_MOTO_ESPORTIVA.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Crie uma imagem minha [foto enviada em anexo] um retrato ultra-realista. Eu estou sentado em uma Moto esportiva preta brilhante em uma área ao ar livre contra o fundo de árvores verdes. Eu uso uma camiseta preta solta, jeans escuros soltos com dobras na parte inferior e tênis Nike preto e branco. Os acessórios usados incluem um relógio preto. Minha mão esquerda descansou casualmente em sua coxa, enquanto sua mão direita descansou na moto enquanto segurava um capacete preto brilhante com uma viseira transparente.\\\\r\\\nA moto parece detalhada com um motor grande, quadro forte e detalhes cromados brilhantes, acentuando a impressão moderna e poderosa. O fundo mostra árvores altas com luz natural suave, criando uma mistura equilibrada de sombra e luz. A expressão é calma e confiante, olhando diretamente para\\\\r\\\na câmera. O estilo geral é cinematográfico e moderno, combinando a sensação de streetwear jovem com a presença de uma motocicleta arrojada. Alta resolução, estilo editorial fotorrealista.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "53.8K",
-      "likes": "16.8K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-9",
+    "title": "High-Fashion Vertical Editorial Artwork Featuring ...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064751874650378335-high-fashion-vertical-editorial-artwork-featuring-an-eleg.webp",
+    "aspectRatio": "16:9",
+    "prompt": "High-Fashion Vertical Editorial Artwork Featuring an Elegant Korean Woman",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "59.8K",
+    "likes": "6.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-bb38cd44-7dc9-4f66-960f-63c9f8598858",
-      "title": "realistic painting with abstract background",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/REALISTIC_PAINTING_WITH_ABSTRACT_BACKGROUND.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A highly detailed and realistic fine art painting of a person with the same exact facial features as the original photo. The painting should be in the style of a classical or photorealistic oil painting, with smooth brushstrokes and a high level of detail, particularly on the face. The subject should have cinematic color grading and bright lighting that highlights their face.The background should be an abstract painting on a canvas, with colors that complement the subject, but it should not be pure white. The lighting should be dramatic and highlight the edges of the person to separate the subject from the background.The subject should be expertly mingled with the background, seamlessly integrating with the scene. The overall image must have the high-quality, non-digital feel of a traditional painting, with no artifacts from a screenshot or digital editing. The final output image must be in a 16:9 landscape ratio with their face matched. face match 100%.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "54.0K",
-      "likes": "17.0K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-10",
+    "title": "A Retro-Inspired Studio Photoshoot Featuring a You...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2043539455131459957-a-retro-inspired-studio-photoshoot-featuring-a-young-woma.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A Retro-Inspired Studio Photoshoot Featuring a Young Woman Styled in Four",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "62.0K",
+    "likes": "7.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-ec988b71-6978-41b3-a2cf-ccf467d59ac5",
-      "title": "Selfie",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SELFIE.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Ultra-realistic mirror selfie of a me (uploaded pic)with glasses.\\\\r\\\nHe is wearing a loose brown sweater layered over a crisp white T-shirt, paired with blue jeans.\\\\r\\\nA silver chain necklace adds a subtle accessory touch. He holds a new modern iPhone 17 smartphone orange colour in one hand, partially covering his face, while his other hand rests casually in his pocket.\\\\r\\\nThe scene is set in warm indoor lighting, creating a cinematic, moody atmosphere with soft shadow",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "55.1K",
-      "likes": "18.1K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-11",
+    "title": "A Commercial Product Photography Layout in Instagr...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7f820062-7c25-4b56-be20-993903c4492b-a-commercial-product-photography-layout-in-instagram-port.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A Commercial Product Photography Layout in Instagram Portrait Size Featuring",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "65.1K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-ee3f7a85-efc3-49b7-88b2-cd81fea88a0e",
-      "title": "foto realista",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/foto_realista.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Using the reference image, recreate the same woman with an identical face, body, and tattoos, in a [The captured environment is a rocky coastal cove or bay, viewed from a luxury boat, under strong sunlight. The sea has an intense and vibrant turquoise blue color, with the calm surface reflecting the sunlight in a sparkling way. In the background, an imposing, light-colored rock formation rises vertically from the water. The lighting is strong and direct (hard light), typical of a sunny day, creating high contrast and enhancing saturation. The photo is taken aboard a leisure boat or speedboat, with a cream-colored upholstered seat and polished dark wood trim on the edge. A metallic handrail is present, and small vessels are visible in the distance. The atmosphere is one of luxury holidays and seaside leisure.]. She is wearing [The model is wearing a two-piece royal blue or cobalt blue bikini set. The top is an asymmetrical strapless model, featuring a unique and wide strap that goes over the right shoulder, while the front has a twisted or knotted central detail, creating a ruching effect. The bottom is a classic or slightly high-cut thong model, with medium to thin side straps, complementing the set's design.], with [The model wears sunglasses with thin frames, possibly metallic and golden, in a hexagonal or slightly rounded shape, with dark and lightly mirrored lenses. She wears small, rectangular earrings, in a discreet hoop style, in a golden tone. Complementing this, there is a mix of layered golden necklaces: a shorter one with a circular or coin pendant and a longer one with a thin chain and a simple pendant. On her right wrist, she wears a thin black bracelet, similar to a hair tie or silicone wristband. Her hair is dark, medium to long length, loose with a subtle central parting, and the front side strands are pulled back behind her ears. The strands have a smooth to slightly wavy texture, with a natural and possibly wet or wet-look appearance at the roots, typical of a marine environment.]. Pose: [The model is kneeling on the boat's seat, with her torso slightly leaning back and her body facing the camera. This kneeling posture elevates her upper body, subtly lengthening her torso. Her arms are relaxed and resting on the boat's structure: the left one is flexed, with her hand resting on the wooden edge near her thigh, and the right one is also resting on the side of the vessel. Her head is upright, and her chin is subtly raised, directing her direct and fixed gaze towards the camera with an expression of confidence and seriousness. The overall pose is relaxed but intentional, fitting the model perfectly into the leisure setting and conveying a tranquil style under the sun.]. Lighting: [The lighting is studio, predominantly soft and diffuse, characterized by the absence of harsh shadows and smooth transitions of light and shadow, indicating the use of large modifiers such as softboxes. The contrast is low to medium, ensuring that the model and clothing details are visible without overly dark shadow areas. The main light is positioned frontally and slightly above the model for even and flattering illumination. It is complemented by a weaker fill light, which lifts shadows and maintains overall low contrast. There is, subtly, an edge light to create a slight separation of the model from the gray background and add dimensionality. The light color is neutral and balanced, ensuring clean and accurate color reproduction. Technically, it is a studio lighting scheme aimed at maximum clarity and detail.]. Ultra-realistic photography, 8K resolution, 50mm lens, shallow depth of field, professional fashion editorial style.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "56.2K",
-      "likes": "19.2K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-12",
+    "title": "Infographic Image of COUNTRY, Combining a Realisti...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2015850590283124768-create-an-infographic-image-of-country-combining-a-rea.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Infographic Image of COUNTRY, Combining a Realistic Photograph or Photoreal Render",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "68.2K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-e27cf2e4-b2f7-4d8c-8cc9-f302f9bd713c",
-      "title": "🌇🧱 Editorial Theme: “Concreto ao Entardecer”",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Editorial_Theme_Concreto_ao_Entardecer.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Conceito\nUm retrato editorial masculino capturado em plano fechado no topo de um campus durante o fim de tarde. O modelo — com cabelo levemente agitado pelo vento — veste uma camiseta branca oversized com estampa gráfica e calça cargo preta. Ele está encostado em uma parede de concreto branco, com o rosto voltado para o lado e a cabeça levemente inclinada para cima. O céu ao fundo exibe nuvens em tons de rosa e roxo profundo, criando uma atmosfera suave e contemplativa. A composição transmite leveza urbana, introspecção e estilo cotidiano com toque editorial.\n\n🎥 Especificações Técnicas\nCâmera: Canon EOS R5\n\nLente: 85mm f/1.4 — ideal para retratos com profundidade emocional e foco preciso\n\nAbertura: f/2.2\n\nISO: 320\n\nVelocidade do obturador: 1/250s\n\nEnquadramento: vertical (formato 19:16), plano fechado do rosto até a linha da cintura\n\nÂngulo da câmera: lateral, com leve inclinação — destaca a silhueta e o fundo celeste\n\nResolução: Ultra-HD 8K — textura da pele, tecido e luz capturados com realismo extremo\n\nIluminação: luz natural suave do pós-pôr do sol — cria sombras delicadas e brilho difuso\n\nEstilo visual: editorial urbano com estética suave, contemplativa e realista\n\n🧍‍♂️ Pose Principal: “Encostado em Silêncio”\nPostura: o modelo está encostado na parede de concreto, com o corpo relaxado e a cabeça levemente inclinada para cima\n\nExpressão: serena e introspectiva — transmite contemplação e leveza\n\nDestaques: contraste entre o branco da parede e o céu colorido, cabelo ao vento, composição centrada no rosto\n\n👕 Detalhes do Look\nCamiseta: branca oversized com estampa gráfica — visual urbano e descontraído\n\nCalça: cargo preta, com bolsos laterais — reforça a estética street\n\nTênis: não visível — foco no plano fechado\n\nAcessórios: nenhum visível — foco total na expressão e na luz\n\nCabelo: cacheado, levemente agitado pelo vento\n\nBarba: aparada — reforça o visual maduro e estilizado\n\n🌟 Destaques Visuais\nParede de concreto branco: base visual neutra que destaca o modelo\n\nCéu rosa e roxo: fundo atmosférico que adiciona profundidade e emoção\n\nPaleta de Cores: branco, preto, rosa, roxo e tons de pele — suave, urbana e contemplativa\n\nMood: introspectivo, leve e realista — ideal para editoriais de moda cotidiana, campanhas de lifestyle urbano ou retratos para redes sociais",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "57.3K",
-      "likes": "20.3K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-13",
+    "title": "Image in the \"plush Comic Toy Product Poster\"",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2055313942139003328-create-an-image-in-the-plush-comic-toy-product-poster-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Image in the \"plush Comic Toy Product Poster\"",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "71.3K",
+    "likes": "4.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-a1f7c8fc-ddd0-4fee-b3ea-e8367c72fd2e",
-      "title": "Dark Studio",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/DARK_STUDIO.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A cinematic portrait of a man (use the uploaded picture as reference for the face) sitting confidently on a round black beanbag chair against a dark gradient background. He wears a black hoodie with the sleeves slightly pushed up, black cargo pants, and clean white sneakers. A silver wristwatch is visible on his left wrist. His pose is relaxed and strong elbows resting on his knees, hands hanging loosely between his legs. He has a calm, slight smiling facial expression. The lighting is dramatic and directional, illuminating his face, sneakers, and upper body while the background fades into darkness. The atmosphere is modern, minimalist, and powerful, with a studio photography style and high contrast.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "58.4K",
-      "likes": "21.4K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-14",
+    "title": "Surreal Dreamcore Cinematic Poster with an Etherea...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-27e95699-c432-4e4d-bbab-3c9dedeb3aed-create-a-surreal-dreamcore-cinematic-poster-with-an-ether.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Surreal Dreamcore Cinematic Poster with an Ethereal",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "74.4K",
+    "likes": "5.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-c98c50bf-578f-4dd4-a97e-2079d4a8a08e",
-      "title": "A stylish man leaning casually",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/A_STYLISH_MAN_LEANING_CASUALLY.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A hyper-realistic cinematic portrait of the uploaded man. Use precise ID locking to preserve his precise facial features, hairstyle, skin tone, body proportions, age, and expressions with 100% accuracy. \\\\r\\\nA stylish man leaning casually against a stone building wall on a sunlit city street in the late afternoon. He wears a dark denim overshirt unbuttoned over a white T-shirt with bold red letters, beige pleated trousers with a relaxed fit, and tan suede sneakers with white stripes. A keychain hangs from his belt loop, and he accessorizes with a dark baseball cap, black sunglasses, a wristwatch, and a neat mustache. The sunlight creates warm golden tones, casting soft shadows on the wall and pavement. The atmosphere feels cinematic, urban, and effortlessly cool, with a vintage 90s aesthetic and natural golden-hour lighting.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "59.5K",
-      "likes": "22.5K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-15",
+    "title": "Youth Digital Collage Campaign",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2048114730061926699-brand-name-change-to-your-brand.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Youth Digital Collage Campaign",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "77.5K",
+    "likes": "6.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-3be7c684-da85-41bc-b42e-e86faf1a457d",
-      "title": "Studio",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/STUDIO.webp",
-      "aspectRatio": "16:9",
-      "prompt": "A confident man in a navy blue tailored suit with a white shirt, no tie, adjusting his cufflinks. He wears aviator sunglasses, a gold wristwatch, and a small lapel pin. The background is a smooth warm brown/olive studio backdrop with soft gradient lighting. Studio lighting is dramatic yet balanced, with a key light from the upper left casting subtle shadows. Editorial fashion portrait, waist-up, cinematic and luxurious style.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "60.6K",
-      "likes": "8.6K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-16",
+    "title": "Cinematic Nighttime Portrait of a Stylish Young As...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063672709213737393-cinematic-nighttime-portrait-of-a-stylish-young-asian-wom.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic Nighttime Portrait of a Stylish Young Asian Woman Standing on",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "80.6K",
+    "likes": "7.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-a1ef4de9-36c5-449e-8a5c-ec0cddb11a9e",
-      "title": "Instinct and Spirit",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/INSTINCT_AND_SPIRIT.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Create a realistic and emotional scene showing a man (use the provided image for accurate facial features) and a lion face to face in a moment of connection and respect. The man's eyes are closed, with a serene expression, while the lion gently rests its forehead and muzzle against his, conveying trust and a spiritual bond.\nBoth are standing on ground covered in light snow, with snowflakes gently falling. The man wears a dark coat and hair slightly tousled by the wind, and the lion displays a thick, majestic mane.\nIn the background, a cold, misty natural landscape with blurred mountains and gray tones reinforces the calm and powerful atmosphere.\nThe lighting is soft and diffuse, highlighting the textures of the skin, fur, and coat, creating a cinematic and poetic atmosphere.\nThe composition should convey friendship, courage, and harmony between man and nature.\n\nSuggested settings:\nStyle: Ultra-realistic, cinematic, 8K\nLighting: Soft, diffuse, natural winter light\nCamera: Medium close-up, focus on expressions\nEmotion: Connection, respect, tranquility\nSetting: Falling snow, blurred background with mountains",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "61.7K",
-      "likes": "9.7K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-17",
+    "title": "Dark, High\u2011contrast Poster with a Moody, Undergrou...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d1dbe0ff-b651-4b66-a61a-a88864582c7b-create-a-dark-high-contrast-poster-with-a-moody-undergr.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Dark, High\u2011contrast Poster with a Moody, Underground Club Aesthetic",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "83.7K",
+    "likes": "8.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-d4f29585-781d-4023-bf33-4b7f4b64987c",
-      "title": "in the water",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/IN_THE_WATER.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Edit This close-up photograph of a man submerged underwater, half of his body exposed from chest to head, occupies the center frame. He appears to be of Arab descent, with a serious expression. His eyes are open and directed towards the viewer. He appears shirtless. The water's surface, with its manipulated light, creates caustic patterns on his skin. Slightly suspended water droplets and bubbles add depth. Cinematic lighting with soft shadows and sharp highlights, and realistic textures create an intricate pattern of light and shadow on his face and upper body. The background is a color gradient between greenish-blue and dark blue, with scattered air bubbles, suggesting a deep environment. The lighting is diffused, casting soft shadows, enhancing the underwater atmosphere. The overall style of the image is photographic and realistic, with an emphasis on capturing the details of the water's effect on the person in 4k resolution.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "62.8K",
-      "likes": "10.8K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "gp-imported-18",
+    "title": "Subject & Action Full-Body Portrait of a Female Fa...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d773fae7-206f-4521-b704-c7285432874f-subject-action.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Subject & Action Full-Body Portrait of a Female Fashion Model in a Dynamic",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "86.8K",
+    "likes": "9.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-e4eb7614-7466-4d1e-830c-1386361443b7",
-      "title": "Couple Polaroid",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/COUPLE_POLAROID.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Take a photo taken with a Polaroid camera. The photo should look like an ordinary photograph, without an explicit subject or property. The photo should have a slight blur and a consistent light source, like a flash from a dark room, scattered throughout the photo. Don't change the face. Change the background behind those two people with white curtains. With that boy and me make a cute poses. Make the boy holding a red coca cola can and girl a burger.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "63.0K",
-      "likes": "11.0K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
+    "id": "gp-imported-19",
+    "title": "Nutella Miniature Winter Ski World",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2029194313784016901.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Nutella Miniature Winter Ski World",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "89.0K",
+    "likes": "4.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-20",
+    "title": "YAKUZA STREETWEARFORMAT4:5 Vertical Premium Global...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-492c8c98-cf5e-441c-9dc7-e152efe56627-yakuza-streetwearformat4-5-vertical-premium-global-brand.webp",
+    "aspectRatio": "16:9",
+    "prompt": "YAKUZA STREETWEARFORMAT4:5 Vertical Premium Global Brand Campaignultra High",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "92.1K",
+    "likes": "5.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-21",
+    "title": "Crystal Logo Typography Visual",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062625480893771967-brand-name.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Crystal Logo Typography Visual",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "35.2K",
+    "likes": "6.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-22",
+    "title": "You Are a World Class Creative Director, Brand Str...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2033954262372237406-you-are-a-world-class-creative-director-brand-strategist.webp",
+    "aspectRatio": "16:9",
+    "prompt": "You Are a World Class Creative Director, Brand Strategist",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "38.3K",
+    "likes": "7.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-23",
+    "title": "Stylized Illustration of Character_name from Franc...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2051938130505453866-create-a-stylized-illustration-of-character-name-from.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Stylized Illustration of Character_name from Franchise",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "41.4K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-24",
+    "title": "- Ultra-Cinematic Luxury Haircare Product Photogra...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-54354924-15f6-4ee8-91e7-45fc5a672025-ultra-cinematic-luxury-haircare-product-photography-of.webp",
+    "aspectRatio": "16:9",
+    "prompt": "- Ultra-Cinematic Luxury Haircare Product Photography of a Translucent Amber",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "44.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-25",
+    "title": "Technical Infographic of VEHICLE with a 45-degree ...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2048733383140712808-create-a-technical-infographic-of-vehicle-with-a-45-deg.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Technical Infographic of VEHICLE with a 45-degree Isometric 3D Perspective",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "47.6K",
+    "likes": "4.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-26",
+    "title": "Premium 9:16 Streetwear Accessories Advertising Po...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-eb5334b6-5721-451e-b541-1fe7068c2de4-a-premium-9-16-streetwear-accessories-advertising-poster.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Premium 9:16 Streetwear Accessories Advertising Poster",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "50.7K",
+    "likes": "5.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-27",
+    "title": "Premium Gen-Z Product Hero",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-0a1b0200-fe38-4066-99f8-2a52b2e0fa7f-brand-name-brand-premium-hero-campaign-shota-hype.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Premium Gen-Z Product Hero",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "53.8K",
+    "likes": "6.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-28",
+    "title": "Realistic Photography, Portrait of a Beautiful Kor...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2050959150973383060-realistic-photography-portrait-of-a-beautiful-korean-ido.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Realistic Photography, Portrait of a Beautiful Korean Idol with Long Sleek",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "56.0K",
+    "likes": "7.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-29",
+    "title": "Fashion VN Magazine Cover",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-a1bd645b-c784-4b67-ba0a-f89047bd6966-project-type-name-fashion-vn-magazine-cove.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Fashion VN Magazine Cover",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "59.1K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-30",
+    "title": "Stylized Character Poster Template",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2052453881800798451.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Stylized Character Poster Template",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "62.2K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-31",
+    "title": "A High-End Fashion Campaign Poster Featuring a You...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063928106336047495-a-high-end-fashion-campaign-poster-featuring-a-young-mode.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A High-End Fashion Campaign Poster Featuring a Young Model Standing Confidently",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "65.3K",
+    "likes": "4.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-32",
+    "title": "Brand Logo Cloud Sky Visual",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032908105994961090-brand-name-the-name-of-the-brand.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Brand Logo Cloud Sky Visual",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "68.4K",
+    "likes": "5.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-33",
+    "title": "Subject and Composition a High-End Commercial Jewe...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7104a83c-0a62-4728-93fc-002f8cd3fe89-subject-and-composition.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Subject and Composition a High-End Commercial Jewelry Macro Shot Featuring",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "71.5K",
+    "likes": "6.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-34",
+    "title": "A Dreamy Anime Fashion Illustration Highlighting a...",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-2751cc92-0264-494a-a765-882351b880c7-a-dreamy-anime-fashion-illustration-highlighting-a-highly.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A Dreamy Anime Fashion Illustration Highlighting a Highly Creative, Surreal Dress",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "74.6K",
+    "likes": "7.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-35",
+    "title": "Matcha Cheesecake Macro Food Shoot",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2009446363331973461.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Matcha Cheesecake Macro Food Shoot",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "77.7K",
+    "likes": "8.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-36",
+    "title": "Stylish Museum Heist Comedy Action",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2063169581473317099-style-3d-cinematic-animation-stylish-museum-heist-comed.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Stylish Museum Heist Comedy Action",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "80.8K",
+    "likes": "9.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-37",
+    "title": "Cinematic Martial Arts Confrontation in Broad Dayl...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2040376349504815467-cinematic-martial-arts-confrontation-in-broad-daylight-a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic Martial Arts Confrontation in Broad Daylight",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "83.0K",
+    "likes": "4.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-38",
+    "title": "Pure Seamless Background, Slightly Cool Gray Tone,...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2042555707296485839-a-male-street-dance-expert-white-buzz-cut-wearing-small.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Pure Seamless Background, Slightly Cool Gray Tone, Clean Space with No",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "86.1K",
+    "likes": "5.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-39",
+    "title": "Yellow Seaplane Diving Over a Tropical Coastline",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043707867463844234-a-hyper-realistic-high-cinematic-aerial-drone-shot-of-a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Yellow Seaplane Diving Over a Tropical Coastline",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "89.2K",
+    "likes": "6.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-40",
+    "title": "Ballerina Whale Breach Action Scene",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043463569354998093-a-hyper-realistic-high-octane-cinematic-video-a-colossa.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ballerina Whale Breach Action Scene",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "92.3K",
+    "likes": "7.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-41",
+    "title": "Rapid Exchanges of Kicks and Blocks",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043167918910029895-shot-on-alexa-65mm-anamorphic-lens-photorealistic-cinema.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Rapid Exchanges of Kicks and Blocks",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "35.4K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-42",
+    "title": "Misty Japanese Forest, Ink Painted Landscape, Anci...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2064248324560200127-style.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Misty Japanese Forest, Ink Painted Landscape, Ancient Shrine Path",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "38.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-43",
+    "title": "Photorealistic, Cinematic, Ultra Detailed, 8k, Atm...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2056372974765175067-create-a-16-9-character-concept-sheet-for-a-celestial-voy.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic, Cinematic, Ultra Detailed, 8k, Atmospheric Depth, Elegant Sci Fi",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "41.6K",
+    "likes": "4.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-44",
+    "title": "The Tea House Grandma",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2063754042275139884.webp",
+    "aspectRatio": "16:9",
+    "prompt": "The Tea House Grandma",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "44.7K",
+    "likes": "5.7K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-45",
+    "title": "Anime Illustration, Clean Linework, Refined Render...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2060402131702861863-create-a-premium-anime-style-character-sheet-of-a-classy.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Anime Illustration, Clean Linework, Refined Rendering",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "47.8K",
+    "likes": "6.8K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-46",
+    "title": "THE LOST CENTURYCHAPTER 5ELARA VALDRAKE VS THE BLA...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/community-fe658409-e901-455f-abed-077be9d1a936-the-lost-centurychapter-5elara-valdrake-vs-the-black-swor.webp",
+    "aspectRatio": "16:9",
+    "prompt": "THE LOST CENTURYCHAPTER 5ELARA VALDRAKE VS THE BLACK SWORDSMAN16:9 Cinematic Anime",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "50.0K",
+    "likes": "7.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-imported-47",
+    "title": "Low-Angle Tracking Shot Following a Woman in a Bla...",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2065650333716746498-low-angle-tracking-shot-following-a-woman-in-a-black-tact.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Low-Angle Tracking Shot Following a Woman in a Black Tactical Outfit Walking Down",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy",
+    "views": "53.1K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "Photorealistic",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-94217bcd-4143-4004-8f53-abdccd68e2bf",
+    "title": "Tocha Flamejante",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/TOCHA_FLAMEJANTE.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Um homem musculoso, atl\u00e9tico e com musculos definidos e volumosos, sem camisa (use a refer\u00eancia da imagem carregada para o rosto, seja 100% fiel) com cabelo escuro e ondulado e abdominais definidos, vestindo shorts de cor clara, em p\u00e9 com \u00e1gua na altura da cintura em \u00e1gua escura \u00e0 noite. Ele est\u00e1 segurando uma tocha flamejante em sua m\u00e3o direita, iluminando seu corpo com um brilho quente e tremeluzente. Ele est\u00e1 olhando para o lado com uma express\u00e3o determinada. O fundo \u00e9 um c\u00e9u noturno escuro e sem lua e \u00e1gua escura. Ilumina\u00e7\u00e3o dram\u00e1tica, cinematogr\u00e1fico, hiper-realista, brilho de tocha, tema de aventura, 8k",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "45.0K",
+    "likes": "8.0K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-01931fda-8cf1-47f5-9643-bbd8f0588f42",
+    "title": "Realistic image",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Realistic_image.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A slim-fit 5'7 young man walking down stone steps,\\\\r\\\n\\\\r\\\nwearing a relaxed white linen shirt with the top buttons casually open, light blue straight-fit jeans, and clean white Nike Air Force 1 sneakers. He accessorizes with a silver wristwatch and narrow-frame rectangular classy sunglasses. The outfit gives off a minimal, effortless, and summery vibe, captured in natural daylight with soft shadows and a cinematic film tone, as if taken from a Leica cinema-grade camera with an 85mm prime lens.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "46.1K",
+    "likes": "9.1K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-8a507e10-bbed-4ec9-b238-62a45e736d55",
+    "title": "Monochromatic minimal elegant",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/MONOCHROMATIC_MINIMAL_ELEGANT.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Recreate this scene using my submitted photo as a reference, maintaining the same framing, pose, lighting, and style as the example image.\n\nThe composition should show a half-length **male** portrait, with the model sitting and leaning slightly forward. The right arm should cross the body, with the left hand resting gently on the opposite arm, conveying elegance and confidence.\n\nThe facial expression should be serene, confident, and slightly enigmatic. The gaze should be directed toward the camera, with lips softly closed and a firm posture.\n\nThe outfit consists of a dark, sophisticated ensemble\u2014a structured **black blazer** worn over a **fitted black shirt (or T-shirt/sweater)**. **The hair should be neatly groomed and styled appropriately for a man (e.g., short, slicked back, or a modern cut and wearing Sunglasses).**\n\nThe lighting should be studio-style, with soft, contrasting directional light (Rembrandt-style or sidelight), highlighting the contours of the face, creating elegant shadows and a subtle gradient in the background.\n\nThe background should be smooth and neutral, in dark gray tones, with slight depth and no distracting elements. \n\nThe final style should be black and white, with refined contrast, smooth skin texture, and a realistic editorial portrait look.\n\nVertical format (1080x1920), portrait aspect ratio, professional studio photo quality, and a cinematic, realistic finish.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "47.2K",
+    "likes": "10.2K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-a859d3c0-8de7-4d1b-b77d-b140e00cd6a0",
+    "title": "Shelby GT500 Night Portrait",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SHELBY_GT500_NIGHT_PORTRAIT.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic cinematic portrait of a 190cm tall man (same face as reference) leaning casually against a modified orange Ford Mustang Shelby gt500 with neon under glow. The photo is taken at night under a single warm streetlight, with reflections glimmering on the car\u2019s polished surface. The man faces directly toward the camera with a calm, confident expression. Shot from a high angle looking down, captured using a Canon EOS R5 with 85mm lens, f/1.4, ISO 400, 8K resolution. Neon blue and magenta hues blend across the car body and pavement, creating a deep cinematic atmosphere with soft shadows and lens bokeh.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "48.3K",
+    "likes": "11.3K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-a7766546-323c-4c10-a25f-491400943b59",
+    "title": "Doble exposici\u00f3n",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Doble_exposici\u00f3n.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Bas\u00e1ndote en nuestra foto sin cambiar los rostros, crea una fotograf\u00eda de doble exposici\u00f3n o superposici\u00f3n. Una imagen es la silueta transparente y magnificada de la pareja, y la otra es una escena m\u00e1s peque\u00f1a y definida donde est\u00e1n parados sobre la orilla del mar.\n\u2022 Primer Plano (Pareja Peque\u00f1a): La pareja se encuentra de pie enfrente a la orilla del mar.\n\u2022Vestuario del hombre: traje sastre negro, camisa de vestir negra y mocasines de cuero negros.\nVestuario de la mujer: Vestido de noche negro sin tirantes con abertura alta, combinado con tacones negros. Cabello casta\u00f1o largo, ligeramente ondulado\n\u2022 El hombre abraza suavemente a la mujer por la cintura, y ella tiene sus manos sobre las de \u00e9l. Ambos se miran con una expresi\u00f3n de afecto.\n\u2022 La luz es suave y difusa, creando una atm\u00f3sfera brumosa.\n\u2022 Fondo (Superposici\u00f3n Grande): Los rostros y torsos de la pareja aparecen en un tama\u00f1o muy grande y transparente, superpuestos a la escena del bote. Se est\u00e1n mirando y la mujer sostiene un objeto o su mano cerca del r",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "49.4K",
+    "likes": "12.4K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-ab478028-4f76-4f8d-9e5c-a7ad14593c30",
+    "title": "Gini",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/GINI.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Maintain the same face and person (use attached photo for accurate face\\\\r\\\n\\\\r\\\n\u200eHyper-realistic cinematic Create an 8k photorealistic image using the attached photo. A close-up portrait of a woman with long, jet-black, slightly wind-swept hair falling across her face. Her striking, light-colored eyes gaze upwards and to the right, catching a sharp, diagonal beam of natural light that illuminates the high points of her cheekbone, nose, and plump, glossy, mauve-toned lips a slightly light weight silk",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "50.5K",
+    "likes": "13.5K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-cb8cbddf-d8ab-4aa6-b157-d2ec5a589575",
+    "title": "Urban Reflection in Dramatic Light",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/URBAN_REFLECTION_IN_DRAMATIC_LIGHT.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Dramatic, ultra-realistic close-up in black and white with high-contrast cinematic lighting from the side, highlighting the contours of his face and beard, casting deep shadows. He wears round, reflective sunglasses. He gazes confidently upward into a dark void. The sunglasses reflect a city's towering skyline. The atmosphere is mysterious with a minimalist black background. Details in 4K. Keep the subject's exact facial structure, hair texture, the original photo.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "51.6K",
+    "likes": "14.6K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-a1d98d08-d3c2-4e92-9b13-e66acdd033a2",
+    "title": "Horse Rider in Golden Daylight",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Horse_Rider_in_Golden_Daylight.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A realistic outdoor portrait of a man confidently riding a majestic black horse in a green open field. The man wears a stylish casual outfit \u2014 a Black shirt with rolled-up sleeves and black jeans. He looks composed and natural, holding the reins with a relaxed posture, sitting upright on the saddle. The background shows soft-focus tall trees and subtle city buildings in the distance. The lighting is bright and natural, with a cinematic depth and warm daylight tones. Use my reference image for the face identity while keeping the same pose, outfit, and overall look. Ultra-realistic, 4K detail, editorial photography style, shallow depth of field, --ar 3:2 --v 6 --style raw --q 2",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "52.7K",
+    "likes": "15.7K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-66db5714-0240-4071-ac1b-b3a4fab78155",
+    "title": "Propt moto esportiva",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/PROPT_MOTO_ESPORTIVA.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Crie uma imagem minha [foto enviada em anexo] um retrato ultra-realista. Eu estou sentado em uma Moto esportiva preta brilhante em uma \u00e1rea ao ar livre contra o fundo de \u00e1rvores verdes. Eu uso uma camiseta preta solta, jeans escuros soltos com dobras na parte inferior e t\u00eanis Nike preto e branco. Os acess\u00f3rios usados incluem um rel\u00f3gio preto. Minha m\u00e3o esquerda descansou casualmente em sua coxa, enquanto sua m\u00e3o direita descansou na moto enquanto segurava um capacete preto brilhante com uma viseira transparente.\\\\r\\\nA moto parece detalhada com um motor grande, quadro forte e detalhes cromados brilhantes, acentuando a impress\u00e3o moderna e poderosa. O fundo mostra \u00e1rvores altas com luz natural suave, criando uma mistura equilibrada de sombra e luz. A express\u00e3o \u00e9 calma e confiante, olhando diretamente para\\\\r\\\na c\u00e2mera. O estilo geral \u00e9 cinematogr\u00e1fico e moderno, combinando a sensa\u00e7\u00e3o de streetwear jovem com a presen\u00e7a de uma motocicleta arrojada. Alta resolu\u00e7\u00e3o, estilo editorial fotorrealista.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "53.8K",
+    "likes": "16.8K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-bb38cd44-7dc9-4f66-960f-63c9f8598858",
+    "title": "realistic painting with abstract background",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/REALISTIC_PAINTING_WITH_ABSTRACT_BACKGROUND.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A highly detailed and realistic fine art painting of a person with the same exact facial features as the original photo. The painting should be in the style of a classical or photorealistic oil painting, with smooth brushstrokes and a high level of detail, particularly on the face. The subject should have cinematic color grading and bright lighting that highlights their face.The background should be an abstract painting on a canvas, with colors that complement the subject, but it should not be pure white. The lighting should be dramatic and highlight the edges of the person to separate the subject from the background.The subject should be expertly mingled with the background, seamlessly integrating with the scene. The overall image must have the high-quality, non-digital feel of a traditional painting, with no artifacts from a screenshot or digital editing. The final output image must be in a 16:9 landscape ratio with their face matched. face match 100%.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "54.0K",
+    "likes": "17.0K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-ec988b71-6978-41b3-a2cf-ccf467d59ac5",
+    "title": "Selfie",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SELFIE.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic mirror selfie of a me (uploaded pic)with glasses.\\\\r\\\nHe is wearing a loose brown sweater layered over a crisp white T-shirt, paired with blue jeans.\\\\r\\\nA silver chain necklace adds a subtle accessory touch. He holds a new modern iPhone 17 smartphone orange colour in one hand, partially covering his face, while his other hand rests casually in his pocket.\\\\r\\\nThe scene is set in warm indoor lighting, creating a cinematic, moody atmosphere with soft shadow",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "55.1K",
+    "likes": "18.1K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-ee3f7a85-efc3-49b7-88b2-cd81fea88a0e",
+    "title": "foto realista",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/foto_realista.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Using the reference image, recreate the same woman with an identical face, body, and tattoos, in a [The captured environment is a rocky coastal cove or bay, viewed from a luxury boat, under strong sunlight. The sea has an intense and vibrant turquoise blue color, with the calm surface reflecting the sunlight in a sparkling way. In the background, an imposing, light-colored rock formation rises vertically from the water. The lighting is strong and direct (hard light), typical of a sunny day, creating high contrast and enhancing saturation. The photo is taken aboard a leisure boat or speedboat, with a cream-colored upholstered seat and polished dark wood trim on the edge. A metallic handrail is present, and small vessels are visible in the distance. The atmosphere is one of luxury holidays and seaside leisure.]. She is wearing [The model is wearing a two-piece royal blue or cobalt blue bikini set. The top is an asymmetrical strapless model, featuring a unique and wide strap that goes over the right shoulder, while the front has a twisted or knotted central detail, creating a ruching effect. The bottom is a classic or slightly high-cut thong model, with medium to thin side straps, complementing the set's design.], with [The model wears sunglasses with thin frames, possibly metallic and golden, in a hexagonal or slightly rounded shape, with dark and lightly mirrored lenses. She wears small, rectangular earrings, in a discreet hoop style, in a golden tone. Complementing this, there is a mix of layered golden necklaces: a shorter one with a circular or coin pendant and a longer one with a thin chain and a simple pendant. On her right wrist, she wears a thin black bracelet, similar to a hair tie or silicone wristband. Her hair is dark, medium to long length, loose with a subtle central parting, and the front side strands are pulled back behind her ears. The strands have a smooth to slightly wavy texture, with a natural and possibly wet or wet-look appearance at the roots, typical of a marine environment.]. Pose: [The model is kneeling on the boat's seat, with her torso slightly leaning back and her body facing the camera. This kneeling posture elevates her upper body, subtly lengthening her torso. Her arms are relaxed and resting on the boat's structure: the left one is flexed, with her hand resting on the wooden edge near her thigh, and the right one is also resting on the side of the vessel. Her head is upright, and her chin is subtly raised, directing her direct and fixed gaze towards the camera with an expression of confidence and seriousness. The overall pose is relaxed but intentional, fitting the model perfectly into the leisure setting and conveying a tranquil style under the sun.]. Lighting: [The lighting is studio, predominantly soft and diffuse, characterized by the absence of harsh shadows and smooth transitions of light and shadow, indicating the use of large modifiers such as softboxes. The contrast is low to medium, ensuring that the model and clothing details are visible without overly dark shadow areas. The main light is positioned frontally and slightly above the model for even and flattering illumination. It is complemented by a weaker fill light, which lifts shadows and maintains overall low contrast. There is, subtly, an edge light to create a slight separation of the model from the gray background and add dimensionality. The light color is neutral and balanced, ensuring clean and accurate color reproduction. Technically, it is a studio lighting scheme aimed at maximum clarity and detail.]. Ultra-realistic photography, 8K resolution, 50mm lens, shallow depth of field, professional fashion editorial style.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "56.2K",
+    "likes": "19.2K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-e27cf2e4-b2f7-4d8c-8cc9-f302f9bd713c",
+    "title": "\ud83c\udf07\ud83e\uddf1 Editorial Theme: \u201cConcreto ao Entardecer\u201d",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/Editorial_Theme_Concreto_ao_Entardecer.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Conceito\nUm retrato editorial masculino capturado em plano fechado no topo de um campus durante o fim de tarde. O modelo \u2014 com cabelo levemente agitado pelo vento \u2014 veste uma camiseta branca oversized com estampa gr\u00e1fica e cal\u00e7a cargo preta. Ele est\u00e1 encostado em uma parede de concreto branco, com o rosto voltado para o lado e a cabe\u00e7a levemente inclinada para cima. O c\u00e9u ao fundo exibe nuvens em tons de rosa e roxo profundo, criando uma atmosfera suave e contemplativa. A composi\u00e7\u00e3o transmite leveza urbana, introspec\u00e7\u00e3o e estilo cotidiano com toque editorial.\n\n\ud83c\udfa5 Especifica\u00e7\u00f5es T\u00e9cnicas\nC\u00e2mera: Canon EOS R5\n\nLente: 85mm f/1.4 \u2014 ideal para retratos com profundidade emocional e foco preciso\n\nAbertura: f/2.2\n\nISO: 320\n\nVelocidade do obturador: 1/250s\n\nEnquadramento: vertical (formato 19:16), plano fechado do rosto at\u00e9 a linha da cintura\n\n\u00c2ngulo da c\u00e2mera: lateral, com leve inclina\u00e7\u00e3o \u2014 destaca a silhueta e o fundo celeste\n\nResolu\u00e7\u00e3o: Ultra-HD 8K \u2014 textura da pele, tecido e luz capturados com realismo extremo\n\nIlumina\u00e7\u00e3o: luz natural suave do p\u00f3s-p\u00f4r do sol \u2014 cria sombras delicadas e brilho difuso\n\nEstilo visual: editorial urbano com est\u00e9tica suave, contemplativa e realista\n\n\ud83e\uddcd\u200d\u2642\ufe0f Pose Principal: \u201cEncostado em Sil\u00eancio\u201d\nPostura: o modelo est\u00e1 encostado na parede de concreto, com o corpo relaxado e a cabe\u00e7a levemente inclinada para cima\n\nExpress\u00e3o: serena e introspectiva \u2014 transmite contempla\u00e7\u00e3o e leveza\n\nDestaques: contraste entre o branco da parede e o c\u00e9u colorido, cabelo ao vento, composi\u00e7\u00e3o centrada no rosto\n\n\ud83d\udc55 Detalhes do Look\nCamiseta: branca oversized com estampa gr\u00e1fica \u2014 visual urbano e descontra\u00eddo\n\nCal\u00e7a: cargo preta, com bolsos laterais \u2014 refor\u00e7a a est\u00e9tica street\n\nT\u00eanis: n\u00e3o vis\u00edvel \u2014 foco no plano fechado\n\nAcess\u00f3rios: nenhum vis\u00edvel \u2014 foco total na express\u00e3o e na luz\n\nCabelo: cacheado, levemente agitado pelo vento\n\nBarba: aparada \u2014 refor\u00e7a o visual maduro e estilizado\n\n\ud83c\udf1f Destaques Visuais\nParede de concreto branco: base visual neutra que destaca o modelo\n\nC\u00e9u rosa e roxo: fundo atmosf\u00e9rico que adiciona profundidade e emo\u00e7\u00e3o\n\nPaleta de Cores: branco, preto, rosa, roxo e tons de pele \u2014 suave, urbana e contemplativa\n\nMood: introspectivo, leve e realista \u2014 ideal para editoriais de moda cotidiana, campanhas de lifestyle urbano ou retratos para redes sociais",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "57.3K",
+    "likes": "20.3K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-a1f7c8fc-ddd0-4fee-b3ea-e8367c72fd2e",
+    "title": "Dark Studio",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/DARK_STUDIO.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A cinematic portrait of a man (use the uploaded picture as reference for the face) sitting confidently on a round black beanbag chair against a dark gradient background. He wears a black hoodie with the sleeves slightly pushed up, black cargo pants, and clean white sneakers. A silver wristwatch is visible on his left wrist. His pose is relaxed and strong elbows resting on his knees, hands hanging loosely between his legs. He has a calm, slight smiling facial expression. The lighting is dramatic and directional, illuminating his face, sneakers, and upper body while the background fades into darkness. The atmosphere is modern, minimalist, and powerful, with a studio photography style and high contrast.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "58.4K",
+    "likes": "21.4K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-c98c50bf-578f-4dd4-a97e-2079d4a8a08e",
+    "title": "A stylish man leaning casually",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/A_STYLISH_MAN_LEANING_CASUALLY.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic cinematic portrait of the uploaded man. Use precise ID locking to preserve his precise facial features, hairstyle, skin tone, body proportions, age, and expressions with 100% accuracy.\u00a0\\\\r\\\nA stylish man leaning casually against a stone building wall on a sunlit city street in the late afternoon. He wears a dark denim overshirt unbuttoned over a white T-shirt with bold red letters, beige pleated trousers with a relaxed fit, and tan suede sneakers with white stripes. A keychain hangs from his belt loop, and he accessorizes with a dark baseball cap, black sunglasses, a wristwatch, and a neat mustache. The sunlight creates warm golden tones, casting soft shadows on the wall and pavement. The atmosphere feels cinematic, urban, and effortlessly cool, with a vintage 90s aesthetic and natural golden-hour lighting.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "59.5K",
+    "likes": "22.5K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-3be7c684-da85-41bc-b42e-e86faf1a457d",
+    "title": "Studio",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/STUDIO.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A confident man in a navy blue tailored suit with a white shirt, no tie, adjusting his cufflinks. He wears aviator sunglasses, a gold wristwatch, and a small lapel pin. The background is a smooth warm brown/olive studio backdrop with soft gradient lighting. Studio lighting is dramatic yet balanced, with a key light from the upper left casting subtle shadows. Editorial fashion portrait, waist-up, cinematic and luxurious style.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "60.6K",
+    "likes": "8.6K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-a1ef4de9-36c5-449e-8a5c-ec0cddb11a9e",
+    "title": "Instinct and Spirit",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/INSTINCT_AND_SPIRIT.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a realistic and emotional scene showing a man (use the provided image for accurate facial features) and a lion face to face in a moment of connection and respect. The man's eyes are closed, with a serene expression, while the lion gently rests its forehead and muzzle against his, conveying trust and a spiritual bond.\nBoth are standing on ground covered in light snow, with snowflakes gently falling. The man wears a dark coat and hair slightly tousled by the wind, and the lion displays a thick, majestic mane.\nIn the background, a cold, misty natural landscape with blurred mountains and gray tones reinforces the calm and powerful atmosphere.\nThe lighting is soft and diffuse, highlighting the textures of the skin, fur, and coat, creating a cinematic and poetic atmosphere.\nThe composition should convey friendship, courage, and harmony between man and nature.\n\nSuggested settings:\nStyle: Ultra-realistic, cinematic, 8K\nLighting: Soft, diffuse, natural winter light\nCamera: Medium close-up, focus on expressions\nEmotion: Connection, respect, tranquility\nSetting: Falling snow, blurred background with mountains",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "61.7K",
+    "likes": "9.7K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-d4f29585-781d-4023-bf33-4b7f4b64987c",
+    "title": "in the water",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/IN_THE_WATER.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Edit This close-up photograph of a man submerged underwater, half of his body exposed from chest to head, occupies the center frame. He appears to be of Arab descent, with a serious expression. His eyes are open and directed towards the viewer. He appears shirtless. The water's surface, with its manipulated light, creates caustic patterns on his skin. Slightly suspended water droplets and bubbles add depth. Cinematic lighting with soft shadows and sharp highlights, and realistic textures create an intricate pattern of light and shadow on his face and upper body. The background is a color gradient between greenish-blue and dark blue, with scattered air bubbles, suggesting a deep environment. The lighting is diffused, casting soft shadows, enhancing the underwater atmosphere. The overall style of the image is photographic and realistic, with an emphasis on capturing the details of the water's effect on the person in 4k resolution.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "62.8K",
+    "likes": "10.8K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "banana-e4eb7614-7466-4d1e-830c-1386361443b7",
+    "title": "Couple Polaroid",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts/COUPLE_POLAROID.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Take a photo taken with a Polaroid camera. The photo should look like an ordinary photograph, without an explicit subject or property. The photo should have a slight blur and a consistent light source, like a flash from a dark room, scattered throughout the photo. Don't change the face. Change the background behind those two people with white curtains. With that boy and me make a cute poses. Make the boy holding a red coca cola can and girl a burger.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "63.0K",
+    "likes": "11.0K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
       "Couple Poses",
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-6092a2f0-bc50-415f-bc1f-1ab1b3373d46",
-      "title": "Retrato em Preto e Branco",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/RETRATO_EM_PRETO_E_BRANCO.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Um retrato cinematográfico em preto e branco meu, mantendo meu rosto real inalterado. Estou de perfil, encostado em uma parede lisa com uma postura relaxada, mas elegante. Minha cabeça está ligeiramente inclinada para trás, queixo levantado e olhos fechados, transmitindo uma sensação de calma e introspecção. Meu braço esquerdo repousa naturalmente ao longo do corpo, enquanto meu braço direito está dobrado, segurando um copo transparente na altura da cintura com uma pegada leve. Estou vestindo uma camisa social branca bem ajustada com as mangas casualmente arregaçadas até os cotovelos; o tecido está ligeiramente esticado no peito e nos braços, enfatizando uma silhueta sob medida. A camisa está bem dobrada dentro de calças escuras e bem ajustadas, presas com um cinto preto fino.\n​Sem acessórios adicionais, o visual permanece atemporal e minimalista. A iluminação é dramática e de alto contraste, com realces suaves acentuando os contornos do rosto, as dobras da camisa e o copo, enquanto sombras profundas intensificam o clima da cena. Os tons monocromáticos criam uma estética clássica e refinada.\n​Estilo: atemporal, fotografia em preto e branco, cinematográfico, melancólico e elegante, editorial de moda, retrato de modelo profissional, mesmo rosto.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "64.1K",
-      "likes": "12.1K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-6092a2f0-bc50-415f-bc1f-1ab1b3373d46",
+    "title": "Retrato em Preto e Branco",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/RETRATO_EM_PRETO_E_BRANCO.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Um retrato cinematogr\u00e1fico em preto e branco meu, mantendo meu rosto real inalterado. Estou de perfil, encostado em uma parede lisa com uma postura relaxada, mas elegante. Minha cabe\u00e7a est\u00e1 ligeiramente inclinada para tr\u00e1s, queixo levantado e olhos fechados, transmitindo uma sensa\u00e7\u00e3o de calma e introspec\u00e7\u00e3o. Meu bra\u00e7o esquerdo repousa naturalmente ao longo do corpo, enquanto meu bra\u00e7o direito est\u00e1 dobrado, segurando um copo transparente na altura da cintura com uma pegada leve. Estou vestindo uma camisa social branca bem ajustada com as mangas casualmente arrega\u00e7adas at\u00e9 os cotovelos; o tecido est\u00e1 ligeiramente esticado no peito e nos bra\u00e7os, enfatizando uma silhueta sob medida. A camisa est\u00e1 bem dobrada dentro de cal\u00e7as escuras e bem ajustadas, presas com um cinto preto fino.\n\u200bSem acess\u00f3rios adicionais, o visual permanece atemporal e minimalista. A ilumina\u00e7\u00e3o \u00e9 dram\u00e1tica e de alto contraste, com realces suaves acentuando os contornos do rosto, as dobras da camisa e o copo, enquanto sombras profundas intensificam o clima da cena. Os tons monocrom\u00e1ticos criam uma est\u00e9tica cl\u00e1ssica e refinada.\n\u200bEstilo: atemporal, fotografia em preto e branco, cinematogr\u00e1fico, melanc\u00f3lico e elegante, editorial de moda, retrato de modelo profissional, mesmo rosto.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "64.1K",
+    "likes": "12.1K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-d559a1e2-c45e-4a6c-87d8-099a68125e55",
-      "title": "braços erguidos atrás da cabeça",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/BRAÇOS_ERGUIDOS_ATRÁS_DA_CABEÇA.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Crie uma imagem realista com o MEU ROSTO e a MINHA APARÊNCIA exatamente como na foto que enviei — não mude absolutamente nenhuma das minhas características físicas (rosto, traços, formato dos olhos, nariz, boca, pele, cabelo, corpo etc). Apenas replique o estilo e a composição da imagem abaixo com fidelidade.\n\nA pessoa deve estar com os braços erguidos atrás da cabeça, em uma pose confiante e sensual. A iluminação deve vir de uma janela, projetando faixas de luz e sombra no rosto e no corpo, criando um contraste dramático e artístico. A luz deve destacar principalmente os olhos e o brilho natural da pele.\n\nO fundo deve ser simples e neutro, em tom claro, para manter o foco no rosto. O clima geral da imagem precisa ser intimista, elegante e cinematográfico, com um toque de mistério e intensidade no olhar.\n\nA maquiagem deve ser natural e iluminada, com pele glow e lábios com leve brilho. Os cabelos devem estar soltos, com aparência natural e volume suave. A roupa deve ser uma blusa preta com alças, deixando os ombros à mostra.\n\nImportante: mantenha 100% das minhas características reais — não altere o formato do rosto, olhos, nariz, boca, cor da pele, cabelo ou qualquer traço físico meu. Apenas insira minha aparência nessa mesma pose, iluminação e estilo descritos",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "65.2K",
-      "likes": "13.2K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-d559a1e2-c45e-4a6c-87d8-099a68125e55",
+    "title": "bra\u00e7os erguidos atr\u00e1s da cabe\u00e7a",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/BRA\u00c7OS_ERGUIDOS_ATR\u00c1S_DA_CABE\u00c7A.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Crie uma imagem realista com o MEU ROSTO e a MINHA APAR\u00caNCIA exatamente como na foto que enviei \u2014 n\u00e3o mude absolutamente nenhuma das minhas caracter\u00edsticas f\u00edsicas (rosto, tra\u00e7os, formato dos olhos, nariz, boca, pele, cabelo, corpo etc). Apenas replique o estilo e a composi\u00e7\u00e3o da imagem abaixo com fidelidade.\n\nA pessoa deve estar com os bra\u00e7os erguidos atr\u00e1s da cabe\u00e7a, em uma pose confiante e sensual. A ilumina\u00e7\u00e3o deve vir de uma janela, projetando faixas de luz e sombra no rosto e no corpo, criando um contraste dram\u00e1tico e art\u00edstico. A luz deve destacar principalmente os olhos e o brilho natural da pele.\n\nO fundo deve ser simples e neutro, em tom claro, para manter o foco no rosto. O clima geral da imagem precisa ser intimista, elegante e cinematogr\u00e1fico, com um toque de mist\u00e9rio e intensidade no olhar.\n\nA maquiagem deve ser natural e iluminada, com pele glow e l\u00e1bios com leve brilho. Os cabelos devem estar soltos, com apar\u00eancia natural e volume suave. A roupa deve ser uma blusa preta com al\u00e7as, deixando os ombros \u00e0 mostra.\n\nImportante: mantenha 100% das minhas caracter\u00edsticas reais \u2014 n\u00e3o altere o formato do rosto, olhos, nariz, boca, cor da pele, cabelo ou qualquer tra\u00e7o f\u00edsico meu. Apenas insira minha apar\u00eancia nessa mesma pose, ilumina\u00e7\u00e3o e estilo descritos",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "65.2K",
+    "likes": "13.2K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-c07afbb3-661f-4eb1-84f6-abcf0cd0d944",
-      "title": "Work Profile",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/WORK_PROFILE.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Create a realistic professional portrait of a man sitting at an office desk with a laptop and documents in front of him. The man’s face should be based on the reference photo provided, keeping the same facial structure, hairstyle, and expression.\\\\r\\\nHe is wearing a light beige blazer over a light blue shirt, sitting confidently in a modern office environment with natural lighting and a soft background including a plant and a picture frame.\\\\r\\\nThe overall vibe should be clean, professional, and elegant, like a business executive headshot.\\\\r\\\nHigh resolution, cinematic lighting, realistic textures, detailed depth of field.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "66.3K",
-      "likes": "14.3K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-c07afbb3-661f-4eb1-84f6-abcf0cd0d944",
+    "title": "Work Profile",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/WORK_PROFILE.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a realistic professional portrait of a man sitting at an office desk with a laptop and documents in front of him. The man\u2019s face should be based on the reference photo provided, keeping the same facial structure, hairstyle, and expression.\\\\r\\\nHe is wearing a light beige blazer over a light blue shirt, sitting confidently in a modern office environment with natural lighting and a soft background including a plant and a picture frame.\\\\r\\\nThe overall vibe should be clean, professional, and elegant, like a business executive headshot.\\\\r\\\nHigh resolution, cinematic lighting, realistic textures, detailed depth of field.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "66.3K",
+    "likes": "14.3K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-aa6f0c7e-b150-41aa-87e1-ef79a257cf33",
-      "title": "The Stairwell",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/THE_STAIRWELL.webp",
-      "aspectRatio": "16:9",
-      "prompt": "cinematic black and white photograph with faint nicotine-yellow and rust-red tones bleeding into highlights and midtones, evoking aged tungsten light and cigarette smoke, inspired by film noir and German Expressionism, interior of an old decaying house with a wooden staircase and ornate railing, diagonal expressionist shadows cast by a strong single light source, a man in a dark hooded jacket and cargo pants stands halfway up the stairs, hands in pockets, no hat, expression somber and introspective, atmosphere of solitude, guilt, and spiritual purgatory, chiaroscuro lighting with high contrast between light and darkness, beam of light cutting through the air like a confession, dust or haze visible, psychological tension and silence thick as smoke, film grain texture, 85mm lens look, f/1.8 cinematic depth of field, ISO 800, subtle vignette, soft highlight roll-off, volumetric light rays, contrast +25, shadows +10, style reminiscent of The Third Man, The Innocents, Angel Heart, and Detour, 1940s–1980s hybrid noir aesthetic, expressionist geometry of shadow and light, mood of existential dread, metaphysical tension, and haunting beauty.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "67.4K",
-      "likes": "15.4K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-aa6f0c7e-b150-41aa-87e1-ef79a257cf33",
+    "title": "The Stairwell",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/THE_STAIRWELL.webp",
+    "aspectRatio": "16:9",
+    "prompt": "cinematic black and white photograph with faint nicotine-yellow and rust-red tones bleeding into highlights and midtones, evoking aged tungsten light and cigarette smoke, inspired by film noir and German Expressionism, interior of an old decaying house with a wooden staircase and ornate railing, diagonal expressionist shadows cast by a strong single light source, a man in a dark hooded jacket and cargo pants stands halfway up the stairs, hands in pockets, no hat, expression somber and introspective, atmosphere of solitude, guilt, and spiritual purgatory, chiaroscuro lighting with high contrast between light and darkness, beam of light cutting through the air like a confession, dust or haze visible, psychological tension and silence thick as smoke, film grain texture, 85mm lens look, f/1.8 cinematic depth of field, ISO 800, subtle vignette, soft highlight roll-off, volumetric light rays, contrast +25, shadows +10, style reminiscent of The Third Man, The Innocents, Angel Heart, and Detour, 1940s\u20131980s hybrid noir aesthetic, expressionist geometry of shadow and light, mood of existential dread, metaphysical tension, and haunting beauty.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "67.4K",
+    "likes": "15.4K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-4acda2a0-7f99-44f0-a101-40de01021fb7",
-      "title": "Luxury Style Photo",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/LUXURY_STYLE_PHOTO.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Edit this image to show a men positioned in a close-up portrait shot, face tilted slightly upward at approximately 15-20 degrees with her chin gently lifted, creating a confident, aspirational angle. His head is centered in the frame with his gaze directed straight toward the camera from behind the sunglasses. He has short, raven-black hair, he's wearing nice vintage-inspiredround eye sunglasses with molten black-to-grey gradient lenses and matte black frames with delicate etched details, positioned perfectly on the bridge of his nose. His body is angled slightly (about 30 degrees) to create dimension, with shoulders relaxed and one shoulder subtly closer to the camera. he exudes magnetic confidence with a sultry pout. he's wearing a luxurious black blazer. The background is a rich, saturated golden-yellow that transitions to deeper amber tones at the edges. Dramatic directional lighting from above-left creates sculptural shadows along his neck and cheekbones, with warm backlighting creating a subtle halo effect. The composition is a Style/fashion portrait style with the face taking up roughly 60% of the frame. use the subject in the image provided just exactly as he is",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "68.5K",
-      "likes": "16.5K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-4acda2a0-7f99-44f0-a101-40de01021fb7",
+    "title": "Luxury Style Photo",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/LUXURY_STYLE_PHOTO.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Edit this image to show a men positioned in a close-up portrait shot, face tilted slightly upward at approximately 15-20 degrees with her chin gently lifted, creating a confident, aspirational angle. His head is centered in the frame with his gaze directed straight toward the camera from behind the sunglasses. He has short, raven-black hair, he's wearing nice vintage-inspiredround eye sunglasses with molten black-to-grey gradient lenses and matte black frames with delicate etched details, positioned perfectly on the bridge of his nose. His body is angled slightly (about 30 degrees) to create dimension, with shoulders relaxed and one shoulder subtly closer to the camera. he exudes magnetic confidence with a sultry pout. he's wearing a luxurious black blazer. The background is a rich, saturated golden-yellow that transitions to deeper amber tones at the edges. Dramatic directional lighting from above-left creates sculptural shadows along his neck and cheekbones, with warm backlighting creating a subtle halo effect. The composition is a Style/fashion portrait style with the face taking up roughly 60% of the frame. use the subject in the image provided just exactly as he is",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "68.5K",
+    "likes": "16.5K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-3941c86e-c1df-4eb1-bdb5-a7640b3fae68",
-      "title": "BUK.Shall",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/BUK.SHALL.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Using the uploaded image, keep the exact real face, hairstyle, and skin tone unchanged. Fashion photography of a stylish male model sitting casually on a soft textured beanbag chair, working on a MacBook Pro 2025. He is wearing oversized off-white wide-leg trousers, a textured oversized grey sweater, and clean chunky white sneakers. He holds a takeaway coffee cup in one hand and the laptop rests naturally on his lap. Background: smooth neutral wall with soft natural sunlight casting diagonal shadows. Lighting: bright, minimalist, editorial, muted neutral tones with a modern marketing aesthetic. Camera angle: straight-on eye-level shot with slight upward perspective. Lens: 50mm prime, close-up editorial framing. Clean minimalist composition, high-resolution detail.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "69.6K",
-      "likes": "17.6K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-3941c86e-c1df-4eb1-bdb5-a7640b3fae68",
+    "title": "BUK.Shall",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/BUK.SHALL.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Using the uploaded image, keep the exact real face, hairstyle, and skin tone unchanged. Fashion photography of a stylish male model sitting casually on a soft textured beanbag chair, working on a MacBook Pro 2025. He is wearing oversized off-white wide-leg trousers, a textured oversized grey sweater, and clean chunky white sneakers. He holds a takeaway coffee cup in one hand and the laptop rests naturally on his lap. Background: smooth neutral wall with soft natural sunlight casting diagonal shadows. Lighting: bright, minimalist, editorial, muted neutral tones with a modern marketing aesthetic. Camera angle: straight-on eye-level shot with slight upward perspective. Lens: 50mm prime, close-up editorial framing. Clean minimalist composition, high-resolution detail.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "69.6K",
+    "likes": "17.6K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-d9a340dc-683b-457f-b8b9-3769e222dfaf",
-      "title": "Man in Black",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/MAN_IN_BLACK.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Usando a foto de referencia, use meu rosto e Crie um retrato em preto e branco de alta qualidade com iluminação dramática e contraste forte. O fundo deve ser completamente preto, destacando apenas o rosto e parte do tronco da pessoa. A pessoa tem cabelo curto , veste uma camisa com gola e está com uma expressão séria e intensa. A luz deve vir de um ângulo lateral ou superior, criando sombras marcantes que realçam os traços faciais. O estilo deve lembrar fotografia de estúdio com foco artístico e emocional, transmitindo profundidade e introspecção.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "70.7K",
-      "likes": "18.7K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-d9a340dc-683b-457f-b8b9-3769e222dfaf",
+    "title": "Man in Black",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/MAN_IN_BLACK.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Usando a foto de referencia, use meu rosto e Crie um retrato em preto e branco de alta qualidade com ilumina\u00e7\u00e3o dram\u00e1tica e contraste forte. O fundo deve ser completamente preto, destacando apenas o rosto e parte do tronco da pessoa. A pessoa tem cabelo curto , veste uma camisa com gola e est\u00e1 com uma express\u00e3o s\u00e9ria e intensa. A luz deve vir de um \u00e2ngulo lateral ou superior, criando sombras marcantes que real\u00e7am os tra\u00e7os faciais. O estilo deve lembrar fotografia de est\u00fadio com foco art\u00edstico e emocional, transmitindo profundidade e introspec\u00e7\u00e3o.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "70.7K",
+    "likes": "18.7K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-1298c271-124a-4257-a69b-0ced2fb9633f",
-      "title": "Sunlit corridor",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SUNLIT_CORRIDOR.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Use 100% face above uploaded photo A full-body, hyper-realistic portrait of a handsome 27-year-old Egyptian man with black hair and a black beard like uploaded photo, and sunglasses. He is leaning confidently against a dark, modern architectural wall in a sunlit corridor. He wears a meticulously detailed brown leather biker jacket with quilted shoulders, a black crew neck t-shirt, black skinny cargo pants with",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "71.8K",
-      "likes": "19.8K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-1298c271-124a-4257-a69b-0ced2fb9633f",
+    "title": "Sunlit corridor",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/SUNLIT_CORRIDOR.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Use 100% face above uploaded photo A full-body, hyper-realistic portrait of a handsome 27-year-old Egyptian man with black hair and a black beard like uploaded photo, and sunglasses. He is leaning confidently against a dark, modern architectural wall in a sunlit corridor. He wears a meticulously detailed brown leather biker jacket with quilted shoulders, a black crew neck t-shirt, black skinny cargo pants with",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "71.8K",
+    "likes": "19.8K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-1680b99f-e079-400e-a262-25d397ee8893",
-      "title": "Hadi",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/HADI.webp",
-      "aspectRatio": "16:9",
-      "prompt": "I will use the uploaded face without any alterations. Please create a full-body, realistic image of a well-dressed man standing on a balcony overlooking a historic street in a European city. The outfit includes a short-sleeved maroon polo shirt, light cream-colored high-waisted pleated trousers, light brown leather loafers, sunglasses, and a wristwatch. He should be standing with his arms crossed, leaning against the stone railing of the balcony. The background should feature classic European architecture with domed buildings, ornate facades, and a bustling street below. The lighting should be natural daylight, with realistic textures and a cinematic fashion photography style. The overall feel of the image should be chic, serene, and timeless.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "72.0K",
-      "likes": "20.0K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-1680b99f-e079-400e-a262-25d397ee8893",
+    "title": "Hadi",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/HADI.webp",
+    "aspectRatio": "16:9",
+    "prompt": "I will use the uploaded face without any alterations. Please create a full-body, realistic image of a well-dressed man standing on a balcony overlooking a historic street in a European city. The outfit includes a short-sleeved maroon polo shirt, light cream-colored high-waisted pleated trousers, light brown leather loafers, sunglasses, and a wristwatch. He should be standing with his arms crossed, leaning against the stone railing of the balcony. The background should feature classic European architecture with domed buildings, ornate facades, and a bustling street below. The lighting should be natural daylight, with realistic textures and a cinematic fashion photography style. The overall feel of the image should be chic, serene, and timeless.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "72.0K",
+    "likes": "20.0K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
-      "id": "banana-65cb6a36-0333-49d2-9a8a-e7cdab3fabaa",
-      "title": "The flight",
-      "category": "image",
-      "model": "Midjourney v6.1",
-      "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/THE_FLIGHT.webp",
-      "aspectRatio": "16:9",
-      "prompt": "Ultra-realistic cinematic portrait of a young man, keeping the same facial features as reference. He is wearing black sunglasses, a black jacket, slim black track pants with red stripes, and white sneakers. The man is sitting casually on a weathered concrete edge, one leg bent and the other hanging, with his arms resting on his knee. His head is turned slightly to the right, showing a confident and calm expression. Above him, a massive airplane flies extremely low under an overcast cloudy sky. Shot in wide-angle and low-angle perspective, creating a dramatic and surreal atmosphere. 8k, ultra-detailed, cinematic lighting.",
-      "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
-      "views": "73.1K",
-      "likes": "21.1K",
-      "timestamp": "Featured",
-      "creator": {
-          "name": "BananaPrompts",
-          "avatar": "https://bananaprompts.org/logo.png",
-          "verified": true
-      },
-      "tags": [
-          "BananaPrompts",
-          "Trending",
-          "Photorealistic",
-          "Aesthetic",
-          "Editorial"
-      ],
-      "suggestedTools": [
-          "chatgpt",
-          "gemini"
-      ]
+    "id": "banana-65cb6a36-0333-49d2-9a8a-e7cdab3fabaa",
+    "title": "The flight",
+    "category": "image",
+    "model": "Midjourney v6.1",
+    "thumbnail": "https://pub-37a08b330da1467d853b8f9635b847b4.r2.dev/prompts2/THE_FLIGHT.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic cinematic portrait of a young man, keeping the same facial features as reference. He is wearing black sunglasses, a black jacket, slim black track pants with red stripes, and white sneakers. The man is sitting casually on a weathered concrete edge, one leg bent and the other hanging, with his arms resting on his knee. His head is turned slightly to the right, showing a confident and calm expression. Above him, a massive airplane flies extremely low under an overcast cloudy sky. Shot in wide-angle and low-angle perspective, creating a dramatic and surreal atmosphere. 8k, ultra-detailed, cinematic lighting.",
+    "negativePrompt": "blurry, low quality, distorted anatomy, extra limbs, watermark, artifacts, unrealistic proportions",
+    "views": "73.1K",
+    "likes": "21.1K",
+    "timestamp": "Featured",
+    "creator": {
+      "name": "BananaPrompts",
+      "avatar": "https://bananaprompts.org/logo.png",
+      "verified": true
+    },
+    "tags": [
+      "BananaPrompts",
+      "Trending",
+      "Photorealistic",
+      "Aesthetic",
+      "Editorial"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
   },
   {
     "id": "prompthome-1",
@@ -1274,12 +2590,12 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
   },
   {
     "id": "youmind-18",
-    "title": "Wes Anderson–Style Poster",
+    "title": "Wes Anderson\u2013Style Poster",
     "category": "image",
     "model": "Midjourney v6.1",
     "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1200&auto=format&fit=crop&q=80",
     "aspectRatio": "16:9",
-    "prompt": "Photorealistic masterwork of 'Wes Anderson–Style Poster'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
+    "prompt": "Photorealistic masterwork of 'Wes Anderson\u2013Style Poster'. Shot on 35mm Hasselblad medium format camera, natural volumetric lighting, authentic physical textures, pristine depth of field, 8K resolution, zero artificial gloss.",
     "negativePrompt": "blurry, low quality, messy typography, distorted layout, oversaturated",
     "views": "116.4K",
     "likes": "14.4K",
@@ -2383,7 +3699,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "/thumbnails/29111999.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with dark hair wearing large tortoiseshell sunglasses and a colorful crocheted headscarf holds an orange tabby cat on her shoulder against a bright blue sky.\n\nSubject: A young woman with long dark hair, fair skin, and a calm expression looking slightly to the side.\n\nClothing: She wears a vibrant, multicolored chunky knit sweater featuring teal, magenta, yellow, and cream patterns, paired with a matching crocheted headscarf that frames her face.\n\nAction: The woman holds the cat securely on her shoulder while her hand rests gently near her chest; the cat sits calmly with its paws draped over her arm.\n\nEnvironment: A clear bright blue sky serves as the background with strong sunlight creating a glowing lens flare behind the subjects.\n\nCamera: Shot from a low angle looking up at the subjects, emphasizing the sunburst effect and capturing the texture of the knitwear in detail.\n\nLighting: Bright natural sunlight coming from above and behind creates a high-key look with soft shadows and a warm golden glow on the skin and fur.\n\nSubject: An orange tabby cat with green eyes sitting upright on the woman’s shoulder, looking forward with a relaxed expression.\n\nObjects: A large tortoiseshell sunglasses frame worn by the woman adds a retro fashion element to the composition.\n\nStyle Details: High-resolution photorealistic rendering with vivid saturated colors and a cozy bohemian aesthetic enhanced by the texture of the crochet work.",
+    "prompt": "A young woman with dark hair wearing large tortoiseshell sunglasses and a colorful crocheted headscarf holds an orange tabby cat on her shoulder against a bright blue sky.\n\nSubject: A young woman with long dark hair, fair skin, and a calm expression looking slightly to the side.\n\nClothing: She wears a vibrant, multicolored chunky knit sweater featuring teal, magenta, yellow, and cream patterns, paired with a matching crocheted headscarf that frames her face.\n\nAction: The woman holds the cat securely on her shoulder while her hand rests gently near her chest; the cat sits calmly with its paws draped over her arm.\n\nEnvironment: A clear bright blue sky serves as the background with strong sunlight creating a glowing lens flare behind the subjects.\n\nCamera: Shot from a low angle looking up at the subjects, emphasizing the sunburst effect and capturing the texture of the knitwear in detail.\n\nLighting: Bright natural sunlight coming from above and behind creates a high-key look with soft shadows and a warm golden glow on the skin and fur.\n\nSubject: An orange tabby cat with green eyes sitting upright on the woman\u2019s shoulder, looking forward with a relaxed expression.\n\nObjects: A large tortoiseshell sunglasses frame worn by the woman adds a retro fashion element to the composition.\n\nStyle Details: High-resolution photorealistic rendering with vivid saturated colors and a cozy bohemian aesthetic enhanced by the texture of the crochet work.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "92.4K",
     "likes": "13.9K",
@@ -2775,7 +4091,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "/thumbnails/98880515.webp",
     "aspectRatio": "16:9",
-    "prompt": "A majestic bald eagle perched atop a massive boulder on a rocky shoreline at sunset.\n\nSubject: A large bald eagle with dark brown body feathers and a white head stands alert on top of a huge, textured granite rock.\n\nAction: The bird is stationary, standing firmly with its talons gripping the peak while looking off to the left side of the frame.\n\nEnvironment: The scene takes place on a pebble-strewn beach with calm water in the background and distant hills under a soft sky.\n\nCamera: The shot is taken from a low angle looking up at the rock, emphasizing its size and the eagle’s dominance, with a shallow depth of field blurring the distant horizon.\n\nLighting: Warm golden sunlight illuminates the side of the rock and the eagle, creating strong contrast between light and shadow while casting a soft glow on the water.\n\nStyle Details: The image features high dynamic range with rich textures on the rock surface and a cinematic color palette that enhances the natural beauty of the landscape.",
+    "prompt": "A majestic bald eagle perched atop a massive boulder on a rocky shoreline at sunset.\n\nSubject: A large bald eagle with dark brown body feathers and a white head stands alert on top of a huge, textured granite rock.\n\nAction: The bird is stationary, standing firmly with its talons gripping the peak while looking off to the left side of the frame.\n\nEnvironment: The scene takes place on a pebble-strewn beach with calm water in the background and distant hills under a soft sky.\n\nCamera: The shot is taken from a low angle looking up at the rock, emphasizing its size and the eagle\u2019s dominance, with a shallow depth of field blurring the distant horizon.\n\nLighting: Warm golden sunlight illuminates the side of the rock and the eagle, creating strong contrast between light and shadow while casting a soft glow on the water.\n\nStyle Details: The image features high dynamic range with rich textures on the rock surface and a cinematic color palette that enhances the natural beauty of the landscape.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "135.8K",
     "likes": "20.9K",
@@ -2914,7 +4230,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "/thumbnails/22526271.webp",
     "aspectRatio": "16:9",
-    "prompt": "A massive African elephant walks directly toward the camera through tall golden grass.\n\nSubject: A large adult African elephant with deeply wrinkled grey skin, prominent ears fanned outward, and small curved tusks.\n\nAction: The elephant is walking forward along a narrow dirt path, its trunk hanging low near the ground and legs in mid-stride.\n\nEnvironment: Tall dry yellow grass surrounds the animal, with a blurred background of green trees and shrubs under a clear blue sky.\n\nCamera: A low-angle shot emphasizes the elephant's size, using a shallow depth of field to keep the subject sharp while softening the distant foliage.\n\nLighting: Bright natural sunlight illuminates the scene from above, casting warm highlights on the grass and creating deep shadows in the folds of the elephant’s skin.\n\nStyle Details: High-resolution wildlife photography with realistic textures, vibrant earth tones, and a cinematic composition that captures the power and presence of the animal.",
+    "prompt": "A massive African elephant walks directly toward the camera through tall golden grass.\n\nSubject: A large adult African elephant with deeply wrinkled grey skin, prominent ears fanned outward, and small curved tusks.\n\nAction: The elephant is walking forward along a narrow dirt path, its trunk hanging low near the ground and legs in mid-stride.\n\nEnvironment: Tall dry yellow grass surrounds the animal, with a blurred background of green trees and shrubs under a clear blue sky.\n\nCamera: A low-angle shot emphasizes the elephant's size, using a shallow depth of field to keep the subject sharp while softening the distant foliage.\n\nLighting: Bright natural sunlight illuminates the scene from above, casting warm highlights on the grass and creating deep shadows in the folds of the elephant\u2019s skin.\n\nStyle Details: High-resolution wildlife photography with realistic textures, vibrant earth tones, and a cinematic composition that captures the power and presence of the animal.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "142.0K",
     "likes": "21.9K",
@@ -3024,7 +4340,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "/thumbnails/82750905.webp",
     "aspectRatio": "16:9",
-    "prompt": "A majestic Asian elephant stands in a misty river with its trunk curled upward and tusks visible against a lush forest backdrop.\n\nSubject: A large Asian elephant with dark grey wrinkled skin, prominent curved ivory tusks, and reddish-brown mud or clay covering its back and ears.\n\nAction: The elephant is standing still in the water with its trunk raised high in a playful or spraying gesture.\n\nEnvironment: A dense tropical rainforest with vibrant green foliage on the left and a blue-green forested hillside in the background, surrounded by calm misty river water.\n\nCamera: Medium shot capturing the full body of the elephant from the side, with a shallow depth of field that blurs the distant trees to emphasize the animal.\n\nLighting: Soft diffused natural light filtering through the canopy, creating a hazy atmosphere with gentle highlights on the elephant’s wet skin and trunk.\n\nStyle Details: Hyper-realistic digital painting style with vivid saturated colors, smooth gradients, and a dreamlike quality enhanced by atmospheric mist and soft focus in the background.",
+    "prompt": "A majestic Asian elephant stands in a misty river with its trunk curled upward and tusks visible against a lush forest backdrop.\n\nSubject: A large Asian elephant with dark grey wrinkled skin, prominent curved ivory tusks, and reddish-brown mud or clay covering its back and ears.\n\nAction: The elephant is standing still in the water with its trunk raised high in a playful or spraying gesture.\n\nEnvironment: A dense tropical rainforest with vibrant green foliage on the left and a blue-green forested hillside in the background, surrounded by calm misty river water.\n\nCamera: Medium shot capturing the full body of the elephant from the side, with a shallow depth of field that blurs the distant trees to emphasize the animal.\n\nLighting: Soft diffused natural light filtering through the canopy, creating a hazy atmosphere with gentle highlights on the elephant\u2019s wet skin and trunk.\n\nStyle Details: Hyper-realistic digital painting style with vivid saturated colors, smooth gradients, and a dreamlike quality enhanced by atmospheric mist and soft focus in the background.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "157.5K",
     "likes": "1.9K",
@@ -3247,7 +4563,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "/thumbnails/32049602.webp",
     "aspectRatio": "16:9",
-    "prompt": "A towering waffle cone filled with soft-serve ice cream, strawberries, chocolate sauce, caramel drizzle, green glaze, a wafer stick, and a chocolate square, surrounded by splashing colorful candy beads and liquid drips.\n\nSubject: A tall waffle cone topped with a swirl of creamy vanilla soft-serve ice cream, two bright red strawberries with green leaves, a dark chocolate bar piece, a striped wafer stick, and a glossy green glaze dripping down the sides.\n\nClothing: N/A.\n\nAction: The ice cream is mid-splash with colorful candy beads and liquid sauces exploding outward in dynamic motion, while drips run down the cone and pool on the surface below.\n\nEnvironment: A vibrant gradient background shifting from deep purple to warm orange, with scattered bokeh lights and floating candy pieces enhancing the festive atmosphere.\n\nCamera: Close-up shot with shallow depth of field focusing sharply on the ice cream cone, slight upward angle emphasizing height, and composition centered around the dessert’s dramatic splash effect.\n\nLighting: Bright studio lighting highlighting textures and glossiness of sauces and fruits, with soft shadows and highlights creating a rich, appetizing glow across the scene.\n\nStyle Details: High-detail food photography style with hyper-realistic textures, vivid color saturation, dynamic motion blur on splashes, and cinematic bokeh for depth.",
+    "prompt": "A towering waffle cone filled with soft-serve ice cream, strawberries, chocolate sauce, caramel drizzle, green glaze, a wafer stick, and a chocolate square, surrounded by splashing colorful candy beads and liquid drips.\n\nSubject: A tall waffle cone topped with a swirl of creamy vanilla soft-serve ice cream, two bright red strawberries with green leaves, a dark chocolate bar piece, a striped wafer stick, and a glossy green glaze dripping down the sides.\n\nClothing: N/A.\n\nAction: The ice cream is mid-splash with colorful candy beads and liquid sauces exploding outward in dynamic motion, while drips run down the cone and pool on the surface below.\n\nEnvironment: A vibrant gradient background shifting from deep purple to warm orange, with scattered bokeh lights and floating candy pieces enhancing the festive atmosphere.\n\nCamera: Close-up shot with shallow depth of field focusing sharply on the ice cream cone, slight upward angle emphasizing height, and composition centered around the dessert\u2019s dramatic splash effect.\n\nLighting: Bright studio lighting highlighting textures and glossiness of sauces and fruits, with soft shadows and highlights creating a rich, appetizing glow across the scene.\n\nStyle Details: High-detail food photography style with hyper-realistic textures, vivid color saturation, dynamic motion blur on splashes, and cinematic bokeh for depth.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "173.0K",
     "likes": "4.4K",
@@ -3466,7 +4782,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "/thumbnails/90297271.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long black braids adorned with small pink flowers sits cross-legged on a grassy hillside holding a light brown rabbit in her lap while a fluffy tabby cat rests on her shoulder.\n\nSubject: A young woman with fair skin and dark eyes looking directly at the camera with a calm expression.\n\nClothing: She wears a flowing, translucent pink dress featuring intricate floral embroidery of pink roses and green leaves along the bodice and hem, paired with a pearl necklace.\n\nAction: The woman sits in a relaxed pose holding a rabbit gently against her chest while a cat sits comfortably on her left shoulder.\n\nEnvironment: A lush green meadow stretches out behind her leading to distant hazy blue mountains under a soft pastel sky suggesting twilight or dawn.\n\nCamera: Shot from a slightly low angle emphasizing the subject with a shallow depth of field that blurs the background mountains and foreground grass.\n\nLighting: Soft natural ambient light creates a gentle glow on the woman’s face and dress with subtle shadows enhancing the texture of the fabric and fur.\n\nStyle Details: Dreamy, ethereal aesthetic with pastel color grading and soft focus rendering evoking a fairy-tale or fantasy portrait style.",
+    "prompt": "A young woman with long black braids adorned with small pink flowers sits cross-legged on a grassy hillside holding a light brown rabbit in her lap while a fluffy tabby cat rests on her shoulder.\n\nSubject: A young woman with fair skin and dark eyes looking directly at the camera with a calm expression.\n\nClothing: She wears a flowing, translucent pink dress featuring intricate floral embroidery of pink roses and green leaves along the bodice and hem, paired with a pearl necklace.\n\nAction: The woman sits in a relaxed pose holding a rabbit gently against her chest while a cat sits comfortably on her left shoulder.\n\nEnvironment: A lush green meadow stretches out behind her leading to distant hazy blue mountains under a soft pastel sky suggesting twilight or dawn.\n\nCamera: Shot from a slightly low angle emphasizing the subject with a shallow depth of field that blurs the background mountains and foreground grass.\n\nLighting: Soft natural ambient light creates a gentle glow on the woman\u2019s face and dress with subtle shadows enhancing the texture of the fabric and fur.\n\nStyle Details: Dreamy, ethereal aesthetic with pastel color grading and soft focus rendering evoking a fairy-tale or fantasy portrait style.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "73.8K",
     "likes": "10.9K",
@@ -3493,7 +4809,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "/thumbnails/76263048.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman sits gracefully atop a brown horse in a lush green field with a historic castle in the background.\n\nSubject: A young woman with long wavy brown hair and a soft, neutral expression looking directly at the camera.\n\nClothing: She wears an elaborate pale pink off-the-shoulder ballgown featuring intricate white lace detailing on the bodice, sleeves, and hem, along with delicate floral appliqués scattered across the skirt.\n\nAction: The woman sits upright in the saddle with her hands resting gently on the leather pommel of the horse, maintaining a poised posture.\n\nEnvironment: A vast green meadow stretches out behind her, leading to a large stone castle with turrets and arched windows set against a soft, cloudy sky.\n\nCamera: The shot is framed as a medium close-up focusing on the woman and the horse's neck, utilizing a shallow depth of field that blurs the background castle and landscape.\n\nLighting: Soft, diffused natural light illuminates the scene evenly, creating gentle shadows and highlighting the texture of the dress without harsh contrast.\n\nStyle Details: The image has a romantic, cinematic aesthetic with high detail in the fabric textures and a dreamy, slightly desaturated color palette.",
+    "prompt": "A young woman sits gracefully atop a brown horse in a lush green field with a historic castle in the background.\n\nSubject: A young woman with long wavy brown hair and a soft, neutral expression looking directly at the camera.\n\nClothing: She wears an elaborate pale pink off-the-shoulder ballgown featuring intricate white lace detailing on the bodice, sleeves, and hem, along with delicate floral appliqu\u00e9s scattered across the skirt.\n\nAction: The woman sits upright in the saddle with her hands resting gently on the leather pommel of the horse, maintaining a poised posture.\n\nEnvironment: A vast green meadow stretches out behind her, leading to a large stone castle with turrets and arched windows set against a soft, cloudy sky.\n\nCamera: The shot is framed as a medium close-up focusing on the woman and the horse's neck, utilizing a shallow depth of field that blurs the background castle and landscape.\n\nLighting: Soft, diffused natural light illuminates the scene evenly, creating gentle shadows and highlighting the texture of the dress without harsh contrast.\n\nStyle Details: The image has a romantic, cinematic aesthetic with high detail in the fabric textures and a dreamy, slightly desaturated color palette.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "76.9K",
     "likes": "11.4K",
@@ -3627,7 +4943,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/52241260.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman in a pink ballgown stands beside a brown horse in a grassy field with a castle in the background.\n\nSubject: A young woman with long wavy brown hair and a fair complexion standing next to a chestnut horse with a white blaze on its forehead.\n\nClothing: An elaborate off-the-shoulder pink ballgown featuring intricate white lace detailing, ruffled sleeves, and floral appliqués on the skirt.\n\nAction: The woman stands in profile facing left, gently resting her right hand on the horse's neck while looking directly at the camera with a calm expression.\n\nEnvironment: A lush green meadow under an overcast sky with a large stone castle featuring two towers visible in the blurred background and distant hills.\n\nCamera: Medium shot capturing both subjects from the knees up with a shallow depth of field that keeps the foreground sharp while softening the background.\n\nLighting: Soft diffused natural light creating gentle shadows and a romantic, slightly moody atmosphere typical of late afternoon or early evening.\n\nStyle Details: Photorealistic cinematic portrait with high detail on textures like lace and fur, warm color grading, and a dreamy bokeh effect.",
+    "prompt": "A woman in a pink ballgown stands beside a brown horse in a grassy field with a castle in the background.\n\nSubject: A young woman with long wavy brown hair and a fair complexion standing next to a chestnut horse with a white blaze on its forehead.\n\nClothing: An elaborate off-the-shoulder pink ballgown featuring intricate white lace detailing, ruffled sleeves, and floral appliqu\u00e9s on the skirt.\n\nAction: The woman stands in profile facing left, gently resting her right hand on the horse's neck while looking directly at the camera with a calm expression.\n\nEnvironment: A lush green meadow under an overcast sky with a large stone castle featuring two towers visible in the blurred background and distant hills.\n\nCamera: Medium shot capturing both subjects from the knees up with a shallow depth of field that keeps the foreground sharp while softening the background.\n\nLighting: Soft diffused natural light creating gentle shadows and a romantic, slightly moody atmosphere typical of late afternoon or early evening.\n\nStyle Details: Photorealistic cinematic portrait with high detail on textures like lace and fur, warm color grading, and a dreamy bokeh effect.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "114.1K",
     "likes": "17.4K",
@@ -3842,7 +5158,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/37315100.webp",
     "aspectRatio": "16:9",
-    "prompt": "A whimsical scene of cute popcorn sheep characters gathered around a large red and white striped bucket filled with popcorn.\n\nSubject: A group of adorable, fluffy sheep figures sculpted entirely from popcorn kernels, featuring small black eyes, yellow inner ears, and simple smiling faces made of chocolate or icing. One sheep wears 3D glasses, another holds a remote control, while others hold mini popcorn buckets or sips from a red cup.\n\nClothing: No traditional clothing; the sheep are dressed in popcorn textures with accessories like 3D glasses, remote controls, and small striped popcorn cups.\n\nAction: The sheep are posed playfully around the bucket—some peeking over the rim, others standing on the ground holding props, creating a lively movie-night gathering vibe.\n\nEnvironment: Set against a warm bokeh background of golden circular lights suggesting a cozy cinema or home theater ambiance, with scattered popcorn pieces on a light marble-like surface in the foreground.\n\nCamera: Shot from a slightly low angle to emphasize the height of the bucket and the characters’ expressions, with shallow depth of field blurring the background into soft glowing orbs.\n\nLighting: Warm ambient lighting with soft highlights on the popcorn textures, creating gentle shadows that enhance the three-dimensional form of the sheep and props.\n\nStyle Details: Hyper-realistic food photography style with high detail in texture and material, mimicking macro product shots with rich color saturation and cinematic bokeh effects.",
+    "prompt": "A whimsical scene of cute popcorn sheep characters gathered around a large red and white striped bucket filled with popcorn.\n\nSubject: A group of adorable, fluffy sheep figures sculpted entirely from popcorn kernels, featuring small black eyes, yellow inner ears, and simple smiling faces made of chocolate or icing. One sheep wears 3D glasses, another holds a remote control, while others hold mini popcorn buckets or sips from a red cup.\n\nClothing: No traditional clothing; the sheep are dressed in popcorn textures with accessories like 3D glasses, remote controls, and small striped popcorn cups.\n\nAction: The sheep are posed playfully around the bucket\u2014some peeking over the rim, others standing on the ground holding props, creating a lively movie-night gathering vibe.\n\nEnvironment: Set against a warm bokeh background of golden circular lights suggesting a cozy cinema or home theater ambiance, with scattered popcorn pieces on a light marble-like surface in the foreground.\n\nCamera: Shot from a slightly low angle to emphasize the height of the bucket and the characters\u2019 expressions, with shallow depth of field blurring the background into soft glowing orbs.\n\nLighting: Warm ambient lighting with soft highlights on the popcorn textures, creating gentle shadows that enhance the three-dimensional form of the sheep and props.\n\nStyle Details: Hyper-realistic food photography style with high detail in texture and material, mimicking macro product shots with rich color saturation and cinematic bokeh effects.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "204.0K",
     "likes": "9.4K",
@@ -4008,7 +5324,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/19352674.webp",
     "aspectRatio": "16:9",
-    "prompt": "A striking yellow-headed myna perched on a moss-covered branch against a soft golden background.\n\nSubject: A glossy black bird with vibrant yellow skin patches around the eyes and on the head, featuring a bright orange beak and matching orange legs.\n\nAction: The bird is standing still in a poised profile view, gripping a diagonal twig with its sharp claws.\n\nEnvironment: A natural outdoor setting with a blurred warm-toned background suggesting a forest or garden habitat.\n\nCamera: Close-up shot with shallow depth of field that isolates the subject while softly blurring the surroundings.\n\nLighting: Soft natural daylight illuminating the bird’s feathers and highlighting the texture of the mossy branch.\n\nStyle Details: High-resolution wildlife photography with rich color saturation and fine detail in feather and skin textures.",
+    "prompt": "A striking yellow-headed myna perched on a moss-covered branch against a soft golden background.\n\nSubject: A glossy black bird with vibrant yellow skin patches around the eyes and on the head, featuring a bright orange beak and matching orange legs.\n\nAction: The bird is standing still in a poised profile view, gripping a diagonal twig with its sharp claws.\n\nEnvironment: A natural outdoor setting with a blurred warm-toned background suggesting a forest or garden habitat.\n\nCamera: Close-up shot with shallow depth of field that isolates the subject while softly blurring the surroundings.\n\nLighting: Soft natural daylight illuminating the bird\u2019s feathers and highlighting the texture of the mossy branch.\n\nStyle Details: High-resolution wildlife photography with rich color saturation and fine detail in feather and skin textures.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "151.3K",
     "likes": "23.4K",
@@ -4144,7 +5460,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/72981604.webp",
     "aspectRatio": "16:9",
-    "prompt": "A dynamic food photography shot of a black bowl filled with chunky guacamole suspended in mid-air against a vibrant green background.\n\nSubject: A dark speckled ceramic bowl overflowing with fresh green guacamole containing visible chunks of red tomato and cilantro, surrounded by floating tortilla chips.\n\nClothing: Not applicable.\n\nAction: Tortilla chips are frozen in various stages of falling or flying through the air around the bowl, accompanied by scattered whole jalapeño slices, lime wedges, and fresh cilantro leaves suspended in motion.\n\nEnvironment: A solid, bright green surface and background that creates a monochromatic setting with high contrast against the yellow chips and dark bowl.\n\nCamera: High-speed shutter capture freezing motion, centered composition focusing on the bowl as the anchor point.\n\nLighting: Bright studio lighting creating sharp highlights on the lime and chips with soft shadows beneath the falling elements to emphasize depth.\n\nStyle Details: Commercial food photography aesthetic with high saturation and crisp focus on textures.",
+    "prompt": "A dynamic food photography shot of a black bowl filled with chunky guacamole suspended in mid-air against a vibrant green background.\n\nSubject: A dark speckled ceramic bowl overflowing with fresh green guacamole containing visible chunks of red tomato and cilantro, surrounded by floating tortilla chips.\n\nClothing: Not applicable.\n\nAction: Tortilla chips are frozen in various stages of falling or flying through the air around the bowl, accompanied by scattered whole jalape\u00f1o slices, lime wedges, and fresh cilantro leaves suspended in motion.\n\nEnvironment: A solid, bright green surface and background that creates a monochromatic setting with high contrast against the yellow chips and dark bowl.\n\nCamera: High-speed shutter capture freezing motion, centered composition focusing on the bowl as the anchor point.\n\nLighting: Bright studio lighting creating sharp highlights on the lime and chips with soft shadows beneath the falling elements to emphasize depth.\n\nStyle Details: Commercial food photography aesthetic with high saturation and crisp focus on textures.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "231.9K",
     "likes": "13.9K",
@@ -4251,7 +5567,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/29106104.webp",
     "aspectRatio": "16:9",
-    "prompt": "A dynamic food photography shot capturing potato chips exploding upward from a rustic bowl against a warm orange backdrop.\n\nSubject: A ceramic bowl filled with golden-brown potato chips sits at the bottom center, while numerous individual chips are frozen in mid-air above it, creating a sense of explosive motion. Small sprigs of fresh rosemary and scattered red spice flakes float around the chips, adding texture and color contrast to the scene.\n\nClothing: Not applicable.\n\nAction: The chips are suspended in various orientations as if caught in slow motion during an upward burst, with some pieces slightly curled or broken at the edges. Rosemary sprigs and seasoning particles are scattered throughout the frame, enhancing the feeling of movement and freshness.\n\nEnvironment: The setting is a minimalist studio setup with a smooth, matte orange surface that matches the background tone, creating a cohesive warm palette. Loose rosemary sprigs lie on the foreground surface, and fine dusting of red spice powder adds depth to the base layer.\n\nCamera: Shot from a low angle looking up at the bowl, emphasizing the height of the flying chips. The composition uses shallow depth of field with sharp focus on the central chips and soft blur toward the edges, enhancing the three-dimensional feel.\n\nLighting: Bright, directional studio lighting illuminates the scene from above and slightly in front, casting subtle shadows beneath the bowl and highlighting the crispy texture of the chips. The light enhances the golden tones and creates a glowing effect around the airborne elements.\n\nStyle Details: High-resolution commercial food photography with vibrant color grading, crisp detail, and dynamic motion freeze. No digital artifacts or stylization—purely realistic representation with enhanced contrast and saturation for visual impact.",
+    "prompt": "A dynamic food photography shot capturing potato chips exploding upward from a rustic bowl against a warm orange backdrop.\n\nSubject: A ceramic bowl filled with golden-brown potato chips sits at the bottom center, while numerous individual chips are frozen in mid-air above it, creating a sense of explosive motion. Small sprigs of fresh rosemary and scattered red spice flakes float around the chips, adding texture and color contrast to the scene.\n\nClothing: Not applicable.\n\nAction: The chips are suspended in various orientations as if caught in slow motion during an upward burst, with some pieces slightly curled or broken at the edges. Rosemary sprigs and seasoning particles are scattered throughout the frame, enhancing the feeling of movement and freshness.\n\nEnvironment: The setting is a minimalist studio setup with a smooth, matte orange surface that matches the background tone, creating a cohesive warm palette. Loose rosemary sprigs lie on the foreground surface, and fine dusting of red spice powder adds depth to the base layer.\n\nCamera: Shot from a low angle looking up at the bowl, emphasizing the height of the flying chips. The composition uses shallow depth of field with sharp focus on the central chips and soft blur toward the edges, enhancing the three-dimensional feel.\n\nLighting: Bright, directional studio lighting illuminates the scene from above and slightly in front, casting subtle shadows beneath the bowl and highlighting the crispy texture of the chips. The light enhances the golden tones and creates a glowing effect around the airborne elements.\n\nStyle Details: High-resolution commercial food photography with vibrant color grading, crisp detail, and dynamic motion freeze. No digital artifacts or stylization\u2014purely realistic representation with enhanced contrast and saturation for visual impact.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "244.3K",
     "likes": "15.9K",
@@ -5403,7 +6719,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/48806114.webp",
     "aspectRatio": "16:9",
-    "prompt": "A cheerful cartoon character riding a motorcycle with an orange cat perched on their head wearing sunglasses.\n\nSubject: A young person with short dark hair and large round orange-tinted sunglasses riding a black motorcycle while smiling confidently.\nSecond \n\nSubject: An orange tabby cat sitting upright on the rider's head, looking forward with wide eyes and small paws resting on the helmet or goggles.\n\nClothing: The rider wears an orange sleeveless tank top, green shorts, and flip-flops; the cat has a white chest and belly.\n\nAction: The motorcycle is in motion kicking up dust or water spray behind it while the rider grips the handlebars and the cat balances on their head.\n\nEnvironment: A soft gradient background transitioning from warm peach at the top to pale green at the bottom, suggesting an open sky or stylized horizon.\n\nCamera: Centered medium shot with slight dynamic tilt to convey speed, framed tightly around the moving subjects against minimal backdrop.\n\nLighting: Warm ambient light casting gentle highlights on the rider’s face and motorcycle front, with soft shadows under the bike and character for depth.\n\nStyle Details: Chibi-style cartoon illustration with bold outlines, vibrant flat colors, playful expressions, and motion lines emphasizing speed and whimsy.",
+    "prompt": "A cheerful cartoon character riding a motorcycle with an orange cat perched on their head wearing sunglasses.\n\nSubject: A young person with short dark hair and large round orange-tinted sunglasses riding a black motorcycle while smiling confidently.\nSecond \n\nSubject: An orange tabby cat sitting upright on the rider's head, looking forward with wide eyes and small paws resting on the helmet or goggles.\n\nClothing: The rider wears an orange sleeveless tank top, green shorts, and flip-flops; the cat has a white chest and belly.\n\nAction: The motorcycle is in motion kicking up dust or water spray behind it while the rider grips the handlebars and the cat balances on their head.\n\nEnvironment: A soft gradient background transitioning from warm peach at the top to pale green at the bottom, suggesting an open sky or stylized horizon.\n\nCamera: Centered medium shot with slight dynamic tilt to convey speed, framed tightly around the moving subjects against minimal backdrop.\n\nLighting: Warm ambient light casting gentle highlights on the rider\u2019s face and motorcycle front, with soft shadows under the bike and character for depth.\n\nStyle Details: Chibi-style cartoon illustration with bold outlines, vibrant flat colors, playful expressions, and motion lines emphasizing speed and whimsy.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "49.0K",
     "likes": "9.4K",
@@ -5513,7 +6829,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/17597189.webp",
     "aspectRatio": "16:9",
-    "prompt": "A confident young girl with vibrant purple hair tied in a high ponytail adorned with two small purple fruit-shaped clips stands with arms crossed and one foot resting on a soccer ball, wearing the Argentina national team kit.\n\nSubject: A young girl with bright purple hair styled in a high ponytail, large expressive eyes, fair skin with light freckles, and a confident smile.\n\nClothing: She wears the official Argentina home jersey featuring vertical light blue and white stripes, black shorts with three gold stripes on the side, white socks with blue trim bearing the AFA crest, and light blue and white athletic sneakers.\n\nAction: Standing confidently with arms crossed over her chest, one foot resting on a soccer ball, looking directly at the viewer with a friendly expression.\n\nEnvironment: An urban outdoor setting in front of a weathered concrete wall covered in a large mural painted in blue and white tones matching the Argentina national colors.\n\nCamera: Medium shot capturing the full body of the subject from head to toe, framed slightly low to emphasize her stance on the ball, with shallow depth of field blurring the background texture subtly.\n\nLighting: Bright daylight illumination casting soft shadows beneath the subject and ball, highlighting facial features and clothing textures with even exposure and natural contrast.\n\nText/Graphics: The mural includes bold blue lettering reading “ARGENTINA 2026” above a stylized sun emblem, the AFA crest within a laurel wreath on the left, and handwritten-style text in the lower right saying “Vamos Argentina!” accompanied by small heart symbols.\n\nStyle Details: Digital illustration rendered with semi-realistic anime-inspired character design, textured brushstroke effects mimicking street art graffiti, vibrant saturated colors, clean lines, and subtle grunge textures on the wall to enhance realism while maintaining stylized aesthetics.",
+    "prompt": "A confident young girl with vibrant purple hair tied in a high ponytail adorned with two small purple fruit-shaped clips stands with arms crossed and one foot resting on a soccer ball, wearing the Argentina national team kit.\n\nSubject: A young girl with bright purple hair styled in a high ponytail, large expressive eyes, fair skin with light freckles, and a confident smile.\n\nClothing: She wears the official Argentina home jersey featuring vertical light blue and white stripes, black shorts with three gold stripes on the side, white socks with blue trim bearing the AFA crest, and light blue and white athletic sneakers.\n\nAction: Standing confidently with arms crossed over her chest, one foot resting on a soccer ball, looking directly at the viewer with a friendly expression.\n\nEnvironment: An urban outdoor setting in front of a weathered concrete wall covered in a large mural painted in blue and white tones matching the Argentina national colors.\n\nCamera: Medium shot capturing the full body of the subject from head to toe, framed slightly low to emphasize her stance on the ball, with shallow depth of field blurring the background texture subtly.\n\nLighting: Bright daylight illumination casting soft shadows beneath the subject and ball, highlighting facial features and clothing textures with even exposure and natural contrast.\n\nText/Graphics: The mural includes bold blue lettering reading \u201cARGENTINA 2026\u201d above a stylized sun emblem, the AFA crest within a laurel wreath on the left, and handwritten-style text in the lower right saying \u201cVamos Argentina!\u201d accompanied by small heart symbols.\n\nStyle Details: Digital illustration rendered with semi-realistic anime-inspired character design, textured brushstroke effects mimicking street art graffiti, vibrant saturated colors, clean lines, and subtle grunge textures on the wall to enhance realism while maintaining stylized aesthetics.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "95.5K",
     "likes": "16.9K",
@@ -5567,7 +6883,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/92079714.webp",
     "aspectRatio": "16:9",
-    "prompt": "A cheerful young woman with curly dark hair, round glasses, and a yellow patterned headscarf stands smiling while taking a selfie in front of a vibrant yellow building with a blue door. She wears a white sleeveless jumpsuit tied at the waist and holds a smartphone up to capture her reflection. The scene is framed within a large pink heart shape, surrounded by whimsical floral patterns, floating hearts, stars, and decorative swirls on a cream background. A hanging plant dangles from a window frame, potted greenery sits near the entrance, and a vintage-style lantern glows beside the door. A small sign reading “CAFÉ” hangs to the left of the doorway. The illustration features bold outlines, flat colors, playful textures, and a hand-drawn aesthetic reminiscent of modern graphic design or storybook art.",
+    "prompt": "A cheerful young woman with curly dark hair, round glasses, and a yellow patterned headscarf stands smiling while taking a selfie in front of a vibrant yellow building with a blue door. She wears a white sleeveless jumpsuit tied at the waist and holds a smartphone up to capture her reflection. The scene is framed within a large pink heart shape, surrounded by whimsical floral patterns, floating hearts, stars, and decorative swirls on a cream background. A hanging plant dangles from a window frame, potted greenery sits near the entrance, and a vintage-style lantern glows beside the door. A small sign reading \u201cCAF\u00c9\u201d hangs to the left of the doorway. The illustration features bold outlines, flat colors, playful textures, and a hand-drawn aesthetic reminiscent of modern graphic design or storybook art.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "101.7K",
     "likes": "17.9K",
@@ -5622,7 +6938,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/65699114.webp",
     "aspectRatio": "16:9",
-    "prompt": "A couple standing together in front of a large red Torii gate at a Japanese shrine, rendered with a distinctive paper-cutout aesthetic.\n\nSubject: A young man and woman standing close together in the center foreground, both smiling gently. The woman has long dark hair and wears sunglasses, while the man has short dark hair and also wears sunglasses.\n\nClothing: The woman wears a pink short-sleeved dress and black sandals with gold buckles, carrying a black quilted shoulder bag. The man wears a white t-shirt with a large black letter 'B' in a circle on the chest, blue jeans, and black sneakers.\n\nAction: The couple is embracing warmly; the woman has her arm around the man's waist while he stands close to her side. Both are looking forward with pleasant expressions.\n\nEnvironment: A traditional Japanese shrine setting featuring a large red Torii gate, stone paved walkway, lush green trees, and smaller shrine structures in the background under a blue sky with white clouds.\n\nObjects: Red lanterns hanging from striped poles line the path on both sides, each bearing Japanese characters.\n\nText/Graphics: The red lanterns display vertical Japanese text reading \"本宮祭\" (Honmi Matsuri).\n\nLighting: Bright and even daylight illuminating the scene with soft shadows, creating a cheerful and airy atmosphere.\n\nStyle Details: A stylized paper-cutout or papercraft aesthetic with clean outlines, flat colors, and a layered composition resembling cut-out figures placed in a 3D space.",
+    "prompt": "A couple standing together in front of a large red Torii gate at a Japanese shrine, rendered with a distinctive paper-cutout aesthetic.\n\nSubject: A young man and woman standing close together in the center foreground, both smiling gently. The woman has long dark hair and wears sunglasses, while the man has short dark hair and also wears sunglasses.\n\nClothing: The woman wears a pink short-sleeved dress and black sandals with gold buckles, carrying a black quilted shoulder bag. The man wears a white t-shirt with a large black letter 'B' in a circle on the chest, blue jeans, and black sneakers.\n\nAction: The couple is embracing warmly; the woman has her arm around the man's waist while he stands close to her side. Both are looking forward with pleasant expressions.\n\nEnvironment: A traditional Japanese shrine setting featuring a large red Torii gate, stone paved walkway, lush green trees, and smaller shrine structures in the background under a blue sky with white clouds.\n\nObjects: Red lanterns hanging from striped poles line the path on both sides, each bearing Japanese characters.\n\nText/Graphics: The red lanterns display vertical Japanese text reading \"\u672c\u5bae\u796d\" (Honmi Matsuri).\n\nLighting: Bright and even daylight illuminating the scene with soft shadows, creating a cheerful and airy atmosphere.\n\nStyle Details: A stylized paper-cutout or papercraft aesthetic with clean outlines, flat colors, and a layered composition resembling cut-out figures placed in a 3D space.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "107.9K",
     "likes": "18.9K",
@@ -5651,7 +6967,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/41956468.webp",
     "aspectRatio": "16:9",
-    "prompt": "A confident young girl with purple hair in a high ponytail stands on a soccer ball, wearing Portugal's national team jersey and shorts.\n\nSubject: A young girl with vibrant purple hair styled in a high ponytail adorned with heart-shaped accessories, large expressive eyes, and a cheerful smile.\n\nClothing: She wears a red striped Puma jersey with green trim, teal shorts, red socks with green bands, and red white and green sneakers featuring the Nike swoosh.\n\nAction: Standing confidently with one hand on her hip, balancing on a soccer ball with her other foot.\n\nEnvironment: A weathered concrete wall background painted with bold red and green brushstrokes.\n\nCamera: Medium shot capturing full body pose with slight low angle emphasizing height and confidence.\n\nLighting: Bright natural daylight casting soft shadows on the ground and highlighting facial features.\n\nSubject: A larger stylized mural of a girl's face in the background matching the foreground character.\n\nObjects: A soccer ball at her feet decorated with Portugal national team colors and crest.\n\nText/Graphics: Large text reading PORTUGAL 2026 in red and green, FPF logo, and Força Portugal! with heart symbol.\n\nStyle Details: Digital illustration style blending realistic textures with vibrant cartoon aesthetics, high contrast colors, urban street art influence.",
+    "prompt": "A confident young girl with purple hair in a high ponytail stands on a soccer ball, wearing Portugal's national team jersey and shorts.\n\nSubject: A young girl with vibrant purple hair styled in a high ponytail adorned with heart-shaped accessories, large expressive eyes, and a cheerful smile.\n\nClothing: She wears a red striped Puma jersey with green trim, teal shorts, red socks with green bands, and red white and green sneakers featuring the Nike swoosh.\n\nAction: Standing confidently with one hand on her hip, balancing on a soccer ball with her other foot.\n\nEnvironment: A weathered concrete wall background painted with bold red and green brushstrokes.\n\nCamera: Medium shot capturing full body pose with slight low angle emphasizing height and confidence.\n\nLighting: Bright natural daylight casting soft shadows on the ground and highlighting facial features.\n\nSubject: A larger stylized mural of a girl's face in the background matching the foreground character.\n\nObjects: A soccer ball at her feet decorated with Portugal national team colors and crest.\n\nText/Graphics: Large text reading PORTUGAL 2026 in red and green, FPF logo, and For\u00e7a Portugal! with heart symbol.\n\nStyle Details: Digital illustration style blending realistic textures with vibrant cartoon aesthetics, high contrast colors, urban street art influence.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "92.4K",
     "likes": "16.4K",
@@ -5678,7 +6994,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/44186662.webp",
     "aspectRatio": "16:9",
-    "prompt": "A cheerful young boy sits casually on the hood of a teal vintage car under a large tree with green leaves and hanging dark berries.\n\nSubject: A young boy with short brown hair, large expressive black eyes, and rosy cheeks smiling gently at the viewer. He has small tattoos or drawings on his hands and feet.\n\nClothing: He wears a striped polo shirt with navy blue and white horizontal stripes, a yellow collar, and a red stripe across the lower torso, paired with blue denim shorts.\n\nAction: The boy is sitting in a relaxed pose with one leg bent and resting on the car hood, while his other arm rests on the side of the car; he looks directly at the viewer with a calm expression.\n\nEnvironment: A large tree with brown bark and green leaves stands behind him, decorated with floating hearts, stars, butterflies, and abstract doodles in pastel colors.\n\nCamera: Medium shot capturing the boy from the waist up, framed slightly low to emphasize his presence on the car hood.\n\nLighting: Soft, even lighting with no harsh shadows, creating a gentle and playful atmosphere suitable for illustration.\n\nStyle Details: Hand-drawn watercolor style with bold outlines, whimsical doodle elements, pastel color palette, and a charming cartoon aesthetic reminiscent of children’s book illustrations.",
+    "prompt": "A cheerful young boy sits casually on the hood of a teal vintage car under a large tree with green leaves and hanging dark berries.\n\nSubject: A young boy with short brown hair, large expressive black eyes, and rosy cheeks smiling gently at the viewer. He has small tattoos or drawings on his hands and feet.\n\nClothing: He wears a striped polo shirt with navy blue and white horizontal stripes, a yellow collar, and a red stripe across the lower torso, paired with blue denim shorts.\n\nAction: The boy is sitting in a relaxed pose with one leg bent and resting on the car hood, while his other arm rests on the side of the car; he looks directly at the viewer with a calm expression.\n\nEnvironment: A large tree with brown bark and green leaves stands behind him, decorated with floating hearts, stars, butterflies, and abstract doodles in pastel colors.\n\nCamera: Medium shot capturing the boy from the waist up, framed slightly low to emphasize his presence on the car hood.\n\nLighting: Soft, even lighting with no harsh shadows, creating a gentle and playful atmosphere suitable for illustration.\n\nStyle Details: Hand-drawn watercolor style with bold outlines, whimsical doodle elements, pastel color palette, and a charming cartoon aesthetic reminiscent of children\u2019s book illustrations.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "114.1K",
     "likes": "19.9K",
@@ -6600,7 +7916,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/63248863.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with a short brown bob haircut and bangs leans forward playfully toward the camera, her hand extended as if to touch a perfume bottle in the foreground.\n\nSubject: A young woman with a short brown bob haircut featuring straight bangs, wearing white cat-eye sunglasses with dark lenses, smiling broadly with teeth visible.\n\nClothing: She wears a shiny pink bomber jacket over a white crop top and blue denim shorts, accessorized with multiple silver rings on her fingers and a silver chain necklace with a small pendant.\n\nAction: Her right hand is extended forward with fingers splayed toward the perfume bottle in the foreground, while her left hand rests loosely by her side; she leans forward with an enthusiastic expression.\n\nEnvironment: The setting is a stylized indoor space with bright blue walls featuring geometric shapes and circular cutouts, a white floor with light blue diagonal stripes, and soft ambient objects like rounded stools or planters in the background.\n\nCamera: Shot from a low angle looking up at the subject, with a shallow depth of field that keeps the perfume bottle sharp in focus while slightly blurring the woman’s hand and background elements.\n\nLighting: Bright, even studio lighting with soft shadows, highlighting the glossy surfaces of the jacket and perfume bottle, creating a clean and vibrant mood.\n\nStyle Details: High-resolution commercial photography with vivid color saturation, crisp details on skin and glass textures, and a polished, modern aesthetic typical of luxury fragrance advertising.",
+    "prompt": "A young woman with a short brown bob haircut and bangs leans forward playfully toward the camera, her hand extended as if to touch a perfume bottle in the foreground.\n\nSubject: A young woman with a short brown bob haircut featuring straight bangs, wearing white cat-eye sunglasses with dark lenses, smiling broadly with teeth visible.\n\nClothing: She wears a shiny pink bomber jacket over a white crop top and blue denim shorts, accessorized with multiple silver rings on her fingers and a silver chain necklace with a small pendant.\n\nAction: Her right hand is extended forward with fingers splayed toward the perfume bottle in the foreground, while her left hand rests loosely by her side; she leans forward with an enthusiastic expression.\n\nEnvironment: The setting is a stylized indoor space with bright blue walls featuring geometric shapes and circular cutouts, a white floor with light blue diagonal stripes, and soft ambient objects like rounded stools or planters in the background.\n\nCamera: Shot from a low angle looking up at the subject, with a shallow depth of field that keeps the perfume bottle sharp in focus while slightly blurring the woman\u2019s hand and background elements.\n\nLighting: Bright, even studio lighting with soft shadows, highlighting the glossy surfaces of the jacket and perfume bottle, creating a clean and vibrant mood.\n\nStyle Details: High-resolution commercial photography with vivid color saturation, crisp details on skin and glass textures, and a polished, modern aesthetic typical of luxury fragrance advertising.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "219.5K",
     "likes": "14.4K",
@@ -6654,7 +7970,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/84803088.webp",
     "aspectRatio": "16:9",
-    "prompt": "A confident man with dark hair and a beard wears gold-rimmed sunglasses and a vibrant green and gold patterned jacket against a bold red background.\n\nSubject: A handsome man with short dark hair, a well-groomed beard, and a serious expression looking slightly upward.\n\nClothing: He wears an open, unbuttoned jacket featuring a shiny metallic fabric with a leafy pattern in shades of emerald green and gold, accessorized with a thin gold chain necklace and matching gold stud earrings.\n\nAction: His head is tilted back slightly, his gaze directed upward through the sunglasses, exuding a cool and confident demeanor.\n\nEnvironment: The background is a solid, vivid red wall that provides high contrast to the subject’s colorful attire.\n\nCamera: A close-up portrait shot with shallow depth of field, focusing sharply on the face and upper torso while softly blurring the edges.\n\nLighting: Strong directional lighting from above and slightly in front creates dramatic shadows under the chin and nose, highlighting facial contours and the sheen on the jacket.\n\nStyle Details: High-contrast studio photography with saturated colors, sharp focus, and a polished fashion editorial aesthetic.",
+    "prompt": "A confident man with dark hair and a beard wears gold-rimmed sunglasses and a vibrant green and gold patterned jacket against a bold red background.\n\nSubject: A handsome man with short dark hair, a well-groomed beard, and a serious expression looking slightly upward.\n\nClothing: He wears an open, unbuttoned jacket featuring a shiny metallic fabric with a leafy pattern in shades of emerald green and gold, accessorized with a thin gold chain necklace and matching gold stud earrings.\n\nAction: His head is tilted back slightly, his gaze directed upward through the sunglasses, exuding a cool and confident demeanor.\n\nEnvironment: The background is a solid, vivid red wall that provides high contrast to the subject\u2019s colorful attire.\n\nCamera: A close-up portrait shot with shallow depth of field, focusing sharply on the face and upper torso while softly blurring the edges.\n\nLighting: Strong directional lighting from above and slightly in front creates dramatic shadows under the chin and nose, highlighting facial contours and the sheen on the jacket.\n\nStyle Details: High-contrast studio photography with saturated colors, sharp focus, and a polished fashion editorial aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "235.0K",
     "likes": "16.9K",
@@ -6925,7 +8241,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/71155563.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with dark curly hair stands against a solid red background, looking up at the camera while holding round sunglasses near her face.\n\nSubject: A young woman with dark curly hair and brown eyes, wearing round dark sunglasses that she is holding with one hand.\n\nClothing: She wears a black Adidas track jacket with white stripes on the sleeves and a white logo on the chest, paired with dark jeans and white sneakers.\n\nAction: She holds one arm of her sunglasses near her face with her right hand while looking up at the camera with a neutral expression.\n\nEnvironment: A solid red background that fills the entire frame, creating a studio-like setting with no other objects or scenery visible.\n\nCamera: Shot from a high angle looking down at the subject, capturing her full body in a vertical composition with a shallow depth of field that keeps her sharply in focus.\n\nLighting: Soft studio lighting illuminates her face evenly, casting gentle shadows and highlighting the texture of her hair and clothing.\n\nStyle Details: Clean photographic quality with vibrant red tones and sharp detail on the subject’s features and outfit.",
+    "prompt": "A young woman with dark curly hair stands against a solid red background, looking up at the camera while holding round sunglasses near her face.\n\nSubject: A young woman with dark curly hair and brown eyes, wearing round dark sunglasses that she is holding with one hand.\n\nClothing: She wears a black Adidas track jacket with white stripes on the sleeves and a white logo on the chest, paired with dark jeans and white sneakers.\n\nAction: She holds one arm of her sunglasses near her face with her right hand while looking up at the camera with a neutral expression.\n\nEnvironment: A solid red background that fills the entire frame, creating a studio-like setting with no other objects or scenery visible.\n\nCamera: Shot from a high angle looking down at the subject, capturing her full body in a vertical composition with a shallow depth of field that keeps her sharply in focus.\n\nLighting: Soft studio lighting illuminates her face evenly, casting gentle shadows and highlighting the texture of her hair and clothing.\n\nStyle Details: Clean photographic quality with vibrant red tones and sharp detail on the subject\u2019s features and outfit.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "262.9K",
     "likes": "21.4K",
@@ -6978,7 +8294,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/28584439.webp",
     "aspectRatio": "16:9",
-    "prompt": "A stylish woman driving a vintage convertible car with a focused expression.\n\nSubject: A woman with long brown hair wearing large tortoiseshell sunglasses and bold red lipstick.\n\nClothing: She wears a white collared shirt with black trim on the sleeves and an orange patterned silk scarf wrapped around her head.\n\nAction: Her hands grip the cream-colored steering wheel as she looks ahead, seated in the driver's seat of a classic vehicle.\n\nEnvironment: The interior features beige leather seats and a red exterior body, with a blurred background suggesting motion or an open road.\n\nCamera: Close-up side profile shot emphasizing the driver’s face and upper torso, with shallow depth of field blurring the background.\n\nLighting: Soft natural daylight illuminates her face and hands, creating gentle highlights and subtle shadows.\n\nStyle Details: Photorealistic image with high detail in textures like fabric, skin, and chrome surfaces.",
+    "prompt": "A stylish woman driving a vintage convertible car with a focused expression.\n\nSubject: A woman with long brown hair wearing large tortoiseshell sunglasses and bold red lipstick.\n\nClothing: She wears a white collared shirt with black trim on the sleeves and an orange patterned silk scarf wrapped around her head.\n\nAction: Her hands grip the cream-colored steering wheel as she looks ahead, seated in the driver's seat of a classic vehicle.\n\nEnvironment: The interior features beige leather seats and a red exterior body, with a blurred background suggesting motion or an open road.\n\nCamera: Close-up side profile shot emphasizing the driver\u2019s face and upper torso, with shallow depth of field blurring the background.\n\nLighting: Soft natural daylight illuminates her face and hands, creating gentle highlights and subtle shadows.\n\nStyle Details: Photorealistic image with high detail in textures like fabric, skin, and chrome surfaces.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "266.0K",
     "likes": "21.9K",
@@ -7033,7 +8349,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/92797271.webp",
     "aspectRatio": "16:9",
-    "prompt": "A man stands leaning on a wooden railing at a scenic overlook, gazing out over a vast mountainous landscape as the sun sets behind dramatic clouds.\n\nSubject: A fit man with dark curly hair and stubble, wearing sunglasses, looking off to the right side of the frame.\n\nClothing: He wears a light olive green crew-neck t-shirt and matching cargo pants, with a black watch on his left wrist and a thin bracelet on his right.\n\nAction: Leaning casually against a rustic wooden railing with one arm resting on top and the other hand in his pocket, head turned in profile to admire the view.\n\nEnvironment: A lush green valley stretches out below, dominated by a sharp, pyramid-shaped mountain peak on the left, while distant hills fade into the horizon near a shimmering body of water reflecting the sunset.\n\nCamera: Shot from a medium distance with a slight low angle looking up at the subject and the sky, capturing the expansive depth of the landscape.\n\nLighting: Golden hour sunlight streams through large cumulus clouds, casting long rays across the valley and illuminating the side of the man’s face and body.\n\nStyle Details: High dynamic range photography with vibrant saturation, deep shadows in the foliage, and a cinematic composition emphasizing the scale of nature against the human figure.",
+    "prompt": "A man stands leaning on a wooden railing at a scenic overlook, gazing out over a vast mountainous landscape as the sun sets behind dramatic clouds.\n\nSubject: A fit man with dark curly hair and stubble, wearing sunglasses, looking off to the right side of the frame.\n\nClothing: He wears a light olive green crew-neck t-shirt and matching cargo pants, with a black watch on his left wrist and a thin bracelet on his right.\n\nAction: Leaning casually against a rustic wooden railing with one arm resting on top and the other hand in his pocket, head turned in profile to admire the view.\n\nEnvironment: A lush green valley stretches out below, dominated by a sharp, pyramid-shaped mountain peak on the left, while distant hills fade into the horizon near a shimmering body of water reflecting the sunset.\n\nCamera: Shot from a medium distance with a slight low angle looking up at the subject and the sky, capturing the expansive depth of the landscape.\n\nLighting: Golden hour sunlight streams through large cumulus clouds, casting long rays across the valley and illuminating the side of the man\u2019s face and body.\n\nStyle Details: High dynamic range photography with vibrant saturation, deep shadows in the foliage, and a cinematic composition emphasizing the scale of nature against the human figure.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "256.7K",
     "likes": "20.4K",
@@ -7248,7 +8564,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/38324580.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman with short wavy brown hair stands in a field of orange flowers under a deep blue sky.\n\nSubject: A young woman with short, tousled wavy brown hair and freckles across her nose and cheeks. She wears round amber-tinted sunglasses that reflect the sunlight and has gold hoop earrings visible on both ears. Her expression is calm and confident with lips slightly parted.\n\nClothing: She wears a ribbed brown turtleneck sweater that matches the warm tones of the scene. The fabric texture is clearly visible with vertical ridges running down the sleeves and torso.\n\nAction: Her head is tilted slightly upward, gazing forward with a serene expression. Her hair is blowing gently in the wind, with strands lifted and curling around her face. She stands still amidst the flowers, surrounded by tall stems reaching toward the camera.\n\nEnvironment: A vibrant field of orange daisy-like flowers fills the foreground and background, some blurred to create depth. The sky above is a rich deep blue with soft white clouds near the horizon.\n\nCamera: Shot from a low angle looking up at the subject, emphasizing her presence against the sky. The composition uses shallow depth of field with foreground flowers softly out of focus, drawing attention to her face and upper body.\n\nLighting: Warm golden sunlight bathes her face and hair, creating a glowing rim light effect along the edges of her hair and shoulders. Shadows are soft and directional, suggesting late afternoon sun. The lighting enhances the amber tones in her glasses and sweater.\n\nStyle Details: High-resolution photograph with natural skin texture and realistic details. Color grading emphasizes warm oranges and browns against cool blue sky for dramatic contrast. No digital artifacts or stylization present—purely photographic realism.",
+    "prompt": "A woman with short wavy brown hair stands in a field of orange flowers under a deep blue sky.\n\nSubject: A young woman with short, tousled wavy brown hair and freckles across her nose and cheeks. She wears round amber-tinted sunglasses that reflect the sunlight and has gold hoop earrings visible on both ears. Her expression is calm and confident with lips slightly parted.\n\nClothing: She wears a ribbed brown turtleneck sweater that matches the warm tones of the scene. The fabric texture is clearly visible with vertical ridges running down the sleeves and torso.\n\nAction: Her head is tilted slightly upward, gazing forward with a serene expression. Her hair is blowing gently in the wind, with strands lifted and curling around her face. She stands still amidst the flowers, surrounded by tall stems reaching toward the camera.\n\nEnvironment: A vibrant field of orange daisy-like flowers fills the foreground and background, some blurred to create depth. The sky above is a rich deep blue with soft white clouds near the horizon.\n\nCamera: Shot from a low angle looking up at the subject, emphasizing her presence against the sky. The composition uses shallow depth of field with foreground flowers softly out of focus, drawing attention to her face and upper body.\n\nLighting: Warm golden sunlight bathes her face and hair, creating a glowing rim light effect along the edges of her hair and shoulders. Shadows are soft and directional, suggesting late afternoon sun. The lighting enhances the amber tones in her glasses and sweater.\n\nStyle Details: High-resolution photograph with natural skin texture and realistic details. Color grading emphasizes warm oranges and browns against cool blue sky for dramatic contrast. No digital artifacts or stylization present\u2014purely photographic realism.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "27.3K",
     "likes": "8.4K",
@@ -7571,7 +8887,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/10409699.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with short dark hair stands in a dynamic dance pose on a wet city street at night.\n\nSubject: A young woman with short, layered dark hair and a focused expression.\n\nClothing: She wears an oversized grey hoodie, loose-fitting dark cargo pants with a silver chain belt, and chunky white sneakers.\n\nAction: Her legs are spread wide in a low stance, arms bent and held out to the sides as if mid-movement or dancing.\n\nEnvironment: A narrow urban alleyway at night with brick walls, wet pavement reflecting neon lights, and glowing signs in the background.\n\nCamera: Low angle shot emphasizing the subject’s stance, with shallow depth of field blurring the background slightly.\n\nLighting: Vibrant neon pink and blue ambient lighting casting colorful reflections on the wet ground, creating a moody cyberpunk atmosphere.\n\nStyle Details: Cinematic color grading, high contrast, urban streetwear aesthetic, digital art style with soft glow effects around light sources.",
+    "prompt": "A young woman with short dark hair stands in a dynamic dance pose on a wet city street at night.\n\nSubject: A young woman with short, layered dark hair and a focused expression.\n\nClothing: She wears an oversized grey hoodie, loose-fitting dark cargo pants with a silver chain belt, and chunky white sneakers.\n\nAction: Her legs are spread wide in a low stance, arms bent and held out to the sides as if mid-movement or dancing.\n\nEnvironment: A narrow urban alleyway at night with brick walls, wet pavement reflecting neon lights, and glowing signs in the background.\n\nCamera: Low angle shot emphasizing the subject\u2019s stance, with shallow depth of field blurring the background slightly.\n\nLighting: Vibrant neon pink and blue ambient lighting casting colorful reflections on the wet ground, creating a moody cyberpunk atmosphere.\n\nStyle Details: Cinematic color grading, high contrast, urban streetwear aesthetic, digital art style with soft glow effects around light sources.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "64.5K",
     "likes": "14.4K",
@@ -7703,7 +9019,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/10230220.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with wavy brown hair poses confidently in a retro-futuristic server room setting.\n\nSubject: A young woman with voluminous wavy brown hair and striking yellow eyeshadow looking directly at the camera.\n\nClothing: She wears a cropped black and yellow striped knit sweater featuring the word \"MADÍN\" stenciled across the chest, paired with loose-fitting black leather cargo pants and heavy black combat boots.\n\nAction: She is perched atop a stack of vintage CRT monitors with one leg bent and her hand resting on her hip, exuding a cool attitude.\n\nEnvironment: The background features rows of dark server racks in what appears to be an old data center or basement, filled with floating golden dust motes and scattered holographic tape ribbons.\n\nCamera: Shot from a low angle looking up at the subject, utilizing a wide-angle lens that creates a slight fisheye distortion around the edges.\n\nLighting: Dramatic warm yellow lighting highlights the subject against the darker background, creating high contrast and casting soft shadows.\n\nStyle Details: The image has a gritty, cinematic aesthetic with a grainy texture, vibrant color grading, and a blend of retro technology with modern streetwear fashion.",
+    "prompt": "A young woman with wavy brown hair poses confidently in a retro-futuristic server room setting.\n\nSubject: A young woman with voluminous wavy brown hair and striking yellow eyeshadow looking directly at the camera.\n\nClothing: She wears a cropped black and yellow striped knit sweater featuring the word \"MAD\u00cdN\" stenciled across the chest, paired with loose-fitting black leather cargo pants and heavy black combat boots.\n\nAction: She is perched atop a stack of vintage CRT monitors with one leg bent and her hand resting on her hip, exuding a cool attitude.\n\nEnvironment: The background features rows of dark server racks in what appears to be an old data center or basement, filled with floating golden dust motes and scattered holographic tape ribbons.\n\nCamera: Shot from a low angle looking up at the subject, utilizing a wide-angle lens that creates a slight fisheye distortion around the edges.\n\nLighting: Dramatic warm yellow lighting highlights the subject against the darker background, creating high contrast and casting soft shadows.\n\nStyle Details: The image has a gritty, cinematic aesthetic with a grainy texture, vibrant color grading, and a blend of retro technology with modern streetwear fashion.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "80.0K",
     "likes": "16.9K",
@@ -8132,7 +9448,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/83678348.webp",
     "aspectRatio": "16:9",
-    "prompt": "A cinematic movie poster composition featuring a young man standing confidently in the foreground with a black sports car behind him, layered over a massive translucent portrait of his own face and a speedometer graphic.\n\nSubject: A young man with dark curly hair and intense eyes stands center frame wearing a black leather jacket and black pants, holding a helmet in one hand while looking directly at the viewer.\n\nClothing: He wears a fitted black leather motorcycle jacket with zippers and pockets, paired with slim black trousers and heavy boots, accessorized with a chain hanging from his belt loop.\n\nAction: The man stands still with a serious expression, holding a motorcycle helmet in his left hand, while the background figure gazes forward with a focused intensity.\n\nEnvironment: A wet city street at night with tall buildings in the distance, flanked by checkered racing flags on both sides and illuminated by streetlights reflecting off the pavement.\n\nCamera: Low angle shot emphasizing the subject’s dominance, with a wide composition that includes layered depth from the foreground figure to the giant background portrait.\n\nLighting: Dramatic nighttime lighting with reflections of car lights in the wet asphalt, glowing streetlamps, and a full moon visible behind the large face, creating high contrast and moody shadows.\n\nStyle Details: Cinematic poster art style with hyper-realistic textures, dynamic motion blur on the car tires, sparks flying from the rear wheel, and a layered depth-of-field effect blending realism with graphic design elements.",
+    "prompt": "A cinematic movie poster composition featuring a young man standing confidently in the foreground with a black sports car behind him, layered over a massive translucent portrait of his own face and a speedometer graphic.\n\nSubject: A young man with dark curly hair and intense eyes stands center frame wearing a black leather jacket and black pants, holding a helmet in one hand while looking directly at the viewer.\n\nClothing: He wears a fitted black leather motorcycle jacket with zippers and pockets, paired with slim black trousers and heavy boots, accessorized with a chain hanging from his belt loop.\n\nAction: The man stands still with a serious expression, holding a motorcycle helmet in his left hand, while the background figure gazes forward with a focused intensity.\n\nEnvironment: A wet city street at night with tall buildings in the distance, flanked by checkered racing flags on both sides and illuminated by streetlights reflecting off the pavement.\n\nCamera: Low angle shot emphasizing the subject\u2019s dominance, with a wide composition that includes layered depth from the foreground figure to the giant background portrait.\n\nLighting: Dramatic nighttime lighting with reflections of car lights in the wet asphalt, glowing streetlamps, and a full moon visible behind the large face, creating high contrast and moody shadows.\n\nStyle Details: Cinematic poster art style with hyper-realistic textures, dynamic motion blur on the car tires, sparks flying from the rear wheel, and a layered depth-of-field effect blending realism with graphic design elements.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "120.3K",
     "likes": "23.4K",
@@ -9197,7 +10513,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/70037721.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman kneels by a mystical pond where an open book floats on the water and glowing green auroras shimmer beneath the surface.\n\nSubject: A young woman with dark hair in a braid kneeling beside a magical deer standing in shallow water, while two whales swim through the sky above them.\n\nClothing: The woman wears a loose olive-green button-up shirt and matching trousers, her hands resting gently near the water’s edge.\n\nAction: She leans forward with a serene expression, reaching out to touch the water as if communing with nature, while the deer stands calmly nearby with blossoms growing from its antlers.\n\nEnvironment: A dreamlike forest pond surrounded by ferns, glowing mushrooms, lily pads, and floating butterflies under a twilight sky filled with stars and aurora-like reflections.\n\nCamera: Shot from a low angle to emphasize the magical elements in the water, with soft depth of field blurring distant trees and enhancing the ethereal atmosphere.\n\nLighting: Soft ambient light blends warm sunset hues with cool bioluminescent glows from the water and floating particles, creating a gentle contrast between earthy tones and celestial shimmer.\n\nStyle Details: Digital fantasy art with painterly textures, glowing particle effects, surreal composition, and a dreamy color palette blending purples, greens, and golds for an otherworldly mood.",
+    "prompt": "A young woman kneels by a mystical pond where an open book floats on the water and glowing green auroras shimmer beneath the surface.\n\nSubject: A young woman with dark hair in a braid kneeling beside a magical deer standing in shallow water, while two whales swim through the sky above them.\n\nClothing: The woman wears a loose olive-green button-up shirt and matching trousers, her hands resting gently near the water\u2019s edge.\n\nAction: She leans forward with a serene expression, reaching out to touch the water as if communing with nature, while the deer stands calmly nearby with blossoms growing from its antlers.\n\nEnvironment: A dreamlike forest pond surrounded by ferns, glowing mushrooms, lily pads, and floating butterflies under a twilight sky filled with stars and aurora-like reflections.\n\nCamera: Shot from a low angle to emphasize the magical elements in the water, with soft depth of field blurring distant trees and enhancing the ethereal atmosphere.\n\nLighting: Soft ambient light blends warm sunset hues with cool bioluminescent glows from the water and floating particles, creating a gentle contrast between earthy tones and celestial shimmer.\n\nStyle Details: Digital fantasy art with painterly textures, glowing particle effects, surreal composition, and a dreamy color palette blending purples, greens, and golds for an otherworldly mood.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "219.5K",
     "likes": "16.9K",
@@ -9225,7 +10541,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/71648592.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman stands in a tranquil pond at night, gazing toward a large full moon.\n\nSubject: A woman with long dark wavy hair standing from the waist up, viewed from behind and slightly to the side.\n\nClothing: She wears a flowing, iridescent gown that shimmers with rainbow colors like oil on water, featuring a backless design and a long train trailing into the water.\n\nAction: She stands still in profile, looking away toward the moonlit sky with a serene expression.\n\nEnvironment: A dark pond filled with lily pads and glowing pink lotus flowers, surrounded by lush trees including a large weeping willow on the left and distant park benches under warm streetlights.\n\nCamera: Medium shot capturing the woman from the waist up, framed to include the moon in the upper background and the reflection of her dress in the water below.\n\nLighting: Soft ambient moonlight illuminates the scene from above, contrasting with warm artificial lights from streetlamps reflecting on the water’s surface.\n\nStyle Details: Dreamy digital painting style with vibrant color gradients, glowing effects on the fabric, and a magical atmosphere enhanced by subtle sparkles and reflections.",
+    "prompt": "A woman stands in a tranquil pond at night, gazing toward a large full moon.\n\nSubject: A woman with long dark wavy hair standing from the waist up, viewed from behind and slightly to the side.\n\nClothing: She wears a flowing, iridescent gown that shimmers with rainbow colors like oil on water, featuring a backless design and a long train trailing into the water.\n\nAction: She stands still in profile, looking away toward the moonlit sky with a serene expression.\n\nEnvironment: A dark pond filled with lily pads and glowing pink lotus flowers, surrounded by lush trees including a large weeping willow on the left and distant park benches under warm streetlights.\n\nCamera: Medium shot capturing the woman from the waist up, framed to include the moon in the upper background and the reflection of her dress in the water below.\n\nLighting: Soft ambient moonlight illuminates the scene from above, contrasting with warm artificial lights from streetlamps reflecting on the water\u2019s surface.\n\nStyle Details: Dreamy digital painting style with vibrant color gradients, glowing effects on the fabric, and a magical atmosphere enhanced by subtle sparkles and reflections.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "228.8K",
     "likes": "18.4K",
@@ -9416,7 +10732,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/83939052.webp",
     "aspectRatio": "16:9",
-    "prompt": "A cinematic underwater shot of a man floating peacefully in deep blue water with sunlight rays piercing from the surface above.\n\nSubject: A young man with dark curly hair and a beard, eyes closed, wearing a wet white shirt and dark pants.\n\nClothing: A translucent white button-down shirt clinging to his torso and dark trousers, both soaked and rippling with water movement.\n\nAction: Floating weightlessly in a relaxed pose with arms slightly extended, bubbles rising around him, and a serene expression on his face.\n\nEnvironment: Deep underwater setting with clear blue water, floating air bubbles, and sunbeams filtering down from the surface creating a divine atmosphere.\n\nCamera: Low-angle shot looking up at the subject from below, emphasizing the depth of the water and the light rays above.\n\nLighting: Dramatic backlighting from the sun breaking through the water surface, casting blue tones and highlighting the wet texture of the subject’s skin and clothes.\n\nStyle Details: Cinematic film look with high contrast, rich blues, soft focus on background elements, and emotional mood enhanced by water distortion and light refraction.",
+    "prompt": "A cinematic underwater shot of a man floating peacefully in deep blue water with sunlight rays piercing from the surface above.\n\nSubject: A young man with dark curly hair and a beard, eyes closed, wearing a wet white shirt and dark pants.\n\nClothing: A translucent white button-down shirt clinging to his torso and dark trousers, both soaked and rippling with water movement.\n\nAction: Floating weightlessly in a relaxed pose with arms slightly extended, bubbles rising around him, and a serene expression on his face.\n\nEnvironment: Deep underwater setting with clear blue water, floating air bubbles, and sunbeams filtering down from the surface creating a divine atmosphere.\n\nCamera: Low-angle shot looking up at the subject from below, emphasizing the depth of the water and the light rays above.\n\nLighting: Dramatic backlighting from the sun breaking through the water surface, casting blue tones and highlighting the wet texture of the subject\u2019s skin and clothes.\n\nStyle Details: Cinematic film look with high contrast, rich blues, soft focus on background elements, and emotional mood enhanced by water distortion and light refraction.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "250.5K",
     "likes": "21.9K",
@@ -9498,7 +10814,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/24993142.webp",
     "aspectRatio": "16:9",
-    "prompt": "A glowing fairy stands amidst a field of white flowers with sunlight streaming through the trees above.\n\nSubject: A young female fairy with pale skin and long flowing blonde hair adorned with small white flowers. She has delicate semi-transparent wings that shimmer with light, and her body is intertwined with glowing vines and blooming white flowers that seem to emanate a soft inner radiance. Her expression is serene and gentle as she gazes slightly downward.\n\nClothing: The fairy wears no traditional garments; instead, her form is wrapped in living green vines and clusters of white daisies that act as a natural dress, blending seamlessly with her skin.\n\nAction: She stands gracefully with her arms extended slightly outward, palms open, as if embracing the light or nature around her. Her posture is relaxed yet elegant, conveying a sense of calm presence.\n\nEnvironment: A lush forest clearing filled with a dense carpet of white daisies and green foliage. Sunlight filters through the canopy above, creating dramatic rays of light that illuminate the scene and highlight floating pollen or dust particles in the air.\n\nCamera: Medium shot capturing the full figure from head to toe, framed vertically to emphasize height and grace. The angle is slightly low, looking up at the fairy to enhance her ethereal presence against the dappled sunlight.\n\nLighting: Bright, warm sunlight streams down from above, creating a halo effect around the fairy’s head and wings. The light is soft but directional, casting gentle shadows and highlighting the translucency of her skin and wings. The overall mood is dreamy and magical with high contrast between the bright highlights and deep green shadows.\n\nStyle Details: Digital art style with painterly textures and glowing effects. Soft focus background with bokeh highlights to enhance depth. Ethereal color palette dominated by whites, greens, and golden yellows. High detail rendering with subtle particle effects like floating petals and light dust motes.",
+    "prompt": "A glowing fairy stands amidst a field of white flowers with sunlight streaming through the trees above.\n\nSubject: A young female fairy with pale skin and long flowing blonde hair adorned with small white flowers. She has delicate semi-transparent wings that shimmer with light, and her body is intertwined with glowing vines and blooming white flowers that seem to emanate a soft inner radiance. Her expression is serene and gentle as she gazes slightly downward.\n\nClothing: The fairy wears no traditional garments; instead, her form is wrapped in living green vines and clusters of white daisies that act as a natural dress, blending seamlessly with her skin.\n\nAction: She stands gracefully with her arms extended slightly outward, palms open, as if embracing the light or nature around her. Her posture is relaxed yet elegant, conveying a sense of calm presence.\n\nEnvironment: A lush forest clearing filled with a dense carpet of white daisies and green foliage. Sunlight filters through the canopy above, creating dramatic rays of light that illuminate the scene and highlight floating pollen or dust particles in the air.\n\nCamera: Medium shot capturing the full figure from head to toe, framed vertically to emphasize height and grace. The angle is slightly low, looking up at the fairy to enhance her ethereal presence against the dappled sunlight.\n\nLighting: Bright, warm sunlight streams down from above, creating a halo effect around the fairy\u2019s head and wings. The light is soft but directional, casting gentle shadows and highlighting the translucency of her skin and wings. The overall mood is dreamy and magical with high contrast between the bright highlights and deep green shadows.\n\nStyle Details: Digital art style with painterly textures and glowing effects. Soft focus background with bokeh highlights to enhance depth. Ethereal color palette dominated by whites, greens, and golden yellows. High detail rendering with subtle particle effects like floating petals and light dust motes.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "238.1K",
     "likes": "19.9K",
@@ -9636,7 +10952,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/84692629.webp",
     "aspectRatio": "16:9",
-    "prompt": "A close-up portrait of a serene woman with closed eyes, her skin and hair resembling polished white marble veined with golden amber that flows like liquid honey down her body.\n\nSubject: A young woman with pale porcelain skin, soft features, and long wavy hair made entirely of translucent golden amber resin. Her expression is peaceful and dreamlike, with a slight blush on her cheeks.\n\nClothing: The figure appears to be wearing a dress or gown that is not fabric but rather sculpted from the same flowing, viscous golden liquid as her hair, clinging to her form like molten wax.\n\nAction: She stands still in a relaxed pose with her head tilted slightly downward and eyes closed. Three realistic honeybees are crawling on her skin—one on her shoulder, one on her chest, and one near her collarbone—interacting with the amber substance.\n\nEnvironment: The background is dark and indistinct, allowing the golden glow of the subject to stand out dramatically against a shadowy void.\n\nLighting: A strong beam of warm light shines from the upper left, highlighting the glossy texture of the amber and casting soft shadows that emphasize the contours of her face and body.\n\nCamera: The shot is framed as an intimate close-up focusing on the upper torso and head, with shallow depth of field blurring the background to draw attention to the subject’s glowing form.\n\nStyle Details: The image has a surreal, hyper-realistic aesthetic blending organic beauty with material fantasy, rendered in high detail with rich color contrast between the golden amber and dark backdrop.",
+    "prompt": "A close-up portrait of a serene woman with closed eyes, her skin and hair resembling polished white marble veined with golden amber that flows like liquid honey down her body.\n\nSubject: A young woman with pale porcelain skin, soft features, and long wavy hair made entirely of translucent golden amber resin. Her expression is peaceful and dreamlike, with a slight blush on her cheeks.\n\nClothing: The figure appears to be wearing a dress or gown that is not fabric but rather sculpted from the same flowing, viscous golden liquid as her hair, clinging to her form like molten wax.\n\nAction: She stands still in a relaxed pose with her head tilted slightly downward and eyes closed. Three realistic honeybees are crawling on her skin\u2014one on her shoulder, one on her chest, and one near her collarbone\u2014interacting with the amber substance.\n\nEnvironment: The background is dark and indistinct, allowing the golden glow of the subject to stand out dramatically against a shadowy void.\n\nLighting: A strong beam of warm light shines from the upper left, highlighting the glossy texture of the amber and casting soft shadows that emphasize the contours of her face and body.\n\nCamera: The shot is framed as an intimate close-up focusing on the upper torso and head, with shallow depth of field blurring the background to draw attention to the subject\u2019s glowing form.\n\nStyle Details: The image has a surreal, hyper-realistic aesthetic blending organic beauty with material fantasy, rendered in high detail with rich color contrast between the golden amber and dark backdrop.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "281.5K",
     "likes": "4.4K",
@@ -9690,7 +11006,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/28762592.webp",
     "aspectRatio": "16:9",
-    "prompt": "A miniature off-road expedition traverses a rugged landscape made entirely of giant potato chips and melted cheese rivers under a dramatic sky.\n\nSubject: A tiny yellow jeep with two figures inside drives over ridged potato chip terrain, accompanied by a small tracked vehicle labeled Chip-Traxx0 and two standing figures in outdoor gear.\n\nClothing: The figures wear green and red jackets with backpacks, suggesting an adventurous hiking or camping theme.\n\nAction: The jeep navigates uneven chip surfaces while cheese flows like lava through the canyon-like gaps between chips.\n\nEnvironment: The setting is a vast desert canyon formed from giant potato chips, with rocky peaks in the background and golden cheese rivers winding through the terrain.\n\nCamera: Low-angle wide shot emphasizing scale and depth, with shallow focus on foreground chips and soft bokeh on distant mountains.\n\nLighting: Warm golden hour sunlight casts long shadows and highlights the texture of chips and cheese, creating a cinematic glow.\nSecond \n\nSubject: A large floating bag of Crunchy Canyons Cheddar Peak chips hovers above the scene, serving as a surreal product placement element.\n\nObjects: The tracked vehicle has visible treads and rugged design; scattered crumbs and spice specks add realism to the chip surface.\n\nInteraction: Figures appear engaged in exploration, with one standing near the jeep and another beside the tracked vehicle, suggesting teamwork or discovery.\n\nText/Graphics: The chip bag displays bold white text reading “CRUNCHY CANYONS,” “CHEDDAR PEAK,” “THE ORIGINAL CRUNCH,” and “SEA SALT & SPICE.”\n\nStyle Details: Hyper-realistic 3D render with cinematic lighting, rich textures, depth of field, and a warm color palette evoking adventure and indulgence.",
+    "prompt": "A miniature off-road expedition traverses a rugged landscape made entirely of giant potato chips and melted cheese rivers under a dramatic sky.\n\nSubject: A tiny yellow jeep with two figures inside drives over ridged potato chip terrain, accompanied by a small tracked vehicle labeled Chip-Traxx0 and two standing figures in outdoor gear.\n\nClothing: The figures wear green and red jackets with backpacks, suggesting an adventurous hiking or camping theme.\n\nAction: The jeep navigates uneven chip surfaces while cheese flows like lava through the canyon-like gaps between chips.\n\nEnvironment: The setting is a vast desert canyon formed from giant potato chips, with rocky peaks in the background and golden cheese rivers winding through the terrain.\n\nCamera: Low-angle wide shot emphasizing scale and depth, with shallow focus on foreground chips and soft bokeh on distant mountains.\n\nLighting: Warm golden hour sunlight casts long shadows and highlights the texture of chips and cheese, creating a cinematic glow.\nSecond \n\nSubject: A large floating bag of Crunchy Canyons Cheddar Peak chips hovers above the scene, serving as a surreal product placement element.\n\nObjects: The tracked vehicle has visible treads and rugged design; scattered crumbs and spice specks add realism to the chip surface.\n\nInteraction: Figures appear engaged in exploration, with one standing near the jeep and another beside the tracked vehicle, suggesting teamwork or discovery.\n\nText/Graphics: The chip bag displays bold white text reading \u201cCRUNCHY CANYONS,\u201d \u201cCHEDDAR PEAK,\u201d \u201cTHE ORIGINAL CRUNCH,\u201d and \u201cSEA SALT & SPICE.\u201d\n\nStyle Details: Hyper-realistic 3D render with cinematic lighting, rich textures, depth of field, and a warm color palette evoking adventure and indulgence.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "278.4K",
     "likes": "3.9K",
@@ -12150,7 +13466,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/97525787.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long blonde hair and bangs sits cross-legged on a patterned carpet in a cozy living room.\n\nSubject: A young woman with long blonde hair featuring straight bangs across her forehead, fair skin tone, blue eyes, and a calm, direct gaze toward the camera.\n\nClothing: She wears a colorful retro tracksuit consisting of a teal jacket with pink and purple panels on the sleeves and chest, paired with matching teal pants that have elastic cuffs at the ankles.\n\nAction: She is seated in a relaxed pose with her legs crossed, one hand resting gently on her knee, and her posture leaning slightly forward.\n\nEnvironment: The setting is a vintage-style living room featuring a wooden cabinet holding an old CRT television displaying static noise, a lace-covered lampshade on a brass stand, framed family portraits hanging on the wall, and a patterned rug covering the floor.\n\nCamera: Shot with a medium close-up framing that captures the subject from the knees up, using a shallow depth of field to softly blur the background elements while keeping facial features sharp and clear.\n\nLighting: Warm golden afternoon sunlight streams in from the side, casting soft highlights on her hair and face, creating gentle shadows that enhance the nostalgic mood without harsh contrast.\n\nStyle Details: Rendered with high-resolution hyper-realistic skin texture showing visible pores and fine lines, muted color tones with warm highlights, soft film grain, and a nostalgic 80s–90s aesthetic reminiscent of analog photography.",
+    "prompt": "A young woman with long blonde hair and bangs sits cross-legged on a patterned carpet in a cozy living room.\n\nSubject: A young woman with long blonde hair featuring straight bangs across her forehead, fair skin tone, blue eyes, and a calm, direct gaze toward the camera.\n\nClothing: She wears a colorful retro tracksuit consisting of a teal jacket with pink and purple panels on the sleeves and chest, paired with matching teal pants that have elastic cuffs at the ankles.\n\nAction: She is seated in a relaxed pose with her legs crossed, one hand resting gently on her knee, and her posture leaning slightly forward.\n\nEnvironment: The setting is a vintage-style living room featuring a wooden cabinet holding an old CRT television displaying static noise, a lace-covered lampshade on a brass stand, framed family portraits hanging on the wall, and a patterned rug covering the floor.\n\nCamera: Shot with a medium close-up framing that captures the subject from the knees up, using a shallow depth of field to softly blur the background elements while keeping facial features sharp and clear.\n\nLighting: Warm golden afternoon sunlight streams in from the side, casting soft highlights on her hair and face, creating gentle shadows that enhance the nostalgic mood without harsh contrast.\n\nStyle Details: Rendered with high-resolution hyper-realistic skin texture showing visible pores and fine lines, muted color tones with warm highlights, soft film grain, and a nostalgic 80s\u201390s aesthetic reminiscent of analog photography.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "231.9K",
     "likes": "21.4K",
@@ -13026,7 +14342,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/10806193.webp",
     "aspectRatio": "16:9",
-    "prompt": "A sleek commercial airplane with a white fuselage and red tail flies low over vibrant turquoise waters toward a coastal village nestled between lush green mountains.\n\nSubject: A modern passenger jet with visible cockpit windows, two under-wing engines, and a glossy metallic finish reflecting sunlight.\n\nAction: The aircraft is in steady flight, banking slightly as it approaches the coastline.\n\nEnvironment: Lush mountainous terrain with winding roads and small settlements overlooks a sandy beach curving into deep blue sea waters.\n\nCamera: Low-angle front-three-quarter view emphasizing the plane’s motion and scale against the dramatic landscape.\n\nLighting: Bright daylight with strong highlights on the aircraft body, soft shadows beneath wings, and clear atmospheric haze over distant peaks.\n\nStyle Details: High-resolution digital render with saturated colors, smooth textures, and cinematic depth of field.",
+    "prompt": "A sleek commercial airplane with a white fuselage and red tail flies low over vibrant turquoise waters toward a coastal village nestled between lush green mountains.\n\nSubject: A modern passenger jet with visible cockpit windows, two under-wing engines, and a glossy metallic finish reflecting sunlight.\n\nAction: The aircraft is in steady flight, banking slightly as it approaches the coastline.\n\nEnvironment: Lush mountainous terrain with winding roads and small settlements overlooks a sandy beach curving into deep blue sea waters.\n\nCamera: Low-angle front-three-quarter view emphasizing the plane\u2019s motion and scale against the dramatic landscape.\n\nLighting: Bright daylight with strong highlights on the aircraft body, soft shadows beneath wings, and clear atmospheric haze over distant peaks.\n\nStyle Details: High-resolution digital render with saturated colors, smooth textures, and cinematic depth of field.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "70.7K",
     "likes": "20.4K",
@@ -13660,7 +14976,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/71121843.webp",
     "aspectRatio": "16:9",
-    "prompt": "A majestic multi-tiered temple with dark thatched roofs stands on a grassy island in the center of a calm lake, surrounded by lush green trees and distant mist-covered mountains under a bright blue sky.\n\nSubject: A grand traditional Balinese-style temple featuring a tall central tower with multiple stacked roofs, flanked by smaller pavilions, intricate stone carvings at the base, and vibrant orange walls.\n\nAction: The scene is still and serene, with gentle ripples on the water surface reflecting the temple structure.\n\nEnvironment: A tranquil lake setting with a grassy island hosting the temple, dense green trees to the left, and rolling hills partially obscured by low-hanging clouds in the background.\n\nCamera: Wide-angle perspective capturing the full scale of the temple and its reflection, with a slightly elevated viewpoint emphasizing the water’s surface and depth.\n\nLighting: Soft golden daylight illuminating the scene from the side, casting warm highlights on the temple roofs and creating gentle shadows that enhance texture and dimension.\n\nStyle Details: Photorealistic rendering with vivid colors, high dynamic range, and subtle film-like grain for a cinematic yet natural aesthetic.",
+    "prompt": "A majestic multi-tiered temple with dark thatched roofs stands on a grassy island in the center of a calm lake, surrounded by lush green trees and distant mist-covered mountains under a bright blue sky.\n\nSubject: A grand traditional Balinese-style temple featuring a tall central tower with multiple stacked roofs, flanked by smaller pavilions, intricate stone carvings at the base, and vibrant orange walls.\n\nAction: The scene is still and serene, with gentle ripples on the water surface reflecting the temple structure.\n\nEnvironment: A tranquil lake setting with a grassy island hosting the temple, dense green trees to the left, and rolling hills partially obscured by low-hanging clouds in the background.\n\nCamera: Wide-angle perspective capturing the full scale of the temple and its reflection, with a slightly elevated viewpoint emphasizing the water\u2019s surface and depth.\n\nLighting: Soft golden daylight illuminating the scene from the side, casting warm highlights on the temple roofs and creating gentle shadows that enhance texture and dimension.\n\nStyle Details: Photorealistic rendering with vivid colors, high dynamic range, and subtle film-like grain for a cinematic yet natural aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "197.8K",
     "likes": "18.4K",
@@ -13879,7 +15195,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/94054389.webp",
     "aspectRatio": "16:9",
-    "prompt": "A man balances dynamically on a small wooden stool floating in water while splashing with one leg.\n\nSubject: A man with dark hair and a beard wearing glasses stands barefoot on a small wooden stool in the middle of a body of water.\n\nClothing: He wears a white long-sleeved button-up shirt and matching white trousers, both rolled up at the ankles.\n\nAction: The man balances with one foot planted on the stool while his other leg is kicked high into the air, creating a large splash of water droplets. His arms are extended outward for balance, and he looks down toward the water.\n\nEnvironment: The setting is an open body of water with gentle ripples, backed by distant green hills and trees under a soft pink and purple sky.\n\nCamera: The shot uses a medium telephoto lens to compress the background, keeping the subject sharp while softly blurring the distant landscape for depth.\n\nLighting: Soft, diffused natural light illuminates the scene evenly, creating a gentle mood with minimal harsh shadows.\n\nObjects: A small wooden stool floats in the water beneath the man’s feet.\n\nStyle Details: The image has a dreamy, cinematic quality with pastel color grading and a shallow depth of field that emphasizes the subject against the blurred background.",
+    "prompt": "A man balances dynamically on a small wooden stool floating in water while splashing with one leg.\n\nSubject: A man with dark hair and a beard wearing glasses stands barefoot on a small wooden stool in the middle of a body of water.\n\nClothing: He wears a white long-sleeved button-up shirt and matching white trousers, both rolled up at the ankles.\n\nAction: The man balances with one foot planted on the stool while his other leg is kicked high into the air, creating a large splash of water droplets. His arms are extended outward for balance, and he looks down toward the water.\n\nEnvironment: The setting is an open body of water with gentle ripples, backed by distant green hills and trees under a soft pink and purple sky.\n\nCamera: The shot uses a medium telephoto lens to compress the background, keeping the subject sharp while softly blurring the distant landscape for depth.\n\nLighting: Soft, diffused natural light illuminates the scene evenly, creating a gentle mood with minimal harsh shadows.\n\nObjects: A small wooden stool floats in the water beneath the man\u2019s feet.\n\nStyle Details: The image has a dreamy, cinematic quality with pastel color grading and a shallow depth of field that emphasizes the subject against the blurred background.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "98.6K",
     "likes": "2.4K",
@@ -14068,7 +15384,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/60647132.webp",
     "aspectRatio": "16:9",
-    "prompt": "A majestic golden dragon coils around a towering Victorian clock tower in a sprawling city skyline at sunset.\n\nSubject: A massive, intricately scaled dragon with green and gold coloring wraps its body around the central structure, featuring sharp teeth, glowing eyes, and long whiskers.\n\nClothing: The dragon has no clothing but is adorned with ornate scales that shimmer like metal and jewels along its spine and underbelly.\n\nAction: The dragon’s head rises high above the tower while its tail curls down to wrap around the base, creating a dynamic spiral shape.\n\nEnvironment: The scene is set in an urban landscape with modern skyscrapers fading into the distance under a soft pastel sky filled with fluffy clouds.\n\nCamera: Shot from a low angle looking up at the dragon and clock tower, emphasizing their grandeur against the horizon line.\n\nLighting: Warm golden hour sunlight bathes the dragon’s scales and clock face, casting long shadows and highlighting textures with a dreamy glow.\n\nStyle Details: Rendered in a highly detailed digital art style reminiscent of fantasy concept art, with rich colors, smooth gradients, and cinematic depth of field.",
+    "prompt": "A majestic golden dragon coils around a towering Victorian clock tower in a sprawling city skyline at sunset.\n\nSubject: A massive, intricately scaled dragon with green and gold coloring wraps its body around the central structure, featuring sharp teeth, glowing eyes, and long whiskers.\n\nClothing: The dragon has no clothing but is adorned with ornate scales that shimmer like metal and jewels along its spine and underbelly.\n\nAction: The dragon\u2019s head rises high above the tower while its tail curls down to wrap around the base, creating a dynamic spiral shape.\n\nEnvironment: The scene is set in an urban landscape with modern skyscrapers fading into the distance under a soft pastel sky filled with fluffy clouds.\n\nCamera: Shot from a low angle looking up at the dragon and clock tower, emphasizing their grandeur against the horizon line.\n\nLighting: Warm golden hour sunlight bathes the dragon\u2019s scales and clock face, casting long shadows and highlighting textures with a dreamy glow.\n\nStyle Details: Rendered in a highly detailed digital art style reminiscent of fantasy concept art, with rich colors, smooth gradients, and cinematic depth of field.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "210.2K",
     "likes": "20.4K",
@@ -15448,7 +16764,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/92566220.webp",
     "aspectRatio": "16:9",
-    "prompt": "A vibrant yellow Japanese drift car with red floral decals and racing livery parked on a wet asphalt road beneath a large traditional torii gate, with Mount Fuji visible in the distance through autumnal forest foliage.\n\nSubject: A bright yellow modified sports car featuring bold red cherry blossom graphics and Japanese text decals across its bodywork.\n\nClothing: Not applicable as the subject is a vehicle; however, the car displays racing-style livery with sponsor logos and stylized typography.\n\nAction: The car is stationary, angled slightly toward the viewer, reflecting clearly on the wet road surface beneath it.\n\nEnvironment: A winding mountain road lined with trees displaying vivid autumn colors—reds, oranges, yellows—and flanked by traditional stone lanterns and smaller torii gates; Mount Fuji rises majestically in the background under a blue sky with scattered white clouds.\n\nCamera: Low-angle shot emphasizing the car’s stance and reflection, wide framing to capture both foreground detail and distant mountain vista, suggesting a moderate telephoto lens for depth compression.\n\nLighting: Bright daylight with soft shadows cast by the torii gate and trees; sunlight enhances saturation of fall foliage and creates glossy reflections on the wet pavement.\n\nStyle Details: Anime-inspired digital illustration style with clean lines, saturated colors, dynamic composition, and painterly texture blending realism with stylized aesthetics reminiscent of manga or anime backgrounds.",
+    "prompt": "A vibrant yellow Japanese drift car with red floral decals and racing livery parked on a wet asphalt road beneath a large traditional torii gate, with Mount Fuji visible in the distance through autumnal forest foliage.\n\nSubject: A bright yellow modified sports car featuring bold red cherry blossom graphics and Japanese text decals across its bodywork.\n\nClothing: Not applicable as the subject is a vehicle; however, the car displays racing-style livery with sponsor logos and stylized typography.\n\nAction: The car is stationary, angled slightly toward the viewer, reflecting clearly on the wet road surface beneath it.\n\nEnvironment: A winding mountain road lined with trees displaying vivid autumn colors\u2014reds, oranges, yellows\u2014and flanked by traditional stone lanterns and smaller torii gates; Mount Fuji rises majestically in the background under a blue sky with scattered white clouds.\n\nCamera: Low-angle shot emphasizing the car\u2019s stance and reflection, wide framing to capture both foreground detail and distant mountain vista, suggesting a moderate telephoto lens for depth compression.\n\nLighting: Bright daylight with soft shadows cast by the torii gate and trees; sunlight enhances saturation of fall foliage and creates glossy reflections on the wet pavement.\n\nStyle Details: Anime-inspired digital illustration style with clean lines, saturated colors, dynamic composition, and painterly texture blending realism with stylized aesthetics reminiscent of manga or anime backgrounds.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "58.3K",
     "likes": "20.9K",
@@ -16111,7 +17427,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/71667472.webp",
     "aspectRatio": "16:9",
-    "prompt": "A smiling couple holding hands while standing on a wooden boardwalk in a sunny outdoor setting.\n\nSubject: A man and a woman standing side by side, both looking upward with happy expressions. The man has short dark hair and a beard, while the woman has long dark hair and wears sunglasses.\n\nClothing: The man wears a black graphic t-shirt with white text, dark jeans, and grey sneakers. The woman wears a floral patterned crop top, light blue jeans, and black sneakers. Both are wearing necklaces.\n\nAction: The couple holds hands in the center of the frame; the woman leans slightly back while the man stands upright, both gazing upward with smiles.\n\nEnvironment: A wooden boardwalk path lined with rustic wooden posts and rope railings, surrounded by tall green grasses and a thatched roof structure in the background under a clear sky.\n\nCamera: Medium shot capturing the full bodies of the couple, framed slightly from below to emphasize their upward gaze, with natural depth of field blurring the distant background.\n\nLighting: Bright natural sunlight casting soft shadows on the boardwalk, creating a warm and airy atmosphere with high visibility and minimal contrast.\n\nObjects: Wooden posts, rope railings, tall grasses, and a thatched roof structure in the background.\n\nText/Graphics: White cursive text on the man’s black t-shirt reads “Vibe” or similar stylized script.\n\nStyle Details: Naturalistic photography with vibrant colors, slight film grain texture, and warm color grading typical of outdoor lifestyle portraits.",
+    "prompt": "A smiling couple holding hands while standing on a wooden boardwalk in a sunny outdoor setting.\n\nSubject: A man and a woman standing side by side, both looking upward with happy expressions. The man has short dark hair and a beard, while the woman has long dark hair and wears sunglasses.\n\nClothing: The man wears a black graphic t-shirt with white text, dark jeans, and grey sneakers. The woman wears a floral patterned crop top, light blue jeans, and black sneakers. Both are wearing necklaces.\n\nAction: The couple holds hands in the center of the frame; the woman leans slightly back while the man stands upright, both gazing upward with smiles.\n\nEnvironment: A wooden boardwalk path lined with rustic wooden posts and rope railings, surrounded by tall green grasses and a thatched roof structure in the background under a clear sky.\n\nCamera: Medium shot capturing the full bodies of the couple, framed slightly from below to emphasize their upward gaze, with natural depth of field blurring the distant background.\n\nLighting: Bright natural sunlight casting soft shadows on the boardwalk, creating a warm and airy atmosphere with high visibility and minimal contrast.\n\nObjects: Wooden posts, rope railings, tall grasses, and a thatched roof structure in the background.\n\nText/Graphics: White cursive text on the man\u2019s black t-shirt reads \u201cVibe\u201d or similar stylized script.\n\nStyle Details: Naturalistic photography with vibrant colors, slight film grain texture, and warm color grading typical of outdoor lifestyle portraits.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "154.4K",
     "likes": "13.9K",
@@ -16530,7 +17846,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/92550606.webp",
     "aspectRatio": "16:9",
-    "prompt": "A glamorous blonde woman sits elegantly on a plush burgundy chaise lounge on a sun-drenched terrace overlooking a lush green valley.\n\nSubject: A fair-skinned woman with long wavy platinum blonde hair and striking red lipstick, wearing large gold hoop earrings and delicate layered necklaces.\n\nClothing: She wears a deep burgundy sequined halter mini dress adorned with 3D floral appliqués at the neckline and hem, featuring long metallic fringe that trails down her legs.\n\nAction: She poses with one arm resting behind her on the back of the chaise and the other hand gently touching her hair, looking directly at the camera with a confident expression.\n\nEnvironment: The setting is an outdoor terrace with terracotta tiled flooring, flanked by deep red architectural pillars and a cream-colored stone balustrade railing.\n\nObjects: An orange leather handbag rests on the floor beside the chaise, and a large ornate stone planter containing greenery sits in the foreground to the right.\n\nLighting: Bright natural sunlight illuminates the scene from the side, casting soft shadows and highlighting the shimmer of the sequins and the texture of the velvet furniture.\n\nCamera: The shot is taken at eye level with a medium-full framing that captures the subject’s full pose and the surrounding architectural details.\n\nStyle Details: High-fashion editorial aesthetic with vibrant color grading, sharp focus on the subject, and a polished, luxurious atmosphere.",
+    "prompt": "A glamorous blonde woman sits elegantly on a plush burgundy chaise lounge on a sun-drenched terrace overlooking a lush green valley.\n\nSubject: A fair-skinned woman with long wavy platinum blonde hair and striking red lipstick, wearing large gold hoop earrings and delicate layered necklaces.\n\nClothing: She wears a deep burgundy sequined halter mini dress adorned with 3D floral appliqu\u00e9s at the neckline and hem, featuring long metallic fringe that trails down her legs.\n\nAction: She poses with one arm resting behind her on the back of the chaise and the other hand gently touching her hair, looking directly at the camera with a confident expression.\n\nEnvironment: The setting is an outdoor terrace with terracotta tiled flooring, flanked by deep red architectural pillars and a cream-colored stone balustrade railing.\n\nObjects: An orange leather handbag rests on the floor beside the chaise, and a large ornate stone planter containing greenery sits in the foreground to the right.\n\nLighting: Bright natural sunlight illuminates the scene from the side, casting soft shadows and highlighting the shimmer of the sequins and the texture of the velvet furniture.\n\nCamera: The shot is taken at eye level with a medium-full framing that captures the subject\u2019s full pose and the surrounding architectural details.\n\nStyle Details: High-fashion editorial aesthetic with vibrant color grading, sharp focus on the subject, and a polished, luxurious atmosphere.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "247.4K",
     "likes": "6.4K",
@@ -17861,12 +19177,12 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
   },
   {
     "id": "prompt-full-585",
-    "title": "Macro photograph of a nescafé latte can exploding with coffee beans",
+    "title": "Macro photograph of a nescaf\u00e9 latte can exploding with coffee beans",
     "category": "image",
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/65327892.webp",
     "aspectRatio": "16:9",
-    "prompt": "A golden Nescafé Latte can stands centered in a dynamic explosion of coffee beans and splashing milk against a dark background.\n\nSubject: A tall aluminum beverage can with a glossy finish, featuring the white \"NESCAFÉ\" logo and gold \"Latte\" script on a black circular label, with two coffee beans depicted below the text and a \"NEW LOOK\" sticker near the top rim.\n\nClothing: The can surface is covered in realistic condensation droplets and fine texture details that catch the light.\n\nAction: Whole roasted coffee beans are suspended in mid-air around the can, while creamy milk splashes upward from the base, creating a sense of explosive motion and energy.\n\nEnvironment: The setting is dark and moody, with floating particles and bokeh highlights suggesting a studio environment focused entirely on the product.\n\nCamera: A macro perspective captures fine details like water droplets and bean textures, utilizing a shallow depth of field to blur the background while keeping the can in sharp focus.\n\nLighting: Warm golden light illuminates the scene from the front and sides, highlighting the metallic sheen of the can and creating soft shadows that enhance the three-dimensional form.\n\nStyle Details: High-contrast commercial photography with rich color grading emphasizing amber and brown tones, enhanced by motion blur effects on the splashing liquid to convey freshness and impact.",
+    "prompt": "A golden Nescaf\u00e9 Latte can stands centered in a dynamic explosion of coffee beans and splashing milk against a dark background.\n\nSubject: A tall aluminum beverage can with a glossy finish, featuring the white \"NESCAF\u00c9\" logo and gold \"Latte\" script on a black circular label, with two coffee beans depicted below the text and a \"NEW LOOK\" sticker near the top rim.\n\nClothing: The can surface is covered in realistic condensation droplets and fine texture details that catch the light.\n\nAction: Whole roasted coffee beans are suspended in mid-air around the can, while creamy milk splashes upward from the base, creating a sense of explosive motion and energy.\n\nEnvironment: The setting is dark and moody, with floating particles and bokeh highlights suggesting a studio environment focused entirely on the product.\n\nCamera: A macro perspective captures fine details like water droplets and bean textures, utilizing a shallow depth of field to blur the background while keeping the can in sharp focus.\n\nLighting: Warm golden light illuminates the scene from the front and sides, highlighting the metallic sheen of the can and creating soft shadows that enhance the three-dimensional form.\n\nStyle Details: High-contrast commercial photography with rich color grading emphasizing amber and brown tones, enhanced by motion blur effects on the splashing liquid to convey freshness and impact.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "61.4K",
     "likes": "23.9K",
@@ -17893,7 +19209,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/47144808.webp",
     "aspectRatio": "16:9",
-    "prompt": "A romantic black and white portrait of a couple embracing outdoors with soft backlighting.\n\nSubject: A man and woman standing close together in profile facing each other, their foreheads nearly touching as they gaze into one another's eyes. The man has short dark hair styled with a fade, a small goatee, and a stud earring in his left ear. The woman has long wavy hair blowing gently to the side, her face tilted upward with a joyful smile.\n\nClothing: The man wears a light-colored button-up shirt with the collar popped open. The woman wears an off-the-shoulder dress or top made of soft fabric that drapes loosely over her arms. She wears a delicate layered necklace around her neck.\n\nAction: The couple stands in an intimate embrace, their bodies angled toward each other. The man’s arm is wrapped around the woman’s waist while her hand rests gently on his chest. Their expressions convey deep affection and happiness as they look at each other.\n\nEnvironment: A softly blurred natural landscape forms the background with rolling hills or mountains visible under a bright sky. The setting appears open and airy, suggesting an outdoor location during golden hour or late afternoon.\n\nCamera: Shot with a medium close-up framing that captures both subjects from the waist up. The composition uses shallow depth of field to keep the couple in sharp focus while blurring the background for emphasis. The angle is slightly elevated, looking down gently on the pair.\n\nLighting: Soft diffused light comes from behind and above the subjects, creating a halo effect around their hair and shoulders. The lighting is gentle and even, minimizing harsh shadows and enhancing the romantic mood of the scene.\n\nStyle Details: High-contrast black and white photography with smooth tonal gradations and fine grain texture. The image has a timeless, cinematic quality reminiscent of classic film stills or editorial fashion photography.",
+    "prompt": "A romantic black and white portrait of a couple embracing outdoors with soft backlighting.\n\nSubject: A man and woman standing close together in profile facing each other, their foreheads nearly touching as they gaze into one another's eyes. The man has short dark hair styled with a fade, a small goatee, and a stud earring in his left ear. The woman has long wavy hair blowing gently to the side, her face tilted upward with a joyful smile.\n\nClothing: The man wears a light-colored button-up shirt with the collar popped open. The woman wears an off-the-shoulder dress or top made of soft fabric that drapes loosely over her arms. She wears a delicate layered necklace around her neck.\n\nAction: The couple stands in an intimate embrace, their bodies angled toward each other. The man\u2019s arm is wrapped around the woman\u2019s waist while her hand rests gently on his chest. Their expressions convey deep affection and happiness as they look at each other.\n\nEnvironment: A softly blurred natural landscape forms the background with rolling hills or mountains visible under a bright sky. The setting appears open and airy, suggesting an outdoor location during golden hour or late afternoon.\n\nCamera: Shot with a medium close-up framing that captures both subjects from the waist up. The composition uses shallow depth of field to keep the couple in sharp focus while blurring the background for emphasis. The angle is slightly elevated, looking down gently on the pair.\n\nLighting: Soft diffused light comes from behind and above the subjects, creating a halo effect around their hair and shoulders. The lighting is gentle and even, minimizing harsh shadows and enhancing the romantic mood of the scene.\n\nStyle Details: High-contrast black and white photography with smooth tonal gradations and fine grain texture. The image has a timeless, cinematic quality reminiscent of classic film stills or editorial fashion photography.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "157.5K",
     "likes": "14.4K",
@@ -18332,7 +19648,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/39596092.webp",
     "aspectRatio": "16:9",
-    "prompt": "A sleek lavender tube of Chanel hand cream stands upright against a soft blue and purple gradient background.\n\nSubject: A tall, cylindrical tube of Chanel Le Lift Crème Mains with a metallic silver cap featuring the interlocking CC logo.\n\nClothing: The packaging features a matte lavender finish with black sans-serif typography for the brand name and product description.\n\nAction: The tube stands vertically on its base, surrounded by delicate cherry blossom branches.\n\nEnvironment: A dreamy studio setting with a smooth, light blue surface and a soft-focus background blending into misty purple hues.\n\nCamera: Centered composition with a shallow depth of field that blurs the background smoke and flowers slightly to emphasize the product.\n\nLighting: Soft, diffused lighting creates gentle highlights on the metallic cap and lavender body, casting subtle shadows to enhance the three-dimensional form.\n\nObjects: Clusters of pale pink cherry blossoms with green leaves are arranged at the base and to the right of the tube, while wisps of ethereal purple smoke swirl around the upper portion.\n\nText/Graphics: The text \"CHANEL\", \"LE LIFT\", \"CRÈME MAINS\", \"SKIN-RECOVERY - FIRMING\", and \"ANTI-WRINKLE\" is clearly printed on the front of the tube.\n\nStyle Details: High-end commercial photography with a clean, elegant aesthetic, utilizing pastel color grading and a smooth, polished rendering style.",
+    "prompt": "A sleek lavender tube of Chanel hand cream stands upright against a soft blue and purple gradient background.\n\nSubject: A tall, cylindrical tube of Chanel Le Lift Cr\u00e8me Mains with a metallic silver cap featuring the interlocking CC logo.\n\nClothing: The packaging features a matte lavender finish with black sans-serif typography for the brand name and product description.\n\nAction: The tube stands vertically on its base, surrounded by delicate cherry blossom branches.\n\nEnvironment: A dreamy studio setting with a smooth, light blue surface and a soft-focus background blending into misty purple hues.\n\nCamera: Centered composition with a shallow depth of field that blurs the background smoke and flowers slightly to emphasize the product.\n\nLighting: Soft, diffused lighting creates gentle highlights on the metallic cap and lavender body, casting subtle shadows to enhance the three-dimensional form.\n\nObjects: Clusters of pale pink cherry blossoms with green leaves are arranged at the base and to the right of the tube, while wisps of ethereal purple smoke swirl around the upper portion.\n\nText/Graphics: The text \"CHANEL\", \"LE LIFT\", \"CR\u00c8ME MAINS\", \"SKIN-RECOVERY - FIRMING\", and \"ANTI-WRINKLE\" is clearly printed on the front of the tube.\n\nStyle Details: High-end commercial photography with a clean, elegant aesthetic, utilizing pastel color grading and a smooth, polished rendering style.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "104.8K",
     "likes": "8.4K",
@@ -18663,7 +19979,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/45199544.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman with voluminous dark curly hair holds a pink spray bottle in the foreground while smiling softly at the camera.\n\nSubject: A woman with deep skin tone and voluminous dark curly hair framing her face.\n\nClothing: She wears a white robe or top with a visible collar.\n\nAction: She holds a transparent bottle filled with pink liquid up to the camera, cradling it in both hands with a gentle smile.\n\nEnvironment: The background is a clean, bright white studio setting that keeps the focus on the product and subject.\n\nCamera: A close-up shot with a shallow depth of field blurs the woman's face slightly to emphasize the bottle held in the foreground.\n\nLighting: Bright and even studio lighting illuminates the scene from the front, creating soft highlights on her skin and the liquid inside the bottle.\n\nObjects: A transparent spray bottle containing pink liquid labeled \"muriel SKIN body splash MELANCIA\" with a silver pump top.\n\nText/Graphics: The label reads \"muriel SKIN body splash MELANCIA COM BOSA MOSQUETA SNA HIDRATAÇÃO & PONTA NATURAL 200ml\".\n\nStyle Details: High-key commercial photography style with sharp focus on the product and a soft, blurred background for depth.",
+    "prompt": "A woman with voluminous dark curly hair holds a pink spray bottle in the foreground while smiling softly at the camera.\n\nSubject: A woman with deep skin tone and voluminous dark curly hair framing her face.\n\nClothing: She wears a white robe or top with a visible collar.\n\nAction: She holds a transparent bottle filled with pink liquid up to the camera, cradling it in both hands with a gentle smile.\n\nEnvironment: The background is a clean, bright white studio setting that keeps the focus on the product and subject.\n\nCamera: A close-up shot with a shallow depth of field blurs the woman's face slightly to emphasize the bottle held in the foreground.\n\nLighting: Bright and even studio lighting illuminates the scene from the front, creating soft highlights on her skin and the liquid inside the bottle.\n\nObjects: A transparent spray bottle containing pink liquid labeled \"muriel SKIN body splash MELANCIA\" with a silver pump top.\n\nText/Graphics: The label reads \"muriel SKIN body splash MELANCIA COM BOSA MOSQUETA SNA HIDRATA\u00c7\u00c3O & PONTA NATURAL 200ml\".\n\nStyle Details: High-key commercial photography style with sharp focus on the product and a soft, blurred background for depth.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "135.8K",
     "likes": "13.4K",
@@ -18852,7 +20168,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/29247315.webp",
     "aspectRatio": "16:9",
-    "prompt": "A luxurious perfume bottle stands partially submerged in rippling water under a dramatic sunset sky.\n\nSubject: A tall, rectangular glass perfume bottle with a dark amber hue and a polished gold cap.\n\nClothing: The bottle features the brand name \"ESTĒE LAUDER\" printed in elegant white serif lettering on its front face.\n\nAction: The bottle is stationary but surrounded by dynamic splashes of water and floating droplets, while delicate cherry blossom branches with pink flowers arch over it from above.\n\nEnvironment: The setting is a serene body of water reflecting the golden light of a sunset, with a gradient sky transitioning from deep blue to warm orange near the horizon.\n\nCamera: A close-up shot with a shallow depth of field that keeps the bottle in sharp focus while softly blurring the background and foreground elements.\n\nLighting: Warm backlighting from the setting sun creates a glowing rim light around the gold cap and illuminates the water droplets, casting long reflections on the surface.\n\nObjects: Floating cherry blossom petals and small water droplets are scattered around the bottle to enhance the ethereal atmosphere.\n\nText/Graphics: The text \"ESTĒE LAUDER\" is clearly visible in white capital letters on the front of the bottle.\n\nStyle Details: High-end commercial photography style with hyper-realistic textures, cinematic color grading, and a polished, elegant aesthetic.",
+    "prompt": "A luxurious perfume bottle stands partially submerged in rippling water under a dramatic sunset sky.\n\nSubject: A tall, rectangular glass perfume bottle with a dark amber hue and a polished gold cap.\n\nClothing: The bottle features the brand name \"EST\u0112E LAUDER\" printed in elegant white serif lettering on its front face.\n\nAction: The bottle is stationary but surrounded by dynamic splashes of water and floating droplets, while delicate cherry blossom branches with pink flowers arch over it from above.\n\nEnvironment: The setting is a serene body of water reflecting the golden light of a sunset, with a gradient sky transitioning from deep blue to warm orange near the horizon.\n\nCamera: A close-up shot with a shallow depth of field that keeps the bottle in sharp focus while softly blurring the background and foreground elements.\n\nLighting: Warm backlighting from the setting sun creates a glowing rim light around the gold cap and illuminates the water droplets, casting long reflections on the surface.\n\nObjects: Floating cherry blossom petals and small water droplets are scattered around the bottle to enhance the ethereal atmosphere.\n\nText/Graphics: The text \"EST\u0112E LAUDER\" is clearly visible in white capital letters on the front of the bottle.\n\nStyle Details: High-end commercial photography style with hyper-realistic textures, cinematic color grading, and a polished, elegant aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "151.3K",
     "likes": "15.9K",
@@ -19377,7 +20693,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/68008677.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman taking a mirror selfie with wet black hair and bangs.\n\nSubject: A young woman with long, wet black hair featuring straight bangs that frame her face, fair skin, and a neutral expression while looking slightly to the side.\n\nClothing: She wears an oversized dark grey t-shirt with a large white graphic of the Pokémon Squirtle on the front.\n\nAction: She holds an orange smartphone in her left hand against a mirror to take a photo, while her right hand rests on her hip.\n\nObjects: The smartphone has a bright orange case decorated with a Pikachu sticker and a holographic Pokémon card design.\n\nEnvironment: The setting is a brightly lit indoor room with cream-colored walls, a window covered by sheer dark curtains in the background, and tiled flooring visible at the bottom.\n\nLighting: Natural daylight streams through the window, creating soft highlights on her wet hair and illuminating the scene evenly.\n\nCamera: A close-up mirror selfie shot taken from a slightly low angle, capturing the subject from the waist up with a shallow depth of field that keeps the focus sharp on her face and upper body.\n\nStyle Details: The image features a realistic, high-definition aesthetic with natural skin textures and vibrant colors, typical of modern smartphone photography.",
+    "prompt": "A young woman taking a mirror selfie with wet black hair and bangs.\n\nSubject: A young woman with long, wet black hair featuring straight bangs that frame her face, fair skin, and a neutral expression while looking slightly to the side.\n\nClothing: She wears an oversized dark grey t-shirt with a large white graphic of the Pok\u00e9mon Squirtle on the front.\n\nAction: She holds an orange smartphone in her left hand against a mirror to take a photo, while her right hand rests on her hip.\n\nObjects: The smartphone has a bright orange case decorated with a Pikachu sticker and a holographic Pok\u00e9mon card design.\n\nEnvironment: The setting is a brightly lit indoor room with cream-colored walls, a window covered by sheer dark curtains in the background, and tiled flooring visible at the bottom.\n\nLighting: Natural daylight streams through the window, creating soft highlights on her wet hair and illuminating the scene evenly.\n\nCamera: A close-up mirror selfie shot taken from a slightly low angle, capturing the subject from the waist up with a shallow depth of field that keeps the focus sharp on her face and upper body.\n\nStyle Details: The image features a realistic, high-definition aesthetic with natural skin textures and vibrant colors, typical of modern smartphone photography.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "219.5K",
     "likes": "4.4K",
@@ -20394,7 +21710,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/43887421.webp",
     "aspectRatio": "16:9",
-    "prompt": "A black and white portrait of a handsome man standing in profile against a backdrop of majestic snow-capped mountains.\n\nSubject: A handsome young Asian man with short, textured dark hair and a strong jawline, looking off to the side with a calm and serious expression.\n\nClothing: He wears a thick, heavy wool overcoat with wide lapels over a dark collared shirt or sweater, featuring visible buttons on the front.\n\nAction: The man stands in a relaxed pose with his body angled slightly away from the camera while his head is turned to face forward, exuding confidence and stillness.\n\nEnvironment: A rugged mountain landscape with rocky terrain in the foreground and towering, snow-covered peaks rising into the sky behind him.\n\nCamera: Shot as a medium shot focusing on the upper body, utilizing a shallow depth of field that keeps the subject sharp while softly blurring the distant mountains.\n\nLighting: Natural outdoor lighting creates high contrast with deep shadows defining the folds of the coat and the contours of his face, suggesting a bright but overcast day.\n\nText/Graphics: Faint text overlay in the upper left corner reading \"沉稳，是另一种锋利\" and \"CALM IS ANOTHER KIND OF SHARPNESS\".\n\nStyle Details: High-contrast black and white photography with a cinematic mood, emphasizing texture and form through dramatic tonal range.",
+    "prompt": "A black and white portrait of a handsome man standing in profile against a backdrop of majestic snow-capped mountains.\n\nSubject: A handsome young Asian man with short, textured dark hair and a strong jawline, looking off to the side with a calm and serious expression.\n\nClothing: He wears a thick, heavy wool overcoat with wide lapels over a dark collared shirt or sweater, featuring visible buttons on the front.\n\nAction: The man stands in a relaxed pose with his body angled slightly away from the camera while his head is turned to face forward, exuding confidence and stillness.\n\nEnvironment: A rugged mountain landscape with rocky terrain in the foreground and towering, snow-covered peaks rising into the sky behind him.\n\nCamera: Shot as a medium shot focusing on the upper body, utilizing a shallow depth of field that keeps the subject sharp while softly blurring the distant mountains.\n\nLighting: Natural outdoor lighting creates high contrast with deep shadows defining the folds of the coat and the contours of his face, suggesting a bright but overcast day.\n\nText/Graphics: Faint text overlay in the upper left corner reading \"\u6c89\u7a33\uff0c\u662f\u53e6\u4e00\u79cd\u950b\u5229\" and \"CALM IS ANOTHER KIND OF SHARPNESS\".\n\nStyle Details: High-contrast black and white photography with a cinematic mood, emphasizing texture and form through dramatic tonal range.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "83.1K",
     "likes": "7.4K",
@@ -20774,7 +22090,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/58762225.webp",
     "aspectRatio": "16:9",
-    "prompt": "A man stands in a moody black-and-white urban setting, holding a cigar with smoke curling around his hand.\n\nSubject: A young man with dark curly hair and a contemplative expression, looking slightly upward and to the side.\n\nClothing: He wears a dark turtleneck sweater under a tailored dark blazer or coat, paired with dark leather gloves on his hands.\n\nAction: He holds a lit cigar in his gloved hand, exhaling smoke gently while leaning casually against a stone railing.\n\nEnvironment: The background features classic European-style architecture with multi-story buildings and a bridge arching over water, suggesting a riverside cityscape under an overcast sky.\n\nCamera: Shot with a shallow depth of field that keeps the subject sharp while softly blurring the architectural backdrop; medium close-up framing emphasizing facial expression and upper body posture.\n\nLighting: Soft diffused natural light creates subtle shadows on his face and clothing, enhancing texture without harsh contrast; overall low-key tonal range contributes to the noir-like atmosphere.\n\nStyle Details: High-contrast black-and-white photography with film grain texture, cinematic composition, and a vintage aesthetic reminiscent of 1940s–50s European cinema.",
+    "prompt": "A man stands in a moody black-and-white urban setting, holding a cigar with smoke curling around his hand.\n\nSubject: A young man with dark curly hair and a contemplative expression, looking slightly upward and to the side.\n\nClothing: He wears a dark turtleneck sweater under a tailored dark blazer or coat, paired with dark leather gloves on his hands.\n\nAction: He holds a lit cigar in his gloved hand, exhaling smoke gently while leaning casually against a stone railing.\n\nEnvironment: The background features classic European-style architecture with multi-story buildings and a bridge arching over water, suggesting a riverside cityscape under an overcast sky.\n\nCamera: Shot with a shallow depth of field that keeps the subject sharp while softly blurring the architectural backdrop; medium close-up framing emphasizing facial expression and upper body posture.\n\nLighting: Soft diffused natural light creates subtle shadows on his face and clothing, enhancing texture without harsh contrast; overall low-key tonal range contributes to the noir-like atmosphere.\n\nStyle Details: High-contrast black-and-white photography with film grain texture, cinematic composition, and a vintage aesthetic reminiscent of 1940s\u201350s European cinema.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "104.8K",
     "likes": "10.9K",
@@ -21615,7 +22931,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/29864035.webp",
     "aspectRatio": "16:9",
-    "prompt": "A black and white portrait of a young man with short dark hair looking away from the camera.\n\nSubject: A handsome young Asian man with a strong jawline, sharp cheekbones, and a calm, serious expression. He has short, slightly messy dark hair that is styled upwards at the front. His eyes are focused on something in the distance, giving him an intense and contemplative look.\n\nClothing: He is wearing a black high-collared jacket or shirt with a zipper visible near the neck. The fabric appears smooth and matte.\n\nAction: He is posed in a three-quarter profile view, looking towards the right side of the frame. His head is tilted slightly upwards.\n\nEnvironment: The background is a plain, dark wall that features a large, rectangular patch of bright light, creating a high-contrast shadow behind his head.\n\nLighting: Dramatic, high-contrast lighting with a strong key light coming from the left, casting deep shadows on the right side of his face and body. The light source creates a sharp, geometric shadow pattern on the wall behind him.\n\nCamera: Close-up shot focusing on the upper torso and head, utilizing a shallow depth of field to keep the subject sharp while slightly softening the background elements.\n\nText/Graphics: Large text at the top reads \"SILENCE\" in a serif font. Smaller text includes \"CALM IS THE NEW STRENGTH\", Chinese characters reading \"沉默，是另一种力量\" (Silence is another kind of strength), and phrases like \"NOT LOUD / BUT POWERFUL\".\n\nStyle Details: Black and white photography with high contrast, cinematic mood, minimalist composition, editorial magazine style.",
+    "prompt": "A black and white portrait of a young man with short dark hair looking away from the camera.\n\nSubject: A handsome young Asian man with a strong jawline, sharp cheekbones, and a calm, serious expression. He has short, slightly messy dark hair that is styled upwards at the front. His eyes are focused on something in the distance, giving him an intense and contemplative look.\n\nClothing: He is wearing a black high-collared jacket or shirt with a zipper visible near the neck. The fabric appears smooth and matte.\n\nAction: He is posed in a three-quarter profile view, looking towards the right side of the frame. His head is tilted slightly upwards.\n\nEnvironment: The background is a plain, dark wall that features a large, rectangular patch of bright light, creating a high-contrast shadow behind his head.\n\nLighting: Dramatic, high-contrast lighting with a strong key light coming from the left, casting deep shadows on the right side of his face and body. The light source creates a sharp, geometric shadow pattern on the wall behind him.\n\nCamera: Close-up shot focusing on the upper torso and head, utilizing a shallow depth of field to keep the subject sharp while slightly softening the background elements.\n\nText/Graphics: Large text at the top reads \"SILENCE\" in a serif font. Smaller text includes \"CALM IS THE NEW STRENGTH\", Chinese characters reading \"\u6c89\u9ed8\uff0c\u662f\u53e6\u4e00\u79cd\u529b\u91cf\" (Silence is another kind of strength), and phrases like \"NOT LOUD / BUT POWERFUL\".\n\nStyle Details: Black and white photography with high contrast, cinematic mood, minimalist composition, editorial magazine style.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "80.0K",
     "likes": "6.9K",
@@ -23148,7 +24464,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/34325461.webp",
     "aspectRatio": "16:9",
-    "prompt": "A smiling young woman with long wavy blonde hair sits on a green grass field holding two soccer balls.\n\nSubject: A young woman with fair skin and long, wavy platinum blonde hair that cascades over her shoulders. She has blue eyes and is wearing small stud earrings. Her expression is bright and cheerful with a wide smile showing her teeth.\n\nClothing: She wears a sleeveless mini dress featuring a patchwork design of various national flags including the United States, Japan, Brazil, Canada, and the United Kingdom. The hem of the dress displays the word \"Love\" in white cursive script on a dark blue flag background.\n\nAction: She is seated cross-legged on the grass, looking directly at the camera. Her right hand rests gently on a soccer ball to her left side, while her left hand holds another soccer ball close to her chest.\n\nEnvironment: The setting is a large outdoor stadium with green turf in the foreground. The background shows blurred stadium seating filled with spectators and advertising hoardings, indicating a professional sports event atmosphere.\n\nCamera: Shot from a low angle looking up slightly at the subject, using a shallow depth of field that keeps her in sharp focus while blurring the crowd and background elements to emphasize her presence.\n\nLighting: Bright natural daylight illuminates the scene evenly, creating soft shadows and highlighting the vibrant colors of her dress and the white soccer balls without harsh contrast.\n\nObjects: Two white Adidas soccer balls decorated with colorful national flags are positioned near her—one held in her left hand and one resting on the grass near her right hand.\n\nStyle Details: High-resolution photography with a polished, commercial aesthetic typical of sports marketing imagery, featuring vivid colors and clean composition.",
+    "prompt": "A smiling young woman with long wavy blonde hair sits on a green grass field holding two soccer balls.\n\nSubject: A young woman with fair skin and long, wavy platinum blonde hair that cascades over her shoulders. She has blue eyes and is wearing small stud earrings. Her expression is bright and cheerful with a wide smile showing her teeth.\n\nClothing: She wears a sleeveless mini dress featuring a patchwork design of various national flags including the United States, Japan, Brazil, Canada, and the United Kingdom. The hem of the dress displays the word \"Love\" in white cursive script on a dark blue flag background.\n\nAction: She is seated cross-legged on the grass, looking directly at the camera. Her right hand rests gently on a soccer ball to her left side, while her left hand holds another soccer ball close to her chest.\n\nEnvironment: The setting is a large outdoor stadium with green turf in the foreground. The background shows blurred stadium seating filled with spectators and advertising hoardings, indicating a professional sports event atmosphere.\n\nCamera: Shot from a low angle looking up slightly at the subject, using a shallow depth of field that keeps her in sharp focus while blurring the crowd and background elements to emphasize her presence.\n\nLighting: Bright natural daylight illuminates the scene evenly, creating soft shadows and highlighting the vibrant colors of her dress and the white soccer balls without harsh contrast.\n\nObjects: Two white Adidas soccer balls decorated with colorful national flags are positioned near her\u2014one held in her left hand and one resting on the grass near her right hand.\n\nStyle Details: High-resolution photography with a polished, commercial aesthetic typical of sports marketing imagery, featuring vivid colors and clean composition.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "104.8K",
     "likes": "13.4K",
@@ -23884,7 +25200,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/29330846.webp",
     "aspectRatio": "16:9",
-    "prompt": "A romantic night scene of a bride and groom kissing under a spectacular fireworks display.\n\nSubject: A woman with dark hair pulled back in an elegant updo wearing a strapless white wedding gown with a long sheer veil, standing close to a man with short brown hair in a cream-colored tuxedo jacket and black trousers.\n\nClothing: The bride wears a fitted satin bodice with pearl-like embellishments along the neckline and waist, while the groom wears a formal cream suit with black lapels and a white shirt; both appear polished and celebratory.\n\nAction: The couple is locked in an intimate kiss, her hand gently cupping his cheek as he holds her waist, their bodies angled toward each other in a tender embrace.\n\nEnvironment: A dark outdoor garden setting at night with blurred trees and silhouettes of guests in formal wear standing in the background, suggesting a wedding reception or celebration.\n\nCamera: Shot from a medium close-up angle that centers the couple against the sky, using shallow depth of field to blur the background guests and foreground confetti while keeping the subjects sharp.\n\nLighting: Dramatic backlighting from golden fireworks illuminates the couple’s profiles and creates soft highlights on their skin and clothing, with ambient blue tones in the night sky adding contrast.\n\nStyle Details: Cinematic composition with bokeh effects from distant lights and falling confetti, rich color grading emphasizing golds and deep blues, high-resolution detail with a romantic, dreamy atmosphere.",
+    "prompt": "A romantic night scene of a bride and groom kissing under a spectacular fireworks display.\n\nSubject: A woman with dark hair pulled back in an elegant updo wearing a strapless white wedding gown with a long sheer veil, standing close to a man with short brown hair in a cream-colored tuxedo jacket and black trousers.\n\nClothing: The bride wears a fitted satin bodice with pearl-like embellishments along the neckline and waist, while the groom wears a formal cream suit with black lapels and a white shirt; both appear polished and celebratory.\n\nAction: The couple is locked in an intimate kiss, her hand gently cupping his cheek as he holds her waist, their bodies angled toward each other in a tender embrace.\n\nEnvironment: A dark outdoor garden setting at night with blurred trees and silhouettes of guests in formal wear standing in the background, suggesting a wedding reception or celebration.\n\nCamera: Shot from a medium close-up angle that centers the couple against the sky, using shallow depth of field to blur the background guests and foreground confetti while keeping the subjects sharp.\n\nLighting: Dramatic backlighting from golden fireworks illuminates the couple\u2019s profiles and creates soft highlights on their skin and clothing, with ambient blue tones in the night sky adding contrast.\n\nStyle Details: Cinematic composition with bokeh effects from distant lights and falling confetti, rich color grading emphasizing golds and deep blues, high-resolution detail with a romantic, dreamy atmosphere.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "188.5K",
     "likes": "4.4K",
@@ -24272,7 +25588,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/70778073.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman with long curly hair stands in profile against a sunset over water.\n\nSubject: A woman with voluminous dark curly hair cascading down her back, wearing a delicate floral crown of small pink and white flowers.\n\nClothing: She wears an elegant white wedding gown featuring intricate lace appliqué on the bodice and sleeves, transitioning into a sheer, flowing tulle skirt that drapes onto the grass.\n\nAction: She stands in profile facing left, tilting her head back slightly with eyes closed as she gazes upward at the sky, holding the fabric of her dress gently with one hand.\n\nEnvironment: The setting is a serene lakeside or riverbank during golden hour, with lush green trees lining the opposite shore and tall purple wildflowers growing in the foreground.\n\nCamera: Shot from a low angle emphasizing the height of the subject against the horizon, with soft focus on the distant background to create depth.\n\nLighting: Warm golden sunlight bathes the scene from behind and above, creating a glowing rim light around her hair and shoulders while casting soft shadows across her face and dress.\n\nStyle Details: The image has a dreamy, romantic aesthetic with soft bokeh effects, warm color grading, and a painterly quality that enhances the ethereal mood of the moment.",
+    "prompt": "A woman with long curly hair stands in profile against a sunset over water.\n\nSubject: A woman with voluminous dark curly hair cascading down her back, wearing a delicate floral crown of small pink and white flowers.\n\nClothing: She wears an elegant white wedding gown featuring intricate lace appliqu\u00e9 on the bodice and sleeves, transitioning into a sheer, flowing tulle skirt that drapes onto the grass.\n\nAction: She stands in profile facing left, tilting her head back slightly with eyes closed as she gazes upward at the sky, holding the fabric of her dress gently with one hand.\n\nEnvironment: The setting is a serene lakeside or riverbank during golden hour, with lush green trees lining the opposite shore and tall purple wildflowers growing in the foreground.\n\nCamera: Shot from a low angle emphasizing the height of the subject against the horizon, with soft focus on the distant background to create depth.\n\nLighting: Warm golden sunlight bathes the scene from behind and above, creating a glowing rim light around her hair and shoulders while casting soft shadows across her face and dress.\n\nStyle Details: The image has a dreamy, romantic aesthetic with soft bokeh effects, warm color grading, and a painterly quality that enhances the ethereal mood of the moment.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "272.2K",
     "likes": "17.9K",
@@ -25666,7 +26982,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/24871917.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with short wavy brown hair sits casually on the tailgate of a weathered vintage pickup truck in a dusty desert landscape.\n\nSubject: A young woman with fair skin and short, tousled brown hair that falls just past her shoulders. She has a neutral, direct gaze looking straight at the camera with a calm expression. Her posture is relaxed yet posed as she leans back against the truck bed.\n\nClothing: She wears a dark navy blue wrap dress featuring a vibrant green floral pattern with leafy vines. The dress has short flutter sleeves and a deep V-neckline that wraps around her torso. On her feet, she wears black lace-up combat boots on one foot while the other is barefoot, revealing a delicate anklet.\n\nAction: Her arms are raised above her head with both hands gently holding or adjusting her hair near the crown of her head. Her legs are crossed at the ankles in a relaxed pose, with one knee bent and resting against the truck bed.\n\nEnvironment: The setting is an arid, dusty outdoor location under a bright blue sky with faint clouds. Behind her stands a rusty, vintage pickup truck with faded paint and visible rust patches on the metal body. To the left, there are wooden structures resembling old fences or sheds in the background.\n\nCamera: The shot is taken from a slightly low angle looking up at the subject, emphasizing her seated position on the truck tailgate. The framing captures her full figure along with the rear of the truck and part of the surrounding desert terrain.\n\nLighting: Bright natural sunlight illuminates the scene from above and slightly to the side, casting soft shadows beneath her legs and highlighting the texture of her skin and dress fabric. The light creates a warm, golden-hour feel that enhances the earthy tones of the environment.\n\nStyle Details: The image has a cinematic, editorial photography aesthetic with high contrast between the subject’s dark dress and the bright background. There is a slight film grain quality and soft focus on distant elements to draw attention to the central figure.",
+    "prompt": "A young woman with short wavy brown hair sits casually on the tailgate of a weathered vintage pickup truck in a dusty desert landscape.\n\nSubject: A young woman with fair skin and short, tousled brown hair that falls just past her shoulders. She has a neutral, direct gaze looking straight at the camera with a calm expression. Her posture is relaxed yet posed as she leans back against the truck bed.\n\nClothing: She wears a dark navy blue wrap dress featuring a vibrant green floral pattern with leafy vines. The dress has short flutter sleeves and a deep V-neckline that wraps around her torso. On her feet, she wears black lace-up combat boots on one foot while the other is barefoot, revealing a delicate anklet.\n\nAction: Her arms are raised above her head with both hands gently holding or adjusting her hair near the crown of her head. Her legs are crossed at the ankles in a relaxed pose, with one knee bent and resting against the truck bed.\n\nEnvironment: The setting is an arid, dusty outdoor location under a bright blue sky with faint clouds. Behind her stands a rusty, vintage pickup truck with faded paint and visible rust patches on the metal body. To the left, there are wooden structures resembling old fences or sheds in the background.\n\nCamera: The shot is taken from a slightly low angle looking up at the subject, emphasizing her seated position on the truck tailgate. The framing captures her full figure along with the rear of the truck and part of the surrounding desert terrain.\n\nLighting: Bright natural sunlight illuminates the scene from above and slightly to the side, casting soft shadows beneath her legs and highlighting the texture of her skin and dress fabric. The light creates a warm, golden-hour feel that enhances the earthy tones of the environment.\n\nStyle Details: The image has a cinematic, editorial photography aesthetic with high contrast between the subject\u2019s dark dress and the bright background. There is a slight film grain quality and soft focus on distant elements to draw attention to the central figure.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "114.1K",
     "likes": "17.4K",
@@ -25960,7 +27276,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/62578835.webp",
     "aspectRatio": "16:9",
-    "prompt": "A romantic collage of a couple in wedding attire standing on a sandy beach at sunset.\n\nSubject: A man with dark hair and a woman with long brown hair, both appearing to be the main focus of the scene.\n\nClothing: The man wears a classic black suit with a white shirt and black tie; the woman wears a flowing white slip dress.\n\nAction: They are shown in three distinct poses—intimately close facing each other, standing together holding flowers, and walking away from the camera along the shoreline.\n\nEnvironment: A serene beach setting with gentle waves lapping at the shore under a warm, golden sky.\n\nCamera: The composition is presented as a triptych of vertical panels, capturing both intimate close-ups and full-body shots that emphasize their silhouettes against the horizon.\n\nLighting: Soft, warm backlighting from the setting sun creates a glowing halo effect around the subjects and casts long shadows on the sand.\n\nObjects: A bouquet of white tulips held by the woman in the central panel.\n\nStyle Details: High-quality cinematic photography with a romantic color palette, smooth skin textures, and a dreamy atmosphere enhanced by the golden hour glow.",
+    "prompt": "A romantic collage of a couple in wedding attire standing on a sandy beach at sunset.\n\nSubject: A man with dark hair and a woman with long brown hair, both appearing to be the main focus of the scene.\n\nClothing: The man wears a classic black suit with a white shirt and black tie; the woman wears a flowing white slip dress.\n\nAction: They are shown in three distinct poses\u2014intimately close facing each other, standing together holding flowers, and walking away from the camera along the shoreline.\n\nEnvironment: A serene beach setting with gentle waves lapping at the shore under a warm, golden sky.\n\nCamera: The composition is presented as a triptych of vertical panels, capturing both intimate close-ups and full-body shots that emphasize their silhouettes against the horizon.\n\nLighting: Soft, warm backlighting from the setting sun creates a glowing halo effect around the subjects and casts long shadows on the sand.\n\nObjects: A bouquet of white tulips held by the woman in the central panel.\n\nStyle Details: High-quality cinematic photography with a romantic color palette, smooth skin textures, and a dreamy atmosphere enhanced by the golden hour glow.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "216.4K",
     "likes": "8.9K",
@@ -26487,7 +27803,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/93162689.webp",
     "aspectRatio": "16:9",
-    "prompt": "A high-angle group portrait of a stylized family of six standing together on a patterned rug in a cozy indoor setting.\n\nSubject: A man with styled brown hair and a beard stands at the back center wearing a dark cardigan over a white shirt, flanked by a woman with long brown hair in a black top and four children arranged in front. The group includes two young boys on the left, one boy on the right, a small girl in the front center, and an older teen boy standing tall on the right side.\n\nClothing: The man wears a dark cardigan over a white shirt with visible tattoos on his hand. The woman wears a black top. The children wear casual attire including a beige sweater with a plaid scarf, a navy sweater with a white collar, a denim jacket with a fleece collar, and a polka-dot dress for the youngest girl.\n\nAction: The family stands close together in a posed arrangement with arms around each other’s shoulders, smiling gently at the camera with relaxed postures.\n\nEnvironment: A warm-toned room with wooden flooring, a beige rug with geometric borders, a potted plant on the left, and a wall decorated with hand-drawn doodles including hearts, stars, stick-figure families, and speech bubbles reading “Yay!” and “Family!”.\n\nCamera: High-angle shot looking down at the group from above, capturing full bodies and facial expressions clearly with a wide composition that includes the surrounding room.\n\nLighting: Soft, even indoor lighting with no harsh shadows, creating a warm and inviting atmosphere suitable for family portraits.\n\nStyle Details: The image features a semi-realistic, slightly exaggerated cartoon style reminiscent of 3D animated characters or stylized digital art, with smooth textures, large expressive eyes, and clean lines that give it a playful yet polished aesthetic.",
+    "prompt": "A high-angle group portrait of a stylized family of six standing together on a patterned rug in a cozy indoor setting.\n\nSubject: A man with styled brown hair and a beard stands at the back center wearing a dark cardigan over a white shirt, flanked by a woman with long brown hair in a black top and four children arranged in front. The group includes two young boys on the left, one boy on the right, a small girl in the front center, and an older teen boy standing tall on the right side.\n\nClothing: The man wears a dark cardigan over a white shirt with visible tattoos on his hand. The woman wears a black top. The children wear casual attire including a beige sweater with a plaid scarf, a navy sweater with a white collar, a denim jacket with a fleece collar, and a polka-dot dress for the youngest girl.\n\nAction: The family stands close together in a posed arrangement with arms around each other\u2019s shoulders, smiling gently at the camera with relaxed postures.\n\nEnvironment: A warm-toned room with wooden flooring, a beige rug with geometric borders, a potted plant on the left, and a wall decorated with hand-drawn doodles including hearts, stars, stick-figure families, and speech bubbles reading \u201cYay!\u201d and \u201cFamily!\u201d.\n\nCamera: High-angle shot looking down at the group from above, capturing full bodies and facial expressions clearly with a wide composition that includes the surrounding room.\n\nLighting: Soft, even indoor lighting with no harsh shadows, creating a warm and inviting atmosphere suitable for family portraits.\n\nStyle Details: The image features a semi-realistic, slightly exaggerated cartoon style reminiscent of 3D animated characters or stylized digital art, with smooth textures, large expressive eyes, and clean lines that give it a playful yet polished aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "166.8K",
     "likes": "3.4K",
@@ -27144,7 +28460,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/89817059.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long wavy reddish-brown hair smiles brightly while leaning against a metal railing at a marina during sunset.\n\nSubject: A smiling young woman with long wavy reddish-brown hair and bangs, wearing an oversized denim shirt over olive green shorts and black platform high heels.\n\nClothing: An unbuttoned light blue denim shirt with rolled-up sleeves, gold buttons on the front, paired with olive green button-front shorts and black strappy platform heels.\n\nAction: Leaning casually against a metal railing with one leg crossed over the other, holding a beverage can in her right hand while resting her left hand on the rail.\n\nEnvironment: A marina setting with calm water reflecting the sky, numerous sailboats docked in the background, distant city buildings, and hazy mountains under a soft golden-hour sky.\n\nCamera: Medium shot capturing full body from head to toe, slightly low angle emphasizing the subject’s pose, shallow depth of field blurring the background boats and skyline.\n\nLighting: Warm golden hour sunlight casting soft shadows and highlighting the subject’s hair and skin with a gentle glow.\n\nStyle Details: Photorealistic portrait with cinematic color grading, subtle film grain, and high-resolution detail in fabric textures and reflections.",
+    "prompt": "A young woman with long wavy reddish-brown hair smiles brightly while leaning against a metal railing at a marina during sunset.\n\nSubject: A smiling young woman with long wavy reddish-brown hair and bangs, wearing an oversized denim shirt over olive green shorts and black platform high heels.\n\nClothing: An unbuttoned light blue denim shirt with rolled-up sleeves, gold buttons on the front, paired with olive green button-front shorts and black strappy platform heels.\n\nAction: Leaning casually against a metal railing with one leg crossed over the other, holding a beverage can in her right hand while resting her left hand on the rail.\n\nEnvironment: A marina setting with calm water reflecting the sky, numerous sailboats docked in the background, distant city buildings, and hazy mountains under a soft golden-hour sky.\n\nCamera: Medium shot capturing full body from head to toe, slightly low angle emphasizing the subject\u2019s pose, shallow depth of field blurring the background boats and skyline.\n\nLighting: Warm golden hour sunlight casting soft shadows and highlighting the subject\u2019s hair and skin with a gentle glow.\n\nStyle Details: Photorealistic portrait with cinematic color grading, subtle film grain, and high-resolution detail in fabric textures and reflections.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "262.9K",
     "likes": "18.9K",
@@ -27362,7 +28678,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/33617475.webp",
     "aspectRatio": "16:9",
-    "prompt": "A handsome young man stands confidently on the deck of a luxury yacht, gazing off into the distance with a calm expression.\n\nSubject: A fit young man with dark brown hair and sharp facial features.\n\nClothing: He wears a black button-down shirt with the top buttons undone to reveal his chest, paired with matching black trousers.\n\nAction: He leans casually against the white railing of the yacht, holding a pair of sunglasses in one hand while resting the other on the rail.\n\nEnvironment: The setting is the side deck of a large white yacht with light wood flooring and stainless steel railings, overlooking a calm blue sea with a distant city skyline under a cloudy sky.\n\nCamera: Shot from a medium-full angle that captures the subject’s full body and posture, emphasizing his relaxed stance against the railing.\n\nLighting: Soft natural daylight illuminates the scene evenly, creating subtle shadows and highlighting the texture of his clothing and skin.\n\nStyle Details: The image has a clean, high-end fashion photography aesthetic with crisp details and a polished color palette.",
+    "prompt": "A handsome young man stands confidently on the deck of a luxury yacht, gazing off into the distance with a calm expression.\n\nSubject: A fit young man with dark brown hair and sharp facial features.\n\nClothing: He wears a black button-down shirt with the top buttons undone to reveal his chest, paired with matching black trousers.\n\nAction: He leans casually against the white railing of the yacht, holding a pair of sunglasses in one hand while resting the other on the rail.\n\nEnvironment: The setting is the side deck of a large white yacht with light wood flooring and stainless steel railings, overlooking a calm blue sea with a distant city skyline under a cloudy sky.\n\nCamera: Shot from a medium-full angle that captures the subject\u2019s full body and posture, emphasizing his relaxed stance against the railing.\n\nLighting: Soft natural daylight illuminates the scene evenly, creating subtle shadows and highlighting the texture of his clothing and skin.\n\nStyle Details: The image has a clean, high-end fashion photography aesthetic with crisp details and a polished color palette.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "275.3K",
     "likes": "20.9K",
@@ -27686,7 +29002,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/26176917.webp",
     "aspectRatio": "16:9",
-    "prompt": "A lone hiker stands on a rocky peak at sunset, viewed from behind with a large blue backpack strapped to their back.\n\nSubject: A male hiker seen from the back wearing a teal t-shirt, brown shorts, white socks, and hiking shoes with yellow soles, carrying a large blue hiking backpack with visible straps and buckles.\n\nAction: The hiker is standing still on a rocky outcrop, gazing out at the distant landscape.\n\nEnvironment: A rugged mountain summit with dark grey textured rocks in the foreground, overlooking a vast valley filled with layers of misty mountains fading into the distance under a warm sky.\n\nCamera: Shot from a low angle looking up at the hiker to emphasize their height against the horizon, with a shallow depth of field that keeps the subject sharp while softening the distant background.\n\nLighting: Warm golden hour sunlight illuminating the scene from behind and above, casting a soft glow on the hiker’s legs and creating a gradient sky transitioning from orange near the horizon to pale blue at the top.\n\nStyle Details: High-resolution photography with natural color grading, slight lens flare effects, and realistic textures that enhance the sense of adventure and tranquility.",
+    "prompt": "A lone hiker stands on a rocky peak at sunset, viewed from behind with a large blue backpack strapped to their back.\n\nSubject: A male hiker seen from the back wearing a teal t-shirt, brown shorts, white socks, and hiking shoes with yellow soles, carrying a large blue hiking backpack with visible straps and buckles.\n\nAction: The hiker is standing still on a rocky outcrop, gazing out at the distant landscape.\n\nEnvironment: A rugged mountain summit with dark grey textured rocks in the foreground, overlooking a vast valley filled with layers of misty mountains fading into the distance under a warm sky.\n\nCamera: Shot from a low angle looking up at the hiker to emphasize their height against the horizon, with a shallow depth of field that keeps the subject sharp while softening the distant background.\n\nLighting: Warm golden hour sunlight illuminating the scene from behind and above, casting a soft glow on the hiker\u2019s legs and creating a gradient sky transitioning from orange near the horizon to pale blue at the top.\n\nStyle Details: High-resolution photography with natural color grading, slight lens flare effects, and realistic textures that enhance the sense of adventure and tranquility.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "18.0K",
     "likes": "4.4K",
@@ -27849,7 +29165,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/38813453.webp",
     "aspectRatio": "16:9",
-    "prompt": "Two figures stand back-to-back in a dynamic anime-style composition with bold purple and grey tones.\n\nSubject: A male ninja character with spiky white hair and a female character with long blonde hair tied in a ponytail, both facing away from each other but looking over their shoulders toward the viewer.\n\nClothing: Both characters wear matching tactical grey jackets with black accents, utility straps, pouches, and purple glowing trim; the male wears a headband with a spiral symbol and a face mask covering his lower face.\n\nAction: The male character extends his right hand forward, emitting bright blue lightning energy (Chidori), while the female character smiles confidently with her body angled slightly outward.\n\nEnvironment: A stylized poster-like background featuring Japanese text, barcodes, team insignia, and abstract lightning motifs in purple and white.\n\nCamera: Medium shot with a slight low angle emphasizing the characters’ presence, framed like a promotional poster or game cover art.\n\nLighting: Dramatic high-contrast lighting with glowing purple highlights around edges and lightning effects, creating a cinematic and electric atmosphere.\n\nStyle Details: Anime-inspired digital illustration with clean lines, vibrant color grading, comic-book panel borders, and graphic design elements such as typography and data tags.",
+    "prompt": "Two figures stand back-to-back in a dynamic anime-style composition with bold purple and grey tones.\n\nSubject: A male ninja character with spiky white hair and a female character with long blonde hair tied in a ponytail, both facing away from each other but looking over their shoulders toward the viewer.\n\nClothing: Both characters wear matching tactical grey jackets with black accents, utility straps, pouches, and purple glowing trim; the male wears a headband with a spiral symbol and a face mask covering his lower face.\n\nAction: The male character extends his right hand forward, emitting bright blue lightning energy (Chidori), while the female character smiles confidently with her body angled slightly outward.\n\nEnvironment: A stylized poster-like background featuring Japanese text, barcodes, team insignia, and abstract lightning motifs in purple and white.\n\nCamera: Medium shot with a slight low angle emphasizing the characters\u2019 presence, framed like a promotional poster or game cover art.\n\nLighting: Dramatic high-contrast lighting with glowing purple highlights around edges and lightning effects, creating a cinematic and electric atmosphere.\n\nStyle Details: Anime-inspired digital illustration with clean lines, vibrant color grading, comic-book panel borders, and graphic design elements such as typography and data tags.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "58.3K",
     "likes": "10.9K",
@@ -27902,7 +29218,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/55092124.webp",
     "aspectRatio": "16:9",
-    "prompt": "A dynamic illustration featuring two figures in a stylized magazine cover layout with bold red and black accents.\n\nSubject: A tall figure on the left with long black hair and a headband, standing next to a seated figure with braided hair and tattoos.\n\nClothing: Both figures wear heavy black tactical jackets with red trim, utility straps, and pouches; the left figure wears a high-collared coat with cloud patterns, while the right figure wears a hooded jacket with layered necklaces.\n\nAction: The left figure holds a glowing red orb in one hand and has a sword on their back, while the right figure sits with a relaxed but intense posture, looking forward.\n\nEnvironment: A graphic background with swirling red ink-like strokes, Japanese calligraphy characters, and abstract circular designs resembling eyes or portals.\n\nCamera: Medium shot composition with a slight low angle emphasizing the figures against the stylized backdrop.\n\nLighting: Dramatic high-contrast lighting with sharp highlights on metallic elements and deep shadows to enhance the dark aesthetic.\nSecond \n\nSubject: The right figure is clearly distinct from the left, representing a crossover between anime and hip-hop culture.\n\nObjects: A sword sheathed on the back of the left figure, rings on fingers, and multiple pouches attached to belts.\n\nInteraction: No direct physical interaction; both figures face forward with confident stances suggesting a thematic alliance.\n\nText/Graphics: Large bold text reading \"ITACHI UCHIHA vs GUNNA\" at the top, Japanese kanji characters like \"天照\" (Amaterasu), and smaller labels including \"SHARINGAN & AMATERASU\", \"GENJUTSU\", and \"SUSANOO\".\n\nStyle Details: Anime-inspired digital art with clean lines, vibrant red ink splatters, manga-style shading, and a modern graphic novel aesthetic.",
+    "prompt": "A dynamic illustration featuring two figures in a stylized magazine cover layout with bold red and black accents.\n\nSubject: A tall figure on the left with long black hair and a headband, standing next to a seated figure with braided hair and tattoos.\n\nClothing: Both figures wear heavy black tactical jackets with red trim, utility straps, and pouches; the left figure wears a high-collared coat with cloud patterns, while the right figure wears a hooded jacket with layered necklaces.\n\nAction: The left figure holds a glowing red orb in one hand and has a sword on their back, while the right figure sits with a relaxed but intense posture, looking forward.\n\nEnvironment: A graphic background with swirling red ink-like strokes, Japanese calligraphy characters, and abstract circular designs resembling eyes or portals.\n\nCamera: Medium shot composition with a slight low angle emphasizing the figures against the stylized backdrop.\n\nLighting: Dramatic high-contrast lighting with sharp highlights on metallic elements and deep shadows to enhance the dark aesthetic.\nSecond \n\nSubject: The right figure is clearly distinct from the left, representing a crossover between anime and hip-hop culture.\n\nObjects: A sword sheathed on the back of the left figure, rings on fingers, and multiple pouches attached to belts.\n\nInteraction: No direct physical interaction; both figures face forward with confident stances suggesting a thematic alliance.\n\nText/Graphics: Large bold text reading \"ITACHI UCHIHA vs GUNNA\" at the top, Japanese kanji characters like \"\u5929\u7167\" (Amaterasu), and smaller labels including \"SHARINGAN & AMATERASU\", \"GENJUTSU\", and \"SUSANOO\".\n\nStyle Details: Anime-inspired digital art with clean lines, vibrant red ink splatters, manga-style shading, and a modern graphic novel aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "55.2K",
     "likes": "10.4K",
@@ -27928,7 +29244,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/18940962.webp",
     "aspectRatio": "16:9",
-    "prompt": "Two young people stand together on a lush green hillside looking up at a vast blue sky filled with fluffy white clouds.\n\nSubject: A boy and a girl standing side by side, viewed from behind, gazing upward at the sky. The boy has short dark hair and is pointing toward the clouds with his right arm extended. The girl has long dark hair blowing slightly in the wind.\n\nClothing: The boy wears a light-colored short-sleeved shirt and dark trousers. The girl wears a white short-sleeved top and a flowing red skirt that flutters gently in the breeze.\n\nAction: Both figures are standing still, facing away from the camera, with the boy pointing toward the sky and the girl looking in the same direction as him.\n\nEnvironment: A vibrant green grassy hill dotted with small colorful wildflowers stretches beneath them, leading up to a dramatic sky filled with large cumulus clouds against a deep blue backdrop.\n\nCamera: Low-angle perspective that emphasizes the height of the sky and the vastness of the landscape, with a shallow depth of field blurring the foreground grass slightly while keeping the subjects and sky sharp.\n\nLighting: Bright natural daylight with soft shadows, creating a warm and airy atmosphere typical of midday summer light.\n\nStyle Details: Anime-inspired aesthetic reminiscent of Makoto Shinkai’s work, featuring highly detailed cloud textures, saturated colors, and a dreamy, cinematic composition.",
+    "prompt": "Two young people stand together on a lush green hillside looking up at a vast blue sky filled with fluffy white clouds.\n\nSubject: A boy and a girl standing side by side, viewed from behind, gazing upward at the sky. The boy has short dark hair and is pointing toward the clouds with his right arm extended. The girl has long dark hair blowing slightly in the wind.\n\nClothing: The boy wears a light-colored short-sleeved shirt and dark trousers. The girl wears a white short-sleeved top and a flowing red skirt that flutters gently in the breeze.\n\nAction: Both figures are standing still, facing away from the camera, with the boy pointing toward the sky and the girl looking in the same direction as him.\n\nEnvironment: A vibrant green grassy hill dotted with small colorful wildflowers stretches beneath them, leading up to a dramatic sky filled with large cumulus clouds against a deep blue backdrop.\n\nCamera: Low-angle perspective that emphasizes the height of the sky and the vastness of the landscape, with a shallow depth of field blurring the foreground grass slightly while keeping the subjects and sky sharp.\n\nLighting: Bright natural daylight with soft shadows, creating a warm and airy atmosphere typical of midday summer light.\n\nStyle Details: Anime-inspired aesthetic reminiscent of Makoto Shinkai\u2019s work, featuring highly detailed cloud textures, saturated colors, and a dreamy, cinematic composition.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "27.3K",
     "likes": "5.9K",
@@ -27955,7 +29271,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/59970741.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long dark hair smiles warmly while pointing her index finger upward in a playful gesture. \n\nClothing: She wears a red velvet off-shoulder dress trimmed with white faux fur and fluffy pom-poms at the neckline, paired with large white bunny ears on a red headband. \n\nEnvironment: The background features a stylized anime-style illustration of a blue-haired character with glowing eyes, set against soft pink and teal gradients. A social media profile interface overlays the image with Chinese text, including a verified checkmark next to the name 李岳 and visible follower counts. \n\nLighting: Lighting is bright and even, highlighting her face and outfit with minimal shadows. The composition uses a close-up framing that emphasizes her expression and gesture, with a shallow depth of field blurring the background slightly. \n\nStyle Details: digital illustration mixed with photorealistic portrait rendering, vibrant color palette, clean lines, and modern social media aesthetic.",
+    "prompt": "A young woman with long dark hair smiles warmly while pointing her index finger upward in a playful gesture. \n\nClothing: She wears a red velvet off-shoulder dress trimmed with white faux fur and fluffy pom-poms at the neckline, paired with large white bunny ears on a red headband. \n\nEnvironment: The background features a stylized anime-style illustration of a blue-haired character with glowing eyes, set against soft pink and teal gradients. A social media profile interface overlays the image with Chinese text, including a verified checkmark next to the name \u674e\u5cb3 and visible follower counts. \n\nLighting: Lighting is bright and even, highlighting her face and outfit with minimal shadows. The composition uses a close-up framing that emphasizes her expression and gesture, with a shallow depth of field blurring the background slightly. \n\nStyle Details: digital illustration mixed with photorealistic portrait rendering, vibrant color palette, clean lines, and modern social media aesthetic.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "42.8K",
     "likes": "8.4K",
@@ -28118,7 +29434,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/80752983.webp",
     "aspectRatio": "16:9",
-    "prompt": "A steaming bowl of ramen sits in the foreground on a rustic wooden table inside a traditional Japanese restaurant.\n\nSubject: A large ceramic bowl filled with rich broth, thick noodles, two slices of chashu pork belly, chopped green onions, a soft-boiled egg with a runny yolk, and a piece of nori seaweed resting on the rim.\n\nClothing: The background figure wears a grey shirt and dark apron.\n\nAction: Steam rises gently from the hot soup, indicating it is freshly served and ready to eat.\n\nEnvironment: A cozy ramen shop interior with wooden walls, sliding paper doors, and a counter where bottles of sake are lined up behind a seated customer.\n\nCamera: Close-up perspective focusing on the bowl with shallow depth of field blurring the background slightly.\n\nLighting: Warm golden sunlight streams through the window on the left, casting soft highlights and creating a comforting atmosphere.\nSecond \n\nSubject: A person sits at the counter in the background facing away from the camera.\n\nObjects: Wooden chopsticks rest on a holder, a wooden spoon, a glass of water, and a small ceramic jar are placed beside the bowl.\n\nText/Graphics: Japanese characters appear on hanging banners above the counter reading \"ラーメン 徳兵衛\".\n\nStyle Details: Anime-style illustration with vibrant colors, detailed food textures, and soft ambient lighting effects.",
+    "prompt": "A steaming bowl of ramen sits in the foreground on a rustic wooden table inside a traditional Japanese restaurant.\n\nSubject: A large ceramic bowl filled with rich broth, thick noodles, two slices of chashu pork belly, chopped green onions, a soft-boiled egg with a runny yolk, and a piece of nori seaweed resting on the rim.\n\nClothing: The background figure wears a grey shirt and dark apron.\n\nAction: Steam rises gently from the hot soup, indicating it is freshly served and ready to eat.\n\nEnvironment: A cozy ramen shop interior with wooden walls, sliding paper doors, and a counter where bottles of sake are lined up behind a seated customer.\n\nCamera: Close-up perspective focusing on the bowl with shallow depth of field blurring the background slightly.\n\nLighting: Warm golden sunlight streams through the window on the left, casting soft highlights and creating a comforting atmosphere.\nSecond \n\nSubject: A person sits at the counter in the background facing away from the camera.\n\nObjects: Wooden chopsticks rest on a holder, a wooden spoon, a glass of water, and a small ceramic jar are placed beside the bowl.\n\nText/Graphics: Japanese characters appear on hanging banners above the counter reading \"\u30e9\u30fc\u30e1\u30f3 \u5fb3\u5175\u885b\".\n\nStyle Details: Anime-style illustration with vibrant colors, detailed food textures, and soft ambient lighting effects.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "76.9K",
     "likes": "13.9K",
@@ -28307,7 +29623,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Flux 1.1 Pro",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/78801926.webp",
     "aspectRatio": "16:9",
-    "prompt": "Monkey D. Luffy lunges forward with a dynamic, high-energy pose in a modern streetwear outfit.\n\nSubject: Monkey D. Luffy from One Piece, wearing his signature straw hat and displaying an energetic, determined expression with wide eyes and a grin.\n\nClothing: A red hooded jacket with white accents, black cargo pants, and red and white sneakers featuring skull logos; he wears a backpack with visible straps and tags.\n\nAction: Leaping forward with one fist extended toward the viewer and the other arm bent back, conveying intense motion and impact.\n\nEnvironment: A stylized graphic background with bold red and yellow lightning-like streaks radiating outward against a clean white backdrop.\n\nCamera: Dynamic low-angle perspective emphasizing height and power, with sharp focus on the character’s face and fist.\n\nLighting: Bright, high-contrast lighting that highlights the subject with clean shadows and vivid color saturation.\n\nStyle Details: Anime manga art style with bold lines, vibrant colors, energetic composition, and graphic novel aesthetic typical of One Piece promotional material.",
+    "prompt": "Monkey D. Luffy lunges forward with a dynamic, high-energy pose in a modern streetwear outfit.\n\nSubject: Monkey D. Luffy from One Piece, wearing his signature straw hat and displaying an energetic, determined expression with wide eyes and a grin.\n\nClothing: A red hooded jacket with white accents, black cargo pants, and red and white sneakers featuring skull logos; he wears a backpack with visible straps and tags.\n\nAction: Leaping forward with one fist extended toward the viewer and the other arm bent back, conveying intense motion and impact.\n\nEnvironment: A stylized graphic background with bold red and yellow lightning-like streaks radiating outward against a clean white backdrop.\n\nCamera: Dynamic low-angle perspective emphasizing height and power, with sharp focus on the character\u2019s face and fist.\n\nLighting: Bright, high-contrast lighting that highlights the subject with clean shadows and vivid color saturation.\n\nStyle Details: Anime manga art style with bold lines, vibrant colors, energetic composition, and graphic novel aesthetic typical of One Piece promotional material.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "89.3K",
     "likes": "15.9K",
@@ -28864,7 +30180,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/63162834.webp",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long dark wavy hair stands in a stadium balcony overlooking a cricket match at night.\n\nSubject: A smiling young woman with long dark wavy hair standing in profile facing the camera while looking over her shoulder.\n\nClothing: She wears a blue Adidas sports jersey with white stripes and gold accents, paired with a white ruffled skirt. She carries a quilted beige handbag with a gold chain strap and wears an orange wristband on her left arm.\n\nAction: She holds a black smartphone in her left hand while leaning against a glass railing. Her expression is cheerful with a bright smile as she looks back at the viewer.\n\nEnvironment: The setting is a large cricket stadium filled with spectators wearing blue jerseys. A green pitch is visible in the background with players on the field and advertising boards for Hyundai and DP World along the boundary. Tall floodlights illuminate the scene against a dark night sky.\n\nCamera: The shot uses a medium framing angle from slightly below, capturing the subject clearly while keeping the stadium background softly blurred to emphasize depth.\n\nLighting: Bright artificial stadium lights create strong highlights on the subject’s hair and face, casting soft shadows and giving the scene a vibrant nighttime atmosphere.\n\nStyle Details: The image has a natural photographic quality with realistic textures, slight motion blur in the background, and warm color tones typical of evening sports photography.",
+    "prompt": "A young woman with long dark wavy hair stands in a stadium balcony overlooking a cricket match at night.\n\nSubject: A smiling young woman with long dark wavy hair standing in profile facing the camera while looking over her shoulder.\n\nClothing: She wears a blue Adidas sports jersey with white stripes and gold accents, paired with a white ruffled skirt. She carries a quilted beige handbag with a gold chain strap and wears an orange wristband on her left arm.\n\nAction: She holds a black smartphone in her left hand while leaning against a glass railing. Her expression is cheerful with a bright smile as she looks back at the viewer.\n\nEnvironment: The setting is a large cricket stadium filled with spectators wearing blue jerseys. A green pitch is visible in the background with players on the field and advertising boards for Hyundai and DP World along the boundary. Tall floodlights illuminate the scene against a dark night sky.\n\nCamera: The shot uses a medium framing angle from slightly below, capturing the subject clearly while keeping the stadium background softly blurred to emphasize depth.\n\nLighting: Bright artificial stadium lights create strong highlights on the subject\u2019s hair and face, casting soft shadows and giving the scene a vibrant nighttime atmosphere.\n\nStyle Details: The image has a natural photographic quality with realistic textures, slight motion blur in the background, and warm color tones typical of evening sports photography.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "160.6K",
     "likes": "4.9K",
@@ -29459,7 +30775,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "DALL-E 3",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/21982376.webp",
     "aspectRatio": "16:9",
-    "prompt": "A bust sculpture of a man’s head and shoulders constructed entirely from jagged shards of dark grey slate and lighter tan stone fragments.\n\nSubject: A male face with short spiky hair, deep-set eyes, and a neutral expression, formed by irregular rock pieces fitted together to mimic facial features.\n\nClothing: No clothing is visible; the sculpture extends down to the shoulders where it merges into a pile of loose rocks on the surface.\n\nAction: The figure stands still in a frontal pose with no movement, surrounded by scattered debris and small stones at its base.\n\nEnvironment: A minimalist white studio setting with a seamless background and a clean floor that catches fallen fragments.\n\nCamera: Shot from eye level with a straight-on angle, using a medium close-up framing to emphasize the texture and form of the sculpture.\n\nLighting: Soft, diffused lighting from the front creates gentle shadows within the crevices between stones, highlighting depth without harsh contrast.\n\nStyle Details: Hyper-realistic material rendering with high-definition texture detail, emphasizing the roughness of stone and natural color variations in a photorealistic style.",
+    "prompt": "A bust sculpture of a man\u2019s head and shoulders constructed entirely from jagged shards of dark grey slate and lighter tan stone fragments.\n\nSubject: A male face with short spiky hair, deep-set eyes, and a neutral expression, formed by irregular rock pieces fitted together to mimic facial features.\n\nClothing: No clothing is visible; the sculpture extends down to the shoulders where it merges into a pile of loose rocks on the surface.\n\nAction: The figure stands still in a frontal pose with no movement, surrounded by scattered debris and small stones at its base.\n\nEnvironment: A minimalist white studio setting with a seamless background and a clean floor that catches fallen fragments.\n\nCamera: Shot from eye level with a straight-on angle, using a medium close-up framing to emphasize the texture and form of the sculpture.\n\nLighting: Soft, diffused lighting from the front creates gentle shadows within the crevices between stones, highlighting depth without harsh contrast.\n\nStyle Details: Hyper-realistic material rendering with high-definition texture detail, emphasizing the roughness of stone and natural color variations in a photorealistic style.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "231.9K",
     "likes": "16.4K",
@@ -29486,7 +30802,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/57316084.webp",
     "aspectRatio": "16:9",
-    "prompt": "A translucent glass sculpture of a couple embracing in an intimate pose stands on a wet cobblestone path scattered with fallen autumn leaves.\n\nSubject: A man and woman sculpted from clear, transparent material resembling glass or crystal, their faces nearly touching in a tender moment. The woman has long hair tied back in a ponytail that appears to be melting or dripping down her side like liquid, while the man’s hair is short and neatly styled. Both figures have smooth, reflective surfaces with subtle internal refractions.\n\nClothing: The woman wears a flowing gown with vertical ridges mimicking fabric folds, accented with golden highlights along the bodice and neckline. The man is dressed in a tailored suit jacket with lapels and a pocket square, also rendered in glass-like material with visible seams and structure.\n\nAction: They are locked in an embrace, arms wrapped around each other’s waists and backs, heads tilted toward one another as if about to kiss. Their expressions are serene and affectionate, conveying deep emotional connection.\n\nEnvironment: The setting is a damp outdoor path lined with blurred trees and foliage suggesting a forest or park during autumn. Fallen brown leaves lie scattered across the wet ground, reflecting ambient light. A soft bokeh background enhances depth and focus on the central figures.\n\nCamera: Shot from a low angle looking up at the sculpture, emphasizing its height and fragility. The composition centers the couple with shallow depth of field blurring the surroundings to isolate them emotionally and visually.\n\nLighting: Warm backlighting filters through the trees above, creating a glowing halo effect around the glass figures and casting gentle shadows beneath them. The light enhances transparency and highlights internal reflections within the material.\n\nStyle Details: Hyper-realistic photography with high detail in texture and refraction; color grading leans toward warm golden tones contrasting with cool glass hues; no digital art or rendering artifacts present—pure photographic realism capturing an ethereal, dreamlike moment.",
+    "prompt": "A translucent glass sculpture of a couple embracing in an intimate pose stands on a wet cobblestone path scattered with fallen autumn leaves.\n\nSubject: A man and woman sculpted from clear, transparent material resembling glass or crystal, their faces nearly touching in a tender moment. The woman has long hair tied back in a ponytail that appears to be melting or dripping down her side like liquid, while the man\u2019s hair is short and neatly styled. Both figures have smooth, reflective surfaces with subtle internal refractions.\n\nClothing: The woman wears a flowing gown with vertical ridges mimicking fabric folds, accented with golden highlights along the bodice and neckline. The man is dressed in a tailored suit jacket with lapels and a pocket square, also rendered in glass-like material with visible seams and structure.\n\nAction: They are locked in an embrace, arms wrapped around each other\u2019s waists and backs, heads tilted toward one another as if about to kiss. Their expressions are serene and affectionate, conveying deep emotional connection.\n\nEnvironment: The setting is a damp outdoor path lined with blurred trees and foliage suggesting a forest or park during autumn. Fallen brown leaves lie scattered across the wet ground, reflecting ambient light. A soft bokeh background enhances depth and focus on the central figures.\n\nCamera: Shot from a low angle looking up at the sculpture, emphasizing its height and fragility. The composition centers the couple with shallow depth of field blurring the surroundings to isolate them emotionally and visually.\n\nLighting: Warm backlighting filters through the trees above, creating a glowing halo effect around the glass figures and casting gentle shadows beneath them. The light enhances transparency and highlights internal reflections within the material.\n\nStyle Details: Hyper-realistic photography with high detail in texture and refraction; color grading leans toward warm golden tones contrasting with cool glass hues; no digital art or rendering artifacts present\u2014pure photographic realism capturing an ethereal, dreamlike moment.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "225.7K",
     "likes": "15.4K",
@@ -30039,7 +31355,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/30232316.webp",
     "aspectRatio": "16:9",
-    "prompt": "A dynamic 3D animated girl with purple hair in a high ponytail adorned with heart-shaped clips and a grape accessory, wearing a red Spain soccer jersey, navy shorts, red socks, and red sneakers, striking an energetic pose mid-motion.\n\nSubject: A young girl with vibrant purple hair styled in a high ponytail, large expressive eyes, and a cheerful smile.\n\nClothing: Red short-sleeved soccer jersey with yellow trim, navy blue shorts with the Spanish flag emblem, red socks with black stripes, and red and white sneakers.\n\nAction: The character is posed dynamically with one leg lifted and arms extended outward as if dancing or celebrating.\n\nEnvironment: A gritty urban concrete wall background featuring a large mural of the same character in motion behind her.\n\nCamera: Medium shot capturing full body pose with slight low angle to emphasize energy and height.\n\nLighting: Bright, even lighting with soft shadows under feet and on the ground, highlighting the character’s form against the textured wall.\n\nStyle Details: 3D animated style with stylized proportions reminiscent of modern cartoon aesthetics, vibrant colors, clean lines, and a polished digital render finish.\n\nText/Graphics: Large yellow text reading “SPAIN” and white text reading “2026” painted on the wall; also visible is the Spanish Football Federation crest (RFEF) with crown and pillars above the text.",
+    "prompt": "A dynamic 3D animated girl with purple hair in a high ponytail adorned with heart-shaped clips and a grape accessory, wearing a red Spain soccer jersey, navy shorts, red socks, and red sneakers, striking an energetic pose mid-motion.\n\nSubject: A young girl with vibrant purple hair styled in a high ponytail, large expressive eyes, and a cheerful smile.\n\nClothing: Red short-sleeved soccer jersey with yellow trim, navy blue shorts with the Spanish flag emblem, red socks with black stripes, and red and white sneakers.\n\nAction: The character is posed dynamically with one leg lifted and arms extended outward as if dancing or celebrating.\n\nEnvironment: A gritty urban concrete wall background featuring a large mural of the same character in motion behind her.\n\nCamera: Medium shot capturing full body pose with slight low angle to emphasize energy and height.\n\nLighting: Bright, even lighting with soft shadows under feet and on the ground, highlighting the character\u2019s form against the textured wall.\n\nStyle Details: 3D animated style with stylized proportions reminiscent of modern cartoon aesthetics, vibrant colors, clean lines, and a polished digital render finish.\n\nText/Graphics: Large yellow text reading \u201cSPAIN\u201d and white text reading \u201c2026\u201d painted on the wall; also visible is the Spanish Football Federation crest (RFEF) with crown and pillars above the text.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "300.1K",
     "likes": "4.9K",
@@ -30663,7 +31979,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "model": "Midjourney v6.1",
     "thumbnail": "https://promptdexter.com/images/explore-thumbnails/41561882.webp",
     "aspectRatio": "16:9",
-    "prompt": "A woman sits at a small table reading a newspaper in a narrow cobblestone alleyway.\n\nSubject: A woman with shoulder-length brown hair and red lipstick, dressed in a black coat over a black dress, wearing sheer black tights and black ankle boots.\n\nClothing: She wears a long black coat, a black top or dress underneath, sheer black stockings, and black heeled ankle boots.\n\nAction: She is seated on a folding chair, holding an open newspaper with both hands, looking down at the text with a focused expression.\n\nEnvironment: A narrow European-style street paved with cobblestones, flanked by tall buildings with warm ochre and terracotta walls, green shutters, and balconies.\n\nObjects: A small round metal table with thin legs sits beside her, holding a glass of water and the newspaper she is reading.\n\nLighting: Warm golden sunlight bathes the scene from above, casting soft shadows on the cobblestones and illuminating the woman’s face and hair.\n\nCamera: Shot from a slightly low angle looking up at the subject, with a shallow depth of field that blurs the background alleyway to emphasize her presence.\n\nStyle Details: Cinematic composition with rich warm tones, high contrast between light and shadow, and a polished, editorial aesthetic reminiscent of fashion photography.",
+    "prompt": "A woman sits at a small table reading a newspaper in a narrow cobblestone alleyway.\n\nSubject: A woman with shoulder-length brown hair and red lipstick, dressed in a black coat over a black dress, wearing sheer black tights and black ankle boots.\n\nClothing: She wears a long black coat, a black top or dress underneath, sheer black stockings, and black heeled ankle boots.\n\nAction: She is seated on a folding chair, holding an open newspaper with both hands, looking down at the text with a focused expression.\n\nEnvironment: A narrow European-style street paved with cobblestones, flanked by tall buildings with warm ochre and terracotta walls, green shutters, and balconies.\n\nObjects: A small round metal table with thin legs sits beside her, holding a glass of water and the newspaper she is reading.\n\nLighting: Warm golden sunlight bathes the scene from above, casting soft shadows on the cobblestones and illuminating the woman\u2019s face and hair.\n\nCamera: Shot from a slightly low angle looking up at the subject, with a shallow depth of field that blurs the background alleyway to emphasize her presence.\n\nStyle Details: Cinematic composition with rich warm tones, high contrast between light and shadow, and a polished, editorial aesthetic reminiscent of fashion photography.",
     "negativePrompt": "blurry, deformed, oversaturated, bad anatomy, artificial artifacts, extra limbs",
     "views": "61.4K",
     "likes": "13.9K",
@@ -30825,12 +32141,10 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
 ];
 
 export const AI_MODELS = [
-  { id: "chatgpt", name: "ChatGPT-4o", provider: "OpenAI", color: "from-emerald-500 to-teal-600" },
-  { id: "o3-mini", name: "OpenAI o3-mini", provider: "OpenAI", color: "from-green-600 to-emerald-700" },
-  { id: "gemini", name: "Google Gemini 2.5", provider: "Google DeepMind", color: "from-blue-500 to-indigo-600" },
-  { id: "claude", name: "Claude 3.7 Sonnet", provider: "Anthropic", color: "from-amber-500 to-orange-600" },
-  { id: "deepseek", name: "DeepSeek R1", provider: "DeepSeek", color: "from-cyan-500 to-blue-600" },
-  { id: "qwen", name: "Qwen 2.5 Max", provider: "Alibaba Cloud", color: "from-sky-500 to-indigo-600" },
-  { id: "kimi", name: "Kimi Moonshot", provider: "Moonshot", color: "from-purple-500 to-pink-600" },
-  { id: "groq", name: "Groq LLaMA 3.3", provider: "Meta / Groq", color: "from-orange-500 to-red-600" },
+  { id: "chatgpt", name: "ChatGPT-4o", provider: "OpenAI", badge: "GPT-4o", color: "from-emerald-500 to-teal-600" },
+  { id: "gemini", name: "Gemini 2.0 Flash", provider: "Google DeepMind", badge: "Gemini Pro", color: "from-blue-500 to-indigo-600" },
+  { id: "claude", name: "Claude 3.5 Sonnet", provider: "Anthropic", badge: "Claude 3.5", color: "from-amber-500 to-orange-600" },
+  { id: "kimi", name: "Kimi / Kivi AI", provider: "Moonshot", badge: "Kimi K1", color: "from-purple-500 to-pink-600" },
+  { id: "deepseek", name: "DeepSeek R1", provider: "DeepSeek", badge: "R1 Reasoner", color: "from-cyan-500 to-blue-600" },
+  { id: "groq", name: "Groq LLaMA 3.3", provider: "Meta / Groq", badge: "Ultra Fast", color: "from-orange-500 to-red-600" },
 ];
