@@ -24,7 +24,9 @@ export async function POST(req: NextRequest) {
       // 5. PDF & Productivity Tools
       `https://${HOST}/image-to-pdf`,
       `https://${HOST}/pdf-to-image`,
-      `https://${HOST}/pdf-editor`
+      `https://${HOST}/pdf-editor`,
+      // 6. Alternatives & Competitors
+      `https://${HOST}/aipromptgenerator-alternatives`
     ];
 
     const payload = {

@@ -11,6 +11,7 @@ import { CharactersGallery } from "@/components/CharactersGallery";
 import { AllServicesDashboard } from "@/components/AllServicesDashboard";
 import { BlogsAndFaqSection } from "@/components/BlogsAndFaqSection";
 import { BacklinkDirectorySection } from "@/components/BacklinkDirectorySection";
+import { AlternativesComparisonSection } from "@/components/AlternativesComparisonSection";
 import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
 import { Dices } from "lucide-react";
 import confetti from "canvas-confetti";
@@ -326,8 +327,14 @@ export default function HomePage() {
             </div>
           )}
 
-          {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs (Hidden from casual glance, reached only at very bottom scroll) */}
+          {/* AIPromptGenerator.app Alternatives & Competitors 2026 Comparison Matrix */}
+          <AlternativesComparisonSection />
+
+          {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs */}
           <BlogsAndFaqSection />
+
+          {/* AI Backlink Directory & Ecosystem Directory */}
+          <BacklinkDirectorySection />
 
           {/* Clean, Modern, Organized 4-Column Footer */}
           <footer className="mt-20 pt-12 pb-10 border-t border-slate-200 text-slate-600 bg-white/50 rounded-3xl p-6 sm:p-10 border shadow-xs space-y-8 font-outfit">

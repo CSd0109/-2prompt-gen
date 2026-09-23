@@ -307,5 +307,43 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "No! Our online PDF editor runs directly in your browser with zero installations required."
       }
     ]
+  },
+
+  // 6. COMPETITOR & ALTERNATIVES TARGETING
+  "aipromptgenerator-alternatives": {
+    slug: "aipromptgenerator-alternatives",
+    title: "AIPromptGenerator.app Alternatives & Top Competitors (2026)",
+    h1: "Best AIPromptGenerator.app Alternatives & Competitors – 100% Free & Unlimited",
+    metaTitle: "AIPromptGenerator.app Alternatives & Competitors – Best Free Tools 2026",
+    metaDescription: "Discover the best AIPromptGenerator.app alternatives based on verified products, community votes and reviews. Create better AI prompts for ChatGPT, Claude, Gemini, Grok, Nano Banana & Veo for free.",
+    keywords: [
+      "AIPromptGenerator.app alternatives",
+      "AIPromptGenerator alternatives",
+      "AIPromptGenerator.app competitors",
+      "Generate Prompt AI",
+      "AI Prompt Finder",
+      "AIPromptHub.org",
+      "ProperPrompt",
+      "create better ai prompts",
+      "copy-ready prompts for free",
+      "free ai prompt generator without login"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Looking for the top AIPromptGenerator.app alternatives? Top benefits are Ease of Use, Time-Saving, Versatility, Inspiration for Creativity, and Accessible for Beginners. Discover copy-ready prompts for ChatGPT, Claude, Gemini, Grok, Nano Banana, and Veo with zero login and zero credit caps.",
+    faqs: [
+      {
+        q: "What are the top features of AIPromptGenerator.app?",
+        a: "Some of the top features or benefits of AIPromptGenerator.app are: Ease of Use, Time-Saving, Versatility, Inspiration for Creativity, and Accessible for Beginners."
+      },
+      {
+        q: "What are the best alternatives to AIPromptGenerator.app?",
+        a: "The top competitors and alternatives are AI Prompt Generate (100% free with unlimited generations), Generate Prompt AI, AI Prompt Finder, AIPromptHub.org, ProperPrompt, and PromptBase."
+      },
+      {
+        q: "Is there a completely free alternative to AIPromptGenerator.app without login?",
+        a: "Yes! AI Prompt Generate (www.aipromptgenerate.xyz) is 100% free forever with no credit limits, no subscription fees, and no sign-up required."
+      }
+    ]
   }
 };

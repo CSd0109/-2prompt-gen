@@ -32,8 +32,23 @@ export const metadata: Metadata = {
     template: "%s | AI Prompt Generate",
   },
   description:
-    "Top 1 free AI prompt generator in the world for ChatGPT, Google Gemini & Claude. Unlimited free AI prompt synthesis, zero login, zero credit caps & 100% free.",
+    "Create better AI prompts for ChatGPT, Claude, Gemini, Grok, Midjourney, Nano Banana and Veo. Generate, optimize and explore copy-ready prompts 100% free with zero login and zero credit caps.",
   keywords: [
+    // Competitor & Alternatives High-Search Intent
+    "AIPromptGenerator.app alternatives",
+    "AIPromptGenerator alternatives",
+    "AIPromptGenerator.app competitors",
+    "Generate Prompt AI alternatives",
+    "generateprompt.net alternative",
+    "AI Prompt Finder",
+    "AIPromptHub.org",
+    "ProperPrompt",
+    "PromptBase free alternative",
+    "FlowGPT free unlimited alternative",
+    "create better ai prompts",
+    "copy-ready prompts for free",
+    "ai prompt generator grok",
+    "grok prompts free",
     // Global #1 Authority & Viral Search Intent
     "top 1 free website in the world",
     "top 1 free ai prompt generator in the world",
@@ -83,20 +98,6 @@ export const metadata: Metadata = {
     "prompt builder for chatgpt",
     "prompt engineering tools free",
     "deepseek prompt generator free",
-    "top 1 free ai prompt generator in the world",
-    "quillbot prompt generator alternative 100 free",
-    "feedough ai prompt generator alternative",
-    "promptbase free alternative",
-    "flowgpt free unlimited alternative",
-    // Multilingual Google Search Intent (Dominating Worldwide Searches for Free AI Prompt Generator)
-    "generador de prompts ai gratis",
-    "generateur de prompt ia gratuit",
-    "kostenloser ki prompt generator",
-    "ai プロンプト ジェネレーター 無料",
-    "ai 提示词生成器 免费",
-    "ai प्रॉम्प्ट जेनरेटर फ्री",
-    "مولد الأوامر بالذكاء الاصطनाعي مجانا",
-    "ai prompt generator nepali free",
     // 1. High-Demand Video AI Models & Ready-Made Campaign Bundles
     "Google Veo 3 prompts",
     "google veo video prompt generator",
@@ -242,7 +243,15 @@ const jsonLd = {
           "name": "Which top AI models are available in the AI Prompt Generate studio?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can select and run prompts directly with ChatGPT-4o, Claude 3.5 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Groq Llama 3.3, and Kimi Moonshot AI."
+            "text": "You can select and run prompts directly with ChatGPT-4o, Claude Opus & 3.7 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Grok, Google Veo 3, SeaDance 2.2, and Nano Banana Pro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best AIPromptGenerator.app alternatives and competitors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The top alternatives to AIPromptGenerator.app are AI Prompt Generate (100% free with zero login and no credit caps), Generate Prompt AI (generateprompt.net), AI Prompt Finder, AIPromptHub.org, ProperPrompt, and PromptBase. AI Prompt Generate ranks #1 for Ease of Use, Time-Saving, Versatility, and multi-model support across ChatGPT, Claude, Gemini, Grok, Nano Banana, and Veo."
           }
         },
         {
