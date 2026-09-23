@@ -206,9 +206,9 @@ export default function HomePage() {
         />
 
         {/* Main Feed: Clean Command Box Directly at Top */}
-        <main className="flex-1 p-4 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: Ultra Bold Black with Live Typing/Erasing Animation */}
-          <div className="w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-3xl mx-auto">
+        <main className="flex-1 p-2.5 sm:p-6 w-full max-w-[1750px]">
+          {/* Header Intro: Desktop Only with Live Typing Animation (Hidden on phone for clean zero-distraction experience) */}
+          <div className="hidden sm:block w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-3xl mx-auto">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-outfit text-black tracking-tight leading-tight flex items-center justify-center flex-wrap gap-x-2">
               <span>Free AI Prompts for</span>
               <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-black">
@@ -222,8 +222,11 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* Top Gemini-Style White Pill Command Bar */}
-          <section className="mb-6 w-full flex justify-center pt-2">
+          {/* 1. Universal Social Media Video Downloader (Top Section on Mobile) */}
+          <SocialVideoDownloader />
+
+          {/* 2. Command Box (Professional Clean Box, Model Chooser Only, Zero Clutter) */}
+          <section className="mb-4 sm:mb-6 w-full flex justify-center pt-1 sm:pt-2">
             <PromptGeneratorStudio 
               compact={true} 
               showAllServices={showAllServices}
@@ -240,14 +243,12 @@ export default function HomePage() {
             </section>
           )}
 
-          {/* Universal Social Media Video Downloader (Facebook, TikTok, Instagram, Shorts) */}
-          <SocialVideoDownloader />
-
+          {/* 3. Prompt Image Gallery (Directly below Command Box) */}
           {currentTab === "characters" ? (
             <CharactersGallery />
           ) : (
             /* Prompt Gallery Section */
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6 pt-1">
               <div className="flex items-center justify-between border-b border-slate-200 pb-3">
                 <div className="flex items-center gap-2.5">
                   <h2 className="text-base sm:text-xl font-extrabold text-slate-900 tracking-tight">
@@ -287,8 +288,8 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* Grid of Cards (Responsive YouTube 4 Columns) - Instant Fast Render */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-x-4 gap-y-9">
+            {/* Responsive Visual Grid: 2 clean columns on phone, 3-4 columns on desktop */}
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-2.5 sm:gap-5">
               {visiblePrompts.map((item) => (
                 <PromptCard
                   key={item.id}

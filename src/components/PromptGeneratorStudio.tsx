@@ -187,8 +187,8 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
   return (
     <div className={`w-full mx-auto flex flex-col items-center ${compact ? "pt-0 pb-2 max-w-4xl" : "pt-4 sm:pt-8 max-w-4xl"}`}>
-      {/* 1. Category Switcher Pills - Clean Circular Font & Zero Clutter */}
-      <div className="flex flex-wrap items-center justify-center gap-2.5 mb-3">
+      {/* 1. Category Switcher Pills - Desktop Only to keep Mobile 100% clean and clutter-free */}
+      <div className="hidden sm:flex flex-wrap items-center justify-center gap-2.5 mb-3">
         <div className="flex items-center gap-1.5 bg-white p-1 rounded-full border border-slate-300 shadow-xs font-outfit">
           <button
             type="button"
@@ -356,12 +356,12 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 )}
               </div>
 
-              {/* ALL SERVICES BABAL BUTTON */}
+              {/* ALL SERVICES BABAL BUTTON (Desktop Only) */}
               {onToggleAllServices && (
                 <button
                   type="button"
                   onClick={onToggleAllServices}
-                  className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black transition-all active:scale-95 shadow-sm font-outfit border ${
+                  className={`hidden sm:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black transition-all active:scale-95 shadow-sm font-outfit border ${
                     showAllServices
                       ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white border-purple-500 shadow-md ring-2 ring-purple-300"
                       : "bg-gradient-to-r from-slate-900 to-indigo-950 hover:from-purple-700 hover:to-indigo-700 text-white border-slate-800 hover:shadow-md"
