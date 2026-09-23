@@ -390,32 +390,32 @@ export default function HomePage() {
               {/* Col 3: Prompt Galleries */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                  Prompt Galleries
+                  Video AI Galleries
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <Link href="/couple-poses-prompts" className="hover:text-purple-600 transition block">
-                      Couple Poses Prompts
+                    <Link href="/veo-video-prompts" className="hover:text-purple-600 transition block">
+                      Google Veo 3 Prompts (4K)
                     </Link>
                   </li>
                   <li>
-                    <Link href="/ai-characters" className="hover:text-purple-600 transition block">
-                      AI Characters & Models
+                    <Link href="/seadance-video-prompts" className="hover:text-purple-600 transition block">
+                      SeaDance 2.2 Fluid Physics
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/video-campaign-bundles" className="hover:text-purple-600 transition block">
+                      Viral Video Campaign Bundles
                     </Link>
                   </li>
                   <li>
                     <Link href="/video-prompts" className="hover:text-purple-600 transition block">
-                      Video Prompts (Sora / Kling)
+                      Sora & Kling AI 1.5 HD
                     </Link>
                   </li>
                   <li>
-                    <Link href="/flux-prompts" className="hover:text-purple-600 transition block">
-                      Flux 1.1 Pro Photorealism
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/midjourney-prompts" className="hover:text-purple-600 transition block">
-                      Midjourney v6.1 Art
+                    <Link href="/ai-characters" className="hover:text-purple-600 transition block">
+                      Consistent AI Characters
                     </Link>
                   </li>
                 </ul>
@@ -428,33 +428,33 @@ export default function HomePage() {
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <Link href="/chatgpt-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                    <Link href="/veo-video-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
+                      <span>Google Veo 3 Video</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/seadance-video-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                      <span>SeaDance 2.2 Dynamic</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/chatgpt-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
                       <span>ChatGPT-4o & Astra</span>
                     </Link>
                   </li>
                   <li>
                     <Link href="/gemini-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                      <span>Google Gemini 2.5 Pro</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/claude-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500"></span>
-                      <span>Claude 3.7 Sonnet</span>
+                      <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+                      <span>Google Gemini 2.5 Flash</span>
                     </Link>
                   </li>
                   <li>
                     <Link href="/deepseek-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-cyan-500"></span>
                       <span>DeepSeek R1 Reasoner</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/flux-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
-                      <span>Flux 1.1 Pro & Schnell</span>
                     </Link>
                   </li>
                 </ul>

@@ -14,6 +14,108 @@ export interface SEOCategoryConfig {
 }
 
 export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
+  "veo-video-prompts": {
+    slug: "veo-video-prompts",
+    title: "Google Veo 3 Prompts",
+    h1: "Google Veo 3 Video Prompts – Cinematic 4K/8K AI Video Prompts (Free)",
+    metaTitle: "Google Veo 3 Video Prompts – Best Free 4K Cinematic AI Prompts",
+    metaDescription: "Master Google Veo 3 with 100% free cinematic text-to-video prompts. Drone flyovers, photorealistic human motion, high-definition camera physics, and zero login.",
+    keywords: [
+      "google veo 3 prompts",
+      "google veo prompts",
+      "veo 3 video prompt generator",
+      "google deepmind veo prompts",
+      "free veo 3 prompts copy paste",
+      "google veo cinematic prompts",
+      "google veo text to video prompts"
+    ],
+    filterType: "custom",
+    filterValue: "veo",
+    introText: "Unlock the cutting-edge power of Google DeepMind Veo 3. Our master prompt templates feature advanced camera direction, photorealistic lighting, physics accuracy, and high-frame-rate cinematic motions.",
+    faqs: [
+      {
+        q: "How to prompt Google Veo 3 for photorealistic videos?",
+        a: "Google Veo 3 excels at understanding natural cinematic terminology. Always specify lens types (e.g. 35mm anamorphic), camera movements (e.g. slow crane push-in), and precise lighting conditions."
+      },
+      {
+        q: "Are these Google Veo 3 prompts free for commercial campaigns?",
+        a: "Yes! All Veo 3 prompts are 100% free to copy, tweak, and use in commercial video ads and digital content."
+      }
+    ]
+  },
+  "seadance-video-prompts": {
+    slug: "seadance-video-prompts",
+    title: "SeaDance 2.2 Prompts",
+    h1: "SeaDance 2.2 Video Prompts – Fluid Motion & VFX Video Prompts",
+    metaTitle: "SeaDance 2.2 Video Prompts – Dynamic Motion & Physics Prompts Free",
+    metaDescription: "Explore curated SeaDance 2.2 AI video prompts. Engineered for fluid human motions, martial arts, complex water physics, and dynamic camera angles with zero login.",
+    keywords: [
+      "seadance 2.2 prompts",
+      "seadance video prompts",
+      "seadance 2.2 ai video generator",
+      "seadance prompt generator free",
+      "dynamic physics video prompts",
+      "fluid motion ai video prompts"
+    ],
+    filterType: "custom",
+    filterValue: "seadance",
+    introText: "Harness SeaDance 2.2's industry-leading motion dynamics. These prompts are crafted to eliminate video warping, giving you smooth anatomical movement, choreography, and high-energy cinematic pacing.",
+    faqs: [
+      {
+        q: "What makes SeaDance 2.2 prompts special?",
+        a: "SeaDance 2.2 specializes in high-velocity physics, athletic movements, and natural character expressions without frame tearing."
+      }
+    ]
+  },
+  "video-campaign-bundles": {
+    slug: "video-campaign-bundles",
+    title: "Video Campaign Bundles",
+    h1: "Ready-Made AI Video Campaign Bundles – Viral TikTok, Reels & Brand Ads",
+    metaTitle: "Ready-Made AI Video Campaign Bundles – Viral Shorts & Commercial Ads",
+    metaDescription: "Copy ready-to-use AI video prompt bundles for commercial brand campaigns, 10s viral TikTok/Reels hooks, and product launches across Veo, Sora, and Kling AI.",
+    keywords: [
+      "ai video prompt bundle",
+      "commercial ai video prompts",
+      "viral tiktok video prompts ai",
+      "ai video advertising campaign prompts",
+      "readymade video prompt bundle free",
+      "reels hook ai video prompts"
+    ],
+    filterType: "custom",
+    filterValue: "bundles",
+    introText: "Production-ready, multi-scene AI video campaign bundles designed for creators and marketing agencies. Complete with 3-part storyboard prompts (Hook, Body, CTA) optimized for high viewer retention.",
+    faqs: [
+      {
+        q: "How do I use a ready-made video campaign bundle?",
+        a: "Each bundle contains coordinated prompts for Scene 1 (The Hook), Scene 2 (Product/Concept Reveal), and Scene 3 (Resolution). Generate each scene sequentially for a seamless commercial video."
+      }
+    ]
+  },
+  "video-prompts": {
+    slug: "video-prompts",
+    title: "AI Video Prompts (Sora & Kling)",
+    h1: "AI Video Prompts – Cinematic Prompts for OpenAI Sora, Kling & Runway Gen-3",
+    metaTitle: "AI Video Prompts – Cinematic Prompts for Sora, Kling & Runway Gen-3",
+    metaDescription: "Free cinematic video prompts for OpenAI Sora, Kling AI 1.5, Runway Gen-3 Alpha, and Luma Dream Machine. Camera motion, drone flyovers, dynamic pacing.",
+    keywords: [
+      "ai video prompts",
+      "sora prompts",
+      "kling ai prompts",
+      "runway gen 3 prompts",
+      "luma dream machine prompts",
+      "text to video prompts free",
+      "cinematic ai video prompts"
+    ],
+    filterType: "category",
+    filterValue: "video",
+    introText: "Create breathtaking video sequences with motion-engineered prompts for OpenAI Sora, Kling AI 1.5, Runway Gen-3, and Luma Dream Machine. Features camera crane motions, dolly zooms, and dynamic subject movements.",
+    faqs: [
+      {
+        q: "How to describe camera motion in video prompts?",
+        a: "Specify exact camera techniques such as 'fpv drone shot', 'slow push-in tracking shot', or 'cinematic 360 orbit' at the start of your prompt to guide the AI video generator."
+      }
+    ]
+  },
   "chatgpt-prompts": {
     slug: "chatgpt-prompts",
     title: "ChatGPT Prompts",
@@ -32,7 +134,7 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
     ],
     filterType: "custom",
     filterValue: "chatgpt",
-    introText: "Discover the world's most comprehensive library of free ChatGPT prompts. Carefully engineered for GPT-4o, GPT-5, and OpenAI reasoning models to give you instant, photorealistic and high-accuracy outputs without any subscription fees.",
+    introText: "Discover the world's most comprehensive library of free ChatGPT prompts. Carefully engineered for GPT-4o, GPT-5, and OpenAI reasoning models to give you instant, high-accuracy outputs without any subscription fees.",
     faqs: [
       {
         q: "How do I use these ChatGPT prompts?",
@@ -41,10 +143,6 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       {
         q: "Are these ChatGPT prompts 100% free for commercial use?",
         a: "Yes! Every single prompt in our library is free to copy, adapt, and use in your personal or commercial projects without attribution."
-      },
-      {
-        q: "Do these prompts work on ChatGPT-4o and o3-mini?",
-        a: "Yes, all prompts are tested and optimized for ChatGPT-4o, OpenAI o1/o3-mini, and legacy GPT-3.5/GPT-4 models."
       }
     ]
   },
@@ -61,7 +159,7 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       "gemini 2.5 pro prompts",
       "best prompts for google gemini",
       "free gemini prompts copy paste",
-      "gemini image prompts"
+      "gemini video and text prompts"
     ],
     filterType: "custom",
     filterValue: "gemini",
@@ -70,10 +168,6 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       {
         q: "Why use dedicated Google Gemini prompts?",
         a: "Google Gemini excels at large context windows, code interpretation, and multimodal reasoning. Model-specific prompts trigger Gemini's unique strengths for superior formatting and deep factual accuracy."
-      },
-      {
-        q: "Can I use these prompts on the free Google Gemini web app?",
-        a: "Yes, all prompts are fully compatible with the free version of Google Gemini, Gemini Advanced, and Google AI Studio."
       }
     ]
   },
@@ -126,103 +220,6 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       }
     ]
   },
-  "midjourney-prompts": {
-    slug: "midjourney-prompts",
-    title: "Midjourney Prompts",
-    h1: "Midjourney Prompts – 8K Photorealistic & Artistic Prompts (v6.1)",
-    metaTitle: "Midjourney Prompts – 8K Photorealistic & Artistic Prompts (v6.1)",
-    metaDescription: "Browse 1,000+ verified Midjourney v6.1 prompts with aspect ratios, camera parameters (--ar 16:9, --style raw, --v 6.1), and instant copy.",
-    keywords: [
-      "midjourney prompts",
-      "midjourney v6 prompts",
-      "photorealistic midjourney prompts",
-      "midjourney prompt generator free",
-      "best midjourney prompts 2026",
-      "midjourney portrait prompts"
-    ],
-    filterType: "custom",
-    filterValue: "midjourney",
-    introText: "Level up your generative art with production-grade Midjourney v6.1 prompts. Complete with lighting setups, camera lens specifications, artist stylizations, and verified parameter flags.",
-    faqs: [
-      {
-        q: "Do these prompts include Midjourney parameters?",
-        a: "Yes, our Midjourney prompts include recommended parameters such as aspect ratio (--ar 16:9 or --ar 9:16), stylize (--s), and raw mode (--style raw) for instant photorealism."
-      }
-    ]
-  },
-  "flux-prompts": {
-    slug: "flux-prompts",
-    title: "Flux 1.1 Pro Prompts",
-    h1: "Flux Prompts – Photorealistic Prompts for Flux 1.1 Pro & Schnell",
-    metaTitle: "Flux Prompts – Photorealistic Prompts for Flux 1.1 Pro & Schnell",
-    metaDescription: "Master Flux 1.1 Pro and Flux Schnell with free photorealistic text-to-image prompts. Perfect hands, realistic skin textures, cinematic lighting.",
-    keywords: [
-      "flux prompts",
-      "flux 1.1 pro prompts",
-      "flux ai prompt generator",
-      "flux schnell prompts free",
-      "photorealistic flux prompts",
-      "black forest labs flux prompts"
-    ],
-    filterType: "custom",
-    filterValue: "flux",
-    introText: "Flux 1.1 Pro from Black Forest Labs represents the cutting edge of photorealistic AI imagery. Our prompts are tailored to Flux's natural language understanding and anatomical perfection.",
-    faqs: [
-      {
-        q: "Why do Flux prompts use natural language?",
-        a: "Unlike older generators that rely on comma-separated tag soup, Flux's T5-based text encoder understands rich descriptive sentences, spatial relations, and complex lighting descriptions."
-      }
-    ]
-  },
-  "video-prompts": {
-    slug: "video-prompts",
-    title: "AI Video Prompts",
-    h1: "AI Video Prompts – Cinematic Prompts for Sora, Kling, Runway & Luma",
-    metaTitle: "AI Video Prompts – Cinematic Prompts for Sora, Kling & Runway Gen-3",
-    metaDescription: "Free cinematic video prompts for OpenAI Sora, Kling AI, Runway Gen-3 Alpha, and Luma Dream Machine. Camera motion, drone flyovers, dynamic pacing.",
-    keywords: [
-      "ai video prompts",
-      "sora prompts",
-      "kling ai prompts",
-      "runway gen 3 prompts",
-      "luma dream machine prompts",
-      "text to video prompts free",
-      "cinematic ai video prompts"
-    ],
-    filterType: "category",
-    filterValue: "video",
-    introText: "Create breathtaking video sequences with motion-engineered prompts for OpenAI Sora, Kling AI 1.5, Runway Gen-3, and Luma Dream Machine. Features camera crane motions, dolly zooms, and dynamic subject movements.",
-    faqs: [
-      {
-        q: "How to describe camera motion in video prompts?",
-        a: "Specify exact camera techniques such as 'fpv drone shot', 'slow push-in tracking shot', or 'cinematic 360 orbit' at the start of your prompt to guide the AI video generator."
-      }
-    ]
-  },
-  "couple-poses-prompts": {
-    slug: "couple-poses-prompts",
-    title: "Couple Poses Prompts",
-    h1: "Couple Poses Prompts – Romantic, Wedding & Portrait AI Prompts",
-    metaTitle: "Couple Poses Prompts – Romantic, Wedding & Cinematic AI Prompts",
-    metaDescription: "85+ photorealistic couple poses prompts. Romantic sunset walks, editorial fashion couples, candid indoor moments, and Indian/Western wedding photography.",
-    keywords: [
-      "couple poses prompts",
-      "ai couple photo prompt",
-      "romantic couple prompts midjourney",
-      "wedding photography ai prompts",
-      "couple portrait prompts flux",
-      "indian couple ai prompt"
-    ],
-    filterType: "custom",
-    filterValue: "couple",
-    introText: "Capture intimate, authentic emotion with our dedicated couple poses prompt collection. Designed for stunning couple portraits, cinematic romance, and wedding editorials across Flux and Midjourney.",
-    faqs: [
-      {
-        q: "How to achieve realistic face consistency for two people?",
-        a: "Use detailed descriptive prompts specifying distinct clothing, hairstyle, and gaze direction for both partners to prevent face blending in generative models."
-      }
-    ]
-  },
   "ai-characters": {
     slug: "ai-characters",
     title: "AI Characters Prompts",
@@ -234,8 +231,7 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       "ai influencer prompt",
       "consistent ai character prompt",
       "free ai avatar prompts",
-      "photorealistic ai character generator",
-      "banana prompts character alternative"
+      "photorealistic ai character generator"
     ],
     filterType: "custom",
     filterValue: "characters",

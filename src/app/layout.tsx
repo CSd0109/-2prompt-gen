@@ -97,10 +97,18 @@ export const metadata: Metadata = {
     "ai प्रॉम्प्ट जेनरेटर फ्री",
     "مولد الأوامر بالذكاء الاصطनाعي مجانا",
     "ai prompt generator nepali free",
-    // 5% Secondary Focus: Flux, Midjourney & Sora
-    "Midjourney prompts",
-    "Flux 1.1 Pro prompts",
+    // High-Demand Video AI Models & Ready-Made Campaign Bundles
+    "Google Veo 3 prompts",
+    "google veo video prompt generator",
+    "SeaDance 2.2 video prompts",
+    "seadance 2.2 dynamic motion prompts",
     "Sora video prompts",
+    "Kling AI 1.5 HD prompts",
+    "Runway Gen-3 Alpha prompts",
+    "ai video prompt bundle",
+    "readymade video prompt bundle free",
+    "commercial video campaign prompts ai",
+    "viral tiktok video prompts ai",
     "AI characters free download"
   ],
   authors: [{ name: "AI Prompt Generate Team", url: siteUrl }],
@@ -115,28 +123,28 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "AI Prompt Generator – Free ChatGPT, Google Gemini & AI Prompts Studio",
+    title: "AI Prompt Generator – Free Google Veo 3, SeaDance 2.2, ChatGPT & AI Video Studio",
     description:
-      "100% Free AI prompt generator for ChatGPT, Google Gemini, Claude, and modern AI models. Unlimited prompt synthesis, zero login, zero credit limits.",
+      "100% Free AI prompt generator for Google Veo 3, SeaDance 2.2, ChatGPT, Google Gemini, and video campaign bundles. Zero login, zero credit limits.",
     url: siteUrl,
     siteName: "AI Prompt Generate",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+        url: "/top1_free_ai_studio.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Prompt Generate AI Prompts & Characters Gallery",
+        alt: "AI Prompt Generate AI Video & Prompts Studio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Prompt Generate – 100% Free Unlimited AI AI Prompt Generate Hub",
+    title: "AI Prompt Generate – Free Google Veo 3, SeaDance 2.2 & AI Video Prompts",
     description:
-      "Top AI Models: ChatGPT, Claude, Gemini, DeepSeek, Flux 1.1 Pro & Sora. 100% free unlimited prompt generation with zero login.",
-    images: ["https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80"],
+      "Google Veo 3, SeaDance 2.2, Sora, Kling, ChatGPT & Gemini. 100% free unlimited video prompt generation with zero login.",
+    images: ["/top1_free_ai_studio.jpg"],
   },
   robots: {
     index: true,

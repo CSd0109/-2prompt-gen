@@ -98,33 +98,30 @@ export default async function CategoryPage({ params }: Props) {
         item.category === "image"
       );
     }
-    if (config.filterValue === "midjourney") {
+    if (config.filterValue === "veo") {
       return (
-        item.model.toLowerCase().includes("midjourney") ||
-        item.tags.some((t) => t.toLowerCase().includes("midjourney")) ||
-        item.category === "image"
+        item.category === "video" ||
+        item.prompt.toLowerCase().includes("cinematic") ||
+        item.prompt.toLowerCase().includes("drone") ||
+        item.tags.some((t) => t.toLowerCase().includes("video") || t.toLowerCase().includes("cinematic"))
       );
     }
-    if (config.filterValue === "flux") {
+    if (config.filterValue === "seadance") {
       return (
-        item.model.toLowerCase().includes("flux") ||
-        item.tags.some((t) => t.toLowerCase().includes("flux")) ||
-        item.category === "image"
+        item.category === "video" ||
+        item.prompt.toLowerCase().includes("motion") ||
+        item.prompt.toLowerCase().includes("fluid") ||
+        item.tags.some((t) => t.toLowerCase().includes("dynamic"))
+      );
+    }
+    if (config.filterValue === "bundles") {
+      return (
+        item.category === "video" ||
+        item.tags.some((t) => t.toLowerCase().includes("commercial") || t.toLowerCase().includes("trending"))
       );
     }
     if (config.filterValue === "video") {
       return item.category === "video";
-    }
-    if (config.filterValue === "couple") {
-      return (
-        item.category === "image" &&
-        (item.tags.some((t) => t.toLowerCase().includes("couple")) ||
-          item.title.toLowerCase().includes("couple") ||
-          item.prompt.toLowerCase().includes("couple") ||
-          item.prompt.toLowerCase().includes("bride and groom") ||
-          item.prompt.toLowerCase().includes("husband and wife") ||
-          item.prompt.toLowerCase().includes("embracing"))
-      );
     }
     if (config.filterValue === "characters") {
       return (
