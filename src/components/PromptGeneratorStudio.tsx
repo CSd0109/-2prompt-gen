@@ -256,7 +256,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
       {/* 2. GEMINI OFFICIAL BOLD WHITE COMMAND BOX (Drop-DOWNward Menu with Real AI Logos) */}
       <form onSubmit={handleGenerate} className="w-full relative">
-        <div className="relative w-full rounded-3xl bg-white text-slate-900 shadow-[0_10px_35px_-5px_rgba(0,0,0,0.12)] p-4 sm:p-5 flex flex-col border-2 border-slate-300 focus-within:border-blue-600 focus-within:shadow-[0_12px_45px_-5px_rgba(37,99,235,0.2)] transition-all">
+        <div className="relative w-full rounded-2xl sm:rounded-3xl bg-white text-slate-900 shadow-sm sm:shadow-[0_10px_35px_-5px_rgba(0,0,0,0.12)] p-3 sm:p-5 flex flex-col border border-slate-300 focus-within:border-blue-600 focus-within:shadow-[0_12px_45px_-5px_rgba(37,99,235,0.2)] transition-all">
           {/* Uploaded Reference Image Preview Pill */}
           {uploadedImage && (
             <div className="relative inline-flex items-center gap-2 mb-2 p-1.5 pr-3 rounded-2xl bg-purple-50 border border-purple-200 text-purple-900 text-xs font-semibold w-fit">

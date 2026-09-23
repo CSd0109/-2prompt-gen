@@ -333,17 +333,20 @@ export default function HomePage() {
             </div>
           )}
 
-          {/* AIPromptGenerator.app Alternatives & Competitors 2026 Comparison Matrix */}
-          <AlternativesComparisonSection />
+          {/* Desktop-Only Deep SEO Sections (Hidden on mobile so phone is 100% clean, fast, and clutter-free) */}
+          <div className="hidden sm:block">
+            {/* AIPromptGenerator.app Alternatives & Competitors 2026 Comparison Matrix */}
+            <AlternativesComparisonSection />
 
-          {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs */}
-          <BlogsAndFaqSection />
+            {/* Deep Bottom Enterprise Section: 3,000 Blogs & 10,000 FAQs */}
+            <BlogsAndFaqSection />
 
-          {/* AI Backlink Directory & Ecosystem Directory */}
-          <BacklinkDirectorySection />
+            {/* AI Backlink Directory & Ecosystem Directory */}
+            <BacklinkDirectorySection />
 
-          {/* Global Multi-Language International SEO Section (50+ Languages) */}
-          <MultilingualSeoSection />
+            {/* Global Multi-Language International SEO Section (50+ Languages) */}
+            <MultilingualSeoSection />
+          </div>
 
           {/* Clean, Modern, Organized 4-Column Footer */}
           <footer className="mt-20 pt-12 pb-10 border-t border-slate-200 text-slate-600 bg-white/50 rounded-3xl p-6 sm:p-10 border shadow-xs space-y-8 font-outfit">
