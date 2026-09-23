@@ -8,6 +8,7 @@ import { PromptCard } from "@/components/PromptCard";
 import { DetailModal } from "@/components/DetailModal";
 import { PromptGeneratorStudio } from "@/components/PromptGeneratorStudio";
 import { CharactersGallery } from "@/components/CharactersGallery";
+import { AllServicesDashboard } from "@/components/AllServicesDashboard";
 import { BlogsAndFaqSection } from "@/components/BlogsAndFaqSection";
 import { BacklinkDirectorySection } from "@/components/BacklinkDirectorySection";
 import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
@@ -19,6 +20,7 @@ const PAGE_SIZE = 16;
 export default function HomePage() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [currentTab, setCurrentTab] = useState<"gallery" | "generator" | "characters">("gallery");
+  const [showAllServices, setShowAllServices] = useState(false);
   const [selectedFilter, setSelectedFilter] = useState<string>("image");
   const [searchQuery, setSearchQuery] = useState("");
   const [activeModalItem, setActiveModalItem] = useState<PromptItem | null>(null);
@@ -218,9 +220,22 @@ export default function HomePage() {
           </div>
 
           {/* Top Gemini-Style White Pill Command Bar */}
-          <section className="mb-10 w-full flex justify-center pt-2">
-            <PromptGeneratorStudio compact={true} />
+          <section className="mb-6 w-full flex justify-center pt-2">
+            <PromptGeneratorStudio 
+              compact={true} 
+              showAllServices={showAllServices}
+              onToggleAllServices={() => setShowAllServices((prev) => !prev)}
+            />
           </section>
+
+          {/* Babal ALL SERVICES Dashboard (Exact replica of GeneratePrompt.net Free AI Tools) */}
+          {showAllServices && (
+            <section className="w-full flex justify-center mb-10">
+              <AllServicesDashboard 
+                onClose={() => setShowAllServices(false)} 
+              />
+            </section>
+          )}
 
           {currentTab === "characters" ? (
             <CharactersGallery />

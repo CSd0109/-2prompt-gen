@@ -11,6 +11,8 @@ import { AI_MODELS } from "@/lib/data";
 
 interface PromptGeneratorStudioProps {
   compact?: boolean;
+  onToggleAllServices?: () => void;
+  showAllServices?: boolean;
 }
 
 // Official authentic SVG logos for real AI providers
@@ -82,7 +84,7 @@ export function ProviderIcon({ id, className = "w-4 h-4" }: { id: string; classN
   }
 }
 
-export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudioProps) {
+export function PromptGeneratorStudio({ compact = false, onToggleAllServices, showAllServices }: PromptGeneratorStudioProps) {
   const [inputTopic, setInputTopic] = useState("");
   const [selectedModel, setSelectedModel] = useState("chatgpt");
   const [selectedCategory, setSelectedCategory] = useState<"image" | "video" | "ui">("image");
@@ -297,59 +299,80 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           {/* Bottom Bar inside the White Box */}
           <div className="flex items-center justify-between pt-3 mt-1 border-t border-slate-100 relative">
             {/* Left Corner: Clean Circular Pill Model Dropdown (Opens DOWNWARD) */}
-            <div className="relative">
-              <button
-                type="button"
-                onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
-                className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold transition active:scale-95 border border-slate-200 shadow-2xs font-outfit"
-              >
-                <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
-                <span className="font-extrabold text-slate-900 tracking-tight">{activeModelObj.name}</span>
-                <ChevronDown className={`w-3.5 h-3.5 text-slate-600 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
-              </button>
+            <div className="flex items-center gap-2">
+              <div className="relative">
+                <button
+                  type="button"
+                  onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
+                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-bold transition active:scale-95 border border-slate-200 shadow-2xs font-outfit"
+                >
+                  <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
+                  <span className="font-extrabold text-slate-900 tracking-tight">{activeModelObj.name}</span>
+                  <ChevronDown className={`w-3.5 h-3.5 text-slate-600 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
+                </button>
 
-              {/* Model Dropdown Menu (OPENS DOWNWARDS) */}
-              {modelDropdownOpen && (
-                <>
-                  <div
-                    className="fixed inset-0 z-40"
-                    onClick={() => setModelDropdownOpen(false)}
-                  />
-                  <div className="absolute left-0 top-full mt-2 w-72 rounded-2xl bg-white border-2 border-slate-200 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
-                    <div className="px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1 flex items-center justify-between">
-                      <span>Select AI Model</span>
-                      <span className="text-[10px] text-emerald-600 font-bold">● Active Engine</span>
+                {/* Model Dropdown Menu (OPENS DOWNWARDS) */}
+                {modelDropdownOpen && (
+                  <>
+                    <div
+                      className="fixed inset-0 z-40"
+                      onClick={() => setModelDropdownOpen(false)}
+                    />
+                    <div className="absolute left-0 top-full mt-2 w-72 rounded-2xl bg-white border-2 border-slate-200 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
+                      <div className="px-3 py-1.5 text-[11px] font-extrabold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1 flex items-center justify-between">
+                        <span>Select AI Model</span>
+                        <span className="text-[10px] text-emerald-600 font-bold">● Active Engine</span>
+                      </div>
+                      <div className="space-y-1">
+                        {AI_MODELS.map((m) => {
+                          const isSelected = selectedModel === m.id;
+                          return (
+                            <button
+                              key={m.id}
+                              type="button"
+                              onClick={() => {
+                                setSelectedModel(m.id);
+                                setModelDropdownOpen(false);
+                              }}
+                              className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left text-sm font-outfit transition ${
+                                isSelected
+                                  ? "bg-blue-50 text-blue-700 font-extrabold border border-blue-200 shadow-2xs"
+                                  : "text-slate-700 hover:bg-slate-100 hover:text-slate-900 font-bold"
+                              }`}
+                            >
+                              <div className="flex items-center gap-2.5">
+                                <ProviderIcon id={m.id} className="w-5 h-5 flex-shrink-0" />
+                                <span className="font-extrabold tracking-tight">{m.name}</span>
+                              </div>
+                              {isSelected && (
+                                <span className="w-2 h-2 rounded-full bg-blue-600 shadow-xs" />
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
-                    <div className="space-y-1">
-                      {AI_MODELS.map((m) => {
-                        const isSelected = selectedModel === m.id;
-                        return (
-                          <button
-                            key={m.id}
-                            type="button"
-                            onClick={() => {
-                              setSelectedModel(m.id);
-                              setModelDropdownOpen(false);
-                            }}
-                            className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left text-sm font-outfit transition ${
-                              isSelected
-                                ? "bg-blue-50 text-blue-700 font-extrabold border border-blue-200 shadow-2xs"
-                                : "text-slate-700 hover:bg-slate-100 hover:text-slate-900 font-bold"
-                            }`}
-                          >
-                            <div className="flex items-center gap-2.5">
-                              <ProviderIcon id={m.id} className="w-5 h-5 flex-shrink-0" />
-                              <span className="font-extrabold tracking-tight">{m.name}</span>
-                            </div>
-                            {isSelected && (
-                              <span className="w-2 h-2 rounded-full bg-blue-600 shadow-xs" />
-                            )}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </>
+                  </>
+                )}
+              </div>
+
+              {/* ALL SERVICES BABAL BUTTON */}
+              {onToggleAllServices && (
+                <button
+                  type="button"
+                  onClick={onToggleAllServices}
+                  className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black transition-all active:scale-95 shadow-sm font-outfit border ${
+                    showAllServices
+                      ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white border-purple-500 shadow-md ring-2 ring-purple-300"
+                      : "bg-gradient-to-r from-slate-900 to-indigo-950 hover:from-purple-700 hover:to-indigo-700 text-white border-slate-800 hover:shadow-md"
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
+                  <span>ALL SERVICES</span>
+                  <span className="text-[9px] px-1.5 py-0.5 rounded-full bg-white/20 text-white font-extrabold ml-0.5 uppercase tracking-wider">
+                    {showAllServices ? "Close" : "Open"}
+                  </span>
+                </button>
               )}
             </div>
 
