@@ -161,5 +161,53 @@ export const BACKLINK_DIRECTORIES: BacklinkCategory[] = [
         rel: "noopener noreferrer nofollow"
       }
     ]
+  },
+  {
+    title: "Parasite SEO & High-Authority Communities",
+    description: "High-DA global authority networks indexing AI Prompt Generate worldwide",
+    links: [
+      {
+        name: "Medium AI Engineering",
+        url: "https://medium.com/tag/prompt-engineering",
+        description: "In-depth prompt engineering guides, benchmark tutorials, and swipe files.",
+        badge: "DA 96",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "Reddit r/PromptEngineering",
+        url: "https://www.reddit.com/r/PromptEngineering/",
+        description: "Real-time discussions and prompt sharing with 100K+ prompt creators.",
+        badge: "DA 94",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "GitHub Awesome AI Prompts",
+        url: "https://github.com/topics/prompt-engineering",
+        description: "Open-source prompt engineering repositories, system prompts, and tools.",
+        badge: "DA 97",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "Dev.to AI Community",
+        url: "https://dev.to/t/ai",
+        description: "Developer articles on building LLM workflows and text-to-image prompts.",
+        badge: "DA 89",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "LinkedIn Pulse AI Insights",
+        url: "https://www.linkedin.com/pulse/topics/artificial-intelligence-t1415/",
+        description: "Executive and business AI marketing prompts and automation insights.",
+        badge: "DA 99",
+        rel: "noopener noreferrer"
+      },
+      {
+        name: "Pinterest Creative AI Art",
+        url: "https://www.pinterest.com/search/pins/?q=ai%20photo%20prompts",
+        description: "Visual moodboards, aesthetic girl portraits, and couple photography ideas.",
+        badge: "DA 94",
+        rel: "noopener noreferrer"
+      }
+    ]
   }
 ];
