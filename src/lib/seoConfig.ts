@@ -900,6 +900,150 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes! AI Prompt Generate provides instant 1-click prompt copying for Flux, Midjourney, and Nano Banana with zero login and no credit limits."
       }
     ]
+  },
+  "chatgpt-ai-text-generator": {
+    slug: "chatgpt-ai-text-generator",
+    title: "ChatGPT AI Text Generator – Natural & Human-Sounding Copy",
+    h1: "ChatGPT AI Text Generator – Turn Prompts into High-Converting Natural Drafts",
+    metaTitle: "ChatGPT AI Text Generator (Free) – Emails, Articles, Captions & Ideas",
+    metaDescription: "Use ChatGPT's AI text generator to turn any prompt into a draft for emails, captions, articles, and ideas that sound natural and human. 100% free with zero login.",
+    keywords: [
+      "chatgpt ai text generator",
+      "turn prompt into draft",
+      "human sounding ai text generator",
+      "ai writing generator free",
+      "chatgpt email caption writer",
+      "ai article draft generator free"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Generate lifelike, compelling drafts for business emails, viral social captions, and long-form articles. Infuses authentic human cadence and eliminates repetitive AI patterns.",
+    faqs: [
+      {
+        q: "How does this make ChatGPT text sound more human?",
+        a: "It applies natural sentence burstiness and diverse vocabulary structures, avoiding robotic clichés like 'delve' or 'testament'."
+      }
+    ]
+  },
+  "ai-prompt-writer-tool": {
+    slug: "ai-prompt-writer-tool",
+    title: "AI Prompt Writer & Generator Tool – Text & Image Prompts",
+    h1: "Free AI Prompt Writer – The Ultimate Tool to Generate Writing & Image Prompts",
+    metaTitle: "AI Prompt Writer Tool (100% Free) – Generate Prompts for Writing & AI Art",
+    metaDescription: "An AI prompt generator and prompt writer tool that helps users generate writing prompts and create images using artificial intelligence. 100% free, unlimited use.",
+    keywords: [
+      "ai prompt writer",
+      "ai prompt generator software",
+      "generate writing prompts ai",
+      "create images using ai prompts",
+      "free prompt writer online",
+      "artificial intelligence prompt tool"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "The premier AI prompt writer tool designed for creators, marketers, and developers. Formulate complex instructions for fiction, technical documentation, and photorealistic generative artwork.",
+    faqs: [
+      {
+        q: "What is an AI prompt writer?",
+        a: "An AI prompt writer is a software tool that systematically structures context, constraints, and instructions so AI models deliver optimal outputs."
+      }
+    ]
+  },
+  "prompt-cowboy-alternative": {
+    slug: "prompt-cowboy-alternative",
+    title: "Prompt Cowboy Alternative – Transform Rough Ideas into Master Prompts",
+    h1: "Best Prompt Cowboy Alternative – High-Performing Prompts for ChatGPT & Claude",
+    metaTitle: "Prompt Cowboy Alternative (Free) – Transform Rough Ideas in Seconds Without Signup",
+    metaDescription: "Prompt Cowboy alternative to transform rough ideas into clear, high-performing prompts for ChatGPT, Claude, and other LLMs in seconds. 100% free forever.",
+    keywords: [
+      "prompt cowboy alternative",
+      "prompt cowboy free",
+      "transform rough ideas into prompts",
+      "high performing prompts chatgpt",
+      "clear prompt builder online free",
+      "best alternative to prompt cowboy"
+    ],
+    filterType: "custom",
+    filterValue: "claude",
+    introText: "Upgrade from Prompt Cowboy to AI Prompt Generate. Turn rough, messy thoughts into razor-sharp, production-ready system instructions for Claude 3.7 and ChatGPT with zero fees.",
+    faqs: [
+      {
+        q: "How does this compare to Prompt Cowboy?",
+        a: "Our tool provides completely unrestricted, free prompt refinement across image, video, and code models without requiring user registration."
+      }
+    ]
+  },
+  "customizable-ai-prompt-generator": {
+    slug: "customizable-ai-prompt-generator",
+    title: "Customizable AI Prompt Generator – Tone, Style & Length Control",
+    h1: "AI Prompt Generator – Customize Tone, Style & Length for Social & Professional Use",
+    metaTitle: "Customizable AI Prompt Generator – Tune Tone, Length & Style for Any LLM",
+    metaDescription: "Quickly create effective, engaging prompts for any purpose. Customize the tone, style, and length for social media, marketing, and enterprise with zero login.",
+    keywords: [
+      "customizable ai prompt generator",
+      "customize prompt tone and style",
+      "social media prompt generator",
+      "effective engaging prompts ai",
+      "prompt length tuner free",
+      "tailored ai prompt builder"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Fine-tune your AI instructions with customizable style sliders, formal or witty tones, and exact word count constraints tailored for social media, advertising, or essays.",
+    faqs: [
+      {
+        q: "Can I adjust tone for professional and casual settings?",
+        a: "Yes! You can instantly switch between authoritative corporate tone, witty viral social tone, or academic research depth."
+      }
+    ]
+  },
+  "piclumen-text-generator-alternative": {
+    slug: "piclumen-text-generator-alternative",
+    title: "PicLumen AI Text Generator Free Alternative – Ideas, Scripts & Ad Copy",
+    h1: "Free PicLumen Alternative – Create Prompts, Scripts, Lyrics & Ad Copy",
+    metaTitle: "PicLumen Alternative (100% Free) – Generate Prompts, Scripts & Copy From Ideas",
+    metaDescription: "Create prompts, scripts, lyrics, ad copy, and more from ideas or reference images with our free AI text generator. 100% free alternative to PicLumen.",
+    keywords: [
+      "piclumen alternative",
+      "piclumen ai text generator free",
+      "create scripts from ideas ai",
+      "lyrics prompt generator free",
+      "ad copy ai prompt generator",
+      "prompts from reference images"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "The ultimate free alternative to PicLumen. Synthesize commercial ad scripts, song lyrics, and image prompts directly from your rough concepts or uploaded reference images.",
+    faqs: [
+      {
+        q: "Can I generate prompts from reference images like PicLumen?",
+        a: "Yes! Upload any reference image to reverse-engineer matching visual prompts and textual scripts instantly."
+      }
+    ]
+  },
+  "engineer-grade-ai-prompts": {
+    slug: "engineer-grade-ai-prompts",
+    title: "Engineer-Grade AI Prompts – ChatGPT, Midjourney & Claude in Seconds",
+    h1: "Generate Engineer-Grade Prompts for ChatGPT, Midjourney & Claude (Zero Experience Needed)",
+    metaTitle: "Engineer-Grade AI Prompts Free – Professional Prompts Without Prompt Engineering Experience",
+    metaDescription: "Generate or write engineer-grade prompts for ChatGPT, Midjourney, and Claude in seconds — no prompt-writing experience needed. 100% free, zero login.",
+    keywords: [
+      "engineer grade ai prompts",
+      "write engineer grade prompts",
+      "chatgpt midjourney claude prompts in seconds",
+      "no prompt writing experience needed",
+      "master prompt engineer tool free",
+      "production grade prompts generator"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Get engineer-grade prompt quality without needing years of prompt engineering experience. Automatic constraint injection, negative prompts, and aspect ratio formatting in seconds.",
+    faqs: [
+      {
+        q: "What are engineer-grade prompts?",
+        a: "They are mathematically and syntactically structured instructions that maximize LLM deterministic reasoning and eliminate hallucination."
+      }
+    ]
   }
 };
 
