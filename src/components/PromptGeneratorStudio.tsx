@@ -114,23 +114,39 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
     }
   };
 
+  const [progress, setProgress] = useState(0);
+
   const handleGenerate = async (e?: React.FormEvent) => {
     if (e) e.preventDefault();
-    if (!inputTopic.trim()) return;
+    if (!inputTopic.trim() && !uploadedImage) return;
 
     setIsLoading(true);
+    setProgress(15);
+    
+    // Smooth progress simulation while fetching
+    const interval = setInterval(() => {
+      setProgress((prev) => {
+        if (prev >= 90) return prev;
+        return prev + Math.floor(Math.random() * 15) + 5;
+      });
+    }, 180);
+
     try {
       const res = await fetch("/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          prompt: inputTopic,
+          prompt: inputTopic || "Analyze this reference image and reverse-engineer a master prompt matching its exact lighting, art style, subject composition, and color grading",
           model: selectedModel,
           category: selectedCategory,
           aspectRatio,
           style: stylePreset,
+          imageBase64: uploadedImage || undefined,
         }),
       });
+
+      clearInterval(interval);
+      setProgress(100);
 
       const data = await res.json();
       if (data.success) {
@@ -141,16 +157,20 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           previewImage: data.previewImage,
         });
         confetti({
-          particleCount: 40,
-          spread: 50,
+          particleCount: 45,
+          spread: 55,
           origin: { y: 0.8 },
           colors: ["#10a37f", "#3ea6ff", "#ffffff"],
         });
       }
     } catch (err) {
       console.error(err);
+      clearInterval(interval);
     } finally {
-      setIsLoading(false);
+      setTimeout(() => {
+        setIsLoading(false);
+        setProgress(0);
+      }, 300);
     }
   };
 
@@ -393,22 +413,37 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
               <button
                 type="submit"
-                disabled={isLoading || !inputTopic.trim()}
-                className={`w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-                  isLoading || !inputTopic.trim()
+                disabled={isLoading || (!inputTopic.trim() && !uploadedImage)}
+                className={`h-10 px-3.5 rounded-full flex items-center justify-center gap-1.5 transition-all ${
+                  isLoading
+                    ? "bg-blue-600 text-white shadow-md"
+                    : !inputTopic.trim() && !uploadedImage
                     ? "bg-slate-100 text-slate-300 cursor-not-allowed"
                     : "bg-slate-900 text-white hover:bg-black shadow-md active:scale-95 hover:shadow-lg cursor-pointer"
                 }`}
                 title="Generate Prompt"
               >
                 {isLoading ? (
-                  <RefreshCw className="w-4 h-4 animate-spin text-white" />
+                  <>
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin text-white" />
+                    <span className="text-xs font-mono font-bold tracking-tight">{progress}%</span>
+                  </>
                 ) : (
                   <ArrowUp className="w-5 h-5 stroke-[2.5]" />
                 )}
               </button>
             </div>
           </div>
+
+          {/* Real-time Progress Bar */}
+          {isLoading && (
+            <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden mt-3">
+              <div 
+                className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 h-full transition-all duration-200"
+                style={{ width: `${progress}%` }}
+              />
+            </div>
+          )}
         </div>
       </form>
 

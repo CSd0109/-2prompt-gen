@@ -1,7 +1,33 @@
 import { NextRequest, NextResponse } from "next/server";
 
-async function generateWithGemini(apiKey: string, prompt: string, model: string, category: string, aspectRatio: string, style: string) {
-  const systemInstruction = `You are a world-class Prompt Engineer for AI models including Midjourney v6.1, Flux 1.1 Pro, OpenAI Sora, Runway Gen-3, Claude 3.7, and ChatGPT-4o.
+async function generateWithGemini(
+  apiKey: string,
+  prompt: string,
+  model: string,
+  category: string,
+  aspectRatio: string,
+  style: string,
+  imageBase64?: string
+) {
+  const isImageAnalysis = !!imageBase64;
+  const systemInstruction = isImageAnalysis
+    ? `You are an elite Master Reverse-Engineering Prompt Engineer for Midjourney v6.1, Flux 1.1 Pro, and DALL-E 3.
+Examine this uploaded image with microscopic precision. Extract:
+1. Exact visual subject, character pose, expressions, clothing materials, environment.
+2. Exact lighting style (volumetric, golden hour, studio softbox, rim light, chiaroscuro, neon, etc.).
+3. Camera lens & settings (e.g. 85mm f/1.4, 35mm street photography, macro, aerial drone, 65mm IMAX anamorphic, shutter speed, ISO).
+4. Artistic medium & color grading (Kodak Portra, cinematic 35mm film grain, 3D CGI Octane render, watercolor, cybernetic, etc.).
+
+Generate a complete, copy-ready production prompt that will reproduce an image 1-to-1 identical in visual aesthetic, lighting, and composition.
+
+Your response must be formatted in valid JSON with exactly these fields:
+{
+  "result": "The comprehensive reverse-engineered prompt, including camera optics, lighting, textures, composition, and --ar ${aspectRatio || "16:9"} --v 6.1 --style raw",
+  "negativePrompt": "blurry, distorted anatomy, bad hands, cartoonish, lowres, oversaturated, plastic skin, watermark",
+  "technicalSpecs": "Aspect Ratio: ${aspectRatio || "16:9"} | Engine: Reverse Vision AI | Sensor: Full-frame Master | Color Grade: Cinematic Matched"
+}
+Return ONLY JSON. Do not include markdown code block backticks.`
+    : `You are a world-class Prompt Engineer for AI models including Midjourney v6.1, Flux 1.1 Pro, OpenAI Sora, Runway Gen-3, Claude 3.7, and ChatGPT-4o.
 The user wants a prompt for: "${prompt}".
 Category: ${category}
 Aspect Ratio: ${aspectRatio || "16:9"}
@@ -16,12 +42,26 @@ Your response must be formatted in valid JSON with exactly these fields:
 }
 Return ONLY JSON. Do not include markdown code block backticks.`;
 
+  const parts: any[] = [{ text: systemInstruction }];
+
+  if (imageBase64) {
+    const cleanBase64 = imageBase64.replace(/^data:image\/\w+;base64,/, "");
+    const mimeMatch = imageBase64.match(/^data:(image\/\w+);base64,/);
+    const mimeType = mimeMatch ? mimeMatch[1] : "image/jpeg";
+    parts.push({
+      inline_data: {
+        mime_type: mimeType,
+        data: cleanBase64,
+      },
+    });
+  }
+
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
   const response = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: systemInstruction }] }],
+      contents: [{ parts }],
       generationConfig: {
         responseMimeType: "application/json",
       },
@@ -86,13 +126,13 @@ Respond in pure valid JSON without markdown wrapping:
 
 export async function POST(req: NextRequest) {
   try {
-    const { prompt, model, category, style, aspectRatio, strength, camera, lighting } = await req.json();
+    const { prompt, model, category, style, aspectRatio, strength, camera, lighting, imageBase64 } = await req.json();
 
-    if (!prompt || typeof prompt !== "string") {
-      return NextResponse.json({ error: "Prompt topic is required" }, { status: 400 });
+    if ((!prompt || typeof prompt !== "string") && !imageBase64) {
+      return NextResponse.json({ error: "Prompt topic or image is required" }, { status: 400 });
     }
 
-    const trimmed = prompt.trim();
+    const trimmed = (prompt || "Reverse-engineer master prompt for this uploaded image").trim();
     const ar = aspectRatio || "16:9";
 
     const geminiKey = process.env.GEMINI_API_KEY;
@@ -106,19 +146,19 @@ export async function POST(req: NextRequest) {
       return `https://image.pollinations.ai/prompt/${encoded}?model=flux&width=1024&height=576&nologo=true${keyParam}`;
     };
 
-    // 1. Try Gemini 2.5 Flash first
+    // 1. Try Gemini 2.5 Flash first (handles both text & vision)
     if (geminiKey) {
       try {
-        const liveResult = await generateWithGemini(geminiKey, trimmed, model, category, ar, style);
+        const liveResult = await generateWithGemini(geminiKey, trimmed, model, category, ar, style, imageBase64);
         if (liveResult?.result) {
-          const previewImage = category === "image" ? getPreviewUrl(liveResult.result) : undefined;
+          const previewImage = category === "image" && !imageBase64 ? getPreviewUrl(liveResult.result) : undefined;
           return NextResponse.json({
             success: true,
             result: liveResult.result,
             negativePrompt: liveResult.negativePrompt || "",
             technicalSpecs: liveResult.technicalSpecs || `Engine: Gemini 2.5 Flash | Aspect: ${ar}`,
             previewImage,
-            engine: "Gemini 2.5 Flash",
+            engine: "Gemini 2.5 Flash Vision",
             model,
             category,
             aiPowered: true,
