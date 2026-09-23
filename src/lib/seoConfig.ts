@@ -14,38 +14,34 @@ export interface SEOCategoryConfig {
 }
 
 export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
+  // 1. TOP VIDEO PROMPTS (Veo 3, SeaDance 2.2, Video Bundles, Sora)
   "veo-video-prompts": {
     slug: "veo-video-prompts",
-    title: "Google Veo 3 Prompts",
-    h1: "Google Veo 3 Video Prompts – Cinematic 4K/8K AI Video Prompts (Free)",
-    metaTitle: "Google Veo 3 Video Prompts – Best Free 4K Cinematic AI Prompts",
-    metaDescription: "Master Google Veo 3 with 100% free cinematic text-to-video prompts. Drone flyovers, photorealistic human motion, high-definition camera physics, and zero login.",
+    title: "Google Veo 3 Video Prompts",
+    h1: "Google Veo 3 Video Prompts – Cinematic 4K/8K AI Video Prompts (100% Free)",
+    metaTitle: "Google Veo 3 Video Prompts – Free 4K Cinematic AI Video Prompts",
+    metaDescription: "Master Google Veo 3 with 100% free cinematic text-to-video prompts. FPV drone flyovers, photorealistic human physics, 4K camera direction, zero login.",
     keywords: [
       "google veo 3 prompts",
       "google veo prompts",
       "veo 3 video prompt generator",
       "google deepmind veo prompts",
       "free veo 3 prompts copy paste",
-      "google veo cinematic prompts",
-      "google veo text to video prompts"
+      "google veo cinematic prompts"
     ],
     filterType: "custom",
     filterValue: "veo",
-    introText: "Unlock the cutting-edge power of Google DeepMind Veo 3. Our master prompt templates feature advanced camera direction, photorealistic lighting, physics accuracy, and high-frame-rate cinematic motions.",
+    introText: "Unlock the cutting-edge power of Google DeepMind Veo 3. Master prompt templates featuring advanced camera direction, photorealistic lighting, physics accuracy, and high-frame-rate cinematic motions.",
     faqs: [
       {
         q: "How to prompt Google Veo 3 for photorealistic videos?",
-        a: "Google Veo 3 excels at understanding natural cinematic terminology. Always specify lens types (e.g. 35mm anamorphic), camera movements (e.g. slow crane push-in), and precise lighting conditions."
-      },
-      {
-        q: "Are these Google Veo 3 prompts free for commercial campaigns?",
-        a: "Yes! All Veo 3 prompts are 100% free to copy, tweak, and use in commercial video ads and digital content."
+        a: "Specify exact camera lenses (e.g. 35mm anamorphic), movements (e.g. slow crane push-in), and natural lighting conditions."
       }
     ]
   },
   "seadance-video-prompts": {
     slug: "seadance-video-prompts",
-    title: "SeaDance 2.2 Prompts",
+    title: "SeaDance 2.2 Video Prompts",
     h1: "SeaDance 2.2 Video Prompts – Fluid Motion & VFX Video Prompts",
     metaTitle: "SeaDance 2.2 Video Prompts – Dynamic Motion & Physics Prompts Free",
     metaDescription: "Explore curated SeaDance 2.2 AI video prompts. Engineered for fluid human motions, martial arts, complex water physics, and dynamic camera angles with zero login.",
@@ -54,12 +50,11 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       "seadance video prompts",
       "seadance 2.2 ai video generator",
       "seadance prompt generator free",
-      "dynamic physics video prompts",
-      "fluid motion ai video prompts"
+      "dynamic physics video prompts"
     ],
     filterType: "custom",
     filterValue: "seadance",
-    introText: "Harness SeaDance 2.2's industry-leading motion dynamics. These prompts are crafted to eliminate video warping, giving you smooth anatomical movement, choreography, and high-energy cinematic pacing.",
+    introText: "Harness SeaDance 2.2's industry-leading motion dynamics. Eliminates video warping with smooth anatomical movement, choreography, and high-energy cinematic pacing.",
     faqs: [
       {
         q: "What makes SeaDance 2.2 prompts special?",
@@ -78,44 +73,118 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       "commercial ai video prompts",
       "viral tiktok video prompts ai",
       "ai video advertising campaign prompts",
-      "readymade video prompt bundle free",
-      "reels hook ai video prompts"
+      "readymade video prompt bundle free"
     ],
     filterType: "custom",
     filterValue: "bundles",
-    introText: "Production-ready, multi-scene AI video campaign bundles designed for creators and marketing agencies. Complete with 3-part storyboard prompts (Hook, Body, CTA) optimized for high viewer retention.",
+    introText: "Production-ready, multi-scene AI video campaign bundles designed for creators and marketing agencies. Complete with 3-part storyboard prompts (Hook, Body, CTA).",
     faqs: [
       {
         q: "How do I use a ready-made video campaign bundle?",
-        a: "Each bundle contains coordinated prompts for Scene 1 (The Hook), Scene 2 (Product/Concept Reveal), and Scene 3 (Resolution). Generate each scene sequentially for a seamless commercial video."
+        a: "Generate Scene 1 (Hook), Scene 2 (Concept/Product), and Scene 3 (CTA) sequentially for a seamless commercial video."
       }
     ]
   },
-  "video-prompts": {
-    slug: "video-prompts",
-    title: "AI Video Prompts (Sora & Kling)",
-    h1: "AI Video Prompts – Cinematic Prompts for OpenAI Sora, Kling & Runway Gen-3",
-    metaTitle: "AI Video Prompts – Cinematic Prompts for Sora, Kling & Runway Gen-3",
-    metaDescription: "Free cinematic video prompts for OpenAI Sora, Kling AI 1.5, Runway Gen-3 Alpha, and Luma Dream Machine. Camera motion, drone flyovers, dynamic pacing.",
+
+  // 2. TOP WEBSITE & UI/DEV PROMPTS (v0, Replit Agent, Claude 3.7 / Opus 5, Websim)
+  "v0-website-prompts": {
+    slug: "v0-website-prompts",
+    title: "v0 by Vercel Website Prompts",
+    h1: "v0 Website Prompts – Production Next.js, React & Tailwind UI Prompts",
+    metaTitle: "v0 Website Prompts – Best Free Next.js & Tailwind UI Prompts",
+    metaDescription: "Generate stunning web applications with free v0 by Vercel prompts. Complete Next.js, Tailwind CSS, Lucide icons, and responsive UI components with zero login.",
     keywords: [
-      "ai video prompts",
-      "sora prompts",
-      "kling ai prompts",
-      "runway gen 3 prompts",
-      "luma dream machine prompts",
-      "text to video prompts free",
-      "cinematic ai video prompts"
+      "v0 prompts",
+      "v0 by vercel prompts",
+      "v0 website prompt generator",
+      "nextjs prompt generator v0",
+      "tailwind ui prompts v0",
+      "best v0 dev prompts free"
     ],
-    filterType: "category",
-    filterValue: "video",
-    introText: "Create breathtaking video sequences with motion-engineered prompts for OpenAI Sora, Kling AI 1.5, Runway Gen-3, and Luma Dream Machine. Features camera crane motions, dolly zooms, and dynamic subject movements.",
+    filterType: "custom",
+    filterValue: "website",
+    introText: "Accelerate your frontend workflow with master prompts crafted specifically for v0 by Vercel. Generate complete SaaS dashboards, modern landing pages, and animated UI components.",
     faqs: [
       {
-        q: "How to describe camera motion in video prompts?",
-        a: "Specify exact camera techniques such as 'fpv drone shot', 'slow push-in tracking shot', or 'cinematic 360 orbit' at the start of your prompt to guide the AI video generator."
+        q: "How to prompt v0 for full-stack Next.js components?",
+        a: "Provide structured layouts, exact component hierarchies, Shadcn UI references, and responsive Tailwind styling guidelines."
       }
     ]
   },
+  "replit-agent-prompts": {
+    slug: "replit-agent-prompts",
+    title: "Replit Agent Prompts",
+    h1: "Replit Agent Prompts – Full-Stack App & Backend Architecture Prompts",
+    metaTitle: "Replit Agent Prompts – Free Full-Stack AI Software Engineering Prompts",
+    metaDescription: "Build complete web apps from scratch with free Replit Agent prompts. Database schemas, API endpoints, authentication flows, and full-stack deployment instructions.",
+    keywords: [
+      "replit agent prompts",
+      "replit prompt generator",
+      "full stack replit prompts",
+      "replit ai coding prompts free",
+      "replit agent autonomous prompts"
+    ],
+    filterType: "custom",
+    filterValue: "website",
+    introText: "Deploy full-stack web applications autonomously with Replit Agent. Prompts designed to specify database models, API routes, authentication logic, and frontend layouts.",
+    faqs: [
+      {
+        q: "What makes Replit Agent prompts unique?",
+        a: "Replit Agent executes shell commands and manages databases. Prompts must clearly structure environment variables, packages, and architecture."
+      }
+    ]
+  },
+  "claude-opus-prompts": {
+    slug: "claude-opus-prompts",
+    title: "Claude Opus & Sonnet Prompts",
+    h1: "Claude Opus & 3.7 Sonnet Prompts – Deep Coding, Architecture & Artifacts",
+    metaTitle: "Claude Opus & 3.7 Sonnet Prompts – Master Coding & Architecture Prompts",
+    metaDescription: "Supercharge Anthropic Claude Opus and Claude 3.7 Sonnet with master prompts for system architecture, Next.js artifacts, clean code, and zero fluff.",
+    keywords: [
+      "claude opus prompts",
+      "claude opus 5 prompts",
+      "claude 3.7 sonnet prompts",
+      "claude coding prompts",
+      "claude artifacts prompts free",
+      "anthropic claude prompt generator"
+    ],
+    filterType: "custom",
+    filterValue: "claude",
+    introText: "Harness unmatched reasoning, deep refactoring, and interactive React artifacts with master prompts designed for Claude Opus and Claude 3.7 Sonnet.",
+    faqs: [
+      {
+        q: "How do Claude Opus prompts improve coding output?",
+        a: "They eliminate speculative chatter and enforce modular clean architecture, comprehensive TypeScript types, and unit test coverage."
+      }
+    ]
+  },
+
+  // 3. TOP IMAGE PROMPTS (Nano Banana Pro, BananaPrompts, Photorealistic AI)
+  "nano-banana-pro-prompts": {
+    slug: "nano-banana-pro-prompts",
+    title: "Nano Banana Pro Prompts",
+    h1: "Nano Banana Pro Prompts – 8K Photorealistic & Aesthetic Image Prompts",
+    metaTitle: "Nano Banana Pro Prompts – Best Free Photorealistic AI Prompts Library",
+    metaDescription: "Explore 500+ verified Nano Banana Pro prompts. Ultra-photorealistic portraits, cinema lighting, 8K textures, aesthetic editorial poses, 100% free.",
+    keywords: [
+      "nano banana pro prompts",
+      "nano banana prompts",
+      "banana pro ai prompt generator",
+      "nano banana photorealistic prompts",
+      "free nano banana pro prompt copy paste"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Discover the elite collection of Nano Banana Pro prompts. Engineered for pure photorealism, lifelike human skin textures, analog grain, and breathtaking visual aesthetics.",
+    faqs: [
+      {
+        q: "What is Nano Banana Pro prompting style?",
+        a: "It combines editorial fashion photography, natural skin pores, cinematic volumetric lighting, and precise camera focal lengths."
+      }
+    ]
+  },
+
+  // 4. FOUNDATIONAL LLM PROMPTS (ChatGPT-4o/Astra & Google Gemini)
   "chatgpt-prompts": {
     slug: "chatgpt-prompts",
     title: "ChatGPT Prompts",
@@ -128,21 +197,15 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
       "chatgpt prompt generator",
       "free chatgpt prompts copy paste",
       "chatgpt 4o prompts",
-      "chatgpt prompts for writing",
-      "chatgpt prompts for coding",
       "chatgpt 6 astra prompts"
     ],
     filterType: "custom",
     filterValue: "chatgpt",
-    introText: "Discover the world's most comprehensive library of free ChatGPT prompts. Carefully engineered for GPT-4o, GPT-5, and OpenAI reasoning models to give you instant, high-accuracy outputs without any subscription fees.",
+    introText: "Discover the world's most comprehensive library of free ChatGPT prompts. Carefully engineered for GPT-4o, GPT-5 Astra, and OpenAI reasoning models.",
     faqs: [
       {
-        q: "How do I use these ChatGPT prompts?",
-        a: "Simply click the 'Copy Prompt' button on any prompt card, paste it directly into ChatGPT (Free or Plus), and replace any bracketed variables with your specific topic."
-      },
-      {
-        q: "Are these ChatGPT prompts 100% free for commercial use?",
-        a: "Yes! Every single prompt in our library is free to copy, adapt, and use in your personal or commercial projects without attribution."
+        q: "Are these ChatGPT prompts 100% free?",
+        a: "Yes, every single prompt is free to copy and use commercially with zero login."
       }
     ]
   },
@@ -151,95 +214,21 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
     title: "Google Gemini Prompts",
     h1: "Google Gemini Prompts – Free Prompts for Gemini 2.5 Pro & Flash",
     metaTitle: "Google Gemini Prompts – Best Free Prompts for Gemini 2.5 Flash & Pro",
-    metaDescription: "Supercharge Google Gemini with 1,000+ free master prompts. Engineered for multimodal reasoning, coding, web analysis, and image synthesis with zero login.",
+    metaDescription: "Supercharge Google Gemini with 1,000+ free master prompts. Multimodal reasoning, coding, web analysis, and video synthesis with zero login.",
     keywords: [
       "google gemini prompts",
       "gemini prompt generator",
       "gemini 2.5 flash prompts",
       "gemini 2.5 pro prompts",
-      "best prompts for google gemini",
-      "free gemini prompts copy paste",
-      "gemini video and text prompts"
+      "best prompts for google gemini"
     ],
     filterType: "custom",
     filterValue: "gemini",
-    introText: "Unlock the full multimodal reasoning power of Google Gemini 2.5 Flash and Pro. Our curated collection includes advanced system instructions, research synthesis, and creative prompts designed specifically for Google DeepMind architecture.",
+    introText: "Unlock the multimodal reasoning power of Google Gemini 2.5 Flash and Pro. System instructions, research synthesis, and creative prompts.",
     faqs: [
       {
-        q: "Why use dedicated Google Gemini prompts?",
-        a: "Google Gemini excels at large context windows, code interpretation, and multimodal reasoning. Model-specific prompts trigger Gemini's unique strengths for superior formatting and deep factual accuracy."
-      }
-    ]
-  },
-  "claude-prompts": {
-    slug: "claude-prompts",
-    title: "Claude Prompts",
-    h1: "Claude AI Prompts – Master Prompts for Claude 3.7 Sonnet & Opus",
-    metaTitle: "Claude AI Prompts – Master Prompts for Claude 3.7 Sonnet & Opus",
-    metaDescription: "Elevate your writing and coding with free master prompts for Anthropic Claude 3.7 Sonnet and Opus. Nuanced thinking, high-context prompts, 100% free.",
-    keywords: [
-      "claude ai prompts",
-      "claude 3.7 sonnet prompts",
-      "best claude prompts",
-      "claude prompt generator",
-      "anthropic claude prompts free",
-      "claude artifacts prompts",
-      "claude coding prompts"
-    ],
-    filterType: "custom",
-    filterValue: "claude",
-    introText: "Experience unmatched literary nuance and complex logic reasoning with our collection of master prompts for Anthropic Claude 3.7 Sonnet, Claude 3.5 Haiku, and Claude Opus.",
-    faqs: [
-      {
-        q: "What makes Claude prompts unique?",
-        a: "Claude excels at natural human-like prose, empathetic voice, and massive document analysis. Our prompts guide Claude to avoid robotic cliches and produce authentic, publication-grade results."
-      }
-    ]
-  },
-  "deepseek-prompts": {
-    slug: "deepseek-prompts",
-    title: "DeepSeek Prompts",
-    h1: "DeepSeek Prompts – Free Prompts for DeepSeek-V3 & DeepSeek-R1",
-    metaTitle: "DeepSeek Prompts – Free Prompts for DeepSeek-V3 & DeepSeek-R1",
-    metaDescription: "Best free prompts engineered for DeepSeek-R1 reasoning and DeepSeek-V3 coding. Step-by-step chain of thought, math, and software architecture prompts.",
-    keywords: [
-      "deepseek prompts",
-      "deepseek r1 prompts",
-      "deepseek v3 prompts",
-      "deepseek prompt generator free",
-      "best prompts for deepseek",
-      "deepseek coding prompts"
-    ],
-    filterType: "custom",
-    filterValue: "deepseek",
-    introText: "Harness open-weight AI leadership with prompts crafted specifically for DeepSeek-R1 and DeepSeek-V3. Perfect for deep technical reasoning, code refactoring, and logical deduction.",
-    faqs: [
-      {
-        q: "How to trigger DeepSeek-R1 deep reasoning?",
-        a: "DeepSeek-R1 responds exceptionally well to structured chain-of-thought instructions. Our prompts explicitly scaffold logical premises to ensure verifiable, bug-free output."
-      }
-    ]
-  },
-  "ai-characters": {
-    slug: "ai-characters",
-    title: "AI Characters Prompts",
-    h1: "Free AI Characters – Consistent Character Prompts & 8K Visuals",
-    metaTitle: "Free AI Characters – Consistent Character Prompts & 8K Visuals",
-    metaDescription: "30+ free photorealistic AI characters with copyable master prompt templates. Maintain consistent faces, avatars, and digital influencers for free.",
-    keywords: [
-      "ai characters free",
-      "ai influencer prompt",
-      "consistent ai character prompt",
-      "free ai avatar prompts",
-      "photorealistic ai character generator"
-    ],
-    filterType: "custom",
-    filterValue: "characters",
-    introText: "Discover high-fidelity digital personas and AI character blueprints. Perfect for virtual influencers, gaming avatars, and continuous storytelling with consistent aesthetic styling.",
-    faqs: [
-      {
-        q: "Can I download and use these AI characters?",
-        a: "Yes! You can view full-resolution visuals, copy their facial and styling prompt templates, and download them with zero sign-up required."
+        q: "Can I use these prompts on the free Google Gemini web app?",
+        a: "Yes, all prompts are fully compatible with the free version of Google Gemini and Google AI Studio."
       }
     ]
   }

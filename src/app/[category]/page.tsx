@@ -120,8 +120,19 @@ export default async function CategoryPage({ params }: Props) {
         item.tags.some((t) => t.toLowerCase().includes("commercial") || t.toLowerCase().includes("trending"))
       );
     }
-    if (config.filterValue === "video") {
-      return item.category === "video";
+    if (config.filterValue === "nano-banana") {
+      return (
+        item.tags.includes("BananaPrompts") ||
+        item.creator.name === "BananaPrompts" ||
+        item.tags.some((t) => t.toLowerCase().includes("banana") || t.toLowerCase().includes("photorealistic")) ||
+        item.category === "image"
+      );
+    }
+    if (config.filterValue === "website") {
+      return (
+        item.category === "ui" ||
+        item.tags.some((t) => t.toLowerCase().includes("ui") || t.toLowerCase().includes("web") || t.toLowerCase().includes("react"))
+      );
     }
     if (config.filterValue === "characters") {
       return (

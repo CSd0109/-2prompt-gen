@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     "ai प्रॉम्प्ट जेनरेटर फ्री",
     "مولد الأوامر بالذكاء الاصطनाعي مجانا",
     "ai prompt generator nepali free",
-    // High-Demand Video AI Models & Ready-Made Campaign Bundles
+    // 1. High-Demand Video AI Models & Ready-Made Campaign Bundles
     "Google Veo 3 prompts",
     "google veo video prompt generator",
     "SeaDance 2.2 video prompts",
@@ -109,6 +109,20 @@ export const metadata: Metadata = {
     "readymade video prompt bundle free",
     "commercial video campaign prompts ai",
     "viral tiktok video prompts ai",
+    // 2. High-Converting Website, UI & Dev Prompts
+    "v0 website prompts",
+    "v0 by vercel prompt generator",
+    "replit agent prompts free",
+    "replit full stack prompts",
+    "claude opus prompts",
+    "claude opus 5 prompts",
+    "claude 3.7 sonnet coding prompts",
+    "website prompt generator free",
+    // 3. Nano Banana Pro & Photorealistic Image Prompts
+    "Nano Banana Pro prompts",
+    "nano banana prompts free",
+    "banana pro prompt generator",
+    "photorealistic image prompts copy paste",
     "AI characters free download"
   ],
   authors: [{ name: "AI Prompt Generate Team", url: siteUrl }],
@@ -123,9 +137,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "AI Prompt Generator – Free Google Veo 3, SeaDance 2.2, ChatGPT & AI Video Studio",
+    title: "AI Prompt Generator – Free Veo 3, Nano Banana Pro, v0 & Replit Prompts Studio",
     description:
-      "100% Free AI prompt generator for Google Veo 3, SeaDance 2.2, ChatGPT, Google Gemini, and video campaign bundles. Zero login, zero credit limits.",
+      "100% Free AI prompt generator for Google Veo 3, SeaDance 2.2, Nano Banana Pro, v0 by Vercel, Replit Agent, and Claude Opus 5. Zero login, zero credit limits.",
     url: siteUrl,
     siteName: "AI Prompt Generate",
     locale: "en_US",
@@ -135,15 +149,15 @@ export const metadata: Metadata = {
         url: "/top1_free_ai_studio.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Prompt Generate AI Video & Prompts Studio",
+        alt: "AI Prompt Generate AI Video, Website & Image Studio",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Prompt Generate – Free Google Veo 3, SeaDance 2.2 & AI Video Prompts",
+    title: "AI Prompt Generate – Free Veo 3, Nano Banana Pro & Website Prompts",
     description:
-      "Google Veo 3, SeaDance 2.2, Sora, Kling, ChatGPT & Gemini. 100% free unlimited video prompt generation with zero login.",
+      "Google Veo 3, SeaDance 2.2, Nano Banana Pro, v0 by Vercel, Replit & Claude Opus. 100% free unlimited prompt generation with zero login.",
     images: ["/top1_free_ai_studio.jpg"],
   },
   robots: {

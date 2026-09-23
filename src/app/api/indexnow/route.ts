@@ -7,15 +7,20 @@ export async function POST(req: NextRequest) {
   try {
     const urlsToPing = [
       `https://${HOST}/`,
+      // 1. Top Video Prompts
       `https://${HOST}/veo-video-prompts`,
       `https://${HOST}/seadance-video-prompts`,
       `https://${HOST}/video-campaign-bundles`,
-      `https://${HOST}/video-prompts`,
+      // 2. Top Website & UI Prompts
+      `https://${HOST}/v0-website-prompts`,
+      `https://${HOST}/replit-agent-prompts`,
+      `https://${HOST}/claude-opus-prompts`,
+      // 3. Top Image & Character Prompts
+      `https://${HOST}/nano-banana-pro-prompts`,
+      `https://${HOST}/ai-characters`,
+      // 4. LLM Prompts
       `https://${HOST}/chatgpt-prompts`,
-      `https://${HOST}/gemini-prompts`,
-      `https://${HOST}/claude-prompts`,
-      `https://${HOST}/deepseek-prompts`,
-      `https://${HOST}/ai-characters`
+      `https://${HOST}/gemini-prompts`
     ];
 
     const payload = {

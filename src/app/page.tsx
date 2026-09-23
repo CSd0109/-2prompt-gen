@@ -336,58 +336,36 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Col 2: Quick Links */}
+              {/* Col 2: Website & UI Prompts */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                  Quick Links
+                  Website & UI Prompts
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <button
-                      onClick={() => {
-                        setCurrentTab("generator");
-                        window.scrollTo({ top: 0, behavior: "smooth" });
-                      }}
-                      className="hover:text-purple-600 transition"
-                    >
-                      AI Command Studio
-                    </button>
+                    <Link href="/v0-website-prompts" className="hover:text-purple-600 transition block">
+                      v0 by Vercel Web Prompts
+                    </Link>
                   </li>
                   <li>
-                    <button
-                      onClick={() => {
-                        setCurrentTab("characters");
-                        window.scrollTo({ top: 0, behavior: "smooth" });
-                      }}
-                      className="hover:text-purple-600 transition"
-                    >
-                      AI Characters Vault
-                    </button>
+                    <Link href="/replit-agent-prompts" className="hover:text-purple-600 transition block">
+                      Replit Agent Full-Stack
+                    </Link>
                   </li>
                   <li>
-                    <button
-                      onClick={() => {
-                        setCurrentTab("gallery");
-                        setSelectedFilter("image");
-                      }}
-                      className="hover:text-purple-600 transition"
-                    >
-                      Master Prompt Gallery
-                    </button>
+                    <Link href="/claude-opus-prompts" className="hover:text-purple-600 transition block">
+                      Claude Opus 5 & Sonnet
+                    </Link>
                   </li>
                   <li>
-                    <button
-                      onClick={handleRandomPrompt}
-                      className="hover:text-purple-600 transition flex items-center gap-1"
-                    >
-                      <span>Surprise Me</span>
-                      <span className="text-[10px] px-1.5 py-0.2 rounded bg-purple-100 text-purple-700 font-bold">Random</span>
-                    </button>
+                    <Link href="/chatgpt-prompts" className="hover:text-purple-600 transition block">
+                      ChatGPT-4o & Astra Code
+                    </Link>
                   </li>
                 </ul>
               </div>
 
-              {/* Col 3: Prompt Galleries */}
+              {/* Col 3: Video AI Galleries */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
                   Video AI Galleries
@@ -409,46 +387,35 @@ export default function HomePage() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/video-prompts" className="hover:text-purple-600 transition block">
-                      Sora & Kling AI 1.5 HD
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/ai-characters" className="hover:text-purple-600 transition block">
-                      Consistent AI Characters
+                    <Link href="/gemini-prompts" className="hover:text-purple-600 transition block">
+                      Gemini 2.5 Flash Multimodal
                     </Link>
                   </li>
                 </ul>
               </div>
 
-              {/* Col 4: Supported AI Engines */}
+              {/* Col 4: Photorealistic Image Prompts */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                  Supported AI Engines
+                  Image & Character AI
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
                   <li>
-                    <Link href="/veo-video-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-500"></span>
-                      <span>Google Veo 3 Video</span>
+                    <Link href="/nano-banana-pro-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+                      <span>Nano Banana Pro 8K</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/seadance-video-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                    <Link href="/ai-characters" className="flex items-center gap-1.5 hover:text-purple-600 transition">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
+                      <span>Consistent AI Characters</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/nano-banana-pro-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                      <span>SeaDance 2.2 Dynamic</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/chatgpt-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                      <span>ChatGPT-4o & Astra</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/gemini-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
-                      <span>Google Gemini 2.5 Flash</span>
+                      <span>Photorealistic Portraits</span>
                     </Link>
                   </li>
                   <li>
