@@ -1305,6 +1305,149 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "They specify 85mm f/1.4 prime lenses, ISO 100, Kodak Portra 400 film grain, and golden hour volumetric backlight."
       }
     ]
+  },
+  "ai-couple-prompts-two-photos": {
+    slug: "ai-couple-prompts-two-photos",
+    title: "AI Couple Prompts from Two Photos",
+    h1: "Turn Two Photos into Stunning Couple Portraits – 30+ Copy-Paste Prompts",
+    metaTitle: "Turn Two Photos into Stunning Couple Portraits (30+ Prompts)",
+    metaDescription: "Turn two separate selfies into realistic couple portraits with 30+ copy-paste prompts for ChatGPT, Gemini, and Grok. Accurate facial identities, zero login.",
+    keywords: [
+      "turn two photos into stunning couple portraits",
+      "ai couple photo prompt from two separate selfies",
+      "combine two photos ai couple prompt",
+      "chatgpt couple prompts two photos",
+      "gemini couple prompt merge faces",
+      "realistic couple portrait prompt"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Easily turn two separate selfies into breathtaking, photorealistic couple portraits. Preserve facial features, skin tones, and authentic expressions with seamless lighting across ChatGPT, Gemini, and Grok.",
+    faqs: [
+      {
+        q: "How do I turn two separate photos into one couple portrait using AI?",
+        a: "Upload both reference photos to ChatGPT 4o or Gemini 2.5 Flash and paste our identity-preserving prompt template specifying lighting, posture, and facial fidelity."
+      },
+      {
+        q: "Do I need an account or sign-up to copy these prompts?",
+        a: "No! All prompts in our library are 100% free to copy and paste without login or signup."
+      }
+    ]
+  },
+  "cinematic-running-couple-prompts": {
+    slug: "cinematic-running-couple-prompts",
+    title: "Cinematic Running Couple AI Prompts",
+    h1: "Cinematic Running Couple AI Photo Prompts – Motion & Candid Poses",
+    metaTitle: "Cinematic Running Couple AI Photo Prompts (Copy & Paste)",
+    metaDescription: "Turn ordinary portraits into cinematic running couple scenes with natural motion blur, flowing clothes, sunset backlight, and 35mm film grain. 100% free.",
+    keywords: [
+      "cinematic running couple scene ai prompt",
+      "running couple photo prompt",
+      "candid couple motion blur ai prompt",
+      "romantic running couple prompt gemini",
+      "chatgpt running couple prompt copy paste"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Create high-energy, emotionally captivating running-couple scenes. Capture wind-blown hair, natural motion blur, authentic laughter, and golden hour backlight with Hollywood-grade cinematography prompts.",
+    faqs: [
+      {
+        q: "How to avoid blurry faces when prompting for running motion?",
+        a: "Use prompts specifying slow shutter speed on background elements (panning shot) while maintaining sharp focus on faces with an 85mm prime lens."
+      }
+    ]
+  },
+  "gemini-couple-photo-prompts": {
+    slug: "gemini-couple-photo-prompts",
+    title: "Gemini AI Couple Photo Prompts",
+    h1: "Gemini AI Couple Photo Prompts – Forehead Kiss & DSLR Bokeh",
+    metaTitle: "Gemini AI Couple Photo Prompts – Forehead Kiss & DSLR Bokeh",
+    metaDescription: "Master Google Gemini AI couple photo prompts. Realistic forehead kiss, blooming spring trees, 85mm f/1.4 lens bokeh, and natural skin textures. Free copy-paste.",
+    keywords: [
+      "gemini ai couple photo prompt forehead kiss",
+      "gemini couple photo prompt dslr bokeh",
+      "blooming trees couple portrait gemini",
+      "google gemini romantic couple prompt",
+      "realistic dslr couple photo prompt"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Generate tender, hyper-realistic couple photography using Google Gemini. Featuring romantic forehead kisses, blooming cherry blossoms, soft f/1.4 aperture blur, and cinema-grade lighting.",
+    faqs: [
+      {
+        q: "Why is Gemini great for couple photos?",
+        a: "Gemini 2.5 Flash excels at understanding emotional nuance, natural physical intimacy, and realistic DSLR depth of field."
+      }
+    ]
+  },
+  "ultra-realistic-couple-prompts": {
+    slug: "ultra-realistic-couple-prompts",
+    title: "Ultra-Realistic Couple AI Prompts",
+    h1: "Ultra-Realistic Couple AI Photography Prompts – Night Flash & Candid",
+    metaTitle: "Ultra-Realistic Couple AI Prompts (2026 Night Flash)",
+    metaDescription: "Discover ultra-realistic couple photography prompts. Master direct night camera flash, cozy rooftop sunset embraces, retro polaroids, and street aesthetic free.",
+    keywords: [
+      "ultra realistic couple ai prompts",
+      "direct camera flash couple photo prompt",
+      "cozy city rooftop sunset couple prompt",
+      "retro polaroid couple ai prompt",
+      "candid night photography couple prompt"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Curated ultra-realistic couple prompts designed to eliminate AI plastic look. Replicates direct vintage flash, raw 35mm film grain, authentic skin pores, and natural candid postures.",
+    faqs: [
+      {
+        q: "How do I get realistic night flash aesthetics in AI?",
+        a: "Include 'direct on-camera flash, hard drop shadow, natural skin specular highlight, 90s snapshot aesthetic' in your prompt."
+      }
+    ]
+  },
+  "combine-two-photos-ai-couple": {
+    slug: "combine-two-photos-ai-couple",
+    title: "Combine Two Photos to Create AI Couple",
+    h1: "Combine Two Photos to Create Realistic AI Couple Images (Free)",
+    metaTitle: "Combine Two Photos to Create Realistic AI Couple (Free)",
+    metaDescription: "Combine two separate photos into one seamless, realistic AI couple image. Preserve both faces, match color temperature, and pose naturally without signup.",
+    keywords: [
+      "combine two photos to create realistic ai couple",
+      "merge two selfies into couple photo ai",
+      "two photo to couple portrait generator",
+      "free ai couple image creator from two photos",
+      "combine photos into couple portrait"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Create seamless couple photos from two separate pictures. Our calibrated prompts ensure identity retention, harmonious scale, and matched environment lighting across top AI models.",
+    faqs: [
+      {
+        q: "Can I combine selfies taken in completely different lighting?",
+        a: "Yes. Our prompts instruct the AI to harmonize color grading, shadows, and ambient reflections to match the chosen scene perfectly."
+      }
+    ]
+  },
+  "traditional-saree-couple-prompts": {
+    slug: "traditional-saree-couple-prompts",
+    title: "Traditional Saree Couple AI Prompts",
+    h1: "Traditional Saree & Modern Formal AI Couple Photo Prompts",
+    metaTitle: "Traditional Saree & Modern Suit AI Couple Photo Prompts",
+    metaDescription: "Explore traditional saree and modern formal suit couple AI photo prompts. Intricate silk embroidery, golden temple lighting, and royal cinematic elegance.",
+    keywords: [
+      "traditional saree couple ai prompt",
+      "saree and suit couple photo prompt",
+      "indian nepali traditional couple ai portrait",
+      "festive couple photo prompt gemini",
+      "cinematic ethnic couple photography"
+    ],
+    filterType: "custom",
+    filterValue: "couple",
+    introText: "Capture timeless cultural elegance with traditional attire couple prompts. Detailed silk sarees, embroidered kurtas, modern tuxedo suits, and majestic palace or sunset backdrops.",
+    faqs: [
+      {
+        q: "How do I prompt for authentic saree fabric details?",
+        a: "Specify fabric type (e.g. Kanjeevaram silk, Banarasi brocade) along with golden zari thread work and macro textile texture."
+      }
+    ]
   }
 };
 
