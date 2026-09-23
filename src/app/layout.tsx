@@ -28,12 +28,37 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "AI Prompt Generator Free – Best AI Image & Video Prompts (Zero Login)",
-    template: "%s | AI Prompt Generator",
+    default: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World | Free Image & Video Generator, FB Video Downloader, TikTok Insta Downloaders, Free AI Image Generator, Free Image to Video Generator",
+    template: "%s | FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
   },
   description:
-    "100% Free AI Prompt Generator for ChatGPT, Claude, Gemini, Grok, Nano Banana Pro, and Google Veo 3. Generate photorealistic image prompts, cinematic video prompts, and website code with zero signup and zero credit limits.",
+    "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) & #1 Free AI Tool in the World. 100% Free AI Image Prompts, Free Video Prompts, Free Image Generator, Free Video Generator, Free FB Video Downloaders, Free TikTok Video Downloader, Free Instagram Video Downloader, Free Image to Video AI Generator for ChatGPT, Claude, Gemini, Flux, Sora, Nano Banana Pro, and Google Veo 3.",
   keywords: [
+    // 0. Primary High-Intent Topic Headers (#1 Global Rankings)
+    "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
+    "free image and video prompt website in the world no login no signup",
+    "free image and video prompt website",
+    "#1 FREE AI TOOL IN THE WORLD",
+    "top 1 free ai tool in the world",
+    "best free ai tool in the world",
+    "FREE IMAGE GENERATOR",
+    "free ai image generator",
+    "FREE VIDEO GENERATOR",
+    "free ai video generator",
+    "FREE FB VIDEO DOWNLOADERS",
+    "free facebook video downloader",
+    "fb video download free online",
+    "FREE TIKTOK DOWNLOADER",
+    "free tiktok video downloader without watermark",
+    "FREE INSTA DOWNLOADER",
+    "free instagram video downloader",
+    "all social media video downloader free",
+    "FREE AI IMAGE GENERATOR",
+    "free image to video generator",
+    "free ai image to video",
+    "text to image ai free no login",
+    "text to video ai free no login",
+    "ai prompt generator free no login no signup",
     // Real Core Search Volume Terms (Image Prompts, Video Prompts, Prompt Generator Free)
     "ai prompt generator free",
     "prompt generator free",
@@ -207,9 +232,9 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: "AI Prompt Generator – Free Veo 3, Nano Banana Pro, v0 & Replit Prompts Studio",
+    title: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World",
     description:
-      "100% Free AI prompt generator for Google Veo 3, SeaDance 2.2, Nano Banana Pro, v0 by Vercel, Replit Agent, and Claude Opus 5. Zero login, zero credit limits.",
+      "Free Image & Video Prompts, Free AI Image Generator, Free Video Generator, Free FB Video Downloader, TikTok & Insta Video Downloaders, Free Image to Video AI Generator with zero login.",
     url: siteUrl,
     siteName: "AI Prompt Generate",
     locale: "en_US",
@@ -219,15 +244,15 @@ export const metadata: Metadata = {
         url: "/top1_free_ai_studio.jpg",
         width: 1200,
         height: 630,
-        alt: "AI Prompt Generate AI Video, Website & Image Studio",
+        alt: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD – #1 Free AI Tool In The World",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Prompt Generate – Free Veo 3, Nano Banana Pro & Website Prompts",
+    title: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World",
     description:
-      "Google Veo 3, SeaDance 2.2, Nano Banana Pro, v0 by Vercel, Replit & Claude Opus. 100% free unlimited prompt generation with zero login.",
+      "Free Image & Video Prompts, Free Image Generator, Free Video Generator, FB Video Downloader, TikTok & Insta Video Downloaders. 100% Free, zero login.",
     images: ["/top1_free_ai_studio.jpg"],
   },
   robots: {
@@ -267,8 +292,18 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       "url": siteUrl,
-      "name": "AI Prompt Generate",
-      "description": "World's Best Free AI Prompts & Characters Generator Hub",
+      "name": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
+      "alternateName": [
+        "#1 FREE AI TOOL IN THE WORLD",
+        "AI Prompt Generate",
+        "Free Image Generator",
+        "Free Video Generator",
+        "Free FB Video Downloader",
+        "Free TikTok Video Downloader",
+        "Free Instagram Video Downloader",
+        "Free Image to Video AI Generator"
+      ],
+      "description": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World. Free Image & Video Prompts, Free Image Generator, Free Video Generator, FB Video Downloader, TikTok & Insta Video Downloaders.",
       "potentialAction": {
         "@type": "SearchAction",
         "target": `${siteUrl}/?q={search_term_string}`,
@@ -278,7 +313,7 @@ const jsonLd = {
     {
       "@type": "SoftwareApplication",
       "@id": `${siteUrl}/#app`,
-      "name": "AI Prompt Generate AI Studio",
+      "name": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
       "applicationCategory": "DesignApplication",
       "operatingSystem": "All",
       "offers": {
@@ -287,14 +322,16 @@ const jsonLd = {
         "priceCurrency": "USD"
       },
       "featureList": [
-        "100% Free Unlimited AI Prompt Generation with Zero Paywalls",
-        "Top AI Models Supported: ChatGPT-4o, Claude 3.5 Sonnet, Google Gemini 2.5 Flash, DeepSeek-V3, Flux 1.1 Pro, Sora",
-        "Unlimited Image, Video & Website UI Prompts",
-        "1,200+ Master Photorealistic Prompts Library",
-        "30+ Free AI Characters to Save and 8K Download",
-        "85+ Dedicated Couple Poses Prompts Gallery",
-        "1-Click Copy and Live Flux Image Preview",
-        "Zero Login, No Sign-up Required"
+        "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
+        "#1 FREE AI TOOL IN THE WORLD",
+        "FREE IMAGE GENERATOR – High-resolution AI Image Generator with instant preview",
+        "FREE VIDEO GENERATOR – Cinematic video prompt synthesis for Sora, Kling, Runway, Veo 3",
+        "FREE FB VIDEO DOWNLOADERS – Download Facebook reels, public clips and HD videos instantly",
+        "FREE TIKTOK DOWNLOADER – Watermark-free TikTok MP4 video downloader",
+        "FREE INSTA DOWNLOADER – High-speed Instagram Reels and video downloader",
+        "FREE AI IMAGE GENERATOR – Photorealistic prompt generator for Midjourney v6, Flux, ChatGPT",
+        "FREE IMAGE TO VIDEO GENERATOR – Dynamic prompt creation to animate still photos into video",
+        "100% Free Unlimited AI Prompt Generation with Zero Paywalls and Zero Login Required"
       ]
     },
     {

@@ -7,6 +7,136 @@ export interface SearchIntentCluster {
 }
 
 export const SEARCH_INTENT_CLUSTERS: SearchIntentCluster[] = [
+  // 0. Primary High-Intent Topic 1: Free Image & Video Prompt Website In The World (No Login No Signup)
+  {
+    topic: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
+    globalQueries: [
+      "free image and video prompt website in the world no login no signup",
+      "free image and video prompt website in the world",
+      "free image and video prompt website",
+      "best free image and video prompt website",
+      "top free image and video prompt website without signup",
+      "free image prompt website no login",
+      "free video prompt website no login",
+      "free ai prompts website zero login",
+      "free image and video prompts copy paste website",
+      "world free image and video prompt website 2026",
+      "unlimited free image and video prompt generator",
+      "free text to image and video prompt website",
+      "no login no signup ai prompt site",
+      "free instant ai prompt website without account",
+      "free ai prompts hub no credit card"
+    ]
+  },
+  // 0. Primary High-Intent Topic 2: #1 Free AI Tool In The World
+  {
+    topic: "#1 FREE AI TOOL IN THE WORLD",
+    globalQueries: [
+      "#1 free ai tool in the world",
+      "top 1 free ai tool in the world",
+      "number 1 free ai tool in the world",
+      "best free ai tool in the world 2026",
+      "world number one free ai tool",
+      "world top 1 free ai website",
+      "most popular free ai tool in the world",
+      "free ai tool in the world without login",
+      "unlimited free ai tool in the world",
+      "top rated free ai tool in the world",
+      "best free generative ai tool in the world",
+      "no sign up #1 free ai tool",
+      "100 percent free ai tool in the world"
+    ]
+  },
+  // 0. Primary High-Intent Topic 3: Free AI Image Generator & Prompts
+  {
+    topic: "FREE AI IMAGE GENERATOR & IMAGE PROMPTS",
+    globalQueries: [
+      "free ai image generator",
+      "free image generator online",
+      "free ai image generator no login",
+      "free ai image generator without signup",
+      "best free ai image generator 2026",
+      "unlimited free ai image generator",
+      "free text to image ai generator",
+      "free photorealistic ai image generator",
+      "free midjourney prompt generator for images",
+      "free flux image generator prompts",
+      "dall-e 3 free image prompts",
+      "free 8k uhd ai image prompts",
+      "free anime ai image generator prompts",
+      "free realistic portrait image prompts"
+    ]
+  },
+  // 0. Primary High-Intent Topic 4: Free AI Video Generator & Prompts
+  {
+    topic: "FREE AI VIDEO GENERATOR & VIDEO PROMPTS",
+    globalQueries: [
+      "free ai video generator",
+      "free video generator online",
+      "free ai video generator no login",
+      "free text to video ai generator",
+      "free ai video prompts copy paste",
+      "free google veo 3 video prompts",
+      "free sora video generator prompts",
+      "free kling ai video prompts",
+      "free runway gen-3 video prompts",
+      "free cinematic video generator prompts",
+      "free viral tiktok video generator prompts",
+      "free youtube shorts video ai prompts",
+      "free 4k 60fps video ai prompts"
+    ]
+  },
+  // 0. Primary High-Intent Topic 5: Free FB Video Downloaders & Social Media Downloaders
+  {
+    topic: "FREE FB VIDEO DOWNLOADERS (FACEBOOK REELS & VIDEOS)",
+    globalQueries: [
+      "free fb video downloaders",
+      "free facebook video downloader online",
+      "fb video downloader hd 1080p free",
+      "download facebook reel video free",
+      "facebook watch video download online free",
+      "best free fb video downloader no login",
+      "fast fb video downloader mp4",
+      "free fb video saver online",
+      "facebook public video downloader free",
+      "fb private video downloader online helper",
+      "free fb story video downloader"
+    ]
+  },
+  // 0. Primary High-Intent Topic 6: Free TikTok & Instagram Video Downloaders
+  {
+    topic: "FREE TIKTOK & INSTAGRAM DOWNLOADERS (ALL SOCIAL MEDIA)",
+    globalQueries: [
+      "free tiktok downloader without watermark",
+      "tiktok video downloader no watermark free hd",
+      "download tiktok video mp4 free online",
+      "free insta downloader",
+      "free instagram video downloader",
+      "instagram reels downloader free online hd",
+      "download insta story video free",
+      "all in one social media video downloader free",
+      "download twitter x video free online",
+      "download threads video free online",
+      "free youtube shorts downloader online",
+      "all video downloader free without app"
+    ]
+  },
+  // 0. Primary High-Intent Topic 7: Free Image To Video Generator
+  {
+    topic: "FREE IMAGE TO VIDEO GENERATOR (PHOTO ANIMATION)",
+    globalQueries: [
+      "free image to video generator",
+      "free ai image to video",
+      "image to video ai generator free online",
+      "animate photo to video free ai",
+      "photo to video ai prompt generator",
+      "turn picture into video ai free",
+      "free image to video maker without watermark",
+      "best free image to video ai tool 2026",
+      "free image to video prompts for kling luma sora",
+      "still image to cinematic video prompt generator"
+    ]
+  },
   // 1. How people search for Prompts (English Global - 30+ variants)
   {
     topic: "Core AI Prompt Generator Search Terms",

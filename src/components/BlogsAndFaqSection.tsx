@@ -35,7 +35,7 @@ export function BlogsAndFaqSection() {
         <div className="relative z-10 space-y-6">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-xs font-semibold text-purple-300">
             <Award className="w-3.5 h-3.5 text-amber-400" />
-            <span>#1 Ranked Global Generative Prompt Network (2026 Verified)</span>
+            <span>FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) • #1 FREE AI TOOL IN THE WORLD</span>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-2">

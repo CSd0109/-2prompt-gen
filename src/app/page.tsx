@@ -207,18 +207,26 @@ export default function HomePage() {
 
         {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-2.5 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: Desktop Only with Live Typing Animation (Hidden on phone for clean zero-distraction experience) */}
-          <div className="hidden sm:block w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-3xl mx-auto">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-outfit text-black tracking-tight leading-tight flex items-center justify-center flex-wrap gap-x-2">
-              <span>Free AI Prompts for</span>
+          {/* Header Intro: Desktop Only (Hidden on phone for clean zero-distraction experience) */}
+          <div className="hidden sm:block w-full text-center pt-2 pb-1 sm:pt-3 sm:pb-2 max-w-4xl mx-auto">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-black uppercase tracking-wider mb-2 font-outfit">
+              <span className="w-2 h-2 rounded-full bg-blue-600 animate-ping" />
+              <span>#1 FREE AI TOOL IN THE WORLD • 100% UNLIMITED NO LOGIN NO SIGNUP</span>
+            </div>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-black font-outfit text-black tracking-tight leading-tight">
+              FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD
+            </h1>
+            <p className="text-sm sm:text-base font-bold text-indigo-700 mt-1 font-outfit">
+              #1 Free AI Tool In The World: Free Image & Video Generator, FB Video Downloader, TikTok & Insta Downloaders, Free AI Image Generator, Free Image to Video Generator
+            </p>
+            <p className="text-xs sm:text-sm font-extrabold text-slate-500 mt-1 flex items-center justify-center gap-2 font-outfit">
+              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
+              <span>Prompting for: </span>
               <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-black">
                 {displayText}
-                <span className="w-0.5 h-6 sm:h-8 bg-blue-600 ml-1 inline-block animate-pulse" />
+                <span className="w-0.5 h-4 sm:h-5 bg-blue-600 ml-1 inline-block animate-pulse" />
               </span>
-            </h1>
-            <p className="text-xs sm:text-sm font-extrabold text-slate-500 mt-1.5 flex items-center justify-center gap-2 font-outfit">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-              <span>100% Free Forever • Zero Login • Instant Unlimited Prompts</span>
+              <span>• Zero Login • Instant Copy</span>
             </p>
           </div>
 
@@ -404,12 +412,22 @@ export default function HomePage() {
                 </ul>
               </div>
 
-              {/* Col 3: Video AI Galleries */}
+              {/* Col 3: Video AI & Free Downloaders */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
-                  Video AI Galleries
+                  Video AI & Free Downloaders
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
+                  <li>
+                    <Link href="/#video-downloader" className="hover:text-blue-600 font-bold transition block text-blue-700">
+                      ⚡ Free FB Video Downloaders
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#video-downloader" className="hover:text-pink-600 font-bold transition block text-pink-700">
+                      ⚡ Free TikTok & Insta Downloaders
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/veo-video-prompts" className="hover:text-purple-600 transition block">
                       Google Veo 3 Prompts (4K)
@@ -425,20 +443,27 @@ export default function HomePage() {
                       Viral Video Campaign Bundles
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/gemini-prompts" className="hover:text-purple-600 transition block">
-                      Gemini 2.5 Flash Multimodal
-                    </Link>
-                  </li>
                 </ul>
               </div>
 
-              {/* Col 4: Photorealistic Image Prompts */}
+              {/* Col 4: Photorealistic Image & Video Prompts */}
               <div className="space-y-3">
                 <h4 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
                   Image & Character AI
                 </h4>
                 <ul className="space-y-2 text-xs font-medium text-slate-600 font-sans">
+                  <li>
+                    <Link href="/#generator" className="flex items-center gap-1.5 hover:text-purple-600 transition font-bold text-purple-700">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-600"></span>
+                      <span>Free AI Image Generator</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#generator" className="flex items-center gap-1.5 hover:text-emerald-600 transition font-bold text-emerald-700">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+                      <span>Free Image to Video Generator</span>
+                    </Link>
+                  </li>
                   <li>
                     <Link href="/nano-banana-pro-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
@@ -449,12 +474,6 @@ export default function HomePage() {
                     <Link href="/ai-characters" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
                       <span>Consistent AI Characters</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/nano-banana-pro-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                      <span>Photorealistic Portraits</span>
                     </Link>
                   </li>
                   <li>

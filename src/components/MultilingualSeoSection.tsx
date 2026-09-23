@@ -10,7 +10,7 @@ export function MultilingualSeoSection() {
   const [showAllKeywords, setShowAllKeywords] = useState(false);
 
   const displayedLanguages = expanded ? TOP_LANGUAGES : TOP_LANGUAGES.slice(0, 16);
-  const displayedClusters = showAllKeywords ? SEARCH_INTENT_CLUSTERS : SEARCH_INTENT_CLUSTERS.slice(0, 6);
+  const displayedClusters = showAllKeywords ? SEARCH_INTENT_CLUSTERS : SEARCH_INTENT_CLUSTERS.slice(0, 8);
 
   return (
     <section className="mt-16 pt-12 border-t-2 border-slate-200/80 text-slate-800 space-y-10 font-sans">
