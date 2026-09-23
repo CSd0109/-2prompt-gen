@@ -231,5 +231,81 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes, all prompts are fully compatible with the free version of Google Gemini and Google AI Studio."
       }
     ]
+  },
+
+  // 5. PDF & IMAGE PRODUCTIVITY TOOLS (Image to PDF, PDF to Image, PDF Editor)
+  "image-to-pdf": {
+    slug: "image-to-pdf",
+    title: "Free Image to PDF Converter Online",
+    h1: "Free Image to PDF Converter – Convert PNG & JPG to PDF Instantly",
+    metaTitle: "Free Image to PDF Converter Online – 100% Free, Secure & Fast",
+    metaDescription: "Convert JPG, PNG, and WebP images to high-resolution PDF documents online. 100% free, unlimited client-side conversion, zero watermark and no login required.",
+    keywords: [
+      "image to pdf",
+      "convert image to pdf",
+      "jpg to pdf free",
+      "png to pdf converter",
+      "free image to pdf online",
+      "photo to pdf"
+    ],
+    filterType: "custom",
+    filterValue: "image",
+    introText: "Instantly turn images, photos, and scans into professional high-resolution PDF documents right in your browser. Complete privacy with zero server uploads.",
+    faqs: [
+      {
+        q: "Is the Image to PDF converter completely free?",
+        a: "Yes! There are no file limits, no signups, and no hidden subscriptions. Everything is processed instantly and securely in your browser."
+      },
+      {
+        q: "Are my uploaded photos or documents stored on any server?",
+        a: "No. The conversion happens entirely locally in your client's web browser, guaranteeing 100% data privacy."
+      }
+    ]
+  },
+  "pdf-to-image": {
+    slug: "pdf-to-image",
+    title: "Free PDF to Image Converter Online",
+    h1: "Free PDF to Image Converter – Extract High-Res JPG & PNG from PDF",
+    metaTitle: "PDF to Image Converter Free – Extract JPG/PNG from PDF Online",
+    metaDescription: "Convert PDF pages to crystal-clear JPG and PNG images online. Free, fast, private, and compatible with all mobile and desktop browsers.",
+    keywords: [
+      "pdf to image",
+      "convert pdf to jpg",
+      "pdf to png free",
+      "extract images from pdf",
+      "pdf to picture converter online"
+    ],
+    filterType: "custom",
+    filterValue: "image",
+    introText: "Effortlessly convert your PDF documents and invoices into crisp JPG or PNG images. High-fidelity rendering with zero software installation.",
+    faqs: [
+      {
+        q: "How fast is the PDF to image conversion?",
+        a: "Conversion is near-instantaneous using modern web rendering technology."
+      }
+    ]
+  },
+  "pdf-editor": {
+    slug: "pdf-editor",
+    title: "Free Online PDF Editor",
+    h1: "Free Online PDF Editor – Annotate, Merge, Compress & Edit PDFs",
+    metaTitle: "Free Online PDF Editor – Edit, Annotate & Sign PDFs Without Login",
+    metaDescription: "Edit PDFs directly in your web browser. Annotate, add text, sign documents, and highlight content without software downloads or subscriptions.",
+    keywords: [
+      "free pdf editor",
+      "pdf editor online",
+      "edit pdf without signup",
+      "annotate pdf free",
+      "online pdf signer"
+    ],
+    filterType: "custom",
+    filterValue: "website",
+    introText: "Take full control of your PDF files with our suite of free browser-based PDF editing tools. Annotate, sign, highlight, and adjust your files effortlessly.",
+    faqs: [
+      {
+        q: "Do I need Adobe Acrobat to edit PDFs?",
+        a: "No! Our online PDF editor runs directly in your browser with zero installations required."
+      }
+    ]
   }
 };

@@ -20,7 +20,11 @@ export async function POST(req: NextRequest) {
       `https://${HOST}/ai-characters`,
       // 4. LLM Prompts
       `https://${HOST}/chatgpt-prompts`,
-      `https://${HOST}/gemini-prompts`
+      `https://${HOST}/gemini-prompts`,
+      // 5. PDF & Productivity Tools
+      `https://${HOST}/image-to-pdf`,
+      `https://${HOST}/pdf-to-image`,
+      `https://${HOST}/pdf-editor`
     ];
 
     const payload = {
