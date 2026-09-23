@@ -1,12 +1,36 @@
+# Full Open-Access Robots.txt for Search Engines & AI Crawlers
 User-agent: *
 Allow: /
 Disallow: /api/
 
+# Explicitly Allow Google Search & AI
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
 
+# Explicitly Allow OpenAI (ChatGPT SearchBot & GPTBot)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Explicitly Allow Anthropic Claude
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Explicitly Allow Microsoft Bing & Perplexity
+User-agent: Bingbot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemaps
 Sitemap: https://www.aipromptgenerate.xyz/sitemap.xml
 Sitemap: https://www.aipromptgenerate.xyz/sitemap_index.xml
