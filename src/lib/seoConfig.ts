@@ -1499,6 +1499,90 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "Yes! All templates feature swappable placeholder fields so you can instantly inject your brand name, discount offers, and slogans."
       }
     ]
+  },
+  "tiktok-video-downloader": {
+    slug: "tiktok-video-downloader",
+    title: "TikTok Video Downloader Without Watermark",
+    h1: "Free TikTok Video Downloader Without Watermark – 1080p Full HD MP4",
+    metaTitle: "TikTok Video Downloader Without Watermark – Free HD MP4",
+    metaDescription: "Download TikTok videos without watermark in original 1080p Full HD MP4. Fast, unlimited, no software installation, zero login on AI Prompt Generate.",
+    keywords: [
+      "tiktok video downloader without watermark",
+      "download tiktok video hd",
+      "ssstik alternative",
+      "snaptik alternative free",
+      "tiktok mp4 downloader online",
+      "save tiktok without watermark"
+    ],
+    filterType: "custom",
+    filterValue: "video",
+    introText: "Download any TikTok video without watermark in pristine 1080p Full HD. Fast direct download link generation with original audio retention. Works on iPhone, Android, Mac, and PC with zero registration.",
+    faqs: [
+      {
+        q: "How to download TikTok videos without watermark?",
+        a: "Copy the TikTok video link, paste it into our download box above, and click 'Check & Fetch'. Select your preferred MP4 resolution to download instantly."
+      },
+      {
+        q: "Is it completely free with no limits?",
+        a: "Yes! You can download unlimited TikTok videos with zero subscription, ads, or login required."
+      }
+    ]
+  },
+  "facebook-video-downloader": {
+    slug: "facebook-video-downloader",
+    title: "Facebook Video Downloader (FB Watch & Reels)",
+    h1: "Free Facebook Video Downloader – Download FB Reels & Videos in 1080p",
+    metaTitle: "Facebook Video Downloader Online – Free FB Reels & Watch HD",
+    metaDescription: "Download Facebook videos, FB Watch, and Reels in Full HD 1080p MP4. Fast, free, anonymous, with zero login on AI Prompt Generate.",
+    keywords: [
+      "facebook video downloader",
+      "fdown alternative",
+      "fb video download free online",
+      "download facebook reels hd",
+      "fb watch video downloader",
+      "getfvid alternative"
+    ],
+    filterType: "custom",
+    filterValue: "video",
+    introText: "Save Facebook videos and Reels directly to your phone or computer in crisp 1080p Full HD. Works with public posts, Reels, and Watch streams seamlessly without app installs.",
+    faqs: [
+      {
+        q: "Can I download private Facebook videos?",
+        a: "Only public videos and Reels can be processed by our web downloader to protect user privacy."
+      },
+      {
+        q: "What video formats are supported?",
+        a: "We provide high-speed downloads in universal MP4 format with original stereo audio."
+      }
+    ]
+  },
+  "instagram-video-downloader": {
+    slug: "instagram-video-downloader",
+    title: "Instagram Reels & Video Downloader Free",
+    h1: "Free Instagram Video Downloader – Download Insta Reels & Stories in HD",
+    metaTitle: "Instagram Video Downloader – Download Insta Reels in HD MP4",
+    metaDescription: "Download Instagram Reels, videos, and IG stories in crisp 1080p MP4. Free instant download, no login, unlimited use on AI Prompt Generate.",
+    keywords: [
+      "instagram video downloader",
+      "download instagram reels hd",
+      "savefrom instagram alternative",
+      "fastdl alternative",
+      "insta reel download online",
+      "ig video saver free"
+    ],
+    filterType: "custom",
+    filterValue: "video",
+    introText: "Download trending Instagram Reels and video posts in crystal-clear Full HD. Paste the link and save the MP4 video directly to your camera roll or desktop.",
+    faqs: [
+      {
+        q: "How do I save Instagram Reels to my phone gallery?",
+        a: "Paste the Instagram Reel link into our downloader, click download, and the MP4 video will save directly into your Photos or Downloads folder."
+      },
+      {
+        q: "Do I need to sign in with my Instagram account?",
+        a: "No! We never ask for your Instagram credentials. The tool is 100% anonymous and secure."
+      }
+    ]
   }
 };
 

@@ -8,6 +8,7 @@ import { PromptCard } from "@/components/PromptCard";
 import { DetailModal } from "@/components/DetailModal";
 import { PromptItem } from "@/lib/data";
 import { SEOCategoryConfig, SEO_PAGES } from "@/lib/seoConfig";
+import { SocialVideoDownloader } from "@/components/SocialVideoDownloader";
 import { ArrowLeft, Sparkles, HelpCircle, ChevronDown, CheckCircle2, Copy, Search } from "lucide-react";
 
 interface Props {
@@ -94,6 +95,13 @@ export function SEOPromptClientView({ config, initialPrompts }: Props) {
               </div>
             </div>
           </div>
+
+          {/* Interactive Social Media Video Downloader Tool on Downloader Landing Pages */}
+          {(config.slug.includes("downloader") || config.slug.includes("video")) && (
+            <div className="w-full">
+              <SocialVideoDownloader />
+            </div>
+          )}
 
           {/* Cross-linking Category Pills */}
           <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">

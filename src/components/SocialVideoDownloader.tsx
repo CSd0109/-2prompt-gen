@@ -83,45 +83,45 @@ export function SocialVideoDownloader() {
       <div className="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-7 border border-slate-200 shadow-sm relative overflow-hidden font-sans">
         
         {/* Title Bar: Mobile clean "Video Link to Download" */}
-        <div className="flex items-center justify-between pb-2.5 mb-2.5 border-b border-slate-100">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-md bg-blue-600 text-white flex items-center justify-center flex-shrink-0">
-              <Download className="w-3.5 h-3.5 stroke-[2.5]" />
+        <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-100">
+          <div className="flex items-center gap-2.5">
+            <div className="w-7 h-7 rounded-full bg-blue-600 text-white flex items-center justify-center flex-shrink-0 shadow-xs">
+              <Download className="w-4 h-4 stroke-[2.5]" />
             </div>
-            <h2 className="text-sm sm:text-base font-extrabold text-slate-900 tracking-tight font-outfit">
-              Video link to download
+            <h2 className="text-base sm:text-lg font-black text-slate-900 tracking-tight font-heading">
+              Universal Social Media Video Downloader
             </h2>
           </div>
-          <span className="text-[10px] sm:text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
-            Free HD
+          <span className="text-[11px] font-black text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200/80 font-heading">
+            100% Free • No Watermark
           </span>
         </div>
 
         {/* Input Form: Zero extra buttons or distracting labels */}
         <form onSubmit={handleDownloadCheck} className="w-full">
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 p-1 sm:p-1.5 bg-slate-50 border-2 border-slate-200 rounded-xl sm:rounded-2xl focus-within:border-blue-600 focus-within:bg-white transition">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 p-1.5 bg-slate-50 border-2 border-slate-200/90 rounded-2xl focus-within:border-blue-600 focus-within:bg-white focus-within:shadow-md transition">
             <input
               type="url"
               required
               value={videoUrl}
               onChange={(e) => setVideoUrl(e.target.value)}
-              placeholder="Paste your link here (Facebook, TikTok, Instagram, YouTube)..."
-              className="w-full px-3 py-2.5 sm:py-2.5 bg-transparent text-xs sm:text-sm text-slate-900 placeholder-slate-500 font-semibold focus:outline-none"
+              placeholder="Paste your link here (TikTok, Facebook, Instagram Reels, YouTube Shorts)..."
+              className="w-full px-4 py-2.5 bg-transparent text-xs sm:text-sm text-slate-900 placeholder-slate-400 font-bold focus:outline-none"
             />
             <button
               type="submit"
               disabled={loading}
-              className="w-full sm:w-auto px-5 py-2.5 rounded-lg sm:rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs sm:text-sm shadow-xs transition-all active:scale-95 flex items-center justify-center gap-2 cursor-pointer flex-shrink-0"
+              className="w-full sm:w-auto px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-black text-xs sm:text-sm shadow-md transition-all active:scale-95 flex items-center justify-center gap-2 cursor-pointer flex-shrink-0 font-heading"
             >
               {loading ? (
                 <>
-                  <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                  <span>Fetching...</span>
+                  <RefreshCw className="w-4 h-4 animate-spin" />
+                  <span>Fetching Video...</span>
                 </>
               ) : (
                 <>
-                  <Download className="w-3.5 h-3.5" />
-                  <span>Download</span>
+                  <Download className="w-4 h-4 stroke-[2.5]" />
+                  <span>Download MP4</span>
                 </>
               )}
             </button>
