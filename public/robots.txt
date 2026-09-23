@@ -1,36 +1,48 @@
-# Full Open-Access Robots.txt for Search Engines & AI Crawlers
+# Universal 100% Open Access for All Web & AI Search Engines (AEO Optimized)
 User-agent: *
 Allow: /
 Disallow: /api/
 
-# Explicitly Allow Google Search & AI
+# 1. Googlebot (Google Search, Google Gemini & Google AI Overviews)
 User-agent: Googlebot
-Allow: /
-
 User-agent: Googlebot-Image
+User-agent: Googlebot-Video
+User-agent: GoogleOther
 Allow: /
 
-# Explicitly Allow OpenAI (ChatGPT SearchBot & GPTBot)
+# 2. OpenAI (ChatGPT Search, GPTBot & ChatGPT-User On-Demand)
 User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: GPTBot
+User-agent: ChatGPT-User
 Allow: /
 
-# Explicitly Allow Anthropic Claude
+# 3. Anthropic Claude (Claude SearchBot & Claude-User On-Demand)
 User-agent: Claude-SearchBot
-Allow: /
-
 User-agent: ClaudeBot
+User-agent: Claude-User
 Allow: /
 
-# Explicitly Allow Microsoft Bing & Perplexity
-User-agent: Bingbot
-Allow: /
-
+# 4. Perplexity AI (Perplexity SearchBot & Perplexity-User On-Demand)
 User-agent: PerplexityBot
+User-agent: Perplexity-User
 Allow: /
 
-# Sitemaps
+# 5. DeepSeek AI
+User-agent: DeepSeek-AI
+Allow: /
+
+# 6. Microsoft Bing (Bing Search & Copilot)
+User-agent: Bingbot
+User-agent: msnbot
+Allow: /
+
+# 7. Mistral, Brave, You.com & Luminous
+User-agent: Mistral-Search
+User-agent: BraveBot
+User-agent: YouBot
+User-agent: Luminous-Bot
+Allow: /
+
+# XML Sitemaps
 Sitemap: https://www.aipromptgenerate.xyz/sitemap.xml
 Sitemap: https://www.aipromptgenerate.xyz/sitemap_index.xml
