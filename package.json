@@ -9,8 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "btch-downloader": "^6.4.0",
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
+    "fb-downloader-scrapper": "^3.0.1",
+    "instagram-url-direct": "^2.0.7",
     "jspdf": "^4.2.1",
     "lucide-react": "^1.47.0",
     "next": "16.3.5",
