@@ -22,379 +22,15 @@ export interface PromptItem {
 
 export const SAMPLE_PROMPTS: PromptItem[] = [
   {
-    "id": "gp-full-1",
-    "title": "A Young Woman with Long, Voluminous Curly Dark Brown Hair Stands ",
+    "id": "gp-exact-2097318122",
+    "title": "Decline a client engagement",
     "category": "image",
     "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066101426988958154-a-young-woman-with-long-voluminous-curly-dark-brown-hair.webp",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
     "aspectRatio": "16:9",
-    "prompt": "A young woman with long, voluminous curly dark brown hair stands centered against a flat solid bubblegum-pink studio backdrop, wearing a cozy pink-and-white checkered plush fleece bathrobe with a shawl collar, her arms crossed loosely in front of her body, one hand raised with index finger pressed thoughtfully against her chin, head tilted slightly and eyes glancing sideways with a playful, contemplative pursed-lip expression, soft glossy pink lipstick and natural makeup, pink manicured nails visible on the raised hand; from the four corners of the frame, four disembodied arms reach in toward her holding colorful shower gel bottles with pump dispensers, each bottle branded with a cereal-themed design, top left a blue bottle labeled \"Frosties,\" top right a yellow bottle labeled \"Coco Pops,\" bottom left a pink bottle labeled \"Pop-Tarts,\" and bottom right a red bottle labeled \"Froot Loops,\" all bottles with matching colored pump caps; the lighting is bright, even, high-key studio lighting typical of a commercial beauty/product advertisement, sharp focus on the woman and products, clean minimalist composition, vibrant saturated color palette, square aspect ratio, professional advertising photography style, all text in English.",
+    "prompt": "Decline a client engagement: Professional non-representation letter preserving the relationship",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "45.0K",
-    "likes": "6.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-2",
-    "title": "Realistic Photography, Portrait of a Beautiful Korean Idol with L",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2050959150973383060-realistic-photography-portrait-of-a-beautiful-korean-ido.webp",
-    "aspectRatio": "16:9",
-    "prompt": "Realistic photography, portrait of a beautiful korean idol with long sleek straight black hair, a slim tall hourglass figure and elegant S-curve body line. She slightly lowers her head and looks at her phone, left arm bent and raised holding the phone, right arm hanging naturally at her side, torso upright yet relaxed, natural poised posture. She is wearing a white strapless bodycon mini dress and a black chain crossbody bag. The background is a stone wall with dappled tree shadows cast across it, creating a poetic and textured atmosphere. Fresh campus-inspired fashion editorial mood, youthful and lively yet refined. Expression: cool, aloof, slightly melancholic, with affectionate and soulful eyes; a lazy, distant gaze toward the camera, subtle emotional tension, cinematic sense of presence. Style and mood: dark-toned emotional portrait, immersive atmosphere, hazy aesthetic, retro undertone, slight surrealism, sophisticated and premium visual language, masterpiece composition, cinematic quality, award-winning photography feel, editorial mood portrait. Lighting: soft side lighting with gentle facial fill light, clear facial details, rim light on the hair, strong backlight accents and shadow tracing, dimensional facial features, smooth porcelain skin, soft glow, delicate skin texture, refined retouching, ultra-detailed realism. Composition: medium close-up to medium shot, shallow depth of field, foreground blur, background blur, rich image layering, strong visual depth, dramatic yet elegant framing, crisp face focus with soft atmospheric surroundings. Visual qualities: photorealistic, high-end beauty retouching, soft diffusion, subtle bloom, polished skin, clean tonal control, rich texture, high-resolution editorial photography, emotionally charged, cinematic, refined, atmospheric, striking and memorable. --2:3",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "50.1K",
-    "likes": "7.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-3",
-    "title": "Coastal High-Angle Smartphone Portrait",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2013189624848633963.webp",
-    "aspectRatio": "9:16",
-    "prompt": "{ \"format\": { \"type\": \"editorial\", \"intent\": \"candid/selfie/accidental\", \"aspect_ratio\": \"9:16\", \"resolution\": \"4K\" }, \"camera_system\": { \"body\": \"iPhone 15 Pro\", \"lens\": \"Main Camera\", \"focal_length\": \"24mm\", \"associative_traits\": \"computational photography, deep depth of field, sharp digital readout, auto-exposure\" }, \"subject\": { \"identity\": \"young woman with specific porcelain doll features\", \"physical_details\": \"flawless pale skin, large round icy blue eyes with defined lashes, small defined nose, pouty neutral mouth, platinum blonde hair in two tight braids, vibrant blue manicured nails\", \"clothing\": \"light blue form-fitting top with a very deep, wide plunging V-neckline revealing significant cleavage\", \"action\": \"high-angle selfie POV, shielding eyes with one hand against bright coastal light, looking up at camera\", \"expression\": \"neutral, wide-eyed, deadpan, vacant doll-like stare\" }, \"lighting\": { \"source\": \"bright natural coastal daylight + sand bounce\", \"direction\": \"overhead and omnidirectional fill\", \"quality\": \"soft, diffused but very bright\", \"color_temp\": \"neutral daylight (5500K)\", \"fill\": \"maximum fill from bright white sand reflection\", \"distribution\": \"even illumination, few shadows, flattering on skin texture\", \"intent\": \"bright beach day\" }, \"environment\": { \"setting\": \"sandy beach during the day\", \"hero_materials\": [ { \"material\": \"sand\", \"micro_detail\": \"fine white grains, highly reflective\" }, { \"material\": \"fabric\", \"micro_detail\": \"light blue swimwear/stretch cotton blend\" }, { \"material\": \"skin\", \"micro_detail\": \"smooth, poreless, porcelain texture, slightly dewy from heat\" } ], \"objects\": \"ocean horizon line blurred in far background, expansive sand\", \"state\": \"bright, sunny, coastal\" }, \"technical_finish\": { \"film_stock\": \"Digital Source\", \"exposure\": \"brightly exposed (high key)\", \"grain\": \"none/digital noise\", \"tone_curve\": \"linear neutral\", \"color_science\": \"pastel palette (light blues, white sand, pale skin), natural daylight colors\" }, \"constraints\": { \"avoid\": [ \"snow\", \"winter clothes\", \"red nails\", \"black top\", \"modest neckline\", \"heavy shadows\" ], \"must_include\": [ \"blue nails\", \"light blue top\", \"deep cleavage\", \"beach background\", \"porcelain doll features\" ] } } }",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.2K",
-    "likes": "8.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-4",
-    "title": "Premium 3D Stylized Version of Attached Logo, Rendered as Thick, ",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2043753023004954753-a-premium-3d-stylized-version-of-attached-logo-rendered.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A premium 3D stylized version of attached logo, rendered as thick, translucent crystal glass with high refraction. The object is floating amidst fluffy, realistic white cumulus clouds against a bright, clear blue sky. Soft natural sunlight creates bright caustic reflections and rainbow dispersion within the glass. Ethereal, airy, and highly polished 3D aesthetic",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "60.3K",
-    "likes": "9.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-5",
-    "title": "Cinematic Martial Arts Confrontation in Broad Daylight",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2040376349504815467-cinematic-martial-arts-confrontation-in-broad-daylight-a.webp",
-    "aspectRatio": "16:9",
-    "prompt": "cinematic martial arts confrontation in broad daylight, a blind shaolin monk wearing a dark, stylized combat outfit inspired by legendary fighters stands calm and centered, eyes closed, surrounded by multiple hostile creatures emerging from a traditional Japanese landscape Ultra cinematic choreography coverage, mix of slow dolly-ins + orbit moves + whip pans, transitions masked by body motion and impacts, alternating real-time and slow motion, continuous fluid sequence (0-2s) wide establishing shot, monk standing still in center, wind moving fabric, creatures circling, tension builds (2-4s) slow push-in close-up on monk\u2019s face, eyes closed, subtle head tilt sensing movement (4-6s) sudden attack from first creature, monk reacts instantly, precise sidestep + redirection, fluid motion (6-8s) chained combat sequence, monk engages multiple opponents, spinning strikes, controlled movements, each impact sending creatures flying backward with stylized motion (8-10s) slow motion highlight: mid-air dodge + counter sequence, cloth movement and body rotation emphasized, creatures suspended briefly before being thrown away (10-12s) final burst of speed, monk flows through remaining opponents in one continuous movement, camera orbiting rapidly, enemies collapsing or being thrown aside Traditional Japanese environment, open landscape with temples, wooden structures, distant mountains, clear daylight, subtle wind movement, dust and debris reacting to motion Ultra realistic, high-end martial arts film choreography, precise body mechanics, cinematic slow motion, strong contrast lighting, volumetric atmosphere, fluid transitions, intense but controlled physical interaction, no distortion, no stretching",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "65.4K",
-    "likes": "10.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "Veo3Video",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-6",
-    "title": "Stylized Illustration of Character_name from Franchise",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2051938130505453866-create-a-stylized-illustration-of-character-name-from.webp",
-    "aspectRatio": "9:16",
-    "prompt": "Create a stylized illustration of [character_name] from [franchise]. Character Analysis: Derive the character\u2019s core personality archetype based on canon portrayal (e.g., heroic, calm, mysterious, aggressive). Identify the signature color from the original design and use it as the primary visual accent. Pose & Body Language: Generate an iconic pose that reflects the personality archetype: Energetic / Heroic: dynamic action, wide stance, explosive movement Calm / Confident: balanced, relaxed posture, minimal motion Dark / Mysterious: low stance, subtle movement, sharp or hidden gaze Aggressive / Intense: forward-leaning attack stance, visible tension, clenched fists Facial Expression: Match expression precisely to the character\u2019s personality and emotional tone. Art Style: Anime \u00d7 streetwear \u00d7 graphic poster hybrid Clean lineart, semi-flat shading, high contrast Modern, minimal, and visually striking Composition: Vertical format ({aspect_ratio}) Off-center subject placement Strong diagonal visual flow Layered depth for a dynamic poster feel Outfit Design: Reimagine the original costume as modern streetwear / techwear Preserve recognizable identity elements of the character Color Palette: Dominant clean white background Use signature color as the primary accent Add one secondary accent (complementary or analogous tone) Keep palette minimal, bold, and high-contrast Background: Abstract geometric poster layout Use negative space effectively Integrate subtle accents using the character\u2019s color theme Effects: Energy strokes, paint lines, and motion accents Effects should follow the character\u2019s energy and color identity Lighting: Sharp directional lighting Crisp shadows Subtle glow using the signature color Rendering Quality: Ultra-clean vector-style finish Poster-quality composition 4K resolution, high detail",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "70.5K",
-    "likes": "11.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-7",
-    "title": "A Dreamy Anime Fashion Illustration Highlighting a Highly Creativ",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-2751cc92-0264-494a-a765-882351b880c7-a-dreamy-anime-fashion-illustration-highlighting-a-highly.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A dreamy anime fashion illustration highlighting a highly creative, surreal dress. The anime model maintains a quiet, elegant high-fashion pose, gracefully seated on a sleek, minimalist white marble bench. The garment features a completely modest, sophisticated high-neck corset crafted from intricately woven spun-glass fibers that fully covers her torso, capturing and refracting pastel rainbow light like a prism. The attached skirt is an architectural marvel made of condensed, semi-translucent cloud-matter that floats weightlessly around her legs, layered with sheer, iridescent tulle that mimics delicate insect wings. The setting is a simple, clean, and elegant space with a smooth, polished reflective floor beneath the marble bench, opening up to a soft-focus, minimalist background of gentle pastel mist. The lighting is soft-focus and ethereal, perfectly emphasizing the sheer, delicate textures of the fabrics and the glossy sheen of the glass fibers. Masterpiece, flawless anime art style, perfect hand anatomy, crisp and clean facial features.Negative Prompt:exposed chest, revealing clothes, low cut cleavage, complex background, cluttered scenery, chaotic room interior, busy city streets, heavy dark shadows, thick solid fabrics, leather, metal armor, coarse textures, low resolution, 3d render, watermark, extra fingers, mutated hands, poorly drawn hands, distorted fingers, distorted face, bad anatomy, low quality.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "75.6K",
-    "likes": "12.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-8",
-    "title": "Digital Artwork in a Surreal, Dynamic Style Inspired by Premium A",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2047721704202617219-a-highly-detailed-digital-artwork-in-a-surreal-dynamic-s.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A highly detailed digital artwork in a surreal, dynamic style inspired by premium athletic advertising for Nike, Inc. A young athletic woman with platinum blonde hair tied in a messy bun, fair skin, and a fiercely focused expression is captured mid-jump or leap, her body leaning slightly forward as if bursting with raw, untamed energy. She wears a loose, off-white Nike crewneck sweatshirt with subtle embossed Nike branding on the chest, paired with flowy, semi-transparent pants featuring a swirling marbled pattern in graphite grey and electric violet, billowing dramatically around her legs. On her feet are sleek, futuristic white Nike sneakers with glowing violet accents, visible Air-inspired sole details, and an aerodynamic design. Vibrant electric violet energy or ethereal smoke erupts dramatically from behind her, swirling and dissolving into abstract, cloud-like forms that interact with her clothing, creating a powerful sense of motion and release. The background is a deep, moody gradient transitioning from charcoal grey to luminous twilight violet, emphasizing a minimalist yet striking composition. Overlay large, bold metallic silver text reading \u201cJust Do It\u201d in a sharp, modern sans-serif font, partially integrated and obscured by the energy smoke and the figure, making it feel like an organic part of the scene. Include the iconic Nike Swoosh logo in the top-left corner in shimmering silver.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "80.7K",
-    "likes": "6.7K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-9",
-    "title": "Surreal Dreamcore Cinematic Poster with an Ethereal",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-27e95699-c432-4e4d-bbab-3c9dedeb3aed-create-a-surreal-dreamcore-cinematic-poster-with-an-ether.webp",
-    "aspectRatio": "9:16",
-    "prompt": "Create a surreal dreamcore cinematic poster with an ethereal, emotional, and visually hypnotic aesthetic designed for high engagement and viral AI art appeal. The composition features a single centered young subject floating or standing in an impossible dreamlike environment where reality feels soft, distorted, and emotionally charged. The subject is captured in a gentle upward camera angle, creating a sense of wonder, transcendence, and emotional elevation.The subject has soft, highly detailed facial features with smooth glowing skin texture, delicate highlights, and an emotionally peaceful expression that reflects calmness, nostalgia, and inner reflection. The eyes are slightly glossy and reflective, as if absorbing light from the surreal environment around them. Subtle emotional depth is visible through soft gaze direction and relaxed facial muscles.The hair is light, soft, and naturally flowing as if suspended in low gravity, moving gently in invisible wind currents. Individual strands are visible and illuminated by ambient glowing particles in the environment. The clothing is minimal, flowing, and fabric-light, resembling soft silk or linen material that moves fluidly as if underwater or in zero gravity, with realistic cloth simulation folds and gentle transparency in certain light areas.The environment is a surreal floating sky dimension filled with soft volumetric clouds, glowing particles, and fragmented floating geometric shapes such as glass-like cubes, rings, and broken architectural elements suspended in mid-air. The sky transitions through gradients of pastel pink, soft violet, warm gold, and pale blue, blending seamlessly like a painted dream.A large luminous celestial light source acts as the central focal point behind the subject, similar to a glowing sun or portal, creating a halo effect and strong backlighting that silhouettes the subject beautifully. Light rays spread outward through clouds in volumetric beams, creating depth and divine atmosphere.Small glowing butterflies or abstract light particles drift slowly across the scene, adding motion and emotional softness. The environment feels weightless, peaceful, and emotionally immersive, like a memory or dream frozen in time.Lighting is extremely soft and diffused, with bloom effects, gentle highlights, and no harsh shadows. The color grading is pastel cinematic with soft contrast, emphasizing emotional warmth and surreal beauty. Subtle film grain and lens glow are added to enhance artistic realism.The final image should feel like a high-end dreamcore editorial poster, emotional album cover, or surreal cinematic artwork with strong viral potential.Use ultra-realistic 8K detail, soft depth of field, and a 4:5 vertical aspect ratio optimized for social media virality.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "85.8K",
-    "likes": "7.8K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-10",
-    "title": "Underground Street Culture Poster",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2039795053237858362-brand-name.webp",
-    "aspectRatio": "16:9",
-    "prompt": "[BRAND NAME] Act as a Senior Street Culture Art Director and Editorial Designer specializing in authentic underground magazine covers and campaign posters that feel documentary rather than commercial. Your reference universe: Thrasher Magazine, i-D, The Face, Dazed \u2014 raw, real, typographically bold. BRAND INTELLIGENCE SYSTEM Before executing, resolve: (1) HERO SUBJECT \u2014 identify the most authentic human archetype or iconic product moment associated with [BRAND NAME]'s world. Autonomously determine what this looks like based purely on the brand's identity \u2014 a person interacting with the brand's hero product in their most natural environment, or the hero product itself as the sole subject if no human archetype is more powerful. The subject must feel like it belongs to this brand's specific world \u2014 not borrowed from another brand's cultural universe. Never default to skateboarding, skating, or street sport unless [BRAND NAME] is specifically and primarily a skate brand, (2) ENVIRONMENT \u2014 the most iconic real-world location context for [BRAND NAME]'s subject \u2014 not a studio, always a real place with atmosphere: a rooftop, a street, a race track, a kitchen, a parking lot, a coastline, a salon, a garage, a runway, (3) BRAND WORDMARK STYLE \u2014 identify how [BRAND NAME]'s name would look rendered as a rough hand-painted or chalk brushstroke headline \u2014 the texture and character of the lettering must feel native to the brand's specific subculture and communication style, (4) NEON ACCENT COLOR \u2014 identify one single neon or highly saturated accent color that feels culturally connected to [BRAND NAME]'s world \u2014 this will be used exclusively for the graffiti tag overlay and nowhere else, (5) QUOTE LINE \u2014 autonomously generate a short authentic-sounding quote or phrase in [BRAND NAME]'s voice \u2014 4\u20136 words, raw and real, not corporate, not generic. PHASE 1: PHOTOGRAPHY BASE The entire image is built on a real location photograph \u2014 not a studio shot, not a white background, not a cyclorama. The environment resolved in the brand intelligence system is the setting. Natural or available light only \u2014 no softboxes, no controlled studio lighting. The light should feel like it was taken at golden hour, overcast day, or in existing ambient conditions. Camera angle: dynamic and committed \u2014 low angle looking up for power, or a dramatic dutch tilt for tension, never flat eye-level. The subject is captured at peak energy \u2014 the single most alive frame of the action or moment. The photograph fills the entire canvas edge to edge with no padding. Color grade: slightly pushed contrast, natural colors preserved, filmic grain, not over-processed. This photograph must feel like it was taken by a photographer who was actually there \u2014 not staged, not art directed to death. PHASE 2: BRAND LOGO BRUSHSTROKE \u2014 CRITICAL Autonomously identify [BRAND NAME]'s primary icon mark or logo symbol \u2014 the exact recognizable shape that represents this brand visually. Render this logo mark as a large hand-painted brushstroke version \u2014 as if a skilled street artist took a wide brush loaded with paint and painted the logo freehand on a wall. The shape must be immediately recognizable as [BRAND NAME]'s actual logo geometry \u2014 correct proportions, correct silhouette, correct internal details \u2014 but executed in a loose, gestural, brush-painted style with visible bristle marks, paint drips, slightly uneven edges, and areas where the paint is thinner and the surface shows through. This is not a clean vector trace \u2014 it is a human hand interpreting a logo with a brush. Size: enormous \u2014 spanning 70\u201385% of canvas width, occupying the upper third of the canvas. Color: white or off-white paint \u2014 reading clearly against the photograph behind it. The brushstroke logo sits on top of the photograph as an overlay with natural paint transparency in the thinner areas. PHASE 3: GRAFFITI TAG OVERLAY One single graffiti element in the NEON ACCENT COLOR resolved in the brand intelligence system. This element is a loose hand-drawn tag, throw-up, or marker scrawl \u2014 a secondary word, a symbol, an abstract mark, or a stylized brand-relevant word. It sits on top of everything \u2014 over the photograph, over the wordmark, over any other element \u2014 as if added last and spontaneously, like someone tagged the poster after it was printed. Placement: partially overlapping the brand wordmark in the upper portion of the image with additional marks or drips extending into the mid-section of the canvas. The neon accent color is used nowhere else in the entire composition \u2014 this element owns that color exclusively. The graffiti mark adds rawness and authenticity \u2014 it breaks the polish and makes the whole thing feel real. PHASE 4: TYPOGRAPHY SYSTEM Four distinct text zones \u2014 all small, all restrained, creating an editorial layout grid around the large wordmark and photograph. UPPER LEFT BLOCK: 3\u20134 lines of very small all-caps or mixed case body text describing [BRAND NAME]'s campaign, collection, or brand context \u2014 autonomously generate relevant editorial copy in [BRAND NAME]'s voice. This block sits in the top-left corner, justified left, at footnote scale. TWO LABEL LINES: directly below the upper left block \u2014 a campaign name or season on the left, a short descriptor on the right \u2014 both in small caps, same scale as body text. RIGHT MID BLOCK: the QUOTE LINE resolved in the brand intelligence system rendered in quotation marks in the right-center area, slightly larger than body text but still small relative to the wordmark. Below the quote: [BRAND NAME] in small caps as attribution. Below that: 3\u20134 lines of small body copy with [BRAND NAME]'s campaign message \u2014 autonomously generate relevant content. LOWER RIGHT DETAIL: a small secondary graffiti-style tag or signature mark in the neon accent color \u2014 smaller than the main graffiti element, positioned lower right as a finishing mark. PHASE 5: OVERALL COMPOSITION The visual hierarchy reads in this exact order: (1) the photograph and its energy \u2014 the eye enters through the action or subject, (2) the massive brushstroke wordmark \u2014 confirms the brand, (3) the neon graffiti tag \u2014 adds rawness and surprise, (4) the typography blocks \u2014 rewards closer reading. The composition must feel like a real magazine cover or a poster wheat-pasted on a wall \u2014 not a social media graphic, not a clean digital mockup. Every element has a reason to exist. Nothing is decorative. The rawness is the design. TECH SPECS Photography: real location, natural light, peak moment, filmic color grade with visible grain. Wordmark: textured brushstroke or chalk \u2014 never clean vector. Graffiti: one neon accent color only, hand-drawn quality, sits on top of all layers. Typography: small, editorial, restrained \u2014 maximum 4 text blocks. Color palette: natural photograph tones plus one neon accent color only \u2014 no additional colors introduced anywhere. No geometric shapes, no illustrated elements, no icons, no additional graphic overlays beyond what is specified. The graphic language is exclusively photography plus typography plus one graffiti accent. Mood: a poster designed by someone who actually lives in this brand's world \u2014 not an agency, not a committee, one person with a strong point of view and complete conviction. PHOTOGRAPHY TONE \u2014 CRITICAL: the subject must be clean, sharp, and well-lit despite the raw editorial aesthetic. Raw and authentic refers to the composition style and location \u2014 NOT to dirt, sweat, mud, or degraded appearance of the subject. The person or product must look aspirational and desirable. No dirt. No sweat. No mud. No torn clothing. No gritty degraded appearance. Editorial rawness means honest and unposed \u2014 not physically dirty.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "90.0K",
-    "likes": "8.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-11",
-    "title": "Fashion VN Magazine Cover",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-a1bd645b-c784-4b67-ba0a-f89047bd6966-project-type-name-fashion-vn-magazine-cove.webp",
-    "aspectRatio": "16:9",
-    "prompt": "{ \"project_type\": { \"name\": \"Fashion VN Magazine Cover\", \"style\": \"Editorial typography cover, raw photography\", \"aspect_ratio\": \"3:4\", \"resolution\": \"8K\" }, \"reference_images\": { \"face_reference\": { \"file\": \"vanlinh2.jpg\", \"instruction\": \"Use strictly for exact facial features, eye shape, and peach lips. Do NOT inherit the sweater or background.\" }, \"clothing_reference\": { \"file\": \"set29.jpg\", \"instruction\": \"Use strictly for the ivory/burgundy ruffled dress with 3D roses. Exact replica of bodice and skirt.\" } }, \"typography_and_layout\": { \"title\": \"Large bold elegant serif text 'Fashion VN' across the top center\", \"elements\": [ \"magazine cover layout\", \"fashion editorial cover lines in small font\", \"barcode at bottom corner\" ] }, \"subject\": { \"face\": \"Exact match to vanlinh2.jpg\", \"hair\": \"Elegant messy updo, dark brown\", \"makeup\": { \"skin\": \"Raw, unretouched, visible pores, natural skin texture, NOT smooth\", \"lips\": \"Glossy peach\" } }, \"clothing\": { \"dress\": \"Exact match to set29.jpg: ivory sweetheart bodice, deep burgundy cascading ruffled skirt, 3D fabric roses\" }, \"pose\": { \"shot_type\": \"Full body magazine cover shot\", \"posture\": \"High-fashion editorial pose, standing straight, showing full dress volume\" }, \"environment\": { \"setting\": \"Professional magazine studio\", \"background\": \"Solid muted grey backdrop to make the dress and red text pop\" }, \"photography\": { \"style\": \"Raw unretouched photo, high-end editorial\", \"lighting\": \"Studio flash, hard light creating crisp shadows\", \"camera\": \"Hasselblad medium format, 85mm lens\" }, \"negative_prompt\": [ \"plastic skin\", \"smooth skin\", \"airbrushed\", \"cgi\", \"3d render\", \"different face\", \"wrong dress\", \"missing roses\", \"casual background\", \"deformed anatomy\" ]}",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "95.1K",
-    "likes": "9.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-12",
-    "title": "Technical Blueprint Sketch and Realistic 3D\u2013render Fusion of a Cu",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-26cb3d0c-cff1-4935-b569-6128fc20b9a5-highly-detailed-technical-blueprint-sketch-and-realistic.webp",
-    "aspectRatio": "9:16",
-    "prompt": "Highly detailed technical blueprint sketch and realistic 3D\u2013render fusion of a custom modified car 2027 BMW iM3. Transform the car into a tuned concept blueprint with an aggressive lowered stance, wide-body aesthetic (adapted to match the real car\u2019s form), and bold racing stripe accents matching or enhancing the original photo colors. Add large aftermarket-style wheels inspired by the car in the photo (accurate spoke design & size), sharp LED-like lighting details, and sporty aerodynamic additions such as front spoiler, side skirts, rear diffuser, and small spoiler \u2014 all adjusted realistically to the BMW iM3\u2019s geometry. Surround the main render with precise engineering-style blueprint elements: multiple orthographic views (front, rear, side, top) derived from the reference photo, construction lines, mm-dimensions, exploded-view details for wheels, suspension, and body kit components. Art style combines pencil/ink drafting with fine cross-hatching, clean annotations, and a photorealistic shaded center render. Blueprint background in soft light-blue or sepia technical-paper texture, ultra-detailed, professional automotive concept-design composition. --ar 9:16",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "45.2K",
-    "likes": "10.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-13",
-    "title": "A High-Resolution Advertising Photograph of a Realistic",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2038616252785303612-a-high-resolution-advertising-photograph-of-a-realistic.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A high-resolution advertising photograph of a realistic, miniature product in the attached image, held delicately between a person's thumb and index finger: clean and white background, studio lighting, soft shadows. The hand is well-groomed, with a natural skin tone, and positioned to highlight the product\u2019s shape and details. The product appears extremely small but hyper-detailed and brand-accurate, centered in the frame with a shallow depth of field. Emulates luxury product photography and minimalist commercial style",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "50.3K",
-    "likes": "11.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-14",
-    "title": "Matcha Cheesecake Macro Food Shoot",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2009446363331973461.webp",
-    "aspectRatio": "9:16",
-    "prompt": "{ \"global_settings\": { \"resolution\": \"8K UHD\", \"quality\": \"ultra-high\", \"render_style\": \"AI-edited hyper-realistic food photography\", \"sharpness\": \"extreme micro-detail\", \"noise\": \"none\", \"compression\": \"lossless\", \"lighting_quality\": \"studio-controlled, cinematic\", \"color_accuracy\": \"true-to-image\", \"focus\": \"selective shallow depth of field\", \"texture_emphasis\": \"maximum\" }, \"camera_profile\": { \"camera_type\": \"full-frame DSLR / mirrorless equivalent\", \"lens\": \"macro prime\", \"focal_length\": \"85mm\u2013105mm\", \"aperture\": \"f/2.8\", \"iso\": \"low ISO\", \"shutter\": \"studio synchronized\", \"white_balance\": \"neutral, image-matched\" }, \"module_1_image_1_style\": { \"subject\": \"square matcha cheesecake slice\", \"composition\": { \"orientation\": \"portrait\", \"angle\": \"three-quarter front view\", \"placement\": \"centered on dark ceramic plate\", \"crop\": \"tight food-focused crop\" }, \"layers\": { \"top_layer\": \"glossy matcha glaze with visible drip trails\", \"middle_layer\": \"smooth pale-green cheesecake body\", \"bottom_layer\": \"thin golden biscuit crust\" }, \"surface_details\": { \"glaze\": \"highly reflective, thick, slow-dripping matcha glaze\", \"powder\": \"matcha powder dusted on top and plate\", \"crumbs\": \"fine crumbs near base\" }, \"garnish\": { \"top\": [\"round green confection\", \"fresh mint leaves\", \"single raspberry\"], \"plate\": [\"extra raspberry\", \"mint leaves\", \"matcha powder\"] }, \"background\": { \"color\": \"dark charcoal / black\", \"elements\": [\"black bowl containing green sauce\"], \"blur\": \"strong background blur\" }, \"lighting\": { \"key_light\": \"soft directional from upper left\", \"highlights\": \"strong specular highlights on glaze\", \"shadows\": \"soft, natural falloff\" }, \"mood\": \"luxurious, modern, minimal, gourmet\" }, \"module_2_image_2_style\": { \"subject\": \"blue and white layered cake slice\", \"composition\": { \"orientation\": \"portrait\", \"angle\": \"slightly elevated front angle\", \"placement\": \"centered on white decorative plate\" }, \"layers\": { \"cake_layers\": \"soft white sponge layers\", \"filling_layers\": \"translucent blue jelly layers with sparkle\", \"top_layer\": \"smooth pastel blue glaze\" }, \"surface_details\": { \"drip\": \"single vertical glossy blue drip down front\", \"sparkle\": \"tiny reflective particles embedded in jelly\", \"top_decor\": \"glass-like blue spheres\" }, \"garnish\": { \"top\": [\"dark glossy cherry with long stem\", \"three transparent blue spheres\", \"tiny star-shaped sprinkles\"], \"plate\": [\"subtle sugar-like sparkles\"] }, \"background\": { \"color\": \"light icy blue\", \"effect\": \"soft bokeh dots\", \"props\": [\"white ribbon partially visible\"] }, \"lighting\": { \"key_light\": \"soft frontal light\", \"fill\": \"even illumination\", \"highlights\": \"glass reflections on spheres\" }, \"mood\": \"dreamy, delicate, whimsical, clean\" },",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.4K",
+    "views": "55.5K",
     "likes": "12.4K",
     "timestamp": "Verified",
     "creator": {
@@ -405,7 +41,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -414,16 +50,16 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-15",
-    "title": "Use the Attached Image of the Model as Facial Reference and Physi",
+    "id": "gp-exact-2222894962",
+    "title": "Use the Attached Image of the Model as Facial Reference and Physical F",
     "category": "image",
     "model": "Nano Banana Pro",
     "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2010663134743368058-use-the-attached-image-of-the-model-as-facial-reference-a.webp",
     "aspectRatio": "16:9",
     "prompt": "Use the attached image of the model as facial reference and physical features. Black and white high-fashion editorial portrait of uploaded person, wearing a loose white blouse. She poses with one arm raised, partially covering her face while holding her hair up, creating a dramatic and artistic composition. Her gaze is intense and captivating, directed toward the camera, exuding a strong, enigmatic aura. Background: minimalist plain wall with sharp natural daylight casting defined shadows, adding depth and contrast. Lighting: harsh natural sunlight, high-contrast setup highlighting facial contours, sharp cheekbones, and texture of the hair and fabric. Pose: bold and expressive, arm lifted framing the face, emphasizing raw emotion and editorial style. Camera: eye-level angle, close-up framing focusing on facial expression, texture, and dramatic shadow play. Captured with a Canon EOS R5 full-frame DSLR, 85mm f/1.8 lens for crisp detail, tonal depth, and fine grain. Style: high-fashion editorial in monochrome.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "60.5K",
-    "likes": "6.5K",
+    "views": "82.5K",
+    "likes": "9.0K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -433,7 +69,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -442,13 +78,1721 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-16",
-    "title": "Large Arabic Infographic in the Form of a Small Three-Dimensional",
+    "id": "gp-exact-3075514279",
+    "title": "Midjourney Has Updated Niji \ud83d\udcab Here Are My Top Four --Srefs to Pair wit",
     "category": "image",
     "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2054295667485327716-create-a-large-arabic-infographic-in-the-form-of-a-small.webp",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2010340876632137794-midjourney-has-updated-niji.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Midjourney has updated Niji \ud83d\udcab Here are my top four --srefs to pair with it: 1. --sref 3586484788 2. --sref 288301287 3. --sref 1124116562 4. --sref 1542319393 https://t.co/YtwJcnt590",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1783248513",
+    "title": "A High-End Fashion Campaign Poster Featuring a Young Model Standing Co",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063928106336047495-a-high-end-fashion-campaign-poster-featuring-a-young-mode.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A high-end fashion campaign poster featuring a young model standing confidently in front of gigantic 3D typographic letters integrated into a minimalist architectural backdrop. Luxury streetwear aesthetic, oversized hoodie and cargo joggers, monochromatic outfit color palette, premium fabric textures, relaxed fit, hands in pockets, editorial fashion pose. Clean studio environment with soft diffused lighting, subtle shadows, ultra-realistic fabric folds, modern luxury branding, magazine-quality advertising layout, large embossed typography dominating the background, minimalist color scheme, sophisticated composition, premium streetwear campaign, fashion lookbook cover, high-end commercial photography, sharp focus, full-body shot, centered composition, photorealistic, cinematic lighting, depth and dimensionality, contemporary luxury fashion branding, 8k detail. Orange Version Luxury streetwear campaign poster, full-body model wearing an oversized burnt-orange hoodie and matching cargo pants, standing in front of massive white 3D letters spelling a bold brand name, minimalist architectural wall, premium fashion editorial, clean luxury aesthetic, oversized silhouette, soft studio lighting, realistic shadows, premium cotton texture, modern typography design, luxury streetwear advertisement, monochromatic orange styling, high-end commercial photography, magazine cover layout, photorealistic, ultra detailed, 8k.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "83.6K",
+    "likes": "10.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1023088571",
+    "title": "A Young Woman with Long, Voluminous Curly Dark Brown Hair Stands Cente",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066101426988958154-a-young-woman-with-long-voluminous-curly-dark-brown-hair.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A young woman with long, voluminous curly dark brown hair stands centered against a flat solid bubblegum-pink studio backdrop, wearing a cozy pink-and-white checkered plush fleece bathrobe with a shawl collar, her arms crossed loosely in front of her body, one hand raised with index finger pressed thoughtfully against her chin, head tilted slightly and eyes glancing sideways with a playful, contemplative pursed-lip expression, soft glossy pink lipstick and natural makeup, pink manicured nails visible on the raised hand; from the four corners of the frame, four disembodied arms reach in toward her holding colorful shower gel bottles with pump dispensers, each bottle branded with a cereal-themed design, top left a blue bottle labeled \"Frosties,\" top right a yellow bottle labeled \"Coco Pops,\" bottom left a pink bottle labeled \"Pop-Tarts,\" and bottom right a red bottle labeled \"Froot Loops,\" all bottles with matching colored pump caps; the lighting is bright, even, high-key studio lighting typical of a commercial beauty/product advertisement, sharp focus on the woman and products, clean minimalist composition, vibrant saturated color palette, square aspect ratio, professional advertising photography style, all text in English.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "77.0K",
+    "likes": "19.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2295475005",
+    "title": "Super Cinematic Hyper-Realistic Football Poster in 4K Ultra HD Vertica",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-64543fc9-e129-4443-bf5e-856efae4543b-create-a-super-cinematic-hyper-realistic-football-poster.webp",
     "aspectRatio": "9:16",
-    "prompt": "Create a large Arabic infographic in the form of a small three-dimensional children's storybook, resembling Pixar's cinematic imagination, with a very luxurious cinematic design in terms of realistic details, soft lighting, and amazing compositions, a real page inside a stunningly captivating story world, perfectly suitable for the story's theme. The design is entirely based on: Title: \u201c{{...Title of the story is written here...}}\u201d Special: \u2022 {{Character 1}} \u2022 {{Character 2}} \u2022 {{Character 3}} \u2022 {{Character 4}} \u2022 {{Character 5}} Man: Write a complete children's story based solely on the title of the story and the names of the characters, without any text agreement from the user. The original innovative environment according to the title of the story. If the title is about an amusement park, make the environment an amusement park city. If it's about a school, make it inside the school. If it's about soccer, make it inside the stadium. If it's about a journey or safari or factory or store or city channels or any other idea, participate in the world completely with events that are very harmonious with the theme of the story. The story must be: \u2022 Full of adventures and derived events \u2022 Influential for children \u2022 Full of emotions and amazing discoveries \u2022 Containing strong cinematic moments \u2022 Containing childlike dialogues \u2022 Containing funny, scary, and touching situations \u2022 Containing a puzzle or an important discovery in the story \u2022 Containing a thrilling ending for the next part Design of the world: \u2022 A three-dimensional realistic book \u2022 Curved pages with realistic glass \u2022 Side cuts and waves from 1 to 8 \u2022 Each page with a different color \u2022 A large distribution of elements \u2022 Very high detail \u2022 Global publishing quality \u2022 Design resembling interactive children's books Basic pages: 1. Create a huge cinematic cover containing the main characters inside the main environment of the story, with a large, attractive Arabic title. 2. Main Characters A dedicated page containing only vertical strips, with a short description for each character specifically in the story. 3. News Write fun Arabic stories that introduce children to the story world and the beginning of the adventure in a cinematic way. 4. Laptop Start by narrating the first important events and revealing the first puzzle or discovery or problem faced by the characters. 5. Believe in Yourself Create a page full of events, adventures, exciting situations, and cinematic scenes with small clips and movement. 6. Sports Test Create many Arabic dialogue bubbles between the characters during the adventure, with expressions full of emotion, enthusiasm, fear, and laughter. 7. Lesson of the Story Register now for babies and thousands of people with a group of lively characters after the exploration. 8. Suspenseful Create a huge cinematic ending that hints at a new adventure entering the story world, with mystery and magic. Reason: \u2022 Three-dimensional children's storybook with ultra-high details \u2022 Pixar-like character design \u2022 Cinematic storytelling \u2022 Warm, enchanting lighting \u2022 Imaginative environment \u2022 Very detailed environment \u2022 Interactive storytelling using infographics \u2022 Ultra-realistic texture \u2022 Soft volumetric lighting \u2022 Excellent publishing quality \u2022 Expressive, cute characters \u2022 Arabic educational storybook style \u2022 Enchanting atmosphere \u2022 Rich depth and shadows \u2022 Elegant realistic texture \u2022 High-quality cinematic music composition \u2022 Ultra-high-definition 8K clarity \u2022 Clean Arabic printing \u2022 Emotional storytelling scenes \u2022 Vibrant colored tabs \u2022 Dense visual storytelling Arabic Bengali: \u2022 Stock \u2022 Seats \u2022 Without details \u2022 Luxury Arabic children's bathroom Aspect ratio 9:16 High-quality 12k 3D output Be careful not to make mistakes in writing and be methodically and structurally proficient before confirming",
+    "prompt": "Create a super cinematic hyper-realistic football poster In 4K Ultra HD vertical 9:16 aspect ratio with a luxury minimalist sports-poster aesthetic. Use a long-range cinematic camera angle with half-body framing from waist-up for both characters. The overall atmosphere should feel emotional, elite, dark, dramatic. and professionally designed like an official FIFA World Cup advertisement. On the left side place a fashionable athletic young man wearing the EXACT Argentina 2026 World Cup away jersey with accurate real-world kit details researched from official references authentic fabric texture, sleeve design, logos, stitching, collar structure, and jersey patterns. On the right side place Lionel Messi wearing the exact same Argentina 2026 away jersey. Both characters should stand back-to-back with folded arms while looking directly toward the camera with calm champion energy and confident facial expressions. Messi should look highly realistic with natural facial detail and cinematic lighting. The background should be mostly black with deep moody contrast and subtle neon edge-glow effects only around the subjects and design accents. Behind them place 3 long vertical glowing stripes inspired by Argentina flag colors - sky blue, white, and soft golden highlights. Add a large faded Argentina flag with dark transparent blending in the background for a premium cinematic feel. Include realistic stadium haze, smoke textures, floating dust particles, glossy jersey reflections, cinematic shadows, lens flare details, and premium sports-poster lighting. Add small elegant football typography such as \"ARGENTINA\", \"MESSI\", \"WORLD CUP 2026\", small futuristic numbers, minimal sports graphics. and luxury poster-style text elements integrated naturally into the composition. Typography should remain subtle and clean. Use black, icy blue, silver, and white tones in the color grading. Ultra realistic textures, sharp focus, authentic jersey folds, dramatic lighting, and official football campaign mood. No clutter, no crowd, no extra players, no cartoon effects",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4087179680",
+    "title": "A Young East Asian Woman with a Short Black Bob Haircut and Wispy Bang",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7920dc2f-aa44-4566-bd7e-959c258e855b-a-young-east-asian-woman-with-a-short-black-bob-haircut-a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A young East Asian woman with a short black bob haircut and wispy bangs is sitting in her cozy high-rise streamer studio at night. She is wearing an elegant dusty-rose fantasy dress with floral details and soft flowing sleeves.The room is illuminated by warm desk lighting, RGB keyboard glow, and distant city lights through a large floor-to-ceiling window.At first she is focused on her monitor as if reading chat messages. After a few seconds she slowly turns her chair toward the camera. She notices the viewer, pauses briefly, then rests her chin lightly on one hand.A subtle playful smile appears. She gently tilts her head, brushes a loose strand of hair away from her face, and maintains soft eye contact with the camera.Natural breathing, realistic blinking, delicate facial micro-expressions, relaxed posture.No exaggerated gestures. No waving. No dancing. No sudden movements. No speaking.Cinematic realism, authentic human behavior, natural body motion, realistic hair physics, warm atmosphere, shallow depth of field, premium lifestyle content, 10-second shot, single continuous camera take.At the end of the shot she slowly looks back toward her monitor.Her smile gradually fades into a relaxed neutral expression.She lightly adjusts her keyboard with one hand and continues reading chat.exaggerated smile, overacting, dancing, idol performance, heart gesture, excessive hand movement, fast motion, talking, lip sync, cartoon motion, distorted fingers, facial morphing, identity drift, camera shake, low quality animation, blinking too much, unnatural head movement",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
+    "likes": "10.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1706111363",
+    "title": "Prepare a kickoff brief",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Prepare a kickoff brief: Get every team to the same starting point before the first meeting",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "51.1K",
+    "likes": "8.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1906935928",
+    "title": "Premium Travel-Food Advertisement Poster for CITY/COUNTRY",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2057282710469767241-ultra-detailed-premium-travel-food-advertisement-poster-f.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Ultra-detailed premium travel-food advertisement poster for [CITY/COUNTRY], vertical composition, inspired by luxury Lay\u2019s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign. A cinematic spiral ribbon of sauce, cream, clouds, steam, or flavored swirl rises upward from the chips packet, dynamically wrapping around iconic landmarks, local foods, and cultural elements from [CITY/COUNTRY]. Floating ridged potato chips suspended naturally throughout the spiral motion, interacting with the landmarks and miniature travelers. The chips packet design must feel authentic to [CITY/COUNTRY], featuring regional colors, typography, patterns, and local flavor inspiration while still clearly looking like a premium potato chips package. Include only the most iconic landmarks from [CITY/COUNTRY], carefully spaced with clean composition and no clutter. Add miniature travelers naturally interacting with the environment: - taking photos - exploring landmarks - sitting on floating chips - riding local transport - observing scenery - walking through the swirl paths Include authentic local foods, ingredients, and atmosphere elements relevant to [CITY/COUNTRY]. Background should be soft pastel or warm luxury gradient with a circular ceiling portal opening at the top emitting cinematic spotlight beams. Elegant premium commercial lighting, soft shadows, floating particles, realistic depth, balanced negative space, luxury tourism campaign aesthetic, hyper-realistic CGI, highly detailed but minimalist, Instagram-worthy poster design. Composition rules: - one dominant centered chips packet - floating ridged potato chips throughout composition - one continuous upward spiral motion - landmarks layered vertically - miniature people sparse and intentional - no duplicate landmarks - no overcrowding - clean premium hierarchy - cinematic storytelling through scale contrast - premium advertising composition matching high-end chips commercials",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3407072845",
+    "title": "Respond to an employee complaint",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Respond to an employee complaint: Acknowledge the concern, outline next steps, and build trust in the HR process",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "72.4K",
+    "likes": "14.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3408456142",
+    "title": "\u30a8\u30e2\u30fc\u30b7\u30e7\u30ca\u30eb\u306a\u96f0\u56f2\u6c17\u3067\u3001\u5915\u66ae\u308c\u6642\u306e\u67d4\u3089\u304b\u306a\u5149\u306b\u5305\u307e\u308c\u305f\u65e5\u672c\u4eba\u5973\u5b50\u5927\u751f\u306e\u81ea\u64ae\u308a\u5199\u771f",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-50e1db82-36f8-48b3-9b53-3b334382e75f.webp",
+    "aspectRatio": "16:9",
+    "prompt": "\u30a8\u30e2\u30fc\u30b7\u30e7\u30ca\u30eb\u306a\u96f0\u56f2\u6c17\u3067\u3001\u5915\u66ae\u308c\u6642\u306e\u67d4\u3089\u304b\u306a\u5149\u306b\u5305\u307e\u308c\u305f\u65e5\u672c\u4eba\u5973\u5b50\u5927\u751f\u306e\u81ea\u64ae\u308a\u5199\u771f\u3002\u5f7c\u5973\u306e\u8868\u60c5\u306f\u5c11\u3057\u6182\u3044\u3092\u5e2f\u3073\u3066\u304a\u308a\u3001\u80cc\u666f\u306b\u306f\u90fd\u4f1a\u306e\u30cd\u30aa\u30f3\u304c\u307c\u3093\u3084\u308a\u3068\u6ef2\u3093\u3067\u3044\u308b\u3002\u6d45\u3044\u88ab\u5199",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "90.4K",
+    "likes": "17.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1638763603",
+    "title": "Professional Food Photography of a Gourmet Roast Dinner Served on a Wh",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b092a224-3a81-4853-90f7-be6ceb410da4-professional-food-photography-of-a-gourmet-roast-dinner-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Professional food photography of a gourmet roast dinner served on a white ceramic plate. Juicy sliced roasted beef steak, crispy golden roast potatoes, fluffy Yorkshire pudding, fresh green broccoli florets, glazed roasted pumpkin cubes. Rich brown gravy being poured from a small metal gravy boat over the vegetables, creating a delicious glossy texture. Warm restaurant ambiance, natural lighting, shallow depth of field, realistic food textures, premium plating, high-end dining presentation, ultra realistic, DSLR photography, commercial food advertisement, cinematic composition, 8K resolution, appetizing and elegant atmosphere.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3558929615",
+    "title": "Rapid Exchanges of Kicks and Blocks",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043167918910029895-shot-on-alexa-65mm-anamorphic-lens-photorealistic-cinema.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Shot on ALEXA 65mm anamorphic lens. Photorealistic cinematic quality. Aspect ratio 2.39:1 widescreen. Teal shadows, warm amber highlights. Film grain. Rain-soaked neon-lit night. Lens flares, motion blur. Dolby Vision HDR. 0.0s\u20132.5s: Extreme low-angle tracking shot \u2014 two girls face each other in a narrow neon-lit alley, rain pouring hard. One in a soaked leather jacket, the other standing calm, hair dripping, eyes locked. Water ripples across puddles between them. The camera slowly tracks backward as they step closer. Tension builds. One cracks her knuckles, the other tilts her head with a cold smirk. 2.6s\u20135.0s: Whip-pan \u2014 first strike launches. TIME REMAP: slow motion as one swings, the other ducks and counters with a sharp punch. Water sprays through the air. Hair whips across faces. A kick lands, sending one sliding across wet pavement. Neon lights flicker above, sparks falling like rain. 5.1s\u20137.5s: Drone shot \u2014 overhead view as they circle each other, movements precise and fast. SLOW MOTION: rapid exchanges of kicks and blocks. One attempts a spinning strike \u2014 caught mid-motion and redirected. Their reflections blur in the rain-soaked ground. 7.6s\u201310.0s: 360\u00b0 orbital shot \u2014 one leaps forward with a spinning kick, the other blocks and counters instantly. The camera circles as they trade blows in perfect rhythm. Breath visible in the cold air. Their expressions stay focused, intense, unshaken. 10.1s\u201313.0s: First-person POV \u2014 one girl charges for the final exchange. SMASH CUT: fast, heavy hits in slow motion. Final strike connects clean. Silence. Rain continues falling. Slow push-in \u2014 one girl stands steady, adjusting her sleeve, breathing controlled. The other remains down, unmoving. Low-angle shot. Eyes sharp, unwavering.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1683856352",
+    "title": "Premium Travel-Food Advertisement Poster for Dubai",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-372b5556-044c-4f50-9fc2-2242c357709c-ultra-detailed-premium-travel-food-advertisement-poster-f.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Ultra-detailed premium travel-food advertisement poster for [dubai], vertical composition, inspired by luxury Lay\u2019s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign.A cinematic spiral ribbon of sauce, cream, clouds, steam, or flavored swirl rises upward from the chips packet, dynamically wrapping around iconic landmarks, local foods, and cultural elements from [dubai].Floating ridged potato chips suspended naturally throughout the spiral motion, interacting with the landmarks and miniature travelers. The chips packet design must feel authentic to [GOW ENGINEERING& TECHNICAL SERVICE,KUMBAKONAM], featuring regional colors, typography, patterns, and local flavor inspiration while still clearly looking like a premium potato chips package.Include only the most iconic landmarks from [JOB BASED TRAINING], carefully spaced with clean composition and no clutter. Add miniature travelers naturally interacting with the environment:taking photosexploring landmarkssitting on floating chipsriding local transport recreate the prompt with GOW Engineering Technical & Services",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1305625236",
+    "title": "Cinematic Portrait of a Confident Football Player Sitting on a Dark Ar",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032756394202657147-cinematic-portrait-of-a-confident-football-player-sitting.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic portrait of a confident football player sitting on a dark armchair, tropical jungle leaves surrounding him, dramatic low-key lighting, black background, moody atmosphere, wearing a cream Brazil football jersey with green accents, athletic build and trimmed beard, tattoos on arms, relaxed powerful pose with arms resting on chair, studio photography, ultra realistic, sharp focus, high contrast, depth of field, editorial sports photoshoot, 85mm lens, dark luxury aesthetic, 8k.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "88.2K",
+    "likes": "15.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1802574990",
+    "title": "THE LOST CENTURYDARVEN VALDRAKEMASTER CHARACTER REFERENCE SHEET16:9 HO",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-85292630-df2c-4f78-ab20-e15695f981e7-the-lost-centurydarven-valdrakemaster-character-reference.webp",
+    "aspectRatio": "16:9",
+    "prompt": "THE LOST CENTURYDARVEN VALDRAKEMASTER CHARACTER REFERENCE SHEET16:9 HORIZONTAL FORMATSTYLE:Ultra-detailed anime movie character design.Ufotable x Vinland Saga x Fate Heaven's Feel quality.Premium concept art presentation.Production-ready reference sheet.Storyboard and AI video consistency focused.Clean light background.No environment.No text-heavy layout.Character-focused design.CHARACTER IDENTITYName: Darven ValdrakeRole: Future Main Crew SwordsmanAge: 13 Years OldKingdom: ValtoraArchetype: Underdog WarriorPersonality:DeterminedLoyalKind-heartedHardworkingQuietNever gives upProtective of othersDream: Become the greatest swordsman in the world.BODY DESIGNHeight: 155 cmBuild: Lean athletic teenagerNot muscular.Not bulky.Fast-growing young swordsman.Slightly narrow shoulders.Long legs.Good posture.Distinctive silhouette.FACE DESIGNSilver hair.Medium length.Naturally messy.Wind-swept anime hairstyle.Blue eyes.Sharp but youthful.Small scar on right eyebrow.Fair skin.Determined expression.No beard.No facial hair.Age must clearly look 13.PRIMARY OUTFITDark navy-blue Valtora trainee uniform.Gold embroidery details.High collar.Long sleeves.Leather wrist wraps.Dark brown belt.Dark pants.Travel boots.Light leather shoulder protection.Practical swordsman design.WEAPONSWeapon 01Training SwordWooden sword.Used in Chapter 1 and early Chapter 2.Weapon 02Father's SwordTraditional Valdrake longsword.Silver blade.Blue gemstone guard.Ancient family weapon.Appears after Chapter 3.COLOR PALETTEPrimary: Deep Navy BlueSecondary: Silver WhiteAccent: Royal GoldEye Color: Bright BlueHair: SilverSkin: Natural fair toneCHARACTER SHEET LAYOUTPanel 1Front Full BodyNeutral pose.Arms relaxed.Panel 2Side ViewFull body.Show silhouette.Panel 3Back ViewShow cloak and sword placement.Panel 4Three-Quarter Hero PoseHand resting on sword.Determined expression.Panel 5Close-Up Face SheetExpressions:NeutralDeterminedAngrySadEmbarrassedInspiredPanel 6Weapon DetailFather's SwordFront viewSide viewGuard detailGemstone detailPanel 7Action PoseSword practice swing.Dynamic motion.Used for storyboard reference.Panel 8Battle PoseChapter 4 battlefield stance.Protecting civilians.Panel 9Chapter 5 Emotional PoseHolding Elara's broken sword.Tears in eyes.Strong emotional reference.CONSISTENCY RULESHair must always remain silver.Eyes must always remain bright blue.Age must always appear 13.Never make him look adult.Never make him muscular.Maintain same face shape across all views.Maintain same body proportions across all poses.Maintain same costume details.Maintain same sword design.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-120901519",
+    "title": "A High-Resolution Advertising Photograph of a Realistic",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2038616252785303612-a-high-resolution-advertising-photograph-of-a-realistic.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A high-resolution advertising photograph of a realistic, miniature product in the attached image, held delicately between a person's thumb and index finger: clean and white background, studio lighting, soft shadows. The hand is well-groomed, with a natural skin tone, and positioned to highlight the product\u2019s shape and details. The product appears extremely small but hyper-detailed and brand-accurate, centered in the frame with a shallow depth of field. Emulates luxury product photography and minimalist commercial style",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "79.2K",
+    "likes": "21.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3417693880",
+    "title": "Large Realistic Airport Terminal with Delayed Flights",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-6ff6552d-14a3-482f-8542-72ebd00084a3-large-realistic-airport-terminal-with-delayed-flights-co.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Large realistic airport terminal with delayed flights, confused passengers looking at blank information screens, grounded transportation infrastructure atmosphere, premium realism",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3024002941",
+    "title": "Ultra-Realistic Black-And-White High-Fashion Editorial Photograph in a",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-0c5b0de2-55e0-4ca1-8741-d96ff486c4f9-create-an-ultra-realistic-black-and-white-high-fashion-ed.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create an ultra-realistic black-and-white high-fashion editorial photograph in a wide cinematic studio composition. The scene features an adult female fashion model seated on a simple dark wooden chair positioned on the far left side of the frame, leaving a large amount of empty negative space on the right.The model has a confident, intense, slightly moody expression and looks directly toward the camera. Her pose is dramatic and sculptural: seated with her torso leaning slightly back and to one side, shoulders angled, head tilted subtly, one leg extended outward to the left, and the other leg bent downward. Her posture should feel elegant, rebellious, and editorial, with elongated body lines and strong fashion attitude.Wardrobe: a dark oversized high-fashion blouse or jacket with voluminous sleeves and soft draped fabric, paired with a bold patterned skirt or long trailing fabric panel. The fabric should fall from the chair and extend across the polished concrete floor toward the center-right of the image, creating a dramatic flowing train. The pattern should be high contrast in black and white, mixing abstract floral, zebra, and botanical motifs. Add tall glossy black leather boots with pointed toes and slight heels. Include a short pearl necklace around the neck for a refined luxury accent.Environment: minimal industrial studio with a raw textured concrete wall and polished concrete floor. The wall should have subtle scratches, plaster texture, stains, and worn surface imperfections. The floor should show faint reflections, scuff marks, and realistic concrete texture. No furniture except the chair. No props except the clothing and chair.Lighting: cinematic monochrome lighting with a bright soft-edged beam of light crossing diagonally across the background and floor from left-center toward the right side. Use soft shadows, gentle tonal gradients, and controlled contrast. The model should be partially lit with dramatic highlights on the boots, face, fabric folds, and pearl necklace. The background should remain minimal and atmospheric.Camera and composition: wide horizontal editorial framing, 16:9 aspect ratio, model placed in the left third of the frame, large empty space on the right. Shot from a low-to-mid camera height using a 28mm or 35mm fashion editorial lens. Deep enough focus to show the model, chair, trailing fabric, wall texture, and floor detail. High-resolution luxury magazine photography, cinematic realism, professional black-and-white grading, subtle film grain, crisp details, natural skin texture, realistic fabric folds, glossy boot reflections, museum-quality fashion editorial aesthetic.Negative prompt:No color, no busy background, no extra people, no modern furniture, no logos, no text, no watermark, no cartoon, no CGI, no plastic skin, no over-smoothed face, no distorted anatomy, no extra fingers, no broken hands, no unnatural legs, no awkward chair pose, no clutter, no harsh overexposure, no low-resolution texture, no blurry subject, no glamour studio backdrop, no fantasy elements.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "91.5K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-639839167",
+    "title": "YAKUZA STREETWEARFORMAT4:5 Vertical Premium Global Brand Campaignultra",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-492c8c98-cf5e-441c-9dc7-e152efe56627-yakuza-streetwearformat4-5-vertical-premium-global-brand.webp",
+    "aspectRatio": "9:16",
+    "prompt": "YAKUZA STREETWEARFORMAT4:5 Vertical Premium Global Brand CampaignUltra High Resolution 8KGlobal Digital + OOH + Fashion Editorial ReadyBehance Featured QualityCannes Lions Fashion & Luxury Campaign QualitySTYLELuxury streetwear storytellingSaint Laurent darkness \u00d7 Nike confidence \u00d7 Japanese mythology \u00d7 Balenciaga minimalismCinematic lightingModern urban elegancePremium editorial photographyLuxury fashion campaign aesthetics2026 global streetwear brand standardsBRAND INSIGHTPower is not loud.Respect is not demanded.Identity is not given.It is earned.YAKUZA exists for those who walk their own path.Not followers.Not spectators.Builders of their own legend.BIG IDEABECOME.One word.One evolution.Not who you were.Who you choose to become.HERO SCENEA solitary figure stands confidently in a futuristic urban alley.Dark architecture.Subtle neon reflections.Rain-soaked pavement.Golden dragon motifs glow softly across embroidered clothing.The atmosphere feels:calmpowerfuluntouchablelegendaryBehind the figure, a giant ethereal dragon emerges from shadows.Not aggressive.Protective.Ancient.The dragon represents discipline, transformation and inner strength.VISUAL STORYTELLINGThe environment reveals fragments of the YAKUZA universe:limited edition jacketsembroidered hoodiesluxury sneakersgolden dragon symbolsJapanese calligraphystreet culture fused with mythologydrops sold outexclusive releasesEvery object feels intentional.Every detail tells a story.Nothing feels mass-produced.COMPOSITIONClean.Bold.Architectural.Strong central composition.Large negative space.Editorial hierarchy.Luxury minimalism.The figure occupies the foreground.The dragon dominates the background.The city frames the legend.TYPOGRAPHYMassive cinematic typography.BECOME.Oversized.Architectural.Integrated into the environment.The letters appear forged from black metal and brushed gold.Not a slogan.A transformation.A destiny.COLOR SYSTEMObsidian Black #000000Imperial Gold #FFD700Dark Graphite #2F2F2FCrimson Red #C41E3APure White #FFFFFFConcrete Gray #6B6B6BBlack dominates.Gold commands attention.Red appears only as symbolism:dragon eyessubtle reflectionsmoments of intensity.BRAND SYMBOLISMThe DragonRepresents:disciplinewisdompowertransformationprotectionGoldRepresents:achievementlegacyprestigeBlackRepresents:mysterycontrolsilencestrengthCTAOWN YOUR LEGEND \u2192orENTER THE DRAGON \u2192orBECOME MORE \u2192EMOTIONAL RESPONSEThe viewer should think:\"I don't want to fit in.\"Then:\"I want to become stronger.\"Then:\"I want to wear something that represents who I am.\"Finally:\"I want YAKUZA.\"QUALITY TARGETNike confidence.Saint Laurent elegance.Balenciaga minimalism.Japanese mythology aesthetics.Luxury editorial photography.Behance front-page quality.Cannes Lions Grand Prix potential.NOT A CLOTHING AD.NOT A STREETWEAR STORE.NOT FAST FASHION.A global brand campaign celebrating identity, discipline and transformation.One dragon.One path.One truth.BECOME.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "55.5K",
+    "likes": "12.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2001532326",
+    "title": "Crystal Glass Corporate Logo Sculpture",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063700272661029176-brand-name.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME]. Act as a High-End Product Photographer and CGI Artist. PHASE 1: SUBJECT & LOGIC Generate a massive, perfectly centered, three-dimensional physical sculpture of the official, unaltered corporate logo for [BRAND NAME]. The sculpture must strictly adhere to the brand\u2019s precise logo geometry and proportions (1:1 from brandbook). The sculpture is suspended in mid-air. Autonomously identify the exact official shape and structure of the [BRAND NAME] logo and render it as a single, flawless glass object without any modifications. PHASE 2: MATERIALITY (GLASS) The entire logo is made of hyper-realistic, optical-grade crystal glass (not water, not gel). The material is solid, colorless, and boasts high clarity with a high refractive index. It must look heavy and \u043c\u043e\u043d\u043e\u043b\u0438\u0442\u043d\u043e\u0435 (monolithic). The glass structure contains subtle, photorealistic microscopic flaws: fine polished scratches on the surface and minor internal inclusions (dust particles/seed bubbles, very few) to avoid \u201cCGI plastic.\u201d The edges must be precision-beveled and fire-polished. PHASE 3: ENVIRONMENT & CAUSTICS The logo is suspended against a strictly clean, bright blue sky with sparse, naturally defined white cumulus clouds. NO land, NO trees, NO palms. The background is purely atmospheric. The focus is entirely on the glass logo. Critically render hyper-realistic, complex glass caustics: intense, sharp patterns of focused light and color (refractions of the blue sky) cast inside and onto the surface of the glass form due to the sunlight passing through it. TECH SPECS Rendered with Arnold or Octane. Phase One XF, 120mm Macro lens. Aperture f/5.6 for sharp depth across the entire glass sculpture. Intense, direct sunlight (hard lighting) to maximize caustics. Global illumination, ray-traced refractions (double-sided geometry), and chromatic aberration emulation (subtle) for optical realism. Fine grain film emulation (Fujifilm Velvia 50).",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "93.7K",
+    "likes": "20.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-561413836",
+    "title": "Ultra-Realistic Candid Film Photography Portrait of a Young Woman Lean",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-42906446-46f6-4668-a274-34b6c620c051-ultra-realistic-candid-film-photography-portrait-of-a-you.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Ultra-realistic candid film photography portrait of a young woman leaning over a bathroom sink and looking into a mirror at night, captured through a slightly dirty mirror with natural reflections and subtle imperfections. She has long black hair partially covering her face, soft glowing skin, and a gentle mysterious smile. Wearing a light pink off-shoulder fitted top and loose cream-colored lounge pants, she poses casually with both hands resting on the sink. The scene is illuminated by direct on-camera flash, creating authentic Y2K disposable camera aesthetics, soft highlights, realistic skin texture, and natural shadows. A nighttime city skyline with colorful neon lights and high-rise buildings is visible through a nearby window, adding an urban atmosphere. The bathroom countertop is filled with skincare and cosmetic products, enhancing the lived-in, personal feel. Shot from a close-up mirror perspective, cinematic composition, shallow depth of field, nostalgic 35mm film grain, subtle lens flare, reflections on glass, moody apartment ambiance, Korean lifestyle photography, intimate everyday moment, editorial fashion snapshot, raw candid energy, realistic colors, high detail, vertical composition, premium analog film aesthetic, trending Pinterest and Instagram photography style.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "91.5K",
+    "likes": "18.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1971090426",
+    "title": "Premium 3-panel FIFA World Cup 2026 Inspired Sports Poster Collage Fea",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065308323684270451-create-a-premium-3-panel-fifa-world-cup-2026-inspired-spo.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a premium 3-panel FIFA World Cup 2026 inspired sports poster collage featuring a confident female football supporter wearing the official Portugal national team jersey and full football kit in red and green colors. Top Panel (Hero Shot): A cinematic full-body portrait of the woman seated confidently on a glossy reflective floor inside a futuristic World Cup stadium. She poses beside a football, looking determined and proud. Behind her is a massive illuminated World Cup 2026-inspired championship backdrop, featuring golden trophy-inspired elements, dramatic stadium lights, crowd atmosphere, LED screens, and international football energy. Luxurious lighting, premium sports campaign aesthetic, ultra realistic. Bottom Left Panel: Medium portrait of the woman standing with her back partially turned, proudly displaying the Portugal jersey. Large stadium screens, national colors, championship atmosphere, flags, and futuristic World Cup graphics in the background. Strong athletic posture and cinematic lighting. Bottom Right Panel: The woman sitting on stadium steps holding a football, looking directly at the camera with confidence. Background features a modern football arena, championship banners, glowing golden accents, and premium tournament branding aesthetic inspired by the 2026 global football event. Overall Style: Luxury sportswear campaign, Nike/Adidas level commercial photography, editorial magazine quality, dramatic stadium lighting, golden highlights, cinematic depth of field, ultra detailed skin texture, realistic football uniform fabric, sharp focus, high contrast, premium color grading, glossy reflections, global championship atmosphere. Typography Elements: Large bold text integrated into the design: \"ROAD TO 2026\" \"ONE WORLD \u2022 ONE DREAM\" \"PORTUGAL\" Clean modern sports branding layout, balanced composition, professional poster design. Aspect Ratio: 1:1 Style: Ultra realistic, sports campaign photography, FIFA World Cup 2026 inspired, cinematic, 8K, premium commercial advertisement, three-image collage layout.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3133864625",
+    "title": "World Cup Trophy Gift Box View",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065354070261444850-player-player-name-ultra-realistic-sports-photography.webp",
+    "aspectRatio": "9:16",
+    "prompt": "PLAYER=[Player Name] Ultra-realistic sports photography, documentary realism, premium commercial campaign style, immersive 4:5 vertical composition. The camera is positioned deep inside an opened luxury gift box, creating a dramatic first-person perspective from the hidden treasure itself. A magnificent golden FIFA World Cup trophy rests on elegant dark velvet fabric in the lower foreground, with realistic metallic reflections and authentic textures.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3087549810",
+    "title": "Luxury FIFA World Cup Editorial Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066813371329257690-create-a-luxury-fifa-world-cup-editorial-poster-clean-wh.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a luxury FIFA World Cup editorial poster. Clean white background. No stadium. No crowd. No smoke. No busy backgrounds. Minimalist luxury sports poster. 4:5 portrait ratio. TYPOGRAPHY LAYER \u2014 Behind the portrait: Giant vertical typography spelling \"[Player Name]\" \u2014 ultra-condensed bold letters, custom horizontal sliced segments at irregular intervals, editorial sports graphic design. Typography color: [Team Color Hex]. Razor-thin white gap between each slice to create depth. Letters bleed into the portrait. PORTRAIT LAYER \u2014 Main background: Full-face close-up portrait of [Player Name], black and white, ultra-high contrast, dramatic lighting, deep shadows under jaw and cheekbones, [Facial Expression], photorealistic skin texture, the typography letterforms overlap and integrate through the face like the name is tattooed into the image. FOREGROUND LAYER \u2014 Action figure: Full-body [Player Name] in [Signature Pose], wearing [Nationality] national team kit, full photorealistic color, ultra-sharp detail, zero motion blur, positioned at the lower-center third of the poster, standing in front of the typographic portrait. GRAPHIC ELEMENTS: \u2014 [National Team Crest] placed top-left corner, small and clean \u2014 [Nationality] flag motif as a subtle accent strip on the far right edge \u2014 Hand-drawn player signature \"[Signature Mark]\" in black or gold ink, bottom-right corner \u2014 FIFA World Cup 2026 collector badge graphic, top-right area \u2014 Small editorial caption text: \"[Tagline Line 1]. [Tagline Line 2].\" \u2014 Micro caption below: \"#[Jersey Number] \u00b7 2026 \u00b7 [Nation Code]\" DESIGN STRUCTURE: 35% \u2014 Giant sliced typography (aligned vertically on the left axis) 45% \u2014 Monochrome portrait (slightly offset to the right, integrated with typography) 20% \u2014 Full-color foreground action player (centered at lower third) Large empty white negative space surrounding composition VISUAL STYLE: Nike campaign poster. FIFA premium promotional artwork. Luxury sports editorial design. Behance award-winning sports poster. Ultra-realistic. Sharp 4K detail. Cinematic lighting. Print-ready quality. Letters bleed into the portrait. PORTRAIT LAYER \u2014 Main background: Full-face close-up portrait of [Player Name], black and white, ultra-high contrast, dramatic lighting, deep shadows under jaw and cheekbones, [Facial Expression], photorealistic skin texture, the typography letterforms overlap and integrate through the face like the name is tattooed into the image. FOREGROUND LAYER \u2014 Action figure: Letters bleed into the portrait. PORTRAIT LAYER \u2014 Main background: Full-face close-up portrait of [Player Name], black and white, ultra-high contrast, dramatic lighting, deep shadows under jaw and cheekbones, [Facial Expression], photorealistic skin texture, the typography letterforms overlap and integrate through the face like the name is tattooed into the image. FOREGROUND LAYER \u2014 Action figure:",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "62.3K",
+    "likes": "19.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1144221224",
+    "title": "Present an analytics roadmap",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Present an analytics roadmap: Build a phased plan that earns organizational trust and investment",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "56.6K",
+    "likes": "13.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1314282105",
+    "title": "Digital Artwork in a Surreal, Dynamic Style Inspired by Premium Athlet",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2047721704202617219-a-highly-detailed-digital-artwork-in-a-surreal-dynamic-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A highly detailed digital artwork in a surreal, dynamic style inspired by premium athletic advertising for Nike, Inc. A young athletic woman with platinum blonde hair tied in a messy bun, fair skin, and a fiercely focused expression is captured mid-jump or leap, her body leaning slightly forward as if bursting with raw, untamed energy. She wears a loose, off-white Nike crewneck sweatshirt with subtle embossed Nike branding on the chest, paired with flowy, semi-transparent pants featuring a swirling marbled pattern in graphite grey and electric violet, billowing dramatically around her legs. On her feet are sleek, futuristic white Nike sneakers with glowing violet accents, visible Air-inspired sole details, and an aerodynamic design. Vibrant electric violet energy or ethereal smoke erupts dramatically from behind her, swirling and dissolving into abstract, cloud-like forms that interact with her clothing, creating a powerful sense of motion and release. The background is a deep, moody gradient transitioning from charcoal grey to luminous twilight violet, emphasizing a minimalist yet striking composition. Overlay large, bold metallic silver text reading \u201cJust Do It\u201d in a sharp, modern sans-serif font, partially integrated and obscured by the energy smoke and the figure, making it feel like an organic part of the scene. Include the iconic Nike Swoosh logo in the top-left corner in shimmering silver.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "74.6K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2812185953",
+    "title": "Structure a letter of intent",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Structure a letter of intent: Binding and non-binding terms for deal negotiations",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-794672094",
+    "title": "Respond to a competing offer",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Respond to a competing offer: Navigate a counteroffer situation with transparency instead of pressure",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "61.2K",
+    "likes": "18.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3954809202",
+    "title": "Subject & Action Full-Body Portrait of a Female Fashion Model in a Dyn",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d773fae7-206f-4521-b704-c7285432874f-subject-action.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Subject & action Full-body portrait of a female fashion model in a dynamic wide-leg stance, wearing an oversized minimalist white sweatshirt with voluminous sleeves, glossy translucent parachute pants, and chunky white-orange athletic sneakers. Styling includes a sleek messy updo, gold statement earrings, and soft natural makeup with a confident, piercing editorial gaze. Composition & framing Centered professional studio fashion photography composition. The model is positioned against a smooth neutral beige gradient backdrop, accented by large abstract glossy red-pink organic 3D inflatable shapes. Bold oversized white typography reading just is layered partially behind the subject in a clean, minimalist hierarchy. Lighting & atmosphere Ultra-clean high-end studio lighting, soft diffused rim light creating gentle separation, subtle studio shadows, cinematic soft contrast. The atmosphere is that of a premium athletic brand campaign, conveying a luxury streetwear aesthetic with a futuristic edge. Material & texture High-fidelity rendering of fabric textures, specifically the crisp cotton of the sweatshirt, the synthetic sheen of the translucent parachute material, and the tactile rubber of the sneakers. Fine-grained skin texture with polished commercial retouching, sharp focus on facial features and garment seams. Visual style Contemporary magazine cover design, Swiss International Style influence, minimalist layout with subtle futuristic graphic microtext details, high-end fashion editorial look. Constraints No distorted limbs, no messy or cluttered background elements, no oversaturated neon, no low-key shadows, no logos, no blurry or out-of-focus subject areas.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "73.5K",
+    "likes": "15.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3802389673",
+    "title": "Matcha Cheesecake Macro Food Shoot",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2009446363331973461.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"global_settings\": { \"resolution\": \"8K UHD\", \"quality\": \"ultra-high\", \"render_style\": \"AI-edited hyper-realistic food photography\", \"sharpness\": \"extreme micro-detail\", \"noise\": \"none\", \"compression\": \"lossless\", \"lighting_quality\": \"studio-controlled, cinematic\", \"color_accuracy\": \"true-to-image\", \"focus\": \"selective shallow depth of field\", \"texture_emphasis\": \"maximum\" }, \"camera_profile\": { \"camera_type\": \"full-frame DSLR / mirrorless equivalent\", \"lens\": \"macro prime\", \"focal_length\": \"85mm\u2013105mm\", \"aperture\": \"f/2.8\", \"iso\": \"low ISO\", \"shutter\": \"studio synchronized\", \"white_balance\": \"neutral, image-matched\" }, \"module_1_image_1_style\": { \"subject\": \"square matcha cheesecake slice\", \"composition\": { \"orientation\": \"portrait\", \"angle\": \"three-quarter front view\", \"placement\": \"centered on dark ceramic plate\", \"crop\": \"tight food-focused crop\" }, \"layers\": { \"top_layer\": \"glossy matcha glaze with visible drip trails\", \"middle_layer\": \"smooth pale-green cheesecake body\", \"bottom_layer\": \"thin golden biscuit crust\" }, \"surface_details\": { \"glaze\": \"highly reflective, thick, slow-dripping matcha glaze\", \"powder\": \"matcha powder dusted on top and plate\", \"crumbs\": \"fine crumbs near base\" }, \"garnish\": { \"top\": [\"round green confection\", \"fresh mint leaves\", \"single raspberry\"], \"plate\": [\"extra raspberry\", \"mint leaves\", \"matcha powder\"] }, \"background\": { \"color\": \"dark charcoal / black\", \"elements\": [\"black bowl containing green sauce\"], \"blur\": \"strong background blur\" }, \"lighting\": { \"key_light\": \"soft directional from upper left\", \"highlights\": \"strong specular highlights on glaze\", \"shadows\": \"soft, natural falloff\" }, \"mood\": \"luxurious, modern, minimal, gourmet\" }, \"module_2_image_2_style\": { \"subject\": \"blue and white layered cake slice\", \"composition\": { \"orientation\": \"portrait\", \"angle\": \"slightly elevated front angle\", \"placement\": \"centered on white decorative plate\" }, \"layers\": { \"cake_layers\": \"soft white sponge layers\", \"filling_layers\": \"translucent blue jelly layers with sparkle\", \"top_layer\": \"smooth pastel blue glaze\" }, \"surface_details\": { \"drip\": \"single vertical glossy blue drip down front\", \"sparkle\": \"tiny reflective particles embedded in jelly\", \"top_decor\": \"glass-like blue spheres\" }, \"garnish\": { \"top\": [\"dark glossy cherry with long stem\", \"three transparent blue spheres\", \"tiny star-shaped sprinkles\"], \"plate\": [\"subtle sugar-like sparkles\"] }, \"background\": { \"color\": \"light icy blue\", \"effect\": \"soft bokeh dots\", \"props\": [\"white ribbon partially visible\"] }, \"lighting\": { \"key_light\": \"soft frontal light\", \"fill\": \"even illumination\", \"highlights\": \"glass reflections on spheres\" }, \"mood\": \"dreamy, delicate, whimsical, clean\" },",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "68.0K",
+    "likes": "10.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3687270521",
+    "title": "Dise\u00f1a Una Infograf\u00eda Deportiva Premium Estilo ESPN, MARCA, AS Y Sky S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-a922d4b8-6bba-489c-b3c5-69b60e93e330-disena-una-infografia-deportiva-premium-estilo-espn-marc.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Dise\u00f1a una infograf\u00eda deportiva premium estilo ESPN, MARCA, AS y Sky Sports para la Copa Mundial de la FIFA 2026. Formato vertical de portada period\u00edstica (1080x1920), calidad editorial profesional, apariencia de retransmisi\u00f3n televisiva.Fondo nocturno de estadio de f\u00fatbol lleno, iluminaci\u00f3n cinematogr\u00e1fica, focos LED, c\u00e9sped iluminado, ambiente de gran evento deportivo internacional. Paleta principal: azul marino oscuro, negro, rojo intenso, dorado met\u00e1lico y blanco.En la parte superior:Gran t\u00edtulo \"WORLD CUP 2026\"Trofeo de la Copa Mundial en tama\u00f1o gigante con acabado dorado hiperrealista.Subt\u00edtulo: \"El Mundial m\u00e1s grande de la historia\".Indicadores visuales:48 selecciones12 grupos104 partidos3 pa\u00edses anfitrionesMostrar banderas de M\u00e9xico, Estados Unidos y Canad\u00e1.Secci\u00f3n principal:Encabezado:\"JORNADA 1 \u2013 FASE DE GRUPOS\"Dise\u00f1o televisivo con paneles de resultados.Dos tarjetas de partido estilo broadcast:Tarjeta 1:M\u00e9xico vs Sud\u00e1fricaEtiqueta roja \"Partido Inaugural\"Banderas grandesHora del encuentroEstadioTarjeta 2:Corea del Sur vs ChequiaEtiqueta dorada \"2\u00ba Partido del Grupo\"Banderas grandesHora del encuentroEstadioA la derecha:Tabla de clasificaci\u00f3n del Grupo A con columnas:PJDGPTSEquipos:M\u00e9xicoSud\u00e1fricaCorea del SurChequiaDebajo:Caja informativa:\"Formato de clasificaci\u00f3n\"1\u00ba y 2\u00ba clasifican directamenteMejores terceros tambi\u00e9n avanzanZona inferior izquierda:Diagrama visual del camino al t\u00edtulo:Fase de grupos \u2192 Dieciseisavos \u2192 Octavos \u2192 Cuartos \u2192 Semifinales \u2192 FinalUtilizar iconos modernos y flechas luminosas.Zona central:Panel de sedes destacadas con fotograf\u00edas realistas de:Estadio AztecaSoFi StadiumBMO FieldIncluir banderas nacionales debajo de cada estadio.Zona inferior:Secci\u00f3n \"Favoritos al t\u00edtulo\"Mostrar retratos fotogr\u00e1ficos hiperrealistas de futbolistas representando:Espa\u00f1aFranciaArgentinaBrasilInglaterraPortugalDebajo:Secci\u00f3n \"Jugadores a seguir\"Retratos deportivos de:Lamine YamalJude BellinghamKylian Mbapp\u00e9Vin\u00edcius J\u00faniorErling HaalandLionel MessiA\u00f1adir efectos gr\u00e1ficos:Bordes luminososL\u00edneas de transmisi\u00f3n deportivaDestellosReflejos met\u00e1licosPaneles 3DGr\u00e1ficos HUD deportivosIndicadores digitalesEst\u00e9tica visual:ESPN + FOX Sports + MARCA + Champions League TV Graphics.Tipograf\u00eda deportiva condensada, fuerte impacto visual, aspecto de especial de televisi\u00f3n previo al Mundial.Ultra detailed, sports broadcast graphics package, premium editorial infographic, photorealistic, cinematic lighting, dynamic composition, high contrast, sharp details, magazine cover quality, 8k.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "51.1K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4292018530",
+    "title": "An Architectural Floor Plan of a LOCATION Spread Across a Drafting Tab",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032193497898336334-an-architectural-floor-plan-of-a-location-spread-across.webp",
+    "aspectRatio": "9:16",
+    "prompt": "An architectural floor plan of a [LOCATION] spread across a drafting table, with the spaces rising into inhabitable miniature. The [ROOM 1] emerges with worn materials and weathered surfaces and a solitary figure deep in task under warm amber practical light in progress, the [ROOM 2] rises with contrasting textures and layered detail and two people sharing a human moment under cool contrasting light casting coloured shadows across the walls, the [ROOM 3] pushes up with intimate scale and personal objects and a quiet figure in stillness under a single practical light source casting a warm pool across the floor. The floor material on the plan becomes actual surface underfoot. Walls exist as both lines and actual partitions simultaneously. Sight lines marked on the plan become actual views between spaces. The mechanical systems in the plan, HVAC, plumbing, electrical, pulse with invisible function. Human circulation patterns appear as ghosted movement trails. Architectural scale figures become actual tiny inhabitants living their tiny lives. Section cuts reveal vertical relationships. The architect\u2019s tools surround: scales, pencils, trace paper. Golden design studio light, the plan as promise and proof, 8K, architecture as life container.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "90.4K",
+    "likes": "17.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3119713149",
+    "title": "Cat Tortilla Chips Snack Bag",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2015256585984176226.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"global_settings\": { \"resolution\": \"8K ultra high definition\", \"aspect_ratio\": \"3:4 vertical\", \"image_quality\": \"extreme detail, ultra sharp focus\", \"lighting_style\": \"warm cinematic lighting with golden bokeh background\", \"depth_of_field\": \"shallow depth of field, strong subject separation\", \"render_style\": \"AI-edited, hyper-detailed, photorealistic with stylized realism\", \"color_grading\": \"warm tones, golden highlights, soft shadows\", \"background\": \"out-of-focus golden circular bokeh lights\" }, \"Module_1_Image_1_Style\": { \"subject\": \"Cat-shaped tortilla chips\", \"primary_container\": { \"type\": \"red paper snack bag\", \"design\": \"large illustrated cartoon cat on front\", \"graphics\": \"simple facial features, soft pastel tones\", \"material\": \"matte paper texture\" }, \"chip_details\": { \"shape\": \"cat heads with pointed ears\", \"color\": \"golden-orange fried texture\", \"surface\": \"crispy, bubbled, slightly uneven\", \"facial_features\": { \"eyes\": \"small black circular dots\", \"mouth\": \"simple curved line\", \"whiskers\": \"thin dark lines\" } }, \"poses_and_interactions\": { \"one_chip\": \"holding a miniature cheeseburger\", \"one_chip\": \"holding a red-and-white striped soda cup with straw\", \"one_chip\": \"holding a triangular cheese slice\", \"foreground_chips\": \"sitting outside the bag on surface\" }, \"composition\": { \"camera_angle\": \"slightly above eye level\", \"framing\": \"tight vertical framing\", \"focus\": \"sharp on chips, blurred background\" } }, \"Module_2_Image_2_Style\": { \"subject\": \"Sheep-shaped popcorn figures\", \"primary_container\": { \"type\": \"classic popcorn bucket\", \"design\": \"red and white vertical stripes\", \"material\": \"cardboard with soft matte finish\" }, \"sheep_details\": { \"body\": \"made entirely of popcorn kernels\", \"head\": \"smooth white rounded face\", \"ears\": \"small rounded ears with pale yellow inner tone\", \"eyes\": \"tiny black dots\", \"mouth\": \"thin curved smile line\" }, \"poses_and_accessories\": { \"one_sheep\": \"wearing red-blue 3D glasses\", \"one_sheep\": \"holding a small popcorn bucket\", \"one_sheep\": \"holding a black TV remote\", \"multiple_sheep\": \"peeking from behind popcorn pile\" }, \"composition\": { \"layering\": \"sheep stacked and clustered\", \"foreground\": \"extra popcorn scattered around base\", \"focus\": \"central sheep in sharp focus\" } }, \"Module_3_Image_3_Style\": { \"subject\": \"Bear-shaped chicken popcorn nuggets\", \"primary_container\": { \"type\": \"white popcorn-style bucket\", \"branding\": \"text reads 'Chicken Popcorn'\", \"graphics\": \"simple chef hat icon above text\", \"decoration\": \"small colored polka dots\" }, \"nugget_details\": { \"shape\": \"teddy bear silhouettes\", \"color\": \"golden-brown fried coating\", \"texture\": \"crunchy breaded surface\", \"facial_features\": { \"eyes\": \"small black beads\", \"nose\": \"rounded black nose\", \"mouth\": \"tiny dark line\" } }, \"poses_and_accessories\": { \"one_nugget\": \"wearing black sunglasses\", \"one_nugget\": \"holding fries in red-striped cup\", \"one_nugget\": \"holding soda cup with straw\", \"foreground_nuggets\": \"standing outside bucket\" }, \"composition\": { \"camera_distance\": \"medium close-up\", \"bucket_position\": \"centered vertically\", \"lighting\": \"warm highlights emphasizing texture''",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "84.7K",
+    "likes": "11.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-688585787",
+    "title": "A Pale, Ethereal Succubus with Long White Hair and Sharp Horns Command",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-64f654ed-56d8-40b5-946c-6f5b50c83360-a-pale-ethereal-succubus-with-long-white-hair-and-sharp.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A pale, ethereal succubus with long white hair and sharp horns commands the center frame, draped in a sleek black leotard and flowing fabric adorned with deep purple accents. A colossal, segmented obsidian serpent coils behind her, its armored scales glistening with high-gloss specular highlights and oozing a viscous, glowing violet substance. The scene is set against a stark, desaturated cloudy sky, creating a high-contrast backdrop that emphasizes the dark, slick textures of the creature and the character's porcelain skin. Wisps of dark, trailing fluid connect the figures to the ground, where wooden barrels frame the foreground, grounding the composition in a surreal, dark fantasy environment defined by sharp edges, glossy material finishes, and vibrant bioluminescent purple light. * **Style:** High-end Anime Digital Illustration, dark fantasy * **Key elements:** Pale succubus, obsidian serpent, glowing violet fluid, wooden barrels, long white hair * **Lighting:** Bioluminescent emission from serpent and fluid, high-contrast, cool-toned daylight * **Camera:** Full-body shot, low-angle, wide-angle lens for dynamic scale",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3336065797",
+    "title": "Low Angle Shot Looking Up",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-286bec90-b91c-4546-bbd5-9edc6c12134c-low-angle-shot-looking-up-a-beautiful-young-belgian-woma.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Low angle shot looking up. A beautiful young Belgian woman with long dark shaggy hair and no makeup, natural complexion and full european lips, sitting at a wooden counter in a cozy, dimly lit beer pub at night. She is looking back over her shoulder directly at the viewer with a seductive gaze. She wears a white tank top under a black knitted sweater that's slipped off one shoulder, revealing her back and shoulder, paired with tight black leather shorts and sheer black fishnet stockings, lots of tattoos. The atmosphere is warm and intimate with soft lighting from a hanging lantern. Behind her are other Belgian women sitting at the bar, Dutch menu boards with images and prices on the walls, various food and drink signs, sake bottles, and condiment bottles on the counter. Cinematic lighting, film grain, moody and atmospheric vibe, realistic photography style.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "64.5K",
+    "likes": "21.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1637160024",
+    "title": "Premium Panini FIFA World Cup 2026 Collectible Sticker Card Featuring ",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065298505082847671-create-a-premium-panini-fifa-world-cup-2026-collectible-s.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a premium Panini FIFA World Cup 2026 collectible sticker card featuring a K-pop idol as a professional football player. Vertical 2:3 ratio. Bright cyan background with giant overlapping \u201c26\u201d numbers in yellow and red behind the subject. Top-right official-style FIFA 2026 tournament emblem silhouette. The player is centered, facing camera, wearing the Colombia national team home jersey (vibrant yellow shirt with blue and red accents, realistic fabric texture, football federation crest, Adidas-style sportswear details). Ultra-realistic studio portrait photography, sharp facial features, flawless skin, natural makeup, detailed eyes, soft cinematic lighting, professional sports media day photoshoot. Subject occupies most of the frame from chest up. Right side contains a circular Colombia flag icon and large vertical text \u201cCOL\u201d in bold outlined typography. Bottom section features a teal-blue information panel with: PLAYER NAME (large bold white text) GROUP NAME in parentheses Date of birth Height Weight Nationality/Origin Club/Group affiliation Bottom-right includes a vintage Panini-style sticker logo. Clean graphic design, official trading-card aesthetic, modern typography, vivid colors, print-ready quality, ultra-detailed, photorealistic, 8K, collectible football sticker style, centered composition, sharp focus.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3274783252",
+    "title": "Stylized Character Poster Template",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2052453881800798451.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"prompt\": \"Create a stylized illustration of {character_name} from {franchise}.\", \"character_analysis\": { \"personality_archetype\": \"Derive core archetype (heroic, calm, mysterious, aggressive) based on canon portrayal\", \"signature_color\": \"Extract primary color from original design and use as main visual accent\" }, \"pose_and_body_language\": { \"heroic\": \"dynamic action, wide stance, explosive movement\", \"calm_confident\": \"balanced relaxed posture, minimal motion\", \"dark_mysterious\": \"low stance, subtle movement, hidden or sharp gaze\", \"aggressive_intense\": \"forward-leaning attack stance, visible tension, clenched fists\" }, \"facial_expression\": \"Match expression precisely to personality and emotional tone\", \"art_style\": [ \"anime\", \"streetwear\", \"graphic poster hybrid\", \"clean lineart\", \"semi-flat shading\", \"high contrast\", \"modern minimal design\" ], \"composition\": { \"format\": \"vertical ({aspect_ratio})\", \"subject_position\": \"off-center placement\", \"visual_flow\": \"strong diagonal composition\", \"depth\": \"layered depth for dynamic poster feel\" }, \"outfit_design\": { \"style\": \"modern streetwear / techwear reinterpretation\", \"rule\": \"preserve recognizable identity elements of original character\" }, \"color_palette\": { \"background\": \"clean white dominant background\", \"primary_accent\": \"signature character color\", \"secondary_accent\": \"complementary or analogous tone\", \"rule\": \"minimal, bold, high-contrast palette\" }, \"background\": { \"type\": \"abstract geometric poster layout\", \"style\": \"negative space focused\", \"accents\": \"subtle integration of character color theme\" }, \"effects\": [ \"energy strokes\", \"paint lines\", \"motion accents aligned with character energy\" ], \"lighting\": { \"type\": \"sharp directional lighting\", \"shadows\": \"crisp shadows\", \"glow\": \"subtle signature color glow\" }, \"rendering_quality\": { \"style\": \"ultra-clean vector finish\", \"output\": \"poster-quality composition\", \"resolution\": \"4K high detail\" } }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2699803452",
+    "title": "Luxury Sports Fashion Collage Editorial Featuring a Stylish Young Port",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065296065541394857-create-a-luxury-sports-fashion-collage-editorial-featurin.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a luxury sports fashion collage editorial featuring a stylish young Portuguese woman in Portugal national football team colors. Premium magazine-cover quality, 6\u20138 different studio shots combined into one elegant collage layout. Include a mix of: Full-body standing pose with football Seated pose on a studio cube Over-the-shoulder glance Hand-on-hip confident pose Close-up beauty portrait Serious fashion editorial expression Soft smile portrait Dynamic ready-for-match stance Authentic Portugal-inspired kit in deep crimson red, green accents, dark shorts, matching socks, premium fabric textures. Professional studio backgrounds in deep red, burgundy, charcoal, dark green, and white. Clean seamless backdrop, cinematic lighting, luxury magazine retouching, ultra-detailed skin texture, sharp focus, high-end sports glamour. Editorial collage design, stylish magazine spread layout, balanced composition, premium fashion campaign aesthetic, Vogue-style sports photography, luxury brand campaign quality, 4K ultra realistic, elegant athletic femininity. No stadium, no crowd, no live match scene, no action photography, no news photography, no split-screen borders that look cheap. Make it look like an exclusive World Cup fashion editorial campaign for Portugal.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3330500224",
+    "title": "Request a client testimonial",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Request a client testimonial: Specific ask that makes it easy for them to say yes",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3598698058",
+    "title": "Ultra Realistic Portrait of a Ginger Cat Wrapped in a Soft White Towel",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b04cabcb-1c84-4799-a1bc-2ca0dbf8e2dc-ultra-realistic-portrait-of-a-ginger-cat-wrapped-in-a-sof.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra realistic portrait of a ginger cat wrapped in a soft white towel, fresh after bath, detailed fur texture, captivating amber eyes, soft natural studio lighting, pastel blue background, cozy pet care concept, professional animal photography, shallow depth of field, clean composition, stock photo quality, highly detailed, 8K.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "65.6K",
+    "likes": "7.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2592597736",
+    "title": "FIFA World Cup 2026 Official-Style Cinematic Poster, Giant Golden Worl",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063084674738766197-fifa-world-cup-2026-official-style-cinematic-poster-gian.webp",
+    "aspectRatio": "9:16",
+    "prompt": "FIFA World Cup 2026 official-style cinematic poster, giant golden World Cup trophy standing at the center of a futuristic stadium, thousands of fans creating a sea of lights, dramatic sunset sky transitioning into night, fireworks exploding above, national flags subtly blending into the atmosphere, epic volumetric lighting, ultra realistic gold reflections, premium sports advertising, global celebration energy, dynamic composition, masterpiece, sports magazine cover quality, 8K, hyper detailed, vertical poster, 4:5 ratio.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1866721816",
+    "title": "Premium 9:16 Streetwear Accessories Advertising Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-eb5334b6-5721-451e-b541-1fe7068c2de4-a-premium-9-16-streetwear-accessories-advertising-poster.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A premium 9:16 streetwear accessories advertising poster.Central Subject:A single bright-yellow crossbody streetwear bag positioned perfectly in the center.Background:Electric cyan and vivid yellow studio environment.Design Style:Luxury streetwear branding mixed with modern editorial graphic design.Graphic Layer:Huge distorted typography reading:\"STREET CODE\"Large sticker graphics.Small barcode elements.Abstract arrows.Paper-cut collage details.Typography is partially hidden behind the bag.Materials:Premium nylon fabric.Detailed zippers.Realistic stitching.Luxury manufacturing quality.Lighting:Fashion campaign studio lighting.Strong shadows.Crisp highlights.Mood:Bold.Urban.Youthful.Aspect Ratio:9:16 vertical.8K masterpiece.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3990551225",
+    "title": "Image in the \"plush Comic Toy Product Poster\"",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2055313942139003328-create-an-image-in-the-plush-comic-toy-product-poster-s.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create an image in the \"Plush Comic Toy Product Poster\" style. Aspect ratio: 9:16. Scene: [SUBJECT] [SUBJECT_ACTION], presented as [PRODUCT_OR_PROP], placed in [LOCATION]. Use [PRODUCT_TEXTURE]. Style the object with [WARDROBE_STYLE]. Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place [BACKGROUND_ELEMENTS] around it. Add a large cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using \"[MAIN_TEXT]\" as the campaign headline. Typography: use [TYPOGRAPHY_LANGUAGE]. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add \"[SECONDARY_TEXT]\" only as tiny campaign metadata or small label copy. Keep microcopy compact and decorative, not dominant. Graphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows, lightning-bolt patches, warning-card shapes, and [ACCENT_SYMBOL]. Combine soft plush 3D texture with flat printed poster graphics. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details. --- VARIABLES --- [ACCENT_SYMBOL] \u2014 lightning bolt, arrow capsule, doodle fish, cloud puff, speed line, hazard triangle, steam doodle, or stitched patch [BACKGROUND_ELEMENTS] \u2014 large cyan circle, giant tilted block headline, doodle icons, sticker labels, lightning patches, warning-card graphic, small product metadata [LOCATION] \u2014 cream studio poster backdrop, toy catalog set, tabletop product stage, campaign poster scene, or flat editorial background [MAIN_TEXT] \u2014 short loud campaign headline, preferably 1 to 4 words [PRODUCT_OR_PROP] \u2014 plush car, scooter, radio, vending machine, snack pack, mini bus, camera, delivery pod, noodle cart, or featured toy object [PRODUCT_TEXTURE] \u2014 dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish [SECONDARY_TEXT] \u2014 small product-series caption, tiny spec label, date line, mock catalog note, or playful warning label [SUBJECT] \u2014 main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop [SUBJECT_ACTION] \u2014 parked, bouncing, leaning forward, racing, floating, charging, wobbling, or posing like a hero product [TYPOGRAPHY_LANGUAGE] \u2014 Latin block type, CJK-style display type, or mixed poster typography without copied reference wording [WARDROBE_STYLE] \u2014 not applicable for objects; use plush surface styling, sewn patches, fuzzy trim, cartoon eyes, and toy-like color blocking --- NEGATIVE PROMPT --- watermark, username, creator ID, QR code, platform logo, app mark, copied reference text, copied brand name, copied license plate, exact duplicate plush car, minimalist luxury ad, glossy plastic without fibers, realistic car commercial, dark horror mood, dystopian cyberpunk, busy city background, elegant thin serif headline, unreadable paragraph-heavy layout, app screenshot UI",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "55.5K",
+    "likes": "12.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1595830658",
+    "title": "Frame a workshop invite",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Frame a workshop invite: Calendar invite that sets purpose, expected outputs, and pre-work so attendees arrive prepared",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "79.2K",
+    "likes": "21.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2947528064",
+    "title": "A Young Man with Dark, Textured Hair Poses for a Centered Portrait Aga",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-5fe00745-2cd3-41b7-b34d-2836bc48d1a3-a-young-man-with-dark-textured-hair-poses-for-a-centered.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A young man with dark, textured hair poses for a centered portrait against a flat, vibrant ultramarine blue wall. The lighting is soft and diffused, likely from an overhead interior source, resulting in subtle shadows beneath the eyes and chin while maintaining natural skin tones with minimal specular highlights. The subject wears a simple olive-green crew-neck t-shirt, providing a muted color contrast against the saturated background. The composition is a direct, eye-level head-and-shoulders shot, characterized by a slight atmospheric haze or soft-focus effect typical of front-facing mobile device photography. The background remains uniform and out of focus, emphasizing the subject's neutral expression and the clean, high-contrast separation between the subject and the solid-colored backdrop. * **Style:** Smartphone portrait photography * **Key elements:** Young man, olive green t-shirt, blue wall, soft facial features * **Lighting:** Diffused overhead ambient lighting, soft shadows, neutral color temperature * **Camera:** Medium close-up, 35mm equivalent lens, eye-level angle",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "64.5K",
+    "likes": "21.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-506684316",
+    "title": "High-Fashion Vertical Editorial Artwork Featuring an Elegant Korean Wo",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064751874650378335-high-fashion-vertical-editorial-artwork-featuring-an-eleg.webp",
+    "aspectRatio": "9:16",
+    "prompt": "High-fashion vertical editorial artwork featuring an elegant Korean woman with flawless luminous skin, soft natural makeup, and long flowing dark hair. She wears highly fashionable couture pieces in vibrant turquoise, hot pink, lemon yellow, and emerald green, with dramatic silhouettes and luxurious fabrics. The background is composed of overlapping colorful circular panels arranged like an artistic mosaic. Inside each circle are monochrome editorial portraits of the same woman, captured from different angles, expressions, and stylish poses. The main portrait appears in rich vivid colors with cinematic lighting, dynamic fabric movement, and sophisticated fashion styling. Playful yet luxurious atmosphere, smooth gradient colors, glossy premium print texture, contemporary editorial aesthetic, ultra-detailed, vibrant and artistic composition.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "91.5K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1777423610",
+    "title": "High-Impact Portrait Poster in a Modern Comic Book World Cup 2026 Styl",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066083810035257521-create-a-high-impact-portrait-poster-in-a-modern-comic-bo.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a high-impact portrait poster in a modern Comic Book World Cup 2026 Style, designed with a contemporary sports-comic aesthetic that feels energetic, premium, and visually engaging. The overall composition should combine the excitement of international football with the bold visual language of modern comic-book artwork. The primary visual focus must be the [Country Name] National Team identity, incorporating visual elements inspired by the nation's football culture, colors, symbols, and competitive spirit. The design should celebrate the pride, passion, and energy of international football while maintaining a modern editorial sports-poster appearance. Incorporate signature comic-style elements such as halftone dot textures, dynamic typography, motion lines, speed effects, action streaks, layered graphic shapes, comic-inspired visual panels, bold graphic overlays, explosive composition accents, and decorative poster ornaments that enhance the visual storytelling without overwhelming the composition. Every design element should contribute to a strong sense of movement, intensity, excitement, and modern sports culture. The subject must be portrayed wearing an authentic [Country Name] National Team jersey, rendered with highly realistic fabric simulation, premium textile textures, accurate stitching details, natural folds, realistic shadows, and professional-quality finishing. The jersey should clearly represent the identity of [Country Name] while remaining visually premium and realistic. Do not replicate the exact pose from the reference image. Instead, create a completely new pose that feels more expressive, dynamic, powerful, and visually engaging. The body language should reflect the confidence and elegance of an international fashion model combined with the charisma and competitive spirit of a professional football player. The pose should feel natural, athletic, energetic, and sophisticated. Avoid stiff, awkward, static, symmetrical, or lifeless poses. Facial expression should be confident, charismatic, energetic, and emotionally engaging, creating a strong connection with the viewer. The subject should appear determined, proud, competitive, and full of personality. Typography must play a major role in the composition. Include large-scale headline typography featuring [Country Name], player name, slogan, nickname, or football-related messaging. All text elements must use eye-catching, creative, premium-quality display fonts that fit the World Cup comic-book theme. Typography should feel dynamic, varied, and fully integrated into the composition rather than simply placed on top of the design. Avoid generic, overused, basic, or repetitive font styles. Use a bold and vibrant color palette inspired by the official colors and visual identity of [Country Name], while maintaining excellent visual balance, readability, and professional design standards. Colors should be rich, impactful, modern, and optimized for social media engagement. The composition should feel explosive, immersive, and highly polished, featuring strong focal points, layered visual depth, dramatic lighting effects, realistic shadows, modern sports-marketing aesthetics, and premium campaign-level execution. Avoid empty spaces, weak compositions, amateur layouts, outdated design trends, low-quality typography, generic templates, flat color treatments, or cluttered arrangements. Every section of the poster should contribute to a cohesive, premium, and visually compelling football-themed artwork. Ultra-detailed professional sports campaign poster, premium graphic design quality, rich visual depth, dynamic composition, contemporary sports-comic aesthetics, editorial-level execution, highly polished finishing, stunning details, sharp focus, premium textures, modern social-media-ready design, masterpiece quality, world-class sports marketing artwork, ultra-realistic rendering, and breathtaking 8K resolution.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "78.1K",
+    "likes": "20.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2725102966",
+    "title": "Using the Uploaded Selfie as the ONLY and Exclusive Face Reference, Ge",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2034263750539411550-using-the-uploaded-selfie-as-the-only-and-exclusive-face.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Using the uploaded selfie as the ONLY and exclusive face reference, generate a Pixar-style 3D character sticker set. The character must be clearly recognizable as the person from the selfie. Create a neat 3\u00d73 grid collage (nine stickers total). Final aspect ratio is strictly 4:5. Each cell shows a distinct pose and facial expression. Style and tone: Pixar-style 3D animation with a meme-oriented feel. Exaggerated, slightly absurd emotions, playful overacting. Highly readable expressions at small sizes, with expressive eyes, eyebrows, and mouth. Subtle hand gestures where appropriate. Background and output: Fully transparent background (PNG). No backdrop, no background shadows. No text, captions, logos, or UI elements. Stickers must be ready for direct use in messengers. Consistency: Same hairstyle, clothing, colors, and character proportions across all nine stickers. Only facial expression and pose change. Clean, polished 3D sticker look. Emotions (one per sticker, 3\u00d73 grid): Surprised, Annoyed, Confused, Frustrated, Thoughtful, Sarcastic, Worried, Bored, Curious.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-651884686",
+    "title": "A Beautiful Minangkabau Woman in Traditional Bridal Costume",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e12163a3-e503-4ee2-93b4-6d564fca359f-a-beautiful-minangkabau-woman-in-traditional-bridal-costume.webp",
+    "aspectRatio": "16:9",
+    "prompt": "a beautiful Minangkabau woman in traditional bridal costume",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "64.5K",
+    "likes": "21.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-473413276",
+    "title": "Understand an industry fast",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Understand an industry fast: Key players, trends, and dynamics in any market",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "81.4K",
+    "likes": "8.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-288396453",
+    "title": "Technical Blueprint Sketch and Realistic 3D\u2013render Fusion of a Custom ",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-26cb3d0c-cff1-4935-b569-6128fc20b9a5-highly-detailed-technical-blueprint-sketch-and-realistic.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Highly detailed technical blueprint sketch and realistic 3D\u2013render fusion of a custom modified car 2027 BMW iM3. Transform the car into a tuned concept blueprint with an aggressive lowered stance, wide-body aesthetic (adapted to match the real car\u2019s form), and bold racing stripe accents matching or enhancing the original photo colors. Add large aftermarket-style wheels inspired by the car in the photo (accurate spoke design & size), sharp LED-like lighting details, and sporty aerodynamic additions such as front spoiler, side skirts, rear diffuser, and small spoiler \u2014 all adjusted realistically to the BMW iM3\u2019s geometry. Surround the main render with precise engineering-style blueprint elements: multiple orthographic views (front, rear, side, top) derived from the reference photo, construction lines, mm-dimensions, exploded-view details for wheels, suspension, and body kit components. Art style combines pencil/ink drafting with fine cross-hatching, clean annotations, and a photorealistic shaded center render. Blueprint background in soft light-blue or sepia technical-paper texture, ultra-detailed, professional automotive concept-design composition. --ar 9:16",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "55.5K",
+    "likes": "12.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-832512345",
+    "title": "A Beautiful Young Man with Dark Flowing Hair Holding a Bouquet of Soft",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-66ab7660-1846-4b51-87e2-a5ef11cf7bc2-a-beautiful-young-man-with-dark-flowing-hair-holding-a-bo.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A beautiful young man with dark flowing hair holding a bouquet of soft pink roses, turning back and looking at the camera while walking through a flower-filled European street, vintage newspaper kiosk in background, warm golden hour sunlight, dreamy atmosphere, soft glow, cinematic backlighting, wind blowing through hair, shallow depth of field, creamy bokeh, pastel color palette, romantic Parisian aesthetic, delicate white shirt and gray jeans, motion blur, ethereal mood, ultra realistic photography, 85mm lens, f/1.4, natural light, film photography, soft focus, Kodak Portra 400, high detail, masterpiece",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "77.0K",
+    "likes": "19.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4045251290",
+    "title": "A Commercial Product Photography Layout in Instagram Portrait Size Fea",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7f820062-7c25-4b56-be20-993903c4492b-a-commercial-product-photography-layout-in-instagram-port.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A commercial product photography layout in instagram portrait size featuring an array of automotive parts\u2014brake discs, shock absorbers, oil filters, and air filters\u2014arranged meticulously on a reflective, dark industrial floor with the boxes as uploaded for reference. The scene is anchored by branded Mito Products packaging, utilizing a high-contrast black and vibrant red color palette. A sleek, dark luxury sedan emerges from the deep shadows in the background, illuminated to highlight its glossy contours and aggressive front grille. Workshop lighting, a little brighter to create crisp specular highlights on the metallic surfaces of the steel components, while the overall composition is framed by graphic red directional lines and professional typography. The atmosphere is sterile, precise, and high-performance, emphasizing technical quality through clean edges, deep blacks, and a sharp, commercial depth of field. * **Style:** High-end commercial product photography, advertising CGI * **Key elements:** Brake discs, shock absorbers, oil filters, automotive packaging, luxury sedan * **Lighting:** High-key rim lighting, studio strobe, saturated red accents, deep shadows * **Camera:** Full shot, 50mm lens, eye-level perspective",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1983215758",
+    "title": "Professional Food Photography of a Delicious Seekh Kebab Platter Serve",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b3a042c6-1b91-4c66-a8a5-223d39db1532-professional-food-photography-of-a-delicious-seekh-kebab.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Professional food photography of a delicious seekh kebab platter served on a clean white rectangular plate. Fragrant long-grain spiced rice topped with grilled chicken pieces and crispy fried onions, accompanied by juicy seekh kebabs, creamy yogurt garlic sauce with decorative sauce swirl, fresh onion rings, lemon slices, and cilantro garnish. Minimalist light gray background, elegant restaurant presentation, overhead view, soft studio lighting, ultra realistic food textures, commercial food advertisement, premium food styling, DSLR quality, sharp focus, 8K resolution, appetizing and authentic South Asian cuisine.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3237499758",
+    "title": "Draft UI microcopy",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Draft UI microcopy: Nail modal titles, button labels, and validation messages for one component",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "55.5K",
+    "likes": "12.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-708288688",
+    "title": "Clear, 45\u00b0 Top-Down Isometric Miniature 3D Educational Diorama Explain",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2013493349156823287-create-a-clear-45-top-down-isometric-miniature-3d-educa.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a clear, 45\u00b0 top-down isometric miniature 3D educational diorama explaining [PROCESS / CONCEPT]. Use soft refined textures, realistic PBR materials, and gentle lifelike lighting. Build a stepped or layered diorama base showing each stage of the process with subtle arrows or paths. Include tiny stylized figures interacting with each stage (no facial details). Use a clean solid [BACKGROUND COLOR] background. At the top-center, display [PROCESS NAME] in large bold text, directly beneath it show a short explanation subtitle, and place a minimal symbolic icon below. All text must automatically match the background contrast (white or black).",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "70.2K",
+    "likes": "12.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2225231612",
+    "title": "Japanese Uma Musume Tokai Teio Come to a Stadium to Lead Japan Team to",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-25ee8198-3d73-4b8c-afdd-23329b2355ba-japanese-uma-musume-tokai-teio-come-to-a-stadium-to-lead.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Japanese Uma Musume Tokai Teio come to a stadium to lead Japan team to win a FIFA World Cup 2026. She wears japan football team uniform and the background is on Boston Stadium. With FIFA World Cup logo and JFA logo for Japan.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "50.0K",
+    "likes": "7.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3494106395",
+    "title": "Create a getting-started guide",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Create a getting-started guide: Reduce support tickets with a step-by-step setup walkthrough",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2485030562",
+    "title": "A Retro-Inspired Studio Photoshoot Featuring a Young Woman Styled in F",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2043539455131459957-a-retro-inspired-studio-photoshoot-featuring-a-young-woma.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A retro-inspired studio photoshoot featuring a young woman styled in four different personas, arranged in a horizontal split-panel composition. Each panel has a bold pastel background in contrasting colors (yellow, blue, pink, mint). The same woman appears in each panel wearing vintage 1960s fashion with bright patterns, pink knee-high socks, and expressive makeup. Panel 1 (Office theme): She sits behind a desk with office props like folders, a rotary phone, and stationery, wearing a patterned dress and looking surprised while holding the phone. Panel 2 (Travel theme): She wears a wide-brim hat and colorful outfit, sitting with a vintage suitcase and travel accessories, posing elegantly. Panel 3 (Sports theme): She wears a sporty retro outfit, holding a tennis racket and ball, sitting casually with playful energy. Panel 4 (Home theme): She wears a robe with hair rollers, holding a hand mirror, sitting at a vanity table with beauty items. Each panel is cleanly divided, perfectly symmetrical, with consistent lighting and camera angle. Bright, soft studio lighting, high fashion editorial style, ultra-sharp, vibrant colors, minimal shadows, no text, no logos, no labels, no watermarks. Style: vintage pop art, Wes Anderson symmetry, fashion editorial photography, pastel color blocking, high resolution, 8k, clean composition.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4032033099",
+    "title": "PERSONE. Act as a Senior Editorial Designer and Graphic",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2029935139044671622-persone-act-as-a-senior-editorial-designer-and-graphic.webp",
+    "aspectRatio": "9:16",
+    "prompt": "[PERSONE]. Act as a Senior Editorial Designer and Graphic Artist. Goal: Generate a complex, multi-layered Swiss-style collage poster for [PERSONE]. PHASE 1: SEMANTIC INTELLIGENCE (AUTONOMOUS) [INSTRUCTIONS]: Analyze \"[PERSONE]\". Determine their primary field (e.g., Elite Sports, Cyber-Engineering, Cinema, History). Select an \"Iconic Accent Color\" based on their identity (e.g., Racing Orange for a driver, Neon Cyan for a hacker, Crimson for a hero). Generate 3 key statistics or milestones (e.g., \"7 TITLES\", \"98% ACCURACY\") and a short professional title. PHASE 2: COMPOSITIONAL STRUCTURE (THE GRID) The image is a single vertical composition with overlapping geometric frames and segments: - MAIN SUBJECT (Top Left): A large, high-grain grayscale or color portrait of [PERSONE], smiling or looking confident. - DETAIL SHOT (Center Right): A zoomed-in, cropped rectangle showing only the eyes or a specific detail of [PERSONE]. - FULL BODY SHOT (Bottom Center): [PERSONE] sitting on a geometric box or podium in a relaxed but powerful pose. - BACKGROUND: Light gray with a heavy, tactile film grain/noise texture. PHASE 3: GRAPHIC ELEMENTS & TYPOGRAPHY - Initials: Large, outlined capital letters of the first and last name placed in opposite corners. - Vertical Ribbon: A solid color strip with the text \"WORLD CHAMPIONSHIP LEADER\" or a relevant title running vertically through the center. - Data Blocks: - A specific number (ID or rank) in a bold sans-serif block. - A \"Statistics\" block in the bottom-left corner with 3 lines of text (e.g., \"TWO POLES / FOUR WINS / FIVE PODIUMS\"). - Accents: Scatter orange and black squares, dotted circles, and small asterisks throughout the grid for visual complexity. PHASE 4: LIGHTING & TEXTURE - Texture: High-contrast, gritty, and grainy. The overall image should look like a printed high-end magazine or a vintage poster. - Lighting: Professional studio lighting on the subjects, but processed with a \"risograph\" or \"halftone\" feel. PHASE 5: TECH SPECS 8K Resolution. Swiss Modernism aesthetic. Flat vector shapes combined with hyper-realistic photography.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2912443385",
+    "title": "Craft an event-triggered cold email",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Craft an event-triggered cold email: Outreach timed to funding rounds, new hires, or product launches",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "61.2K",
+    "likes": "18.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3071508454",
+    "title": "High-End Luxury Brand Identity Presentation for an Original Skincare B",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-36eae422-b825-49bb-a9ac-5b85a6fe4fa8-create-a-high-end-luxury-brand-identity-presentation-for.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a high-end luxury brand identity presentation for an original skincare brand named \u201cLILY CREAM\u201d. The final output must be a portrait 2:3 ultra-realistic editorial composition designed as a cohesive, premium branding showcase.The visual style should be modern luxury skincare aesthetic, inspired by high-end beauty editorials and professional branding agencies. The composition must feel minimal, elegant, soft, and expensive, with a calm spa-like atmosphere.Use a refined color palette of ivory, warm cream, soft blush, muted lavender, pale sage green, and champagne beige. The lighting should be soft diffused studio lighting with gentle natural shadows, creating depth and realism. Background should be clean and seamless with subtle gradients and soft textured surfaces. No people, no watermark, no real-world brand names.Composition Requirements (Editorial Layout, Not Grid-Based):Design the scene as a structured editorial brand story layout with layered sections and visual hierarchy:1. (Top Section) Display the primary logo \u201cLILY CREAM\u201d on premium textured paper or translucent acrylic material. Include a refined minimalist floral lily-inspired icon above the typography. Use embossed, foil-stamped, or engraved effect for a luxury feel.2. (Mid Section - Left/Center Flow) Show a curated arrangement of:Secondary logo variations and monogram marksTypography system (elegant serif paired with a modern clean sans-serif)Color palette swatches presented as physical material samples (paper, pigment chips, fabric textures)3. (Central Focus Area) Include premium skincare packaging in a realistic editorial arrangement:Gentle facial cleanser in a soft-touch minimalist tube with matching boxRadiance serum in a frosted glass dropper bottle with elegant reflectionsMoisturizer collection in three sizes using refined ceramic or glass jarsProducts should be styled naturally, not boxed in a strict layout.4. (Right/Background Layering) Create a luxurious skincare atmosphere using:White stone, ceramic trays, soft linen fabric, and subtle botanical lily elementsDelicate floral accents placed sparingly for sophisticationSoft shadows and shallow depth of field for realismEditorial composition similar to a luxury magazine shoot5. (Bottom Section) Display:Stationery set (business card, letterhead, envelope) in flat-lay styleSocial media feed preview mockupsSmartphone UI showing cohesive brand aestheticOverall Art Direction:The image should feel like a luxury skincare branding campaign + professional agency portfolio board, combining editorial photography, product mockups, and brand identity systems into one seamless composition.Ensure extreme realism, premium materials, soft light diffusion, and cohesive visual storytelling throughout.Format: Portrait 2:3.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "81.4K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2174719456",
+    "title": "High-Detail Portrait Poster in a Bold Japanese Graffiti-Inspired Art S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2052041111586402673-create-a-high-detail-portrait-poster-in-a-bold-japanese-g.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species. The subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic. The outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept. The background and poster decorations should be filled with thematic urban Japanese-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject. Lighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling. Ultra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "65.6K",
     "likes": "7.6K",
@@ -461,7 +1805,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -470,16 +1814,16 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-17",
-    "title": "Professional Fashion Portrait of a Beautiful Young South Asian Wo",
+    "id": "gp-exact-2010474704",
+    "title": "Premium Editorial Travel Poster Illustration of Santorini, Greece",
     "category": "image",
     "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063474887302197705-a-professional-fashion-portrait-of-a-beautiful-young-sout.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A professional fashion portrait of a beautiful young South Asian woman. She has long, voluminous wavy brown hair with subtle blonde highlights. She is wearing an elegant beige raw silk kurti with delicate pearl bead embroidery along the neckline, paired with a matching checkered organza dupatta draped over her shoulder. She is accessorized with traditional gold filigree jhumka earrings and a thin bracelet. Soft cinematic indoor cafe lighting, blurred background bokeh, shot on 85mm lens, f/1.4 aperture, hyper-realistic skin texture, 8K resolution, high-end lookbook style.A high-quality fashion photo of a stunning Pakistani girl standing in a modern cafe. She is wearing a simple beige traditional shalwar kameez with premium fabric texture and beadwork on the neck. A patterned matching dupatta is draped gracefully over her arm. Her hair is styled in beautiful loose waves, and she has elegant traditional earrings on. Photorealistic, soft focus background, elegant and warm aesthetic. Creating image",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-1c5e086e-6732-4b6e-ac1d-7e38c856fdd2-create-a-premium-editorial-travel-poster-illustration-of.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a premium editorial travel poster illustration of Santorini, Greece. Style: flat vector illustration, ultra clean minimalism, mid-century modern aesthetic, editorial travel poster style inspired by Scandinavian graphic design and vintage Mediterranean tourism prints, no photorealism, no textures, no noise, no gradients Composition: vertical 3:4 poster layout, foreground: peaceful cliffside terraces with whitewashed pathways, minimal stone steps, elegant bougainvillea plants, and calm reflective Aegean Sea views, midground: iconic white cubic houses with blue domes and clean geometric architecture cascading down the volcanic cliffs, include subtle silhouettes of visitors, caf\u00e9 seating, and sailing boats integrated naturally into the scene, background: layered caldera cliffs with panoramic sea horizon and soft island silhouettes fading into the distance, add iconic landmarks subtly, including blue-domed churches, traditional windmills, and terraced cliffside villages inspired by Oia and Fira Architecture: simplified geometric Cycladic architecture, clean edges and balanced symmetry, flat color blocking, harmonious tones in white stone, cobalt blue, warm sand, soft turquoise, and deep navy Color palette: soft cohesive Mediterranean-inspired tones, bright white, pastel sky blue, muted turquoise, warm cream, dusty terracotta, sunlit beige, deep Aegean navy accents, bright yet restrained saturation Lighting: bright sunlit afternoon with soft shadows, fresh coastal island atmosphere, peaceful refined mood with subtle sea breeze ambiance Mood: calm, elegant, premium travel magazine aesthetic, slightly dreamy and culturally refined, quiet timeless Mediterranean atmosphere with sophisticated island charm Quality: ultra clean vector edges, perfect alignment and composition, high resolution, print-ready premium poster design.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "70.7K",
-    "likes": "8.7K",
+    "views": "57.7K",
+    "likes": "14.4K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -489,7 +1833,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -498,16 +1842,16 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-18",
-    "title": "Misty Japanese Forest, Ink Painted Landscape, Ancient Shrine Path",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2064248324560200127-style.webp",
+    "id": "gp-exact-1226540022",
+    "title": "Youth Digital Collage Campaign",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2048114730061926699-brand-name-change-to-your-brand.webp",
     "aspectRatio": "16:9",
-    "prompt": "STYLE: anime action storyboard, Japanese ink wash illustration, dynamic sword choreography, concept art storyboard sheet, production animation board, character action sequence, high-energy combat dance, watercolor and ink sketch, red and monochrome palette, stylized motion design, anime keyframe sequence, cinematic action visualization, professional storyboard presentation ASPECT RATIO: 16:9 MAIN CHARACTER: Kumori, petite anime swordswoman, white messy twin-bun hair, red ribbons and ornaments, dual katana wielder, black cropped combat outfit, red pleated skirt, thigh-high stockings, agile and elegant, cute but deadly, shadow-born warrior LOCATION: misty Japanese forest, ink-painted landscape, ancient shrine path, falling red maple leaves, windswept atmosphere, minimalist watercolor background, traditional Japanese aesthetic STORY: 01 Still stance Kumori stands motionless hands near sword hilts breath held before battle 02 Silent draw slow unsheathing motion focused gaze 03 First cut swift horizontal slash wind trails appear 04 Figure-eight flow blades weave through air fluid sword dance begins 05 Petal spin spinning attack red leaves swirl around 06 Twin slash rapid crossing strikes speed increasing 07 Low sweep shadow-like movement near ground attack 08 Rising cut powerful upward strike energy surges 09 Cross-cut double blade impact crescent motion trails 10 Aerial arc Kumori leaps gracefully sword trails circle skyward 11 Ribbon storm continuous spinning combo maximum momentum 12 Ground split downward finishing strike dust and leaves explode outward 13 Final flurry multiple rapid cuts motion blur everywhere 14 Breath out combat ends calm stance returns 15 End pose swords sheathed silent victory wind settles around Kumori VISUAL DETAILS: visible brush strokes, Japanese sumi-e ink style, watercolor paper texture, dynamic sword trails, flowing fabric motion, falling maple leaves, minimalist background design, anime action effects, high-speed motion lines, concept art rendering, production storyboard aesthetics, consistent character design, clean panel composition COLORS: warm ivory paper, charcoal black ink, deep crimson red, muted gray wash, soft beige, subtle sepia tones CAMERA: wide shot, close-up, medium shot, low angle, tracking shot, orbit shot, dynamic pan, cinematic push-in, action follow camera MOOD: elegant, intense, graceful, focused, heroic, cinematic, poetic, high-energy LAYOUT: 15 storyboard panels, numbered scenes, caption under every frame, story progression layout, animation production sheet, film pitch board, technical storyboard presentation, camera notes, action flow indicators, clean white background masterpiece, best quality, ultra detailed, professional storyboard presentation, anime production design, concept art quality, Japanese sword dance choreography, dynamic action sequence, cinematic storytelling, highly consistent character, storyboard sheet, 16-panel style presentation, 8k",
+    "prompt": "[BRAND NAME = CHANGE TO YOUR BRAND]. Act as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns. PHASE 1: CONCEPTUAL FRAMEWORK Create a dynamic digital collage that merges fashion photography with graphic design chaos. This is controlled rebellion \u2013 a composition that feels spontaneous and energetic while maintaining brand coherence. The aesthetic is anti-polished: torn edges, layered textures, hand-drawn elements, and bold color blocking that screams confidence and movement. PHASE 2: MODEL & PHOTOGRAPHY - Subject: One model (diverse casting, age 18-30) in a dynamic, confident pose - Pose Energy: 80% attitude, 20% natural \u2013 sitting, jumping, mid-motion, or power stance (avoid static standing) - Outfit: Street style/athleisure that aligns with [BRAND NAME] aesthetic \u2013 casual but styled - Hero Product: Feature 1 signature [BRAND NAME] product prominently (sneakers, bag, apparel) \u2013 this is the visual anchor - Photography Style: Editorial fashion cutout \u2013 model extracted from background with clean edges - Camera Angle: Slight low angle to empower subject (hero perspective) - Crop: Full body or 3/4 body showing hero product clearly - Background Removal: Model cut out cleanly for layering over collage elements PHASE 3: COLOR BLOCKING FOUNDATION - Primary Color Blob: Large organic shape (40-60% of composition) in bold, saturated brand color behind/around model - Shape Style: Irregular, hand-painted aesthetic \u2013 think Photoshop brush strokes or torn paper texture (NOT perfect geometric shapes) - Color Selection (Autonomous): Choose 1 hero color from [BRAND NAME] palette: - Texture: Visible brush strokes, grain, or subtle noise (15-25% opacity) \u2013 avoid flat digital fills - Placement: Blob positioned to frame model without obscuring key product details PHASE 4: GRAPHIC ELEMENTS LAYER Add 3-5 abstract graphic elements scattered across composition: - Element Types: - Color Palette: Use 2-3 accent colors total (main blob color + 1-2 contrasting tones from brand palette) - Placement: Asymmetric scatter \u2013 top-left and bottom-right zones primarily (avoid center crowding) - Scale: Mix small (5% of canvas) and medium (15% of canvas) elements \u2013 nothing overpowering - Aesthetic: Analog/handmade feel \u2013 imperfect circles, rough edges, visible texture PHASE 5: TYPOGRAPHY INTEGRATION - Brand Logo: Clean [BRAND NAME] logo placed in upper-left or upper-right quadrant (10-15% of width) - Slogan/Tagline: If [BRAND NAME] has an iconic slogan, integrate it using: - Supporting Copy: Optional 1-line descriptor (e.g., \"A MOMENT OF YOUR STYLE\") in smaller uppercase sans-serif - Type Treatment: Mix of aligned and slightly rotated text (2-5\u00b0 angles) for dynamic energy - Hierarchy: Logo largest \u2192 Slogan medium \u2192 Copy smallest PHASE 6: TEXTURE & BACKGROUND - Base Layer: Off-white or light gray textured background (NOT pure white) - Texture Options (Autonomous selection): - Color: RGB 245-250 (near-white with warmth) \u2013 maintains brightness while adding depth - Treatment: Texture should be felt, not seen \u2013 enhances tactility without competing with foreground PHASE 7: COMPOSITION RULES - Layout: Asymmetric balance \u2013 model off-center, graphic elements counter-balance - Breathing Room: 15-20% negative space (textured background visible) to prevent claustrophobia - Layering Order: Background texture \u2192 Color blob \u2192 Graphic elements \u2192 Model (cutout) \u2192 Typography top layer - Focal Point: Model + hero product = primary focus (60% visual weight), graphics support (40%) - Movement: Diagonal lines and angled elements create directional flow (top-left to bottom-right or vice versa) PHASE 8: BRAND INTELLIGENCE (AUTONOMOUS) Autonomously adapt composition based on [BRAND NAME] personality: - Streetwear/Sportswear (Nike, Adidas, Supreme): - Luxury Streetwear (Balenciaga, Off-White, Gucci): - Beauty/Lifestyle (Glossier, Fenty, Skims): - Tech/Modern (Apple, Tesla, Beats): PHASE 9: SOCIAL MEDIA FOOTER (OPTIONAL) - Bottom Strip: Clean white or light gray bar at bottom 8-10% of frame - Content: Social media handles (Instagram, Facebook, Twitter) in small sans-serif - Layout: Three-column grid with platform icons or text handles - Aesthetic: Minimal and professional \u2013 contrast with chaotic collage above TECHNICAL SPECS: - Aspect Ratio: 4:5 (Instagram feed) or 1:1 (square social post) - Resolution: 2400x3000px minimum (high-quality for zoom and detail) - Color Mode: sRGB, vibrant saturation (Instagram-optimized) - File Aesthetic: Digital collage that mimics analog craft (Photoshop + hand-drawn hybrid) - Model Photography: 85mm lens, f/2.8, shallow depth of field on original shoot (before cutout) - Style Reference: Nike social campaigns, Spotify wrapped graphics, Gen Z Instagram aesthetics, Hypebeast x streetwear collabs - Mood: Confident, energetic, youthful, authentic chaos, anti-corporate polish",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "75.8K",
-    "likes": "9.8K",
+    "views": "59.0K",
+    "likes": "16.0K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -515,9 +1859,9 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
       "verified": true
     },
     "tags": [
-      "Veo3Video",
+      "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -526,15 +1870,43 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-19",
-    "title": "Dark, High\u2011contrast Poster with a Moody, Underground Club Aesthet",
+    "id": "gp-exact-1071842245",
+    "title": "Evaluate training effectiveness",
     "category": "image",
     "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d1dbe0ff-b651-4b66-a61a-a88864582c7b-create-a-dark-high-contrast-poster-with-a-moody-undergr.webp",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
     "aspectRatio": "16:9",
-    "prompt": "Create a dark, high\u2011contrast poster with a moody, underground club aesthetic. The composition features a monochrome portrait of Elone Musk from the chest up, shot from a slightly low angle for attitude and power. She wears large over\u2011ear headphones and reflective round sunglasses with warm amber\u2011gold lenses that stand out vividly against the black\u2011and\u2011white portrait. One hand is raised near her head, the other near his chin, creating a dynamic, expressive pose associated with music immersion. Behind his head is a large flat golden\u2011yellow circular shape, like a spotlight, creating a strong focal point and visual contrast. The background is deep black with subtle grunge textures, dust, scratches, and poster\u2011wear imperfections, giving it a raw, printed\u2011flyer feel. Use 4:5 aspect ratio.",
+    "prompt": "Evaluate training effectiveness: Measure reaction, learning, and intended behavior change beyond just \"did they like it\"",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "80.0K",
+    "views": "80.3K",
+    "likes": "7.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4000853272",
+    "title": "Professional Fashion Portrait of a Beautiful Young South Asian Woman",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063474887302197705-a-professional-fashion-portrait-of-a-beautiful-young-sout.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A professional fashion portrait of a beautiful young South Asian woman. She has long, voluminous wavy brown hair with subtle blonde highlights. She is wearing an elegant beige raw silk kurti with delicate pearl bead embroidery along the neckline, paired with a matching checkered organza dupatta draped over her shoulder. She is accessorized with traditional gold filigree jhumka earrings and a thin bracelet. Soft cinematic indoor cafe lighting, blurred background bokeh, shot on 85mm lens, f/1.4 aperture, hyper-realistic skin texture, 8K resolution, high-end lookbook style.A high-quality fashion photo of a stunning Pakistani girl standing in a modern cafe. She is wearing a simple beige traditional shalwar kameez with premium fabric texture and beadwork on the neck. A patterned matching dupatta is draped gracefully over her arm. Her hair is styled in beautiful loose waves, and she has elegant traditional earrings on. Photorealistic, soft focus background, elegant and warm aesthetic. Creating image",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "68.0K",
     "likes": "10.0K",
     "timestamp": "Verified",
     "creator": {
@@ -545,7 +1917,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -554,352 +1926,16 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-20",
-    "title": "Yellow Seaplane Diving Over a Tropical Coastline",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043707867463844234-a-hyper-realistic-high-cinematic-aerial-drone-shot-of-a.webp",
+    "id": "gp-exact-4272785573",
+    "title": "Revolutionary Tourism Poster for Yogyakarta",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-97c9175c-f807-488d-8eb9-3377b1483c8b-create-a-revolutionary-tourism-poster-for-yogyakarta-ind.webp",
     "aspectRatio": "16:9",
-    "prompt": "A hyper-realistic, high-cinematic aerial drone shot of a vintage yellow seaplane performing a high-speed, evasive dive-turn over a rugged tropical coastline. The scene is bathed in bright, mid-morning sunlight, emphasizing the vibrant colors and intricate details of the natural environment.\", \"shot_breakdown\": [ { \"time_seconds\": 0.0, \"event\": \"START_SCENE\", \"details\": { \"camera\": { \"type\": \"fixed high-angle, cinematic drone shot\", \"perspective\": \"directly above the plane, slightly behind it\", \"lens\": \"wide-angle, f/1.8 aperture with a subtle vignette\" }, \"environment\": \"Clear blue sky, high-altitude cirrus clouds in the distance. The sun is at a 45-degree angle, creating sharp shadows and bright highlights on the water.\", \"subject_action\": \"The yellow seaplane, a vintage DHC-2 Beaver model, enters the frame violently from the top, not in stable flight but in a controlled, accelerating dive, banking sharply.\" } }, { \"time_seconds\": 2.0, \"event\": \"MID_ACTION\", \"details\": { \"camera\": { \"movement\": \"dynamic drone tracking, aggressively following the plane's steep dive and twist\" }, \"environment\": \"Focus on the water below: turquoise at the shoreline fading to deep sapphire. The seafloor is visible with intricate coral reef formations, rocky outcrops, and shifting sand patches. Realistic light caustics shimmer and dance on the ocean bed.\", \"subject_action\": \"The seaplane's twin pontoons are inches from the water. A massive, chaotic burst of sea spray and white vapor (contrail) erupts violently from the pontoons and tail, swirling in turbulent vortexes caused by the extreme low-altitude maneuver. The plane's propellers are a realistic motion blur.\" } }, { \"time_seconds\": 5.0, \"event\": \"KEY_MOMENT\", \"details\": { \"camera\": { \"movement\": \"rapid zoom-out and dynamic pivot to reveal the unexpected: a pod of manta rays below is scattering in panic from the plane\u2019s shadow and the water disturbance.\" }, \"environment\": \"The rocks are covered in patches of dark, wet algae and dried, salt-stained textures. Individual droplets of water spray from the shoreline. The soundscape includes the distant hum of the seaplane engine and the gentle lapping of waves.\", \"subject_action\": \"The plane continues its path, the vapor trail now a long, visible ribbon stretching behind it. Small, iridescent sun glints reflect off the plane's yellow fuselage and cockpit windows.\" } }, { \"time_seconds\": 8.0, \"event\": \"END_SCENE\", \"details\": { \"camera\": { \"movement\": \"camera slowly pans up and away, following the plane as it exits the bottom of the frame\" }, \"environment\": \"The vapor trail lingers and begins to dissipate, leaving a ghostly white ribbon on the turquoise water. The vibrant colors of the landscape become the main focus.\", \"subject_action\": \"The plane disappears from view, leaving the serene, highly detailed coastline and sea as the final image.\"",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "85.1K",
-    "likes": "11.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "Veo3Video",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-21",
-    "title": "<instructions> Role: You Are a Lead 3D Artist at a Premium ",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-14d6e5b3-4999-4210-bb66-877797a20435-instructions.webp",
-    "aspectRatio": "9:16",
-    "prompt": "\\x3Cinstructions> Role: You are a Lead 3D Artist at a premium collectible company Input Variable: Egypt System Instruction: Generate a 2x2 Grid of High-Fidelity Designer Vinyl dioramas. Logic: Curate 4 distinct, less known cities related to the Input Variable. Condense the complexity of the city into a detailed vignette, rather than over-simplifying it. 1. The Toy Physics (The \"Premium\" Rule): Geometry: High-Fidelity Vinyl. Maintain the specific architectural silhouette of the region (e.g., if the city has pagodas, keep the tiers; if it has domes, keep the arches). Detailing: Use \"Intricate Softness.\" Edges are still beveled/chamfered (no razor-sharp edges), but surfaces should feature molded details like window frames, brick textures, and roof shingles. Density: The scene should feel \"lived-in\" and dense. Pack buildings close together to create narrow alleys or busy skylines within the baseplate limits. Material: Premium Matte Vinyl with slight subsurface scattering. It should look expensive and substantial. 2. Semantic Analysis : Analyze the Architecture: For each chosen city, identify its unique \"visual signature\" (e.g., Timber framing, neon signage, terracotta tiles, brutalist concrete) and translate that into the vinyl mold. Analyze the Geography: If the city is coastal, mold waves into the base. If it is mountainous, stack the buildings vertically. 3. Container: The Base: Thick, rounded-square baseplate. The Text: Embossed, Sans-Serif White Text identifying the location on the front face. Color Coding: The base color must be a pastel derivative of the city's dominant atmospheric color. 4. Narrative: Population: Increase figure count to 3-4 tiny \"peg\" people per scene interacting with the environment. Props: Include specific regional props (e.g., vending machines, street lamps, market stalls) to add scale and clutter. 5. Render Settings: Lighting: Bright, soft Global Illumination. Ambient Occlusion enabled to highlight the grooves and details in the vinyl. Palette: Rich & Muted. Use a slightly wider color gamut to distinguish building materials, but keep the overall tone cohesive and \"toy-like.\" Engine: Octane Render, \"Macro Photography,\" Depth of Field focus on the center of the city. Output: 2x2 Grid, Isometric View, High-Detail Vinyl Aesthetic, Text on Bases. \\x3C/instructions>",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "90.2K",
-    "likes": "12.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-22",
-    "title": "An Architectural Floor Plan of a LOCATION Spread Across a Draftin",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032193497898336334-an-architectural-floor-plan-of-a-location-spread-across.webp",
-    "aspectRatio": "9:16",
-    "prompt": "An architectural floor plan of a [LOCATION] spread across a drafting table, with the spaces rising into inhabitable miniature. The [ROOM 1] emerges with worn materials and weathered surfaces and a solitary figure deep in task under warm amber practical light in progress, the [ROOM 2] rises with contrasting textures and layered detail and two people sharing a human moment under cool contrasting light casting coloured shadows across the walls, the [ROOM 3] pushes up with intimate scale and personal objects and a quiet figure in stillness under a single practical light source casting a warm pool across the floor. The floor material on the plan becomes actual surface underfoot. Walls exist as both lines and actual partitions simultaneously. Sight lines marked on the plan become actual views between spaces. The mechanical systems in the plan, HVAC, plumbing, electrical, pulse with invisible function. Human circulation patterns appear as ghosted movement trails. Architectural scale figures become actual tiny inhabitants living their tiny lives. Section cuts reveal vertical relationships. The architect\u2019s tools surround: scales, pencils, trace paper. Golden design studio light, the plan as promise and proof, 8K, architecture as life container.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "95.3K",
-    "likes": "6.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-23",
-    "title": "Crystal Logo Typography Visual",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062625480893771967-brand-name.webp",
-    "aspectRatio": "9:16",
-    "prompt": "[BRAND NAME] Act as a CGI Optical Physicist and 3D Type Sculptor creating a hero crystal typography visual for a luxury brand campaign. References: James Turrell light installations, optical physics photography, Rick Owens \u00d7 crystal aesthetics. PHASE 0: BRAND LOGO INTELLIGENCE Retrieve the 100% canonical, trademark-accurate logotype of [BRAND NAME] from training data \u2014 this is non-negotiable. Reproduce the exact proprietary typeface or custom lettering: every stroke weight, every curve tension, every terminal detail, every unique glyph modification. Do not substitute with a similar font \u2014 decode the actual trademarked letterform geometry. If [BRAND NAME] has a primary symbol or emblem \u2014 place it above or integrated with the wordmark exactly as in the official logo lockup. Fidelity test: a brand lawyer must recognize this as the correct logo, not an approximation. PHASE 1: CRYSTAL MATERIAL SYSTEM The canonical logotype of [BRAND NAME] is a fully 3D sculptural object made entirely of optical crystal glass \u2014 not metal, not plastic, not rubber. Material: optical borosilicate glass or synthetic crystal, IOR 1.85 to 2.1, maximum dispersion coefficient. The letterforms have physical volume and thickness \u2014 cross-section is consistent throughout each stroke, like letters carved from a single block of optical glass. Surface finish: polished to sub-micron smoothness on primary faces \u2014 all major faces mirror-flat and fully refractive. Edges between faces are sharp and precise \u2014 maximum chromatic dispersion occurs here. The material is optically pure in its core \u2014 zero bubbles, zero inclusions in the interior volume. CRITICAL \u2014 WEAR & IMPERFECTION SYSTEM: The crystal has been handled \u2014 it carries the history of physical existence. Apply these surface imperfections with restraint and realism, never overwhelming the dispersion beauty: micro-scratches \u2014 a sparse network of hairline scratches on the front and top faces, depth 0.01 to 0.05mm equivalent, visible only when light catches them at specific angles. They scatter light slightly, creating a faint matte haze in the scratch zone while surrounding surface remains mirror-clean. Scratches follow organic directional patterns \u2014 some parallel, some crossing, as if from handling and storage, never uniform or grid-like. Edge chips \u2014 2 to 4 very minor edge micro-chips along the sharpest edges and corners, each no larger than 0.5mm equivalent. These tiny imperfections catch light differently than clean edges \u2014 they create micro-flare events, small irregular sparkles where a chip breaks the otherwise perfect edge geometry. Surface haze zones \u2014 1 to 2 small irregular areas of very fine surface abrasion, like the glass has been lightly scuffed by contact with another hard surface. These zones appear as subtle frosted patches, 3 to 8% opacity maximum \u2014 barely visible, discovered rather than obvious. They slightly diffuse the refraction beneath them, softening the rainbow bands in that micro-zone only. Fingerprint ghosts \u2014 optional, extremely subtle \u2014 1 partial fingerprint trace on one face, visible only as a very faint oily interference pattern when light hits at oblique angle. Adds humanity to the object. All imperfections are surface-level only \u2014 the interior crystal volume remains optically perfect. The wear says this object is precious and real, not freshly manufactured. PHASE 2: LIGHT & DISPERSION SYSTEM Single collimated light source entering from upper-left at 35\u00b0 \u2014 focused, high-intensity, like a precision studio spot or filtered sunlight. As light passes through the crystal letterforms it undergoes full chromatic dispersion \u2014 splitting into the complete visible spectrum following Snell's law geometry with maximum physical accuracy. Dispersion behavior on faces: each polished face simultaneously reflects and refracts \u2014 where light exits or reflects, a full spectrum appears in strict physical order red \u2192 orange \u2192 yellow \u2192 green \u2192 blue \u2192 violet. Rainbow bands are sharp and laser-clean at their origin edges, softening and widening as they travel across faces. Micro-scratch zones interrupt the rainbow bands locally \u2014 creating fine scattered light filaments branching off the main dispersion paths. Internal reflections: light bounces between letter faces creating crossed and layered rainbow patterns inside the volume \u2014 letters glow from within, nearly dark at the core, exponentially brighter toward illuminated faces. Multiple internal reflection paths create 3 to 5 distinct rainbow events visible simultaneously inside each major letterform. Edge glow: every sharp edge emits thin intense white-blue luminous line from total internal reflection \u2014 edge chips create micro-flare interruptions at their locations, bright irregular sparkles punctuating the otherwise continuous edge glow. Chromatic aberration at all edges: red fringe on one side, blue-violet fringe on the other \u2014 physical dispersion, not decorative filter. The 3/4 angle reveals front face and top face simultaneously \u2014 each face receives different dispersion patterns, creating layered optical complexity. Top face rainbow pattern and front face rainbow pattern intersect at the top edge of each letterform, creating a zone of maximum spectral density. PHASE 3: BACKGROUND Background: pure absolute black (#000000 to #050505) \u2014 a light-absorbing void, no texture, no gradient, no reflected light. The crystal letters float in darkness \u2014 no surface beneath, suspended in void. No ambient light reaching the background. The only light in the image exists within and immediately around the letterforms. Dispersed rainbow light creates a very subtle colored haze in the immediate 2 to 4cm radius around each letter \u2014 soft spectral glow bleeding into the black void. Beyond that: absolute darkness. The letters are the sole light source in the scene. The micro-scratch haze zones appear as slightly cooler, slightly less luminous areas against the surrounding rainbow glow \u2014 their presence is felt rather than explicitly seen. PHASE 4: COMPOSITION CRITICAL \u2014 3/4 ANGLE: The logotype is rotated approximately 5 to 10\u00b0 on the horizontal axis and elevated 5 to 10\u00b0 on the vertical axis \u2014 a subtle, almost-frontal three-quarter view. The rotation is intentionally minimal \u2014 just enough to reveal the physical depth and thickness of the crystal letterforms, suggesting three-dimensionality without dramatically departing from a frontal logo presentation. The logo reads as nearly flat but unmistakably three-dimensional. This angle still reveals the top face of letterforms as a thin luminous sliver \u2014 enough to catch a secondary dispersion pattern distinct from the front face, adding optical depth without compositional complexity. Horizontal centering maintained. Logo occupies 60 to 70% of frame width. Full lockup visible if [BRAND NAME] has an emblem above or integrated with the wordmark. Aspect ratio: 1:1 square or 4:5 portrait \u2014 autonomously determine best fit for [BRAND NAME] lockup proportions. Full sharp focus across the entire sculpture \u2014 no depth of field. Every micro-scratch, every edge chip, every rainbow band in crisp simultaneous focus. Detail resolution: the image must reward close inspection \u2014 zooming in 400% should reveal new details not visible at normal viewing distance: individual scratch filaments, micro-chip geometry, secondary internal reflections, fingerprint interference patterns. PHASE 5: TECH SPECS Render: Octane Render with full caustics enabled at maximum quality settings. Ray tracing: minimum 16 bounces \u2014 increased from standard to capture all internal reflection events, secondary dispersion paths, and scratch-scattered light filaments. Dispersion: physically accurate wavelength-dependent IOR \u2014 full spectral rendering across visible light range 380nm to 700nm, not a color overlay or post-process effect. Scratch rendering: micro-scratches rendered as actual surface geometry displacement, not normal map approximation \u2014 true micro-geometry for physically accurate light scattering. Caustics: on at maximum intensity. Subsurface contribution: minimal \u2014 glass is not translucent like skin, but edges and thin stroke areas show faint internal light transmission. Anti-aliasing: maximum \u2014 every edge, every scratch filament razor clean. Sampling: minimum 2048 samples per pixel \u2014 no noise in the blacks, no grain in the rainbow bands. No post-process glow filters, no color grading, no compositing tricks \u2014 everything physically rendered from geometry and light. Output feel: the most detailed and physically accurate crystal typography ever rendered. Every imperfection is intentional. Every photon is accounted for.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "45.4K",
-    "likes": "7.4K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-24",
-    "title": "Image in the \"plush Comic Toy Product Poster\"",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2055313942139003328-create-an-image-in-the-plush-comic-toy-product-poster-s.webp",
-    "aspectRatio": "9:16",
-    "prompt": "Create an image in the \"Plush Comic Toy Product Poster\" style. Aspect ratio: 9:16. Scene: [SUBJECT] [SUBJECT_ACTION], presented as [PRODUCT_OR_PROP], placed in [LOCATION]. Use [PRODUCT_TEXTURE]. Style the object with [WARDROBE_STYLE]. Layout: put the plush product large in the lower-middle frame, photographed as a tactile 3D product with a three-quarter view and soft studio shadow. Place [BACKGROUND_ELEMENTS] around it. Add a large cyan circle or oval behind the product. Build the biggest graphic area from oversized tilted block typography using \"[MAIN_TEXT]\" as the campaign headline. Typography: use [TYPOGRAPHY_LANGUAGE]. Make the headline huge, angular, stacked, and slanted, with thick black outline and offset shadow. Add \"[SECONDARY_TEXT]\" only as tiny campaign metadata or small label copy. Keep microcopy compact and decorative, not dominant. Graphic language: retro cream poster background, turquoise and cyan anchor color, lemon yellow headline block, signal red headline block, heavy black shadows, sticker-like labels, doodle icons, arrows, lightning-bolt patches, warning-card shapes, and [ACCENT_SYMBOL]. Combine soft plush 3D texture with flat printed poster graphics. Do not include watermarks, usernames, creator IDs, QR codes, platform logos, app marks, copied reference text, copied brand names, or copied license-plate details. --- VARIABLES --- [ACCENT_SYMBOL] \u2014 lightning bolt, arrow capsule, doodle fish, cloud puff, speed line, hazard triangle, steam doodle, or stitched patch [BACKGROUND_ELEMENTS] \u2014 large cyan circle, giant tilted block headline, doodle icons, sticker labels, lightning patches, warning-card graphic, small product metadata [LOCATION] \u2014 cream studio poster backdrop, toy catalog set, tabletop product stage, campaign poster scene, or flat editorial background [MAIN_TEXT] \u2014 short loud campaign headline, preferably 1 to 4 words [PRODUCT_OR_PROP] \u2014 plush car, scooter, radio, vending machine, snack pack, mini bus, camera, delivery pod, noodle cart, or featured toy object [PRODUCT_TEXTURE] \u2014 dense fuzzy plush fiber, soft seams, raised fabric patches, embroidered symbols, matte toy finish [SECONDARY_TEXT] \u2014 small product-series caption, tiny spec label, date line, mock catalog note, or playful warning label [SUBJECT] \u2014 main plush product, toy vehicle, mascot object, gadget, food mascot, or collectible prop [SUBJECT_ACTION] \u2014 parked, bouncing, leaning forward, racing, floating, charging, wobbling, or posing like a hero product [TYPOGRAPHY_LANGUAGE] \u2014 Latin block type, CJK-style display type, or mixed poster typography without copied reference wording [WARDROBE_STYLE] \u2014 not applicable for objects; use plush surface styling, sewn patches, fuzzy trim, cartoon eyes, and toy-like color blocking --- NEGATIVE PROMPT --- watermark, username, creator ID, QR code, platform logo, app mark, copied reference text, copied brand name, copied license plate, exact duplicate plush car, minimalist luxury ad, glossy plastic without fibers, realistic car commercial, dark horror mood, dystopian cyberpunk, busy city background, elegant thin serif headline, unreadable paragraph-heavy layout, app screenshot UI",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "50.5K",
-    "likes": "8.5K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-25",
-    "title": "You Are a World Class Creative Director, Brand Strategist",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2034302036695547963-you-are-a-world-class-creative-director-brand-strategist.webp",
-    "aspectRatio": "16:9",
-    "prompt": "You are a world class creative director, brand strategist, editorial art director, and visual identity designer specializing in high impact campaign systems for global brands. Your task is to create a bold, visually explosive, highly curated editorial moodboard collage composition that feels like a modern brand identity system. This should feel like a brand world captured in one frame, not a clean layout, slightly chaotic, layered, and expressive. BRAND INPUTS: BRAND NAME: GLOSSIER INDUSTRY / PRODUCT TYPE: beauty / skincare PRIMARY BRAND COLOR: soft pink SECONDARY BRAND COLOR: white ACCENT COLOR (optional): translucent gloss BRAND PERSONALITY: fresh, minimal, youthful, clean OPTIONAL SLOGAN / TEXT: SKIN FIRST VISUAL STYLE: Create a dense, layered moodboard-style composition combining: \u2022 real product photography or lifestyle shots \u2022 packaging elements (bags, boxes, labels, tags) \u2022 typography snippets and brand phrases \u2022 illustrated graphics and doodles \u2022 icons, symbols, and stickers \u2022 abstract graphic shapes and patterns \u2022 UI-like elements (menus, cards, labels) \u2022 editorial cutouts and overlapping assets The composition should feel: \u2022 slightly messy but intentionally designed \u2022 layered with depth and overlaps \u2022 like a Pinterest board meets high-end campaign \u2022 expressive, youthful, and brand-heavy \u2022 visually rich and scroll-stopping ART DIRECTION: Include a mix of elements such as: \u2022 product packaging mockups (bags, boxes, labels, stickers) \u2022 lifestyle shot (person interacting with product or brand) \u2022 bold typography blocks with brand phrases \u2022 illustrated objects interacting with real elements \u2022 menu-style or UI-style panels \u2022 abstract shapes, blobs, squiggles, starbursts \u2022 brand-related icons or symbols \u2022 badge / stamp graphics \u2022 textile or merch items (t-shirt, cap, tote bag, etc.) \u2022 playful graphic overlays COMPOSITION RULES: \u2022 asymmetrical layout (NOT grid-based) \u2022 elements scattered but balanced \u2022 overlapping layers with depth \u2022 mix of large hero elements + small details \u2022 combine clean areas with dense clusters \u2022 include cutout-style compositions \u2022 avoid too much empty space COLOR & DESIGN LANGUAGE: \u2022 strictly follow brand color palette \u2022 strong use of PRIMARY COLOR across elements \u2022 secondary color used for contrast and layering \u2022 minimal additional colors (keep it brand-consistent) \u2022 high contrast, bold visual identity TYPOGRAPHY: \u2022 modern editorial typography \u2022 mix of serif / sans-serif if relevant \u2022 bold headlines + small UI text \u2022 include brand name and/or slogan naturally in layout \u2022 typography should feel integrated, not separate VISUAL CHARACTERISTICS: \u2022 premium campaign look \u2022 modern brand identity system \u2022 editorial + commercial hybrid aesthetic \u2022 highly shareable social media visual \u2022 playful but intentional chaos \u2022 cohesive even in randomness IMPORTANT: This should feel like: \u2022 a brand world explosion in one frame \u2022 a creative direction board for a global campaign \u2022 a visual identity snapshot of the brand NOT a clean layout NOT a grid NOT minimal It must feel alive, layered, and expressive.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.6K",
-    "likes": "9.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-26",
-    "title": "Ballerina Whale Breach Action Scene",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043463569354998093-a-hyper-realistic-high-octane-cinematic-video-a-colossa.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A hyper-realistic, high-octane cinematic video. A colossal, barnacled humpback whale violently erupts from a turbulent, deep blue ocean in a massive, twisting breach, sending explosive shockwaves of frothing white water high into the air. Riding the apex of the whale's back is a fiercely athletic ballerina in a shimmering, electric-blue tutu. Instead of remaining still, she harnesses the whale's upward momentum to launch into a spectacular, gravity-defying grand jet\u00e9 directly over the churning abyss.Suddenly, an unexpected twist: as the whale reaches its peak, the crashing water violently ignites with bioluminescence, and a massive swarm of glowing, neon-pink flying fish erupts from the foam, soaring like arrows all around the suspended dancer. The camera abandons a slow orbit for a kinetic, fast-paced whip-pan, tracking the dancer's flight through the glowing sea-spray, dodging the flying fish, before plunging momentarily underwater just as the whale's massive tail slams down with catastrophic force. The warm golden hour lighting is dramatically pierced by a sudden, jagged bolt of violet lightning across the horizon. Audio features a deafening, thunderous roar of crashing water, the sharp crack of lightning, the chaotic fluttering of wet wings, and a soaring, high-tempo orchestral crescendo that cuts abruptly to silence as the camera dips below the surface.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "60.7K",
-    "likes": "10.7K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "Veo3Video",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-27",
-    "title": "Photorealistic, Cinematic, Ultra Detailed, 8k, Atmospheric Depth,",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2056372974765175067-create-a-16-9-character-concept-sheet-for-a-celestial-voy.webp",
-    "aspectRatio": "16:9",
-    "prompt": "Create a 16:9 character concept sheet for a celestial voyager in an epic cinematic sci-fi fantasy aesthetic. Show 4 distinct views of the same character in a clean concept-art layout: symmetrical full-body front view full-body side profile full-body back view hyper-detailed close-up portrait of the face The character is a solitary celestial traveler with an elegant white-and-gold ritualistic armored design. He wears ornate futuristic armor with intricate geometric filigree, sacred celestial motifs, flowing layered cloak fabric, and a halo-like circular structure behind the head and upper back. The armor should feel ancient yet highly advanced, blending sci-fi technology with spiritual ceremonial design. The face should appear mysterious, noble, and otherworldly, with an alien-mask-like structure or refined humanoid facial design, enhanced by glowing amber energy lines and a luminous circular forehead symbol. Include a glowing chest core or energy emblem integrated into the armor. Overall silhouette should be regal, tall, elegant, and powerful. Lighting should be intense warm orange and amber, with extreme high contrast. Use aggressive backlighting and strong rim lighting to create sharp specular highlights against deep shadows. Add volumetric light rays, subtle anamorphic lens flares, dust particles, micro-debris, and a slightly atmospheric celestial haze. The background should be clean white or near-white, minimal and uncluttered, so the character design remains the focus. Keep the presentation polished like a premium AAA character design sheet. Style: photorealistic, cinematic, ultra-detailed, 8k, atmospheric depth, elegant sci-fi fantasy concept art.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "65.8K",
-    "likes": "11.8K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "Veo3Video",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-28",
-    "title": "Premium Gen-Z Product Hero",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-0a1b0200-fe38-4066-99f8-2a52b2e0fa7f-brand-name-brand-premium-hero-campaign-shota-hype.webp",
-    "aspectRatio": "16:9",
-    "prompt": "[BRAND NAME] \u2014 [BRAND] \u2014 Premium Hero Campaign ShotA hyper-realistic premiumcommercial hero image for [BRAND NAME], designed for modern[GEN-Z] and luxury digital advertising. SUBJECT& PRODUCTThehero product dominates the foreground with aggressive perspective distortionand cinematic depth. The product is held close to the camera, becoming thevisual centerpiece with ultra-sharp focus, premium texture detail,condensation, reflections, embossed branding, realistic material response, andtactile surface realism.The[MALE/FEMALE] human subject stands behind the product with confident energy and effortlessattitude \u2014 natural expression, emotionally engaging eyes, relaxed luxurystyling, editorial fashion presence, authentic body language, subtle motion inhair/clothing. COMPOSITION\u00b7 Product occupies 45\u201360% of frame\u00b7 Low-angle cinematic perspective\u00b7 Dynamic foreground-to-background depth\u00b7 Slight wide lens distortion (24mm\u201335mm look)\u00b7 Premium commercial framing\u00b7 Strong center-weighted composition\u00b7 Clean visual hierarchy\u00b7 Modern advertising layout spacing LIGHTING\u00b7 High-end commercial studio lighting\u00b7 Bright directional key light\u00b7 Soft cinematic fill\u00b7 Controlled highlights\u00b7 Glossy reflections\u00b7 Atmospheric rim lighting\u00b7 Premium skin rendering\u00b7 Vibrant but realistic color separation\u00b7 HDR-level dynamic range BACKGROUND& ENVIRONMENTMinimalbut immersive branded world inspired by the product flavor, category, oremotion.Backgroundcontains:\u00b7 Floating ingredients\u00b7 Atmospheric particles\u00b7 Soft gradients\u00b7 Light bloom\u00b7 Clean negative space\u00b7 Abstract environmental storytellingTheenvironment should feel premium, modern, playful, and intentionallyart-directed. COLORSTRATEGYUsea focused 2\u20133 color palette:\u00b7 Primary brand color\u00b7 Accent contrast color\u00b7 Soft neutral balanceColorsshould feel:\u00b7 Bold\u00b7 Social-media optimized\u00b7 Premium\u00b7 Highly recognizable\u00b7 Emotionally addictive TYPOGRAPHYSTYLELargeminimal typography integrated into composition:\u00b7 Rounded modern font\u00b7 Thick bold headline\u00b7 Minimal copywriting\u00b7 Strong spacing\u00b7 Clean hierarchy\u00b7 Editorial luxury alignment\u00b7 Modern campaign design system MOODConfident.Addictive. Aspirational. Stylish. Premium. Viral. Clean. Youthful. CAMERA &QUALITYShoton a high-end commercial cinema camera. Ultra-detailed. Hyper realistic.Premium advertising photography. Sharp focus. 8K commercial rendering. Luxuryeditorial aesthetic. Modern global campaign quality.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "70.0K",
-    "likes": "12.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-29",
-    "title": "Using the Uploaded Selfie as the ONLY and Exclusive Face Referenc",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2034263750539411550-using-the-uploaded-selfie-as-the-only-and-exclusive-face.webp",
-    "aspectRatio": "16:9",
-    "prompt": "Using the uploaded selfie as the ONLY and exclusive face reference, generate a Pixar-style 3D character sticker set. The character must be clearly recognizable as the person from the selfie. Create a neat 3\u00d73 grid collage (nine stickers total). Final aspect ratio is strictly 4:5. Each cell shows a distinct pose and facial expression. Style and tone: Pixar-style 3D animation with a meme-oriented feel. Exaggerated, slightly absurd emotions, playful overacting. Highly readable expressions at small sizes, with expressive eyes, eyebrows, and mouth. Subtle hand gestures where appropriate. Background and output: Fully transparent background (PNG). No backdrop, no background shadows. No text, captions, logos, or UI elements. Stickers must be ready for direct use in messengers. Consistency: Same hairstyle, clothing, colors, and character proportions across all nine stickers. Only facial expression and pose change. Clean, polished 3D sticker look. Emotions (one per sticker, 3\u00d73 grid): Surprised, Annoyed, Confused, Frustrated, Thoughtful, Sarcastic, Worried, Bored, Curious.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "75.1K",
-    "likes": "6.1K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-30",
-    "title": "Clear, 45\u00b0 Top-Down Isometric Miniature 3D Educational Diorama Ex",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2013493349156823287-create-a-clear-45-top-down-isometric-miniature-3d-educa.webp",
-    "aspectRatio": "16:9",
-    "prompt": "Create a clear, 45\u00b0 top-down isometric miniature 3D educational diorama explaining [PROCESS / CONCEPT]. Use soft refined textures, realistic PBR materials, and gentle lifelike lighting. Build a stepped or layered diorama base showing each stage of the process with subtle arrows or paths. Include tiny stylized figures interacting with each stage (no facial details). Use a clean solid [BACKGROUND COLOR] background. At the top-center, display [PROCESS NAME] in large bold text, directly beneath it show a short explanation subtitle, and place a minimal symbolic icon below. All text must automatically match the background contrast (white or black).",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "80.2K",
-    "likes": "7.2K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-31",
-    "title": "Aesthetic 1970s-inspired Fashion Portrait of a Stylish Young Woma",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2008537400083939763-aesthetic-1970s-inspired-fashion-portrait-of-a-stylish-yo.webp",
-    "aspectRatio": "16:9",
-    "prompt": "Aesthetic 1970s-inspired fashion portrait of a stylish young woman sitting on outdoor cafe steps, holding a premium ornate green coffee cup with gold rim detailing, gazing softly at the camera. Her hair is styled in soft loose strands framing her face with vintage makeup, matte red lips, and subtle eyeliner. She is wearing a cozy forest green premium knit sweater paired with a long flowing black tutu skirt. A warm vintage plaid scarf in earthy brown, burnt orange, and muted red tones is wrapped loosely around her neck. A premium dark green leather crossbody bag with a gold filigree clasp and chain strap is placed beside her. Autumn street caf\u00e9 setting with scattered fallen leaves and warm amber caf\u00e9 lights glowing behind glass windows. 1970s film tone, warm grainy texture, muted earthy color palette, cinematic atmosphere, shallow depth of field, soft natural lighting, analog film look, fashion editorial photography, ultra-realistic, high detail, 85mm lens, f/1.8, vintage aesthetic, dreamy mood.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "85.3K",
-    "likes": "8.3K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-32",
-    "title": "Indonesian Food Infographic",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2017865644365255078.webp",
-    "aspectRatio": "9:16",
-    "prompt": "{ \"image_prompt\": { \"type\": \"Hyper-realistic food infographic\", \"subject\": { \"cuisine\": \"Indonesian\", \"base_element\": \"Traditional bowl with steaming hot dish at the bottom\", \"levitating_ingredients\": [ \"Juicy meat\", \"Crispy tofu\", \"Glossy sauce splashes\", \"Fresh herbs\", \"Chilies\", \"Lime\", \"Garlic\", \"Fried shallots\" ] }, \"composition\": { \"layout\": \"Clean vertical composition\", \"arrangement\": \"Realistic gravity-defying/floating elements\", \"background\": \"Rustic wooden surface\", \"visual_hierarchy\": \"Bowl anchored at bottom, ingredients rising vertically\" }, \"graphic_design_elements\": { \"labels\": \"Clear Indonesian text\", \"lines\": \"Thin white pointing lines\", \"style\": \"Editorial infographic layout, professional food magazine style\" }, \"lighting_and_mood\": { \"lighting\": \"Cinematic studio lighting\", \"color_palette\": \"Warm tones\", \"effects\": \"Dramatic steam, motion-frozen ingredients\" }, \"technical_specs\": { \"camera_settings\": \"Shallow depth of field, sharp focus, DSLR look\", \"details\": \"Ultra-detailed textures\", \"resolution\": \"8K ultra-realistic\" } } }",
+    "prompt": "Create a revolutionary tourism poster for Yogyakarta, Indonesia, where the entire region is visualized as a magnificent living cultural masterpiece emerging from the landscape itself. The composition seamlessly transforms Yogyakarta's most iconic landmarks, traditions, and natural wonders into one breathtaking, larger-than-life visual narrative.At the heart of the artwork stands a colossal guardian figure symbolizing the spirit of Yogyakarta, formed entirely from the city's heritage and landscapes. Its crown is the majestic silhouette of Mount Merapi glowing under a dramatic sunrise. Its eyes are illuminated by the golden lights of Malioboro and the vibrant soul of the city. Its body is composed of the Kraton Yogyakarta, ancient temples, lush rice terraces, and traditional Javanese architecture woven together with extraordinary detail.The shoulders are shaped by the grandeur of Prambanan Temple, while intricate batik patterns flow across the figure like living rivers of culture. Elegant dancers performing traditional Javanese court dances swirl through the composition as ribbons of movement and color. Legendary wayang kulit puppets emerge from beams of golden light, telling centuries-old stories across the sky.Around the figure, a spectacular visual celebration unfolds: the iconic Tugu Yogyakarta radiates from the center as a beacon of identity; horse-drawn andong carriages travel through vibrant streets; gamelan musicians create visible waves of golden energy; traditional markets overflow with colors, crafts, and local life; hot-air balloons float above the landscape; lanterns illuminate the evening sky; and visitors from around the world explore the city's cultural treasures.In the distance, the mystical silhouette of Mount Merapi rises dramatically above clouds, while the southern coastline and spectacular cliffs add balance and grandeur to the composition. Ancient temples, royal ceremonies, batik artisans, shadow puppet performances, and contemporary urban creativity blend together seamlessly, creating a visual symphony of tradition and innovation.Streams of gold, deep indigo, royal blue, emerald green, and warm sunset orange flow throughout the artwork, symbolizing Yogyakarta's rich heritage and enduring spirit. Every corner of the poster contains discoverable details, hidden cultural references, and iconic landmarks, inviting viewers to explore the image repeatedly.At the center:VISIT YOGYAKARTAHeadline:\"THE SOUL OF JAVA, THE HEART OF INDONESIA\"The artwork should feel like a Cannes Lions Grand Prix-winning global tourism campaign, combining culture, history, royalty, spirituality, art, nature, and modern creativity into one unforgettable visual masterpiece. Hyper-detailed storytelling, impossible beauty, museum-grade composition, cinematic lighting, ultra-premium editorial design, luxury destination marketing, National Geographic meets Apple meets Disney Imagineering, global tourism campaign of the decade, 8K, hyper-realistic, awe-inspiring, iconic, emotionally powerful, visually overwhelming, world-class destination branding masterpiece.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
     "views": "90.4K",
-    "likes": "9.4K",
+    "likes": "17.6K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -909,7 +1945,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -918,16 +1954,16 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-33",
-    "title": "Anime Illustration, Clean Linework, Refined Rendering",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2060402131702861863-create-a-premium-anime-style-character-sheet-of-a-classy.webp",
+    "id": "gp-exact-3208181546",
+    "title": "Fully Original Protagonist with Exact Physical Appearance",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b20f7667-32ec-4d44-89ba-966d89c48614-generate-a-fully-original-protagonist-with-exact-physical.webp",
     "aspectRatio": "16:9",
-    "prompt": "Create a premium anime-style character sheet of a classy, charismatic, beautiful female bartender named \u201cLani Kahele\u201d, presented as a polished luxury barmaid concept board. She is elegant, confident, warm, and visually striking, with a refined and feminine presence. She has long dark brown wavy hair styled in a graceful updo with loose strands framing her face, warm amber-brown eyes, delicate makeup, soft glossy lips, and a beautiful smile. Her aura should feel sophisticated, approachable, and highly charismatic. Outfit: She wears a fitted white blouse with a slightly open neckline, tucked into a high-waisted black pencil skirt. The look should feel chic, professional, glamorous . Add black high heels, subtle gold jewelry, a bartender name tag, and tasteful luxury accessories. Her silhouette should be elegant and stylish. Background and presentation: Use a much lighter background overall for the character sheet, with clean ivory / cream tones and refined gold linework. The environment and inset panels should still suggest a sleek, luxurious cocktail bar, but the overall board must feel bright, elegant, airy, and premium. Layout: Present the image as a polished anime-style character sheet / concept art board with a clean editorial layout. Include: - A large close-up portrait on the left - Turnaround section with full body front, 3/4, side, and back views - Two action panels on the upper right: one shaking a cocktail shaker, one serving a cocktail with elegance - Expression sheet with multiple expressions: confident, warm smile, playful, focused, thoughtful, charismatic - Outfit detail panels - Accessories detail panels - Nails panel - Fabric panel - Shoes panel - Bartending tools section - Signature cocktails section - Color palette row - A small luxury bar environment panel Character info text: Use elegant headings and profile notes such as: \u201cLani\u201d \u201cThe Charismatic Bartender\u201d Profile: - Name: Lani Kahele - Age: 27 - Height: 168 cm - Role: Head Bartender - Place: Azure Lounge - Specialty: Signature Cocktails Personality: - Confident - Charismatic - Warm & Approachable - Perfectionist - Loves creating memorable experiences Quote: \u201cEvery cocktail tells a story. I just make sure it\u2019s unforgettable.\u201d Visual style: Highly detailed anime illustration, clean linework, refined rendering, bright premium layout, elegant gold accents, classy luxury aesthetic, polished concept-sheet presentation, stylish and feminine, upscale cocktail lounge atmosphere",
+    "prompt": "Generate a fully original protagonist with exact physical appearance, proportions, clothing, cybernetic arm details and gear as described above. Maintain perfect visual consistency for the entire duration.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "95.5K",
-    "likes": "10.5K",
+    "views": "75.7K",
+    "likes": "17.2K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -935,9 +1971,9 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
       "verified": true
     },
     "tags": [
-      "Veo3Video",
+      "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -946,127 +1982,15 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-34",
-    "title": "Stylish Museum Heist Comedy Action",
-    "category": "video",
-    "model": "Veo 3 & Sora",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2063169581473317099-style-3d-cinematic-animation-stylish-museum-heist-comed.webp",
+    "id": "gp-exact-796171763",
+    "title": "ALIBABA \u2014 \u201cMADE.\u201d FORMAT: 4:5 Vertical Premium Global Brand Campaign U",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062584054848049656-alibaba-made.webp",
     "aspectRatio": "9:16",
-    "prompt": "Style: 3D cinematic animation, stylish museum heist comedy-action, glossy lighting, playful suspense, expressive characters, 15-second vertical video pacing, 7 quick cuts [00:00-00:02] Wide 3D shot inside a grand museum gallery at night, with marble floors, tall columns, velvet ropes, glass display cases, and a valuable painting glowing under a spotlight on the far wall. A sneaky thief in a black outfit quietly enters from the shadows, tiptoeing with exaggerated confidence. SFX: quiet museum ambience, soft footsteps, suspenseful pizzicato strings. [00:02-00:04] Low-angle shot as red security laser lines activate across the gallery like a glowing web. The thief freezes, then smirks, raising one eyebrow as if the challenge is easy. Reflections of the lasers shimmer across the polished floor. SFX: laser hum, tiny electronic beeps, playful suspense music. [00:04-00:06] Dynamic side tracking shot as the thief moves through the laser grid with feather-light motion, bending backward, sliding sideways, stepping on one toe, and twisting past the beams with dancer-like precision. His coat barely misses the lasers. VFX: glowing red laser trails, slow-motion dust particles, soft floor reflections. SFX: fabric swish, soft whooshes, light comedic drum taps. [00:06-00:08] Close-up of the thief\u2019s face as he finally reaches the painting, looking proud and whispering, \"Too easy.\" He gently places one hand on the frame. The painting instantly flashes with a hidden sensor light. SFX: tiny click, sudden electronic chirp, suspense music cuts. [00:08-00:10] Fast wide shot as the entire museum alarm system erupts. Red lights flash, sirens scream, and metal security shutters begin lowering. The thief\u2019s confident smile collapses into panic. He looks around and says, \"Okay... not easy.\" VFX: flashing red alarm lights, blinking sensors, light haze. SFX: loud alarm, warning beeps, metal shutters. [00:10-00:12] Fast handheld 3D chase shot as guards rush into the gallery from both sides with flashlights, pointing toward the thief. He tries to step back, but the laser grid reactivates behind him, blocking his escape. He slowly raises his hands with a nervous smile. SFX: running footsteps, flashlight clicks, guard shouts, alarm continuing. [00:12-00:15] Final comedic wide shot as two guards calmly surround the thief while the painting remains safely on the wall. The thief stands trapped under the spotlight, hands raised, still holding only a tiny loose piece of tape from the frame. One guard says, \"Nice dancing.\" The thief sighs and replies, \"Thank you.\" End on the thief looking embarrassed as the red alarm lights flash around him. SFX: siren fading slightly, comedic bass hit, final playful music sting.",
+    "prompt": "ALIBABA \u2014 \u201cMADE.\u201d FORMAT: 4:5 Vertical Premium Global Brand Campaign Ultra High Resolution 8K Global Digital + OOH + Trade Media Ready Behance Featured Quality Cannes Lions B2B Campaign Quality STYLE: Premium business storytelling Apple simplicity \u00d7 Nike confidence \u00d7 Bloomberg sophistication Modern industrial elegance Luxury editorial design Global commerce aesthetics 2026 brand campaign standards BRAND INSIGHT: The world\u2019s biggest brands all started as an idea. Alibaba exists in the moment between idea and reality. BIG IDEA: MADE. One word. One transformation. From concept to creation. HERO SCENE: A modern entrepreneur stands confidently within a beautifully designed creation environment. The space combines: creative studio, product design lab, manufacturing precision, global logistics intelligence. Everything feels purposeful. Everything feels in progress. VISUAL STORY: A product journey unfolds naturally through the composition. Sketch. Prototype. Packaging. Production. Finished product. Brand launch. The viewer witnesses creation becoming reality. TYPOGRAPHY: Massive architectural typography. MADE. Dominating the composition. Integrated into the environment. Bold. Confident. Global. COLOR SYSTEM: Alibaba Orange. Warm industrial neutrals. Deep graphite. Soft whites. Premium copper highlights. Modern business sophistication. UI INTEGRATION: Supplier verification. Manufacturing insights. Global shipping. Quality assurance. Trade intelligence. Platform ecosystem visualized elegantly. CTA: START MAKING \u2192 From idea to reality. EMOTIONAL RESPONSE: The viewer should think: \u201cI could build something.\u201d Then: \u201cAlibaba can help me make it.\u201d QUALITY TARGET: Global B2B brand campaign. Not sourcing advertising. Not marketplace promotion. A campaign celebrating creation, entrepreneurship, and the journey from idea to reality. Simple. Powerful. Ownable. Scalable worldwide.",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "45.6K",
-    "likes": "11.6K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "Veo3Video",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-35",
-    "title": "A High-Resolution 2x2 Grid Collage of Four Individual Portraits",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2041840872925606344-a-high-resolution-2x2-grid-collage-of-four-individual-por.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A high-resolution 2x2 grid collage of four individual portraits. In each square, a different young man peeks through a jagged, ripped hole in bright yellow seamless paper. The subjects have a 1990s indie-pop aesthetic with diverse hairstyles, including messy curls and dreadlocks. The lighting is soft and even, typical of a professional studio photoshoot. The color palette is dominated by the vibrant yellow paper against a neutral beige background visible through the tears. Cinematic quality, sharp focus, 8k resolution, editorial photography style. Key Elements Breakdown If you want to tweak the result, here are the specific descriptors that make this style work: Composition: 2x2 grid collage, quad split screen, peeking through a hole. Main Prop: torn yellow construction paper, jagged ripped edges, seamless paper background. Subject Style: Gen Z fashion, indie band aesthetic, 90s grunge-lite, youthful expressive faces. Technical Specs: flat lighting, low depth of field, clean studio photography, vibrant saturation.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "50.7K",
-    "likes": "12.7K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-36",
-    "title": "Nutella Miniature Winter Ski World",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2029194313784016901.webp",
-    "aspectRatio": "16:9",
-    "prompt": "{ \"cinematic miniature winter world built around a giant Nutella jar, thick chocolate hazelnut spread flowing out forming a glossy mountain ski slope, tiny skiers skiing down the chocolate hill covered with light snow powder, miniature alpine village with wooden cabins and pine trees, ski lift with small gondolas carrying people, snowy forest background and distant mountains, soft winter lighting, ultra realistic textures of melting chocolate and snow, macro tilt shift photography, fantasy food landscape, commercial food advertising style, highly detailed, 8k\", \"negative_prompt\": \"blurry, low resolution, distorted jar, incorrect logo, messy composition, unrealistic proportions, extra limbs, duplicate people\", \"aspect_ratio\": \"4:5\", \"style\": \"ultra realistic macro photography\", \"lighting\": \"soft cinematic winter daylight\", \"camera\": \"macro lens, tilt shift effect\", \"quality\": \"high detail, 8k\" }",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "55.8K",
-    "likes": "6.8K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-37",
-    "title": "<instruction> 1",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2042593441150837246-instruction.webp",
-    "aspectRatio": "16:9",
-    "prompt": "\\x3Cinstruction> 1. Inference Engine ( Input A is a recognizable Brand Logo, Icon, or simple Silhouette (e.g., The Apple Logo, Nike Swoosh, Batman Symbol, A Heart). Input B is a vast Natural Landscape (e.g., Snowy Mountains, Dense Jungle, Sand Dunes, Ocean Coastline). Deconstruct the inputs to generate 3 Topographical Assets : The Negative Space (The Carving): How does the logo fit into the landscape? (e.g., The main body of the Apple logo is carved out of a snowy mountain peak). The Positive Space (The Island): Are there floating or detached elements of the logo? (e.g., The \"leaf\" of the Apple logo is a floating chunk of earth suspended in the sky above). The Texture (The Biome): What materials make up the shape? (e.g., Pine trees and snow for Mountains, Sand ripples for Dunes, Coral and waves for Coastlines). 2. Container Goal: \"Subliminal Advertising\" Landscape Photography. The Perspective: A wide, sweeping Aerial Drone Shot . The landscape stretches out vast and majestic, dominating the frame. The Atmosphere: Dramatic, moody weather. Heavy, swirling clouds, mist, or fog rolling through the valleys. 3. The Topography (The Hidden Shape): The Integration: The \"Logo\" (Input A) is NOT superimposed or painted on. It is formed entirely by the physical geometry of the terrain. The Illusion: The ridges, valleys, tree lines, and snow caps naturally align to create a massive, perfect silhouette of the logo when viewed from this specific aerial angle. The Void: The main shape of the logo is often a deep, sheer drop or a distinct change in elevation/texture (e.g., a dark pine forest shaped like an apple cut into a white snowy mountain). The Levitation: If the logo has disconnected parts (like the Apple leaf or the dot on an 'i'), render it as a massive, floating island of rock and earth suspended in the misty air above the main shape. 4. Visual Syntax (Pareidolia): The Trick: The image must look like a 100% authentic, awe-inspiring nature photograph at first glance. The logo should emerge as an optical illusion (Pareidolia) upon a second look. The Edge: The edges of the \"logo\" must be slightly jagged and organic, formed by real geological features (cliffs, trees), not perfect vector lines. 5. Lighting & Atmosphere: Lighting: God Rays (Crepuscular Rays) & Backlighting. The sun is hidden behind the clouds or the floating landmass, blasting intense beams of light through the mist and defining the silhouette of the hidden shape. Contrast: High contrast between the dark valleys (forests/shadows) and the bright highlights (snow/sunlight). Vibe: Cinematic, majestic, and subtly surreal. Output: ONE image, 1:1 Aspect Ratio, National Geographic Aerial Photography, \"Hidden Image\" aesthetic, Photorealistic. \\x3C/instruction> 2. \\x3Csystem_role> you are an optical illusion artist and landscape photographer. \\x3C/system_role> \\x3Cillusion_topology> render a vast, photorealistic {natural_environment}. however, the shadows, highlights, and physical layout of the landscape must form the exact facial contours and silhouette of {pop_culture_icon} when viewed from a distance. - dark zones (forming the eyes/hair/shadows): deep shadows cast by {dark_nature_elements}. - light zones (forming the skin/highlights): bright areas made of {light_nature_elements}. \\x3C/illusion_topology> \\x3Cvisual_execution> the image must function flawlessly as two things at once: 1. up close: a beautiful, highly detailed photograph of a {natural_environment} during {weather_condition}. 2. zoomed out: a clear portrait of {pop_culture_icon}. ensure the blending is organic. do not use digital fade overlays. the rocks/trees themselves must form the face. \\x3C/visual_execution>",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "60.0K",
-    "likes": "7.0K",
-    "timestamp": "Verified",
-    "creator": {
-      "name": "AI Prompt Studio",
-      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
-      "verified": true
-    },
-    "tags": [
-      "NanoBananaPro",
-      "Trending",
-      "Photorealistic",
-      "Featured"
-    ],
-    "suggestedTools": [
-      "chatgpt",
-      "gemini"
-    ]
-  },
-  {
-    "id": "gp-full-38",
-    "title": "A High-End Fashion Campaign Poster Featuring a Young Model Standi",
-    "category": "image",
-    "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063928106336047495-a-high-end-fashion-campaign-poster-featuring-a-young-mode.webp",
-    "aspectRatio": "16:9",
-    "prompt": "A high-end fashion campaign poster featuring a young model standing confidently in front of gigantic 3D typographic letters integrated into a minimalist architectural backdrop. Luxury streetwear aesthetic, oversized hoodie and cargo joggers, monochromatic outfit color palette, premium fabric textures, relaxed fit, hands in pockets, editorial fashion pose. Clean studio environment with soft diffused lighting, subtle shadows, ultra-realistic fabric folds, modern luxury branding, magazine-quality advertising layout, large embossed typography dominating the background, minimalist color scheme, sophisticated composition, premium streetwear campaign, fashion lookbook cover, high-end commercial photography, sharp focus, full-body shot, centered composition, photorealistic, cinematic lighting, depth and dimensionality, contemporary luxury fashion branding, 8k detail. Orange Version Luxury streetwear campaign poster, full-body model wearing an oversized burnt-orange hoodie and matching cargo pants, standing in front of massive white 3D letters spelling a bold brand name, minimalist architectural wall, premium fashion editorial, clean luxury aesthetic, oversized silhouette, soft studio lighting, realistic shadows, premium cotton texture, modern typography design, luxury streetwear advertisement, monochromatic orange styling, high-end commercial photography, magazine cover layout, photorealistic, ultra detailed, 8k.",
-    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "65.1K",
+    "views": "51.1K",
     "likes": "8.1K",
     "timestamp": "Verified",
     "creator": {
@@ -1077,7 +2001,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -1086,16 +2010,44 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-39",
-    "title": "High-Quality Stylized 3D CGI Pixar-Style Render, Vertical 3:4 Com",
+    "id": "gp-exact-3089788626",
+    "title": "Anime Illustration, Clean Linework, Refined Rendering",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2060402131702861863-create-a-premium-anime-style-character-sheet-of-a-classy.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a premium anime-style character sheet of a classy, charismatic, beautiful female bartender named \u201cLani Kahele\u201d, presented as a polished luxury barmaid concept board. She is elegant, confident, warm, and visually striking, with a refined and feminine presence. She has long dark brown wavy hair styled in a graceful updo with loose strands framing her face, warm amber-brown eyes, delicate makeup, soft glossy lips, and a beautiful smile. Her aura should feel sophisticated, approachable, and highly charismatic. Outfit: She wears a fitted white blouse with a slightly open neckline, tucked into a high-waisted black pencil skirt. The look should feel chic, professional, glamorous . Add black high heels, subtle gold jewelry, a bartender name tag, and tasteful luxury accessories. Her silhouette should be elegant and stylish. Background and presentation: Use a much lighter background overall for the character sheet, with clean ivory / cream tones and refined gold linework. The environment and inset panels should still suggest a sleek, luxurious cocktail bar, but the overall board must feel bright, elegant, airy, and premium. Layout: Present the image as a polished anime-style character sheet / concept art board with a clean editorial layout. Include: - A large close-up portrait on the left - Turnaround section with full body front, 3/4, side, and back views - Two action panels on the upper right: one shaking a cocktail shaker, one serving a cocktail with elegance - Expression sheet with multiple expressions: confident, warm smile, playful, focused, thoughtful, charismatic - Outfit detail panels - Accessories detail panels - Nails panel - Fabric panel - Shoes panel - Bartending tools section - Signature cocktails section - Color palette row - A small luxury bar environment panel Character info text: Use elegant headings and profile notes such as: \u201cLani\u201d \u201cThe Charismatic Bartender\u201d Profile: - Name: Lani Kahele - Age: 27 - Height: 168 cm - Role: Head Bartender - Place: Azure Lounge - Specialty: Signature Cocktails Personality: - Confident - Charismatic - Warm & Approachable - Perfectionist - Loves creating memorable experiences Quote: \u201cEvery cocktail tells a story. I just make sure it\u2019s unforgettable.\u201d Visual style: Highly detailed anime illustration, clean linework, refined rendering, bright premium layout, elegant gold accents, classy luxury aesthetic, polished concept-sheet presentation, stylish and feminine, upscale cocktail lounge atmosphere",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "58.8K",
+    "likes": "15.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1325471668",
+    "title": "<instruction> 1",
     "category": "image",
     "model": "Nano Banana Pro",
-    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032557237437116521-high-quality-stylized-3d-cgi-pixar-style-render-vertical.webp",
-    "aspectRatio": "9:16",
-    "prompt": "High-quality stylized 3D CGI Pixar-style render, vertical 3:4 composition, the most iconic characters from [SHOW/MOVIE] captured as a chaotic and joyful bathroom mirror selfie; the most recognizable character holds a large vintage camera up toward the mirror, the remaining characters squeezed tightly into the frame around them, each showing their most signature expression or pose; everyone wearing their most iconic costumes and outfits faithful to the source material; all crammed together creating classic crowded selfie energy; facial proportions gently stylized in Disney/Pixar animation style with expressive eyes while faithfully preserving each character's most recognizable traits, hairstyles and costumes from [SHOW/MOVIE]; the bathroom mirror has realistic toothpaste splatters and subtle smudges; the reflection shows bold black Pixar-style lettering reading \"[SHOW/MOVIE]\u2764\ufe0f\"; the bathroom background is styled to match the world of [SHOW/MOVIE] with thematic props and easter eggs relevant to [SHOW/MOVIE] placed naturally around the scene; lighting combines soft ambient bathroom lighting with a bright camera flash reflecting in the mirror creating gentle specular highlights; warm Pixar-style color grading faithful to the visual tone of [SHOW/MOVIE], smooth highlight rolloff, refined Disney/Pixar cinematic character shading, ultra-detailed 4K render, no watermark",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2042593441150837246-instruction.webp",
+    "aspectRatio": "16:9",
+    "prompt": "\\x3Cinstruction> 1. Inference Engine ( Input A is a recognizable Brand Logo, Icon, or simple Silhouette (e.g., The Apple Logo, Nike Swoosh, Batman Symbol, A Heart). Input B is a vast Natural Landscape (e.g., Snowy Mountains, Dense Jungle, Sand Dunes, Ocean Coastline). Deconstruct the inputs to generate 3 Topographical Assets : The Negative Space (The Carving): How does the logo fit into the landscape? (e.g., The main body of the Apple logo is carved out of a snowy mountain peak). The Positive Space (The Island): Are there floating or detached elements of the logo? (e.g., The \"leaf\" of the Apple logo is a floating chunk of earth suspended in the sky above). The Texture (The Biome): What materials make up the shape? (e.g., Pine trees and snow for Mountains, Sand ripples for Dunes, Coral and waves for Coastlines). 2. Container Goal: \"Subliminal Advertising\" Landscape Photography. The Perspective: A wide, sweeping Aerial Drone Shot . The landscape stretches out vast and majestic, dominating the frame. The Atmosphere: Dramatic, moody weather. Heavy, swirling clouds, mist, or fog rolling through the valleys. 3. The Topography (The Hidden Shape): The Integration: The \"Logo\" (Input A) is NOT superimposed or painted on. It is formed entirely by the physical geometry of the terrain. The Illusion: The ridges, valleys, tree lines, and snow caps naturally align to create a massive, perfect silhouette of the logo when viewed from this specific aerial angle. The Void: The main shape of the logo is often a deep, sheer drop or a distinct change in elevation/texture (e.g., a dark pine forest shaped like an apple cut into a white snowy mountain). The Levitation: If the logo has disconnected parts (like the Apple leaf or the dot on an 'i'), render it as a massive, floating island of rock and earth suspended in the misty air above the main shape. 4. Visual Syntax (Pareidolia): The Trick: The image must look like a 100% authentic, awe-inspiring nature photograph at first glance. The logo should emerge as an optical illusion (Pareidolia) upon a second look. The Edge: The edges of the \"logo\" must be slightly jagged and organic, formed by real geological features (cliffs, trees), not perfect vector lines. 5. Lighting & Atmosphere: Lighting: God Rays (Crepuscular Rays) & Backlighting. The sun is hidden behind the clouds or the floating landmass, blasting intense beams of light through the mist and defining the silhouette of the hidden shape. Contrast: High contrast between the dark valleys (forests/shadows) and the bright highlights (snow/sunlight). Vibe: Cinematic, majestic, and subtly surreal. Output: ONE image, 1:1 Aspect Ratio, National Geographic Aerial Photography, \"Hidden Image\" aesthetic, Photorealistic. \\x3C/instruction> 2. \\x3Csystem_role> you are an optical illusion artist and landscape photographer. \\x3C/system_role> \\x3Cillusion_topology> render a vast, photorealistic {natural_environment}. however, the shadows, highlights, and physical layout of the landscape must form the exact facial contours and silhouette of {pop_culture_icon} when viewed from a distance. - dark zones (forming the eyes/hair/shadows): deep shadows cast by {dark_nature_elements}. - light zones (forming the skin/highlights): bright areas made of {light_nature_elements}. \\x3C/illusion_topology> \\x3Cvisual_execution> the image must function flawlessly as two things at once: 1. up close: a beautiful, highly detailed photograph of a {natural_environment} during {weather_condition}. 2. zoomed out: a clear portrait of {pop_culture_icon}. ensure the blending is organic. do not use digital fade overlays. the rocks/trees themselves must form the face. \\x3C/visual_execution>",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "70.2K",
-    "likes": "9.2K",
+    "views": "93.7K",
+    "likes": "20.6K",
     "timestamp": "Verified",
     "creator": {
       "name": "AI Prompt Studio",
@@ -1105,7 +2057,7 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
@@ -1114,7 +2066,2275 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     ]
   },
   {
-    "id": "gp-full-40",
+    "id": "gp-exact-1272592464",
+    "title": "Photorealistic Luxury Coffee-Table Book Opened Across Two Pages",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064389019988017210-photorealistic-luxury-coffee-table-book-opened-across-two.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Photorealistic luxury coffee-table book opened across two pages, displaying an artistic arrangement of editorial portraits. Some pages partially turned, creating movement. Reference image male appears throughout. Modern fashion branding, premium printing texture, Vogue-style photography, elegant color grading. bright image",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2041352725",
+    "title": "Pure Seamless Background, Slightly Cool Gray Tone, Clean Space with No",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2042555707296485839-a-male-street-dance-expert-white-buzz-cut-wearing-small.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A male street dance expert, white buzz cut, wearing small gold hoop earrings and a gold rope chain. Dressed in a dark brown hoodie, a pure white crew neck shirt underneath, dark brown loose pants, and white sneakers. ENVIRONMENT: Pure seamless background, slightly cool gray tone, clean space with no distractions. STYLE: cinematic realism, studio dance film, high contrast clean lighting Timeline 0:00-0:02: Full body, 24mm, low-angle fast push-in The dancer bursts directly into motion at high speed, right foot stomping the ground while the body performs a powerful rotation, left leg sweeping wide to create large spatial displacement, upper body hits and releases in sync 0:02-0:03: Full body, 28mm, tracking side move He performs continuous large cross steps and sliding combinations, feet rapidly crossing while driving lateral movement, the jacket swings with strong inertia from the motion 0:03-0:05: Full body, 28mm, orbit He transitions into continuous rotating footwork, rapidly switching pivot points with both feet to achieve multiple directional changes, forming an arcing trajectory in space 0:05-0:06: Low angle, 24mm, forward pressure He suddenly drops low, one hand touching the ground for support, quickly transitioning into floor movement 0:06-0:07: Low near-ground angle, 24mm, tracking Both legs sweep rapidly to complete a full power sweep rotation, the body forming a high-speed circular motion around the supporting arm, then using the momentum to spring back up 0:07-0:08: Full body, 28mm, tilt up He explosively rises from the ground, landing on both feet and immediately executing a full-body wave, while continuing to move forward 0:08-0:10: Half body to full body, 35mm, forward tracking He enters a high-speed pop locking sequence, upper body locking precisely on beats while the footwork continues to move and shift directions, increasing motion density 0:10-0:12: Full body, 28mm, pull back to open space He transitions into larger groove and jumping step combinations, steps becoming wider while still precisely on beat, body remains fully extended 0:12-0:14: Low angle, 24mm, fast push-in He suddenly accelerates, stomps the ground with his right foot to launch upward, performing a fast aerial rotation while fully extending his limbs 0:14-0:15: Full body fully in frame, 35mm, slight push-in lock He enters a one-hand support freeze mid-air while maintaining motion inertia, body fully extended horizontally, legs stretched into clean lines, the entire figure fully visible in the frame",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4210801611",
+    "title": "A Male Footballer with a Face Similar to the Reference Photo Wearing t",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065658131733233759-a-male-footballer-with-a-face-similar-to-the-reference-ph.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A male footballer with a face similar to the reference photo wearing the Argentina national team's white-and-blue striped jersey, number 10, captain with a black armband. He's in a dramatic celebration pose\u2014arms wide open, head tilted back, a triumphant expression. The perspective is low, with his body from the waist up filling the frame. Visual style: photorealistic + digital art, dust/smoke particle effects exploding from the body (dispersion), smooth grunge and watercolor textures, high contrast, soft rim light on the edges of the body, very sharp skin and beard details, realistic jersey fabric, light depth of field. Background: pure white with giant light blue typography behind the subject, vertically repeating text (example: \"DHINOV\" or other text), slight blur and multiply/overlay blending to blend with the smoke. Color palette: light blue, white, gray; cool tones. Cinematic lighting, light backlighting, light fog, small flying particles. Composition: 9:16 orientation, subject centered, ample negative space overhead, bottom edges fading into smoke. Very high quality, ultra-detailed, HDR, clean edges.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "93.7K",
+    "likes": "20.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3791727407",
+    "title": "A Young Woman Stands Centered in a Traditional Indian Lehenga of Vibra",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-10b9e6af-8af5-4d06-be16-eb05ee951daa-a-young-woman-stands-centered-in-a-traditional-indian-leh.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A young woman stands centered in a traditional Indian lehenga of vibrant orange and gold, her attire featuring intricate brocade patterns that catch soft, ambient light. She is positioned against an elaborate floral backdrop composed of hanging garlands in cream, yellow, and deep orange, punctuated by large, circular marigold arrangements that provide a symmetrical, textured geometry. The lighting is diffused and even, typical of a well-lit event space, highlighting the delicate subsurface scattering on the flower petals and the metallic sheen of her jewelry. The composition is balanced and frontal, emphasizing the rich, warm color palette and the dense, vertical layering of the floral decor, creating a festive, celebratory atmosphere with a shallow depth of field that gently softens the background foliage. * **Style:** High-resolution event photography, editorial portrait * **Key elements:** Indian woman, lehenga, marigold garlands, floral backdrop, traditional jewelry * **Lighting:** Diffused, even soft-box illumination, warm color temperature * **Camera:** Full-body shot, 50mm lens, eye-level perspective",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3942512671",
+    "title": "A Hyper-Realistic 3D Travel Guide Infographic Poster for COUNTRY",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2043047413770809708-a-hyper-realistic-3d-travel-guide-infographic-poster-for.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic 3D travel guide infographic poster for [COUNTRY]. The country shape is rendered as a raised, textured terrain map floating on a clean light gray surface. Iconic landmarks are placed as miniature 3D sculpted models at their correct geographic locations across the map \u2014 each one highly detailed and photorealistic. Roads or railway lines connect key cities as white paths across the terrain. Around the map, floating 3D decorative props related to travel are scattered: a vintage leather suitcase with travel stickers, a compass rose, crystal heart charms, and a postage stamp seal reading \u201cTravel to COUNTRY.\u201d The national flag of [COUNTRY] is shown as a small realistic folded flag in the upper right corner. Each major city has a bold black label on the map, and beside the map, each city has a neat checklist of its top attractions in clean sans-serif typography. A large bold title at the top reads: \u201cTRAVEL GUIDE TO \u201cCOUNTRY\u201d\u201d in black uppercase typography with the word [COUNTRY] in heavy bold. The overall aesthetic is premium editorial travel content \u2014 soft studio lighting, photorealistic 3D render, white/light gray background, clean layout.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2540061069",
+    "title": "Brand Logo Cloud Sky Visual",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032908105994961090-brand-name-the-name-of-the-brand.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME]: The name of the brand. Goal: Generate a single, minimalist, and surreal image where a cloud is shaped like the brand's logo. 1. THE LOGO CLOUD - **Subject**: A massive, photorealistic cumulus cloud in the exact geometric shape of the [BRAND NAME] logo. - **Texture**: Puffy, soft, and voluminous with natural sunlight illuminating the edges. - **Volume**: 3D sculptural appearance with realistic shadows within the cloud folds to show depth. 2. ENVIRONMENT & BACKGROUND - **Sky**: A vast, clear, vibrant blue summer sky. - **Secondary Elements**: A few small, wispy, natural clouds scattered far in the background to enhance the sense of scale and realism. - **Lighting**: Bright, direct daylight coming from the side to create high-contrast highlights and shadows. 3. INTEGRATED BRANDING - **Text**: The word \"[BRAND NAME]\" written in a clean, bold white sans-serif font. - **Icon**: A small, flat white version of the brand's logo placed next to the text. - **Positioning**: The branding (text + logo) is centered at the bottom of the frame, acting as a subtle anchor to the giant cloud above. 4. STYLE - Surrealist photography, ultra-minimalist composition, high resolution, 8k, cinematic look, clean and airy vibe.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "67.8K",
+    "likes": "9.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-436549896",
+    "title": "The FIFA World Cup Trophy Sits Centered on a Matte Black Cylindrical P",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-056d9d70-cd90-445f-9b53-b85ea874be7b-the-fifa-world-cup-trophy-sits-centered-on-a-matte-black.webp",
+    "aspectRatio": "16:9",
+    "prompt": "The FIFA World Cup trophy sits centered on a matte black cylindrical pedestal, its polished gold surface reflecting overhead stadium lights with sharp specular highlights. Swirling blue fabric ribbons printed with various national flags weave dynamically through the foreground and frame the trophy, creating a sense of motion and depth. The mid-ground features a blurred, dark stadium interior with glowing red-accented draw bowls, while the foreground showcases a realistic, textured patch of green artificial turf. The composition is strictly symmetrical, utilizing a clean, professional aesthetic that emphasizes the metallic luster of the gold against the dark, moody background, with a soft atmospheric vignette drawing the viewer's eye toward the central golden icon. * **Style:** High-end commercial 3D render, photorealistic * **Key elements:** FIFA World Cup trophy, national flag ribbons, black pedestal, artificial turf, stadium background * **Lighting:** Studio spotlighting, top-down illumination, high-contrast, warm gold and cool blue tones * **Camera:** Medium shot, 50mm lens, eye-level, symmetrical composition",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1074937223",
+    "title": "A 3x3 Grid Collage Containing Nine Separate Photos of a Single Young A",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064674801159967138-a-3x3-grid-collage-containing-nine-separate-photos-of-a-s.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A 3x3 grid collage containing nine separate photos of a single young Asian woman From the uploaded image with a light skin tone, styled for a lifestyle and social media content creator aesthetic. She is wearing a red fitted croptop, white Denim short, white sneakers and large white over-ear headphones and eyeglasses. The entire background of every photo is a solid, vibrant, clear bright blue sky on a sunny day. Around her in each grid frame are playful, hand-drawn digital doodles in bright pastel colors, including pink hearts, yellow flowers, white clouds, paper airplanes, and dynamic motion lines. The collage captures nine different energetic and fun poses from low-angle perspectives: Top Row: Left photo shows her dynamically kicking her leg out sideways while wearing blue clogs; middle photo shows her standing with one hand raised in a peace sign; right photo features a giant, close-up view of the bottom of her clog sole with a hand-drawn smiley face doodled onto it. Middle Row: Left photo is a close-up where she leans forward and holds out her white headphones toward the camera; middle photo shows her standing confidently with hands on her hips; right photo shows her playfully leaning to the side with arms outstretched like a plane. Bottom Row: Left photo captures her in a joyful jumping pose with arms out; middle photo shows her mid-air in a floating star-jump pose; right photo is a seated close-up looking down at the camera while making a peace sign close to the lens. The overall style is a crisp, bright, hyper-realistic, fashion-forward digital photograph with vibrant color saturation and clean, sharp lighting.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "74.6K",
+    "likes": "16.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2578784799",
+    "title": "Recognize a team accomplishment",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Recognize a team accomplishment: Make people feel genuinely seen with specific, meaningful praise",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1664720252",
+    "title": "A Hyperrealistic 8k Black and White Cinematic Mid Shot Portrait of a B",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d5c3935c-fb4c-40c7-b5cc-a7362e9637cc-a-hyperrealistic-8k-black-and-white-cinematic-mid-shot-po.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyperrealistic 8k black and white cinematic mid shot portrait of a beautiful woman with natural freckles and soft full lips. She is framed from the waist up, standing slightly angled to the camera with one shoulder forward, her head turned back toward the lens in a calm yet evoxative pose. One arm rest slightly against her body while the other drapes loosely, creating a sense of natural elegance. soft beams of sunlight steam through blinds, diffused and hazy, falling across her skin and outfit in blurred patterns of light and shadow. the ray spread like underwater reflection, but glow with a dreamlike softness, sculpting her features gently instead of sharply. Her skin is captured in lifelike texture -- visible pores, delicate freckles, and subtle imperfection -- with the interplay of light emphasizing the natural contours of her face and collarbones. The lips are highlighted with a gentle sheen, adding depth and realism. The background dissolves into deep black with faint gradients and haze that catch fragments of the light beams. Fine cinematic film grain overlays the portrait, enhancing the analog atmosphere. The overall mood is editorial, mysterious, and intimate -- a timeless monochrome fashion image where diffused sunlight and shadow create a poetic tension",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "75.7K",
+    "likes": "17.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3320244285",
+    "title": "Technical Infographic of VEHICLE with a 45-degree Isometric 3D Perspec",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2048733383140712808-create-a-technical-infographic-of-vehicle-with-a-45-deg.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a technical infographic of [VEHICLE] with a 45-degree isometric 3D perspective showing the device slightly tilted to reveal depth and dimension. Combine a realistic photoreal render with black ink technical annotations on pure white background. Include: Key component labels with color-coded callout boxes Internal component visibility through transparent/cutaway sections Measurements, dimensions, and precise scale markers Material callouts and quantities Color-coded arrows for function/flow: RED (power/battery), BLUE (data/connectivity), ORANGE (thermal/processor), GREEN (sensors/haptics) Simple schematics or cross-sectional diagrams where relevant Place \u201cVEHICLE\u201d title in a hand-drawn technical box (top-left corner). Style: Black linework (technical pen/architectural), sketched but precise. Object remains clearly visible. Educational museum-exhibit vibe. Clean composition, balanced negative space. Perspective: Isometric 3D angle\u2014tilted to show depth, dimension, and internal architecture dramatically. Like a professional product teardown or engineering manual. Colors: ~10-15% accent density. Black dominant. White background. Output: 1080\u00d71080, ultra-crisp, social-feed optimized",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4077942261",
+    "title": "Ultra-Realistic Fashion Editorial Portrait of a Confident Woman in Ava",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2050538173491806627-ultra-realistic-fashion-editorial-portrait-of-a-confident.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic fashion editorial portrait of a confident woman in avant-garde white couture with dramatic structured shoulders, hands reaching toward camera (perspective distortion), intense gaze, long wind-blown messy hair, studio soft lighting, grey textured background, high contrast, Vogue-style. Add overlays: face detection box centered on face, thin white frame with corner handles, subtle grid, UI markers, cursor, tracking points, experimental tech overlay, magazine layout with bold text \u201cAVANT MODE\u201d, barcode. Ultra-sharp, cinematic lighting, 8K, professional fashion photography, --ar 3:4 --v 6 --style raw",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "84.7K",
+    "likes": "11.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3101676003",
+    "title": "Aesthetic 1970s-inspired Fashion Portrait of a Stylish Young Woman Sit",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2008537400083939763-aesthetic-1970s-inspired-fashion-portrait-of-a-stylish-yo.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Aesthetic 1970s-inspired fashion portrait of a stylish young woman sitting on outdoor cafe steps, holding a premium ornate green coffee cup with gold rim detailing, gazing softly at the camera. Her hair is styled in soft loose strands framing her face with vintage makeup, matte red lips, and subtle eyeliner. She is wearing a cozy forest green premium knit sweater paired with a long flowing black tutu skirt. A warm vintage plaid scarf in earthy brown, burnt orange, and muted red tones is wrapped loosely around her neck. A premium dark green leather crossbody bag with a gold filigree clasp and chain strap is placed beside her. Autumn street caf\u00e9 setting with scattered fallen leaves and warm amber caf\u00e9 lights glowing behind glass windows. 1970s film tone, warm grainy texture, muted earthy color palette, cinematic atmosphere, shallow depth of field, soft natural lighting, analog film look, fashion editorial photography, ultra-realistic, high detail, 85mm lens, f/1.8, vintage aesthetic, dreamy mood.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "69.1K",
+    "likes": "11.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3410281660",
+    "title": "Ultra-Luxury Fashion Advertising Poster, Vertical 9:16 Composition",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-30f9ef30-bd84-4852-ac26-cf77a496ccdc-ultra-luxury-fashion-advertising-poster-vertical-9-16-co.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Ultra-luxury fashion advertising poster, vertical 9:16 composition, premium baby blue designer handbag centered perfectly in the frame, hero product photography, monochromatic pastel blue color palette, smooth gradient studio background, massive semi-transparent HUSH typography integrated behind the handbag, oversized matte white letters spanning almost the entire background, clean visual hierarchy, minimal luxury branding aesthetic, soft cinematic studio lighting, premium leather texture, detailed stitching, polished metallic hardware, subtle glossy reflections, reflective floor surface with soft mirror reflection beneath the bag, symmetrical composition, high-end fashion campaign, luxury magazine advertisement, ultra-clean art direction, premium commercial photography, sophisticated minimalism, modern designer brand aesthetic, award-winning advertising design, shallow depth of field, elegant negative space, hyperrealistic materials, flawless product rendering, ultra detailed, 8K masterpiece.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "68.0K",
+    "likes": "10.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3445470483",
+    "title": "\u4e3b\u9898\u4e0e\u4e3b\u4f53 \u9ad8\u7ea7\u5546\u4e1a\u5e7f\u544a\u6444\u5f71\uff0c\u4e00\u9897\u7cbe\u81f4\u7684Choco Pie\u60ac\u6d6e\u4e8e\u753b\u9762\u4e2d\u592e\uff0c\u5448\u73b0\u51fa\u5fae\u5999\u7684\u52a8\u6001\u503e",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-dfe3951a-62ed-437e-82f5-377110b7a304.webp",
+    "aspectRatio": "16:9",
+    "prompt": "\u4e3b\u9898\u4e0e\u4e3b\u4f53 \u9ad8\u7ea7\u5546\u4e1a\u5e7f\u544a\u6444\u5f71\uff0c\u4e00\u9897\u7cbe\u81f4\u7684Choco Pie\u60ac\u6d6e\u4e8e\u753b\u9762\u4e2d\u592e\uff0c\u5448\u73b0\u51fa\u5fae\u5999\u7684\u52a8\u6001\u503e\u659c\u89d2\u5ea6\u3002\u5fae\u8ddd\u6444\u5f71\u89c6\u89d2\u6355\u6349\u5176\u677e\u8f6f\u7684\u6d77\u7ef5\u86cb\u7cd5\u8d28\u5730\u3001\u539a\u5b9e\u4e14\u5177\u6709\u5149\u6cfd\u7684\u5de7\u514b\u529b\u6d82\u5c42\uff0c\u4ee5\u53ca\u4e2d\u95f4\u5145\u6ee1\u97e7\u6027\u4e0e\u7a7a\u6c14\u611f\u7684\u68c9\u82b1\u7cd6\u5939\u5c42\u3002\u5468\u56f4\u73af\u7ed5\u7740\u9ad8\u5206\u8fa8\u7387\u3001\u52a8\u6001\u98de\u6e85\u7684\u5de7\u514b\u529b\u788e\u7247\u3001\u7ec6\u817b\u7684\u53ef\u53ef\u7c89\u5c18\u3001\u5706\u6da6\u7684\u65b0\u9c9c\u725b\u5976\u6ef4\u4ee5\u53ca\u8f7b\u76c8\u7684\u68c9\u82b1\u7cd6\u8d28\u611f\u9897\u7c92\uff0c\u8425\u9020\u51fa\u4e00\u79cd\u5145\u6ee1\u6d3b\u529b\u3001\u5931\u91cd\u611f\u7684\u5962\u534e\u89c6\u89c9\u6548\u679c\u3002 \u6392\u7248\u4e0e\u89c6\u89c9\u8bbe\u8ba1 \u91c7\u7528\u745e\u58eb\u56fd\u9645\u4e3b\u4e49\u8bbe\u8ba1\u98ce\u683c\uff0c\u6784\u56fe\u4e25\u8c28\u4e14\u5177\u6709\u5f3a\u70c8\u7684\u89c6\u89c9\u5c42\u7ea7\u3002\u9876\u90e8\u6b63\u4e2d\u4f4d\u7f6e\u91c7\u7528\u73b0\u4ee3\u65e0\u886c\u7ebf\u7c97\u4f53\u5b57\u5448\u73b0 Have a Break. Have a Choco Pie.\uff0c\u5b57\u4f53\u6392\u7248\u6e05\u6670\u3001\u6781\u5177\u51b2\u51fb\u529b\u3002\u5e95\u90e8\u533a\u57df\u901a\u8fc7\u7f51\u683c\u7cfb\u7edf\u6574\u9f50\u5e03\u5c40\u539f\u6599\u6807\u6ce8\u3001\u529f\u80fd\u6027\u56fe\u6807\u53ca\u4fc3\u9500\u5fbd\u7ae0\u3002\u6574\u4f53\u8bbe\u8ba1\u9075\u5faa\u6781\u7b80\u4e3b\u4e49\u7f8e\u5b66\uff0c\u7559\u767d\u8003\u7a76\uff0c\u786e\u4fdd\u5546\u4e1a\u4fe1\u606f\u4e0e\u89c6\u89c9\u91cd\u5fc3\u5b8c\u7f8e\u5e73\u8861\u3002 \u706f\u5149\u4e0e\u6c1b\u56f4 \u91c7\u7528\u7535\u5f71\u7ea7\u5de5\u4f5c\u5ba4\u5e03\u5149\uff0c\u4e3b\u5149\u4e3a\u67d4\u548c\u7684\u4fa7\u5411\u8f6e\u5ed3\u5149\uff0c\u7cbe\u51c6\u52fe\u52d2\u51fa\u4ea7\u54c1\u7684\u8fb9\u7f18\u5f27\u5ea6\uff0c\u7a81\u51fa\u5de7\u514b\u529b\u6d82\u5c42\u7684\u7ef8\u7f0e\u5149\u6cfd\u3002\u80cc\u666f\u91c7\u7528\u6df1\u9083\u7684\u51b7\u8272\u8c03\u6e10\u53d8\uff0c\u901a\u8fc7\u666f\u6df1\u63a7\u5236\u4ea7\u751f\u5f3a\u70c8\u7684\u7a7a\u95f4\u6df1\u5ea6\u611f\u3002\u5149\u7ebf\u7a7f\u900f\u60ac\u6d6e\u7684\u725b\u5976\u6ef4\u4e0e\u5de7\u514b\u529b\u788e\u7247\uff0c\u4ea7\u751f\u901a\u900f\u7684\u53cd\u5c04\u4e0e\u6298\u5c04\u6548\u679c\uff0c\u8425\u9020\u51fa\u9ad8\u7aef\u3001\u8bf1\u4eba\u4e14\u5145\u6ee1\u7a7a\u6c14\u611f\u7684\u5546\u4e1a\u6c1b\u56f4\u3002 \u6750\u8d28\u4e0e\u7ec6\u8282 \u6781\u81f4\u7684\u8d85\u5199\u5b9e\u7eb9\u7406\u8868\u73b0\uff0c\u5448\u73b0\u51fa\u9876\u7ea7\u5546\u4e1a\u6444\u5f71\u7684\u8d28\u611f\u3002\u5de7\u514b\u529b\u6d82\u5c42\u5c55\u73b0\u51fa\u4e1d\u6ed1\u7684\u54d1\u5149\u4e0e\u4eae\u5149\u5bf9\u6bd4\uff0c\u68c9\u82b1\u7cd6\u5939\u5c42\u8868\u73b0\u51fa\u8bf1\u4eba\u7684\u5f39\u6027\u4e0e\u67d4\u8f6f\u7eb9\u7406\u3002\u6240\u6709\u7ec6\u8282\u7ecf\u8fc7\u7cbe\u5bc6\u6e32\u67d3\uff0c\u8272\u5f69\u9971\u548c\u5ea6\u63a7\u5236\u5728\u9ad8\u7ea7\u7070\u5ea6\u8303\u56f4\u5185\uff0c\u5448\u73b0\u51fa\u81ea\u7136\u4e14\u7ec6\u817b\u7684\u89c6\u89c9\u5c42\u6b21\u3002 \u9650\u5236\u6761\u4ef6 \u753b\u9762\u4e2d\u6240\u6709\u6587\u5b57\u5fc5\u987b\u6e05\u6670\u9510\u5229\uff0c\u4e25\u7981\u4efb\u4f55\u6a21\u7cca\u3001\u62c9\u4f38\u6216\u53d8\u5f62\u3002\u7981\u6b62\u51fa\u73b0\u4f4e\u52a3\u7684\u9634\u5f71\u906e\u6321\u3001\u5851\u6599\u8d28\u611f\u7684\u8868\u9762\u5904\u7406\u6216\u8fc7\u5ea6\u9971\u548c\u7684\u9713\u8679\u8272\u5f69\u3002\u4ea7\u54c1\u7ed3\u6784\u5fc5\u987b\u4fdd\u6301\u5b8c\u7f8e\uff0c\u65e0\u4efb\u4f55\u53d8\u5f62\u6216\u4e0d\u81ea\u7136\u626d\u66f2\u3002\u65e0\u6c34\u5370\uff0c\u65e0\u6742\u4e71\u80cc\u666f\uff0c\u786e\u4fdd\u753b\u9762\u7eaf\u51c0\u4e14\u5177\u6709\u6781\u9ad8\u7684\u5546\u4e1a\u5ba1\u7f8e\u6c34\u5e73\u3002",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2810575749",
+    "title": "You Are a World Class Creative Director, Brand Strategist",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2033954262372237406-you-are-a-world-class-creative-director-brand-strategist.webp",
+    "aspectRatio": "16:9",
+    "prompt": "You are a world class creative director, brand strategist, editorial art director, and visual identity designer specializing in high impact campaign systems for global brands. Your task is to create a bold, visually explosive, highly curated editorial moodboard collage composition that feels like a modern brand identity system. This should feel like a brand world captured in one frame, not a clean layout, slightly chaotic, layered, and expressive. BRAND INPUTS: BRAND NAME: GLOSSIER INDUSTRY / PRODUCT TYPE: beauty / skincare PRIMARY BRAND COLOR: soft pink SECONDARY BRAND COLOR: white ACCENT COLOR (optional): translucent gloss BRAND PERSONALITY: fresh, minimal, youthful, clean OPTIONAL SLOGAN / TEXT: SKIN FIRST VISUAL STYLE: Create a dense, layered moodboard-style composition combining: \u2022 real product photography or lifestyle shots \u2022 packaging elements (bags, boxes, labels, tags) \u2022 typography snippets and brand phrases \u2022 illustrated graphics and doodles \u2022 icons, symbols, and stickers \u2022 abstract graphic shapes and patterns \u2022 UI-like elements (menus, cards, labels) \u2022 editorial cutouts and overlapping assets The composition should feel: \u2022 slightly messy but intentionally designed \u2022 layered with depth and overlaps \u2022 like a Pinterest board meets high-end campaign \u2022 expressive, youthful, and brand-heavy \u2022 visually rich and scroll-stopping ART DIRECTION: Include a mix of elements such as: \u2022 product packaging mockups (bags, boxes, labels, stickers) \u2022 lifestyle shot (person interacting with product or brand) \u2022 bold typography blocks with brand phrases \u2022 illustrated objects interacting with real elements \u2022 menu-style or UI-style panels \u2022 abstract shapes, blobs, squiggles, starbursts \u2022 brand-related icons or symbols \u2022 badge / stamp graphics \u2022 textile or merch items (t-shirt, cap, tote bag, etc.) \u2022 playful graphic overlays COMPOSITION RULES: \u2022 asymmetrical layout (NOT grid-based) \u2022 elements scattered but balanced \u2022 overlapping layers with depth \u2022 mix of large hero elements + small details \u2022 combine clean areas with dense clusters \u2022 include cutout-style compositions \u2022 avoid too much empty space COLOR & DESIGN LANGUAGE: \u2022 strictly follow brand color palette \u2022 strong use of PRIMARY COLOR across elements \u2022 secondary color used for contrast and layering \u2022 minimal additional colors (keep it brand-consistent) \u2022 high contrast, bold visual identity TYPOGRAPHY: \u2022 modern editorial typography \u2022 mix of serif / sans-serif if relevant \u2022 bold headlines + small UI text \u2022 include brand name and/or slogan naturally in layout \u2022 typography should feel integrated, not separate VISUAL CHARACTERISTICS: \u2022 premium campaign look \u2022 modern brand identity system \u2022 editorial + commercial hybrid aesthetic \u2022 highly shareable social media visual \u2022 playful but intentional chaos \u2022 cohesive even in randomness IMPORTANT: This should feel like: \u2022 a brand world explosion in one frame \u2022 a creative direction board for a global campaign \u2022 a visual identity snapshot of the brand NOT a clean layout NOT a grid NOT minimal It must feel alive, layered, and expressive.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-488743933",
+    "title": "You Are a World Class Creative Director, Brand Strategist",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2034302036695547963-you-are-a-world-class-creative-director-brand-strategist.webp",
+    "aspectRatio": "16:9",
+    "prompt": "You are a world class creative director, brand strategist, editorial art director, and visual identity designer specializing in high impact campaign systems for global brands. Your task is to create a bold, visually explosive, highly curated editorial moodboard collage composition that feels like a modern brand identity system. This should feel like a brand world captured in one frame, not a clean layout, slightly chaotic, layered, and expressive. BRAND INPUTS: BRAND NAME: GLOSSIER INDUSTRY / PRODUCT TYPE: beauty / skincare PRIMARY BRAND COLOR: soft pink SECONDARY BRAND COLOR: white ACCENT COLOR (optional): translucent gloss BRAND PERSONALITY: fresh, minimal, youthful, clean OPTIONAL SLOGAN / TEXT: SKIN FIRST VISUAL STYLE: Create a dense, layered moodboard-style composition combining: \u2022 real product photography or lifestyle shots \u2022 packaging elements (bags, boxes, labels, tags) \u2022 typography snippets and brand phrases \u2022 illustrated graphics and doodles \u2022 icons, symbols, and stickers \u2022 abstract graphic shapes and patterns \u2022 UI-like elements (menus, cards, labels) \u2022 editorial cutouts and overlapping assets The composition should feel: \u2022 slightly messy but intentionally designed \u2022 layered with depth and overlaps \u2022 like a Pinterest board meets high-end campaign \u2022 expressive, youthful, and brand-heavy \u2022 visually rich and scroll-stopping ART DIRECTION: Include a mix of elements such as: \u2022 product packaging mockups (bags, boxes, labels, stickers) \u2022 lifestyle shot (person interacting with product or brand) \u2022 bold typography blocks with brand phrases \u2022 illustrated objects interacting with real elements \u2022 menu-style or UI-style panels \u2022 abstract shapes, blobs, squiggles, starbursts \u2022 brand-related icons or symbols \u2022 badge / stamp graphics \u2022 textile or merch items (t-shirt, cap, tote bag, etc.) \u2022 playful graphic overlays COMPOSITION RULES: \u2022 asymmetrical layout (NOT grid-based) \u2022 elements scattered but balanced \u2022 overlapping layers with depth \u2022 mix of large hero elements + small details \u2022 combine clean areas with dense clusters \u2022 include cutout-style compositions \u2022 avoid too much empty space COLOR & DESIGN LANGUAGE: \u2022 strictly follow brand color palette \u2022 strong use of PRIMARY COLOR across elements \u2022 secondary color used for contrast and layering \u2022 minimal additional colors (keep it brand-consistent) \u2022 high contrast, bold visual identity TYPOGRAPHY: \u2022 modern editorial typography \u2022 mix of serif / sans-serif if relevant \u2022 bold headlines + small UI text \u2022 include brand name and/or slogan naturally in layout \u2022 typography should feel integrated, not separate VISUAL CHARACTERISTICS: \u2022 premium campaign look \u2022 modern brand identity system \u2022 editorial + commercial hybrid aesthetic \u2022 highly shareable social media visual \u2022 playful but intentional chaos \u2022 cohesive even in randomness IMPORTANT: This should feel like: \u2022 a brand world explosion in one frame \u2022 a creative direction board for a global campaign \u2022 a visual identity snapshot of the brand NOT a clean layout NOT a grid NOT minimal It must feel alive, layered, and expressive.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2561761475",
+    "title": "Generate headline A/B variants",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Generate headline A/B variants: Five challenger headlines testing distinct conversion hypotheses",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "56.6K",
+    "likes": "13.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2720846838",
+    "title": "A Dreamy Anime Fashion Illustration Highlighting a Highly Creative, Su",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-2751cc92-0264-494a-a765-882351b880c7-a-dreamy-anime-fashion-illustration-highlighting-a-highly.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A dreamy anime fashion illustration highlighting a highly creative, surreal dress. The anime model maintains a quiet, elegant high-fashion pose, gracefully seated on a sleek, minimalist white marble bench. The garment features a completely modest, sophisticated high-neck corset crafted from intricately woven spun-glass fibers that fully covers her torso, capturing and refracting pastel rainbow light like a prism. The attached skirt is an architectural marvel made of condensed, semi-translucent cloud-matter that floats weightlessly around her legs, layered with sheer, iridescent tulle that mimics delicate insect wings. The setting is a simple, clean, and elegant space with a smooth, polished reflective floor beneath the marble bench, opening up to a soft-focus, minimalist background of gentle pastel mist. The lighting is soft-focus and ethereal, perfectly emphasizing the sheer, delicate textures of the fabrics and the glossy sheen of the glass fibers. Masterpiece, flawless anime art style, perfect hand anatomy, crisp and clean facial features.Negative Prompt:exposed chest, revealing clothes, low cut cleavage, complex background, cluttered scenery, chaotic room interior, busy city streets, heavy dark shadows, thick solid fabrics, leather, metal armor, coarse textures, low resolution, 3d render, watermark, extra fingers, mutated hands, poorly drawn hands, distorted fingers, distorted face, bad anatomy, low quality.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "90.4K",
+    "likes": "17.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4165731294",
+    "title": "Wide Panoramic Black-And-White Luxury Fashion Editorial Collage Inspir",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-c59a02f9-206d-4996-9922-998e93720e8b-create-a-wide-panoramic-black-and-white-luxury-fashion-ed.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a wide panoramic black-and-white luxury fashion editorial collage inspired by vintage aviation, runway glamour, and high-end magazine art direction. The image should look like a premium fashion magazine spread or campaign moodboard composed of multiple cinematic photo panels arranged in an asymmetrical grid.Use a monochrome black-and-white palette only, with deep blacks, soft whites, elegant grayscale tones, subtle film grain, high contrast, and a glossy editorial print finish. The overall atmosphere should feel cinematic, nostalgic, refined, mysterious, and aviation-inspired.Composition: create a wide horizontal panoramic layout with one large dominant portrait panel on the left and several smaller rectangular editorial panels on the right. The left panel should occupy nearly half of the composition, while the right side should be divided into multiple cinematic aviation-fashion scenes. Keep the grid clean, balanced, and magazine-like, with sharp panel edges and sophisticated spacing.Main left panel: show a close-up portrait of an adult female fashion model wearing vintage aviator goggles on her head, a dark oversized leather aviator jacket with a high collar, and loose long dark hair flowing around her face. She has calm confident expression, soft lips, strong cheekbones, natural skin texture, and a distant gaze looking slightly away from the camera. The background should be bright, minimal, and softly overexposed, with faint blurred aircraft or hangar shapes. Overlay large elegant white serif typography reading \u201cNo. 8 Magazine\u201d across the center-left portrait area, using refined fashion-magazine typography.Top center panel: show a full-body female model standing dramatically on an airport runway near vintage aircraft. She wears a long dark couture coat or gown with an aviation-inspired silhouette. Place a large parachute or inflated aviation object beside her, with propeller aircraft visible in the background. Use dramatic cloudy sky, strong runway perspective, and cinematic scale.Top right panel: show a close-up black-and-white portrait of a male model styled like a vintage pilot. He wears aviation headgear or a pilot cap and a thick white scarf wrapped around his neck. His expression is intense, serious, and editorial. Use shallow depth of field and strong facial contrast.Bottom center panel: show a female model in dark aviator-inspired fashion near an aircraft, wearing goggles or pilot styling. Use strong backlight, sun flare, aircraft fuselage shapes, and deep cinematic shadows. Her expression should be intense, mysterious, and high-fashion.Bottom right panel: show two adult female fashion models walking beside or beneath a large aircraft wing on a runway. They wear dramatic dark couture outfits, long skirts or flowing garments, structured jackets, and elegant boots or heels. The aircraft should dominate the background, with the fuselage and wing creating strong diagonal lines. The models should appear confident, elegant, and editorial, as if walking through a fashion campaign set.Additional visual details: include aircraft tails, propeller planes, runway textures, airport hangar elements, cloudy sky, parachute cords, leather jackets, scarves, goggles, long coats, glossy boots, flowing garments, and subtle reflections. Keep everything cohesive under a luxury aviation-fashion theme.Photography style: ultra-realistic high-fashion editorial photography, vintage aviation campaign, cinematic black-and-white grading, professional magazine layout, fashion archive moodboard, dramatic lighting, sharp focus where needed, shallow depth of field in portrait panels, realistic fabric texture, realistic leather texture, natural skin detail, refined film grain, premium art direction.Typography style: elegant serif magazine masthead, large white letters, minimal editorial text, clean luxury layout, no clutter. Typography should feel like an independent fashion magazine cover, refined and timeless.Negative prompt: color, oversaturated tones, cartoon, anime, CGI look, plastic skin, distorted faces, extra limbs, bad hands, low-resolution texture, random text clutter, cheap poster design, modern commercial airport clutter, unrealistic aircraft scale, messy collage alignment, watermarks, logos, harsh digital sharpening, overexposed faces, duplicated models, amateur fashion styling, busy typography, uneven panel spacing.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "78.1K",
+    "likes": "20.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2635761686",
+    "title": "A Stylized Chibi-Proportioned Caricature of Neymar Jr",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-faff914b-d8f4-4871-9614-06233d9d06c4-a-stylized-chibi-proportioned-caricature-of-neymar-jr-st.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A stylized chibi-proportioned caricature of Neymar Jr. stands in a confident, celebratory pose, wearing the vibrant yellow and blue Brazil national team kit. The composition utilizes a dynamic, illustrative aesthetic, featuring bold black ink-wash outlines and saturated primary colors typical of street-art graffiti. Behind the central figure, a chaotic collage of elements\u2014including the Brazilian flag, a stylized yellow crown, a soccer ball, and abstract geometric doodles\u2014creates a high-energy background. High-contrast vector art aesthetics define the piece, utilizing flat, vibrant color fills punctuated by sharp, energetic graffiti-style typography reading \"NEYMAR\" and \"VIVA BRAZIL.\" The lighting is flat and graphic, emphasizing sharp contours and high-contrast color blocks, while the overall spatial arrangement is tightly packed, pushing the subject into the foreground against a clean, white negative space that highlights the explosive, energetic graphic design elements.* Style: Vector-style chibi illustration, graffiti-inspired pop art* Key elements: Neymar caricature, Brazilian flag, soccer ball, crown icon, brush-stroke typography* Lighting: Flat, high-key studio lighting with bold ink-line shading* Camera: Full-body portrait, wide-angle perspective, eye-level",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "74.6K",
+    "likes": "16.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2372510330",
+    "title": "Dark, High\u2011contrast Poster with a Moody, Underground Club Aesthetic",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-d1dbe0ff-b651-4b66-a61a-a88864582c7b-create-a-dark-high-contrast-poster-with-a-moody-undergr.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a dark, high\u2011contrast poster with a moody, underground club aesthetic. The composition features a monochrome portrait of Elone Musk from the chest up, shot from a slightly low angle for attitude and power. She wears large over\u2011ear headphones and reflective round sunglasses with warm amber\u2011gold lenses that stand out vividly against the black\u2011and\u2011white portrait. One hand is raised near her head, the other near his chin, creating a dynamic, expressive pose associated with music immersion. Behind his head is a large flat golden\u2011yellow circular shape, like a spotlight, creating a strong focal point and visual contrast. The background is deep black with subtle grunge textures, dust, scratches, and poster\u2011wear imperfections, giving it a raw, printed\u2011flyer feel. Use 4:5 aspect ratio.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "78.1K",
+    "likes": "20.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2380994196",
+    "title": "Draft a service outage apology",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Draft a service outage apology: Rebuild trust after an incident with transparency and prevention steps",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "62.3K",
+    "likes": "19.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3774323857",
+    "title": "Elemental 3D Brand Logo",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2021588846849282513-brand-name-act-as-a-master-of-material-science-and-wor.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME]. Act as a Master of Material Science and World-Class 3D Visualizer. PHASE 1: DYNAMIC ELEMENTAL RECONSTRUCTION. The central subject is the iconic logo of [BRAND NAME], physically constructed from ANY raw natural element. CRITICAL: This includes, but is not limited to, botanical elements (flowers, rose petals, thorns, gnarled wood, moss, leaves) and geological/elemental materials (obsidian, crystals, flowing water, ice, volcanic rock). The logo must be medium-sized, levitating, and rotated at a dynamic 3D angle (3/4 view) to showcase its volume. PHASE 2: HYPER-TACTILE TEXTURE & REALISM. The goal is \"Sensory Realism\" \u2014 the viewer should feel they can touch the object. - If BOTANICAL: Render microscopic cellular structures on petals, dew droplets with refraction, and the velvety fuzz on stems. - If MINERAL: Render micro-pores, crystalline inclusions, and razor-sharp edges. Include subtle \"imperfections\" like dust particles or organic irregularities to break the CG look and achieve 100% photorealism. PHASE 3: COMPOSITION, LIGHTING & BRANDING. - ENVIRONMENT: A pure, clinical, solid white background for a High-Key commercial look. - TYPOGRAPHY: At the top of the frame, place a very small, minimalist [BRAND NAME] text logo in black. - LIGHTING: Precise studio setup with sharp specular highlights (glints) and a soft, realistic contact shadow on the white floor below to ground the levitating object. TECH SPECS: Extreme Macro photography, 100mm lens, f/8, Ray Tracing (Path Tracing), Subsurface Scattering for light depth, 8k resolution, Unreal Engine 5.4 / Octane Render aesthetic.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "83.6K",
+    "likes": "10.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1532353740",
+    "title": "Ancient Fallen Angel Emerging from Celestial Ruins, Massive Black Wing",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-c63da162-c2b9-495e-8df6-f5972ba2fe1b-ancient-fallen-angel-emerging-from-celestial-ruins-massi.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ancient fallen angel emerging from celestial ruins, massive black wings, crimson energy core glowing inside chest, divine halo shattered above head, white and red color palette, godlike presence, cinematic god rays, dark fantasy masterpiece, ultra detailed armor, divine corruption aesthetic, unreal engine 5, 8k",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "92.6K",
+    "likes": "19.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3997766077",
+    "title": "Resolve a billing dispute",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Resolve a billing dispute: De-escalate a billing complaint with empathy and a specific resolution",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1614549622",
+    "title": "BRAND. a Hyperrealistic Editorial Photo of a Figure Wea",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2041238850962382939-brand-a-hyperrealistic-editorial-photo-of-a-figure-wea.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND]. A hyperrealistic editorial photo of a figure wearing a unique helmet or mask that embodies the soul of BRAND turned inside out - its textures, symbols, colors and DNA reconstructed into an unexpected wearable object covering the entire face. The mask is made of BRAND's signature materials but distorted, inverted, reimagined as armor. Dramatic studio lighting, clean or atmospheric background, macro detail on every surface, Vogue editorial style, 8K",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-843926303",
+    "title": "A Cinematic Side-Profile Portrait OF CHARACTER, Wearing Round Dark Sun",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-3558be14-dfcc-4405-a21b-019befa6f5e8-a-cinematic-side-profile-portrait-of-character-wearing-r.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A cinematic side-profile portrait OF CHARACTER, wearing round dark sunglasses and a textured leather jacket. His skin is detailed and slightly weathered. The background is a futuristic sci-fi interface filled with glowing orange and red data streams, star maps, celestial navigation diagrams, grids, and holographic UI elements. Fiery particle effects and ember-like energy swirl around him, creating a cosmic, high-tech atmosphere. Dark color palette with strong contrast, dramatic lighting, ultra-detailed, sharp focus, 8K, cyberpunk aesthetic, cinematic composition, depth of field.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "50.0K",
+    "likes": "7.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2827429386",
+    "title": "Hyperrealistic Portrait of Ethereal Ice Goddess, Long Silver Wavy Hair",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-3a0b0165-fc26-467a-95a3-2afb79f7f242-hyperrealistic-portrait-of-ethereal-ice-goddess-long-sil.webp",
+    "aspectRatio": "16:9",
+    "prompt": "hyperrealistic portrait of ethereal ice goddess, long silver wavy hair with crystal hairpins, piercing blue eyes, delicate sheer white dress with silver embroidery, sitting on giant crescent moon in starry night sky, soft moonlight rim light, bokeh, intricate jewelry, fantasy art --ar 3:4",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "69.1K",
+    "likes": "11.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-805988762",
+    "title": "Luxury Fashion Advertisement Poster, Ultra-Premium Editorial Style (gu",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e9cff423-e84d-4978-9342-f7824ffb34ba-luxury-fashion-advertisement-poster-ultra-premium-editor.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Luxury fashion advertisement poster, ultra-premium editorial style (Gucci aesthetic), soft warm Monochrome gradient background with subtle shadows and depth. A confident elegant young woman posing naturally in GenZ Style beside a minimal stool, wearing A t-shirt that is given in the picture, and she is wearing a trouser that I have given you in the picture, with minimum silver jewelry, a cool goggle, cinematic soft light, realistic scene color, and high-end fashion photography. Clean modern layout with strong hierarchy and spacing:Left side: Large vertical text \u201cMYSTIQUE\" in premium serif font (Didot / Bodoni style), high letter spacing, slightly faded brown tone. Small vertical subtext: \u201cEFFORTLESS STYLE. PERFECT FIT.\u201d in thin sans-serif, minimal and elegant.Right side product card:Rounded soft card showing zoomed-in waist detail (same outfit as model)Title: \u201cPERFECT FIT\u201d in serif font Subtext: Flattering Fit, All-Day Comfort in light sans-serifSoft shadow and subtle borderBelow:Color swatches (navy, beige, taupe, black), perfectly aligned, evenly spacedSizes row (XS S M L) styled as premium pill buttons\u201cS\u201d filledothers outlinedRemove unnecessary text like heights, keep layout minimal and breathable.Overall look:High fashion magazine aestheticClean spacing, grid alignedSoft shadows, subtle gradientsUltra realistic, sharp, 4K, luxury branding feelGEN Z",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "74.6K",
+    "likes": "16.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1686138976",
+    "title": "Surreal Dreamcore Cinematic Poster with an Ethereal",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-27e95699-c432-4e4d-bbab-3c9dedeb3aed-create-a-surreal-dreamcore-cinematic-poster-with-an-ether.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a surreal dreamcore cinematic poster with an ethereal, emotional, and visually hypnotic aesthetic designed for high engagement and viral AI art appeal. The composition features a single centered young subject floating or standing in an impossible dreamlike environment where reality feels soft, distorted, and emotionally charged. The subject is captured in a gentle upward camera angle, creating a sense of wonder, transcendence, and emotional elevation.The subject has soft, highly detailed facial features with smooth glowing skin texture, delicate highlights, and an emotionally peaceful expression that reflects calmness, nostalgia, and inner reflection. The eyes are slightly glossy and reflective, as if absorbing light from the surreal environment around them. Subtle emotional depth is visible through soft gaze direction and relaxed facial muscles.The hair is light, soft, and naturally flowing as if suspended in low gravity, moving gently in invisible wind currents. Individual strands are visible and illuminated by ambient glowing particles in the environment. The clothing is minimal, flowing, and fabric-light, resembling soft silk or linen material that moves fluidly as if underwater or in zero gravity, with realistic cloth simulation folds and gentle transparency in certain light areas.The environment is a surreal floating sky dimension filled with soft volumetric clouds, glowing particles, and fragmented floating geometric shapes such as glass-like cubes, rings, and broken architectural elements suspended in mid-air. The sky transitions through gradients of pastel pink, soft violet, warm gold, and pale blue, blending seamlessly like a painted dream.A large luminous celestial light source acts as the central focal point behind the subject, similar to a glowing sun or portal, creating a halo effect and strong backlighting that silhouettes the subject beautifully. Light rays spread outward through clouds in volumetric beams, creating depth and divine atmosphere.Small glowing butterflies or abstract light particles drift slowly across the scene, adding motion and emotional softness. The environment feels weightless, peaceful, and emotionally immersive, like a memory or dream frozen in time.Lighting is extremely soft and diffused, with bloom effects, gentle highlights, and no harsh shadows. The color grading is pastel cinematic with soft contrast, emphasizing emotional warmth and surreal beauty. Subtle film grain and lens glow are added to enhance artistic realism.The final image should feel like a high-end dreamcore editorial poster, emotional album cover, or surreal cinematic artwork with strong viral potential.Use ultra-realistic 8K detail, soft depth of field, and a 4:5 vertical aspect ratio optimized for social media virality.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2299857591",
+    "title": "Premium 9:16 Sports-Fashion Editorial Advertising Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-eb218809-3463-477c-ac0f-c036e2b031db-a-premium-9-16-sports-fashion-editorial-advertising-poste.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A premium 9:16 sports-fashion editorial advertising poster.Main Subject:A determined young male model riding upward on a futuristic escalator.Camera Angle:Extreme low-angle shot from the bottom of the escalator looking upward.Pose:Standing confidently.Hands in pockets.Looking directly down toward camera.Outfit:Oversized emerald-green bomber jacket.Black cargo pants.White sneakers.Environment:Minimal futuristic escalator.Strong leading lines.Architectural depth.Typography:Massive typography reading:\"RISE FAST\"integrated into the escalator side panels.Graphic Elements:Motion arrows.Editorial symbols.Barcode labels.Sticker graphics.Paper textures.Composition:Strong perspective lines.Heroic vertical composition.Lighting:Premium commercial fashion lighting.Sharp highlights.Strong shadows.Color Palette:Emerald Green.White.Black.Aspect Ratio:9:16 vertical.Luxury streetwear campaign.Ultra detailed.8K masterpiece.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "68.0K",
+    "likes": "10.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3925335955",
+    "title": "Map the buying committee",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Map the buying committee: Stakeholder roles, stances, and engagement strategies for each contact",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "56.6K",
+    "likes": "13.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3875515893",
+    "title": "Cinematic Nighttime Portrait of a Stylish Young Asian Woman Standing o",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2063672709213737393-cinematic-nighttime-portrait-of-a-stylish-young-asian-wom.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Cinematic nighttime portrait of a stylish young Asian woman standing on an escalator inside a modern Japanese-themed entertainment complex. She glances back over her shoulder toward the camera with a soft, confident expression. She wears round wire-frame glasses, a silky ivory satin slip dress with thin straps, and an oversized black leather trench coat draped loosely off her shoulders. Her dark hair is styled in a casual messy bun with delicate loose strands framing her face. The environment features dramatic vintage Japanese manga and anime posters covering the walls, illuminated by warm ambient lighting. Deep shadows, rich contrast, and golden highlights create a moody neo-noir atmosphere. The escalator leads downward into a dark, luxurious interior with glowing accent lights, reflective surfaces, and cinematic depth. Shot on a full-frame camera with an 85mm lens, shallow depth of field, ultra-sharp focus on the subject, realistic skin texture, natural makeup, glossy lips, subtle blush, detailed fabric textures, premium fashion editorial style, luxury lifestyle photography, warm color grading, bokeh lights, photorealistic, ultra-detailed, high dynamic range, magazine-quality composition, 8K resolution. Style Keywords: cinematic lighting, moody atmosphere, Japanese aesthetic, luxury fashion editorial, neo-noir photography, warm tones, film look, dramatic shadows, premium portrait, high-end photography, photorealistic, viral Instagram aesthetic, trending Pinterest style, ultra realistic, masterpiece quality.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2070741924",
+    "title": "A High-Quality Korean-Style Commercial Photograph, Mimicking the Style",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066353763515047975-a-high-quality-korean-style-commercial-photograph-mimick.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A high-quality Korean-style commercial photograph, mimicking the style of a sports magazine cover. [Composition and Pose] Half-body portrait (above chest), slightly angled frontal view, the subject slightly looking down at the camera. The left hand holds the FIFA World Cup Trophy aloft, while the right hand holds a classic black and white soccer ball. The subject wears a yellow short-sleeved jersey in the Brazilian national team colors, with green trim on the collar and cuffs, and a knot at the hem (revealing the waist). Dark green athletic shorts are worn, with a gold star pinned to the waist. [Clothing and Prop Details] Yellow Jersey: Made of breathable, quick-drying athletic fabric, with realistic fabric wrinkles and slight reflections, and a blurred team crest printed on the chest. FIFA World Cup Trophy: Highly realistic trophy design, with a mirror-like finish and metallic reflections, and a green base. Soccer Ball: Classic 32 black and white hexagonal pieces, with a slightly worn texture. [Background and Color] Solid color background, divided into two color blocks by a diagonal line. The upper half is a vibrant true red (RGB approx. 220, 20, 20). The lower half is a bright golden yellow (RGB approx. 255, 200, 0). The colors are extremely vivid, highly saturated, and have strong contrast. [Lighting and Texture] Studio lighting, with the main light source coming from slightly to the right front. Facial lighting is soft yet three-dimensional (Rembrandt lighting effect), with noticeable catchlights in the eyes. The skin texture is delicate, with a natural rosy complexion; individual hair strands are clearly visible, with backlighting outlining the edges. The overall image is clean, clear, and noise-free, at a high 8K resolution. [Exclusions] -- no ugliness, distortion, extra fingers, deformed hands, incorrect facial features, complex backgrounds, landscapes, or text",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-133697529",
+    "title": "POV Travel Photography of a Person Sitting at an Airport and Inside an",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e0e90325-9b51-4584-99db-516739d5a6f8-pov-travel-photography-of-a-person-sitting-at-an-airport.webp",
+    "aspectRatio": "16:9",
+    "prompt": "POV travel photography of a person sitting at an airport and inside an airplane, casual outfit with jeans and sneakers, small crossbody bag on lap, holding a drink can, warm golden sunlight streaming through windows. Scene 1: airport waiting area with luggage (suitcase and backpack), cinematic composition, cozy travel vibe. Scene 2: airplane seat view looking down at legs and tray area, window light casting soft shadows. Add playful hand-drawn doodles and annotations around objects (bags, drink, shoes, seat) including arrows, hearts, stars, clouds, and handwritten notes like \u201cwindow seat dreams\u201d, \u201cready for takeoff\u201d, \u201cgood vibes only\u201d, \u201ctravel \u2022 chill \u2022 repeat\u201d. White and yellow sketch-style overlays, scrapbook aesthetic, soft warm color grading, shallow depth of field, ultra-realistic, Instagram story style, cinematic lifestyle photography, 4K",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "51.1K",
+    "likes": "8.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1375061277",
+    "title": "Ballerina Whale Breach Action Scene",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043463569354998093-a-hyper-realistic-high-octane-cinematic-video-a-colossa.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic, high-octane cinematic video. A colossal, barnacled humpback whale violently erupts from a turbulent, deep blue ocean in a massive, twisting breach, sending explosive shockwaves of frothing white water high into the air. Riding the apex of the whale's back is a fiercely athletic ballerina in a shimmering, electric-blue tutu. Instead of remaining still, she harnesses the whale's upward momentum to launch into a spectacular, gravity-defying grand jet\u00e9 directly over the churning abyss.Suddenly, an unexpected twist: as the whale reaches its peak, the crashing water violently ignites with bioluminescence, and a massive swarm of glowing, neon-pink flying fish erupts from the foam, soaring like arrows all around the suspended dancer. The camera abandons a slow orbit for a kinetic, fast-paced whip-pan, tracking the dancer's flight through the glowing sea-spray, dodging the flying fish, before plunging momentarily underwater just as the whale's massive tail slams down with catastrophic force. The warm golden hour lighting is dramatically pierced by a sudden, jagged bolt of violet lightning across the horizon. Audio features a deafening, thunderous roar of crashing water, the sharp crack of lightning, the chaotic fluttering of wet wings, and a soaring, high-tempo orchestral crescendo that cuts abruptly to silence as the camera dips below the surface.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "80.3K",
+    "likes": "7.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1861911067",
+    "title": "Respond to a feature request",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Respond to a feature request: Deliver a roadmap decision honestly without losing the relationship",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1519153966",
+    "title": "Ultra-Realistic Studio Portrait of a Man, Close-Up Headshot",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2026214554083242053-ultra-realistic-studio-portrait-of-a-man-close-up-headsh.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic studio portrait of a man, close-up headshot, centered composition, neutral expression, sharp facial details, textured skin, clean grooming, wearing a black turtleneck and dark tailored coat, modern minimalist fashion, monochrome black and white photography style, only the glasses in color (Translucent amber-orange frame and lenses ), high contrast lighting, soft studio light, cinematic shadows, editorial fashion photography, plain light background, 85mm lens, shallow depth of field, ultra detailed, photorealistic, magazine quality, 8K.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "67.8K",
+    "likes": "9.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1325600982",
+    "title": "Cinematic Martial Arts Confrontation in Broad Daylight",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2040376349504815467-cinematic-martial-arts-confrontation-in-broad-daylight-a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "cinematic martial arts confrontation in broad daylight, a blind shaolin monk wearing a dark, stylized combat outfit inspired by legendary fighters stands calm and centered, eyes closed, surrounded by multiple hostile creatures emerging from a traditional Japanese landscape Ultra cinematic choreography coverage, mix of slow dolly-ins + orbit moves + whip pans, transitions masked by body motion and impacts, alternating real-time and slow motion, continuous fluid sequence (0-2s) wide establishing shot, monk standing still in center, wind moving fabric, creatures circling, tension builds (2-4s) slow push-in close-up on monk\u2019s face, eyes closed, subtle head tilt sensing movement (4-6s) sudden attack from first creature, monk reacts instantly, precise sidestep + redirection, fluid motion (6-8s) chained combat sequence, monk engages multiple opponents, spinning strikes, controlled movements, each impact sending creatures flying backward with stylized motion (8-10s) slow motion highlight: mid-air dodge + counter sequence, cloth movement and body rotation emphasized, creatures suspended briefly before being thrown away (10-12s) final burst of speed, monk flows through remaining opponents in one continuous movement, camera orbiting rapidly, enemies collapsing or being thrown aside Traditional Japanese environment, open landscape with temples, wooden structures, distant mountains, clear daylight, subtle wind movement, dust and debris reacting to motion Ultra realistic, high-end martial arts film choreography, precise body mechanics, cinematic slow motion, strong contrast lighting, volumetric atmosphere, fluid transitions, intense but controlled physical interaction, no distortion, no stretching",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1064396471",
+    "title": "MOROCCOWORLD CUP TITLES:Lions of the Atlas\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501create a ",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-cbf49441-1654-4a33-9558-6d85ea788aa3-morocco-world-cup-titles-lions-of-the-atlas.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[MOROCCO]WORLD CUP TITLES:[Lions of the Atlas]\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501Create a luxury World Cup legacy poster designed like a premium collector's edition magazine cover.The user only provides:\u2022 COUNTRY\u2022 WORLD CUP TITLES\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83c\udfc6 MAIN CONCEPTCreate a gigantic sculpted number: 7[Lions of the Atlas]deeply carved into a premium off-white textured wall.The number represents the nation's next World Cup dream.The country has not won World Cup titles and is now chasing the next star.Examples:1 \u2192 Road to 22 \u2192 Road to 33 \u2192 Road to 44 \u2192 Road to 55 \u2192 Road to 6The carved number must be the hero of the composition.\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83c\udf0d INSIDE THE NUMBERInside the carved number create a beautiful miniature world celebrating the country\u2019s football identity.Include:\u2022 iconic landmarks\u2022 famous skylines\u2022 supporters\u2022 stadium atmosphere\u2022 national colors\u2022 historic football moments\u2022 championship energy\u2022 confetti\u2022 flags as supporting elementsEverything should feel physically built inside the number.\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83d\udd20 TYPOGRAPHYLarge luxury typography:MoroccoROAD TO [World Cup titles]Elegant secondary slogan:\"THE DREAM CONTINUES\"Include subtle references to the nation's previous World Cup titles.Typography should feel:\u2022 luxury\u2022 editorial\u2022 collectible\u2022 timeless\u2022 premium\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2600\ufe0f LIGHTINGWarm golden sunlight.Soft luxury shadows.Premium studio-quality illumination.Bright, elegant, optimistic atmosphere.\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\ud83c\udfa8 VISUAL STYLEMix:\u2022 luxury magazine cover\u2022 premium sports poster\u2022 architectural visualization\u2022 collectible memorabilia design\u2022 cinematic realism\u2022 high-end editorial art directionUse:\u2022 off-white textured background\u2022 realistic depth\u2022 elegant bevels\u2022 soft shadows\u2022 refined color palette\u2022 premium composition\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2728 FINAL FEELINGA beautiful collectible World Cup legacy poster that feels worthy of framing on a wall.Elegant, emotional, timeless, luxurious, photorealistic, highly shareable, premium editorial quality, 8K.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "80.3K",
+    "likes": "7.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2514540049",
+    "title": "Images: Create an Ultra-Premium FIFA World Cup 2026 Global Advertising",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-54d4cd06-3a4d-4b3c-9b3e-51391ce1d490-generate-images-create-an-ultra-premium-fifa-world-cup-2.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Generate images: Create an ultra-premium FIFA World Cup 2026 global advertising campaign poster featuring Cristiano Ronaldo representing Portugal. Aspect ratio 9:16 is mandatory. The final image must look like an official FIFA World Cup 2026 global marketing campaign photographed by a world-class sports fashion advertising agency. Hyper-realistic, photorealistic, luxury editorial sports photography, Nike Football campaign quality, ultra-detailed 8K resolution, sharp focus, premium textures, realistic skin rendering, realistic fabric rendering, award-winning commercial photography.REFERENCE LOCK: Use the provided official FIFA World Cup 2026 logo exactly as supplied. Do not redesign, modify, restyle, reinterpret, simplify, or recreate any element. Preserve exact proportions, trophy placement, typography, spacing, alignment, branding structure, visual hierarchy, and official appearance. The entire left-side campaign layout must remain identical to the reference and unchanged.LEFT SIDE COMPOSITION: Place the official FIFA World Cup 2026 logo vertically on the left side. Beneath it display premium editorial typography:FIFAWORLD CUP2026IS CALLINGAdd elegant small stars beneath the headline. At the bottom place:USA \u2022 CANADA \u2022 MEXICOJUNE 11 \u2013 JULY 19This entire section must feel clean, premium, luxurious, minimalist, and untouched by any other design element. Strong editorial hierarchy, premium campaign styling, official FIFA advertising aesthetic.BACKGROUND: Create a rich deep Portugal green studio wall inspired by Portugal\u2019s national identity. The wall should feature subtle painted texture, realistic premium surface details, soft gradients, luxury studio finish, elegant tonal transitions, high-end advertising quality, and realistic commercial photography lighting. No stadium, no crowd, no cityscape, no landscape, no scenery. Only a premium studio environment.MAIN SUBJECT: use the uploaded image: stands on the right side of the composition with full body visible from head to toe. He casually leans against the wall beside a vintage payphone booth. One hand is inside the pocket of his training pants. The other hand holds a vintage telephone receiver connected by a visible cable. He is actively speaking into the receiver. Expression should be relaxed, charismatic, joyful, playful, confident, and effortlessly stylish. The image should feel as if FIFA has just called him to represent Portugal at the FIFA World Cup 2026.WARDROBE: he\u2019s wears the official Portugal FIFA World Cup 2026 home jersey with authentic Portugal federation crest, official Nike logo, realistic stitching, premium fabric texture, authentic collar construction, sleeve details, athletic fit, and luxury sportswear realism. Include the official FIFA World Cup 2026 sleeve patch on the RIGHT sleeve only. The patch must be clearly visible, realistically embroidered, accurately proportioned, and naturally integrated into the fabric.TRAINING PANTS: Official Portugal Nike national team travel pants in deep Portugal green. Include Portugal federation crest and Nike branding. Tailored athletic fit, luxury football fashion styling, premium sportswear appearance, realistic folds and fabric texture.FOOTWEAR: Nike Air Jordan 1 Mid sneakers with Portugal-inspired colors: white, green, and red. Authentic Air Jordan proportions, premium leather materials, realistic stitching, clean luxury appearance, fashion campaign quality, coordinated perfectly with jersey and training pants.PAYPHONE BOOTH: Realistic vintage public telephone booth beside him. Premium metallic construction, slightly weathered but elegant. Inside the booth include a blue telephone, keypad, coin slot, realistic wiring, visible handset cable. At the top of the booth display \u201cFIFA WORLD CUP 2026\u2122\u201d. The cable connecting the receiver to the phone must remain visible and realistic. Keep original aspect ratio.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1232672463",
+    "title": "Mixed-Media Brand Campaign",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2038319037248114957-brand-name-hero-color.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME] + [HERO COLOR] Act as a Mixed-Media Campaign Art Director. Your specialty: combining studio photography cutouts with hand-drawn 2D illustration where the real human and the drawn object physically interact \u2014 touching, holding, standing on, leaning against, or using the illustrated element as if it truly exists in their space. PHASE 1: CANVAS & COLOR SYSTEM Format: 1:1 square canvas. Base: single flat saturated color [HERO COLOR]. No gradients. No texture. Pure chromatic field. Overlay: 3\u20134 organic amoeba blob shapes in the same [HERO COLOR] but 20% darker in value. Smooth edges, irregular silhouettes, scattered asymmetrically. Some bleeding off-frame. Hand-painted feel, clean execution. PHASE 2: AUTONOMOUS OBJECT SELECTION BEFORE staging the scene, the AI must first make two autonomous decisions: DECISION 1 \u2014 SELECT THE OBJECT: Analyze [BRAND NAME] and identify ONE iconic physical object from this framework: \u2014 What is the single most recognizable product or artifact this brand has ever made? \u2014 What object do fans of this brand collect, use daily, or photograph? \u2014 What prop has defined this brand's visual identity across decades? Do NOT choose animals. Do NOT choose logos. Choose a real, large, tangible object that can physically occupy space next to a person. DECISION 2 \u2014 SELECT THE INTERACTION: Based on the chosen object, determine the most natural and visually dynamic way the real model can directly interact with the drawn object. Interaction must be: \u2713 Physical and direct \u2014 hands touching, feet on, body leaning, arms around \u2713 Immediately readable \u2014 the relationship between person and object is understood in under 2 seconds \u2713 Scaled correctly \u2014 the object must be large enough to interact with at human scale \u2713 Active, not passive \u2014 the model is DOING something with the object, not just standing next to it INTERACTION TYPE EXAMPLES (AI selects the most brand-appropriate): \u00b7 HOLDING: model's real hands grip the illustrated object \u2014 cup, camera, trophy, bottle, bag \u00b7 WEARING/USING: model's real body wears or uses the object \u2014 sitting on a chair, wearing an illustrated hat, holding an illustrated product to their face \u00b7 STANDING ON: model's real feet are planted on top of the illustrated object \u2014 skateboard, surfboard, podium, giant sneaker \u00b7 RIDING/LEANING: model's real body leans against or drapes over the illustrated object \u2014 car hood, shopping cart, giant product silhouette \u00b7 EMERGING FROM: model appears to step out of or through the illustrated object \u2014 bursting through a giant sneaker box, rising from an illustrated cup PHASE 3: STAGING THE SCENE Once object and interaction are selected, stage the full scene: MODEL: Single model age 18\u201326, clean cutout, zero fringing. Pose is determined by the chosen interaction \u2014 the body position must make the interaction feel natural and physically believable. Wardrobe: [BRAND NAME]'s most iconic apparel in [HERO COLOR] monochromatic palette. ILLUSTRATED OBJECT: Pure white (#FFFFFF) flat 2D illustration. Brush-pen marker line quality, 3\u20135px weight. Slightly imperfect organic edges \u2014 hand-drawn feel, not vector-perfect. NO shading. NO gradients. Flat white fill only. SCALE RULE \u2014 CRITICAL: The illustrated object must be LARGE. Minimum size: 40% of canvas height. The object should feel monumental \u2014 oversized relative to real-world scale is acceptable and encouraged. A coffee cup can be waist-height. A sneaker can be as tall as the model. Large scale = better readability = stronger visual impact. DEPTH LAYERING \u2014 CRITICAL:The object must exist on multiple z-layers: \u2014 Parts of the object sit BEHIND the model \u2014 Parts of the object come IN FRONT of the model \u2014 The model's real hands/feet make contact at the intersection point This layering is what makes the scene feel integrated rather than collaged. BRAND STAMP: One small [BRAND NAME] logo mark appears on the object's surface \u2014 naturally embedded as if printed, engraved, or stitched. Rendered in [HERO COLOR] darker variant. Subtle, not dominant. PHASE 4: SUPPORTING ILLUSTRATION SYSTEM All supporting elements: white, flat, brush-pen line style. Same visual language as the hero object. LOGO MARKS: [BRAND NAME] primary icon in white: \u2014 Large (upper-left corner, ~15% canvas width) \u2014 Medium (opposite corner, ~10% canvas width) IMPACT MARKERS: 2\u20133 manga-style exclamation dash clusters near the point of interaction between model and object \u2014 where hands grip, where feet land, where bodies touch. This emphasizes the physical connection. MOTION LINES: 2\u20134 curved speed lines radiating from the object or the model's most active body part. Taper at ends. Cross behind and in front of the model for depth. GROUND EFFECT: At the base of the scene: white illustrated ground interaction \u2014 sparkle stars, short speed dashes, or object-specific effect (splash if cup, dust clouds if sneaker landing, wheel tracks if skateboard). AMBIENT SQUIGGLES: 1\u20132 loose organic white lines floating near the model's torso \u2014 visual rhythm connecting the photographic and illustrated layers. PHASE 5: LIGHTING Studio strobe, high-key, even and clean. 5500K neutral. No dramatic shadows on model. Soft contact shadow at model's feet (opacity 15%). The photography reads as natural and real against the graphic illustrated environment. TECH SPECS Aesthetic: mixed media \u2014 real photograph integrated with hand-drawn 2D illustration. Color count: 3 maximum \u2014 [HERO COLOR] light, [HERO COLOR] dark blobs, white illustration. Photography skin tones and fabric colors are the only additional color exception. Illustration style: Y2K comic energy, Japanese streetwear magazine, brush marker. Composition: asymmetric and dynamic. The interaction point between model and object is the visual center of gravity \u2014 everything else orbits around it. No text. No wordmarks. Logo icon only. Mood: the model is not posing WITH the object \u2014 the model is IN THE MIDDLE of using it. Caught mid-action. Alive.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-810499803",
+    "title": "\u56f4\u7ed5\u300c2026\u4e16\u754c\u676f\u89c2\u8d5b\u6307\u5357\u300d\u4e3b\u9898\u751f\u6210\u4e00\u5f20\u9ad8\u660e\u5ea6\u6e05\u900f\u7684\u6f6e\u6d41\u4eba\u7269\u89c6\u89c9\uff0c\u4e3b\u4f53\u4ee5\u6e05\u6670\u62a0\u50cf\u7167\u7247\u6216\u62df\u771f",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-65644115-414d-4304-a2e1-87534f499e12-2026.webp",
+    "aspectRatio": "16:9",
+    "prompt": "\u56f4\u7ed5\u300c2026\u4e16\u754c\u676f\u89c2\u8d5b\u6307\u5357\u300d\u4e3b\u9898\u751f\u6210\u4e00\u5f20\u9ad8\u660e\u5ea6\u6e05\u900f\u7684\u6f6e\u6d41\u4eba\u7269\u89c6\u89c9\uff0c\u4e3b\u4f53\u4ee5\u6e05\u6670\u62a0\u50cf\u7167\u7247\u6216\u62df\u771f\u4eba\u50cf\u7f6e\u4e8e\u753b\u9762\u4e2d\u8f74\u504f\u524d\uff0c\u4eba\u7269\u8fb9\u7f18\u5e72\u51c0\u3001\u76ae\u80a4\u4e0e\u670d\u88c5\u4fdd\u7559\u771f\u5b9e\u5149\u6cfd\uff0c\u8eab\u4f53\u5c40\u90e8\u81ea\u7136\u538b\u4f4f\u540e\u65b9\u5b57\u5f62\uff0c\u5f62\u6210\u524d\u666f\u4eba\u7269\u4e0e\u540e\u573a\u56fe\u5f62\u4e92\u76f8\u54ac\u5408\u7684\u5c42\u6b21\u3002\u4e3b\u6807\u9898\u505a\u6210\u6781\u5927\u5c3a\u5ea6\u6ce1\u6ce1\u5b57\uff0c\u5706\u9f13\u3001\u539a\u91cd\u3001\u7565\u5e26\u624b\u7ed8\u53d8\u5f62\uff0c\u7c97\u9ed1\u5916\u8f6e\u5ed3\u4e0e\u5c40\u90e8\u5185\u4fa7\u9634\u5f71\u63d0\u4f9b\u7ed3\u6784\uff0c\u5b57\u8154\u4f7f\u7528\u6765\u81ea\u7eff\u8335\u573a\u6d3b\u529b\u8eab\u4efd\u7684\u660e\u4eae\u8349\u7eff\u8272\uff08#02B906 / #3CAC3B\uff09\uff0c\u8868\u9762\u53e0\u52a0\u767d\u8272\u5f27\u5f62\u9ad8\u5149\u3001\u900f\u660e\u6e10\u5c42\u548c\u8f7b\u5fae\u4eae\u9762\u8d28\u611f\uff0c\u4fdd\u6301\u660e\u4eae\u8f7b\u5feb\u3001\u6e05\u900f\u5e72\u51c0\u3001\u901a\u98ce\u611f\u5f3a\u7684\u8272\u5149\u72b6\u6001\u3002\u8272\u5f69\u4ece\u4e16\u754c\u676f\u4e3b\u9898\u63d0\u53d6\u5e76\u6620\u5c04\u4e3a\uff1a\u5927\u9762\u79ef\u7eaf\u767d\u6d45\u4eae\u5e95\u573a\uff08#FFFFFF\uff09\u3001\u8349\u7eff\u4e3b\u8272\u6ce1\u6ce1\u5b57\uff08#02B906\uff09\u3001\u9ed1\u8272\u4fe1\u606f\u7ebf\u6846\uff08#000000\uff09\u3001\u767d\u8272\u9ad8\u5149\u3001\u5c11\u91cf\u706b\u70ac\u7ea2\u9ad8\u9971\u548c\u6696\u8272\u5f3a\u8c03\u70b9\uff08#E61D25\uff09\u548c\u4e2d\u6027\u6df1\u7070\u6b63\u6587\u4fe1\u606f\uff08#474A4A\uff09\uff0c\u7ef4\u6301\u5927\u9762\u79ef\u660e\u4eae\u3001\u5c11\u91cf\u9192\u76ee\u70b9\u7f00\u3001\u6e05\u6670\u8272\u9636\u4e0e\u5e72\u51c0\u8fb9\u754c\uff0c\u4e0d\u505a\u7070\u6d4a\u65e7\u5316\u5904\u7406\u3002\u753b\u9762\u52a0\u5165\u4f4e\u5bc6\u5ea6\u7684\u50cf\u7d20\u5f39\u7a97\u3001\u7ec6\u957f\u8fdb\u5ea6\u6761\u3001\u6761\u7801\u3001\u68cb\u76d8\u683c\u89d2\u6807\u3001\u77ed\u5c0f\u8bf4\u660e\u6587\u5b57\u3001\u59d3\u540d\u6807\u7b7e\u548c\u624b\u7ed8\u661f\u8292\u7231\u5fc3\u7b26\u53f7\uff1b\u8fd9\u4e9b\u5143\u7d20\u50cf\u6563\u843d\u7684\u684c\u9762\u754c\u9762\u8d34\u7eb8\u4e00\u6837\u56f4\u7ed5\u4eba\u7269\u4e0e\u6807\u9898\u5206\u5e03\uff0c\u5b57\u53f7\u5c42\u7ea7\u660e\u786e\uff0c\u7c97\u4f53\u6807\u9898\u3001\u7a84\u6392\u5c0f\u5b57\u3001\u50cf\u7d20\u5b57\u4f53\u4e0e\u624b\u5199\u7ebf\u6761\u5e76\u7f6e\u3002\u6574\u4f53\u5b8c\u6210\u5ea6\u8981\u50cf\u5076\u50cf\u5361\u7247\u3001\u8857\u5934\u8d34\u7eb8\u548c\u590d\u53e4\u7535\u8111\u754c\u9762\u7684\u6df7\u5408\u8bbe\u8ba1\uff0c\u8fb9\u7ebf\u5229\u843d\uff0c\u7559\u767d\u5145\u8db3\uff0c\u4fe1\u606f\u88c5\u9970\u6709\u8282\u594f\uff0c\u4e0d\u628a\u4eba\u7269\u6df9\u6ca1\u5728\u88c5\u9970\u91cc\u3002\u2014\u2014\u2014\u2014\u2014\u2014\u5f00\u5c4f\u6a2a\u5e45: \u6a2a\u7248 16:9\uff0c\u7ed9\u4e16\u754c\u676f\u89c2\u8d5b\u6d3b\u52a8\u505a\u516c\u4f17\u53f7\u5934\u56fe\u548c\u76f4\u64ad\u95f4\u80cc\u666f\u51fa\u955c\u4eba\u7269: \u4e00\u4f4d\u5e74\u8f7b\u7403\u8ff7\u534a\u8eab\u6b63\u9762\uff0c\u7a7f\u7403\u961f\u7403\u8863\u6216\u4f11\u95f2\u8fd0\u52a8\u88c5\uff0c\u624b\u6301\u5c0f\u56fd\u65d7\u6216\u505a\u51fa\u52a0\u6cb9\u624b\u52bf\uff0c\u8eab\u4f53\u6321\u4f4f\u540e\u65b9\u5927\u5b57\u4e00\u90e8\u5206\u753b\u9762\u6587\u5b57: \u4e3b\u6807\u9898\u5199\u300c\u4eca\u665a\u770b\u7403\u4e0d\u52a0\u73ed\u300d\uff0c\u5c0f\u7a97\u91cc\u653e 6.11-7.19 \u8d5b\u4e8b\u5468\u671f\u300148\u961f104\u573a\u3001\u71ac\u591c\u89c2\u8d5b\u653b\u7565\u3001\u96f6\u98df\u9152\u6c34\u6e05\u5355\u67dc\u53f0\u5907\u6ce8: \u89d2\u843d\u52a0\u6d3b\u52a8\u540d\u300cWE ARE 26 \u89c2\u8d5b\u591c\u300d\u548c\u76f4\u64ad/\u9884\u7ea6\u5165\u53e3\uff0c\u4e0d\u8981\u51fa\u73b0\u535a\u5f69\u6216\u8d4c\u7403\u8bf1\u5bfc\u4fe1\u606f",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "77.0K",
+    "likes": "19.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3215263285",
+    "title": "Ultra-Detailed, Cinematic 3D Promotional Travel-And-Sports Poster Feat",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b6ffd7eb-7387-498e-9008-7b2bce780943-create-an-ultra-detailed-cinematic-3d-promotional-travel.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create an ultra-detailed, cinematic 3D promotional travel-and-sports poster featuring a realistic human hand holding a luxury national tournament pass. The pass is designed in the colors of the chosen country's national flag and displayed prominently in the foreground. The pass features a spectacular miniature floating diorama emerging from its surface with a premium paper-cut and 3D pop-out effect. Rising from the center of the pass is a rocky floating island containing a world-class football stadium with a bright green pitch, surrounded by miniature city buildings, trees, and iconic national landmarks representing the country. Above the stadium, a classic football is suspended in mid-air, bursting outward with dynamic energy effects, glowing particles, sparks, light trails, debris, and motion streaks, creating a sense of excitement and celebration. The pass includes elegant embossed metallic gold typography displaying: * [Country Name] * NATIONAL CUP PASS * OFFICIAL ACCESS * [Team Nickname Or Slogan] * FIFA WORLD CUP [Year] The hand appears highly realistic with natural skin texture and lighting, gripping the edge of the pass. The background shows a breathtaking aerial tilt-shift view of a famous city associated with the country, featuring recognizable architecture, streets, parks, and skyline elements stretching toward the horizon. The atmosphere is festive and triumphant, filled with swirling metallic streamers and floating confetti in national colors. Blue sky, soft clouds, dramatic sunlight, volumetric lighting, depth of field, vibrant colors, photorealistic materials, global illumination, ultra-sharp focus on the pass, cinematic composition. Style: hyper-realistic 3D render, premium advertising campaign, collectible souvenir design, luxury travel poster, high-end CGI, Octane Render, Unreal Engine quality, 8K resolution, intricate details, vibrant celebration atmosphere, shallow depth of field, masterpiece quality. Aspect Ratio: 4:5 vertical poster.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3222456560",
+    "title": "Simplify a complex document",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Simplify a complex document: Rewrite dense or technical content in plain English",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2230159650",
+    "title": "Famous Soccer Players Ronaldo and Messi on Other Side in Iconic Jersey",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-66eecb86-0944-45df-a4d5-420f91b4edb4-famous-soccer-players-ronaldo-and-messi-on-other-side-in.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Famous soccer players Ronaldo and messi on other side in iconic jerseys approaching a FIFA World Cup trophy, walking through a grand stadium tunnel at sunset, dramatic golden and orange atmospheric lighting, cinematic composition with multiple players from different national teams, heroic and triumphant mood, professional sports photography style.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "84.7K",
+    "likes": "11.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-809525625",
+    "title": "Ultra Realistic Close-Up Portrait of a Beautiful Young East Asian Woma",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-de34b9fd-8433-4a06-ae35-53ddd833e46c-ultra-realistic-close-up-portrait-of-a-beautiful-young-ea.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra realistic close-up portrait of a beautiful young East Asian woman with the exact facial structure and soft feminine features from the reference image, natural glowing skin, subtle makeup, glossy peach lips, soft dimples, warm gentle smile, relaxed confident expression, medium-length dark brown wavy hair with natural volume and soft flyaways, direct eye contact with camera.Keep the exact composition, framing, pose, lighting, shadows, and cinematic mood from the original portrait reference. Warm golden hour sunlight hitting half of the face and body, dramatic soft shadows across the chest and background, dark blurred background with rich contrast and shallow depth of field.Outfit should be elegant minimal aesthetic fashion: cream ribbed knit top, soft beige wool overcoat casually draped over shoulders, delicate gold necklace, luxury clean-girl aesthetic, cozy premium fashion vibe.Photo should feel natural and candid, not overposed. Preserve realistic skin texture, natural facial proportions, cinematic highlights, smooth warm color grading, luxury lifestyle photography look, ultra detailed, DSLR quality, 85mm lens, f/1.8 depth of field, high sharpness on eyes and face, soft background bokeh, premium Instagram aesthetic, realistic lighting, photorealistic, 4k.Negative prompt: cartoon, anime, exaggerated smile, oversaturated skin, plastic skin, distorted face, bad anatomy, low quality, blurry eyes, extra accessories, text, watermark, overediting, harsh HDR, duplicate features, unnatural pose, fake AI look, over sharpened skin.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "73.5K",
+    "likes": "15.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-491117886",
+    "title": "Premium Editorial Travel Poster Illustration of DESTINATION",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2053347075648278737-create-a-premium-editorial-travel-poster-illustration-of.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a premium editorial travel poster illustration of [DESTINATION]. Style: flat vector illustration, ultra clean minimalism, mid-century modern aesthetic, editorial travel poster style (Scandinavian design inspired), no photorealism, no textures, no noise, no gradients Composition: vertical 4:5 poster layout, foreground: calm waterfront / road / natural edge midground: colorful local houses or buildings with clean geometric shapes background: iconic natural landscape or mountain of [DESTINATION] add 1\u20132 landmark structures (church, tower, bridge, etc.) subtly Architecture: simplified geometric buildings, clean edges, flat colors, slightly varied roof colors (harmonious palette, not random) Color palette: soft, cohesive, location-inspired colors pastel tones + muted contrast bright but not saturated (example: sky blue, coral, mustard, navy, soft green) Lighting: bright daylight, soft shadows, clean and fresh atmosphere Typography: add text at bottom center: \"[DESTINATION]\" (large, modern sans-serif, spaced letters) \"[COUNTRY]\" (small subtitle below) Mood: calm, clean, premium, slightly dreamy travel magazine feel Quality: ultra clean edges, perfect alignment, no distortion, high resolution, print-ready",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1652850213",
+    "title": "Premium Gen-Z Product Hero",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-0a1b0200-fe38-4066-99f8-2a52b2e0fa7f-brand-name-brand-premium-hero-campaign-shota-hype.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME] \u2014 [BRAND] \u2014 Premium Hero Campaign ShotA hyper-realistic premiumcommercial hero image for [BRAND NAME], designed for modern[GEN-Z] and luxury digital advertising. SUBJECT& PRODUCTThehero product dominates the foreground with aggressive perspective distortionand cinematic depth. The product is held close to the camera, becoming thevisual centerpiece with ultra-sharp focus, premium texture detail,condensation, reflections, embossed branding, realistic material response, andtactile surface realism.The[MALE/FEMALE] human subject stands behind the product with confident energy and effortlessattitude \u2014 natural expression, emotionally engaging eyes, relaxed luxurystyling, editorial fashion presence, authentic body language, subtle motion inhair/clothing. COMPOSITION\u00b7 Product occupies 45\u201360% of frame\u00b7 Low-angle cinematic perspective\u00b7 Dynamic foreground-to-background depth\u00b7 Slight wide lens distortion (24mm\u201335mm look)\u00b7 Premium commercial framing\u00b7 Strong center-weighted composition\u00b7 Clean visual hierarchy\u00b7 Modern advertising layout spacing LIGHTING\u00b7 High-end commercial studio lighting\u00b7 Bright directional key light\u00b7 Soft cinematic fill\u00b7 Controlled highlights\u00b7 Glossy reflections\u00b7 Atmospheric rim lighting\u00b7 Premium skin rendering\u00b7 Vibrant but realistic color separation\u00b7 HDR-level dynamic range BACKGROUND& ENVIRONMENTMinimalbut immersive branded world inspired by the product flavor, category, oremotion.Backgroundcontains:\u00b7 Floating ingredients\u00b7 Atmospheric particles\u00b7 Soft gradients\u00b7 Light bloom\u00b7 Clean negative space\u00b7 Abstract environmental storytellingTheenvironment should feel premium, modern, playful, and intentionallyart-directed. COLORSTRATEGYUsea focused 2\u20133 color palette:\u00b7 Primary brand color\u00b7 Accent contrast color\u00b7 Soft neutral balanceColorsshould feel:\u00b7 Bold\u00b7 Social-media optimized\u00b7 Premium\u00b7 Highly recognizable\u00b7 Emotionally addictive TYPOGRAPHYSTYLELargeminimal typography integrated into composition:\u00b7 Rounded modern font\u00b7 Thick bold headline\u00b7 Minimal copywriting\u00b7 Strong spacing\u00b7 Clean hierarchy\u00b7 Editorial luxury alignment\u00b7 Modern campaign design system MOODConfident.Addictive. Aspirational. Stylish. Premium. Viral. Clean. Youthful. CAMERA &QUALITYShoton a high-end commercial cinema camera. Ultra-detailed. Hyper realistic.Premium advertising photography. Sharp focus. 8K commercial rendering. Luxuryeditorial aesthetic. Modern global campaign quality.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1306938662",
+    "title": "Nutella Miniature Winter Ski World",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2029194313784016901.webp",
+    "aspectRatio": "16:9",
+    "prompt": "{ \"cinematic miniature winter world built around a giant Nutella jar, thick chocolate hazelnut spread flowing out forming a glossy mountain ski slope, tiny skiers skiing down the chocolate hill covered with light snow powder, miniature alpine village with wooden cabins and pine trees, ski lift with small gondolas carrying people, snowy forest background and distant mountains, soft winter lighting, ultra realistic textures of melting chocolate and snow, macro tilt shift photography, fantasy food landscape, commercial food advertising style, highly detailed, 8k\", \"negative_prompt\": \"blurry, low resolution, distorted jar, incorrect logo, messy composition, unrealistic proportions, extra limbs, duplicate people\", \"aspect_ratio\": \"4:5\", \"style\": \"ultra realistic macro photography\", \"lighting\": \"soft cinematic winter daylight\", \"camera\": \"macro lens, tilt shift effect\", \"quality\": \"high detail, 8k\" }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-468569794",
+    "title": "Build a deployment checklist",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Build a deployment checklist: Sequenced pre-flight, execution, and rollback steps with verification",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1465580417",
+    "title": "Indonesian Food Infographic",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2017865644365255078.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"image_prompt\": { \"type\": \"Hyper-realistic food infographic\", \"subject\": { \"cuisine\": \"Indonesian\", \"base_element\": \"Traditional bowl with steaming hot dish at the bottom\", \"levitating_ingredients\": [ \"Juicy meat\", \"Crispy tofu\", \"Glossy sauce splashes\", \"Fresh herbs\", \"Chilies\", \"Lime\", \"Garlic\", \"Fried shallots\" ] }, \"composition\": { \"layout\": \"Clean vertical composition\", \"arrangement\": \"Realistic gravity-defying/floating elements\", \"background\": \"Rustic wooden surface\", \"visual_hierarchy\": \"Bowl anchored at bottom, ingredients rising vertically\" }, \"graphic_design_elements\": { \"labels\": \"Clear Indonesian text\", \"lines\": \"Thin white pointing lines\", \"style\": \"Editorial infographic layout, professional food magazine style\" }, \"lighting_and_mood\": { \"lighting\": \"Cinematic studio lighting\", \"color_palette\": \"Warm tones\", \"effects\": \"Dramatic steam, motion-frozen ingredients\" }, \"technical_specs\": { \"camera_settings\": \"Shallow depth of field, sharp focus, DSLR look\", \"details\": \"Ultra-detailed textures\", \"resolution\": \"8K ultra-realistic\" } } }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1879243816",
+    "title": "Misty Japanese Forest, Ink Painted Landscape, Ancient Shrine Path",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2064248324560200127-style.webp",
+    "aspectRatio": "16:9",
+    "prompt": "STYLE: anime action storyboard, Japanese ink wash illustration, dynamic sword choreography, concept art storyboard sheet, production animation board, character action sequence, high-energy combat dance, watercolor and ink sketch, red and monochrome palette, stylized motion design, anime keyframe sequence, cinematic action visualization, professional storyboard presentation ASPECT RATIO: 16:9 MAIN CHARACTER: Kumori, petite anime swordswoman, white messy twin-bun hair, red ribbons and ornaments, dual katana wielder, black cropped combat outfit, red pleated skirt, thigh-high stockings, agile and elegant, cute but deadly, shadow-born warrior LOCATION: misty Japanese forest, ink-painted landscape, ancient shrine path, falling red maple leaves, windswept atmosphere, minimalist watercolor background, traditional Japanese aesthetic STORY: 01 Still stance Kumori stands motionless hands near sword hilts breath held before battle 02 Silent draw slow unsheathing motion focused gaze 03 First cut swift horizontal slash wind trails appear 04 Figure-eight flow blades weave through air fluid sword dance begins 05 Petal spin spinning attack red leaves swirl around 06 Twin slash rapid crossing strikes speed increasing 07 Low sweep shadow-like movement near ground attack 08 Rising cut powerful upward strike energy surges 09 Cross-cut double blade impact crescent motion trails 10 Aerial arc Kumori leaps gracefully sword trails circle skyward 11 Ribbon storm continuous spinning combo maximum momentum 12 Ground split downward finishing strike dust and leaves explode outward 13 Final flurry multiple rapid cuts motion blur everywhere 14 Breath out combat ends calm stance returns 15 End pose swords sheathed silent victory wind settles around Kumori VISUAL DETAILS: visible brush strokes, Japanese sumi-e ink style, watercolor paper texture, dynamic sword trails, flowing fabric motion, falling maple leaves, minimalist background design, anime action effects, high-speed motion lines, concept art rendering, production storyboard aesthetics, consistent character design, clean panel composition COLORS: warm ivory paper, charcoal black ink, deep crimson red, muted gray wash, soft beige, subtle sepia tones CAMERA: wide shot, close-up, medium shot, low angle, tracking shot, orbit shot, dynamic pan, cinematic push-in, action follow camera MOOD: elegant, intense, graceful, focused, heroic, cinematic, poetic, high-energy LAYOUT: 15 storyboard panels, numbered scenes, caption under every frame, story progression layout, animation production sheet, film pitch board, technical storyboard presentation, camera notes, action flow indicators, clean white background masterpiece, best quality, ultra detailed, professional storyboard presentation, anime production design, concept art quality, Japanese sword dance choreography, dynamic action sequence, cinematic storytelling, highly consistent character, storyboard sheet, 16-panel style presentation, 8k",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2648260007",
+    "title": "Large Arabic Infographic in the Form of a Small Three-Dimensional Chil",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2054295667485327716-create-a-large-arabic-infographic-in-the-form-of-a-small.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a large Arabic infographic in the form of a small three-dimensional children's storybook, resembling Pixar's cinematic imagination, with a very luxurious cinematic design in terms of realistic details, soft lighting, and amazing compositions, a real page inside a stunningly captivating story world, perfectly suitable for the story's theme. The design is entirely based on: Title: \u201c{{...Title of the story is written here...}}\u201d Special: \u2022 {{Character 1}} \u2022 {{Character 2}} \u2022 {{Character 3}} \u2022 {{Character 4}} \u2022 {{Character 5}} Man: Write a complete children's story based solely on the title of the story and the names of the characters, without any text agreement from the user. The original innovative environment according to the title of the story. If the title is about an amusement park, make the environment an amusement park city. If it's about a school, make it inside the school. If it's about soccer, make it inside the stadium. If it's about a journey or safari or factory or store or city channels or any other idea, participate in the world completely with events that are very harmonious with the theme of the story. The story must be: \u2022 Full of adventures and derived events \u2022 Influential for children \u2022 Full of emotions and amazing discoveries \u2022 Containing strong cinematic moments \u2022 Containing childlike dialogues \u2022 Containing funny, scary, and touching situations \u2022 Containing a puzzle or an important discovery in the story \u2022 Containing a thrilling ending for the next part Design of the world: \u2022 A three-dimensional realistic book \u2022 Curved pages with realistic glass \u2022 Side cuts and waves from 1 to 8 \u2022 Each page with a different color \u2022 A large distribution of elements \u2022 Very high detail \u2022 Global publishing quality \u2022 Design resembling interactive children's books Basic pages: 1. Create a huge cinematic cover containing the main characters inside the main environment of the story, with a large, attractive Arabic title. 2. Main Characters A dedicated page containing only vertical strips, with a short description for each character specifically in the story. 3. News Write fun Arabic stories that introduce children to the story world and the beginning of the adventure in a cinematic way. 4. Laptop Start by narrating the first important events and revealing the first puzzle or discovery or problem faced by the characters. 5. Believe in Yourself Create a page full of events, adventures, exciting situations, and cinematic scenes with small clips and movement. 6. Sports Test Create many Arabic dialogue bubbles between the characters during the adventure, with expressions full of emotion, enthusiasm, fear, and laughter. 7. Lesson of the Story Register now for babies and thousands of people with a group of lively characters after the exploration. 8. Suspenseful Create a huge cinematic ending that hints at a new adventure entering the story world, with mystery and magic. Reason: \u2022 Three-dimensional children's storybook with ultra-high details \u2022 Pixar-like character design \u2022 Cinematic storytelling \u2022 Warm, enchanting lighting \u2022 Imaginative environment \u2022 Very detailed environment \u2022 Interactive storytelling using infographics \u2022 Ultra-realistic texture \u2022 Soft volumetric lighting \u2022 Excellent publishing quality \u2022 Expressive, cute characters \u2022 Arabic educational storybook style \u2022 Enchanting atmosphere \u2022 Rich depth and shadows \u2022 Elegant realistic texture \u2022 High-quality cinematic music composition \u2022 Ultra-high-definition 8K clarity \u2022 Clean Arabic printing \u2022 Emotional storytelling scenes \u2022 Vibrant colored tabs \u2022 Dense visual storytelling Arabic Bengali: \u2022 Stock \u2022 Seats \u2022 Without details \u2022 Luxury Arabic children's bathroom Aspect ratio 9:16 High-quality 12k 3D output Be careful not to make mistakes in writing and be methodically and structurally proficient before confirming",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "93.7K",
+    "likes": "20.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2831012580",
+    "title": "Subject and Composition a High-End Commercial Jewelry Macro Shot Featu",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7104a83c-0a62-4728-93fc-002f8cd3fe89-subject-and-composition.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Subject and composition A high-end commercial jewelry macro shot featuring a delicate oval-cut diamond solitaire ring stacked with a slender pav\u00e9 wedding band. The rings are nestled securely within the soft, organic, and deep folds of blush-pink crepe fabric. The composition is tightly centered and intimate, emphasizing the juxtaposition between the rigid, mirror-polished yellow gold and the matte, intricate weave of the textile. Lighting and atmosphere Ultra-soft, diffused studio lighting using a large softbox to create subtle, painterly gradations of shadow within the fabric pleats. The illumination is neutral in color temperature, designed to highlight the crystalline structure of the diamond with sharp, crisp specular refractions and brilliant fire, while maintaining a tender, ethereal mood. Technical specifications Captured with a 100mm macro lens at f/2.8. Extreme close-up perspective with an extremely shallow depth of field, causing the peripheral fabric folds to dissolve into a soft, creamy out-of-focus blur. Focus is pinned precisely on the geometry of the ring settings and the facets of the central stone. Constraints No text, no watermarks, no logos, no distorted metal shapes, no oversaturated colors, no plastic-looking textures, no harsh low-key shadows, no motion blur on the jewelry.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "61.2K",
+    "likes": "18.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-148867227",
+    "title": "A Hyper-Realistic Cinematic Movie Poster of a Powerful Male Necromance",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-53c831b4-eba1-4655-9935-d042a43139a9-a-hyper-realistic-cinematic-movie-poster-of-a-powerful-ma.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic cinematic movie poster of a powerful male necromancer, GuAr, bursting through a cluster of exploding white dice with black dots. The dice shatter outward with bone fragments, dust, and debris frozen mid-air. He wears a form-fitting black armor with crimson vein-like inlays and a large glowing blue crystal embedded in the center of the chest plate. Long straight jet-black hair whips wildly in the energy blast. Intense orange-fire eyes stare directly at the viewer with a sarcastic, confident smirk. The necromancer extends one open hand forward toward the viewer, fingers glowing with intense necromantic energy, a subtle violet and black arcane aura swirling around the hand and forearm. Dramatic chiaroscuro lighting, dark moody background with faint ash and bone fields, volumetric light rays cutting through the dust, ultra-detailed textures on armor, skin, and the swirling energy. Shallow cinematic depth of field. Photorealistic face, epic dark fantasy realism, movie poster composition, high contrast, dynamic motion, bone dust particles, masterpiece quality, ultra-sharp focus, 8K resolution, cinematic color grading with deep blacks and cold violet highlights.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "71.3K",
+    "likes": "13.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3382386955",
+    "title": "Ultra-Realistic Gaming PC Floating Above a Desk, Surrounded by Glowing",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-59213fd0-347f-41d4-a6f6-2cd0c043d47a-ultra-realistic-gaming-pc-floating-above-a-desk-surround.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic gaming PC floating above a desk, surrounded by glowing blue and red energy rings and flying electronic components, dramatic cinematic lighting, futuristic tech aesthetic, detailed mousepad and cables, RAM sticks and GPU on wooden desk, sparks and particles in the air, high-speed motion effect, premium product advertising, hyper-detailed textures, depth of field, 8K, studio lighting.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "91.5K",
+    "likes": "18.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4276158506",
+    "title": "Black-And-White High-Fashion Editorial Street Photograph Inspired by C",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-f648dd5a-2bdb-404a-819f-a6bfeab905e6-create-a-black-and-white-high-fashion-editorial-street-ph.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a black-and-white high-fashion editorial street photograph inspired by classic 1950s Paris couture photography. A sophisticated woman is captured mid-stride across a quiet European city street on an overcast rainy day. She moves from left to right in a dramatic, elongated walking pose, one leg extended forward and the other stretched behind, creating a graceful dynamic silhouette.She wears a sculptural dark wool overcoat with a voluminous couture shape, high collar, rounded shoulders, and refined tailoring. Her face is partially obscured by the coat collar, adding mystery and elegance. She holds a large black umbrella above her head, its curved canopy forming a strong graphic shape against the pale sky. She wears slim black pointed high heels, with pale legs creating sharp contrast against the dark coat.The background features softly blurred Haussmann-style Parisian buildings, wet pavement, distant vintage cars, and a quiet urban atmosphere. Use shallow depth of field, natural diffused daylight, subtle rain mood, and cinematic motion stillness. The composition should feel timeless, minimal, elegant, and iconic.Style: ultra-realistic black-and-white fashion photography, vintage editorial mood, Paris street couture, high contrast, soft film grain, elegant movement, decisive-moment composition, premium magazine aesthetic, 8K detail.Make the aspect ratio 3:4",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "83.6K",
+    "likes": "10.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2838734079",
+    "title": "Adiciona O Texto \"POV: a Tua Encomenda BTS Est\u00e1 a Ser Preparada\"",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-73617221-1d50-47a8-9ec0-1093c09acac7-adiciona-o-texto-pov-a-tua-encomenda-bts-esta-a-ser-pre.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Adiciona o texto \"POV: a tua encomenda BTS est\u00e1 a ser preparada\". D\u00e1 destaque a este texto e remove o que n\u00e3o aches necess\u00e1rio. Faz com que este texto fa\u00e7a o contorno da mulher e que se destaque com doodles a preencher.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-269615708",
+    "title": "Draft a no-reply follow-up email",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Draft a no-reply follow-up email: Second touch with a fresh angle, not a reminder",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3130213089",
+    "title": "A Noble Knight in Armor Easily Overcomes All Four Forces, Understandin",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-f908445e-bfaa-438d-8095-2548eb7f9c33-a-noble-knight-in-armor-easily-overcomes-all-four-forces.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A noble knight in armor easily overcomes all four forces, understanding them as a single system. Cinematic realism, impressive scale, photorealism, philosophy, and the aesthetics of the \"premium energy\" campaign. --chaos 10 -ar 16:9 -profile u5mdv8o -hd -version 8.1",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "91.5K",
+    "likes": "18.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-791814184",
+    "title": "THE LOST CENTURYCHAPTER 5ELARA VALDRAKE VS THE BLACK SWORDSMAN16:9 Cin",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/community-fe658409-e901-455f-abed-077be9d1a936-the-lost-centurychapter-5elara-valdrake-vs-the-black-swor.webp",
+    "aspectRatio": "16:9",
+    "prompt": "THE LOST CENTURYCHAPTER 5ELARA VALDRAKE VS THE BLACK SWORDSMAN16:9 cinematic anime movie.Ultra detailed Ufotable animation.Fate Heaven's Feel combat quality.Demon Slayer sword choreography.Movie-level visual effects.Destroyed Valtora Harbor District at night.The once beautiful coastal kingdom is burning.Collapsed stone roads.Broken harbor walls.Wooden docks consumed by flames.Merchant ships burning in the distance.The ocean violently crashing against the seawall.Black smoke filling the sky.Flying embers drifting through the battlefield.Orange firelight illuminating ruined buildings.The atmosphere feels like the end of a kingdom.Camera begins low to the ground.Broken stone pavement.Burning debris.Falling ash.The sound of distant screams and collapsing buildings.ELARA VALDRAKE stands alone.Age 20.Long silver-white hair flowing behind her.Elegant high ponytail.Blue eyes.White warrior kimono.Crimson red hakama.Silver embroidery.Athletic swordswoman physique.Graceful feminine figure.Tasteful cleavage.Confident adult beauty.Legendary swordmaster aura.Her clothing moves in the sea wind.Hair flowing dramatically.Her sword reflects the surrounding flames.Despite the destruction around her she remains calm.Fearless.Determined.Powerful.Across the battlefield stands a mysterious black swordsman.Black cloak.Dark armor.Black sword.Emotionless face.Motionless.The air around him feels unnaturally heavy.As if death itself is standing there.Suddenly Elara launches forward.An explosive burst of speed.The stone beneath her feet shatters.Dust erupts.The camera rapidly follows behind her.Silver hair whipping through the air.Blue sword trails forming behind every movement.She crosses the battlefield in an instant.The black swordsman remains still.The moment before impact.Extreme close-up.Elara's determined blue eyes.Cut.The black swordsman's emotionless gaze.Impact.A massive sword collision.Thousands of sparks explode outward.Shockwaves ripple through the burning harbor.Nearby debris flies into the air.The camera spins around the clash.High-speed anime combat.Elara unleashes a barrage of sword strikes.Precise.Elegant.Deadly.Master-level swordsmanship.Blue energy trails.Afterimages.Lightning-fast movements.The black swordsman blocks every strike effortlessly.Their swords move too fast for ordinary eyes to follow.Both fighters disappear.Only streaks of silver and black remain.The battlefield becomes a blur of movement.Buildings crack from pressure waves.Flames are pushed backward.Ocean waves crash violently against the harbor walls.The camera tracks their movements through the destruction.Midair clash.Elara performs a powerful spinning strike.The black swordsman counters instantly.A devastating impact.The entire battlefield shakes.Time slows down.Sparks floating through the air.Elara's silver hair illuminated by firelight.Her blue eyes filled with determination.The black swordsman's cold gaze remains completely unchanged.Final collision.A gigantic explosion of sparks and debris.Firelight and moonlight mixing together.The camera slowly pushes toward both fighters.Frozen in a blade lock.A legendary swordswoman giving everything she has.A monster who still hasn't shown his full power.Ufotable masterpiece.Perfect character consistency.Dynamic camera.Volumetric lighting.Extreme environmental destruction.Epic cinematic anime battle.No text.No subtitles.No logos.No watermark.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "81.4K",
+    "likes": "8.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-639706401",
+    "title": "Create canned response templates",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Create canned response templates: Build five ready-to-send replies for your most common support tickets",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2154909865",
+    "title": "Spicy Grilled Chicken Momos on Black Ceramic Plate, Red Dipping Sauces",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-60b76924-d636-4592-96af-baf24cdf4b58-spicy-grilled-chicken-momos-on-black-ceramic-plate-red-d.webp",
+    "aspectRatio": "16:9",
+    "prompt": "spicy grilled chicken momos on black ceramic plate, red dipping sauces, cabbage salad, top view food photography, dark stone background, premium restaurant presentation, ultra realistic, appetizing, professional lighting, DSLR, shallow depth of field, food magazine quality",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
+    "likes": "10.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2473149080",
+    "title": "A Hand Holding Wooden Chopsticks Lifting Steaming Instant Noodles from",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-f02ab158-7e66-4bd2-9088-4f529b4330a3-a-hand-holding-wooden-chopsticks-lifting-steaming-instant.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hand holding wooden chopsticks lifting steaming instant noodles from a stainless steel cooking pot on a modern induction stove. Cozy bright kitchen background with white cabinets, wooden countertop, small tomatoes, cutting board, and green plants. Freshly cooked ramen noodles stretching naturally, appetizing food presentation, soft natural daylight, shallow depth of field, realistic steam, ultra detailed food photography, clean kitchen aesthetic, commercial food advertisement, DSLR quality, high realism, 8K, cinematic lighting, warm and inviting atmosphere.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "75.7K",
+    "likes": "17.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2476623094",
+    "title": "Luxury 3D FIFA World Cup 2026 France Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066162615399936202-ultra-detailed-luxury-3d-fifa-world-cup-2026-france-poste.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-detailed luxury 3D FIFA World Cup 2026 France poster. Massive layered \"2026\" typography dominates the composition, formed from interlocking metallic ribbons and sculpted architectural frames. The numerals are decorated with the French tricolor palette (deep blue, white, and rich red) enhanced by gold trim, ornate filigree, and elegant floral engravings. At the center stands the FIFA World Cup trophy in front of the numbers, with refined gold text reading \"FIFA WORLD CUP 2026\". Surrounding the composition are iconic French landmarks and cultural symbols seamlessly integrated into the layered design: Eiffel Tower, Arc de Triomphe, Louvre Pyramid, Parisian bridges and architecture, historic domed buildings, a classical French statue holding the national flag, fleur-de-lis motifs, and the Gallic rooster. The elements are sculpted as luxurious bronze and gold reliefs embedded within the typography. Premium craftsmanship, embossed metallic surfaces, marble textures, gold ornamentation, art nouveau and art deco influences, intricate decorative details, championship branding aesthetic, museum-quality design. Dramatic stadium lighting in the background, cinematic atmosphere, volumetric lighting, photorealistic materials, ray-traced reflections, ultra-sharp focus, hyperrealistic textures, luxury collectible poster style, 8K masterpiece quality. Symmetrical composition, layered depth, stacked metallic typography, elegant French heritage aesthetic, sophisticated sports branding, highly detailed relief sculpture artwork, premium FIFA promotional poster. Style Modifiers: > luxury metallic relief sculpture, French heritage design, embossed poster art, gold filigree ornamentation, layered architectural typography, photorealistic CGI, octane render, global illumination, cinematic lighting, ultra-detailed craftsmanship.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2464718757",
+    "title": "Shot with an Authentic Instax Mini Photo but with NO Visible White Bor",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-c62952f3-ca79-4e69-8bd1-f20e99e6dfed-shot-with-an-authentic-instax-mini-photo-but-with-no-visi.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Shot with an authentic Instax Mini photo but with NO visible white border. Soft built-in Instax flash gently illuminates the subject, creating cool creamy highlights, subtle facial glow, softened shadows, and authentic instant-camera snapshot lighting. Visible instant-film characteristics: cool-neutral pastel color science, compressed dynamic range, lifted blacks, low micro-contrast, mild lens softness, soft corner rendering, slight focus inconsistency, softened facial rendering, softened environmental detail, gentle highlight bloom, imperfect exposure, subtle grain, physical instant-film chemistry, and slight color fading. Skin appears creamy and softly rendered. Fine facial details are naturally softened by instant-film optics. Inside a cozy early-2000s bedroom with faded floral wallpaper, a floral bedspread, soft cream walls, and small sentimental decorations hanging on the wall. The room feels lived-in and nostalgic, like a quiet afternoon spent rearranging old belongings. Caught sitting cross-legged on the bed while absentmindedly hugging a pair of well-loved stuffed animals. She has just looked up toward the camera after being interrupted mid-thought, creating a naturally curious expression with slightly parted lips and relaxed eyes rather than a posed smile. Wearing a fitted blue ribbed tank top, light-wash denim shorts, layered silver necklaces, and casual everyday accessories. Fresh youthful makeup with soft pink blush, natural lashes, glossy lips, healthy skin texture, and a subtle natural glow. Long dark hair with natural movement and windswept strands, softly framing the face with loose pieces around the cheeks and shoulders. A blurred stuffed animal ear and soft out-of-focus blanket folds partially occupy the foreground, creating natural depth and an accidental snapshot feeling. Dutch tilt, subject off-center, amateur framing. Aspect ratio 4:5. No floating photo",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "67.8K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3346032020",
+    "title": "An Artistic Close-Up Illustration of a Garmin Tactix 7 Pro Solar Watch",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-dacfcc81-ecf9-46b1-8bb6-a249259364b1-an-artistic-close-up-illustration-of-a-garmin-tactix-7-pr.webp",
+    "aspectRatio": "16:9",
+    "prompt": "An artistic close-up illustration of a Garmin Tactix 7 Pro Solar watch resting on a damp rock surface amidst a luminous stream. Its hydrophobic lens dramatically repels water, with water droplets caught in mid-motion as they glide off the surface, reflecting the surrounding greenery. Small splashes ripple in the surrounding water, adding to the sense of motion. The environment is dense with modern buildings and damp foliage. Harsh golden light shines through the foliage overhead, illuminating the water droplets and making them sparkle like jewels. The composition is cinematic, almost like a commercial exhibition shot, with the camera focusing on the lens surface and its waterproofing technology. The illustration style is highly detailed with painterly depth, blending natural realism with artistic flair.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4158717397",
+    "title": "Photorealistic, Cinematic, Ultra Detailed, 8k, Atmospheric Depth, Eleg",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2056372974765175067-create-a-16-9-character-concept-sheet-for-a-celestial-voy.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a 16:9 character concept sheet for a celestial voyager in an epic cinematic sci-fi fantasy aesthetic. Show 4 distinct views of the same character in a clean concept-art layout: symmetrical full-body front view full-body side profile full-body back view hyper-detailed close-up portrait of the face The character is a solitary celestial traveler with an elegant white-and-gold ritualistic armored design. He wears ornate futuristic armor with intricate geometric filigree, sacred celestial motifs, flowing layered cloak fabric, and a halo-like circular structure behind the head and upper back. The armor should feel ancient yet highly advanced, blending sci-fi technology with spiritual ceremonial design. The face should appear mysterious, noble, and otherworldly, with an alien-mask-like structure or refined humanoid facial design, enhanced by glowing amber energy lines and a luminous circular forehead symbol. Include a glowing chest core or energy emblem integrated into the armor. Overall silhouette should be regal, tall, elegant, and powerful. Lighting should be intense warm orange and amber, with extreme high contrast. Use aggressive backlighting and strong rim lighting to create sharp specular highlights against deep shadows. Add volumetric light rays, subtle anamorphic lens flares, dust particles, micro-debris, and a slightly atmospheric celestial haze. The background should be clean white or near-white, minimal and uncluttered, so the character design remains the focus. Keep the presentation polished like a premium AAA character design sheet. Style: photorealistic, cinematic, ultra-detailed, 8k, atmospheric depth, elegant sci-fi fantasy concept art.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "66.7K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2168364718",
+    "title": "Football Portrait Poster of a Legendary Portuguese Footballer Sitting ",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065328496994324566-ultra-detailed-football-portrait-poster-of-a-legendary-po.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-detailed football portrait poster of a legendary Portuguese footballer sitting on a geometric cube with the number 7, wearing a modern Portugal national team jersey in red and green, centered symmetrical composition, looking upward with a determined expression, cinematic soft studio lighting, minimal beige textured background, elegant sports editorial design, FIFA World Cup 2026 inspired branding, thin geometric line elements and abstract layout graphics around the subject, premium magazine aesthetic, realistic skin texture, sharp facial details, high-detail fabric folds, luxury sports poster, muted tones with red and green accents, clean negative space, subtle vintage paper texture, hyper-real illustration mixed with photorealism, front-facing full body shot, balanced composition, Nike football boots, elite athlete aura, 8k, highly detailed digital artwork.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "71.3K",
+    "likes": "13.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3542088941",
+    "title": "A Hyperrealistic 8K Black and White Extreme Close-Up Portrait of a You",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e26e3792-2625-429b-811f-f68f419bbbdb-a-hyperrealistic-8k-black-and-white-extreme-close-up-port.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyperrealistic 8K black and white extreme close-up portrait of a young Italian woman's face, focusing tightly on her large round dark eye, cheekbone, and full textured lips, as she reclines, her face half submerged in glistening, glittering water. Bright sunlight breaks into soft, wavy luminous lines that ripple across her skin like an intricate web of underwater reflections. The light flows diagonally, wrapping around the contours of her face in surreal patterns, while the shadows dissolve into smooth mid-gray tones instead of deep black. The skin is rendered in lifelike detail-visible pores, faint freckles, subtle stubble, and natural imperfections catch the glowing light realistically. The lips are softly highlighted, and the eye reflects fragments of the luminous waves, adding depth and emotion without artificial glow. The camera framing feels macro, pressed close to the face, with razor-thin depth of field: one illuminated ridge of skin is perfectly sharp, while the rest melts into velvety blur. The glassy, fluid quality of the light lines gives the portrait a surreal dreamlike aesthetic while remaining grounded in photographic realism. The background disappears into soft gray gradients, leaving only the interplay of skin texture and luminous wave-like rays. Fine cinematic grain overlays the frame, enhancing the tactile analog feel. The overall mood is intimate, surreal, and emotionally evocative - a monochrome portrait.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "61.2K",
+    "likes": "18.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-88957643",
+    "title": "Propose a retainer engagement",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Propose a retainer engagement: Monthly retainer proposal with clear inclusions and boundaries",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
+    "likes": "10.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-454475560",
+    "title": "Character Reacting Deeply to Surroundings\u2014wind, Music, Silence",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-30197f45-64f5-4cbb-ab0c-3f5c3cae86c2-character-reacting-deeply-to-surroundings-wind-music-si.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Character reacting deeply to surroundings\u2014wind, music, silence. Emotional aura visible like soft waves.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2659269779",
+    "title": "Stylized Illustration of Character_name from Franchise",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2051938130505453866-create-a-stylized-illustration-of-character-name-from.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a stylized illustration of [character_name] from [franchise]. Character Analysis: Derive the character\u2019s core personality archetype based on canon portrayal (e.g., heroic, calm, mysterious, aggressive). Identify the signature color from the original design and use it as the primary visual accent. Pose & Body Language: Generate an iconic pose that reflects the personality archetype: Energetic / Heroic: dynamic action, wide stance, explosive movement Calm / Confident: balanced, relaxed posture, minimal motion Dark / Mysterious: low stance, subtle movement, sharp or hidden gaze Aggressive / Intense: forward-leaning attack stance, visible tension, clenched fists Facial Expression: Match expression precisely to the character\u2019s personality and emotional tone. Art Style: Anime \u00d7 streetwear \u00d7 graphic poster hybrid Clean lineart, semi-flat shading, high contrast Modern, minimal, and visually striking Composition: Vertical format ({aspect_ratio}) Off-center subject placement Strong diagonal visual flow Layered depth for a dynamic poster feel Outfit Design: Reimagine the original costume as modern streetwear / techwear Preserve recognizable identity elements of the character Color Palette: Dominant clean white background Use signature color as the primary accent Add one secondary accent (complementary or analogous tone) Keep palette minimal, bold, and high-contrast Background: Abstract geometric poster layout Use negative space effectively Integrate subtle accents using the character\u2019s color theme Effects: Energy strokes, paint lines, and motion accents Effects should follow the character\u2019s energy and color identity Lighting: Sharp directional lighting Crisp shadows Subtle glow using the signature color Rendering Quality: Ultra-clean vector-style finish Poster-quality composition 4K resolution, high detail",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "83.6K",
+    "likes": "10.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3712946295",
+    "title": "Panoramic Luxury Fashion Event Poster Series Composed of Five Vertical",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-761b491a-8514-4c2a-b09c-5211e3f32825-create-a-panoramic-luxury-fashion-event-poster-series-com.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a panoramic luxury fashion event poster series composed of five vertical editorial poster panels placed side by side in one wide horizontal banner. The overall concept is an avant-garde fashion campaign titled \u201cFRESH,\u201d using ethereal translucent fabric, experimental model poses, cinematic color grading, and oversized modern typography.The design should feel like a premium contemporary fashion exhibition poster, combining high-fashion photography, minimalist Swiss graphic design, abstract event typography, and dreamlike fabric movement. Each vertical panel should work as an individual poster, but all five should form one cohesive horizontal campaign system.Use five narrow poster panels arranged edge-to-edge. Each panel features an adult female fashion model in an elegant editorial pose, partially wrapped or surrounded by flowing sheer fabric. The fabric should appear weightless, translucent, and wind-swept, creating soft motion across the model\u2019s body and face. The models should feel suspended, floating, reclining, or turning gracefully, as if captured in slow motion.Panel 1: cool blue-gray atmosphere, model lying or floating diagonally, partially covered by pale white translucent fabric. Soft icy lighting, calm distant expression, large cropped typography in pale peach and blue. Place the word \u201cFRESH\u201d vertically along the right side in thin modern letters.Panel 2: warm muted green-gray background with dramatic orange sheer fabric flowing around the model. The model reclines backward with the head tilted upward, eyes soft or closed, creating a theatrical fashion pose. Add large spaced-out orange typography across the panel and small white event information blocks near the lower-left.Panel 3: central dramatic panel with vivid red translucent fabric wrapped around the model\u2019s torso and neck. Model posed diagonally with head tilted back, elegant expression, cinematic shadows. Add large vertical red typography spelling \u201cFRESH\u201d along the right side. Include a clean rectangular event text block with date details such as \u201cNOVEMBER 10\u201312\u201d and small venue text.Panel 4: dark teal-gray background with pale white flowing fabric sweeping across the model. The model is partially hidden in profile or three-quarter view, creating mystery and softness. Add thin white horizontal divider lines, small event information text, and large cropped violet-blue typography on the right edge.Panel 5: continuation of the dark editorial system with oversized cropped violet typography, white translucent fabric, and a shadowed model partially visible. Keep the composition abstract, premium, and magazine-like.Typography should be oversized, modern, clean, and experimental. Use a mix of huge cropped block letters, vertical text, thin sans-serif event details, small date blocks, and minimalist divider lines. The word \u201cFRESH\u201d should appear across several panels in different orientations, sometimes vertical, sometimes cropped, sometimes partially hidden behind fabric. Use fictional event information such as \u201cOCTOBER 2024,\u201d \u201cNOVEMBER 10\u201312,\u201d \u201cGATES OPEN 10:00 AM,\u201d \u201cMAIN EVENT 12:00 PM,\u201d and small ticket or venue details.Color palette: smoky teal, dark blue-gray, muted olive green, pale icy blue, white sheer fabric, coral orange, vivid translucent red, soft lavender, violet-blue typography, peach-beige typography, and small white text accents. Keep the palette refined, cinematic, and editorial.Lighting should be soft and atmospheric, with diffused studio light, subtle shadows, gentle highlights on fabric, and muted contrast. The models should have natural skin texture, elegant makeup, calm expressions, and refined high-fashion styling. Fabric should be the main visual element, creating movement, softness, and continuity across all panels.Composition style: panoramic horizontal banner, five vertical poster columns, clean grid alignment, balanced negative space, premium fashion event layout, abstract editorial photography, luxury magazine campaign aesthetic, cinematic realism, high-resolution print design, sophisticated art direction, sharp but soft photographic detail, refined graphic hierarchy.Negative prompt: low quality, amateur poster design, cluttered layout, unreadable chaotic text, distorted faces, bad anatomy, extra limbs, stiff poses, cheap stock-photo look, cartoon, anime, CGI, plastic skin, oversaturated colors, harsh lighting, random logos, real brand names, watermarks, messy typography, uneven panel spacing, duplicated model faces, blurry fabric, low-resolution texture.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3716939524",
+    "title": "A French New Wave\u2013style Minimalist Lovers Scene, Black and White, 1950",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2015296685354721690-a-french-new-wave-style-minimalist-lovers-scene-black-an.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A French New Wave\u2013style minimalist lovers scene, black and white, 1950s\u20131960s European cinema tone. A couple standing close but not touching, quiet intimacy expressed through proximity rather than action. The woman leans slightly toward the man; the man looks past her, thoughtful. Simple, understated clothing \u2014 trench coats, wool coats, knit sweaters, classic shirts. No glamour, no styling excess. Natural faces, minimal makeup, authentic expressions. Set on an empty Parisian street or narrow European alley, early morning or overcast daylight. Caf\u00e9 chairs stacked, a bicycle against a wall, stone textures, shuttered windows. Static camera, eye-level framing, wide negative space, imperfect composition. Soft natural light, gentle shadows, subtle 35mm film grain. Emotion conveyed through stillness, silence, and unresolved tension \u2014 love present but unspoken. Minimal dialogue energy, poetic realism, quiet longing, human fragility. Inspired by Godard / Truffaut, anti-dramatic, observational cinema, timeless intimacy, restrained romance, art-house melancholy.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4209342233",
+    "title": "Research a company pre-call",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Research a company pre-call: Intel brief covering tech stack, news, and pain hypotheses",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "92.6K",
+    "likes": "19.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1202770922",
+    "title": "Full-Body 3D Stylized Anthropomorphic Cartoon Dog Character Wearing Mo",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2022179786580537521-full-body-3d-stylized-anthropomorphic-cartoon-dog-charact.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Full-body 3D stylized anthropomorphic cartoon dog character wearing modern streetwear, oversized neon green hoodie, cargo pants, chunky sneakers, reflective sunglasses, silver chain necklace. Confident relaxed pose with hands in pockets. Minimal studio background in solid lime green. Soft studio lighting, smooth shadows, high detail fabric texture, Pixar-quality 3D render, ultra-clean composition, centered framing, fashion editorial character design, 8K resolution.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "69.1K",
+    "likes": "11.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3992239403",
+    "title": "Infographic Image of COUNTRY, Combining a Realistic Photograph or Phot",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2015850590283124768-create-an-infographic-image-of-country-combining-a-rea.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create an infographic image of [COUNTRY], combining a realistic photograph or photoreal render of the object with technical annotation overlays placed directly on top. Use black ink\u2013style line drawings and text (technical pen / architectural sketch look) on a pure white studio background, including: \u2022Key component labels \u2022Internal cutaway or exploded-view outlines \u2022Measurements, dimensions, and scale markers \u2022Material callouts and quantities \u2022Arrows indicating function, force, or flow (air, sound, power, pressure) \u2022Simple schematic or sectional diagrams where relevant Include a small flag of the country in the top right corner. Place the title [COUNTRY] inside a hand-drawn technical annotation box in one corner. Style & layout rules: \u2022The real object remains clearly visible beneath the annotations \u2022Annotations feel sketched, technical, and architectural \u2022Clean composition with balanced negative space \u2022Educational, museum-exhibit / engineering-manual vibe Visual style: Minimal technical illustration aesthetic, black linework over realistic imagery, precise but slightly hand-drawn feel. Color palette: White background, black annotation lines and text only. No colors. Output: 1080\u00d71080, ultra-crisp, social-feed optimized, no watermark.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "87.1K",
+    "likes": "14.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1890338968",
+    "title": "Communicate a feature delay",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Communicate a feature delay: Deliver timeline bad news with honesty, ownership, and a concrete next step",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "64.5K",
+    "likes": "21.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-472547126",
     "title": "K-Pop Blazer Studio Collage",
     "category": "image",
     "model": "Nano Banana Pro",
@@ -1122,7 +4342,343 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "aspectRatio": "16:9",
     "prompt": "{ \"Young Asian woman, pale porcelain skin, long dark wavy hair with side bangs.\", \"accessories\": \"A silver rectangular hair clip on the left side of the head.\", \"apparel\": { \"outerwear\": \"Oversized black structured blazer (suit jacket).\", \"inner\": \"White collared button-up shirt, loose black necktie.\", \"bottoms\": \"Black pleated mini skirt (mostly obscured by the oversized blazer).\", \"legwear\": \"White loose slouch socks (leg warmers style) scrunching at the ankles.\", \"footwear\": \"Black chunky leather platform derby shoes.\" }, \"makeup\": \"K-pop/Douyin style: fair skin, soft gradient red lips, subtle blush, defined eyeliner.\" \"2x2 Photo Collage (4-Panel Grid).\", }, \"environment_and_props\": { \"studio_setting\": \"High-key photography studio.\", \"background\": \"Seamless bright white backdrop.\", \"flooring\": \"Glossy black reflective floor (creating clear reflections of the shoes and legs).\", \"props\": \"Cluster of black helium balloons (matte and glossy finish) visible in the top-left and scattered on the floor in other panels.\" }, \"panel_pose_breakdown\": { \"panel_1_top_left\": { \"framing\": \"Thigh-up shot.\", \"pose\": \"Standing straight. Left hand rests gently against the left cheek (palm facing jaw). Right arm hangs naturally by side. Head tilted slightly.\", \"gaze\": \"Looking directly at camera with a soft smile.\", \"prop_placement\": \"Black balloons floating in the top left corner.\" }, \"panel_2_top_right\": { \"framing\": \"Full body, seated.\", \"pose\": \"Sitting on the floor with knees bent upwards and feet flat on the ground. Hands resting loosely on the floor between legs or on shins.\", \"gaze\": \"Direct eye contact, neutral expression.\", \"details\": \"Symmetrical composition.\" }, \"panel_3_bottom_left\": { \"framing\": \"Full body, seated angle.\", \"pose\": \"Sitting on the floor, leaning torso back, supporting weight with both arms extended behind her. Legs bent, one knee angled higher than the other.\", \"gaze\": \"Looking slightly to the side with a cool attitude.\" }, \"panel_4_bottom_right\": { \"framing\": \"Full body, seated.\", \"pose\": \"Sitting with legs bent to the side. Left hand is raised, touching the chin/neck area thoughtfully. Right arm extended back for support.\", \"gaze\": \"Direct eye contact, slight smirk.\" } }, \"camera_technical_values\": { \"lens\": \"50mm to 85mm (Standard portrait lens).\", \"aperture\": \"f/8.0 (Deep depth of field, keeping the entire subject sharp against the white background).\", \"shutter_speed\": \"1/160s (Studio sync).\", \"iso\": \"ISO 100 (Clean, noise-free image).\", \"lighting_setup\": \"Softbox lighting. Large diffuse light source from the front to create shadowless, flattering illumination on the face ('Beauty Light').\", \"contrast\": \"High contrast between the black outfit and the stark white background.\"",
     "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
-    "views": "75.3K",
+    "views": "89.3K",
+    "likes": "16.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3474244746",
+    "title": "Low-Angle Tracking Shot Following a Woman in a Black Tactical Outfit W",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2065650333716746498-low-angle-tracking-shot-following-a-woman-in-a-black-tact.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Low-angle tracking shot following a woman in a black tactical outfit walking down a wet neon-lit city street at night. Suddenly, a giant, translucent pink gelatinous slime monster with an adorable anime face materializes on the wet asphalt, splashing pink liquid.High-speed action shot. The giant pink slime monster swings a massive gelatinous arm at the woman. The woman smoothly executes a low combat slide across the wet pavement, narrowly dodging the attack as cars pass by in the background.Dynamic slow-motion shot. The woman leaps high into the air against the backdrop of neon skyscrapers. In mid-air, she draws a futuristic sci-fi sword that ignites with a glowing neon-blue energy blade.Close-up action shot. The glowing blue energy sword slices deep into the translucent pink slime monster, causing pink liquid and gelatinous bubbles to violently splash and spray toward the camera.Fast-paced combat sequence. The woman lands on top of a car hood, leaps off, and spins in the air, delivering a powerful downward slash with her glowing blue sword right into the center of the giant pink slime monster.A sudden flash of white light transitions into a bright, modern corporate office. The woman is sitting at her office desk in a professional blue button-down shirt, looking stunned. She is holding and stretching a small, harmless piece of pink slime toy with the exact same cute anime face. Her coworkers in the background look at her with confusion.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "70.2K",
+    "likes": "12.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-321633469",
+    "title": "Synthesize research into insights",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Synthesize research into insights: Turn raw interview notes into named patterns with product implications",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "65.6K",
+    "likes": "7.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2562559979",
+    "title": "Vertical Hyper-Realistic 3D Render in the Style of Pixar/dreamworks An",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-9a2deae2-516c-4c8e-82dd-475f4d8c958a-create-a-vertical-hyper-realistic-3d-render-in-the-style.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create a vertical Hyper-realistic 3D render in the style of Pixar/Dreamworks animation in a 9:16 aspect ratio with a sketchbook collage aesthetic. The background should have a crumpled or lined notebook paper texture. The attached photograph should be centered and in an illustration style.In the center, illustrate the look of @img1 in detail using a fun collage, maintaining the model's characteristics from the photograph. Write in the title: 'THINGS ABOUT ME', Subtitle: \"KoKiE\". Use a doodle aesthetic on paper, labels written according to the following wording: \u201cHardworker\u201d, \u201cloves cats\u201d, \u201cnight owl\u201d, \u201cforgets everything\u201d, \u201canxious but kind\u201d, \u201ccoffee first\u201d, \u201ctalks to plants\u201d, \u201chates loud noises\u201d, \u201c@KoKiE\u201d, use doodles around the image to compose, use colors from the doodles, doodles, and collages.Art Style: Photorealistic 3D render in the stylerama animation film style, velvety skin texture, hair with shine and volumetric light, fluffy robe fabric with realistic folds, cinematic shading, high level of detail, cute but terrified collectible character aspect. Same expressive and exaggerated line style.Negative Prompt: It is forbidden to suppress or repeat wording from the collage. It is forbidden to alter the text of the wording. It is forbidden to add wording not foreseen in the prompt.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1097179881",
+    "title": "SOUTH AFRICA NATIONAL TEAM \"NEW UNIFORM\" FORMAT Ultra-Premium Football",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065123619844333737-south-africa-national-team.webp",
+    "aspectRatio": "9:16",
+    "prompt": "SOUTH AFRICA NATIONAL TEAM \"NEW UNIFORM\" FORMAT Ultra-Premium Football Fashion SMM Promotional Poster Vertical 4:5 Instagram Hero Creative Global Sportswear Advertising Commercial Football Graphic Design Agency-Level Art Direction Behance Front Page Quality 8K UHD Hyper-Realistic Football \u00d7 Fashion \u00d7 Graphic Design Fusion Zero AI Slop Zero Generic Sports Posters Zero Match-Day Graphics Zero Editorial-Only Aesthetic CORE STRATEGY This is not a football poster. This is a national identity statement disguised as a uniform campaign. The design should feel like South Africa's biggest football billboard, a luxury sportswear campaign, and a continental football legacy poster merged into one visual. The graphic design is equally important as the athlete. Typography is not decoration. Typography is architecture. CAMPAIGN IDEA \"NEW UNIFORM\" Not just a jersey. A symbol of unity. A symbol of resilience. A symbol worn by those who carry a nation's pride forward. The uniform isn't being sold. The identity is. MASTER VISUAL Massive oversized SOUTH AFRICA typography dominates the entire composition. The words: SOUTH AFRICA occupy nearly 75% of the canvas. Typography is integrated into the design. Letters extend beyond frame edges. Some letters cropped. Some hidden behind the player. Some functioning as compositional structures. The typography should feel monumental. The official federation crest appears subtly integrated into the layout. HERO SUBJECT Elite female footballer. Natural beauty. Confident expression. Minimal makeup. Champion mentality. No smiling. No dramatic celebration. Relaxed confidence. Wardrobe: South Africa 2026 home jersey. Golden yellow base. Green detailing. Black accents. Matching shorts. Premium football socks. Modern football styling. Clean elite-athlete aesthetic. POSE Player stepping through the giant typography. One foot slightly forward. Direct eye contact. Hands relaxed. Body partially intersecting typography. The feeling: She carries the spirit of champions effortlessly. COMPOSITION Typography occupies 70%. Player occupies 20%. Promotional elements occupy 10%. Visual hierarchy: SOUTH AFRICA \u2193 Player \u2193 Promotion \u2193 CTA Everything feels intentional. COLOR SYSTEM Primary: South Africa Gold Deep Green White Silver Soft Grey Accent: Black Heritage Details Federation Crest Gold Subtle Flag-Inspired Color Accents No neon colors. No trend-chasing palettes. Timeless sporting elegance. BACKGROUND Clean premium sports backdrop. Large soft gradient. Minimal studio environment. Subtle premium texture. No stadium. No crowd. No scenery. The design itself creates the environment. GRAPHIC DESIGN SYSTEM Floating collection cards. Heritage-inspired labels. Minimal grid system. Thin lines. Micro typography. Premium global football campaign hierarchy. International flagship-store energy. PROMOTIONAL ELEMENTS NEW UNIFORM SOUTH AFRICA 2026 READY FOR THE WORLD STAGE LIMITED RELEASE OFFICIAL COLLECTION MEMBERS EARLY ACCESS FREE SHIPPING Integrated naturally into layout. Not banner spam. TYPOGRAPHY HIERARCHY Top Left SOUTH AFRICA small premium wordmark Center Massive Typography S O U T H A F R I C A occupying most of composition bold heritage typography extremely large scale partially cropped Campaign Title NEW UNIFORM bold elegant typography Supporting Copy Designed for those who carry greatness forward. PROMOTIONAL CTA BLOCK SHOP NOW \u2192 Explore the Official South Africa Collection BOTTOM FEATURE STRIP OFFICIAL JERSEYS NATIONAL COLLECTION MATCH ESSENTIALS LIMITED RELEASE Bottom Right Starting From $89 Bottom Center Vertical Edge Text SOUTH AFRICA 2026 LIGHTING Luxury sports studio lighting. Large soft source. Editorial contrast. Natural skin rendering. Premium fabric highlights.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "50.0K",
+    "likes": "7.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1083673893",
+    "title": "Ultra-Realistic Football Match Day Poster Design, Cristiano Ronaldo Se",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2056649217364672950-ultra-realistic-football-match-day-poster-design-cristia.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic football match day poster design, Cristiano Ronaldo seen from the back wearing Portugal red jersey number 7, fist raised in victory, walking forward confidently, giant bold typography \u201cMATCH DAY\u201d behind player, modern sports graphic design, Portugal vs Colombia logos at top, FIFA World Cup 2026 branding, cinematic stadium atmosphere, textured off-white background, national flag elements blended diagonally, dramatic lighting, dust particles, high-detail jersey fabric, centered composition, editorial sports poster style, minimal premium layout, green red yellow color palette, realistic shadows, sharp focus, Nike/Puma style campaign aesthetic, 4k.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "88.2K",
+    "likes": "15.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2990611182",
+    "title": "Embroidered Logo Textile Macro",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2044829425464656123-brand-name.webp",
+    "aspectRatio": "9:16",
+    "prompt": "[BRAND NAME] Act as a Macro Product Photographer and Textile Art Director shooting a close-up editorial campaign of a premium embroidered garment. References: Loro Piana fabric campaigns, Brunello Cucinelli texture photography, A.P.C. garment detail shoots, Japanese boro textile documentation. PHASE 0: BRAND LOGO INTELLIGENCE Retrieve the canonical logotype or primary mark of [BRAND NAME] from training data. Identify the core geometric essence of the logo \u2014 its fundamental shapes, stroke relationships, and compositional balance. Translate this identity into an embroidery-native form language: sharp geometric elements become satin stitch bars and needle-point spikes, circular elements become dense satin stitch ovals or French knot clusters, complex letterforms are simplified into their most essential strokes while remaining recognizable. The embroidery interpretation must feel like a deliberate premium interpretation of the brand mark \u2014 as if [BRAND NAME]'s design team commissioned an embroidery artist to translate their logo into thread. Autonomously determine the thread color most iconic to [BRAND NAME] \u2014 this becomes the primary embroidery thread color. If [BRAND NAME] has no dominant single color, default to deep navy #1A2332. PHASE 1: TEXTILE BACKGROUND The background is a premium waffle-knit cotton fabric \u2014 the weave structure is a precise geometric grid of raised square cells, each cell approximately 2\u00d72mm equivalent, separated by thin recessed channels running both horizontally and vertically. The raised nodes of each cell are flat-topped, not rounded \u2014 creating a regular orthogonal relief pattern across the entire surface. The fabric color is cold off-white \u2014 #F0F0EE to #EBEBEA range, with a very slight cool gray bias, not warm ecru or cream. The weave is consistent and uniform across the entire frame \u2014 machine precision, no tension variation, no distortion. Microscopic fiber fuzz is visible on the flat tops of the raised nodes \u2014 individual cotton fibers catching the diffused overhead light as a very fine surface bloom. The recessed channels between cells are in soft shadow \u2014 not deep shadow, just slightly darker than the raised nodes, consistent with flat overhead illumination. PHASE 2: EMBROIDERY CONSTRUCTION SYSTEM The logo mark of [BRAND NAME] rendered as machine or hand embroidery using these specific stitch techniques. Satin stitch: the primary technique for all filled areas and stroke elements \u2014 dense parallel threads laid side by side with zero gap, creating a smooth glossy surface. Thread direction follows the long axis of each stroke element \u2014 horizontal strokes have horizontal threads, diagonal strokes have diagonal threads. The characteristic sheen of satin stitch is critical: threads catch light along their length creating bright reflective zones on thread-parallel surfaces and darker zones on thread-perpendicular surfaces, creating a directional shimmer across the embroidery surface. Stem stitch or outline stitch: used for any curved linear elements \u2014 thin continuous line of overlapping thread segments following curves with natural flexibility. French knots: small circular dot elements rendered as tightly wound thread knots \u2014 each knot has a visible spiral wind pattern at macro distance. Spike elements: long tapering needle-like forms executed in satin stitch that tapers from full width to a single thread point \u2014 gradual and precise, ending in a razor-sharp thread tip. Edge treatment: every embroidered element has a thin visible backing outline \u2014 1 to 2 thread widths of the base fabric visible between the embroidery and the surrounding textile. This underlay/backing edge is slightly lighter than the main embroidery thread \u2014 it outlines every form and confirms the physical layering of embroidery over fabric. Physical relief: the embroidery sits 1 to 3mm above the fabric surface \u2014 confirmed by a very subtle shadow halo directly underneath each embroidered element. The shadow is symmetrical around the embroidery perimeter, soft-edged, 1 to 2mm wide \u2014 consistent with flat overhead illumination, not directional raking light. PHASE 3: THREAD MATERIAL Primary thread color: autonomously determined brand color from PHASE 0. Thread material: mercerized cotton or silk embroidery thread \u2014 high sheen, smooth filament surface. The thread color is never flat \u2014 it shifts in value along its length based on light angle. Directly lit zones approach a lighter more luminous version of the base color. Shadow zones approach a deeper more saturated version. The overall embroidery reads as one unified color but contains a full tonal range within that color family. Secondary thread: the backing/underlay edge thread is 2 to 3 shades lighter than the primary thread \u2014 creating the characteristic light outline visible around all embroidered elements. PHASE 4: COMPOSITION & CAMERA Camera body: Canon EOS R5 or Nikon Z8 \u2014 full frame, 45 megapixel minimum for fabric texture resolution. Lens: Canon RF 100mm f/2.8L Macro IS USM or Nikon Z MC 105mm f/2.8 VR S \u2014 used at moderate close-up distance, not at maximum 1:1 magnification. Focus distance: 40 to 55cm \u2014 the embroidery fills approximately 30 to 40% of the frame height, leaving generous fabric context on all sides. This is a moderate close-up, not extreme macro \u2014 the full embroidery composition is visible with substantial textile surround. Aperture: f/8 to f/11 \u2014 deep depth of field, the entire embroidery and all surrounding fabric texture are in crisp simultaneous focus from corner to corner. No visible bokeh anywhere in the frame. Shutter speed: 1/200s with continuous light source. ISO: 100 \u2014 base ISO, zero noise, maximum tonal resolution in the subtle gray shadows of the waffle recesses. White balance: 5600K \u2014 neutral daylight, renders the cold off-white fabric accurately without warm or cool shift. Exposure: slightly bright ETTR \u2014 the off-white fabric renders as a luminous near-white, embroidery thread reads as deep rich dark against the bright ground. Aspect ratio: 4:5 portrait. Camera perpendicular to fabric plane \u2014 zero perspective distortion, embroidery geometry rendered faithfully. PHASE 5: LIGHTING Primary light: large diffused overhead source \u2014 a 120\u00d7120cm softbox or diffusion panel positioned directly above the fabric at 60 to 80cm distance. The light is as close to flat and directionless as possible. No raking angle \u2014 the light comes from directly above at 85 to 90\u00b0 to the fabric plane. This flat overhead lighting creates: uniform brightness across the entire fabric field with no hot spots or falloff. Very short soft shadows in the recessed channels of the waffle grid \u2014 1 to 2mm wide, soft-edged, falling straight down. Soft symmetrical micro-shadow halo directly beneath the embroidery \u2014 the 1 to 3mm relief creates a subtle darker zone immediately surrounding the embroidery perimeter, equal on all sides. No directional shadow \u2014 the shadow is not cast to one side. Secondary light: none. No fill, no rim, no accent. The single large overhead diffused source is the complete lighting setup. Overall mood: clinical, precise, bright \u2014 consistent with product documentation or high-end textile editorial photography where the subject must be seen with maximum clarity and zero atmospheric distraction. PHASE 6: TECH SPECS Render: Octane Render or Redshift with fiber/textile displacement geometry. Thread geometry: actual 3D cylindrical thread strands \u2014 each thread strand is a real geometric object casting real shadows on adjacent threads, not texture maps. Fabric weave: real geometric displacement mesh for waffle structure \u2014 not normal map. Ray tracing: on \u2014 for accurate micro-shadow casting between individual thread strands and between embroidery and fabric surface. Subsurface scattering: subtle on thread material \u2014 mercerized cotton and silk have slight translucency. Depth of field: physically accurate \u2014 f/8 to f/11 at 100mm at 40 to 55cm focus distance, full frame sharp corner to corner. Anti-aliasing: maximum. Sampling: minimum 2048 samples \u2014 zero noise in shadow zones, full tonal resolution in the off-white fabric field. Output feel: this image should be indistinguishable from a photograph taken with a Canon 100mm macro in a textile documentation studio. The viewer must feel the urge to touch the fabric.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "73.5K",
+    "likes": "15.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3933641030",
+    "title": "A Cinematic Portrait of Lionel Messi (using a Reference Photo",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065412618891014422-a-cinematic-portrait-of-lionel-messi-using-a-reference-p.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A cinematic portrait of Lionel Messi (using a reference photo, faithfully preserving his facial features, hairstyle, beard, physique, and signature look), seated at a dark, polished table in a luxurious environment with black and dark LEGO brick walls. Lionel Messi is wearing the official Argentina national football team jersey. His expression is calm, confident, and introspective, conveying leadership, humility, and greatness. On the table, positioned to his left, stands a highly detailed LEGO-built replica of the FIFA World Cup trophy, constructed from golden LEGO bricks with realistic proportions and subtle green accents. The official LEGO logo is clearly visible on the base of the trophy or subtly placed in the foreground. Lionel Messi delicately holds in his right hand a LEGO minifigure representing himself, wearing the official Argentina national team uniform, including authentic sky-blue and white colors, number 10, captain\u2019s armband, and facial features inspired by his real likeness. The FIFA World Cup 2026 logo is subtly integrated into the background or softly embedded into the table surface, appearing slightly out of focus to enhance depth. The image is ultra high-definition, with sharp focus on Messi and the foreground elements, complemented by a cinematic depth of field that creates a smooth, artistic background blur. Lighting is cinematic and dramatic, with refined contrasts, controlled highlights, warm golden tones, and a premium, elegant atmosphere. Luxurious sports memorabilia room, black marble table reflections, golden accents, premium interior design, shallow depth of field, photorealistic details, realistic skin texture, professional studio photography, cinematic color grading, 8K quality. Aspect Ratio: 4:5",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "52.2K",
+    "likes": "9.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1288175807",
+    "title": "A Cinematic 35mm Film Photography Shot of a Beautiful 19-year-old East",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-4958fcc6-6dce-41c7-a144-de3637b0d6a3-a-cinematic-35mm-film-photography-shot-of-a-beautiful-19.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A cinematic 35mm film photography shot of a beautiful 19-year-old East Asian girl sitting on a plaid picnic blanket under a giant, majestic solitary tree. She has a short layered black bob haircut with wispy bangs, soft round face, and realistic skin texture. She is wearing an oversized white t-shirt and vintage denim shorts. She is holding a closed Japanese comic book, showing the colorful front cover artwork clearly to the camera. She is smiling peacefully. A fluffy Corgi dog is sleeping comfortably next to her. Next to them on the blanket are a straw hat and a vintage film camera. In the background, a vintage Japanese bicycle with a wicker basket is parked on a dirt path, surrounded by vast, lush green rice fields. Intense warm golden hour sunlight filtering through the dense tree leaves, creating sunbeams and dreamy lens flare. Kodak Portra 400, fine film grain, warm cinematic tones, faded shadows, Xiaohongshu summer aesthetic, nostalgic countryside vibe. Negative : open book, visible book pages, text inside book, upside down pages, mutated hands, deformed fingers, extra limbs, ugly, plastic skin, overly smooth, modern buildings, urban, 3d render, illustration, high contrast, oversaturated, watermark, bad anatomy.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "72.4K",
+    "likes": "14.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-79108389",
+    "title": "Translate findings for execs",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Translate findings for execs: Reframe a technical analysis as a business-ready slide or email",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
+    "likes": "10.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1796406864",
+    "title": "Short Vertical Video Clip of a Realistic City Suddenly Experiencing Co",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-333ba5db-8834-47b8-a370-4f5c57c3a823-short-vertical-video-clip-of-a-realistic-city-suddenly-ex.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Short vertical video clip of a realistic city suddenly experiencing confusion during morning rush hour, traffic lights malfunctioning, people looking lost, public transport delays, grounded urban chaos, premium realism, realistic lighting",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-559150943",
+    "title": "A High-Resolution 2x2 Grid Collage of Four Individual Portraits",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2041840872925606344-a-high-resolution-2x2-grid-collage-of-four-individual-por.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A high-resolution 2x2 grid collage of four individual portraits. In each square, a different young man peeks through a jagged, ripped hole in bright yellow seamless paper. The subjects have a 1990s indie-pop aesthetic with diverse hairstyles, including messy curls and dreadlocks. The lighting is soft and even, typical of a professional studio photoshoot. The color palette is dominated by the vibrant yellow paper against a neutral beige background visible through the tears. Cinematic quality, sharp focus, 8k resolution, editorial photography style. Key Elements Breakdown If you want to tweak the result, here are the specific descriptors that make this style work: Composition: 2x2 grid collage, quad split screen, peeking through a hole. Main Prop: torn yellow construction paper, jagged ripped edges, seamless paper background. Subject Style: Gen Z fashion, indie band aesthetic, 90s grunge-lite, youthful expressive faces. Technical Specs: flat lighting, low depth of field, clean studio photography, vibrant saturation.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2612450083",
+    "title": "Ultra-Realistic Bridal Portrait Collage, Beautiful Indian Bride in Sil",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062753997191315707-ultra-realistic-bridal-portrait-collage-beautiful-indian.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic bridal portrait collage, beautiful Indian bride in silver lehenga gown, elegant diamond jewelry, red lipstick, curly hairstyle, mehndi hands, double exposure composition, soft fog forest background, cinematic lighting, dreamy aesthetic poster, stylish \"Avelyrahn\" typography, high detail, 8k 4:6 ratio.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
     "likes": "10.3K",
     "timestamp": "Verified",
     "creator": {
@@ -1133,7 +4689,1211 @@ export const SAMPLE_PROMPTS: PromptItem[] = [
     "tags": [
       "NanoBananaPro",
       "Trending",
-      "Photorealistic",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-807486385",
+    "title": "Realistic Photography, Portrait of a Beautiful Korean Idol with Long S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2050959150973383060-realistic-photography-portrait-of-a-beautiful-korean-ido.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Realistic photography, portrait of a beautiful korean idol with long sleek straight black hair, a slim tall hourglass figure and elegant S-curve body line. She slightly lowers her head and looks at her phone, left arm bent and raised holding the phone, right arm hanging naturally at her side, torso upright yet relaxed, natural poised posture. She is wearing a white strapless bodycon mini dress and a black chain crossbody bag. The background is a stone wall with dappled tree shadows cast across it, creating a poetic and textured atmosphere. Fresh campus-inspired fashion editorial mood, youthful and lively yet refined. Expression: cool, aloof, slightly melancholic, with affectionate and soulful eyes; a lazy, distant gaze toward the camera, subtle emotional tension, cinematic sense of presence. Style and mood: dark-toned emotional portrait, immersive atmosphere, hazy aesthetic, retro undertone, slight surrealism, sophisticated and premium visual language, masterpiece composition, cinematic quality, award-winning photography feel, editorial mood portrait. Lighting: soft side lighting with gentle facial fill light, clear facial details, rim light on the hair, strong backlight accents and shadow tracing, dimensional facial features, smooth porcelain skin, soft glow, delicate skin texture, refined retouching, ultra-detailed realism. Composition: medium close-up to medium shot, shallow depth of field, foreground blur, background blur, rich image layering, strong visual depth, dramatic yet elegant framing, crisp face focus with soft atmospheric surroundings. Visual qualities: photorealistic, high-end beauty retouching, soft diffusion, subtle bloom, polished skin, clean tonal control, rich texture, high-resolution editorial photography, emotionally charged, cinematic, refined, atmospheric, striking and memorable. --2:3",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "90.4K",
+    "likes": "17.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-311430975",
+    "title": "- Ultra-Cinematic Luxury Haircare Product Photography of a Translucent",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-54354924-15f6-4ee8-91e7-45fc5a672025-ultra-cinematic-luxury-haircare-product-photography-of.webp",
+    "aspectRatio": "16:9",
+    "prompt": "- Ultra-cinematic luxury haircare product photography of a translucent amber Visual & Design Details:Bottle Shape: A clear, cylindrical bottle revealing the golden-hued oil inside, topped with a solid, sleek gold flip-top cap.Color Palette: A clean, nature-inspired palette using soft golds, whites, and dark blue accents for text and key callouts.Branding & Typography: The \"Prerana Wellness\" logo is clearly positioned. The label design is professional and organized, using a mix of clean sans-serif and elegant script fonts to highlight the product's natural benefits. the frame, perched on a curved piece of textured driftwood, featuring a minimalist label with crisp black typography and fine condensation droplets on the ; the bottle is framed by creamy white tropical flowers in full bloom and a single unopened bud, arranged symmetrically along the wood for sculptural balance, with slender vanilla pods resting in the foreground; background is a warm, desert-toned studio environment with sweeping shadow patterns cast across a soft sand-colored backdrop, creating a dramatic play of light and depth; lighting is high-contrast cinematic lighting with a strong directional key light from the left producing glowing highlights through the amber liquid, sharp rim lighting along the edges, and deep shadow falloff for a moody, editorial look; composition is a centered hero shot with a slight low-angle perspective and shallow depth of field, keeping the bottle razor-sharp while background elements dissolve into creamy bokeh; mood is elegant, mysterious, and high-fashion, evoking premium fragrance-inspired haricare advertising with hyper-realistic textures, dramatic contrast, cinematic atmosphere, and 8Kultra-high-definition realism.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4234646151",
+    "title": "Document a data pipeline",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Document a data pipeline: Generate docstrings, usage examples, and a data flow guide for a Python pipeline",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "66.7K",
+    "likes": "8.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1094046120",
+    "title": "The Tea House Grandma",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2063754042275139884.webp",
+    "aspectRatio": "16:9",
+    "prompt": "{ \"id\": \"tea_house_grandma\", \"title\": \"The Tea House Grandma\", \"character\": \"tiny elderly woman, silver hair bun, round glasses, soaked dark floral jacket, jade cane, calm unimpressed face, surprisingly fast martial arts precision\", \"enemy\": \"rain phantom made from steam, broken teacups, rainwater, and invisible pressure waves\", \"environment\": \"flooded wooden tea house during a thunderstorm, paper walls torn by rain, floating cups, steaming kettles, lantern reflections on water\", \"compiled_prompt\": \"15 seconds, 16:9, T2V, no reference image. High-energy martial arts sequence inside a flooded wooden tea house during a thunderstorm. Lead character: tiny elderly woman with silver hair bun, round glasses, soaked dark floral jacket, jade cane, calm unimpressed face, extremely fast precise movement. Keep her face, glasses, jacket, cane, and small scale consistent. Enemy is a rain phantom made from steam, broken teacups, rainwater, and invisible pressure waves. 0:00-0:03: Medium shot. The old woman stands ankle-deep in tea house floodwater, holding a teacup. She looks at the rain phantom and says: \\\"You are dripping on my floor.\\\" Steam and rain form a humanoid shape near the doorway. 0:03-0:06: Fast dolly shot as the phantom strikes; she blocks with the jade cane, teacup still balanced in her other hand, circular shockwave clearing rain for 0.3 seconds. 0:06-0:09: 360-degree orbit as she spins low across the water, cane jabs, sleeve deflections, teacup flicks sending hot droplets through the phantom body. 0:09-0:12: Side tracking shot as the phantom blasts tables apart; she shell-spins under flying wood, plants the cane, and kicks a kettle into a steam burst. 0:12-0:15: Low-angle hero shot. She sets the still-full teacup on a floating table plank and says: \\\"Wipe it up.\\\" The phantom dissolves into steam and rain behind her. Warm lantern light, cold storm windows, realistic steam and water, comic timing with lethal precision, no subtitles.\" }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1385335939",
+    "title": "Input Image into a Premium Designer Collectible-Art Toy Aesthetic",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-ced32ab6-5714-4a8d-93e4-e24741effba2-transform-the-input-image-into-a-premium-designer-collect.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Transform the input image into a premium designer collectible-art toy aesthetic. Preserve the subject's identity, pose, composition, and key features, but reinterpret everything as a highly detailed stylized vinyl/resin character. Features: Cute yet sophisticated designer toy proportions Large expressive eyes with subtle side-glance attitude Smooth polished skin and soft sculpted facial features High-end 3D render quality Hyper-detailed materials and textures Soft ambient global illumination Studio-grade lighting with gentle bloom Slightly exaggerated facial proportions Clean toy-like surface finish Premium collectible figurine appearance Styling: Add playful graphic stickers, pins, patches, charms, decals, that match the subject's personality Decorative details should feel curated and collectible, not random Fashion and clothing should remain inspired by the original image but elevated into designer-toy aesthetics Rich layered materials such as knit fabrics, glossy plastics, enamel pins, embroidered patches, metallic jewelry, and soft textiles Subtle freckles, texture details, and micro-surface imperfections for realism Composition: Centered portrait framing Magazine-cover presentation Bold oversized typography Modern editorial layout Minimal geometric UI elements Limited edition collectible packaging design language Clean visual hierarchy Luxury streetwear toy-brand aesthetic Color System: Extract the dominant color from the outfit Use that color as the primary background gradient Create monochromatic harmony between background and wardrobe Add small complementary accent colors through stickers and accessories Vibrant but cohesive palette Rendering: Ultra-detailed 3D character render Octane/Redshift/Cinema5D quality Sharp focus High contrast Soft depth of field Commercial toy photography Luxury collectible product shot Premium designer art toy aesthetic Contemporary street-culture collectible design",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "94.8K",
+    "likes": "21.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3907103890",
+    "title": "Negotiate a contract renewal",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Negotiate a contract renewal: Collaborative renewal email that opens terms discussion from a position of partnership",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2777570126",
+    "title": "FIFA World Cup 2026 Locked In Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066214316530094465-type-image-generation-prompt.webp",
+    "aspectRatio": "9:16",
+    "prompt": "type: image_generation_prompt { \"title\": \"Universal FIFA World Cup 2026 Locked In Poster\", \"aspect_ratio\": \"9:16\", \"style\": \"ultra-realistic cinematic sports poster\", \"quality\": \"16K UHD premium realism\", ntity\": \"[PLAYER_NAME or uploaded player]\", \"pose\": \"powerful side-profile portrait with intense focus\", \"expression\": \"determined, locked-in, championship mentality\", \"gesture\": \"one hand gripping the national team jersey near the badge\" }, \"wardrobe\": { \"kit\": \"[COUNTRY_NAME] official home jersey\", \"details\": \"authentic textures, federation crest, official FIFA World Cup 2026 sleeve patch, realistic fabric folds and stitching\" }, \"environment\": { \"background\": \"clean light grey textured sports poster canvas with futuristic geometric lines, subtle technical graphics and premium editorial composition\", \"effects\": \"dynamic paint splashes, energy streaks and particles inspired by the national colors of [COUNTRY_NAME]\", \"national_elements\": \"subtle stars, symbols and graphic motifs inspired by the country's identity\", \"atmosphere\": \"high-energy tournament anticipation\" }, \"lighting\": { \"type\": \"dramatic cinematic lighting\", \"rim_light\": \"colored rim lighting matching the country's flag\", \"highlights\": \"glossy skin reflections and realistic sweat details\", \"contrast\": \"strong sports-poster contrast\" }, \"composition\": { \"camera_angle\": \"close-up side profile\", \"framing\": \"upper body portrait\", \"depth_of_field\": \"shallow\", \"focus\": \"face, badge and jersey grip\" }, \"branding\": { \"tournament\": \"FIFA World Cup 2026\", \"logo\": \"official FIFA World Cup 2026 logo integrated elegantly\", \"color_palette\": \"official FIFA World Cup 2026 tournament colors combined with [COUNTRY_NAME] national colors\", \"headline\": \"\\\"LOCKED IN\\\" displayed in large modern typography\", \"subtitle\": \"[COUNTRY_NAME] \u2022 FIFA WORLD CUP 2026\" }, \"mood\": [ \"focused\", \"elite\", \"fearless\", \"national pride\", \"championship energy\" ], \"camera\": { \"lens\": \"85mm\", \"sharpness\": \"extreme detail\", \"rendering\": \"hyper-realistic sports illustration mixed with premium editorial poster design\" }, \"output_goal\": \"Create a world-class FIFA World Cup 2026 poster that works universally for any player and any country, featuring a side-profile portrait, jersey grip, explosive national-color energy effects, elegant tournament branding, and a powerful 'LOCKED IN' atmosphere worthy of an official promotional campaign.\" }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-57659318",
+    "title": "A Stylized 3D Character with a Street-Art Aesthetic Sits on a Wooden S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-951e412f-a563-4031-86cd-109dfc86cdfc-a-stylized-3d-character-with-a-street-art-aesthetic-sits.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A stylized 3D character with a street-art aesthetic sits on a wooden stool in a narrow, vertical alleyway bathed in intense, overhead emerald-green fluorescent lighting. The figure wears a bucket hat, futuristic wrap-around eyewear, and a layered streetwear jacket, extending a paint spray can toward the camera with a confident posture. The surrounding walls feature textured graffiti art, while scattered spray cans rest on the floor, creating a sense of urban spontaneity. The composition utilizes a low-angle perspective, emphasizing the character's dominance within the frame, while the lighting accentuates the matte and metallic material finishes of the clothing and accessories, casting soft, consistent shadows that ground the subject in the vibrant, monochromatic green environment. * **Style:** Stylized 3D character design, Pixar-esque render, urban streetwear aesthetic * **Key elements:** Graffiti artist, spray paint can, bucket hat, wrap-around sunglasses, vibrant green alleyway * **Lighting:** High-key overhead fluorescent tubes, saturated green color temperature, soft ambient fill * **Camera:** Low-angle wide shot, 24mm lens, forced perspective for dramatic scale",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "65.6K",
+    "likes": "7.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1100699179",
+    "title": "Luxury Sports Fashion Collage Editorial Featuring a Stylish Young Port",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-7de59ae8-4970-46a1-ba56-b9eeb0d790fd-create-a-luxury-sports-fashion-collage-editorial-featurin.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a luxury sports fashion collage editorial featuring a stylish young Portuguese woman in Portugal national football team colors. Premium magazine-cover quality, 6\u20138 different studio shots combined into one elegant collage layout. Include a mix of: Full-body standing pose with football Seated pose on a studio cube Over-the-shoulder glance Hand-on-hip confident pose Close-up beauty portrait Serious fashion editorial expression Soft smile portrait Dynamic ready-for-match stance Authentic Portugal-inspired kit in deep crimson red, green accents, dark shorts, matching socks, premium fabric textures. Professional studio backgrounds in deep red, burgundy, charcoal, dark green, and white. Clean seamless backdrop, cinematic lighting, luxury magazine retouching, ultra-detailed skin texture, sharp focus, high-end sports glamour. Editorial collage design, stylish magazine spread layout, balanced composition, premium fashion campaign aesthetic, Vogue-style sports photography, luxury brand campaign quality, 4K ultra realistic, elegant athletic femininity. No stadium, no crowd, no live match scene, no action photography, no news photography, no split-screen borders that look cheap. Make it look like an exclusive World Cup fashion editorial campaign for Portugal.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-429944411",
+    "title": "Luka Modri\u0107 Legacy Sports Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e5efcfb7-9cc9-4567-b3a2-476cfe102539.webp",
+    "aspectRatio": "16:9",
+    "prompt": "{ \"aspect_ratio\": \"4:5\", \"style\": \"ultra-realistic cinematic sports poster, premium movie-quality photography, legendary tribute design, hyper-detailed, 16K\", \"subject\": { \"player\": \"Luka Modri\u0107\", \"country\": \"Croatia\", \"jersey_number\": \"10\", \"national_team_kit\": \"official current national team jersey\", \"pose\": \"full-body triumphant stance with arms open, walking toward the viewer with confidence and legacy aura\", \"expression\": \"focused, determined, heroic\" }, \"composition\": { \"main_portrait\": \"a gigantic close-up portrait of the player dominates the upper half of the poster, looking upward with dramatic emotion\", \"center_figure\": \"a smaller full-body version of the player stands in front of the composition with arms spread wide\", \"number_design\": \"massive jersey number 10 fills the entire background, occupying most of the canvas and acting as a frame for multiple scenes and textures\", \"foreground\": \"official FIFA World Cup trophy positioned at the bottom center with cinematic golden glow\", \"signature\": \"elegant autograph-style signature integrated naturally on the right side\" }, \"inside_the_number\": { \"national_flag_textures\": \"subtle textures and colors inspired by Croatia's flag blended inside the number\", \"team_crest\": \"national federation crest integrated into the upper section\", \"landmarks\": [ \"[ICONIC LANDMARK 1]\", \"[ICONIC LANDMARK 2]\" ], \"cityscape\": \"night skyline and atmospheric scenery from Croatia\", \"stadium\": \"packed football stadium with thousands of supporters waving flags\", \"celebration_scene\": \"supporters, flares, confetti and championship atmosphere\", \"particles\": \"embers, sparks, smoke and floating dust\" }, \"lighting\": { \"style\": \"dramatic cinematic lighting\", \"highlights\": \"warm golden highlights with realistic skin textures\", \"atmosphere\": \"volumetric fog, glowing particles and epic contrast\" }, \"camera\": { \"main_portrait\": \"85mm lens, close-up hero shot\", \"full_body\": \"50mm lens, symmetrical composition\", \"depth_of_field\": \"shallow depth of field with premium bokeh\" }, \"color_palette\": { \"primary\": \"colors inspired by Croatia's national flag\", \"secondary\": \"gold accents and deep shadows\", \"mood\": \"epic, legendary, timeless\" }, \"quality\": [ \"hyper-realistic\", \"cinematic masterpiece\", \"movie poster quality\", \"16K ultra detailed\", \"HDR\", \"volumetric lighting\", \"realistic textures\", \"sharp focus\", \"premium sports photography\" ], \"output_goal\": \"Create a legendary tribute poster where the giant jersey number becomes the storytelling canvas itself, combining a monumental portrait, national pride, iconic landmarks, packed stadium atmosphere and the FIFA World Cup trophy into a timeless masterpiece worthy of football history.\" }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2440755548",
+    "title": "A Hooded Assassin Stands in a Void, Encased in Intricate Black Plate A",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-866be4a4-bd85-4310-97d7-d7368448ff31-a-hooded-assassin-stands-in-a-void-encased-in-intricate.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A hooded assassin stands in a void, encased in intricate black plate armor featuring etched channels of molten gold that emit a soft, bioluminescent glow. The subject grips two ornate dual blades, their edges traced with liquid golden filaments that cast shimmering specular highlights onto the surrounding dark, smoky atmosphere. The composition is centered and vertical, emphasizing the stark contrast between the matte, light-absorbing obsidian textures of the armor and the brilliant, high-intensity luminescence of the weaponry. Wisps of dark, ethereal vapor curl around the figure\u2019s feet, while the background dissolves into an impenetrable, low-key shadow, focusing all visual weight on the sharp, glowing geometry of the blades and the menacing, faceless silhouette of the masked warrior. * **Style:** Dark fantasy digital illustration, concept art * **Key elements:** Hooded warrior, obsidian plate armor, molten gold filaments, dual glowing blades, ethereal dark vapor * **Lighting:** Bioluminescent self-illumination, high-contrast chiaroscuro, warm golden accents against deep black * **Camera:** Full-body shot, eye-level, 85mm portrait focal length",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "87.1K",
+    "likes": "14.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3257474033",
+    "title": "Ultra-Premium FIFA World Cup 2026 Global Advertising Campaign Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064944092996686167-create-an-ultra-premium-fifa-world-cup-2026-global-advert.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Create an ultra-premium FIFA World Cup 2026 global advertising campaign poster featuring Cristiano Ronaldo representing Portugal. Aspect ratio 4:5 is mandatory. The final image must look like an official FIFA World Cup 2026 global marketing campaign photographed by a world-class sports fashion advertising agency. Hyper-realistic, photorealistic, luxury editorial sports photography, Nike Football campaign quality, ultra-detailed 8K resolution, sharp focus, premium textures, realistic skin rendering, realistic fabric rendering, award-winning commercial photography. REFERENCE LOCK: Use the provided official FIFA World Cup 2026 logo exactly as supplied. Do not redesign, modify, restyle, reinterpret, simplify, or recreate any element. Preserve exact proportions, trophy placement, typography, spacing, alignment, branding structure, visual hierarchy, and official appearance. The entire left-side campaign layout must remain identical to the reference and unchanged. LEFT SIDE COMPOSITION: Place the official FIFA World Cup 2026 logo vertically on the left side. Beneath it display premium editorial typography: FIFA WORLD CUP 2026 IS CALLING Add elegant small stars beneath the headline. At the bottom place: USA \u2022 CANADA \u2022 MEXICO JUNE 11 \u2013 JULY 19 This entire section must feel clean, premium, luxurious, minimalist, and untouched by any other design element. Strong editorial hierarchy, premium campaign styling, official FIFA advertising aesthetic. BACKGROUND: Create a rich deep Portugal green studio wall inspired by Portugal\u2019s national identity. The wall should feature subtle painted texture, realistic premium surface details, soft gradients, luxury studio finish, elegant tonal transitions, high-end advertising quality, and realistic commercial photography lighting. No stadium, no crowd, no cityscape, no landscape, no scenery. Only a premium studio environment. MAIN SUBJECT: Cristiano Ronaldo stands on the right side of the composition with full body visible from head to toe. He casually leans against the wall beside a vintage payphone booth. One hand is inside the pocket of his training pants. The other hand holds a vintage telephone receiver connected by a visible cable. Ronaldo is actively speaking into the receiver. Expression should be relaxed, charismatic, joyful, playful, confident, and effortlessly stylish. The image should feel as if FIFA has just called Ronaldo to represent Portugal at the FIFA World Cup 2026. WARDROBE: Ronaldo wears the official Portugal FIFA World Cup 2026 home jersey with authentic Portugal federation crest, official Nike logo, realistic stitching, premium fabric texture, authentic collar construction, sleeve details, athletic fit, and luxury sportswear realism. Include the official FIFA World Cup 2026 sleeve patch on the RIGHT sleeve only. The patch must be clearly visible, realistically embroidered, accurately proportioned, and naturally integrated into the fabric. TRAINING PANTS: Official Portugal Nike national team travel pants in deep Portugal green. Include Portugal federation crest and Nike branding. Tailored athletic fit, luxury football fashion styling, premium sportswear appearance, realistic folds and fabric texture. FOOTWEAR: Nike Air Jordan 1 Mid sneakers with Portugal-inspired colors: white, green, and red. Authentic Air Jordan proportions, premium leather materials, realistic stitching, clean luxury appearance, fashion campaign quality, coordinated perfectly with jersey and training pants. PAYPHONE BOOTH: Realistic vintage public telephone booth beside Ronaldo. Premium metallic construction, slightly weathered but elegant. Inside the booth include a blue telephone, keypad, coin slot, realistic wiring, visible handset cable. At the top of the booth display \u201cFIFA WORLD CUP 2026\u2122\u201d. The cable connecting the receiver to the phone must remain visible and realistic.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1690193236",
+    "title": "Refreshing Raspberry Lemonade Mocktail Served in a Clear Highball Glas",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-8b2472ae-843b-4d11-8007-5bdd2998dc64-refreshing-raspberry-lemonade-mocktail-served-in-a-clear.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Refreshing raspberry lemonade mocktail served in a clear highball glass filled with ice cubes, fresh raspberries, and thin lemon slices submerged in a pink sparkling drink. Garnished with mint leaves on top. Placed on a rustic wooden table surrounded by scattered fresh raspberries, lemon halves, and mint leaves. Bright golden sunlight streaming through a lush green garden background with beautiful bokeh effect. Summer beverage photography, ultra-realistic, vibrant colors, natural outdoor lighting, shallow depth of field, crisp details, refreshing atmosphere, commercial food photography, condensation droplets on glass, premium advertising quality, 8K resolution, sharp focus, healthy drink concept.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "80.3K",
+    "likes": "7.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2822738773",
+    "title": "High-Quality Stylized 3D CGI Pixar-Style Render, Vertical 3:4 Composit",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032557237437116521-high-quality-stylized-3d-cgi-pixar-style-render-vertical.webp",
+    "aspectRatio": "9:16",
+    "prompt": "High-quality stylized 3D CGI Pixar-style render, vertical 3:4 composition, the most iconic characters from [SHOW/MOVIE] captured as a chaotic and joyful bathroom mirror selfie; the most recognizable character holds a large vintage camera up toward the mirror, the remaining characters squeezed tightly into the frame around them, each showing their most signature expression or pose; everyone wearing their most iconic costumes and outfits faithful to the source material; all crammed together creating classic crowded selfie energy; facial proportions gently stylized in Disney/Pixar animation style with expressive eyes while faithfully preserving each character's most recognizable traits, hairstyles and costumes from [SHOW/MOVIE]; the bathroom mirror has realistic toothpaste splatters and subtle smudges; the reflection shows bold black Pixar-style lettering reading \"[SHOW/MOVIE]\u2764\ufe0f\"; the bathroom background is styled to match the world of [SHOW/MOVIE] with thematic props and easter eggs relevant to [SHOW/MOVIE] placed naturally around the scene; lighting combines soft ambient bathroom lighting with a bright camera flash reflecting in the mirror creating gentle specular highlights; warm Pixar-style color grading faithful to the visual tone of [SHOW/MOVIE], smooth highlight rolloff, refined Disney/Pixar cinematic character shading, ultra-detailed 4K render, no watermark",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "84.7K",
+    "likes": "11.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4022101160",
+    "title": "Crystal Logo Typography Visual",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062625480893771967-brand-name.webp",
+    "aspectRatio": "9:16",
+    "prompt": "[BRAND NAME] Act as a CGI Optical Physicist and 3D Type Sculptor creating a hero crystal typography visual for a luxury brand campaign. References: James Turrell light installations, optical physics photography, Rick Owens \u00d7 crystal aesthetics. PHASE 0: BRAND LOGO INTELLIGENCE Retrieve the 100% canonical, trademark-accurate logotype of [BRAND NAME] from training data \u2014 this is non-negotiable. Reproduce the exact proprietary typeface or custom lettering: every stroke weight, every curve tension, every terminal detail, every unique glyph modification. Do not substitute with a similar font \u2014 decode the actual trademarked letterform geometry. If [BRAND NAME] has a primary symbol or emblem \u2014 place it above or integrated with the wordmark exactly as in the official logo lockup. Fidelity test: a brand lawyer must recognize this as the correct logo, not an approximation. PHASE 1: CRYSTAL MATERIAL SYSTEM The canonical logotype of [BRAND NAME] is a fully 3D sculptural object made entirely of optical crystal glass \u2014 not metal, not plastic, not rubber. Material: optical borosilicate glass or synthetic crystal, IOR 1.85 to 2.1, maximum dispersion coefficient. The letterforms have physical volume and thickness \u2014 cross-section is consistent throughout each stroke, like letters carved from a single block of optical glass. Surface finish: polished to sub-micron smoothness on primary faces \u2014 all major faces mirror-flat and fully refractive. Edges between faces are sharp and precise \u2014 maximum chromatic dispersion occurs here. The material is optically pure in its core \u2014 zero bubbles, zero inclusions in the interior volume. CRITICAL \u2014 WEAR & IMPERFECTION SYSTEM: The crystal has been handled \u2014 it carries the history of physical existence. Apply these surface imperfections with restraint and realism, never overwhelming the dispersion beauty: micro-scratches \u2014 a sparse network of hairline scratches on the front and top faces, depth 0.01 to 0.05mm equivalent, visible only when light catches them at specific angles. They scatter light slightly, creating a faint matte haze in the scratch zone while surrounding surface remains mirror-clean. Scratches follow organic directional patterns \u2014 some parallel, some crossing, as if from handling and storage, never uniform or grid-like. Edge chips \u2014 2 to 4 very minor edge micro-chips along the sharpest edges and corners, each no larger than 0.5mm equivalent. These tiny imperfections catch light differently than clean edges \u2014 they create micro-flare events, small irregular sparkles where a chip breaks the otherwise perfect edge geometry. Surface haze zones \u2014 1 to 2 small irregular areas of very fine surface abrasion, like the glass has been lightly scuffed by contact with another hard surface. These zones appear as subtle frosted patches, 3 to 8% opacity maximum \u2014 barely visible, discovered rather than obvious. They slightly diffuse the refraction beneath them, softening the rainbow bands in that micro-zone only. Fingerprint ghosts \u2014 optional, extremely subtle \u2014 1 partial fingerprint trace on one face, visible only as a very faint oily interference pattern when light hits at oblique angle. Adds humanity to the object. All imperfections are surface-level only \u2014 the interior crystal volume remains optically perfect. The wear says this object is precious and real, not freshly manufactured. PHASE 2: LIGHT & DISPERSION SYSTEM Single collimated light source entering from upper-left at 35\u00b0 \u2014 focused, high-intensity, like a precision studio spot or filtered sunlight. As light passes through the crystal letterforms it undergoes full chromatic dispersion \u2014 splitting into the complete visible spectrum following Snell's law geometry with maximum physical accuracy. Dispersion behavior on faces: each polished face simultaneously reflects and refracts \u2014 where light exits or reflects, a full spectrum appears in strict physical order red \u2192 orange \u2192 yellow \u2192 green \u2192 blue \u2192 violet. Rainbow bands are sharp and laser-clean at their origin edges, softening and widening as they travel across faces. Micro-scratch zones interrupt the rainbow bands locally \u2014 creating fine scattered light filaments branching off the main dispersion paths. Internal reflections: light bounces between letter faces creating crossed and layered rainbow patterns inside the volume \u2014 letters glow from within, nearly dark at the core, exponentially brighter toward illuminated faces. Multiple internal reflection paths create 3 to 5 distinct rainbow events visible simultaneously inside each major letterform. Edge glow: every sharp edge emits thin intense white-blue luminous line from total internal reflection \u2014 edge chips create micro-flare interruptions at their locations, bright irregular sparkles punctuating the otherwise continuous edge glow. Chromatic aberration at all edges: red fringe on one side, blue-violet fringe on the other \u2014 physical dispersion, not decorative filter. The 3/4 angle reveals front face and top face simultaneously \u2014 each face receives different dispersion patterns, creating layered optical complexity. Top face rainbow pattern and front face rainbow pattern intersect at the top edge of each letterform, creating a zone of maximum spectral density. PHASE 3: BACKGROUND Background: pure absolute black (#000000 to #050505) \u2014 a light-absorbing void, no texture, no gradient, no reflected light. The crystal letters float in darkness \u2014 no surface beneath, suspended in void. No ambient light reaching the background. The only light in the image exists within and immediately around the letterforms. Dispersed rainbow light creates a very subtle colored haze in the immediate 2 to 4cm radius around each letter \u2014 soft spectral glow bleeding into the black void. Beyond that: absolute darkness. The letters are the sole light source in the scene. The micro-scratch haze zones appear as slightly cooler, slightly less luminous areas against the surrounding rainbow glow \u2014 their presence is felt rather than explicitly seen. PHASE 4: COMPOSITION CRITICAL \u2014 3/4 ANGLE: The logotype is rotated approximately 5 to 10\u00b0 on the horizontal axis and elevated 5 to 10\u00b0 on the vertical axis \u2014 a subtle, almost-frontal three-quarter view. The rotation is intentionally minimal \u2014 just enough to reveal the physical depth and thickness of the crystal letterforms, suggesting three-dimensionality without dramatically departing from a frontal logo presentation. The logo reads as nearly flat but unmistakably three-dimensional. This angle still reveals the top face of letterforms as a thin luminous sliver \u2014 enough to catch a secondary dispersion pattern distinct from the front face, adding optical depth without compositional complexity. Horizontal centering maintained. Logo occupies 60 to 70% of frame width. Full lockup visible if [BRAND NAME] has an emblem above or integrated with the wordmark. Aspect ratio: 1:1 square or 4:5 portrait \u2014 autonomously determine best fit for [BRAND NAME] lockup proportions. Full sharp focus across the entire sculpture \u2014 no depth of field. Every micro-scratch, every edge chip, every rainbow band in crisp simultaneous focus. Detail resolution: the image must reward close inspection \u2014 zooming in 400% should reveal new details not visible at normal viewing distance: individual scratch filaments, micro-chip geometry, secondary internal reflections, fingerprint interference patterns. PHASE 5: TECH SPECS Render: Octane Render with full caustics enabled at maximum quality settings. Ray tracing: minimum 16 bounces \u2014 increased from standard to capture all internal reflection events, secondary dispersion paths, and scratch-scattered light filaments. Dispersion: physically accurate wavelength-dependent IOR \u2014 full spectral rendering across visible light range 380nm to 700nm, not a color overlay or post-process effect. Scratch rendering: micro-scratches rendered as actual surface geometry displacement, not normal map approximation \u2014 true micro-geometry for physically accurate light scattering. Caustics: on at maximum intensity. Subsurface contribution: minimal \u2014 glass is not translucent like skin, but edges and thin stroke areas show faint internal light transmission. Anti-aliasing: maximum \u2014 every edge, every scratch filament razor clean. Sampling: minimum 2048 samples per pixel \u2014 no noise in the blacks, no grain in the rainbow bands. No post-process glow filters, no color grading, no compositing tricks \u2014 everything physically rendered from geometry and light. Output feel: the most detailed and physically accurate crystal typography ever rendered. Every imperfection is intentional. Every photon is accounted for.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "86.0K",
+    "likes": "13.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1338990295",
+    "title": "Brand Triptych Hero Banner",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2053158175138861411-brand-name.webp",
+    "aspectRatio": "9:16",
+    "prompt": "[BRAND NAME] Act as a Senior Brand Art Director creating a horizontal triptych hero banner \u2014 three vertical panels side by side forming a single unified wide-format campaign image. The entire composition is driven by [BRAND NAME]'s real brand identity, real campaign information, and real cultural associations. References: Adidas FIFA World Cup campaign, Nike hero banners, Puma campaign triptychs, luxury brand editorial hero images. --- PHASE 0: BRAND INTELLIGENCE \u2014 AUTONOMOUS RESEARCH Perform a complete brand decode of [BRAND NAME] before generating anything. COLOR SYSTEM: identify the exact two dominant colors [BRAND NAME] uses in hero campaign materials. Color 1: primary dark or neutral \u2014 the color used for portrait/product panels (black, deep navy, charcoal, or brand dark tone). Color 2: primary accent \u2014 the saturated vivid brand color used as the hero background for the central panel (hot pink for Adidas Argentina, signal orange for Nike, royal blue for Pepsi, etc). These two colors define the entire triptych \u2014 panels alternate or contrast between them. A brand designer must confirm these colors are correct. TYPOGRAPHY CHARACTER: identify the typographic style [BRAND NAME] uses for campaign hero text. Describe its visual character precisely \u2014 script italic for fashion campaigns, bold condensed grotesque for sportswear, extended serif for luxury. The central panel typography must feel native to [BRAND NAME]'s visual language. CAMPAIGN CONTENT: identify the most current or most iconic real campaign, product line, collaboration, or cultural moment associated with [BRAND NAME]. Extract: the campaign name, the hero product or collection name, a short product descriptor sentence (one real sentence used in [BRAND NAME] marketing), a CTA phrase consistent with [BRAND NAME]'s tone. CULTURAL FIGURE: identify one real public figure \u2014 athlete, artist, musician, or cultural icon \u2014 who has a documented genuine relationship with [BRAND NAME] through sponsorship, collaboration, ambassadorship, or cultural association. This person appears in the left panel portrait. --- PHASE 1: TRIPTYCH STRUCTURE Single horizontal image \u2014 aspect ratio 3:1 or 16:5 ultrawide. Three equal-width vertical panels placed side by side with no gap between them \u2014 the panels bleed into each other creating a seamless wide composition. Each panel is a tall vertical rectangle, approximately 3:4 aspect ratio individually. Panel 1 left: dark background (Color 1 from PHASE 0). Panel 2 center: vivid accent background (Color 2 from PHASE 0). Panel 3 right: same vivid accent background as center (Color 2) \u2014 or a slight variation. The three panels read as one unified image \u2014 photography bleeds to frame edges on all sides, typography spans across panel boundaries where relevant. --- PHASE 2: LEFT PANEL \u2014 PORTRAIT The left panel is a dramatic close-up portrait of the cultural figure identified in PHASE 0. Shot tight \u2014 head and upper shoulders only, approximately 60 to 70% of the frame is the face and neck. The figure is in profile or 3/4 view \u2014 looking toward the center panel, not at camera. This directional gaze pulls the viewer's eye toward the center. The figure is wearing [BRAND NAME] product visibly. Lighting: dramatic, single source \u2014 strong side lighting creating deep shadows on the non-lit side of the face. The dark background (Color 1) envelopes the figure \u2014 no environmental context, pure portrait against dark. Upper left corner: the figure's name in small caps, light color, generous tracking \u2014 \"LIONEL MESSI\" style attribution. Lower left corner: a white or light-colored rectangular content block containing: campaign or product title in bold medium type, one sentence product descriptor in small regular type, a CTA button with arrow \u2014 \"SHOP NOW \u2192\" style. --- PHASE 3: CENTER PANEL \u2014 TYPOGRAPHIC HERO The center panel is the most visually explosive element of the triptych. Background: Color 2 (vivid brand accent) at full saturation \u2014 pure flat color, no gradient. Two figures or one figure in a dynamic physical pose \u2014 movement, energy, action consistent with [BRAND NAME]'s brand world. The figures are wearing [BRAND NAME] products. The figures are positioned slightly off-center, overlapping with each other. REPEATING TYPOGRAPHY SYSTEM: a single key word from the campaign \u2014 a country name, collection name, product name, or brand word \u2014 is typeset in a large italic or script display typeface and repeated three times vertically across the full height of the panel. The three repetitions vary in size: top instance \u2014 medium, partially cropped by the top edge. Middle instance \u2014 largest, approximately 40 to 50% of panel height, sitting behind or over the figures. Bottom instance \u2014 medium-large, partially cropped by the bottom edge. All three instances are the same word. The typography color: a vivid contrasting color \u2014 white, hot pink, or a third brand accent \u2014 with high visibility against Color 2. The figures exist on a layer between the background color and the typography \u2014 they are behind some type instances and in front of others, creating depth. Above the figures: a small campaign identifier in all-caps tracked text \u2014 campaign name and trademark symbol. Below the figures: same campaign identifier repeated. --- PHASE 4: RIGHT PANEL \u2014 PRODUCT CLOSE-UP The right panel is a tight editorial crop of [BRAND NAME]'s hero product from the campaign \u2014 apparel, footwear, or accessory. The crop is intimate and detailed \u2014 showing the product at close range, revealing material texture, construction details, branding elements. Background: Color 2 (same as center panel) creating visual continuity. The product is worn or held by a partial figure \u2014 only a torso, hands, or legs visible, no face. A large graphic number or letter \u2014 a jersey number, collection code, or brand identifier \u2014 is positioned in the frame as a typographic accent, consistent with the treatment in the center panel. --- PHASE 5: TYPOGRAPHY SYSTEM All typography across the triptych uses the character identified in PHASE 0 \u2014 consistent visual language across all three panels. The repeating word in the center panel: italic, script, or bold display consistent with [BRAND NAME]'s campaign aesthetic. Attribution text, campaign identifiers, and CTA: clean sans-serif, all-caps, tracked \u2014 consistent with [BRAND NAME]'s informational typography. No decorative fonts outside the brand's documented visual language. --- PHASE 6: LIGHTING & PHOTOGRAPHY Left panel: dramatic portrait lighting \u2014 single strong side light, dark background, high contrast. Center panel: even bright studio lighting consistent with the flat vivid background \u2014 figures are cleanly lit, no heavy shadows. Right panel: product photography lighting \u2014 soft, revealing material texture and construction detail. All three panels feel like they were shot in the same campaign session \u2014 unified photographic language despite different lighting needs. --- PHASE 7: COMPOSITION UNITY The three panels must read as one image, not three separate images placed next to each other. Unity mechanisms: the typography from the center panel may bleed slightly into the edges of the left and right panels. The saturated Color 2 background of the center and right panels creates a visual block that anchors the right two-thirds of the composition. The dark Color 1 of the left panel creates contrast that makes the portrait pop. The figure's gaze in the left panel points toward the center. The overall reading direction: portrait left \u2192 typographic explosion center \u2192 product detail right. --- PHASE 8: TECH SPECS Aspect ratio: 3:1 or 16:5, single flat image \u2014 no separate panels, no borders between panels. Color palette: exactly Color 1 and Color 2 from PHASE 0, plus white or light neutral for typography. No additional colors. No gradients. No textures. Photography: editorial campaign quality \u2014 not stock photography. Typography: character consistent with [BRAND NAME]'s documented visual identity as described in PHASE 0. All campaign text, product names, and cultural figure attribution are real [BRAND NAME] data. Output feel: this image appears as the hero banner on [BRAND NAME]'s official website homepage or as a campaign outdoor billboard.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "77.0K",
+    "likes": "19.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4190548314",
+    "title": "You Are a World Class Creative Director, Brand Strategist",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2032185087534477643-you-are-a-world-class-creative-director-brand-strategist.webp",
+    "aspectRatio": "16:9",
+    "prompt": "You are a world class creative director, brand strategist, editorial art director, and visual identity designer specializing in high impact campaign systems for global fintech and technology brands. Your task is to create a bold, intelligent, visually striking campaign board that feels like a professional brand identity presentation for a modern fintech startup. Create a campaign layout composed of multiple tiles arranged in a dynamic brand grid layout (not a strict 3x3 grid). LAYOUT STRUCTURE: Top Row \u2022 one wide landscape hero tile \u2022 one square tile Middle Row \u2022 three square tiles Bottom Row \u2022 one square tile on the left \u2022 one wide landscape tile on the right Each tile should look like a piece of a professional brand campaign or identity board. BRAND NAME: [INSERT BRAND NAME] PRIMARY BRAND COLOR: [INSERT COLOR] SECONDARY BRAND COLOR: [INSERT COLOR] ACCENT COLOR: [INSERT COLOR] APP NAME: [INSERT APP NAME] OPTIONAL SLOGAN: [INSERT SLOGAN] PRODUCT TYPE: digital bank / fintech app / payment platform / neobank / crypto wallet / financial platform VISUAL STYLE: Modern fintech brand campaign mixing: \u2022 lifestyle photography \u2022 fintech product shots \u2022 smartphone UI screens \u2022 credit card product visuals \u2022 bold brand color graphics \u2022 abstract tech textures \u2022 minimal brand design layouts \u2022 outdoor advertising visuals The aesthetic should feel like a hybrid between: Stripe Nubank Cash App Revolut modern startup branding premium tech product advertising ART DIRECTION: The grid should combine multiple brand communication assets such as: \u2022 hero brand visual \u2022 mobile app interface \u2022 credit card product shot \u2022 lifestyle photos of people using the app \u2022 brand merchandise \u2022 color palette graphics \u2022 billboard campaign mockups \u2022 technology inspired abstract visuals Each tile should feel unique but visually cohesive within the same brand system. TILE IDEAS: TOP LANDSCAPE TILE Abstract fintech hero visual using brand colors with glass / liquid / digital textures and the brand logo centered. TOP RIGHT SQUARE TILE Branded merchandise such as hoodie, tote bag, or apparel with the brand logo and patterns. MIDDLE LEFT TILE Smartwatch or smartphone displaying the fintech app UI. MIDDLE CENTER TILE Close-up iPhone screen showing the fintech app dashboard. MIDDLE RIGHT TILE Brand color palette tile showing the official colors and minimal identity elements. BOTTOM LEFT TILE Lifestyle image of a young person using the app on their phone. BOTTOM RIGHT LANDSCAPE TILE Outdoor campaign billboard on a modern building with the slogan and brand campaign visual. VISUAL CHARACTERISTICS: \u2022 premium fintech branding \u2022 modern startup identity \u2022 bold brand color usage \u2022 editorial lifestyle photography \u2022 clean UI design visuals \u2022 modern advertising aesthetic \u2022 cohesive brand campaign system \u2022 high-end commercial photography IMPORTANT: This board should feel like a professional brand launch presentation for a global fintech company. Each tile should look like a different campaign asset but visually belong to the same brand identity system. AI GENERATION NOTES: clean modern layout brand presentation board design system grid minimal spacing between tiles professional brand identity board balanced grid composition premium advertising photography ultra high detail visualized as a modern startup brand identity board similar to a design presentation on Behance or Dribbble, cohesive campaign layout",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "79.2K",
+    "likes": "21.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-728815097",
+    "title": "Premium Travel-Food Advertisement Poster for Dubai",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-b14df0bd-5ff9-44e9-aad6-72ee3128ad77-ultra-detailed-premium-travel-food-advertisement-poster-f.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Ultra-detailed premium travel-food advertisement poster for [dubai], vertical composition, inspired by luxury Lay\u2019s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign.A cinematic spiral ribbon of sauce, cream, clouds, steam, or flavored swirl rises upward from the chips packet, dynamically wrapping around iconic landmarks, local foods, and cultural elements from [dubai].Floating ridged potato chips suspended naturally throughout the spiral motion, interacting with the landmarks and miniature travelers. The chips packet design must feel authentic to [GOW ENGINEERING& TECHNICAL SERVICE,KUMBAKONAM], featuring regional colors, typography, patterns, and local flavor inspiration while still clearly looking like a premium potato chips package.Include only the most iconic landmarks from [JOB BASED TRAINING], carefully spaced with clean composition and no clutter. Add miniature travelers naturally interacting with the environment:taking photosexploring landmarkssitting on floating chipsriding local transport recreate the prompt with GOW Engineering Technical & Services",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "82.5K",
+    "likes": "9.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-4065741861",
+    "title": "A Glossy, Anthropomorphic Purple Figure with a Celestial",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-6c7b88fd-c011-4221-ad7a-9d0849749be2-a-glossy-anthropomorphic-purple-figure-with-a-celestial.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A glossy, anthropomorphic purple figure with a celestial, star-filled tail rests on a plush, vibrant violet velvet sofa, positioned between two classical stone pillars. The scene is set against a backdrop of a swirling, iridescent nebula and a dense, sparkling starfield that casts a soft, ethereal glow over the foreground. The lighting is characterized by high-key rim light that emphasizes the smooth, reflective curves of the subject\u2019s silhouette, contrasting with the deep, saturated fabric textures. The composition frames the central figure from behind, utilizing the pillars to anchor the spatial depth while the cosmic background creates an expansive, dreamlike atmosphere with a soft focus on the peripheral stars.* **Style:** Stylized 3D digital art, surrealist fantasy* **Key elements:** Anthropomorphic purple figure, starry cosmic tail, velvet sofa, classical pillars, nebula background* **Lighting:** Ethereal rim lighting, high-contrast glow, cool violet and magenta color temperature* **Camera:** Medium shot, eye-level, wide aperture for soft background.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "87.1K",
+    "likes": "14.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-744397965",
+    "title": "FORMAT:4:5 Vertical Hyper-Commercial Chocolate Campaign Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-e02cf377-815e-4587-8f90-6914dc435bcb-format-4-5-vertical-hyper-commercial-chocolate-campaign-p.webp",
+    "aspectRatio": "9:16",
+    "prompt": "FORMAT:4:5 vertical hyper-commercial chocolate campaign poster, ultra-high resolution (8K), premium billboard + social media advertising readyStyle: bold FMCG advertising \u00d7 modern snack campaign \u00d7 energetic commercial poster design \u00d7 high-impact product photography\ud83e\udde0 CORE IDEA:THE BREAK EVERYONE WAITS FOR.A campaign built aroundimpact,craving,and satisfying motion.Everything in the composition reactsto the iconic KitKat snap.\ud83c\udfac MASTER COMPOSITION:BACKGROUND:Deep KitKat red environmentLayered with:- rich red gradients- chocolate texture overlays- dynamic motion streaks- subtle crumb particles- repeated typography patterns- glossy studio reflectionsThe atmosphere should feel:bold,hungry,energetic,commercially explosive.\ud83d\udc64 HUMAN SUBJECT:Young Gen-Z male/female modelExpression:playful,confident,mid-enjoyment momentPose:holding KitKat toward cameramid-snap actionCamera angle:slightly low + close perspectivefor product dominanceWardrobe:modern streetwear in neutral tonesallowing red palette to dominate\ud83d\udca5 VISUAL ENERGY:The SNAP becomes the visual explosion.At the break point:- chocolate shards flying outward- wafer crumbs suspended mid-air- liquid chocolate streaks- motion lines radiating from snapTypography physically cracks apartfollowing the KitKat break.Feels:satisfying,punchy,commercially exaggerated.\ud83c\udf6b PRODUCT HERO:[KitKat](chatgpt://generic-entity?number=0) chocolate bar + wrapperPlacement:foreground center-rightAngle:extreme 3/4 hero perspectiveProduct details:- hyper-real chocolate texture- visible wafer layers- glossy melted chocolate highlights- realistic crumbs- embossed KitKat logo- premium wrapper reflectionsChocolate should feel:crispy,rich,irresistible.\u270d\ufe0f TYPOGRAPHY SYSTEM:MAIN HEADLINE:\u201cBREAKTIME.\u201dTypography style:- ultra-bold condensed sans-serif- oversized stacked layout- white typography- extremely tight spacing- cracked/distorted around snap pointSECONDARY TEXT:\u201cHAVE A BREAK. HAVE A KITKAT.\u201dBACKGROUND TYPOGRAPHY:Repeated low-opacity words:SNAPCRUNCHBREAKCHOCOLATEWAFERMELTintegrated into background layers\ud83d\udce6 FEATURE INFORMATION STRIP:Bottom premium feature strip:\u25a1 CRISPY WAFER\u25a1 RICH CHOCOLATE\u25a1 ICONIC SNAP\u25a1 PERFECT BREAKMinimal modern icon system.\ud83d\udce3 CTA SECTION:BOTTOM LEFT:\u201cNEW SHARING PACK AVAILABLE\u201dCTA BUTTON:solid white rectangular buttonTEXT:\u201cGRAB NOW\u201dSecondary micro CTA:\u201cAvailable Online & In Stores\u201d\ud83c\udf10 WEBSITE + BRAND INFO:BOTTOM CENTER:www.kitkatBOTTOM MICROTEXT:\u201cNESTL\u00c9 KITKAT \u00b7 2026 EDITION\u201d\ud83c\udfa8 COLOR SYSTEM:PRIMARY:KitKat reddeep chocolate brownSECONDARY:white typographyACCENTS:warm chocolate highlightsgolden wafer tonesPalette should feel:bold,delicious,high-energy,commercial.\ud83d\udca1 LIGHTING SYSTEM:MAIN LIGHT:strong commercial studio key lightRIM LIGHT:warm chocolate highlights around productACCENT LIGHT:soft red glow behind snap motionATMOSPHERIC LIGHT:subtle floating particles catching lightREFLECTIONS:glossy FMCG-grade reflectionsLighting should feel:premium snack advertising \u00d7 modern commercial photography.\u2728 HYPER DETAILING:- ultra-real wafer texture- sharp chocolate break detail- floating crumb realism- melted chocolate reflections- premium wrapper texture- billboard readability maintained- ultra-clean typography edges- high-end FMCG rendering quality\ud83d\udcd0 COMPOSITION FLOW:Upper Frame:massive typography dominanceCenter:snap explosion + human interactionForeground:product heroLower-left:CTA + featuresEye flow:Headline \u2192 Snap \u2192 Product \u2192 Chocolate Motion \u2192 CTA\ud83c\udfa5 CAMERA & RENDER:- commercial food photography- Phase One medium format feel- 35\u201350mm lens- HDR commercial rendering- ultra-clean sharpness- premium FMCG color grading\ud83d\udd25 FINAL FEEL:Feels like:Nike energy campaign \u00d7 premium FMCG launch \u00d7 modern Behance commercial food poster.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "60.1K",
+    "likes": "17.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-728709768",
+    "title": "A Hyper-Realistic Cinematic Campaign Poster for Country",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2065814662395162799-a-hyper-realistic-cinematic-campaign-poster-for-country.webp",
+    "aspectRatio": "9:16",
+    "prompt": "A hyper-realistic cinematic campaign poster for [Country]. Thick [Color One] and [Color Two] smoke erupts from the streets and forms a colossal [Name Or Sign] national symbol inspired by [Country] above the crowd. Below, thousands of [Nationality] supporters celebrate in a city square with flags in [Flag Colors], scarves and flares. Dramatic evening stadium lights cut through the smoke, premium sports campaign, powerful composition, sharp realistic crowd detail, NEGATIVE: official logos, real player likenesses, incorrect flag, messy text, cartoon smoke, distorted faces, watermark Ultra-detailed cinematic World Cup 2026 campaign poster split into four seamless vertical sections representing Brazil, Spain, Morocco, and France. Each nation is celebrated by a colossal national symbol formed entirely from thick colored smoke rising above massive football crowds. Brazil section features green and yellow smoke forming Christ the Redeemer above Rio-inspired scenery and thousands of Brazilian supporters waving green-yellow flags. Spain section features fiery red and golden smoke forming a gigantic charging bull above a historic Spanish plaza packed with Spanish fans and red-yellow flags. Morocco section features crimson red smoke with a colossal emerald green pentagram star suspended in the sky above Marrakech-inspired architecture and passionate Moroccan supporters waving red-green flags. France section features blue, white, and red smoke forming a gigantic Gallic rooster towering above the Arc de Triomphe and a sea of French supporters waving tricolor flags. Dramatic stadium floodlights, flares, volumetric lighting, photorealistic smoke simulations, ultra-realistic crowd details, epic World Cup atmosphere, cinematic composition, symmetrical layout, premium sports advertising campaign, masterpiece, hyper-realistic, 8K, HDR, vertical poster. NEGATIVE: official logos, FIFA logos, real player likenesses, incorrect flags, messy text, captions, watermarks, low detail, cartoon smoke, distorted faces, extra limbs, blurry crowd, unrealistic lighting, duplicated people, oversaturated colors. Football",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "55.5K",
+    "likes": "12.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3560666046",
+    "title": "Character Setupcharacter 1: (reference Image @image 1)",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-85d15d2d-1dd8-4f96-894e-e2e1f298e9b3-character-setupcharacter-1-reference-image-image-1-w.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Character SetupCharacter 1: (Reference Image @Image 1); wearing Brazil national team No.10 home jersey (yellow base with green trim), blue shorts, white football socks and blue football boots. He wears an energetic and excited expression, with smooth and powerful movements. Character deformation and incorrect clothing color matching are strictly prohibited.Core Style SpecificationCinematic live-action short video style with intense visual impact; high-saturation warm gold palette paired with contrasting colors; sharp lighting effects resembling stage spotlights; dynamic motion blur to amplify the sense of speed; highly realistic imagery with rich texture details (jersey fabric, skin texture and granular surface of the football are all clearly rendered); bright, dense golden light particles float at accelerating speed to build dynamism; text adopts bold uppercase sans-serif font with heavy street-style distressed effect. The overall visual aesthetic is fiery and explosive with extreme impact, free of redundant elements.Production SpecificationsDuration: 6 seconds; Aspect ratio: 9:16 vertical screen; Rhythm: fast progressive pacing with strong kinetic energy.Scene & Spatial LayoutForeground: Character 1 dribbles and sprints forward, positioned slightly below the center of the frame as the absolute visual focal point.Midground: Dense, fast-rising streams of golden light particles surge behind Character 1 to create a strong sense of motion.Background: Brightly lit World Cup stadium stands filled with cheering spectators; processed with shallow depth of field blur to highlight the subject.Overlay (Upper frame): A large close-up of Character 1\u2019s bright smile (heavily blurred) is placed in the upper third of the frame; a waving Brazilian flag sits to the left of the close-up. Spanning the upper frame behind the close-up and the flag is large bold uppercase text \"BRAZIL\" with distressed effect. All overlay elements must not obscure the sprinting Character 1 in the foreground.Visual & Action Timeline (0\u20136 Seconds)With an excited smile, Character 1 strides forward and lifts his leg to kick the ball forward with force; the football flies out at high speed driven by smooth, powerful body movements. Golden light particles surge rapidly behind him; spectators in the background cheer and wave flags, the Brazilian flag waves prominently, and the distressed \"BRAZIL\" text remains static and clearly visible throughout the sequence.Cinematography StrategyLow-angle slow push-in shot: The camera gradually moves toward Character 1 from a distance, always keeping sharp focus locked on the running figure in the foreground. As the camera pushes in, the background and overlay layers gain subtle additional blur. In the final composition, Character 1 sits slightly below the frame center, with the large bust close-up above carrying the visual weight, creating intense dramatic tension.Audio DesignDeafening World Cup stadium cheers serve as background audio, layered with the sound of running footsteps, crisp and powerful impact of football boots striking the ball, and subtle rustling ambient sound of drifting golden particles. The overall sound design is full-bodied and explosive.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "62.3K",
+    "likes": "19.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1674253770",
+    "title": "Stylish Museum Heist Comedy Action",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2063169581473317099-style-3d-cinematic-animation-stylish-museum-heist-comed.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Style: 3D cinematic animation, stylish museum heist comedy-action, glossy lighting, playful suspense, expressive characters, 15-second vertical video pacing, 7 quick cuts [00:00-00:02] Wide 3D shot inside a grand museum gallery at night, with marble floors, tall columns, velvet ropes, glass display cases, and a valuable painting glowing under a spotlight on the far wall. A sneaky thief in a black outfit quietly enters from the shadows, tiptoeing with exaggerated confidence. SFX: quiet museum ambience, soft footsteps, suspenseful pizzicato strings. [00:02-00:04] Low-angle shot as red security laser lines activate across the gallery like a glowing web. The thief freezes, then smirks, raising one eyebrow as if the challenge is easy. Reflections of the lasers shimmer across the polished floor. SFX: laser hum, tiny electronic beeps, playful suspense music. [00:04-00:06] Dynamic side tracking shot as the thief moves through the laser grid with feather-light motion, bending backward, sliding sideways, stepping on one toe, and twisting past the beams with dancer-like precision. His coat barely misses the lasers. VFX: glowing red laser trails, slow-motion dust particles, soft floor reflections. SFX: fabric swish, soft whooshes, light comedic drum taps. [00:06-00:08] Close-up of the thief\u2019s face as he finally reaches the painting, looking proud and whispering, \"Too easy.\" He gently places one hand on the frame. The painting instantly flashes with a hidden sensor light. SFX: tiny click, sudden electronic chirp, suspense music cuts. [00:08-00:10] Fast wide shot as the entire museum alarm system erupts. Red lights flash, sirens scream, and metal security shutters begin lowering. The thief\u2019s confident smile collapses into panic. He looks around and says, \"Okay... not easy.\" VFX: flashing red alarm lights, blinking sensors, light haze. SFX: loud alarm, warning beeps, metal shutters. [00:10-00:12] Fast handheld 3D chase shot as guards rush into the gallery from both sides with flashlights, pointing toward the thief. He tries to step back, but the laser grid reactivates behind him, blocking his escape. He slowly raises his hands with a nervous smile. SFX: running footsteps, flashlight clicks, guard shouts, alarm continuing. [00:12-00:15] Final comedic wide shot as two guards calmly surround the thief while the painting remains safely on the wall. The thief stands trapped under the spotlight, hands raised, still holding only a tiny loose piece of tape from the frame. One guard says, \"Nice dancing.\" The thief sighs and replies, \"Thank you.\" End on the thief looking embarrassed as the red alarm lights flash around him. SFX: siren fading slightly, comedic bass hit, final playful music sting.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "69.1K",
+    "likes": "11.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1141579273",
+    "title": "World Cup Stadium Player Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064584543135465882.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"type\": \"image_generation_prompt\", \"subject\": { \"main_subject\": \"[Player Name]\", \"identity_preservation\": \"100% accurate facial features, hairstyle, body proportions and likeness\", \"pose\": \"Dynamic mid-air flying or diving pose with arms extended, viewed from behind or slightly side angle\", \"expression\": \"Legendary, determined and emotional\", \"wardrobe\": \"Official national team kit with accurate colors and authentic tournament details\" }, \"centerpiece\": { \"description\": \"The official FIFA World Cup trophy standing at the exact center of a gigantic modern football stadium\", \"importance\": \"The trophy is the dominant focal point of the composition\", \"scale\": \"Monumental cinematic scale\" }, \"environment\": { \"location\": \"Official FIFA World Cup 2026 stadium\", \"surroundings\": \"Massive cityscape, clouds, atmospheric haze, distant landscapes and realistic Earth curvature\", \"crowd\": \"Subtle realistic crowd detail\", \"architecture\": \"Modern stadium with accurate seating sections and pitch markings\" }, \"camera\": { \"perspective\": \"Extreme aerial perspective from thousands of feet above Earth\", \"angle\": \"Looking downward with slight tilt\", \"composition\": \"Circular vortex composition leading the eye directly toward the trophy\", \"lens\": \"Ultra-wide cinematic lens\", \"motion\": \"Subtle motion blur creating dynamic speed and energy\" }, \"lighting\": { \"time\": \"Golden hour\", \"effects\": \"Volumetric clouds, sun rays, atmospheric depth, lens flare, realistic reflections\", \"style\": \"Premium sports campaign lighting\" }, \"official_elements\": { \"branding\": \"Official FIFA World Cup 2026 logo and official tournament color palette\", \"presentation\": \"Authentic FIFA promotional poster aesthetic\" }, \"quality\": { \"resolution\": \"16K\", \"style\": \"Ultra-realistic cinematic sports photography\", \"render_quality\": \"Unreal Engine 5 quality\", \"textures\": \"Photorealistic materials and realistic metallic reflections\", \"color_grading\": \"Premium commercial advertising grade\", \"detail_level\": \"Extreme realism\" }, \"mood\": { \"emotion\": \"Legacy, destiny, glory and the final journey\", \"atmosphere\": \"Epic, emotional and iconic\" }, \"negative_prompt\": [ \"multiple players\", \"cartoon style\", \"fantasy elements\", \"incorrect anatomy\", \"duplicate subjects\", \"watermark\", \"text\", \"low quality\", \"blurry face\", \"extra limbs\" ], \"aspect_ratio\": \"9:16\", \"output_goal\": \"Create an official FIFA World Cup 2026 cinematic poster featuring a single legendary football player flying toward the giant World Cup trophy at the center of a massive stadium, viewed from thousands of feet above Earth, with swirling clouds, golden-hour lighting and premium sports advertising realism.\" }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "90.4K",
+    "likes": "17.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1508829810",
+    "title": "Craft a product update notice",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Craft a product update notice: Announce a feature so customers feel it was built for their workflow",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "59.0K",
+    "likes": "16.1K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2659786448",
+    "title": "Fashion VN Magazine Cover",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-a1bd645b-c784-4b67-ba0a-f89047bd6966-project-type-name-fashion-vn-magazine-cove.webp",
+    "aspectRatio": "16:9",
+    "prompt": "{ \"project_type\": { \"name\": \"Fashion VN Magazine Cover\", \"style\": \"Editorial typography cover, raw photography\", \"aspect_ratio\": \"3:4\", \"resolution\": \"8K\" }, \"reference_images\": { \"face_reference\": { \"file\": \"vanlinh2.jpg\", \"instruction\": \"Use strictly for exact facial features, eye shape, and peach lips. Do NOT inherit the sweater or background.\" }, \"clothing_reference\": { \"file\": \"set29.jpg\", \"instruction\": \"Use strictly for the ivory/burgundy ruffled dress with 3D roses. Exact replica of bodice and skirt.\" } }, \"typography_and_layout\": { \"title\": \"Large bold elegant serif text 'Fashion VN' across the top center\", \"elements\": [ \"magazine cover layout\", \"fashion editorial cover lines in small font\", \"barcode at bottom corner\" ] }, \"subject\": { \"face\": \"Exact match to vanlinh2.jpg\", \"hair\": \"Elegant messy updo, dark brown\", \"makeup\": { \"skin\": \"Raw, unretouched, visible pores, natural skin texture, NOT smooth\", \"lips\": \"Glossy peach\" } }, \"clothing\": { \"dress\": \"Exact match to set29.jpg: ivory sweetheart bodice, deep burgundy cascading ruffled skirt, 3D fabric roses\" }, \"pose\": { \"shot_type\": \"Full body magazine cover shot\", \"posture\": \"High-fashion editorial pose, standing straight, showing full dress volume\" }, \"environment\": { \"setting\": \"Professional magazine studio\", \"background\": \"Solid muted grey backdrop to make the dress and red text pop\" }, \"photography\": { \"style\": \"Raw unretouched photo, high-end editorial\", \"lighting\": \"Studio flash, hard light creating crisp shadows\", \"camera\": \"Hasselblad medium format, 85mm lens\" }, \"negative_prompt\": [ \"plastic skin\", \"smooth skin\", \"airbrushed\", \"cgi\", \"3d render\", \"different face\", \"wrong dress\", \"missing roses\", \"casual background\", \"deformed anatomy\" ]}",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-524924405",
+    "title": "Coastal High-Angle Smartphone Portrait",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2013189624848633963.webp",
+    "aspectRatio": "9:16",
+    "prompt": "{ \"format\": { \"type\": \"editorial\", \"intent\": \"candid/selfie/accidental\", \"aspect_ratio\": \"9:16\", \"resolution\": \"4K\" }, \"camera_system\": { \"body\": \"iPhone 15 Pro\", \"lens\": \"Main Camera\", \"focal_length\": \"24mm\", \"associative_traits\": \"computational photography, deep depth of field, sharp digital readout, auto-exposure\" }, \"subject\": { \"identity\": \"young woman with specific porcelain doll features\", \"physical_details\": \"flawless pale skin, large round icy blue eyes with defined lashes, small defined nose, pouty neutral mouth, platinum blonde hair in two tight braids, vibrant blue manicured nails\", \"clothing\": \"light blue form-fitting top with a very deep, wide plunging V-neckline revealing significant cleavage\", \"action\": \"high-angle selfie POV, shielding eyes with one hand against bright coastal light, looking up at camera\", \"expression\": \"neutral, wide-eyed, deadpan, vacant doll-like stare\" }, \"lighting\": { \"source\": \"bright natural coastal daylight + sand bounce\", \"direction\": \"overhead and omnidirectional fill\", \"quality\": \"soft, diffused but very bright\", \"color_temp\": \"neutral daylight (5500K)\", \"fill\": \"maximum fill from bright white sand reflection\", \"distribution\": \"even illumination, few shadows, flattering on skin texture\", \"intent\": \"bright beach day\" }, \"environment\": { \"setting\": \"sandy beach during the day\", \"hero_materials\": [ { \"material\": \"sand\", \"micro_detail\": \"fine white grains, highly reflective\" }, { \"material\": \"fabric\", \"micro_detail\": \"light blue swimwear/stretch cotton blend\" }, { \"material\": \"skin\", \"micro_detail\": \"smooth, poreless, porcelain texture, slightly dewy from heat\" } ], \"objects\": \"ocean horizon line blurred in far background, expansive sand\", \"state\": \"bright, sunny, coastal\" }, \"technical_finish\": { \"film_stock\": \"Digital Source\", \"exposure\": \"brightly exposed (high key)\", \"grain\": \"none/digital noise\", \"tone_curve\": \"linear neutral\", \"color_science\": \"pastel palette (light blues, white sand, pale skin), natural daylight colors\" }, \"constraints\": { \"avoid\": [ \"snow\", \"winter clothes\", \"red nails\", \"black top\", \"modest neckline\", \"heavy shadows\" ], \"must_include\": [ \"blue nails\", \"light blue top\", \"deep cleavage\", \"beach background\", \"porcelain doll features\" ] } } }",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "88.2K",
+    "likes": "15.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2117077858",
+    "title": "Prepare QBR internal notes",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Prepare QBR internal notes: Anticipate customer concerns and prepare talking points before the review",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "61.2K",
+    "likes": "18.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2695812143",
+    "title": "Subject and Composition a Solitary, Rugged Rocky Islet Standing as a S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-474f45d6-5c8d-4209-bd24-22e4436885b4-subject-and-composition.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Subject and Composition A solitary, rugged rocky islet standing as a stark, sharp-edged silhouette against a colossal, luminous magenta moon that dominates the upper horizon. Wide-angle, 16mm lens perspective at eye-level, capturing the vastness of the scene with infinite depth of field. Dense, intricate foliage on the islet rendered as dark, organic masses, each leaf and rock texture defined with precision against the celestial glow. Lighting and Atmosphere High-contrast backlit lighting, with the moon casting a saturated magenta glow that creates intense, crisp rim lighting along the jagged edges of the island. The background sky features a smooth gradient transitioning from deep indigo to a subtle cyan horizon, densely packed with fine, star-dusted detail. The calm ocean surface acts as a dark, polished mirror, featuring rhythmic horizontal specular highlights in vibrant pink that ripple toward the foreground with photographic clarity. Visual Style Synthwave digital art aesthetic, high-end CGI rendering with precise edge definition. The imagery utilizes sophisticated color grading, extreme saturation contrast, and a clean, sharp aesthetic to emphasize the interplay between organic, porous rock textures and the smooth, reflective, glass-like expanse of the water. Constraints No text, watermarks, or logos. No blurry or out-of-focus elements. No chaotic or distorted landscape shapes. No oversaturated neon bleeding into the shadows. No low-resolution artifacts, chromatic aberration, or digital noise.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-260697850",
+    "title": "Draft a deprecation notice",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Draft a deprecation notice: Retire a feature with honesty, a clear migration path, and enough lead time",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "63.4K",
+    "likes": "20.5K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-203886958",
+    "title": "Professional Luxury Birthday Poster, 3:4 Portrait Composition, Ultra H",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2064903441806450903-professional-luxury-birthday-poster-3-4-portrait-composi.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Professional luxury birthday poster, 3:4 portrait composition, ultra high-end studio photography aesthetic. Premium off-white textured paper wall background with subtle grain and depth. A large number [Age] is precisely carved into the wall with realistic thickness, beveled edges, and deep inner shadows creating strong 3D depth. Inside the number: soft pastel pink balloons, elegant white flowers, and luxury bouquet arrangement with minimal premium styling. A happy [Age]-year-old child with preserved facial identity, wearing a milky white T-shirt and pastel pink denim overalls, laughing naturally. Face, shoulder, one hand, and one foot extend outside the carved number, creating a realistic 3D pop-out effect. Warm cinematic golden sunlight from one side, soft rim light, ultra-realistic skin texture, studio-quality lighting, clean natural shadows, photorealistic rendering. Typography on wall: [Name] CHAPTER [Age] [Age] 365 MORE DAYS OF WONDER. Minimal luxury editorial layout, high-end magazine cover style, perfect composition, soft contrast, natural colors, no distortions, no Al artifacts.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "73.5K",
+    "likes": "15.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-25739889",
+    "title": "Ultra-Realistic Sports Fan Portrait Poster, Beautiful Young Woman with",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-9facc880-7cac-445f-8bba-aeef1c7a8eb4-ultra-realistic-sports-fan-portrait-poster-beautiful-you.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-realistic sports fan portrait poster, beautiful young woman with long wavy dark brown hair sitting in a packed football stadium, wearing a white black-trimmed sports jersey with the number 23, face paint in black-red-gold stripes on her cheek, pearl choker necklace, cinematic lighting, shallow depth of field, large stadium screen in the background showing a football match, confetti falling, energetic crowd atmosphere, editorial fashion photography, highly detailed skin texture, dramatic bokeh, premium sports advertisement design, yellow hand-drawn doodle crown and star elements around the subject, bold brush typography reading \"World Cup Vlog\" on the left side, black, white and gold color palette, dynamic composition, professional poster layout, ultra sharp focus, 8k resolution, vibrant colors, photorealistic, trending on Behance, sports influencer thumbnail style",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "77.0K",
+    "likes": "19.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-659547622",
+    "title": "Distill meeting notes",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Distill meeting notes: Clean up messy notes into a clear summary and next steps",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "84.7K",
+    "likes": "11.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2912246159",
+    "title": "Yellow Seaplane Diving Over a Tropical Coastline",
+    "category": "video",
+    "model": "Veo 3 & Sora",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/video/thumb/2043707867463844234-a-hyper-realistic-high-cinematic-aerial-drone-shot-of-a.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A hyper-realistic, high-cinematic aerial drone shot of a vintage yellow seaplane performing a high-speed, evasive dive-turn over a rugged tropical coastline. The scene is bathed in bright, mid-morning sunlight, emphasizing the vibrant colors and intricate details of the natural environment.\", \"shot_breakdown\": [ { \"time_seconds\": 0.0, \"event\": \"START_SCENE\", \"details\": { \"camera\": { \"type\": \"fixed high-angle, cinematic drone shot\", \"perspective\": \"directly above the plane, slightly behind it\", \"lens\": \"wide-angle, f/1.8 aperture with a subtle vignette\" }, \"environment\": \"Clear blue sky, high-altitude cirrus clouds in the distance. The sun is at a 45-degree angle, creating sharp shadows and bright highlights on the water.\", \"subject_action\": \"The yellow seaplane, a vintage DHC-2 Beaver model, enters the frame violently from the top, not in stable flight but in a controlled, accelerating dive, banking sharply.\" } }, { \"time_seconds\": 2.0, \"event\": \"MID_ACTION\", \"details\": { \"camera\": { \"movement\": \"dynamic drone tracking, aggressively following the plane's steep dive and twist\" }, \"environment\": \"Focus on the water below: turquoise at the shoreline fading to deep sapphire. The seafloor is visible with intricate coral reef formations, rocky outcrops, and shifting sand patches. Realistic light caustics shimmer and dance on the ocean bed.\", \"subject_action\": \"The seaplane's twin pontoons are inches from the water. A massive, chaotic burst of sea spray and white vapor (contrail) erupts violently from the pontoons and tail, swirling in turbulent vortexes caused by the extreme low-altitude maneuver. The plane's propellers are a realistic motion blur.\" } }, { \"time_seconds\": 5.0, \"event\": \"KEY_MOMENT\", \"details\": { \"camera\": { \"movement\": \"rapid zoom-out and dynamic pivot to reveal the unexpected: a pod of manta rays below is scattering in panic from the plane\u2019s shadow and the water disturbance.\" }, \"environment\": \"The rocks are covered in patches of dark, wet algae and dried, salt-stained textures. Individual droplets of water spray from the shoreline. The soundscape includes the distant hum of the seaplane engine and the gentle lapping of waves.\", \"subject_action\": \"The plane continues its path, the vapor trail now a long, visible ribbon stretching behind it. Small, iridescent sun glints reflect off the plane's yellow fuselage and cockpit windows.\" } }, { \"time_seconds\": 8.0, \"event\": \"END_SCENE\", \"details\": { \"camera\": { \"movement\": \"camera slowly pans up and away, following the plane as it exits the bottom of the frame\" }, \"environment\": \"The vapor trail lingers and begins to dissipate, leaving a ghostly white ribbon on the turquoise water. The vibrant colors of the landscape become the main focus.\", \"subject_action\": \"The plane disappears from view, leaving the serene, highly detailed coastline and sea as the final image.\"",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "85.8K",
+    "likes": "12.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "Veo3Video",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1197676953",
+    "title": "<instructions> Role: You Are a Lead 3D Artist at a Premium Collectible",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-14d6e5b3-4999-4210-bb66-877797a20435-instructions.webp",
+    "aspectRatio": "9:16",
+    "prompt": "\\x3Cinstructions> Role: You are a Lead 3D Artist at a premium collectible company Input Variable: Egypt System Instruction: Generate a 2x2 Grid of High-Fidelity Designer Vinyl dioramas. Logic: Curate 4 distinct, less known cities related to the Input Variable. Condense the complexity of the city into a detailed vignette, rather than over-simplifying it. 1. The Toy Physics (The \"Premium\" Rule): Geometry: High-Fidelity Vinyl. Maintain the specific architectural silhouette of the region (e.g., if the city has pagodas, keep the tiers; if it has domes, keep the arches). Detailing: Use \"Intricate Softness.\" Edges are still beveled/chamfered (no razor-sharp edges), but surfaces should feature molded details like window frames, brick textures, and roof shingles. Density: The scene should feel \"lived-in\" and dense. Pack buildings close together to create narrow alleys or busy skylines within the baseplate limits. Material: Premium Matte Vinyl with slight subsurface scattering. It should look expensive and substantial. 2. Semantic Analysis : Analyze the Architecture: For each chosen city, identify its unique \"visual signature\" (e.g., Timber framing, neon signage, terracotta tiles, brutalist concrete) and translate that into the vinyl mold. Analyze the Geography: If the city is coastal, mold waves into the base. If it is mountainous, stack the buildings vertically. 3. Container: The Base: Thick, rounded-square baseplate. The Text: Embossed, Sans-Serif White Text identifying the location on the front face. Color Coding: The base color must be a pastel derivative of the city's dominant atmospheric color. 4. Narrative: Population: Increase figure count to 3-4 tiny \"peg\" people per scene interacting with the environment. Props: Include specific regional props (e.g., vending machines, street lamps, market stalls) to add scale and clutter. 5. Render Settings: Lighting: Bright, soft Global Illumination. Ambient Occlusion enabled to highlight the grooves and details in the vinyl. Palette: Rich & Muted. Use a slightly wider color gamut to distinguish building materials, but keep the overall tone cohesive and \"toy-like.\" Engine: Octane Render, \"Macro Photography,\" Depth of Field focus on the center of the city. Output: 2x2 Grid, Isometric View, High-Detail Vinyl Aesthetic, Text on Bases. \\x3C/instructions>",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "81.4K",
+    "likes": "8.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1179854095",
+    "title": "Premium 3D Stylized Version of Attached Logo, Rendered as Thick, Trans",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2043753023004954753-a-premium-3d-stylized-version-of-attached-logo-rendered.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A premium 3D stylized version of attached logo, rendered as thick, translucent crystal glass with high refraction. The object is floating amidst fluffy, realistic white cumulus clouds against a bright, clear blue sky. Soft natural sunlight creates bright caustic reflections and rainbow dispersion within the glass. Ethereal, airy, and highly polished 3D aesthetic",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "54.4K",
+    "likes": "11.0K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1178279947",
+    "title": "A Beautiful Young Adult Chinese Internet Celebrity Woman in Her mid-20",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2066355720866640078-a-beautiful-young-adult-chinese-internet-celebrity-woman.webp",
+    "aspectRatio": "16:9",
+    "prompt": "A beautiful young adult Chinese internet celebrity woman in her mid-20s sitting inside a lively Japanese izakaya during a World Cup match. She has a fuller curvy feminine figure with a pronounced natural S-shaped silhouette, soft voluptuous body lines, fuller bust and hips, defined slim waist, elegant waist-to-hip contrast, long graceful legs, realistic anatomy, visible collarbones, luminous fair skin with realistic texture, glossy highlights, healthy feminine beauty, and a confident playful presence. Her body shape should feel naturally full, feminine, soft, and photorealistic rather than exaggerated or artificial. Pose: seated casually at a wooden izakaya table with a cute thoughtful \u201c\ud83e\udd14\u201d expression. She leans slightly forward, one elbow resting on the table, fingers lightly touching her chin as if analyzing the match. Her body is slightly turned toward the camera, subtly emphasizing her fuller curves, defined waist, and elegant S-shaped silhouette. One leg crosses naturally over the other, creating a graceful long-leg line, with glossy black pantyhose catching the direct flash highlights. The pose feels candid, stylish, soft, feminine, and story-driven.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "53.3K",
+    "likes": "10.4K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1093559062",
+    "title": "Character: Firefly (liuying) from Honkai: Star Rail 2 AM Candid Phone ",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2062425721256264123-character-firefly-liuying-from-honkai-star-rail.webp",
+    "aspectRatio": "9:16",
+    "prompt": "Character: Firefly (Liuying) from Honkai: Star Rail 2 AM candid phone snapshot. Live-action version of Firefly, clearly adult, preserving her signature hairstyle, colors, and iconic accessories, caught sleeping by a travel companion. Setting: cyber sci-fi rest cabin true to Star Rail's aesthetic. Alloy walls, neon window glow, electronic gear, faction insignia. Messy from a real night's stay, not staged. She collapsed mid-journey, exhausted. A friend photographed her from beside the bed, capturing the contrast between her usually strong presence and her completely unguarded sleep. Refined Korean-style features: large clear eyes closed, delicate nose and lip lines, fair luminous cream skin with natural texture. Mature curvy silhouette, soft shoulder line, defined waist, long legs, elegant S-curve. Deep sleep: hair spread and messy, strands across cheek and forehead, mouth slightly open, expression fully relaxed. Wearing a lore-fitting sleepwear set with short sleep shorts, buttons undone, fabric rumpled. Body naturally covered by quilt and pillow. PBR skin texture. Light sweat highlights on collarbone, shoulders, abs, and thighs. Warm front-left rim light, cold right contour light defining hair and shoulders. Shallow depth of field, vignette. Messy bed: rumpled sheets, half-open quilt, travel items and faction markers on nightstand. Mission documents, a badge, electronics, accessories, character-specific props from the Star Rail world. Phone flash plus faint ambient neon. Slight overexposure on skin and fabric edges, darker background. Phone HDR look, social media compression feel, mild motion blur, natural grain. 9:16 vertical, 24mm wide angle, slightly tilted. Friend's angle from beside the bed, slightly above. Full body barely fits in frame. Candid travel documentation feel, not a posed shoot.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "76.8K",
+    "likes": "18.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2265848778",
+    "title": "Underground Street Culture Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/2039795053237858362-brand-name.webp",
+    "aspectRatio": "16:9",
+    "prompt": "[BRAND NAME] Act as a Senior Street Culture Art Director and Editorial Designer specializing in authentic underground magazine covers and campaign posters that feel documentary rather than commercial. Your reference universe: Thrasher Magazine, i-D, The Face, Dazed \u2014 raw, real, typographically bold. BRAND INTELLIGENCE SYSTEM Before executing, resolve: (1) HERO SUBJECT \u2014 identify the most authentic human archetype or iconic product moment associated with [BRAND NAME]'s world. Autonomously determine what this looks like based purely on the brand's identity \u2014 a person interacting with the brand's hero product in their most natural environment, or the hero product itself as the sole subject if no human archetype is more powerful. The subject must feel like it belongs to this brand's specific world \u2014 not borrowed from another brand's cultural universe. Never default to skateboarding, skating, or street sport unless [BRAND NAME] is specifically and primarily a skate brand, (2) ENVIRONMENT \u2014 the most iconic real-world location context for [BRAND NAME]'s subject \u2014 not a studio, always a real place with atmosphere: a rooftop, a street, a race track, a kitchen, a parking lot, a coastline, a salon, a garage, a runway, (3) BRAND WORDMARK STYLE \u2014 identify how [BRAND NAME]'s name would look rendered as a rough hand-painted or chalk brushstroke headline \u2014 the texture and character of the lettering must feel native to the brand's specific subculture and communication style, (4) NEON ACCENT COLOR \u2014 identify one single neon or highly saturated accent color that feels culturally connected to [BRAND NAME]'s world \u2014 this will be used exclusively for the graffiti tag overlay and nowhere else, (5) QUOTE LINE \u2014 autonomously generate a short authentic-sounding quote or phrase in [BRAND NAME]'s voice \u2014 4\u20136 words, raw and real, not corporate, not generic. PHASE 1: PHOTOGRAPHY BASE The entire image is built on a real location photograph \u2014 not a studio shot, not a white background, not a cyclorama. The environment resolved in the brand intelligence system is the setting. Natural or available light only \u2014 no softboxes, no controlled studio lighting. The light should feel like it was taken at golden hour, overcast day, or in existing ambient conditions. Camera angle: dynamic and committed \u2014 low angle looking up for power, or a dramatic dutch tilt for tension, never flat eye-level. The subject is captured at peak energy \u2014 the single most alive frame of the action or moment. The photograph fills the entire canvas edge to edge with no padding. Color grade: slightly pushed contrast, natural colors preserved, filmic grain, not over-processed. This photograph must feel like it was taken by a photographer who was actually there \u2014 not staged, not art directed to death. PHASE 2: BRAND LOGO BRUSHSTROKE \u2014 CRITICAL Autonomously identify [BRAND NAME]'s primary icon mark or logo symbol \u2014 the exact recognizable shape that represents this brand visually. Render this logo mark as a large hand-painted brushstroke version \u2014 as if a skilled street artist took a wide brush loaded with paint and painted the logo freehand on a wall. The shape must be immediately recognizable as [BRAND NAME]'s actual logo geometry \u2014 correct proportions, correct silhouette, correct internal details \u2014 but executed in a loose, gestural, brush-painted style with visible bristle marks, paint drips, slightly uneven edges, and areas where the paint is thinner and the surface shows through. This is not a clean vector trace \u2014 it is a human hand interpreting a logo with a brush. Size: enormous \u2014 spanning 70\u201385% of canvas width, occupying the upper third of the canvas. Color: white or off-white paint \u2014 reading clearly against the photograph behind it. The brushstroke logo sits on top of the photograph as an overlay with natural paint transparency in the thinner areas. PHASE 3: GRAFFITI TAG OVERLAY One single graffiti element in the NEON ACCENT COLOR resolved in the brand intelligence system. This element is a loose hand-drawn tag, throw-up, or marker scrawl \u2014 a secondary word, a symbol, an abstract mark, or a stylized brand-relevant word. It sits on top of everything \u2014 over the photograph, over the wordmark, over any other element \u2014 as if added last and spontaneously, like someone tagged the poster after it was printed. Placement: partially overlapping the brand wordmark in the upper portion of the image with additional marks or drips extending into the mid-section of the canvas. The neon accent color is used nowhere else in the entire composition \u2014 this element owns that color exclusively. The graffiti mark adds rawness and authenticity \u2014 it breaks the polish and makes the whole thing feel real. PHASE 4: TYPOGRAPHY SYSTEM Four distinct text zones \u2014 all small, all restrained, creating an editorial layout grid around the large wordmark and photograph. UPPER LEFT BLOCK: 3\u20134 lines of very small all-caps or mixed case body text describing [BRAND NAME]'s campaign, collection, or brand context \u2014 autonomously generate relevant editorial copy in [BRAND NAME]'s voice. This block sits in the top-left corner, justified left, at footnote scale. TWO LABEL LINES: directly below the upper left block \u2014 a campaign name or season on the left, a short descriptor on the right \u2014 both in small caps, same scale as body text. RIGHT MID BLOCK: the QUOTE LINE resolved in the brand intelligence system rendered in quotation marks in the right-center area, slightly larger than body text but still small relative to the wordmark. Below the quote: [BRAND NAME] in small caps as attribution. Below that: 3\u20134 lines of small body copy with [BRAND NAME]'s campaign message \u2014 autonomously generate relevant content. LOWER RIGHT DETAIL: a small secondary graffiti-style tag or signature mark in the neon accent color \u2014 smaller than the main graffiti element, positioned lower right as a finishing mark. PHASE 5: OVERALL COMPOSITION The visual hierarchy reads in this exact order: (1) the photograph and its energy \u2014 the eye enters through the action or subject, (2) the massive brushstroke wordmark \u2014 confirms the brand, (3) the neon graffiti tag \u2014 adds rawness and surprise, (4) the typography blocks \u2014 rewards closer reading. The composition must feel like a real magazine cover or a poster wheat-pasted on a wall \u2014 not a social media graphic, not a clean digital mockup. Every element has a reason to exist. Nothing is decorative. The rawness is the design. TECH SPECS Photography: real location, natural light, peak moment, filmic color grade with visible grain. Wordmark: textured brushstroke or chalk \u2014 never clean vector. Graffiti: one neon accent color only, hand-drawn quality, sits on top of all layers. Typography: small, editorial, restrained \u2014 maximum 4 text blocks. Color palette: natural photograph tones plus one neon accent color only \u2014 no additional colors introduced anywhere. No geometric shapes, no illustrated elements, no icons, no additional graphic overlays beyond what is specified. The graphic language is exclusively photography plus typography plus one graffiti accent. Mood: a poster designed by someone who actually lives in this brand's world \u2014 not an agency, not a committee, one person with a strong point of view and complete conviction. PHOTOGRAPHY TONE \u2014 CRITICAL: the subject must be clean, sharp, and well-lit despite the raw editorial aesthetic. Raw and authentic refers to the composition style and location \u2014 NOT to dirt, sweat, mud, or degraded appearance of the subject. The person or product must look aspirational and desirable. No dirt. No sweat. No mud. No torn clothing. No gritty degraded appearance. Editorial rawness means honest and unposed \u2014 not physically dirty.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-2729583946",
+    "title": "Write a client newsletter article",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Write a client newsletter article: Actionable financial planning piece tied to current conditions that clients will actually read",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "89.3K",
+    "likes": "16.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-3142608219",
+    "title": "Win back a churned customer",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80",
+    "aspectRatio": "16:9",
+    "prompt": "Win back a churned customer: Re-engagement emails that lead with what has changed since they left",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "57.7K",
+    "likes": "14.6K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-1285056335",
+    "title": "High-Detail Portrait Poster in a Bold Japanese Graffiti-Inspired Art S",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-6d9bd83f-f2e5-40e2-b7c0-a6ea6748119a-create-a-high-detail-portrait-poster-in-a-bold-japanese-g.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Bengali visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species. The subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic. The outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept. The background and poster decorations should be filled with thematic urban Bengal-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, Indian street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject. Lighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling. Ultra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "69.1K",
+    "likes": "11.3K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
+      "Featured"
+    ],
+    "suggestedTools": [
+      "chatgpt",
+      "gemini"
+    ]
+  },
+  {
+    "id": "gp-exact-137900146",
+    "title": "Luxury 3D FIFA World Cup 2026 Morocco Poster",
+    "category": "image",
+    "model": "Nano Banana Pro",
+    "thumbnail": "https://res-a.generateprompt.net/prompt/image/thumb/community-963d162d-0c39-4222-8942-35a0cd375b20-ultra-detailed-luxury-3d-fifa-world-cup-2026-morocco-post.webp",
+    "aspectRatio": "16:9",
+    "prompt": "Ultra-detailed luxury 3D FIFA World Cup 2026 Morocco poster. Massive layered \"2026\" typography dominates the composition, formed from interlocking metallic ribbons and sculpted architectural frames. The numerals are decorated with the Moroccan color palette (red #c1272d, green #036234) enhanced by gold trim, ornate filigree, and elegant floral engravings. At the center stands the FIFA World Cup trophy in front of the numbers, with refined gold text reading \"FIFA WORLD CUP 2026\". Surrounding the composition are iconic Moroccan landmarks and cultural symbols seamlessly integrated into the layered design: Koutoubia Mosque, Hassan II Mosque, Mausoleum of Mohammed V , El Jadida the Portuguese city, The Kasbah of Taourirt, El Badi Palace, Jemaa el-Fnaa, and Medersa Ben Youssef. The elements are sculpted as luxurious bronze and gold reliefs embedded within the typography. Premium craftsmanship, embossed metallic surfaces, marble textures, gold ornamentation, art nouveau and art deco influences, intricate decorative details, championship branding aesthetic, museum-quality design. Dramatic stadium lighting in the background, cinematic atmosphere, volumetric lighting, photorealistic materials, ray-traced reflections, ultra-sharp focus, hyperrealistic textures, luxury collectible poster style, 8K masterpiece quality. Symmetrical composition, layered depth, stacked metallic typography, elegant Moroccan heritage aesthetic, sophisticated sports branding, highly detailed relief sculpture artwork, premium FIFA promotional poster. Style Modifiers: > luxury metallic relief sculpture, Moroccan heritage design, embossed poster art, gold filigree ornamentation, layered architectural typography, photorealistic CGI, octane render, global illumination, cinematic lighting, ultra-detailed craftsmanship.",
+    "negativePrompt": "blurry, low quality, deformed, artifacts, distorted features, bad anatomy, bad hands",
+    "views": "58.8K",
+    "likes": "15.2K",
+    "timestamp": "Verified",
+    "creator": {
+      "name": "AI Prompt Studio",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "verified": true
+    },
+    "tags": [
+      "NanoBananaPro",
+      "Trending",
+      "ProductionReady",
       "Featured"
     ],
     "suggestedTools": [
