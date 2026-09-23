@@ -12,6 +12,7 @@ import { AllServicesDashboard } from "@/components/AllServicesDashboard";
 import { BlogsAndFaqSection } from "@/components/BlogsAndFaqSection";
 import { BacklinkDirectorySection } from "@/components/BacklinkDirectorySection";
 import { AlternativesComparisonSection } from "@/components/AlternativesComparisonSection";
+import { MultilingualSeoSection } from "@/components/MultilingualSeoSection";
 import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
 import { Dices } from "lucide-react";
 import confetti from "canvas-confetti";
@@ -335,6 +336,9 @@ export default function HomePage() {
 
           {/* AI Backlink Directory & Ecosystem Directory */}
           <BacklinkDirectorySection />
+
+          {/* Global Multi-Language International SEO Section (50+ Languages) */}
+          <MultilingualSeoSection />
 
           {/* Clean, Modern, Organized 4-Column Footer */}
           <footer className="mt-20 pt-12 pb-10 border-t border-slate-200 text-slate-600 bg-white/50 rounded-3xl p-6 sm:p-10 border shadow-xs space-y-8 font-outfit">
