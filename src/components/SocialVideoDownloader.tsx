@@ -105,8 +105,8 @@ export function SocialVideoDownloader() {
               required
               value={videoUrl}
               onChange={(e) => setVideoUrl(e.target.value)}
-              placeholder="Paste Facebook, TikTok, Instagram or Shorts link here..."
-              className="w-full px-3 py-2.5 sm:py-2.5 bg-transparent text-xs sm:text-sm text-slate-900 placeholder-slate-400 focus:outline-none font-medium"
+              placeholder="Paste your link here (Facebook, TikTok, Instagram, YouTube)..."
+              className="w-full px-3 py-2.5 sm:py-2.5 bg-transparent text-xs sm:text-sm text-slate-900 placeholder-slate-500 font-semibold focus:outline-none"
             />
             <button
               type="submit"
