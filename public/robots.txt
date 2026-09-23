@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://www.aipromptgenerate.xyz/sitemap.xml
+Sitemap: https://www.aipromptgenerate.xyz/sitemap_index.xml
