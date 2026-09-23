@@ -1185,6 +1185,126 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "It instructs the AI model to render subjects with glossy PVC plastic textures, realistic miniature studio lighting, and blister-pack toy collectible display stands."
       }
     ]
+  },
+  "gemini-ai-photo-prompts-for-girls": {
+    slug: "gemini-ai-photo-prompts-for-girls",
+    title: "Gemini AI Photo Prompts for Girls – Aesthetic & Realistic Portraits",
+    h1: "Gemini AI Photo Prompts for Girls – Aesthetic, Golden Hour & Realistic Portraits",
+    metaTitle: "Gemini AI Photo Prompts for Girls – 100% Free Copy-Paste Aesthetic Prompts",
+    metaDescription: "Discover trending Gemini AI photo prompts for girls. Create aesthetic golden hour portraits, vintage film edits, and photorealistic fashion poses with zero login.",
+    keywords: [
+      "gemini ai photo prompts for girls",
+      "realistic girl portrait prompts",
+      "aesthetic girl prompts gemini",
+      "ai photo editing prompts for girls",
+      "golden hour girl portrait ai prompt",
+      "gemini prompts copy paste girls"
+    ],
+    filterType: "custom",
+    filterValue: "characters",
+    introText: "The definitive library of Gemini AI photo prompts designed for girls and fashion portraits. Engineered for lifelike skin texture, natural eye reflections, golden hour sunlight, and editorial camera optics.",
+    faqs: [
+      {
+        q: "How to use these girl portrait prompts on Google Gemini?",
+        a: "Copy any prompt card and paste it directly into Google Gemini or Google AI Studio to render ultra-photorealistic portraits."
+      }
+    ]
+  },
+  "viral-ai-photo-editing-prompts": {
+    slug: "viral-ai-photo-editing-prompts",
+    title: "Viral AI Photo Editing Prompts for Girls & Couples",
+    h1: "Viral AI Photo Editing Prompts – Free Aesthetic Restyle & Retouch Prompts",
+    metaTitle: "Viral AI Photo Editing Prompts for Girls & Couples (100% Free)",
+    metaDescription: "Explore viral AI photo editing prompts for girls and couples. Restyle ordinary photos into cinematic magazine covers and aesthetic TikTok trends with zero login.",
+    keywords: [
+      "viral ai photo editing prompts",
+      "viral photo editing prompts for girls",
+      "aesthetic couple ai prompts",
+      "restyle photos with ai prompts",
+      "trending tiktok ai photo prompts",
+      "free ai photo retouch prompts"
+    ],
+    filterType: "custom",
+    filterValue: "characters",
+    introText: "Turn everyday photos into viral masterpieces. These battle-tested editing prompts apply Kodak Portra color grading, moody cinematic rim lighting, and high-fashion aesthetics in seconds.",
+    faqs: [
+      {
+        q: "Can I use these prompts on existing photos?",
+        a: "Yes! Upload your reference photo into our Image to Prompt tool or paste these prompts into Gemini or Midjourney with an image link."
+      }
+    ]
+  },
+  "trending-couple-ai-prompts": {
+    slug: "trending-couple-ai-prompts",
+    title: "Trending Couple AI Image Prompts – Romantic & Cinematic Poses",
+    h1: "Trending Couple AI Image Prompts – Ultra-Realistic Cinematic & Romantic Poses",
+    metaTitle: "Trending Couple AI Image Prompts – Cinematic & Aesthetic Poses (Free)",
+    metaDescription: "Copy trending couple AI image prompts for free. Ultra-realistic cinematic poses, romantic sunset lighting, wedding portraits, and aesthetic couple photography.",
+    keywords: [
+      "trending couple ai image prompts",
+      "ultra-realistic cinematic couple photo prompts",
+      "romantic couple ai prompts",
+      "wedding couple photo prompt ai",
+      "couple poses prompt copy paste",
+      "aesthetic couple ai photography"
+    ],
+    filterType: "custom",
+    filterValue: "characters",
+    introText: "Create heartwarming, photorealistic couple portraits. Master prompt templates featuring natural intimate poses, sunset golden rim lights, 35mm anamorphic camera angles, and authentic chemistry.",
+    faqs: [
+      {
+        q: "What makes couple AI prompts photorealistic?",
+        a: "They specify natural physical contact, complementary lighting across both subjects, depth of field, and accurate proportional anatomy."
+      }
+    ]
+  },
+  "copy-paste-ai-prompts-gemini-chatgpt": {
+    slug: "copy-paste-ai-prompts-gemini-chatgpt",
+    title: "500+ Best AI Image Prompts (Copy & Paste) for Gemini & ChatGPT",
+    h1: "500+ Best AI Image Prompts (Copy & Paste) for Gemini & ChatGPT",
+    metaTitle: "500+ Best AI Image Prompts (Copy & Paste) for Gemini & ChatGPT (2026)",
+    metaDescription: "500+ best copy-paste AI image prompts for Gemini and ChatGPT. Create realistic portraits, aesthetic girl edits, and cinematic couple photos instantly with zero login.",
+    keywords: [
+      "best copy paste ai prompts for gemini and chatgpt",
+      "ai image prompt copy and paste",
+      "free ai art prompt generator",
+      "chatgpt image prompts aesthetic",
+      "gemini prompt copy paste",
+      "free ai image generator text prompts online"
+    ],
+    filterType: "custom",
+    filterValue: "chatgpt",
+    introText: "Your all-in-one copy-and-paste prompt library for Google Gemini and OpenAI ChatGPT. Features over 500+ verified templates spanning realistic portraiture, fantasy digital art, 8K anime, and commercial branding.",
+    faqs: [
+      {
+        q: "Are these prompts tested on both ChatGPT and Gemini?",
+        a: "Yes! Every single prompt is calibrated to work seamlessly across OpenAI DALL-E 3 in ChatGPT and Google Gemini 2.5 Flash."
+      }
+    ]
+  },
+  "aesthetic-portrait-prompts": {
+    slug: "aesthetic-portrait-prompts",
+    title: "Aesthetic Golden Hour Portrait Prompts for AI",
+    h1: "Aesthetic Golden Hour Portrait Prompts – Warm Sunbeams & Cinematic Bokeh",
+    metaTitle: "Aesthetic Golden Hour Portrait Prompts – 100% Free Copy & Paste",
+    metaDescription: "Create dreamy, aesthetic golden hour portraits with AI. Warm volumetric sun rays, 85mm f/1.4 lens bokeh, and vintage film textures. 100% free with zero login.",
+    keywords: [
+      "aesthetic golden hour portrait prompts for ai",
+      "golden hour ai portrait prompt",
+      "warm sunset portrait prompt",
+      "85mm lens portrait prompt free",
+      "aesthetic photography prompts ai",
+      "cinematic portrait prompts copy paste"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Harness the magic of the golden hour. Prompts engineered to capture warm sun flares, soft rim lighting, natural skin tones, and shallow depth of field across Midjourney, Flux, and Gemini.",
+    faqs: [
+      {
+        q: "What camera settings are included in these prompts?",
+        a: "They specify 85mm f/1.4 prime lenses, ISO 100, Kodak Portra 400 film grain, and golden hour volumetric backlight."
+      }
+    ]
   }
 };
 
