@@ -221,16 +221,19 @@ export default function HomePage() {
 
         {/* Main Feed: Clean Command Box Directly at Top */}
         <main className="flex-1 p-2.5 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: Clean typewriter & trust pill only */}
-          <div className="hidden sm:block w-full text-center pt-2 pb-2 max-w-4xl mx-auto">
-            <p className="text-xs sm:text-sm font-extrabold text-slate-600 flex items-center justify-center gap-2 font-heading">
+          {/* Header Intro: Clean typewriter & trust pill only + Primary H1 for Google Ranking */}
+          <div className="w-full text-center pt-2 pb-1 max-w-4xl mx-auto">
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight font-heading">
+              AI Prompt Generator <span className="text-blue-600 font-black">Free</span>
+            </h1>
+            <p className="text-xs sm:text-sm font-semibold text-slate-600 flex items-center justify-center gap-1.5 font-sans mt-1">
               <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
               <span>Prompting for: </span>
-              <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-black">
+              <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-bold">
                 {displayText}
-                <span className="w-0.5 h-4 sm:h-5 bg-blue-600 ml-1 inline-block animate-pulse" />
+                <span className="w-0.5 h-3.5 sm:h-4 bg-blue-600 ml-1 inline-block animate-pulse" />
               </span>
-              <span>• Zero Login • 100% Free Forever</span>
+              <span className="hidden sm:inline">• Unlimited • No Sign-up</span>
             </p>
           </div>
 
