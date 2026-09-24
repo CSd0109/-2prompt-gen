@@ -58,7 +58,7 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
       <div className="relative w-full overflow-hidden bg-slate-100">
         {/* Shimmer loading skeleton */}
         {!isLoaded && (
-          <div className="w-full aspect-[3/4] bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none z-10" />
         )}
 
         {/* Single high-speed optimized image rendered at full natural ratio */}
