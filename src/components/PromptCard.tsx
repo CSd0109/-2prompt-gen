@@ -52,7 +52,7 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
   return (
     <div
       onClick={() => onOpenDetail(item)}
-      className="group relative cursor-pointer flex flex-col w-full bg-slate-900 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.98] border border-slate-100"
+      className="group relative cursor-pointer flex flex-col w-full h-fit bg-slate-900 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.98] border border-slate-100"
     >
       {/* 1. Dynamic True Aspect Ratio Image Container */}
       <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-100 overflow-hidden`}>

@@ -374,7 +374,7 @@ export default function HomePage() {
               </div>
 
             {/* Responsive Visual Grid: 2 clean columns on phone, 3-4 columns on desktop with generous spacing */}
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3 sm:gap-5.5">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3 sm:gap-5.5 items-start">
               {visiblePrompts.map((item, idx) => (
                 <PromptCard
                   key={item.id}
