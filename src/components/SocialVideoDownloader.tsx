@@ -35,27 +35,36 @@ export function SocialVideoDownloader() {
     setError(null);
     setResult(null);
 
+    // Smart link extraction (handles mobile share text like "Check this out: https://vt.tiktok.com/...")
+    let cleanUrl = videoUrl.trim();
+    const extracted = cleanUrl.match(/https?:\/\/[^\s]+/i);
+    if (extracted) {
+      cleanUrl = extracted[0];
+    } else if (!cleanUrl.startsWith("http://") && !cleanUrl.startsWith("https://")) {
+      cleanUrl = "https://" + cleanUrl;
+    }
+
     try {
       const res = await fetch("/api/download-video", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url: videoUrl.trim() }),
+        body: JSON.stringify({ url: cleanUrl }),
       });
 
       const data = await res.json();
       if (!res.ok || data.error) {
-        throw new Error(data.error || "Unable to parse video link.");
+        throw new Error(data.error || "Unable to parse video link. Please verify the URL is public.");
       }
 
       setResult(data);
       confetti({
-        particleCount: 25,
-        spread: 45,
+        particleCount: 30,
+        spread: 50,
         origin: { y: 0.5 },
         colors: ["#2563eb", "#ec4899", "#8b5cf6"],
       });
     } catch (err: any) {
-      setError(err.message || "Failed to process video link. Please verify the URL.");
+      setError(err.message || "Failed to process video link. Please verify the URL is a public video.");
     } finally {
       setLoading(false);
     }
@@ -94,11 +103,15 @@ export function SocialVideoDownloader() {
           <div className="flex items-center flex-1 min-w-0 px-4 py-1 sm:py-1.5">
             <Film className="w-5 h-5 text-slate-400 mr-3.5 flex-shrink-0" />
             <input
-              type="url"
+              type="text"
+              inputMode="url"
+              autoCapitalize="none"
+              autoCorrect="off"
+              spellCheck="false"
               required
               value={videoUrl}
               onChange={(e) => setVideoUrl(e.target.value)}
-              placeholder="Paste your link"
+              placeholder="Paste video link (TikTok, Instagram, YouTube, Facebook, Twitter)..."
               className="w-full py-2 bg-transparent text-sm sm:text-base text-slate-800 placeholder:text-slate-400 font-medium focus:outline-none"
             />
             {/* One-click Paste Button */}
@@ -117,7 +130,7 @@ export function SocialVideoDownloader() {
           <button
             type="submit"
             disabled={loading}
-            className="h-12 sm:h-13 px-8 sm:px-10 rounded-full bg-[#8054ff] hover:bg-[#6f42f5] text-white font-bold text-sm sm:text-base transition-all duration-200 active:scale-95 shadow-md hover:shadow-lg hover:shadow-purple-500/25 flex items-center justify-center gap-2.5 cursor-pointer flex-shrink-0 font-sans"
+            className="h-12 sm:h-13 px-8 sm:px-10 rounded-full bg-[#8054ff] hover:bg-[#6f42f5] text-white font-bold text-sm sm:text-base transition-all duration-200 active:scale-95 shadow-md hover:shadow-lg hover:shadow-purple-500/25 flex items-center justify-center gap-2.5 cursor-pointer flex-shrink-0 font-sans disabled:opacity-75 disabled:cursor-not-allowed"
           >
             {loading ? (
               <>
@@ -134,12 +147,21 @@ export function SocialVideoDownloader() {
         </div>
       </form>
 
-        {error && (
-          <div className="mt-3 p-3 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs font-semibold flex items-center gap-2">
+      {error && (
+        <div className="mt-3 p-3.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-700 text-xs sm:text-sm font-medium flex items-center justify-between gap-2 shadow-2xs">
+          <div className="flex items-center gap-2 min-w-0">
             <span className="w-2 h-2 rounded-full bg-rose-500 flex-shrink-0" />
-            <span>{error}</span>
+            <span className="truncate">{error}</span>
           </div>
-        )}
+          <button
+            type="button"
+            onClick={() => setError(null)}
+            className="text-rose-500 hover:text-rose-700 text-xs font-bold px-2 py-0.5"
+          >
+            ✕
+          </button>
+        </div>
+      )}
 
         {/* Download Result Card */}
         {result && (

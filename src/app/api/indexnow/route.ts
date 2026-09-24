@@ -33,7 +33,11 @@ export async function POST(req: NextRequest) {
       `https://${HOST}/aipromptgenerator-alternatives`,
       `https://${HOST}/properprompt-alternatives`,
       // 7. Video Downloaders
-      `https://${HOST}/social-video-downloader`
+      `https://${HOST}/socialmediavdodownloder`,
+      `https://${HOST}/social-video-downloader`,
+      `https://${HOST}/tiktok-video-downloader`,
+      `https://${HOST}/facebook-video-downloader`,
+      `https://${HOST}/instagram-video-downloader`
     ];
 
     const payload = {

@@ -31,14 +31,6 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
   const fallbackThumbnail =
     "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80";
 
-  const getAspectRatioClass = (ratio?: string) => {
-    if (ratio === "9:16") return "aspect-[9/16]";
-    if (ratio === "1:1") return "aspect-square";
-    if (ratio === "4:5") return "aspect-[4/5]";
-    if (ratio === "3:2") return "aspect-[3/2]";
-    return "aspect-[16/9]";
-  };
-
   // Normalize category badge text matching image.jpg
   const getCategoryBadge = () => {
     const t = (item.title + " " + item.tags.join(" ")).toLowerCase();

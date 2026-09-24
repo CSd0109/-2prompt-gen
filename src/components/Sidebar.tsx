@@ -1,8 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
+import Link from "next/link";
 import { 
-  Home, Compass, PlaySquare, Sparkles, Image as ImageIcon, Video, Layout, Settings, Heart, UserCheck
+  Home, Compass, PlaySquare, Sparkles, Image as ImageIcon, Video, Layout, Settings, Heart, UserCheck, Download
 } from "lucide-react";
 import { AI_MODELS } from "@/lib/data";
 import { ProviderIcon } from "@/components/PromptGeneratorStudio";
@@ -18,7 +19,7 @@ interface SidebarProps {
 export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelectedFilter, isOpen }: SidebarProps) {
   return (
     <aside
-      className={`fixed lg:sticky top-14 left-0 z-40 h-[calc(100vh-3.5rem)] w-60 bg-white border-r border-slate-200 flex flex-col px-3 py-2 transition-transform duration-200 overflow-y-auto ${
+      className={`fixed lg:sticky top-20 left-0 z-40 h-[calc(100vh-5rem)] w-60 bg-white border-r border-slate-200 flex flex-col px-3 py-2 transition-transform duration-200 overflow-y-auto ${
         isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
       }`}
     >
@@ -71,6 +72,17 @@ export function Sidebar({ currentTab, setCurrentTab, selectedFilter, setSelected
           </div>
           <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-gradient-to-r from-purple-600 to-pink-600 text-white">NEW</span>
         </button>
+
+        <Link
+          href="/socialmediavdodownloder"
+          className="w-full flex items-center justify-between px-3 py-2.5 rounded-xl text-sm font-semibold transition text-slate-600 hover:bg-purple-50 hover:text-purple-700 group"
+        >
+          <div className="flex items-center gap-3.5">
+            <Download className="w-5 h-5 flex-shrink-0 text-purple-600 group-hover:scale-110 transition-transform" />
+            <span>Video Downloader</span>
+          </div>
+          <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-800">FREE</span>
+        </Link>
       </div>
 
       {/* 2. Real Dedicated Prompt Galleries */}

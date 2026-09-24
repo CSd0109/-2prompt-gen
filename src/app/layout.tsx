@@ -477,6 +477,30 @@ const jsonLd = {
           }
         }
       ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${siteUrl}/#breadcrumbs`,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "AI Prompt Generator",
+          "item": siteUrl
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Social Media Video Downloader",
+          "item": `${siteUrl}/socialmediavdodownloder`
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Free AI Prompts & Tools",
+          "item": `${siteUrl}/free-ai-prompts-tools`
+        }
+      ]
     }
   ]
 };

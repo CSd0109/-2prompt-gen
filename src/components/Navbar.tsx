@@ -13,36 +13,51 @@ interface NavbarProps {
   onSelectCategory?: (cat: string) => void;
 }
 
-export function Navbar({ onOpenGenerator, onGoHome, onSelectCategory }: NavbarProps) {
+export function Navbar({ onToggleSidebar, onOpenGenerator, onGoHome, onSelectCategory }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 h-20 w-full bg-white/90 backdrop-blur-md border-b border-slate-100/80 px-4 sm:px-8 md:px-12 flex items-center justify-between select-none transition-all">
-      {/* 1. Left: Brand Logo matching image.jpg */}
-      <div 
-        onClick={onGoHome} 
-        className="flex items-center gap-2.5 cursor-pointer group flex-shrink-0"
-      >
-        {/* Soft Purple Gradient AI Wavemark Symbol */}
-        <div className="w-8 h-8 flex items-center justify-center text-[#7c5cfc]">
-          <svg className="w-7 h-7" viewBox="0 0 28 28" fill="none">
-            <path
-              d="M7 6C7 4.34315 8.34315 3 10 3C11.6569 3 13 4.34315 13 6V22C13 23.6569 11.6569 25 10 25C8.34315 25 7 23.6569 7 22V6Z"
-              fill="currentColor"
-            />
-            <path
-              d="M15 9C15 7.34315 16.3431 6 18 6C19.6569 6 21 7.34315 21 9V19C21 20.6569 19.6569 22 18 22C16.3431 22 15 20.6569 15 19V9Z"
-              fill="currentColor"
-              fillOpacity="0.75"
-            />
-            <path
-              d="M23 12C23 10.8954 23.8954 10 25 10C26.1046 10 27 10.8954 27 12V16C27 17.1046 26.1046 18 25 18C23.8954 18 23 17.1046 23 16V12Z"
-              fill="currentColor"
-              fillOpacity="0.5"
-            />
-          </svg>
+      {/* 1. Left: Mobile Toggle + Brand Logo */}
+      <div className="flex items-center gap-2.5">
+        {onToggleSidebar && (
+          <button
+            onClick={onToggleSidebar}
+            type="button"
+            className="lg:hidden p-2 rounded-xl text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition cursor-pointer"
+            aria-label="Toggle navigation menu"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        )}
+
+        <div 
+          onClick={onGoHome} 
+          className="flex items-center gap-2.5 cursor-pointer group flex-shrink-0"
+        >
+          {/* Soft Purple Gradient AI Wavemark Symbol */}
+          <div className="w-8 h-8 flex items-center justify-center text-[#7c5cfc]">
+            <svg className="w-7 h-7" viewBox="0 0 28 28" fill="none">
+              <path
+                d="M7 6C7 4.34315 8.34315 3 10 3C11.6569 3 13 4.34315 13 6V22C13 23.6569 11.6569 25 10 25C8.34315 25 7 23.6569 7 22V6Z"
+                fill="currentColor"
+              />
+              <path
+                d="M15 9C15 7.34315 16.3431 6 18 6C19.6569 6 21 7.34315 21 9V19C21 20.6569 19.6569 22 18 22C16.3431 22 15 20.6569 15 19V9Z"
+                fill="currentColor"
+                fillOpacity="0.75"
+              />
+              <path
+                d="M23 12C23 10.8954 23.8954 10 25 10C26.1046 10 27 10.8954 27 12V16C27 17.1046 26.1046 18 25 18C23.8954 18 23 17.1046 23 16V12Z"
+                fill="currentColor"
+                fillOpacity="0.5"
+              />
+            </svg>
+          </div>
+          <span className="text-[#101828] font-bold tracking-tight text-xl font-heading">
+            aipromptgenerate
+          </span>
         </div>
-        <span className="text-[#101828] font-bold tracking-tight text-xl font-heading">
-          aipromptgenerate
-        </span>
       </div>
 
       {/* 2. Center: Clean Navigation Links with Active Indicator Dot */}
@@ -72,12 +87,13 @@ export function Navbar({ onOpenGenerator, onGoHome, onSelectCategory }: NavbarPr
         >
           Examples
         </button>
-        <button 
-          onClick={onOpenGenerator}
-          className="hover:text-[#101828] transition cursor-pointer"
+        <Link 
+          href="/socialmediavdodownloder"
+          className="hover:text-[#7c5cfc] transition cursor-pointer flex items-center gap-1.5"
         >
-          Pricing
-        </button>
+          <span>Video Downloader</span>
+          <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-purple-100 text-purple-700">HD</span>
+        </Link>
         <button 
           onClick={() => {
             const el = document.getElementById("seo-blogs-section");
