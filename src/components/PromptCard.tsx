@@ -52,16 +52,16 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
   return (
     <div
       onClick={() => onOpenDetail(item)}
-      className="group relative cursor-pointer flex flex-col w-full h-fit bg-slate-900 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.98] border border-slate-100"
+      className="group relative cursor-pointer break-inside-avoid mb-4 sm:mb-5.5 flex flex-col w-full h-auto bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-xs hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.99] border border-slate-200/80"
     >
-      {/* 1. Dynamic True Aspect Ratio Image Container */}
-      <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-100 overflow-hidden`}>
+      {/* 1. Natural Full Height Image Container - Zero black bars, full display */}
+      <div className="relative w-full overflow-hidden bg-slate-100">
         {/* Shimmer loading skeleton */}
         {!isLoaded && (
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none" />
+          <div className="w-full aspect-[3/4] bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none" />
         )}
 
-        {/* Single high-speed optimized image */}
+        {/* Single high-speed optimized image rendered at full natural ratio */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={item.thumbnail}
@@ -78,13 +78,13 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
             }
             setIsLoaded(true);
           }}
-          className={`w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ${
-            isLoaded ? "opacity-100" : "opacity-90"
+          className={`w-full h-auto block object-cover group-hover:scale-105 transition-transform duration-500 ${
+            isLoaded ? "opacity-100" : "opacity-0"
           }`}
         />
 
-        {/* Subtle Dark Bottom Gradient Overlay matching image.jpg */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent pointer-events-none" />
+        {/* Subtle Dark Bottom Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
 
         {/* Video Indicator */}
         {item.category === "video" && (
@@ -99,7 +99,7 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
         <button
           onClick={handleCopy}
           title="Copy Prompt"
-          className="absolute top-3 right-3 z-20 w-8 h-8 rounded-full bg-black/40 hover:bg-black/70 text-white shadow-sm flex items-center justify-center active:scale-90 transition cursor-pointer backdrop-blur-md border border-white/20"
+          className="absolute top-3 right-3 z-20 w-8 h-8 rounded-full bg-black/50 hover:bg-black/80 text-white shadow-sm flex items-center justify-center active:scale-90 transition cursor-pointer backdrop-blur-md border border-white/20"
         >
           {copied ? (
             <Check className="w-4 h-4 text-emerald-400 stroke-[2.5]" />
@@ -108,9 +108,9 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
           )}
         </button>
 
-        {/* Bottom Content Overlay: Title + Purple Category Pill matching image.jpg */}
-        <div className="absolute bottom-3.5 left-3.5 right-3.5 z-20 flex flex-col items-start gap-1.5 text-left">
-          <h3 className="font-bold text-white text-[15px] sm:text-base leading-snug drop-shadow-sm font-heading tracking-tight line-clamp-1 group-hover:text-purple-200 transition-colors">
+        {/* Bottom Content Overlay: Title + Purple Category Pill */}
+        <div className="absolute bottom-3 left-3.5 right-3.5 z-20 flex flex-col items-start gap-1.5 text-left">
+          <h3 className="font-bold text-white text-[14px] sm:text-base leading-snug drop-shadow-sm font-heading tracking-tight line-clamp-2 group-hover:text-purple-200 transition-colors">
             {item.title}
           </h3>
 
