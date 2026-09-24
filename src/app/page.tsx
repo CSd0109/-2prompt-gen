@@ -326,9 +326,19 @@ export default function HomePage() {
             </div>
           </section>
 
-          {/* Social Video Downloader (Clean, Non-intrusive Section) */}
-          <div className="mb-8">
+          {/* Social Video Downloader (Spacious, prominent and clean) */}
+          <div className="mb-6 flex flex-col items-center">
             <SocialVideoDownloader />
+            <div className="mt-1 flex items-center gap-2">
+              <Link
+                href="/socialmediavdodownloder"
+                className="text-[12px] font-medium text-slate-400 hover:text-[#8054ff] transition inline-flex items-center gap-1"
+              >
+                <span>Open dedicated page:</span>
+                <span className="underline underline-offset-2 font-mono">aipromptgenerate.xyz/socialmediavdodownloder</span>
+                <span>→</span>
+              </Link>
+            </div>
           </div>
 
           {/* Babal ALL SERVICES Dashboard */}
