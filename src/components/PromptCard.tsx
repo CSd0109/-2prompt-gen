@@ -55,12 +55,7 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
       className="group relative cursor-pointer break-inside-avoid mb-4 sm:mb-5.5 flex flex-col w-full h-auto bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-xs hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.99] border border-slate-200/80"
     >
       {/* 1. Natural Full Height Image Container - Zero black bars, full display */}
-      <div className="relative w-full overflow-hidden bg-slate-100">
-        {/* Shimmer loading skeleton */}
-        {!isLoaded && (
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none z-10" />
-        )}
-
+      <div className="relative w-full overflow-hidden bg-slate-200">
         {/* Single high-speed optimized image rendered at full natural ratio */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
