@@ -7,6 +7,7 @@ export async function POST(req: NextRequest) {
   try {
     const urlsToPing = [
       `https://${HOST}/`,
+      `https://${HOST}/blog/ultimate-free-ai-prompt-generator-guide`,
       // 0. Broad Core High-Volume Target Pages
       `https://${HOST}/ai-prompt-generator-free`,
       `https://${HOST}/ai-image-prompts`,
