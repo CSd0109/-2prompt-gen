@@ -219,35 +219,117 @@ export default function HomePage() {
           isOpen={sidebarOpen}
         />
 
-        {/* Main Feed: Clean Command Box Directly at Top */}
-        <main className="flex-1 p-2.5 sm:p-6 w-full max-w-[1750px]">
-          {/* Header Intro: Clean typewriter & trust pill only + Primary H1 for Google Ranking */}
-          <div className="w-full text-center pt-2 pb-1 max-w-4xl mx-auto">
-            <h1 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight font-heading">
-              AI Prompt Generator <span className="text-blue-600 font-black">Free</span>
+        {/* Main Feed: Full-width matching image.jpg */}
+        <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-8 py-6">
+          
+          {/* ============================================================== */}
+          {/* HERO SECTION: 1000% Pixel-perfect matching image.jpg */}
+          {/* ============================================================== */}
+          <section className="relative w-full pt-4 sm:pt-8 pb-12 flex flex-col items-center text-center">
+            
+            {/* Background Subtle Glow matching image.jpg */}
+            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-gradient-to-tr from-purple-200/30 via-pink-100/20 to-blue-100/30 blur-3xl -z-10 pointer-events-none rounded-full" />
+
+            {/* 1. Large Powerful Headline */}
+            <h1 className="text-3xl sm:text-5xl md:text-[54px] font-bold text-[#101828] tracking-tight leading-[1.15] max-w-4xl font-heading">
+              Generate <span className="text-[#8054ff]">Perfect</span> AI Prompts <br className="hidden sm:inline" /> in Seconds
             </h1>
-            <p className="text-xs sm:text-sm font-semibold text-slate-600 flex items-center justify-center gap-1.5 font-sans mt-1">
-              <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
-              <span>Prompting for: </span>
-              <span className="inline-flex items-center text-blue-600 underline decoration-indigo-500/30 underline-offset-4 font-bold">
-                {displayText}
-                <span className="w-0.5 h-3.5 sm:h-4 bg-blue-600 ml-1 inline-block animate-pulse" />
-              </span>
-              <span className="hidden sm:inline">• Unlimited • No Sign-up</span>
+
+            {/* 2. Subheadline matching image.jpg */}
+            <p className="text-sm sm:text-base text-slate-500 font-normal max-w-2xl mt-4 leading-relaxed">
+              Powerful AI prompt generation tool for stunning results. <br className="hidden sm:inline" /> 100% Free. No login. No watermark.
             </p>
-          </div>
 
-          {/* 1. Universal Social Media Video Downloader (Top Section on Mobile) */}
-          <SocialVideoDownloader />
+            {/* 3. Hero Center Area with Left & Right Floating Rotated Cards */}
+            <div className="relative w-full max-w-5xl mt-8 sm:mt-10 flex items-center justify-center">
+              
+              {/* Left Floating Card: Portrait Example (Rotated -6deg) */}
+              <div className="hidden xl:block absolute -left-12 top-2 z-10 w-52 p-2.5 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl shadow-purple-500/10 border border-slate-100 -rotate-6 hover:rotate-0 transition-transform duration-300">
+                <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-100">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://res-a.aipromptgenerator.app/prompt/image/thumb/community-461be74e-6df5-4901-b966-b72f2c919be0-composition-framing-vertical-portrait-orientat.webp"
+                    alt="Portrait Example"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute bottom-2.5 left-2.5 z-20">
+                    <span className="px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/95 text-[#101828] shadow-sm backdrop-blur-md border border-slate-200/80 font-sans">
+                      Portrait Example
+                    </span>
+                  </div>
+                </div>
+              </div>
 
-          {/* 2. Command Box (Professional Clean Box, Model Chooser Only, Zero Clutter) */}
-          <section className="mb-4 sm:mb-6 w-full flex justify-center pt-1 sm:pt-2">
-            <PromptGeneratorStudio 
-              compact={true} 
-              showAllServices={showAllServices}
-              onToggleAllServices={() => setShowAllServices((prev) => !prev)}
-            />
+              {/* Center: Command Prompt Studio Box matching image.jpg */}
+              <div className="w-full max-w-2xl z-20">
+                <PromptGeneratorStudio 
+                  compact={true} 
+                  showAllServices={showAllServices}
+                  onToggleAllServices={() => setShowAllServices((prev) => !prev)}
+                />
+              </div>
+
+              {/* Right Floating Card: Landscape Example (Rotated +6deg) */}
+              <div className="hidden xl:block absolute -right-12 top-2 z-10 w-52 p-2.5 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl shadow-purple-500/10 border border-slate-100 rotate-6 hover:rotate-0 transition-transform duration-300">
+                <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-100">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&auto=format&fit=crop&q=80"
+                    alt="Landscape Example"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute bottom-2.5 left-2.5 z-20">
+                    <span className="px-2.5 py-1 rounded-full text-[11px] font-medium bg-white/95 text-[#101828] shadow-sm backdrop-blur-md border border-slate-200/80 font-sans">
+                      Landscape Example
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* 4. Center Pill Trust Badge underneath prompt box */}
+            <div className="mt-5 inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-200/80 text-slate-600 text-xs font-medium shadow-2xs">
+              <span>100% Free</span>
+              <span className="w-1 h-1 rounded-full bg-purple-500" />
+              <span>Zero Login</span>
+              <span className="w-1 h-1 rounded-full bg-purple-500" />
+              <span>No Watermark</span>
+            </div>
+
+            {/* 5. Clean Horizontal Category Pills Bar matching image.jpg */}
+            <div id="prompt-categories" className="flex items-center justify-center gap-2.5 flex-wrap mt-7 max-w-4xl px-2">
+              {[
+                { id: "people", label: "Portrait", icon: "👤" },
+                { id: "nature", label: "Landscape", icon: "🏔️" },
+                { id: "digital-art", label: "Illustration", icon: "🎨" },
+                { id: "product", label: "Product", icon: "📦" },
+                { id: "marketing", label: "Marketing", icon: "📈" },
+                { id: "fantasy", label: "Fantasy", icon: "✨" },
+                { id: "all", label: "More", icon: "•••" }
+              ].map((cat) => {
+                const isActive = selectedFilter === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => handleFilterChange(cat.id === "all" ? "image" : cat.id)}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 border cursor-pointer active:scale-95 ${
+                      isActive
+                        ? "bg-[#101828] text-white border-[#101828] shadow-sm"
+                        : "bg-white text-slate-700 border-slate-200/90 hover:border-slate-300 hover:bg-slate-50 shadow-2xs"
+                    }`}
+                  >
+                    <span>{cat.icon}</span>
+                    <span>{cat.label}</span>
+                  </button>
+                );
+              })}
+            </div>
           </section>
+
+          {/* Social Video Downloader (Clean, Non-intrusive Section) */}
+          <div className="mb-8">
+            <SocialVideoDownloader />
+          </div>
 
           {/* Babal ALL SERVICES Dashboard */}
           {showAllServices && (
@@ -258,76 +340,38 @@ export default function HomePage() {
             </section>
           )}
 
-          {/* 3. Prompt Image Gallery (Directly below Command Box) */}
+          {/* ============================================================== */}
+          {/* CURATED PROMPT GALLERY matching image.jpg */}
+          {/* ============================================================== */}
           {currentTab === "characters" ? (
             <CharactersGallery />
           ) : (
-            /* Prompt Gallery Section */
-            <div className="space-y-4 sm:space-y-6 pt-1">
-              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
-                <div className="flex items-center gap-2.5">
-                  <h2 className="text-base sm:text-lg font-bold text-slate-800 tracking-tight font-heading">
-                    {selectedFilter === "video" ? "🎥 Video Prompts Library" : "🖼️ Curated Prompt Gallery"}
+            <div id="prompt-gallery-feed" className="space-y-5 pt-4">
+              
+              {/* Gallery Header matching image.jpg */}
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-3 border-b border-slate-100 gap-2">
+                <div>
+                  <h2 className="text-xl sm:text-2xl font-bold text-[#101828] tracking-tight font-heading">
+                    Beautiful Prompts. Stunning Results.
                   </h2>
-                  <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 font-mono text-[11px] font-medium border border-slate-200/80">
-                    {filteredPrompts.length} Prompts
-                  </span>
+                  <p className="text-xs sm:text-sm text-slate-500 font-normal mt-0.5">
+                    Explore AI generated prompts crafted for creativity and impact.
+                  </p>
                 </div>
 
-                {/* Surprise Me / Random Prompt Button */}
-                <button
-                  onClick={handleRandomPrompt}
-                  title="Discover a random master prompt"
-                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white text-xs font-semibold shadow-xs hover:shadow-md transition active:scale-95 cursor-pointer font-heading"
-                >
-                  <Dices className="w-3.5 h-3.5" />
-                  <span className="hidden sm:inline">Surprise Me</span>
-                  <span className="sm:hidden">Random</span>
-                </button>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => {
+                      setSelectedFilter("image");
+                      setDisplayCount(PAGE_SIZE);
+                    }}
+                    className="flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-[#8054ff] hover:text-[#6f42f5] transition cursor-pointer"
+                  >
+                    <span>View all examples</span>
+                    <span className="text-base">→</span>
+                  </button>
+                </div>
               </div>
-
-            {/* Trending High-Intent AI Search Shortcuts Bar */}
-            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-900 text-[10px] sm:text-[11px] font-bold tracking-tight whitespace-nowrap font-heading">
-                <Flame className="w-3 h-3 text-amber-500 fill-amber-500" />
-                <span>HOT PROMPTS:</span>
-              </span>
-              {TRENDING_KEYWORDS.map((item) => (
-                <button
-                  key={item.label}
-                  type="button"
-                  onClick={() => {
-                    setSearchQuery(item.query);
-                    setDisplayCount(PAGE_SIZE);
-                  }}
-                  className={`px-3 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap transition border active:scale-95 cursor-pointer font-heading ${
-                    searchQuery === item.query
-                      ? "bg-purple-600 text-white border-purple-600 shadow-xs"
-                      : "bg-white text-slate-600 hover:text-purple-700 hover:border-purple-300 border-slate-200"
-                  }`}
-                  title={`Filter by ${item.label}`}
-                >
-                  {item.label}
-                </button>
-              ))}
-            </div>
-
-            {/* Category Filter Chips Bar - Clean Circular Pill Styling */}
-            <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-none">
-              {chips.map((chip) => (
-                <button
-                  key={chip.id}
-                  onClick={() => handleFilterChange(chip.id)}
-                  className={`px-4 py-2 rounded-full text-xs font-semibold font-heading whitespace-nowrap transition-all border cursor-pointer active:scale-95 ${
-                    selectedFilter === chip.id
-                      ? "bg-slate-900 text-white border-slate-900 shadow-sm"
-                      : "bg-white text-slate-600 border-slate-200 hover:bg-slate-50 hover:text-slate-900 hover:border-slate-300 shadow-2xs"
-                  }`}
-                >
-                  {chip.label}
-                </button>
-              ))}
-            </div>
 
             {/* Responsive Visual Grid: 2 clean columns on phone, 3-4 columns on desktop with generous spacing */}
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-3 sm:gap-5.5">

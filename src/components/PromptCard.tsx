@@ -39,10 +39,20 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
     return "aspect-[16/9]";
   };
 
+  // Normalize category badge text matching image.jpg
+  const getCategoryBadge = () => {
+    const t = (item.title + " " + item.tags.join(" ")).toLowerCase();
+    if (t.includes("portrait") || t.includes("woman") || t.includes("man") || t.includes("flash")) return "Portrait";
+    if (t.includes("fantasy") || t.includes("goddess") || t.includes("chibi")) return "Fantasy";
+    if (t.includes("landscape") || t.includes("sky") || t.includes("nature") || t.includes("garden")) return "Landscape";
+    if (t.includes("product") || t.includes("perfume") || t.includes("brand") || t.includes("commercial")) return "Product";
+    return "Illustration";
+  };
+
   return (
     <div
       onClick={() => onOpenDetail(item)}
-      className="group relative cursor-pointer flex flex-col w-full bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs hover:shadow-md hover:border-blue-400 transition-all duration-200 active:scale-[0.99]"
+      className="group relative cursor-pointer flex flex-col w-full bg-slate-900 rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:shadow-purple-500/15 transition-all duration-300 active:scale-[0.98] border border-slate-100"
     >
       {/* 1. Dynamic True Aspect Ratio Image Container */}
       <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-100 overflow-hidden`}>
@@ -68,61 +78,44 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
             }
             setIsLoaded(true);
           }}
-          className={`w-full h-full object-cover group-hover:scale-103 transition-all duration-300 ${
+          className={`w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ${
             isLoaded ? "opacity-100" : "opacity-90"
           }`}
         />
 
-        {/* Video Overlay Indicator */}
+        {/* Subtle Dark Bottom Gradient Overlay matching image.jpg */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent pointer-events-none" />
+
+        {/* Video Indicator */}
         {item.category === "video" && (
           <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/20 pointer-events-none">
-            <div className="w-9 h-9 rounded-full bg-black/60 text-white flex items-center justify-center backdrop-blur-xs shadow-md">
+            <div className="w-10 h-10 rounded-full bg-black/60 text-white flex items-center justify-center backdrop-blur-xs shadow-md">
               <Play className="w-4 h-4 fill-white ml-0.5" />
             </div>
           </div>
         )}
 
-        {/* Floating Top AI Model Badge */}
-        <div className="absolute top-2 left-2 z-20">
-          <span className="px-2.5 py-1 rounded-full text-[10px] font-semibold bg-white/95 text-slate-700 shadow-sm backdrop-blur-md border border-slate-200/80 font-heading">
-            {item.model.replace("-preview", "").replace(" Pro", "")}
-          </span>
-        </div>
-
-        {/* Floating Aspect Ratio Badge */}
-        <div className="absolute bottom-2 right-2 z-20">
-          <span className="px-2 py-0.5 rounded-md text-[9px] font-mono font-medium bg-black/60 text-white/90 backdrop-blur-xs">
-            {item.aspectRatio || "16:9"}
-          </span>
-        </div>
-
-        {/* Floating 1-Click Copy Button */}
+        {/* Floating 1-Click Copy Button on Top Right */}
         <button
           onClick={handleCopy}
           title="Copy Prompt"
-          className="absolute top-2 right-2 z-20 w-8 h-8 rounded-full bg-white/95 text-slate-700 shadow-sm flex items-center justify-center hover:bg-white hover:text-blue-600 active:scale-90 transition cursor-pointer border border-slate-200/80"
+          className="absolute top-3 right-3 z-20 w-8 h-8 rounded-full bg-black/40 hover:bg-black/70 text-white shadow-sm flex items-center justify-center active:scale-90 transition cursor-pointer backdrop-blur-md border border-white/20"
         >
           {copied ? (
-            <Check className="w-4 h-4 text-emerald-600 stroke-[2.5]" />
+            <Check className="w-4 h-4 text-emerald-400 stroke-[2.5]" />
           ) : (
-            <Copy className="w-3.5 h-3.5" />
+            <Copy className="w-3.5 h-3.5 text-white/90" />
           )}
         </button>
-      </div>
 
-      {/* 2. Modern Bahamas-style Rounded Sans Typography (Readable, Elegant, Non-harsh) */}
-      <div className="p-3 sm:p-3.5 flex flex-col justify-between flex-1 bg-white">
-        <h3 className="font-bold text-[14px] sm:text-[15px] leading-snug text-slate-800 line-clamp-2 font-heading tracking-tight group-hover:text-blue-600 transition-colors">
-          {item.title}
-        </h3>
+        {/* Bottom Content Overlay: Title + Purple Category Pill matching image.jpg */}
+        <div className="absolute bottom-3.5 left-3.5 right-3.5 z-20 flex flex-col items-start gap-1.5 text-left">
+          <h3 className="font-bold text-white text-[15px] sm:text-base leading-snug drop-shadow-sm font-heading tracking-tight line-clamp-1 group-hover:text-purple-200 transition-colors">
+            {item.title}
+          </h3>
 
-        <div className="flex items-center justify-between text-xs text-slate-500 mt-2.5 pt-2 border-t border-slate-100">
-          <span className="truncate max-w-[110px] sm:max-w-[140px] font-medium text-slate-600 font-sans">
-            {item.creator.name}
-          </span>
-          <span className="inline-flex items-center gap-1 text-slate-600 font-medium text-[11px] bg-slate-100 px-2 py-0.5 rounded-full">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-            {item.timestamp}
+          <span className="px-2.5 py-0.5 rounded-md text-[11px] font-semibold bg-[#7c5cfc] text-white shadow-xs font-sans">
+            {getCategoryBadge()}
           </span>
         </div>
       </div>

@@ -276,12 +276,12 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
         </div>
       </div>
 
-      {/* 2. PROMPT COMMAND BOX (Large, Spacious, Premium AI Studio Bar) */}
+      {/* 2. PROMPT COMMAND BOX (Pixel-perfect matching image.jpg) */}
       <form onSubmit={handleGenerate} className="w-full relative">
-        <div className="relative w-full rounded-2xl sm:rounded-3xl bg-white text-slate-800 shadow-sm sm:shadow-[0_12px_45px_-8px_rgba(0,0,0,0.09)] p-4 sm:p-6 flex flex-col border border-slate-200 focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all">
+        <div className="relative w-full rounded-3xl bg-white text-slate-800 shadow-[0_10px_40px_-10px_rgba(124,92,252,0.12)] p-5 sm:p-7 flex flex-col border border-purple-100/80 focus-within:border-[#8054ff] focus-within:ring-4 focus-within:ring-purple-500/10 transition-all">
           {/* Uploaded Reference Image Preview Pill */}
           {uploadedImage && (
-            <div className="relative inline-flex items-center gap-2 mb-2 p-1.5 pr-3 rounded-xl bg-purple-50 border border-purple-200 text-purple-900 text-xs font-medium w-fit">
+            <div className="relative inline-flex items-center gap-2 mb-3 p-1.5 pr-3 rounded-xl bg-purple-50 border border-purple-200 text-purple-900 text-xs font-medium w-fit">
               <img
                 src={uploadedImage}
                 alt="Reference Thumbnail"
@@ -298,151 +298,136 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             </div>
           )}
 
-          <textarea
-            rows={3}
-            value={inputTopic}
-            onChange={(e) => setInputTopic(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter" && !e.shiftKey) {
-                e.preventDefault();
-                handleGenerate();
-              }
-            }}
-            placeholder={
-              selectedCategory === "image"
-                ? `✨ Describe your image prompt or upload an image to reverse-engineer (e.g. 8K cinematic portrait in golden hour lighting, 85mm f/1.4)...`
-                : selectedCategory === "video"
-                ? `🎥 Describe your video prompt with ${activeModelObj.name} (e.g. FPV drone weaving through misty alpine forest, 4k 60fps)...`
-                : `💻 Describe your webpage UI with ${activeModelObj.name} (e.g. Minimalist SaaS landing page with dark theme and pricing table)...`
-            }
-            className="w-full bg-transparent text-slate-800 placeholder-slate-400 text-sm sm:text-base md:text-lg focus:outline-none resize-none leading-relaxed font-normal min-h-[75px] sm:min-h-[95px]"
-          />
+          {/* Input Area with Sparkles Icon on Left and Character Counter on Right */}
+          <div className="flex items-start gap-3 w-full">
+            <Sparkles className="w-5 h-5 text-[#8054ff] flex-shrink-0 mt-1" />
+            <div className="flex-1 relative">
+              <textarea
+                rows={2}
+                value={inputTopic}
+                maxLength={300}
+                onChange={(e) => setInputTopic(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && !e.shiftKey) {
+                    e.preventDefault();
+                    handleGenerate();
+                  }
+                }}
+                placeholder="Describe your idea or goal..."
+                className="w-full bg-transparent text-slate-800 placeholder-slate-400 text-base sm:text-lg focus:outline-none resize-none leading-relaxed font-normal min-h-[60px]"
+              />
+            </div>
+            <span className="text-xs text-slate-400 font-mono mt-1 flex-shrink-0 select-none">
+              {inputTopic.length}/300
+            </span>
+          </div>
 
-          {/* Bottom Bar inside the Command Box */}
-          <div className="flex items-center justify-between pt-3 mt-1 border-t border-slate-100 relative">
-            {/* Left Corner: Clean Circular Pill Model Dropdown (Opens DOWNWARD) */}
-            <div className="flex items-center gap-2">
-              <div className="relative">
-                <button
-                  type="button"
-                  onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
-                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs sm:text-sm font-semibold transition active:scale-95 border border-slate-200 shadow-2xs font-heading"
-                >
-                  <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
-                  <span className="text-slate-800 tracking-tight">{activeModelObj.name}</span>
-                  <ChevronDown className={`w-3.5 h-3.5 text-slate-500 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
-                </button>
+          {/* Divider line matching image.jpg */}
+          <div className="w-full h-px bg-slate-100 my-3" />
 
-                {/* Model Dropdown Menu (OPENS DOWNWARDS) */}
-                {modelDropdownOpen && (
-                  <>
-                    <div
-                      className="fixed inset-0 z-40"
-                      onClick={() => setModelDropdownOpen(false)}
-                    />
-                    <div className="absolute left-0 top-full mt-2 w-72 rounded-2xl bg-white border-2 border-slate-200 shadow-2xl p-2 z-50 animate-in fade-in zoom-in-95 duration-150">
-                      <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1 flex items-center justify-between font-heading">
-                        <span>Select AI Model</span>
-                        <span className="text-[10px] text-emerald-600 font-bold">● Active Engine</span>
-                      </div>
-                      <div className="space-y-1">
-                        {AI_MODELS.map((m) => {
-                          const isSelected = selectedModel === m.id;
-                          return (
-                            <button
-                              key={m.id}
-                              type="button"
-                              onClick={() => {
-                                setSelectedModel(m.id);
-                                setModelDropdownOpen(false);
-                              }}
-                              className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-left text-sm font-heading transition ${
-                                isSelected
-                                  ? "bg-blue-50 text-blue-700 font-black border border-blue-200 shadow-2xs"
-                                  : "text-slate-700 hover:bg-slate-100 hover:text-slate-900 font-bold"
-                              }`}
-                            >
-                              <div className="flex items-center gap-2.5">
-                                <ProviderIcon id={m.id} className="w-5 h-5 flex-shrink-0" />
-                                <span className="font-black tracking-tight">{m.name}</span>
-                              </div>
-                              {isSelected && (
-                                <span className="w-2 h-2 rounded-full bg-blue-600 shadow-xs" />
-                              )}
-                            </button>
-                          );
-                        })}
-                      </div>
+          {/* Bottom Bar: Advanced Options on Left + Create Prompt Button on Right */}
+          <div className="flex items-center justify-between pt-1 relative">
+            {/* Left: Advanced Options with Sliders Icon */}
+            <div className="relative">
+              <button
+                type="button"
+                onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
+                className="flex items-center gap-2 text-slate-700 hover:text-slate-900 font-medium text-sm transition py-1.5 cursor-pointer"
+              >
+                <Sliders className="w-4 h-4 text-slate-600" />
+                <span>Advanced Options</span>
+                <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform ${modelDropdownOpen ? "rotate-180" : ""}`} />
+              </button>
+
+              {/* Advanced Options Dropdown (Select Model & Upload) */}
+              {modelDropdownOpen && (
+                <>
+                  <div
+                    className="fixed inset-0 z-40"
+                    onClick={() => setModelDropdownOpen(false)}
+                  />
+                  <div className="absolute left-0 bottom-full mb-2 sm:bottom-auto sm:top-full sm:mt-2 w-80 rounded-2xl bg-white border border-slate-200 shadow-2xl p-3 z-50 animate-in fade-in duration-150">
+                    <div className="px-2 py-1.5 text-xs font-bold text-slate-500 border-b border-slate-100 mb-2 flex items-center justify-between">
+                      <span>Select Target AI Model</span>
+                      <span className="text-[10px] text-emerald-600 font-bold">● Active Engine</span>
                     </div>
-                  </>
-                )}
-              </div>
 
-              {/* ALL SERVICES BABAL BUTTON (Visible on Mobile & Desktop) */}
-              {onToggleAllServices && (
-                <button
-                  type="button"
-                  onClick={onToggleAllServices}
-                  className={`flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-full text-[11px] sm:text-xs font-black transition-all active:scale-95 shadow-xs font-outfit border ${
-                    showAllServices
-                      ? "bg-gradient-to-r from-purple-600 to-indigo-600 text-white border-purple-500 shadow-md ring-2 ring-purple-300"
-                      : "bg-gradient-to-r from-slate-900 to-indigo-950 hover:from-purple-700 hover:to-indigo-700 text-white border-slate-800 hover:shadow-md"
-                  }`}
-                  title={showAllServices ? "Close Services Dashboard" : "Open All AI & PDF Services Dashboard"}
-                >
-                  <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 animate-pulse flex-shrink-0" />
-                  <span className="whitespace-nowrap">SERVICES</span>
-                  <span className="text-[8px] sm:text-[9px] px-1 sm:px-1.5 py-0.5 rounded-full bg-white/20 text-white font-extrabold uppercase tracking-wider">
-                    {showAllServices ? "✕" : "All"}
-                  </span>
-                </button>
+                    <div className="space-y-1 max-h-48 overflow-y-auto">
+                      {AI_MODELS.map((m) => {
+                        const isSelected = selectedModel === m.id;
+                        return (
+                          <button
+                            key={m.id}
+                            type="button"
+                            onClick={() => {
+                              setSelectedModel(m.id);
+                              setModelDropdownOpen(false);
+                            }}
+                            className={`w-full flex items-center justify-between px-3 py-2 rounded-xl text-left text-xs font-medium transition ${
+                              isSelected
+                                ? "bg-purple-50 text-[#8054ff] font-bold"
+                                : "text-slate-700 hover:bg-slate-50"
+                            }`}
+                          >
+                            <div className="flex items-center gap-2">
+                              <ProviderIcon id={m.id} className="w-4 h-4" />
+                              <span>{m.name}</span>
+                            </div>
+                            {isSelected && <span className="w-1.5 h-1.5 rounded-full bg-[#8054ff]" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+
+                    {/* Camera / Image Upload inside options */}
+                    <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between">
+                      <label className="flex items-center gap-2 text-xs text-slate-600 hover:text-purple-600 cursor-pointer font-medium">
+                        <Camera className="w-4 h-4 text-purple-600" />
+                        <span>Upload Reference Image</span>
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={handleImageUpload}
+                          className="hidden"
+                        />
+                      </label>
+                    </div>
+                  </div>
+                </>
               )}
             </div>
 
-            {/* Right: Upload Image + Round Send/Arrow Button like Gemini */}
-            <div className="flex items-center gap-2">
-              <label
-                title="Prompt generator from image (Upload image to reverse-engineer prompt)"
-                className="w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 flex items-center justify-center cursor-pointer transition active:scale-95 border border-slate-200"
-              >
-                <input
-                  type="file"
-                  accept="image/*"
-                  onChange={handleImageUpload}
-                  className="hidden"
-                />
-                <Camera className="w-4 h-4" />
-              </label>
-
-              <button
-                type="submit"
-                disabled={isLoading || (!inputTopic.trim() && !uploadedImage)}
-                className={`h-10 px-3.5 rounded-full flex items-center justify-center gap-1.5 transition-all ${
-                  isLoading
-                    ? "bg-blue-600 text-white shadow-md"
-                    : !inputTopic.trim() && !uploadedImage
-                    ? "bg-slate-100 text-slate-300 cursor-not-allowed"
-                    : "bg-slate-900 text-white hover:bg-black shadow-md active:scale-95 hover:shadow-lg cursor-pointer"
-                }`}
-                title="Generate Prompt"
-              >
-                {isLoading ? (
-                  <>
-                    <RefreshCw className="w-3.5 h-3.5 animate-spin text-white" />
-                    <span className="text-xs font-mono font-bold tracking-tight">{progress}%</span>
-                  </>
-                ) : (
-                  <ArrowUp className="w-5 h-5 stroke-[2.5]" />
-                )}
-              </button>
-            </div>
+            {/* Right: Purple "Create Prompt ->" CTA Button matching image.jpg */}
+            <button
+              type="submit"
+              disabled={isLoading || (!inputTopic.trim() && !uploadedImage)}
+              className={`h-11 px-6 rounded-xl flex items-center justify-center gap-2 text-sm font-semibold transition-all duration-200 ${
+                isLoading
+                  ? "bg-[#8054ff] text-white shadow-md opacity-90 cursor-wait"
+                  : !inputTopic.trim() && !uploadedImage
+                  ? "bg-[#8054ff]/60 text-white/80 cursor-not-allowed"
+                  : "bg-[#8054ff] hover:bg-[#6f42f5] text-white shadow-md hover:shadow-lg hover:shadow-purple-500/25 active:scale-95 cursor-pointer font-heading"
+              }`}
+            >
+              {isLoading ? (
+                <>
+                  <RefreshCw className="w-4 h-4 animate-spin text-white" />
+                  <span>Generating ({progress}%)...</span>
+                </>
+              ) : (
+                <>
+                  <span>Create Prompt</span>
+                  <ArrowUp className="w-4 h-4 rotate-45 stroke-[2.5]" />
+                </>
+              )}
+            </button>
           </div>
 
-          {/* Real-time Progress Bar */}
+          {/* Progress Bar */}
           {isLoading && (
-            <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden mt-3">
+            <div className="w-full bg-slate-100 h-1 rounded-full overflow-hidden mt-3">
               <div 
-                className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 h-full transition-all duration-200"
+                className="bg-gradient-to-r from-purple-500 to-indigo-600 h-full transition-all duration-200"
                 style={{ width: `${progress}%` }}
               />
             </div>
