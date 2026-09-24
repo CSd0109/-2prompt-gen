@@ -206,15 +206,15 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
   const activeModelObj = AI_MODELS.find((m) => m.id === selectedModel) || AI_MODELS[0];
 
   return (
-    <div className={`w-full mx-auto flex flex-col items-center ${compact ? "pt-0 pb-2 max-w-4xl" : "pt-4 sm:pt-8 max-w-4xl"}`}>
-      {/* 1. Category Switcher Pills - Desktop Only to keep Mobile 100% clean and clutter-free */}
-      <div className="hidden sm:flex flex-wrap items-center justify-center gap-2.5 mb-3">
-        <div className="flex items-center gap-1.5 bg-white p-1 rounded-full border border-slate-300 shadow-xs font-outfit">
+    <div className={`w-full mx-auto flex flex-col items-center ${compact ? "pt-1 pb-3 max-w-5xl" : "pt-4 sm:pt-8 max-w-5xl"}`}>
+      {/* 1. Category Switcher Pills - Clean, elegant rounded styling */}
+      <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
+        <div className="flex items-center gap-1 bg-white p-1 rounded-full border border-slate-200 shadow-2xs font-sans">
           <button
             type="button"
             onClick={() => setSelectedCategory("image")}
             title="AI Prompt Text to Image (Midjourney, Flux, DALL-E)"
-            className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedCategory === "image"
                 ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -228,7 +228,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             type="button"
             onClick={() => setSelectedCategory("video")}
             title="AI Prompt Text to Video (Sora, Veo 3, Kling, Runway)"
-            className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedCategory === "video"
                 ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -241,7 +241,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           <button
             type="button"
             onClick={() => setSelectedCategory("ui")}
-            className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedCategory === "ui"
                 ? "bg-slate-900 text-white shadow-xs"
                 : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -252,13 +252,13 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           </button>
 
           {selectedCategory !== "ui" && (
-            <div className="flex items-center gap-1 pl-2 pr-1 border-l border-slate-200 font-mono">
+            <div className="hidden sm:flex items-center gap-1 pl-2 pr-1 border-l border-slate-200 font-mono">
               {["16:9", "9:16", "1:1"].map((ar) => (
                 <button
                   key={ar}
                   type="button"
                   onClick={() => setAspectRatio(ar)}
-                  className={`px-2.5 py-0.5 rounded-full text-[11px] transition font-bold ${
+                  className={`px-2 py-0.5 rounded-md text-[11px] transition font-medium ${
                     aspectRatio === ar ? "bg-slate-900 text-white" : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
                   }`}
                 >
@@ -269,25 +269,25 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           )}
         </div>
 
-        {/* 100% Free • No Login • No Sign-Up Trust Badge */}
-        <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold shadow-2xs font-outfit">
+        {/* 100% Free • No Login Trust Badge */}
+        <div className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/80 text-emerald-700 text-xs font-medium">
           <Shield className="w-3.5 h-3.5 text-emerald-600" />
           <span>100% Free • Zero Login</span>
         </div>
       </div>
 
-      {/* 2. GEMINI OFFICIAL BOLD WHITE COMMAND BOX (Drop-DOWNward Menu with Real AI Logos) */}
+      {/* 2. PROMPT COMMAND BOX (Large, Spacious, Premium AI Studio Bar) */}
       <form onSubmit={handleGenerate} className="w-full relative">
-        <div className="relative w-full rounded-2xl sm:rounded-3xl bg-white text-slate-900 shadow-sm sm:shadow-[0_10px_35px_-5px_rgba(0,0,0,0.12)] p-3 sm:p-5 flex flex-col border border-slate-300 focus-within:border-blue-600 focus-within:shadow-[0_12px_45px_-5px_rgba(37,99,235,0.2)] transition-all">
+        <div className="relative w-full rounded-2xl sm:rounded-3xl bg-white text-slate-800 shadow-sm sm:shadow-[0_12px_45px_-8px_rgba(0,0,0,0.09)] p-4 sm:p-6 flex flex-col border border-slate-200 focus-within:border-blue-500 focus-within:ring-4 focus-within:ring-blue-500/10 transition-all">
           {/* Uploaded Reference Image Preview Pill */}
           {uploadedImage && (
-            <div className="relative inline-flex items-center gap-2 mb-2 p-1.5 pr-3 rounded-2xl bg-purple-50 border border-purple-200 text-purple-900 text-xs font-semibold w-fit">
+            <div className="relative inline-flex items-center gap-2 mb-2 p-1.5 pr-3 rounded-xl bg-purple-50 border border-purple-200 text-purple-900 text-xs font-medium w-fit">
               <img
                 src={uploadedImage}
                 alt="Reference Thumbnail"
-                className="w-8 h-8 rounded-xl object-cover border border-purple-300"
+                className="w-9 h-9 rounded-lg object-cover border border-purple-200"
               />
-              <span className="text-[11px] font-bold">Image Attached (Reverse Prompt Active)</span>
+              <span className="text-xs font-semibold">Image Attached (Prompt Reverse-Engineer)</span>
               <button
                 type="button"
                 onClick={() => setUploadedImage(null)}
@@ -299,7 +299,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           )}
 
           <textarea
-            rows={2}
+            rows={3}
             value={inputTopic}
             onChange={(e) => setInputTopic(e.target.value)}
             onKeyDown={(e) => {
@@ -310,15 +310,15 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             }}
             placeholder={
               selectedCategory === "image"
-                ? `✨ Ask ${activeModelObj.name} or upload image for prompt reverse-engineering...`
+                ? `✨ Describe your image prompt or upload an image to reverse-engineer (e.g. 8K cinematic portrait in golden hour lighting, 85mm f/1.4)...`
                 : selectedCategory === "video"
-                ? `🎥 Describe your video motion with ${activeModelObj.name} (e.g., FPV drone racing through neon night streets, 4k 60fps)...`
-                : `💻 Describe your webpage with ${activeModelObj.name} (e.g., Dark minimalist SaaS dashboard with charts and billing)...`
+                ? `🎥 Describe your video prompt with ${activeModelObj.name} (e.g. FPV drone weaving through misty alpine forest, 4k 60fps)...`
+                : `💻 Describe your webpage UI with ${activeModelObj.name} (e.g. Minimalist SaaS landing page with dark theme and pricing table)...`
             }
-            className="w-full bg-transparent text-slate-900 placeholder-slate-400 text-sm sm:text-base focus:outline-none resize-none leading-relaxed font-medium"
+            className="w-full bg-transparent text-slate-800 placeholder-slate-400 text-sm sm:text-base md:text-lg focus:outline-none resize-none leading-relaxed font-normal min-h-[75px] sm:min-h-[95px]"
           />
 
-          {/* Bottom Bar inside the White Box */}
+          {/* Bottom Bar inside the Command Box */}
           <div className="flex items-center justify-between pt-3 mt-1 border-t border-slate-100 relative">
             {/* Left Corner: Clean Circular Pill Model Dropdown (Opens DOWNWARD) */}
             <div className="flex items-center gap-2">
@@ -326,11 +326,11 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 <button
                   type="button"
                   onClick={() => setModelDropdownOpen(!modelDropdownOpen)}
-                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-900 text-xs font-black transition active:scale-95 border border-slate-200 shadow-2xs font-heading"
+                  className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs sm:text-sm font-semibold transition active:scale-95 border border-slate-200 shadow-2xs font-heading"
                 >
                   <ProviderIcon id={activeModelObj.id} className="w-4 h-4 flex-shrink-0" />
-                  <span className="font-black text-slate-900 tracking-tight">{activeModelObj.name}</span>
-                  <ChevronDown className={`w-3.5 h-3.5 text-slate-600 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
+                  <span className="text-slate-800 tracking-tight">{activeModelObj.name}</span>
+                  <ChevronDown className={`w-3.5 h-3.5 text-slate-500 transition-transform duration-200 ${modelDropdownOpen ? "rotate-180" : ""}`} />
                 </button>
 
                 {/* Model Dropdown Menu (OPENS DOWNWARDS) */}

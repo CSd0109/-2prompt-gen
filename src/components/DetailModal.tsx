@@ -111,21 +111,30 @@ export function DetailModal({ item, onClose, onSelectRelated }: DetailModalProps
         <div className="overflow-y-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Main 2-Column Section */}
           <div className="lg:col-span-2 space-y-4">
-            {/* 1. Large 16:9 Cinema Preview */}
-            <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-black shadow-lg border border-[#272727]">
+            {/* 1. Large Cinema Preview (Full Image Visible, Zero Cropping) */}
+            <div className="relative w-full min-h-[300px] sm:min-h-[440px] max-h-[580px] rounded-2xl overflow-hidden bg-zinc-950 shadow-xl border border-zinc-800 flex items-center justify-center">
+              {/* Blurred background */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={item.thumbnail}
+                alt=""
+                aria-hidden="true"
+                className="absolute inset-0 w-full h-full object-cover blur-2xl opacity-40 scale-110 pointer-events-none"
+              />
+              {/* Crisp full image */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={item.thumbnail}
                 alt={item.title}
-                className="w-full h-full object-cover"
+                className="relative z-10 max-h-[560px] w-auto max-w-full object-contain mx-auto"
               />
-              <div className="absolute bottom-3 right-3 yt-timestamp">
-                {item.aspectRatio} Aspect
+              <div className="absolute bottom-3 right-3 px-2.5 py-1 rounded-md text-[10px] font-mono font-medium bg-black/70 text-white/90 backdrop-blur-xs z-20">
+                {item.aspectRatio || "16:9"} Aspect
               </div>
             </div>
 
-            {/* 2. Prompt Title */}
-            <h1 className="text-xl sm:text-2xl font-black text-white leading-tight font-heading tracking-tight">
+            {/* 2. Prompt Title (Bahamas-style refined rounded bold) */}
+            <h1 className="text-lg sm:text-2xl font-bold text-white leading-snug font-heading">
               {item.title}
             </h1>
 
