@@ -12,6 +12,7 @@ interface PromptCardProps {
 
 export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const handleCopy = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -42,31 +43,32 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
       onClick={() => onOpenDetail(item)}
       className="group relative cursor-pointer flex flex-col w-full bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs hover:shadow-md hover:border-blue-400 transition-all duration-200 active:scale-[0.99]"
     >
-      {/* 1. Dynamic True Aspect Ratio Image Container (Full Image Always Visible, Zero Cropping) */}
-      <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-950 overflow-hidden flex items-center justify-center`}>
-        {/* Subtle blurred backdrop for ultra-clean letterbox elegance */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={item.thumbnail}
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover blur-xl opacity-35 scale-110 pointer-events-none"
-        />
+      {/* 1. Dynamic True Aspect Ratio Image Container */}
+      <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-100 overflow-hidden`}>
+        {/* Shimmer loading skeleton */}
+        {!isLoaded && (
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse" />
+        )}
 
+        {/* Single high-speed optimized image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={item.thumbnail}
           alt={item.title}
           title={item.title}
           decoding="async"
-          loading="lazy"
+          referrerPolicy="no-referrer"
+          onLoad={() => setIsLoaded(true)}
           onError={(e) => {
             const target = e.currentTarget;
             if (target.src !== fallbackThumbnail) {
               target.src = fallbackThumbnail;
             }
+            setIsLoaded(true);
           }}
-          className="relative z-10 w-full h-full object-contain group-hover:scale-102 transition-transform duration-300"
+          className={`w-full h-full object-cover group-hover:scale-103 transition-all duration-300 ${
+            isLoaded ? "opacity-100" : "opacity-0"
+          }`}
         />
 
         {/* Video Overlay Indicator */}
