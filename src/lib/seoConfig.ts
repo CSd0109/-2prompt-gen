@@ -1583,6 +1583,63 @@ export const SEO_PAGES: Record<string, SEOCategoryConfig> = {
         a: "No! We never ask for your Instagram credentials. The tool is 100% anonymous and secure."
       }
     ]
+  },
+  "trending-nano-banana-prompts": {
+    slug: "trending-nano-banana-prompts",
+    title: "Trending Nano Banana Prompts (2026 Edition)",
+    h1: "Trending Nano Banana Prompts – 1-Click Copy 8K AI Image Prompts (100% Free)",
+    metaTitle: "Trending Nano Banana Prompts – Free 8K AI Image Prompts (No Sign-Up)",
+    metaDescription: "Explore the top trending Nano Banana prompts for Google Gemini and AI image generators. Copy viral 8K photorealistic prompts, cute figurines, anime avatars, and editorial fashion with zero sign-up.",
+    keywords: [
+      "trending nano banana prompts",
+      "nano banana prompts",
+      "trending nano banana ai",
+      "gemini nano banana prompts",
+      "viral nano banana prompt copy paste",
+      "nano banana pro prompts free",
+      "best trending banana prompts"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Unlock the viral power of Trending Nano Banana Prompts. Handpicked collection of the highest-rated 8K photorealistic AI image prompts, miniature figurine styles, cinematic portraits, and trending aesthetic visuals with 1-click instant copy.",
+    faqs: [
+      {
+        q: "What are trending Nano Banana prompts?",
+        a: "Trending Nano Banana prompts are high-performing prompt templates engineered for Google Gemini and Nano Banana Pro image synthesis to generate stunning 8K hyperrealistic photography, cute figurine toys, and viral character avatars."
+      },
+      {
+        q: "Can I copy and use these trending Nano Banana prompts for free?",
+        a: "Yes! All trending Nano Banana prompts on AI Prompt Generate are 100% free with 1-click copy and zero login required."
+      }
+    ]
+  },
+  "nano-banana-prompts-xyz": {
+    slug: "nano-banana-prompts-xyz",
+    title: "Nano Banana Prompts XYZ – Ultimate 8K Prompt Library",
+    h1: "Nano Banana Prompts XYZ – #1 Free AI Image & Character Prompt Vault",
+    metaTitle: "Nano Banana Prompts XYZ – Free Copy-Paste 8K Prompts for AI Creators",
+    metaDescription: "Access the official Nano Banana Prompts XYZ directory. Over 500+ curated 8K photorealistic, cinematic lighting, and consistent character prompts for Gemini & Nano Banana Pro with zero login.",
+    keywords: [
+      "nano banana prompts xyz",
+      "aipromptgenerate xyz nano banana",
+      "nano banana prompts free",
+      "nano banana prompt library",
+      "gemini nano banana pro prompts",
+      "nano banana prompt generator xyz"
+    ],
+    filterType: "custom",
+    filterValue: "nano-banana",
+    introText: "Welcome to the Nano Banana Prompts XYZ vault on aipromptgenerate.xyz. Discover elite prompt structures crafted to push Google Gemini and Nano Banana AI models to maximum fidelity, skin micro-texture realism, and rich color dynamics.",
+    faqs: [
+      {
+        q: "Why is Nano Banana Prompts XYZ the top-rated prompt vault?",
+        a: "Nano Banana Prompts XYZ delivers production-grade prompts tested across modern generative vision models, complete with camera lenses, lighting setups, and zero paywalls."
+      },
+      {
+        q: "How do I run Nano Banana Prompts XYZ in Gemini?",
+        a: "Simply click the 'Copy Prompt' button on any prompt card, paste it directly into Google Gemini or our built-in AI Generator Studio, and press generate."
+      }
+    ]
   }
 };
 

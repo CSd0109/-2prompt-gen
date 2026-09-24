@@ -2,9 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://www.aipromptgenerate.xyz/</loc>
-<lastmod>2026-09-23</lastmod>
+<lastmod>2026-09-24</lastmod>
 <changefreq>daily</changefreq>
 <priority>1</priority>
+</url>
+<url>
+<loc>https://www.aipromptgenerate.xyz/trending-nano-banana-prompts</loc>
+<lastmod>2026-09-24</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.98</priority>
+</url>
+<url>
+<loc>https://www.aipromptgenerate.xyz/nano-banana-prompts-xyz</loc>
+<lastmod>2026-09-24</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.98</priority>
 </url>
 <url>
 <loc>https://www.aipromptgenerate.xyz/veo-video-prompts</loc>

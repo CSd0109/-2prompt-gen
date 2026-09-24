@@ -506,6 +506,18 @@ export default function HomePage() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/trending-nano-banana-prompts" className="flex items-center gap-1.5 hover:text-purple-600 transition font-bold text-amber-600">
+                      <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+                      <span>Trending Nano Banana Prompts 🔥</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/nano-banana-prompts-xyz" className="flex items-center gap-1.5 hover:text-purple-600 transition font-bold text-indigo-600">
+                      <span className="w-1.5 h-1.5 rounded-full bg-indigo-500"></span>
+                      <span>Nano Banana Prompts XYZ ⭐</span>
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="/ai-characters" className="flex items-center gap-1.5 hover:text-purple-600 transition">
                       <span className="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
                       <span>Consistent AI Characters</span>
