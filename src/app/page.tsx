@@ -18,7 +18,7 @@ import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
 import { Dices, Sparkles, Flame, Search } from "lucide-react";
 import confetti from "canvas-confetti";
 
-const PAGE_SIZE = 16;
+const PAGE_SIZE = 32;
 
 const TRENDING_KEYWORDS = [
   { label: "AI prompt generator free", query: "prompt generator free" },
@@ -340,14 +340,19 @@ export default function HomePage() {
 
               {/* Superfast "Load More" / Infinite button */}
               {visiblePrompts.length < filteredPrompts.length && (
-                <div className="flex justify-center pt-6 pb-12">
+                <div className="flex flex-col items-center justify-center pt-8 pb-14 gap-3">
                   <button
                     onClick={handleLoadMore}
-                    className="px-6 py-2.5 rounded-full bg-[#272727] hover:bg-[#3f3f3f] text-white text-sm font-semibold transition active:scale-95 shadow-md flex items-center gap-2"
+                    className="px-8 py-3.5 rounded-full bg-slate-900 hover:bg-black text-white text-sm font-bold transition-all duration-200 active:scale-95 shadow-md hover:shadow-lg flex items-center gap-3 cursor-pointer font-heading"
                   >
-                    <span>Load More Prompts</span>
-                    <span className="text-xs text-[#aaaaaa]">({visiblePrompts.length} of {filteredPrompts.length})</span>
+                    <span>Load More Prompts (+32)</span>
+                    <span className="px-2.5 py-0.5 rounded-full bg-white/20 text-white text-xs font-mono">
+                      {visiblePrompts.length} / {filteredPrompts.length}
+                    </span>
                   </button>
+                  <p className="text-xs text-slate-500 font-medium">
+                    Showing {visiblePrompts.length} of {filteredPrompts.length.toLocaleString()} curated prompts • 100% Free Forever
+                  </p>
                 </div>
               )}
 
