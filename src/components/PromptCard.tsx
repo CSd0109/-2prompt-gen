@@ -78,9 +78,7 @@ export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardP
             }
             setIsLoaded(true);
           }}
-          className={`w-full h-auto block object-cover group-hover:scale-105 transition-transform duration-500 ${
-            isLoaded ? "opacity-100" : "opacity-0"
-          }`}
+          className="w-full h-auto block object-cover group-hover:scale-105 transition-transform duration-500"
         />
 
         {/* Subtle Dark Bottom Gradient Overlay */}
