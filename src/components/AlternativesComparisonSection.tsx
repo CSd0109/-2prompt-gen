@@ -17,14 +17,14 @@ interface Competitor {
 
 const ALL_COMPETITORS: Competitor[] = [
   {
-    name: "AI Prompt Generate (Our Platform)",
-    category: "Full Multi-Modal AI Suite",
+    name: "AI Prompt Generator | Free, Unlimited, No sign-up (Our Platform)",
+    category: "Full Multi-Modal AI Toolkit",
     status: "UP",
     rating: "5.0 / 5 (Community Choice)",
     pricing: "100% Free Forever",
     loginRequired: false,
     creditCaps: "Unlimited (Zero caps)",
-    keyFeatures: "Instant 1-Click Copy, Zero Registration Required, No Error 4.22.2, Full Multi-Model Parity (ChatGPT-4o, Claude Opus, Gemini 2.5, Nano Banana Pro, Google Veo 3, SeaDance 2.2, v0, Replit)",
+    keyFeatures: "Free AI toolkit with powerful tools: prompt generator, No sign-up, unlimited use. Generate clearer prompts in seconds for text, image, and video AI tools. Reverse image prompt generator, 10,000+ free prompt templates.",
     isUs: true,
   },
   {

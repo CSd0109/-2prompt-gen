@@ -28,12 +28,25 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.aipromptgenerat
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Free Image & Video Prompts – #1 Free AI Tool In The World (No Sign-Up)",
-    template: "%s",
+    default: "AI Prompt Generator | Free, Unlimited, No sign-up",
+    template: "%s | AI Prompt Generator",
   },
   description:
-    "#1 AI Prompt Website Free & Universal AI Studio. 100% Free AI Prompt Text Generator, AI prompt text to image, prompt generator from image, AI prompt free image generator, free prompt text, best AI prompts free, and free prompt templates. Zero login, no signup required for ChatGPT, Claude, Gemini, Flux, Sora, Nano Banana Pro, and Google Veo 3.",
+    "Free AI toolkit with powerful tools: prompt generator, No sign-up, unlimited use. Generate clearer prompts in seconds for text, image, and video AI tools. Discover best free ai prompts and tools with no sign up, prompt generator from image, free prompt text, generatepromptai, ai prompt website free, generate prompt ai english, and free prompt templates.",
   keywords: [
+    // Top Priority Google SERP Exact Match & People Also Ask Terms
+    "AI Prompt Generator | Free, Unlimited, No sign-up",
+    "best free ai prompts and tools with no sign up",
+    "ai prompt generator free",
+    "prompt generator from image",
+    "free prompt text",
+    "generatepromptai",
+    "generate prompt ai",
+    "generateprompt",
+    "generateprompt.net alternative",
+    "ai prompt website free",
+    "generate prompt ai english",
+    "free prompt templates",
     // Core Requested High-Intent SEO Keywords
     "AI prompt text generator",
     "ai prompt text generator",
@@ -249,9 +262,9 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World",
+    title: "AI Prompt Generator | Free, Unlimited, No sign-up",
     description:
-      "Free Image & Video Prompts, Free AI Image Generator, Free Video Generator, Free FB Video Downloader, TikTok & Insta Video Downloaders, Free Image to Video AI Generator with zero login.",
+      "Free AI toolkit with powerful tools: prompt generator, No sign-up, unlimited use. Generate clearer prompts in seconds for text, image, and video AI tools.",
     url: siteUrl,
     siteName: "AI Prompt Generate",
     locale: "en_US",
@@ -261,15 +274,15 @@ export const metadata: Metadata = {
         url: "/top1_free_ai_studio.jpg",
         width: 1200,
         height: 630,
-        alt: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD – #1 Free AI Tool In The World",
+        alt: "AI Prompt Generator | Free, Unlimited, No sign-up",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World",
+    title: "AI Prompt Generator | Free, Unlimited, No sign-up",
     description:
-      "Free Image & Video Prompts, Free Image Generator, Free Video Generator, FB Video Downloader, TikTok & Insta Video Downloaders. 100% Free, zero login.",
+      "Free AI toolkit with powerful tools: prompt generator, No sign-up, unlimited use. Generate clearer prompts in seconds for text, image, and video AI tools.",
     images: ["/top1_free_ai_studio.jpg"],
   },
   robots: {
@@ -313,8 +326,11 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${siteUrl}/#website`,
       "url": siteUrl,
-      "name": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
+      "name": "AI Prompt Generator | Free, Unlimited, No sign-up",
       "alternateName": [
+        "AI Prompt Generator",
+        "GeneratePrompt AI Alternative",
+        "Generate Prompt AI English",
         "#1 FREE AI TOOL IN THE WORLD",
         "AI Prompt Website Free",
         "AI Prompt Text Generator",
@@ -332,7 +348,7 @@ const jsonLd = {
         "Free Instagram Video Downloader",
         "Free Image to Video AI Generator"
       ],
-      "description": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 AI Prompt Website Free & Best AI Prompts Free. AI Prompt Text Generator, AI Prompt Text to Image, Prompt Generator from Image, Free Prompt Templates, Free Prompt Text, and AI Prompt Free Image tools.",
+      "description": "Free AI toolkit with powerful tools: prompt generator, No sign-up, unlimited use. Generate clearer prompts in seconds for text, image, and video AI tools. Discover best free ai prompts and tools with no sign up, prompt generator from image, free prompt text, and free prompt templates.",
       "potentialAction": {
         "@type": "SearchAction",
         "target": `${siteUrl}/?q={search_term_string}`,
@@ -342,7 +358,7 @@ const jsonLd = {
     {
       "@type": "SoftwareApplication",
       "@id": `${siteUrl}/#app`,
-      "name": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
+      "name": "AI Prompt Generator | Free, Unlimited, No sign-up",
       "applicationCategory": "DesignApplication",
       "operatingSystem": "All",
       "offers": {

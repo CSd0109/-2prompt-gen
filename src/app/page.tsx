@@ -21,11 +21,14 @@ import confetti from "canvas-confetti";
 const PAGE_SIZE = 16;
 
 const TRENDING_KEYWORDS = [
+  { label: "AI prompt generator free", query: "prompt generator free" },
+  { label: "best free ai prompts and tools with no sign up", query: "free" },
   { label: "AI prompt text generator", query: "prompt text generator" },
   { label: "AI prompt text to image", query: "text to image" },
   { label: "Prompt generator from image", query: "image" },
+  { label: "generatepromptai", query: "generateprompt" },
   { label: "AI prompt website free", query: "free" },
-  { label: "AI prompt free image", query: "free image" },
+  { label: "generate prompt ai english", query: "english" },
   { label: "Free prompt text", query: "text" },
   { label: "Best AI prompts free", query: "best" },
   { label: "Free prompt templates", query: "template" },
