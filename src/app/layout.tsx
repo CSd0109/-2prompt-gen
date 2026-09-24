@@ -32,8 +32,25 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) & #1 Free AI Tool in the World. 100% Free AI Image Prompts, Free Video Prompts, Free Image Generator, Free Video Generator, Free FB Video Downloaders, Free TikTok Video Downloader, Free Instagram Video Downloader, Free Image to Video AI Generator for ChatGPT, Claude, Gemini, Flux, Sora, Nano Banana Pro, and Google Veo 3.",
+    "#1 AI Prompt Website Free & Universal AI Studio. 100% Free AI Prompt Text Generator, AI prompt text to image, prompt generator from image, AI prompt free image generator, free prompt text, best AI prompts free, and free prompt templates. Zero login, no signup required for ChatGPT, Claude, Gemini, Flux, Sora, Nano Banana Pro, and Google Veo 3.",
   keywords: [
+    // Core Requested High-Intent SEO Keywords
+    "AI prompt text generator",
+    "ai prompt text generator",
+    "AI prompt text to image",
+    "ai prompt text to image",
+    "Prompt generator from image",
+    "prompt generator from image",
+    "AI prompt website free",
+    "ai prompt website free",
+    "AI prompt free image",
+    "ai prompt free image",
+    "Free prompt text",
+    "free prompt text",
+    "Best AI prompts free",
+    "best ai prompts free",
+    "Free prompt templates",
+    "free prompt templates",
     // 0. Primary High-Intent Topic Headers (#1 Global Rankings)
     "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD",
     "free image and video prompt website in the world no login no signup",
@@ -299,6 +316,14 @@ const jsonLd = {
       "name": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
       "alternateName": [
         "#1 FREE AI TOOL IN THE WORLD",
+        "AI Prompt Website Free",
+        "AI Prompt Text Generator",
+        "AI Prompt Text to Image",
+        "Prompt Generator from Image",
+        "Best AI Prompts Free",
+        "Free Prompt Templates",
+        "Free Prompt Text",
+        "AI Prompt Free Image",
         "AI Prompt Generate",
         "Free Image Generator",
         "Free Video Generator",
@@ -307,7 +332,7 @@ const jsonLd = {
         "Free Instagram Video Downloader",
         "Free Image to Video AI Generator"
       ],
-      "description": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 Free AI Tool In The World. Free Image & Video Prompts, Free Image Generator, Free Video Generator, FB Video Downloader, TikTok & Insta Video Downloaders.",
+      "description": "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP) – #1 AI Prompt Website Free & Best AI Prompts Free. AI Prompt Text Generator, AI Prompt Text to Image, Prompt Generator from Image, Free Prompt Templates, Free Prompt Text, and AI Prompt Free Image tools.",
       "potentialAction": {
         "@type": "SearchAction",
         "target": `${siteUrl}/?q={search_term_string}`,
@@ -326,6 +351,13 @@ const jsonLd = {
         "priceCurrency": "USD"
       },
       "featureList": [
+        "AI Prompt Website Free – 100% free prompt directory and generation studio with zero login and no credit limits",
+        "AI Prompt Text Generator – Advanced multi-modal prompt synthesizer for ChatGPT, Claude, Gemini, DeepSeek",
+        "AI Prompt Text to Image – High-fidelity image prompt engineering for Flux 1.1 Pro, Midjourney v6.1, and DALL-E 3",
+        "Prompt Generator from Image – Reverse-engineer complete artistic prompts, lighting, and camera settings from uploaded images",
+        "Best AI Prompts Free – Access thousands of community-tested, production-ready AI prompts at no cost",
+        "Free Prompt Templates – Ready-to-use templates for commercial ads, cinematic photography, viral characters, and UI designs",
+        "AI Prompt Free Image & Free Prompt Text – Instant copy-paste prompt texts and free image previews without sign-up",
         "FREE IMAGE AND VIDEO PROMPT WEBSITE IN THE WORLD (NO LOGIN NO SIGNUP)",
         "#1 FREE AI TOOL IN THE WORLD",
         "FREE IMAGE GENERATOR – High-resolution AI Image Generator with instant preview",
@@ -333,8 +365,6 @@ const jsonLd = {
         "FREE FB VIDEO DOWNLOADERS – Download Facebook reels, public clips and HD videos instantly",
         "FREE TIKTOK DOWNLOADER – Watermark-free TikTok MP4 video downloader",
         "FREE INSTA DOWNLOADER – High-speed Instagram Reels and video downloader",
-        "FREE AI IMAGE GENERATOR – Photorealistic prompt generator for Midjourney v6, Flux, ChatGPT",
-        "FREE IMAGE TO VIDEO GENERATOR – Dynamic prompt creation to animate still photos into video",
         "100% Free Unlimited AI Prompt Generation with Zero Paywalls and Zero Login Required"
       ]
     },
@@ -396,6 +426,30 @@ const jsonLd = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "AI Prompt Generate is considered one of the top AI prompt generators because it provides model-specific prompting for ChatGPT, Midjourney v6.1, Flux 1.1 Pro, and Claude, complete with a verified 1,200+ prompt gallery and 100% free access without sign-up."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to use the AI prompt text generator and AI prompt text to image tool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our AI prompt text generator allows you to type any rough thought or topic to generate photorealistic AI prompt text to image instructions for Midjourney, Flux 1.1 Pro, and DALL-E, or full text prompts for ChatGPT and Claude. It automatically injects professional lighting, aspect ratios, and lens parameters for free."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the prompt generator from image work on this AI prompt website free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Simply click the camera icon inside the generator studio to upload any image. The prompt generator from image uses multi-modal vision intelligence to reverse-engineer the subject, artistic style, camera depth, color palette, and negative prompts with zero login and zero fee."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I get the best AI prompts free and free prompt templates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI Prompt Generate offers over 10,000+ best AI prompts free and ready-made free prompt templates across commercial advertising, couple photography, realistic portraiture, coding, and UI/UX design. All prompt text is 1-click copy-ready."
           }
         },
         {

@@ -15,10 +15,21 @@ import { AlternativesComparisonSection } from "@/components/AlternativesComparis
 import { MultilingualSeoSection } from "@/components/MultilingualSeoSection";
 import { SocialVideoDownloader } from "@/components/SocialVideoDownloader";
 import { SAMPLE_PROMPTS, PromptItem } from "@/lib/data";
-import { Dices } from "lucide-react";
+import { Dices, Sparkles, Flame, Search } from "lucide-react";
 import confetti from "canvas-confetti";
 
 const PAGE_SIZE = 16;
+
+const TRENDING_KEYWORDS = [
+  { label: "AI prompt text generator", query: "prompt text generator" },
+  { label: "AI prompt text to image", query: "text to image" },
+  { label: "Prompt generator from image", query: "image" },
+  { label: "AI prompt website free", query: "free" },
+  { label: "AI prompt free image", query: "free image" },
+  { label: "Free prompt text", query: "text" },
+  { label: "Best AI prompts free", query: "best" },
+  { label: "Free prompt templates", query: "template" },
+];
 
 export default function HomePage() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -269,6 +280,32 @@ export default function HomePage() {
                 </button>
               </div>
 
+            {/* Trending High-Intent AI Search Shortcuts Bar */}
+            <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-50 border border-amber-200 text-amber-800 text-[10px] sm:text-[11px] font-black tracking-tight whitespace-nowrap font-heading">
+                <Flame className="w-3 h-3 text-amber-500 fill-amber-500" />
+                <span>HOT PROMPTS:</span>
+              </span>
+              {TRENDING_KEYWORDS.map((item) => (
+                <button
+                  key={item.label}
+                  type="button"
+                  onClick={() => {
+                    setSearchQuery(item.query);
+                    setDisplayCount(PAGE_SIZE);
+                  }}
+                  className={`px-3 py-1 rounded-full text-[11px] font-bold whitespace-nowrap transition border active:scale-95 cursor-pointer font-heading ${
+                    searchQuery === item.query
+                      ? "bg-purple-600 text-white border-purple-600 shadow-xs"
+                      : "bg-white text-slate-600 hover:text-purple-700 hover:border-purple-300 border-slate-200"
+                  }`}
+                  title={`Filter by ${item.label}`}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </div>
+
             {/* Category Filter Chips Bar - Clean Circular Pill Styling */}
             <div className="flex items-center gap-2 overflow-x-auto pb-1.5 scrollbar-none">
               {chips.map((chip) => (
@@ -478,6 +515,30 @@ export default function HomePage() {
                     </Link>
                   </li>
                 </ul>
+              </div>
+            </div>
+
+            {/* Core SEO Keyword Index Pillar (Google Ranking Booster) */}
+            <div className="pt-6 border-t border-slate-200/80">
+              <h4 className="text-xs font-black text-slate-800 uppercase tracking-wider mb-3 font-heading">
+                🔥 Free AI Prompts &amp; Engineering Hub
+              </h4>
+              <div className="flex flex-wrap items-center gap-2 text-xs">
+                {TRENDING_KEYWORDS.map((kw) => (
+                  <button
+                    key={kw.label}
+                    type="button"
+                    onClick={() => {
+                      setSearchQuery(kw.query);
+                      setDisplayCount(PAGE_SIZE);
+                      window.scrollTo({ top: 400, behavior: "smooth" });
+                    }}
+                    className="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-purple-50 hover:text-purple-700 hover:border-purple-300 text-slate-700 font-bold transition border border-slate-200/80 cursor-pointer font-heading"
+                    title={`Explore ${kw.label}`}
+                  >
+                    {kw.label}
+                  </button>
+                ))}
               </div>
             </div>
 

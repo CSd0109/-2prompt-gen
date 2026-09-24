@@ -54,6 +54,28 @@ Looking for high-fidelity consistent AI characters, Cyberpunk avatars, or corpor
 
 ---
 
+## ⚡ 6. Best AI Prompts Free & Free Prompt Templates
+
+### AI Prompt Text Generator (Universal Strategy Template)
+```text
+Act as a world-class prompt engineer. Deconstruct the user's objective: [TARGET_GOAL]. Generate 3 hyper-optimized variations: 1) Precision Minimalist, 2) Step-by-Step Chain-of-Thought, and 3) Creative Unconstrained. Include negative guidance and required output schema.
+```
+
+### AI Prompt Text to Image (Hyperrealistic Commercial Product)
+```text
+Studio macro photography of an ergonomic luxury watch resting on dark basalt stone, subtle mist, rim lighting highlighting chamfered sapphire glass, warm cinematic amber backlight, 8k resolution, photorealistic, 100mm macro lens, f/2.8 --ar 1:1 --style raw
+```
+
+### Prompt Generator from Image (Reverse Engineering Framework)
+```text
+Analyze the uploaded image in depth. Identify: 1) Primary subject & posture, 2) Camera perspective & focal length, 3) Key lighting source & color temperature, 4) Art medium/film stock, and 5) Negative aspects to avoid. Output a Midjourney v6.1 prompt replicating this style.
+```
+
+*Access the 100% Free AI Prompt Website:*  
+👉 **[https://aipromptgenerate.xyz](https://aipromptgenerate.xyz)**
+
+---
+
 ## 🚀 Full Directory & Continuous Updates
 
 All prompts are updated daily and community verified. Visit **[AI Prompt Generate](https://aipromptgenerate.xyz)** to test the live generative studio.

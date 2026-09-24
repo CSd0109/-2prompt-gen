@@ -374,6 +374,53 @@ export function AlternativesComparisonSection() {
           </p>
         </div>
       </div>
+
+      {/* High-Authority SEO Search Intent & Capability Highlights */}
+      <div className="rounded-3xl bg-slate-50 border-2 border-slate-200/80 p-6 sm:p-8 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 pb-3">
+          <div>
+            <h3 className="text-base sm:text-lg font-black text-slate-900 font-outfit">
+              #1 Free AI Prompt Website – Complete Prompt Engineering Suite
+            </h3>
+            <p className="text-xs text-slate-500 font-medium">
+              Ranked the best AI prompt website free for image, video, code, and copy-paste prompt text.
+            </p>
+          </div>
+          <span className="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-black self-start sm:self-auto">
+            100% Free • No Sign-Up
+          </span>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pt-1 text-xs">
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1">
+            <h5 className="font-extrabold text-slate-900 font-heading">AI Prompt Text Generator</h5>
+            <p className="text-slate-500 text-[11px] leading-relaxed">
+              Synthesize rich, context-aware prompt text for ChatGPT, Claude 3.7, and Gemini without credit restrictions.
+            </p>
+          </div>
+
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1">
+            <h5 className="font-extrabold text-slate-900 font-heading">AI Prompt Text to Image</h5>
+            <p className="text-slate-500 text-[11px] leading-relaxed">
+              Craft camera-tuned Midjourney v6.1 and Flux 1.1 Pro text-to-image prompts with lens parameters and negative tokens.
+            </p>
+          </div>
+
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1">
+            <h5 className="font-extrabold text-slate-900 font-heading">Prompt Generator from Image</h5>
+            <p className="text-slate-500 text-[11px] leading-relaxed">
+              Upload any reference photo to reverse-engineer artistic lighting, depth of field, color grading, and subject style.
+            </p>
+          </div>
+
+          <div className="p-3.5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1">
+            <h5 className="font-extrabold text-slate-900 font-heading">Best AI Prompts Free</h5>
+            <p className="text-slate-500 text-[11px] leading-relaxed">
+              Explore 10,000+ verified free prompt templates for commercial ads, portraiture, viral reels, and full-stack UI.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

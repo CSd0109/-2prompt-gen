@@ -213,6 +213,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
           <button
             type="button"
             onClick={() => setSelectedCategory("image")}
+            title="AI Prompt Text to Image (Midjourney, Flux, DALL-E)"
             className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
               selectedCategory === "image"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -220,12 +221,13 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             }`}
           >
             <Image className="w-3.5 h-3.5" />
-            <span>Image Prompt</span>
+            <span>Text to Image</span>
           </button>
 
           <button
             type="button"
             onClick={() => setSelectedCategory("video")}
+            title="AI Prompt Text to Video (Sora, Veo 3, Kling, Runway)"
             className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
               selectedCategory === "video"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -233,7 +235,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             }`}
           >
             <Video className="w-3.5 h-3.5" />
-            <span>Video Prompt</span>
+            <span>Text to Video</span>
           </button>
 
           <button
@@ -400,7 +402,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             {/* Right: Upload Image + Round Send/Arrow Button like Gemini */}
             <div className="flex items-center gap-2">
               <label
-                title="Upload image to reverse-engineer prompt"
+                title="Prompt generator from image (Upload image to reverse-engineer prompt)"
                 className="w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 flex items-center justify-center cursor-pointer transition active:scale-95 border border-slate-200"
               >
                 <input
