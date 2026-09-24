@@ -8,9 +8,10 @@ import { PromptItem } from "@/lib/data";
 interface PromptCardProps {
   item: PromptItem;
   onOpenDetail: (item: PromptItem) => void;
+  priority?: boolean;
 }
 
-export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
+export function PromptCard({ item, onOpenDetail, priority = false }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -47,7 +48,7 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
       <div className={`relative w-full ${getAspectRatioClass(item.aspectRatio)} bg-slate-100 overflow-hidden`}>
         {/* Shimmer loading skeleton */}
         {!isLoaded && (
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse" />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 animate-pulse pointer-events-none" />
         )}
 
         {/* Single high-speed optimized image */}
@@ -56,6 +57,7 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
           src={item.thumbnail}
           alt={item.title}
           title={item.title}
+          loading={priority ? "eager" : "lazy"}
           decoding="async"
           referrerPolicy="no-referrer"
           onLoad={() => setIsLoaded(true)}
@@ -67,7 +69,7 @@ export function PromptCard({ item, onOpenDetail }: PromptCardProps) {
             setIsLoaded(true);
           }}
           className={`w-full h-full object-cover group-hover:scale-103 transition-all duration-300 ${
-            isLoaded ? "opacity-100" : "opacity-0"
+            isLoaded ? "opacity-100" : "opacity-90"
           }`}
         />
 
