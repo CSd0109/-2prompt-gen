@@ -4,30 +4,39 @@ export const maxDuration = 60;
 
 export async function POST(req: NextRequest) {
   try {
-    const { imageBase64, fileName = "document.jpg", instructions } = await req.json();
+    const { imageBase64, images = [], fileName = "document.jpg", instructions } = await req.json();
 
-    if (!imageBase64) {
-      return NextResponse.json({ error: "Image data is required" }, { status: 400 });
+    const allImages: Array<{ base64: string; name?: string }> = [];
+    if (images && Array.isArray(images) && images.length > 0) {
+      images.forEach((img: any) => {
+        if (typeof img === "string") allImages.push({ base64: img });
+        else if (img.base64) allImages.push(img);
+      });
+    } else if (imageBase64) {
+      allImages.push({ base64: imageBase64, name: fileName });
+    }
+
+    if (allImages.length === 0) {
+      return NextResponse.json({ error: "At least one image is required" }, { status: 400 });
     }
 
     const apiKey = process.env.NUTRIENT_API_KEY || "pdf_live_bYCTCKI8udBowUTKYYA01MRfh58mj7uhjFbuVJ1uwnI";
-
-    // Clean base64 string and extract mime
-    const mimeMatch = imageBase64.match(/^data:([a-zA-Z0-9]+\/[a-zA-Z0-9-.+]+);base64,/);
-    const mimeType = mimeMatch ? mimeMatch[1] : "image/jpeg";
-    const cleanBase64 = imageBase64.replace(/^data:[a-zA-Z0-9]+\/[a-zA-Z0-9-.+]+;base64,/, "");
-    const imageBuffer = Buffer.from(cleanBase64, "base64");
-
     const formData = new FormData();
-    const blob = new Blob([imageBuffer], { type: mimeType });
-    formData.append("file", blob, fileName);
+    const parts: any[] = [];
 
-    // Nutrient DWS build instructions
-    const buildInstructions = instructions || {
-      parts: [
-        { file: "file" }
-      ]
-    };
+    allImages.forEach((imgObj, idx) => {
+      const fieldName = `file_${idx}`;
+      const mimeMatch = imgObj.base64.match(/^data:([a-zA-Z0-9]+\/[a-zA-Z0-9-.+]+);base64,/);
+      const mimeType = mimeMatch ? mimeMatch[1] : "image/jpeg";
+      const cleanBase64 = imgObj.base64.replace(/^data:[a-zA-Z0-9]+\/[a-zA-Z0-9-.+]+;base64,/, "");
+      const imageBuffer = Buffer.from(cleanBase64, "base64");
+      const blob = new Blob([imageBuffer], { type: mimeType });
+      formData.append(fieldName, blob, imgObj.name || `image_${idx + 1}.jpg`);
+      parts.push({ file: fieldName });
+    });
+
+    // Nutrient DWS build instructions for merging all images into one PDF
+    const buildInstructions = instructions || { parts };
     formData.append("instructions", JSON.stringify(buildInstructions));
 
     const nutrientResponse = await fetch("https://api.nutrient.io/api/build", {

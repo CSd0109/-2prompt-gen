@@ -277,6 +277,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
   const [progress, setProgress] = useState(0);
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [uploadedFileName, setUploadedFileName] = useState<string | null>(null);
+  const [uploadedImages, setUploadedImages] = useState<Array<{ base64: string; name: string }>>([]);
   const [copied, setCopied] = useState(false);
   const [pdfDownloadUrl, setPdfDownloadUrl] = useState<string | null>(null);
   const [pdfFileName, setPdfFileName] = useState<string | null>(null);
@@ -312,31 +313,59 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const handleImageFile = (file: File) => {
-    if (!file.type.startsWith("image/")) {
-      alert("Please upload a valid image file.");
+  const handleMultipleFiles = (files: FileList | File[]) => {
+    const validFiles = Array.from(files).filter((f) => f.type.startsWith("image/"));
+    if (validFiles.length === 0) {
+      alert("Please upload valid image files (PNG, JPG, WEBP).");
       return;
     }
-    setUploadedFileName(file.name);
-    const reader = new FileReader();
-    reader.onload = () => {
-      setUploadedImage(reader.result as string);
-      if (selectedService.id !== "image-to-prompt" && selectedService.id !== "image-to-pdf" && selectedService.id !== "image-to-text") {
-        setSelectedService(ALL_SERVICES_CATALOG[0]); // switch to Image-to-Prompt
+
+    const readers = validFiles.map((file) => {
+      return new Promise<{ base64: string; name: string }>((resolve) => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          resolve({ base64: reader.result as string, name: file.name });
+        };
+        reader.readAsDataURL(file);
+      });
+    });
+
+    Promise.all(readers).then((newImgs) => {
+      setUploadedImages((prev) => {
+        const combined = [...prev, ...newImgs];
+        if (combined.length > 0) {
+          setUploadedImage(combined[0].base64);
+          setUploadedFileName(combined[0].name);
+        }
+        return combined;
+      });
+
+      if (
+        selectedService.id !== "image-to-prompt" &&
+        selectedService.id !== "image-to-pdf" &&
+        selectedService.id !== "image-to-text" &&
+        selectedService.id !== "image-resizer"
+      ) {
+        const s = ALL_SERVICES_CATALOG.find((item) => item.id === "image-to-prompt");
+        if (s) setSelectedService(s);
       }
-    };
-    reader.readAsDataURL(file);
+    });
+  };
+
+  const handleImageFile = (file: File) => {
+    handleMultipleFiles([file]);
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) handleImageFile(file);
+    if (e.target.files && e.target.files.length > 0) {
+      handleMultipleFiles(e.target.files);
+    }
   };
 
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
-    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
-      handleImageFile(e.dataTransfer.files[0]);
+    if (e.dataTransfer.files && e.dataTransfer.files.length > 0) {
+      handleMultipleFiles(e.dataTransfer.files);
     }
   };
 
@@ -381,11 +410,13 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
       // CASE 2: Image to PDF Service (Powered by Nutrient.io High-Resolution Engine)
       if (selectedService.id === "image-to-pdf") {
-        if (!uploadedImage) {
+        const imgsToConvert = uploadedImages.length > 0 ? uploadedImages : uploadedImage ? [{ base64: uploadedImage, name: uploadedFileName || "image.jpg" }] : [];
+
+        if (imgsToConvert.length === 0) {
           clearInterval(progressInterval);
           setIsLoading(false);
           setProgress(0);
-          alert("Please upload or drag an image first to convert it to PDF!");
+          alert("Please upload or drag one or more images first to convert to PDF!");
           fileInputRef.current?.click();
           return;
         }
@@ -394,14 +425,14 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         let downloadUrl: string | null = null;
         let engineUsed = "Nutrient.io DWS Engine";
 
-        // 1. Try Nutrient.io API route
+        // 1. Try Nutrient.io API route with all images
         try {
           const nutrientRes = await fetch("/api/nutrient-pdf", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              imageBase64: uploadedImage,
-              fileName: uploadedFileName || "document.jpg",
+              images: imgsToConvert,
+              fileName: safeName,
             }),
           });
 
@@ -415,9 +446,9 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           console.warn("Nutrient.io fallback:", err);
         }
 
-        // 2. Client-side jsPDF fallback if network or API fails
+        // 2. Client-side jsPDF fallback (multi-page) if network or API fails
         if (!downloadUrl) {
-          engineUsed = "High-Res PDF Engine";
+          engineUsed = "High-Res Multi-Page PDF Engine";
           const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
           const pageWidth = pdf.internal.pageSize.getWidth();
           const pageHeight = pdf.internal.pageSize.getHeight();
@@ -425,16 +456,20 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           const maxW = pageWidth - margin * 2;
           const maxH = pageHeight - margin * 2 - 20;
 
-          try {
-            pdf.addImage(uploadedImage, "JPEG", margin, margin + 10, maxW, maxH, undefined, "FAST");
-          } catch {
-            pdf.addImage(uploadedImage, "PNG", margin, margin + 10, maxW, maxH, undefined, "FAST");
-          }
+          imgsToConvert.forEach((item, index) => {
+            if (index > 0) pdf.addPage();
 
-          pdf.setFont("helvetica", "bold");
-          pdf.setFontSize(10);
-          pdf.setTextColor(80, 80, 80);
-          pdf.text("Converted with AI Prompt Generate • 100% Free", margin, margin + 5);
+            try {
+              pdf.addImage(item.base64, "JPEG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+            } catch {
+              pdf.addImage(item.base64, "PNG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+            }
+
+            pdf.setFont("helvetica", "bold");
+            pdf.setFontSize(9);
+            pdf.setTextColor(100, 100, 100);
+            pdf.text(`Page ${index + 1} of ${imgsToConvert.length} • Converted with AI Prompt Generate`, margin, margin + 5);
+          });
 
           const blob = pdf.output("blob");
           downloadUrl = URL.createObjectURL(blob);
@@ -446,9 +481,9 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         setPdfDownloadUrl(downloadUrl);
         setPdfFileName(safeName);
         setResultData({
-          prompt: `✅ Professional PDF Created Successfully!\n• Engine: ${engineUsed}\n• File: ${safeName}\n• Page Size: Standard A4 Portrait\n• Click Download PDF button below.`,
+          prompt: `✅ Professional Multi-Page PDF Created Successfully!\n• Engine: ${engineUsed}\n• Total Images Merged: ${imgsToConvert.length}\n• File Name: ${safeName}\n• Page Size: Standard A4 Portrait\n• Click Download PDF button below.`,
         });
-        confetti({ particleCount: 45, spread: 60, origin: { y: 0.8 } });
+        confetti({ particleCount: 50, spread: 65, origin: { y: 0.8 } });
         return;
       }
 
@@ -561,7 +596,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         return;
       }
 
-      // CASE 3.5: Direct AI Image Generation (Puter.ai + FLUX-Realism Ultra HD Engine)
+      // CASE 3.5: Direct AI Image Generation (Zero Login, 100% Free Instant Master Engine)
       if (selectedService.id === "ai-image-generator") {
         const fluxWidth = aspectRatio === "9:16" ? 768 : aspectRatio === "1:1" ? 1024 : 1024;
         const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 1024 : 576;
@@ -572,27 +607,8 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           ? `${inputTopic.trim()}, 8k resolution, highly detailed, photorealistic, cinematic studio lighting, sharp focus, masterpiece`
           : inputTopic.trim();
 
-        let generatedImgSrc: string | null = null;
-        let engineUsed = "Puter AI (FLUX & SDXL)";
-
-        // 1. Try Puter.ai client if available in window
-        if (typeof window !== "undefined" && (window as any).puter?.ai?.txt2img) {
-          try {
-            const puterImg = await (window as any).puter.ai.txt2img(enhancedPrompt);
-            if (puterImg && puterImg.src) {
-              generatedImgSrc = puterImg.src;
-              engineUsed = "Puter.ai Ultra-HD Engine";
-            }
-          } catch (puterErr) {
-            console.warn("Puter.ai generation fallback:", puterErr);
-          }
-        }
-
-        // 2. Fallback to FLUX-Realism HD
-        if (!generatedImgSrc) {
-          generatedImgSrc = `https://image.pollinations.ai/prompt/${encodeURIComponent(enhancedPrompt)}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${seed}`;
-          engineUsed = "FLUX-Realism Pro 8K Engine";
-        }
+        // Direct high-resolution generation with NO sign-up and NO popups
+        const generatedImgSrc = `https://image.pollinations.ai/prompt/${encodeURIComponent(enhancedPrompt)}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${seed}`;
 
         clearInterval(progressInterval);
         setProgress(100);
@@ -600,7 +616,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         setResultData({
           prompt: inputTopic,
           previewImage: generatedImgSrc,
-          specs: `Engine: ${engineUsed} | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | 100% Free`,
+          specs: `Engine: FLUX-Realism Ultra HD | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | 100% Free & No Sign-up`,
         });
 
         confetti({
@@ -768,38 +784,55 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           ref={fileInputRef}
           onChange={handleFileChange}
           accept="image/*"
+          multiple
           className="hidden"
         />
 
         <div className="relative w-full rounded-3xl bg-white text-slate-800 shadow-[0_10px_40px_-10px_rgba(124,92,252,0.12)] p-5 sm:p-7 flex flex-col border border-purple-100/80 focus-within:border-[#8054ff] focus-within:ring-4 focus-within:ring-purple-500/10 transition-all">
           
-          {/* Active Image Thumbnail Pill */}
-          {uploadedImage && (
-            <div className="relative inline-flex items-center gap-2.5 mb-3 p-1.5 pr-3.5 rounded-2xl bg-cyan-50/80 border border-cyan-200/90 text-slate-900 text-xs font-semibold w-fit animate-in fade-in">
-              <img
-                src={uploadedImage}
-                alt="Uploaded reference"
-                className="w-10 h-10 rounded-xl object-cover border border-cyan-300 shadow-xs"
-              />
-              <div className="flex flex-col text-left">
-                <span className="text-[11px] text-cyan-800 font-bold flex items-center gap-1">
-                  <CheckCircle2 className="w-3 h-3 text-cyan-600" /> Image Attached
+          {/* Active Image Thumbnail Gallery (Multi-Image Support) */}
+          {uploadedImages.length > 0 && (
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              {uploadedImages.map((imgItem, idx) => (
+                <div key={idx} className="relative inline-flex items-center gap-2 p-1.5 pr-2.5 rounded-2xl bg-cyan-50/80 border border-cyan-200/90 text-slate-900 text-xs font-semibold animate-in fade-in">
+                  <img
+                    src={imgItem.base64}
+                    alt={imgItem.name}
+                    className="w-9 h-9 rounded-xl object-cover border border-cyan-300 shadow-xs"
+                  />
+                  <div className="flex flex-col text-left max-w-[140px]">
+                    <span className="text-[11px] text-cyan-900 font-bold truncate">
+                      {imgItem.name}
+                    </span>
+                    <span className="text-[9px] text-cyan-700">
+                      Image #{idx + 1}
+                    </span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      const updated = uploadedImages.filter((_, i) => i !== idx);
+                      setUploadedImages(updated);
+                      if (updated.length > 0) {
+                        setUploadedImage(updated[0].base64);
+                        setUploadedFileName(updated[0].name);
+                      } else {
+                        setUploadedImage(null);
+                        setUploadedFileName(null);
+                      }
+                    }}
+                    className="ml-1 w-4 h-4 rounded-full bg-slate-200 hover:bg-rose-500 hover:text-white flex items-center justify-center text-slate-500 text-[10px] font-bold transition cursor-pointer"
+                    title="Remove this image"
+                  >
+                    ✕
+                  </button>
+                </div>
+              ))}
+              {uploadedImages.length > 1 && (
+                <span className="text-xs font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200">
+                  {uploadedImages.length} Images Selected (Multi-Page PDF Ready)
                 </span>
-                <span className="text-[10px] text-slate-500 truncate max-w-[200px]">
-                  {uploadedFileName || "Reference Image"}
-                </span>
-              </div>
-              <button
-                type="button"
-                onClick={() => {
-                  setUploadedImage(null);
-                  setUploadedFileName(null);
-                }}
-                className="ml-2 w-5 h-5 rounded-full bg-slate-200/80 hover:bg-rose-500 hover:text-white flex items-center justify-center text-slate-500 font-bold transition cursor-pointer"
-                title="Remove image"
-              >
-                ✕
-              </button>
+              )}
             </div>
           )}
 
