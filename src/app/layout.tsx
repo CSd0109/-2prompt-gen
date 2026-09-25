@@ -312,7 +312,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   verification: {
-    google: "-yfvWRXWru-nI88GjH0kbcHvNF1ro1a4jKhqaXXYtUk",
+    google: "-uU6XivNZw1aC28OMT8fv-61q0xIr13wVPWBi9nOcPk",
     other: {
       "msvalidate.01": "C27F4F79E4C74B4814917C67B4BB6665",
     },
