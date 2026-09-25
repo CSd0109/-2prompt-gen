@@ -73,10 +73,10 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
   {
     id: "ai-text-detector",
     name: "AI Content & Prompt Detector",
-    desc: "Detect AI percentage & robotic sentences in your exact language",
+    desc: "Detect AI probability and robotic sentences in your text",
     category: "Text & AI",
     iconName: "ai-text-detector",
-    actionPlaceholder: "हाम्रो यो वेबसाइट उत्कृष्ट छ... Paste text/prompt in any language to detect AI...",
+    actionPlaceholder: "Paste any text, essay, or prompt to detect AI probability and robotic phrasing...",
     actionButtonLabel: "Detect AI Content",
     isDetectorTool: true,
   },
@@ -859,9 +859,9 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
               {/* Flagged AI Phrases */}
               {resultData.detectorReport.flaggedPhrases && resultData.detectorReport.flaggedPhrases.length > 0 && (
                 <div className="p-3.5 rounded-2xl bg-amber-50/70 border border-amber-200 text-xs">
-                  <span className="font-bold text-amber-900 block mb-1.5 flex items-center gap-1.5">
+                  <span className="font-bold text-amber-900 mb-1.5 flex items-center gap-1.5">
                     <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
-                    AI द्वारा पत्ता लगाइएका रोबोटिक वाक्यांशहरू (Detected AI Phrases):
+                    Detected AI Phrases & Robotic Patterns:
                   </span>
                   <div className="flex flex-wrap gap-1.5">
                     {resultData.detectorReport.flaggedPhrases.map((phrase, i) => (
@@ -873,9 +873,9 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
                 </div>
               )}
 
-              {/* Native Language Analysis Breakdown */}
+              {/* Language Analysis Breakdown */}
               <div className="bg-white rounded-2xl p-4 border border-slate-200 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2 whitespace-pre-wrap">
-                <span className="font-bold text-slate-900 block">विस्तृत विश्लेषण (Forensic Analysis):</span>
+                <span className="font-bold text-slate-900 block">Forensic Linguistic Analysis:</span>
                 {resultData.detectorReport.analysis}
               </div>
 
@@ -884,7 +884,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
                 <div className="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200 text-xs sm:text-sm">
                   <div className="flex justify-between items-center mb-1.5">
                     <span className="font-bold text-emerald-900">
-                      १००% प्राकृतिक मानव शैलीमा लेखिएको विकल्प (Human Alternative):
+                      Human-Style Rewritten Alternative (100% Natural):
                     </span>
                     <button
                       onClick={() => handleCopy(resultData.detectorReport?.humanizedSuggestion || "")}
