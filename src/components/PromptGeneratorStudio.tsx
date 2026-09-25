@@ -129,6 +129,16 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     actionPlaceholder: "Describe changes or annotations needed in your PDF...",
     actionButtonLabel: "Edit PDF",
   },
+  {
+    id: "image-resizer",
+    name: "Image Resizer & Dimensions Converter",
+    desc: "Resize JPG, PNG, WEBP dimensions & compress file size",
+    category: "Document & PDF",
+    iconName: "image-resizer",
+    actionPlaceholder: "Attach image to resize or change dimensions (e.g. 1920x1080, 4k, 50%)...",
+    actionButtonLabel: "Resize Image",
+    isVisionTool: true,
+  },
   // 4. Prompt Tools
   {
     id: "ai-prompt-generator",
@@ -235,6 +245,8 @@ function ServiceBadgeIcon({ id, className = "w-4 h-4" }: { id: string; className
     case "pdf-to-image":
     case "pdf-editor":
       return <FileUp className={`${className} text-rose-500`} />;
+    case "image-resizer":
+      return <SlidersHorizontal className={`${className} text-emerald-500`} />;
     case "ai-humanizer":
       return <span className="text-xs">🍃</span>;
     case "ai-text-detector":
@@ -367,7 +379,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         return;
       }
 
-      // CASE 2: Image to PDF Service
+      // CASE 2: Image to PDF Service (Powered by Nutrient.io High-Resolution Engine)
       if (selectedService.id === "image-to-pdf") {
         if (!uploadedImage) {
           clearInterval(progressInterval);
@@ -378,36 +390,119 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           return;
         }
 
-        const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
-        const pageWidth = pdf.internal.pageSize.getWidth();
-        const pageHeight = pdf.internal.pageSize.getHeight();
-        const margin = 15;
-        const maxW = pageWidth - margin * 2;
-        const maxH = pageHeight - margin * 2 - 20;
+        const safeName = (uploadedFileName?.replace(/\.[^/.]+$/, "") || "converted_document") + ".pdf";
+        let downloadUrl: string | null = null;
+        let engineUsed = "Nutrient.io DWS Engine";
 
+        // 1. Try Nutrient.io API route
         try {
-          pdf.addImage(uploadedImage, "JPEG", margin, margin + 10, maxW, maxH, undefined, "FAST");
-        } catch {
-          pdf.addImage(uploadedImage, "PNG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+          const nutrientRes = await fetch("/api/nutrient-pdf", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              imageBase64: uploadedImage,
+              fileName: uploadedFileName || "document.jpg",
+            }),
+          });
+
+          if (nutrientRes.ok) {
+            const data = await nutrientRes.json();
+            if (data.pdfDataUri) {
+              downloadUrl = data.pdfDataUri;
+            }
+          }
+        } catch (err) {
+          console.warn("Nutrient.io fallback:", err);
         }
 
-        pdf.setFont("helvetica", "bold");
-        pdf.setFontSize(10);
-        pdf.setTextColor(80, 80, 80);
-        pdf.text("Converted with AI Prompt Generate • 100% Free", margin, margin + 5);
+        // 2. Client-side jsPDF fallback if network or API fails
+        if (!downloadUrl) {
+          engineUsed = "High-Res PDF Engine";
+          const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+          const pageWidth = pdf.internal.pageSize.getWidth();
+          const pageHeight = pdf.internal.pageSize.getHeight();
+          const margin = 15;
+          const maxW = pageWidth - margin * 2;
+          const maxH = pageHeight - margin * 2 - 20;
 
-        const safeName = (uploadedFileName?.replace(/\.[^/.]+$/, "") || "converted_document") + ".pdf";
-        const blob = pdf.output("blob");
-        const url = URL.createObjectURL(blob);
+          try {
+            pdf.addImage(uploadedImage, "JPEG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+          } catch {
+            pdf.addImage(uploadedImage, "PNG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+          }
+
+          pdf.setFont("helvetica", "bold");
+          pdf.setFontSize(10);
+          pdf.setTextColor(80, 80, 80);
+          pdf.text("Converted with AI Prompt Generate • 100% Free", margin, margin + 5);
+
+          const blob = pdf.output("blob");
+          downloadUrl = URL.createObjectURL(blob);
+        }
 
         clearInterval(progressInterval);
         setProgress(100);
 
-        setPdfDownloadUrl(url);
+        setPdfDownloadUrl(downloadUrl);
         setPdfFileName(safeName);
         setResultData({
-          prompt: `✅ High-Resolution PDF Created Successfully!\n• File: ${safeName}\n• Page Size: Standard A4 Portrait\n• Click Download PDF button below.`,
+          prompt: `✅ Professional PDF Created Successfully!\n• Engine: ${engineUsed}\n• File: ${safeName}\n• Page Size: Standard A4 Portrait\n• Click Download PDF button below.`,
         });
+        confetti({ particleCount: 45, spread: 60, origin: { y: 0.8 } });
+        return;
+      }
+
+      // CASE 2.5: Image Resizer & Dimensions Converter
+      if (selectedService.id === "image-resizer") {
+        if (!uploadedImage) {
+          clearInterval(progressInterval);
+          setIsLoading(false);
+          setProgress(0);
+          alert("Please upload or drag an image first to resize!");
+          fileInputRef.current?.click();
+          return;
+        }
+
+        // Create an in-memory image to resize
+        const img = new Image();
+        img.src = uploadedImage;
+        await new Promise((resolve) => {
+          img.onload = resolve;
+        });
+
+        // Parse target dimensions or aspect ratio
+        let targetWidth = img.naturalWidth;
+        let targetHeight = img.naturalHeight;
+
+        if (aspectRatio === "16:9") {
+          targetWidth = 1920;
+          targetHeight = 1080;
+        } else if (aspectRatio === "9:16") {
+          targetWidth = 1080;
+          targetHeight = 1920;
+        } else if (aspectRatio === "1:1") {
+          targetWidth = 1080;
+          targetHeight = 1080;
+        }
+
+        const canvas = document.createElement("canvas");
+        canvas.width = targetWidth;
+        canvas.height = targetHeight;
+        const ctx = canvas.getContext("2d");
+        if (ctx) {
+          ctx.drawImage(img, 0, 0, targetWidth, targetHeight);
+        }
+
+        const resizedDataUrl = canvas.toDataURL("image/jpeg", 0.92);
+        clearInterval(progressInterval);
+        setProgress(100);
+
+        setResultData({
+          prompt: `✅ Image Resized Successfully!\n• Original Dimensions: ${img.naturalWidth} x ${img.naturalHeight} px\n• New Dimensions: ${targetWidth} x ${targetHeight} px (${aspectRatio})\n• Click Download High-Res button below.`,
+          previewImage: resizedDataUrl,
+          specs: `Resolution: ${targetWidth}x${targetHeight} | Format: JPEG (92% Quality) | Free Image Resizer`,
+        });
+
         confetti({ particleCount: 40, spread: 55, origin: { y: 0.8 } });
         return;
       }
