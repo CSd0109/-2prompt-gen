@@ -6,9 +6,10 @@ import {
   ArrowUp, Sparkles, Bot, Copy, Check, ExternalLink, RefreshCw, 
   Image as ImageIcon, Video, Layout, Layers, Sliders, ChevronDown, CheckCircle2,
   Terminal, Shield, Upload, Paperclip, Camera, Wand2, X, FileText,
-  SlidersHorizontal, CheckSquare, Maximize2, Zap, FileUp
+  SlidersHorizontal, CheckSquare, Maximize2, Zap, FileUp, Download, AlertTriangle
 } from "lucide-react";
 import confetti from "canvas-confetti";
+import jsPDF from "jspdf";
 import { AI_MODELS } from "@/lib/data";
 
 interface PromptGeneratorStudioProps {
@@ -32,7 +33,7 @@ export function ProviderIcon({ id, className = "w-4 h-4" }: { id: string; classN
   }
 }
 
-// All Suite Services definition for the dropdown
+// All Suite Services definition
 export interface ServiceItem {
   id: string;
   name: string;
@@ -40,8 +41,10 @@ export interface ServiceItem {
   category: "Vision & Reverse" | "Prompt Tools" | "Document & PDF" | "Text & AI" | "AI Models";
   iconName: string;
   actionPlaceholder: string;
-  isExternalLink?: string;
+  actionButtonLabel: string;
   isVisionTool?: boolean;
+  isPdfTool?: boolean;
+  isDetectorTool?: boolean;
 }
 
 export const ALL_SERVICES_CATALOG: ServiceItem[] = [
@@ -49,10 +52,11 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
   {
     id: "image-to-prompt",
     name: "Image to Prompt (Reverse AI)",
-    desc: "Extract Midjourney, Flux & SDXL prompts from any image",
+    desc: "Extract 100% replica Midjourney, Flux & SDXL prompts",
     category: "Vision & Reverse",
     iconName: "image-to-prompt",
-    actionPlaceholder: "Upload image below or type custom command (e.g. remove background)...",
+    actionPlaceholder: "Attach image or type custom command (e.g. remove background)...",
+    actionButtonLabel: "Reverse Prompt",
     isVisionTool: true,
   },
   {
@@ -62,66 +66,40 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "Vision & Reverse",
     iconName: "image-to-text",
     actionPlaceholder: "Attach image to extract text from...",
+    actionButtonLabel: "Extract Text",
     isVisionTool: true,
   },
-  // 2. Prompt Tools
+  // 2. Text & AI Tools (AI Detector with Native Language Detection)
   {
-    id: "ai-prompt-generator",
-    name: "Master AI Prompt Generator",
-    desc: "Build structured production prompts for any use case",
-    category: "Prompt Tools",
-    iconName: "ai-prompt-generator",
-    actionPlaceholder: "Describe your prompt goal or idea...",
+    id: "ai-text-detector",
+    name: "AI Content & Prompt Detector",
+    desc: "Detect AI percentage & robotic sentences in your exact language",
+    category: "Text & AI",
+    iconName: "ai-text-detector",
+    actionPlaceholder: "हाम्रो यो वेबसाइट उत्कृष्ट छ... Paste text/prompt in any language to detect AI...",
+    actionButtonLabel: "Detect AI Content",
+    isDetectorTool: true,
   },
   {
-    id: "ai-prompt-optimizer",
-    name: "AI Prompt Optimizer",
-    desc: "Sharpen constraints and remove ambiguity from rough drafts",
-    category: "Prompt Tools",
-    iconName: "ai-prompt-optimizer",
-    actionPlaceholder: "Paste your existing rough prompt to optimize...",
-  },
-  {
-    id: "ai-prompt-checker",
-    name: "AI Prompt Checker & Auditor",
-    desc: "Audit prompt quality and hallucination risks",
-    category: "Prompt Tools",
-    iconName: "ai-prompt-checker",
-    actionPlaceholder: "Paste prompt to check for weak instructions...",
-  },
-  {
-    id: "nano-banana",
-    name: "Nano Banana Image Prompt",
-    desc: "8K aesthetic editorial character styling",
-    category: "Prompt Tools",
-    iconName: "nano-banana",
-    actionPlaceholder: "Describe subject or portrait details...",
-  },
-  {
-    id: "video-prompt-generator",
-    name: "Video Prompt Generator",
-    desc: "Cinematic camera motions for Veo 3, Sora & Kling",
-    category: "Prompt Tools",
-    iconName: "video-prompt-generator",
-    actionPlaceholder: "Describe video motion (e.g. FPV drone flyover through neon city)...",
-  },
-  {
-    id: "website-prompt-generator",
-    name: "Website Prompt Generator",
-    desc: "Next.js, Tailwind and full-stack app UI prompts",
-    category: "Prompt Tools",
-    iconName: "website-prompt-generator",
-    actionPlaceholder: "Describe website UI (e.g. SaaS landing page with dark mode)...",
+    id: "ai-humanizer",
+    name: "AI Humanizer",
+    desc: "Convert robotic AI text into 100% natural human language",
+    category: "Text & AI",
+    iconName: "ai-humanizer",
+    actionPlaceholder: "Paste robotic AI text to make it sound authentically human...",
+    actionButtonLabel: "Humanize Text",
   },
   // 3. Document & PDF Tools
   {
     id: "image-to-pdf",
     name: "Image to PDF Converter",
-    desc: "Convert JPG, PNG to clean standard PDF document",
+    desc: "Convert JPG/PNG to high-resolution downloadable PDF",
     category: "Document & PDF",
     iconName: "image-to-pdf",
-    actionPlaceholder: "Upload image to convert directly to high-quality PDF...",
+    actionPlaceholder: "Upload image above, name your PDF, and convert instantly...",
+    actionButtonLabel: "Convert to PDF",
     isVisionTool: true,
+    isPdfTool: true,
   },
   {
     id: "pdf-to-image",
@@ -130,6 +108,7 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "Document & PDF",
     iconName: "pdf-to-image",
     actionPlaceholder: "Upload PDF document to extract images...",
+    actionButtonLabel: "Convert PDF to Image",
   },
   {
     id: "pdf-editor",
@@ -138,23 +117,62 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "Document & PDF",
     iconName: "pdf-editor",
     actionPlaceholder: "Describe changes or annotations needed in your PDF...",
+    actionButtonLabel: "Edit PDF",
   },
-  // 4. Text & AI Tools
+  // 4. Prompt Tools
   {
-    id: "ai-humanizer",
-    name: "AI Humanizer",
-    desc: "Convert robotic AI drafts to natural human voice",
-    category: "Text & AI",
-    iconName: "ai-humanizer",
-    actionPlaceholder: "Paste AI generated text to make it sound 100% human...",
+    id: "ai-prompt-generator",
+    name: "Master AI Prompt Generator",
+    desc: "Build structured production prompts for any use case",
+    category: "Prompt Tools",
+    iconName: "ai-prompt-generator",
+    actionPlaceholder: "Describe your prompt goal or idea...",
+    actionButtonLabel: "Generate Prompt",
   },
   {
-    id: "ai-text-detector",
-    name: "AI Text Detector",
-    desc: "Scan text for AI patterns and perplexity scores",
-    category: "Text & AI",
-    iconName: "ai-text-detector",
-    actionPlaceholder: "Paste content to analyze for AI probability...",
+    id: "ai-prompt-optimizer",
+    name: "AI Prompt Optimizer",
+    desc: "Sharpen constraints and remove ambiguity from rough drafts",
+    category: "Prompt Tools",
+    iconName: "ai-prompt-optimizer",
+    actionPlaceholder: "Paste your existing rough prompt to optimize...",
+    actionButtonLabel: "Optimize Prompt",
+  },
+  {
+    id: "ai-prompt-checker",
+    name: "AI Prompt Checker & Auditor",
+    desc: "Audit prompt quality and hallucination risks",
+    category: "Prompt Tools",
+    iconName: "ai-prompt-checker",
+    actionPlaceholder: "Paste prompt to check for weak instructions...",
+    actionButtonLabel: "Audit Prompt",
+  },
+  {
+    id: "nano-banana",
+    name: "Nano Banana Image Prompt",
+    desc: "8K aesthetic editorial character styling",
+    category: "Prompt Tools",
+    iconName: "nano-banana",
+    actionPlaceholder: "Describe subject or portrait details...",
+    actionButtonLabel: "Generate Prompt",
+  },
+  {
+    id: "video-prompt-generator",
+    name: "Video Prompt Generator",
+    desc: "Cinematic camera motions for Veo 3, Sora & Kling",
+    category: "Prompt Tools",
+    iconName: "video-prompt-generator",
+    actionPlaceholder: "Describe video motion (e.g. FPV drone flyover through neon city)...",
+    actionButtonLabel: "Generate Video Prompt",
+  },
+  {
+    id: "website-prompt-generator",
+    name: "Website Prompt Generator",
+    desc: "Next.js, Tailwind and full-stack app UI prompts",
+    category: "Prompt Tools",
+    iconName: "website-prompt-generator",
+    actionPlaceholder: "Describe website UI (e.g. SaaS landing page with dark mode)...",
+    actionButtonLabel: "Generate Website Prompt",
   },
   // 5. Direct AI Models
   {
@@ -164,6 +182,7 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "AI Models",
     iconName: "chatgpt",
     actionPlaceholder: "Enter task for ChatGPT...",
+    actionButtonLabel: "Generate ChatGPT Prompt",
   },
   {
     id: "claude",
@@ -172,6 +191,7 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "AI Models",
     iconName: "claude",
     actionPlaceholder: "Enter task for Claude...",
+    actionButtonLabel: "Generate Claude Prompt",
   },
   {
     id: "gemini",
@@ -180,6 +200,7 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "AI Models",
     iconName: "gemini",
     actionPlaceholder: "Enter task for Google Gemini...",
+    actionButtonLabel: "Generate Gemini Prompt",
   },
   {
     id: "deepseek",
@@ -188,10 +209,10 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
     category: "AI Models",
     iconName: "deepseek",
     actionPlaceholder: "Enter coding or reasoning goal for DeepSeek...",
+    actionButtonLabel: "Generate DeepSeek Prompt",
   },
 ];
 
-// Helper to render authentic icon for service
 function ServiceBadgeIcon({ id, className = "w-4 h-4" }: { id: string; className?: string }) {
   switch (id) {
     case "image-to-prompt":
@@ -223,9 +244,9 @@ function ServiceBadgeIcon({ id, className = "w-4 h-4" }: { id: string; className
   }
 }
 
-export function PromptGeneratorStudio({ compact = false, onToggleAllServices, showAllServices }: PromptGeneratorStudioProps) {
+export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudioProps) {
   const [inputTopic, setInputTopic] = useState("");
-  const [selectedService, setSelectedService] = useState<ServiceItem>(ALL_SERVICES_CATALOG[0]); // default Image to Prompt
+  const [selectedService, setSelectedService] = useState<ServiceItem>(ALL_SERVICES_CATALOG[0]);
   const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   const [aspectRatio, setAspectRatio] = useState("16:9");
   const [isLoading, setIsLoading] = useState(false);
@@ -233,15 +254,16 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [uploadedFileName, setUploadedFileName] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
-  const [activeResultTab, setActiveResultTab] = useState<"all" | "midjourney" | "flux" | "sd">("all");
+  const [pdfDownloadUrl, setPdfDownloadUrl] = useState<string | null>(null);
+  const [pdfFileName, setPdfFileName] = useState<string | null>(null);
 
-  // Output container
+  // Result state
   const [resultData, setResultData] = useState<{
-    prompt: string;
+    prompt?: string;
     negative?: string;
     specs?: string;
     previewImage?: string;
-    // Multi-model support when image-to-prompt is used
+    // Multi-model vision prompts
     multiPrompts?: {
       midjourney?: string;
       flux?: string;
@@ -252,6 +274,15 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
       lighting?: string;
       camera?: string;
       summary?: string;
+    };
+    // Detector report
+    detectorReport?: {
+      detectedLanguage: string;
+      aiScore: number;
+      verdict: string;
+      flaggedPhrases: string[];
+      analysis: string;
+      humanizedSuggestion: string;
     };
   } | null>(null);
 
@@ -266,9 +297,8 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
     const reader = new FileReader();
     reader.onload = () => {
       setUploadedImage(reader.result as string);
-      // Auto-switch to Image to Prompt if not already
-      if (selectedService.id !== "image-to-prompt" && selectedService.id !== "image-to-text" && selectedService.id !== "image-to-pdf") {
-        setSelectedService(ALL_SERVICES_CATALOG[0]); // Image to Prompt
+      if (selectedService.id !== "image-to-prompt" && selectedService.id !== "image-to-pdf" && selectedService.id !== "image-to-text") {
+        setSelectedService(ALL_SERVICES_CATALOG[0]); // switch to Image-to-Prompt
       }
     };
     reader.readAsDataURL(file);
@@ -279,7 +309,6 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
     if (file) handleImageFile(file);
   };
 
-  // Drag and drop directly onto the textarea/command box
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
@@ -294,8 +323,8 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
     setIsLoading(true);
     setProgress(5);
     setResultData(null);
+    setPdfDownloadUrl(null);
 
-    // Realistic smooth 1% -> 100% progress counter
     const progressInterval = setInterval(() => {
       setProgress((prev) => {
         if (prev < 90) return prev + Math.floor(Math.random() * 8) + 4;
@@ -304,7 +333,74 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
     }, 120);
 
     try {
-      // 1. If Image is uploaded OR service is Image-to-Prompt, route to Gemini 2.5 Vision API
+      // CASE 1: AI Content & Prompt Detector (Specialized Multilingual Detection)
+      if (selectedService.id === "ai-text-detector") {
+        const res = await fetch("/api/ai-detector", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text: inputTopic }),
+        });
+
+        clearInterval(progressInterval);
+        setProgress(100);
+
+        if (!res.ok) throw new Error("Failed to detect AI content");
+        const json = await res.json();
+        if (json.success && json.data) {
+          setResultData({
+            detectorReport: json.data,
+          });
+          confetti({ particleCount: 35, spread: 50, origin: { y: 0.8 } });
+        }
+        return;
+      }
+
+      // CASE 2: Image to PDF Service
+      if (selectedService.id === "image-to-pdf") {
+        if (!uploadedImage) {
+          clearInterval(progressInterval);
+          setIsLoading(false);
+          setProgress(0);
+          alert("Please upload or drag an image first to convert it to PDF!");
+          fileInputRef.current?.click();
+          return;
+        }
+
+        const pdf = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const pageHeight = pdf.internal.pageSize.getHeight();
+        const margin = 15;
+        const maxW = pageWidth - margin * 2;
+        const maxH = pageHeight - margin * 2 - 20;
+
+        try {
+          pdf.addImage(uploadedImage, "JPEG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+        } catch {
+          pdf.addImage(uploadedImage, "PNG", margin, margin + 10, maxW, maxH, undefined, "FAST");
+        }
+
+        pdf.setFont("helvetica", "bold");
+        pdf.setFontSize(10);
+        pdf.setTextColor(80, 80, 80);
+        pdf.text("Converted with AI Prompt Generate • 100% Free", margin, margin + 5);
+
+        const safeName = (uploadedFileName?.replace(/\.[^/.]+$/, "") || "converted_document") + ".pdf";
+        const blob = pdf.output("blob");
+        const url = URL.createObjectURL(blob);
+
+        clearInterval(progressInterval);
+        setProgress(100);
+
+        setPdfDownloadUrl(url);
+        setPdfFileName(safeName);
+        setResultData({
+          prompt: `✅ High-Resolution PDF Created Successfully!\n• File: ${safeName}\n• Page Size: Standard A4 Portrait\n• Click Download PDF button below.`,
+        });
+        confetti({ particleCount: 40, spread: 55, origin: { y: 0.8 } });
+        return;
+      }
+
+      // CASE 3: Image to Prompt (Gemini 2.5 Vision API)
       if (uploadedImage || selectedService.id === "image-to-prompt") {
         const res = await fetch("/api/image-to-prompt", {
           method: "POST",
@@ -345,43 +441,44 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             colors: ["#8054ff", "#00d2ff", "#10b981"],
           });
         }
-      } else {
-        // Standard Text to Prompt / Model Prompt via /api/generate
-        const res = await fetch("/api/generate", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            prompt: inputTopic,
-            model: selectedService.category === "AI Models" ? selectedService.id : "chatgpt",
-            category: selectedService.id === "video-prompt-generator" ? "video" : selectedService.id === "website-prompt-generator" ? "ui" : "image",
-            aspectRatio,
-            serviceId: selectedService.id,
-          }),
+        return;
+      }
+
+      // CASE 4: Standard Text Prompt via /api/generate
+      const res = await fetch("/api/generate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          prompt: inputTopic,
+          model: selectedService.category === "AI Models" ? selectedService.id : "chatgpt",
+          category: selectedService.id === "video-prompt-generator" ? "video" : selectedService.id === "website-prompt-generator" ? "ui" : "image",
+          aspectRatio,
+          serviceId: selectedService.id,
+        }),
+      });
+
+      clearInterval(progressInterval);
+      setProgress(100);
+
+      const data = await res.json();
+      if (data.success) {
+        setResultData({
+          prompt: data.result,
+          negative: data.negativePrompt,
+          specs: data.technicalSpecs,
+          previewImage: data.previewImage,
         });
-
-        clearInterval(progressInterval);
-        setProgress(100);
-
-        const data = await res.json();
-        if (data.success) {
-          setResultData({
-            prompt: data.result,
-            negative: data.negativePrompt,
-            specs: data.technicalSpecs,
-            previewImage: data.previewImage,
-          });
-          confetti({
-            particleCount: 45,
-            spread: 55,
-            origin: { y: 0.8 },
-            colors: ["#10a37f", "#3ea6ff", "#8054ff"],
-          });
-        }
+        confetti({
+          particleCount: 45,
+          spread: 55,
+          origin: { y: 0.8 },
+          colors: ["#10a37f", "#3ea6ff", "#8054ff"],
+        });
       }
     } catch (err: any) {
       console.error(err);
       clearInterval(progressInterval);
-      alert(err.message || "Failed to generate prompt. Please try again.");
+      alert(err.message || "Failed to process request. Please try again.");
     } finally {
       setTimeout(() => {
         setIsLoading(false);
@@ -398,7 +495,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
   return (
     <div className={`w-full mx-auto flex flex-col items-center ${compact ? "pt-1 pb-3 max-w-5xl" : "pt-4 sm:pt-8 max-w-5xl"}`}>
-      {/* 1. Quick Category Pills Bar */}
+      {/* 1. Category Switcher Pills */}
       <div className="flex flex-wrap items-center justify-center gap-2 mb-3">
         <div className="flex items-center gap-1 bg-white p-1 rounded-full border border-slate-200 shadow-2xs font-sans">
           <button
@@ -420,7 +517,33 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
           <button
             type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[2])} // Text Prompt Generator
+            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[2])} // AI Text Detector
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
+              selectedService.id === "ai-text-detector"
+                ? "bg-slate-900 text-white shadow-xs"
+                : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+            }`}
+          >
+            <Shield className="w-3.5 h-3.5 text-teal-500" />
+            <span>AI Detector</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[4])} // Image to PDF
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
+              selectedService.id === "image-to-pdf"
+                ? "bg-slate-900 text-white shadow-xs"
+                : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+            }`}
+          >
+            <FileUp className="w-3.5 h-3.5 text-rose-500" />
+            <span>Image to PDF</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[7])} // Master Prompt Generator
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedService.id === "ai-prompt-generator"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -428,46 +551,17 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             }`}
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Text to Image</span>
+            <span>Text to Prompt</span>
           </button>
-
-          <button
-            type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[6])} // Video Prompt
-            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
-              selectedService.id === "video-prompt-generator"
-                ? "bg-slate-900 text-white shadow-xs"
-                : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
-            }`}
-          >
-            <Video className="w-3.5 h-3.5" />
-            <span>Text to Video</span>
-          </button>
-
-          <div className="hidden sm:flex items-center gap-1 pl-2 pr-1 border-l border-slate-200 font-mono">
-            {["16:9", "9:16", "1:1"].map((ar) => (
-              <button
-                key={ar}
-                type="button"
-                onClick={() => setAspectRatio(ar)}
-                className={`px-2 py-0.5 rounded-md text-[11px] transition font-medium ${
-                  aspectRatio === ar ? "bg-slate-900 text-white" : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
-                }`}
-              >
-                {ar}
-              </button>
-            ))}
-          </div>
         </div>
 
-        {/* 100% Free • No Login Trust Badge */}
         <div className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/80 text-emerald-700 text-xs font-medium">
           <Shield className="w-3.5 h-3.5 text-emerald-600" />
-          <span>100% Free • Unlimited</span>
+          <span>100% Free • Multi-Language</span>
         </div>
       </div>
 
-      {/* 2. PROMPT COMMAND BOX WITH INTEGRATED ATTACH IMAGE & SERVICES DROPDOWN */}
+      {/* 2. COMMAND STUDIO BOX */}
       <form 
         onSubmit={handleGenerate} 
         onDragOver={(e) => e.preventDefault()}
@@ -484,7 +578,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
 
         <div className="relative w-full rounded-3xl bg-white text-slate-800 shadow-[0_10px_40px_-10px_rgba(124,92,252,0.12)] p-5 sm:p-7 flex flex-col border border-purple-100/80 focus-within:border-[#8054ff] focus-within:ring-4 focus-within:ring-purple-500/10 transition-all">
           
-          {/* Active Image Thumbnail Pill (If uploaded) */}
+          {/* Active Image Thumbnail Pill */}
           {uploadedImage && (
             <div className="relative inline-flex items-center gap-2.5 mb-3 p-1.5 pr-3.5 rounded-2xl bg-cyan-50/80 border border-cyan-200/90 text-slate-900 text-xs font-semibold w-fit animate-in fade-in">
               <img
@@ -514,14 +608,13 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             </div>
           )}
 
-          {/* Input Area with Sparkles Icon, Image Upload Button & Character Counter */}
+          {/* Textarea Area */}
           <div className="flex items-start gap-3 w-full">
             <div className="flex flex-col gap-2 flex-shrink-0 mt-0.5">
-              {/* Image Upload Camera/Attachment Icon inside prompt box */}
               <button
                 type="button"
                 onClick={() => fileInputRef.current?.click()}
-                title="Attach or Drag Image (Image to Prompt)"
+                title="Attach or Drag Image (Image to Prompt & PDF)"
                 className="w-8 h-8 rounded-xl bg-slate-100 hover:bg-cyan-50 hover:text-cyan-600 text-slate-600 flex items-center justify-center transition border border-slate-200 cursor-pointer shadow-2xs group"
               >
                 <Camera className="w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -532,7 +625,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
               <textarea
                 rows={2}
                 value={inputTopic}
-                maxLength={400}
+                maxLength={800}
                 onChange={(e) => setInputTopic(e.target.value)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && !e.shiftKey) {
@@ -550,17 +643,16 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
             </div>
 
             <span className="text-xs text-slate-400 font-mono mt-1 flex-shrink-0 select-none">
-              {inputTopic.length}/400
+              {inputTopic.length}/800
             </span>
           </div>
 
-          {/* Divider line */}
           <div className="w-full h-px bg-slate-100 my-3" />
 
-          {/* Bottom Bar: All-in-One Services Dropdown on Left + Create Prompt on Right */}
+          {/* Bottom Bar: Categorized Services Dropdown on Left + Action Button on Right */}
           <div className="flex items-center justify-between pt-1 relative">
             
-            {/* Left: BABAL ALL SERVICES DROPDOWN (Replacing simple model dropdown) */}
+            {/* Mega Dropdown */}
             <div className="relative">
               <button
                 type="button"
@@ -574,7 +666,6 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform duration-200 ${servicesDropdownOpen ? "rotate-180" : ""}`} />
               </button>
 
-              {/* Mega Dropdown Menu with all services categorized */}
               {servicesDropdownOpen && (
                 <>
                   <div
@@ -587,8 +678,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                       <span className="text-[10px] text-emerald-600 font-bold">● All 100% Free</span>
                     </div>
 
-                    {/* Group by category */}
-                    {["Vision & Reverse", "Prompt Tools", "Document & PDF", "Text & AI", "AI Models"].map((catName) => {
+                    {["Vision & Reverse", "Text & AI", "Document & PDF", "Prompt Tools", "AI Models"].map((catName) => {
                       const toolsInCat = ALL_SERVICES_CATALOG.filter((s) => s.category === catName);
                       if (toolsInCat.length === 0) return null;
 
@@ -640,27 +730,16 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                         </div>
                       );
                     })}
-
-                    {/* Footer link to dedicated full page */}
-                    <div className="pt-2 mt-2 border-t border-slate-100 flex items-center justify-between text-xs px-2">
-                      <Link
-                        href="/tools/image-to-prompt"
-                        className="text-cyan-600 hover:underline font-semibold flex items-center gap-1"
-                      >
-                        <span>Open Full Image-to-Prompt Page</span>
-                        <ArrowUp className="w-3 h-3 rotate-45" />
-                      </Link>
-                    </div>
                   </div>
                 </>
               )}
             </div>
 
-            {/* Right: Purple "Create Prompt ->" Action Button */}
+            {/* Dynamic Action Button Label matching chosen service */}
             <button
               type="submit"
               disabled={isLoading || (!inputTopic.trim() && !uploadedImage)}
-              className={`h-11 px-6 rounded-xl flex items-center justify-center gap-2 text-sm font-semibold transition-all duration-200 ${
+              className={`h-11 px-5 sm:px-6 rounded-xl flex items-center justify-center gap-2 text-xs sm:text-sm font-semibold transition-all duration-200 ${
                 isLoading
                   ? "bg-[#8054ff] text-white shadow-md opacity-90 cursor-wait"
                   : !inputTopic.trim() && !uploadedImage
@@ -675,14 +754,14 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 </>
               ) : (
                 <>
-                  <span>Generate Prompt</span>
+                  <span>{selectedService.actionButtonLabel}</span>
                   <ArrowUp className="w-4 h-4 rotate-45 stroke-[2.5]" />
                 </>
               )}
             </button>
           </div>
 
-          {/* 1% to 100% Progress Bar */}
+          {/* Real-time 1% to 100% Progress Bar */}
           {isLoading && (
             <div className="w-full mt-3 pt-2 border-t border-slate-100">
               <div className="flex justify-between items-center text-xs font-semibold text-purple-600 mb-1.5 font-mono">
@@ -703,9 +782,11 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
         </div>
       </form>
 
-      {/* 3. RESULT DISPLAY (Supports Both Multi-Model Vision and Single Model Prompt) */}
+      {/* 3. DYNAMIC RESULT CARD */}
       {resultData && (
         <div className="w-full mt-6 rounded-3xl bg-white border-2 border-slate-200 p-5 sm:p-6 space-y-4 animate-in fade-in zoom-in-95 duration-200 shadow-xl">
+          
+          {/* Header */}
           <div className="flex items-center justify-between border-b border-slate-100 pb-3.5">
             <div className="flex items-center gap-2.5">
               <span className="flex h-2.5 w-2.5 relative">
@@ -713,31 +794,115 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
               </span>
               <span className="text-xs font-black uppercase tracking-wider text-emerald-700 font-heading">
-                {selectedService.name} Generated Successfully
+                {selectedService.name} Result
               </span>
             </div>
 
+            {/* If PDF download exists */}
+            {pdfDownloadUrl && (
+              <a
+                href={pdfDownloadUrl}
+                download={pdfFileName || "document.pdf"}
+                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition shadow-md"
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span>Download PDF File</span>
+              </a>
+            )}
+
             {/* Quick Copy Main Button */}
-            <button
-              onClick={() => handleCopy(resultData.prompt)}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-purple-50 hover:bg-purple-100 text-[#8054ff] text-xs font-bold transition border border-purple-200/80 cursor-pointer"
-            >
-              {copied ? (
-                <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600" />
-                  <span>Copied!</span>
-                </>
-              ) : (
-                <>
-                  <Copy className="w-3.5 h-3.5" />
-                  <span>Copy Prompt</span>
-                </>
-              )}
-            </button>
+            {!pdfDownloadUrl && resultData.prompt && (
+              <button
+                onClick={() => handleCopy(resultData.prompt || "")}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-purple-50 hover:bg-purple-100 text-[#8054ff] text-xs font-bold transition border border-purple-200/80 cursor-pointer"
+              >
+                {copied ? (
+                  <>
+                    <Check className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Copied!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-3.5 h-3.5" />
+                    <span>Copy Text</span>
+                  </>
+                )}
+              </button>
+            )}
           </div>
 
-          {/* If Multi-Model from Image Analysis */}
-          {resultData.multiPrompts ? (
+          {/* VIEW A: AI DETECTOR IN USER'S NATIVE LANGUAGE */}
+          {resultData.detectorReport && (
+            <div className="space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <div>
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block">
+                    Detected Language: {resultData.detectorReport.detectedLanguage}
+                  </span>
+                  <p className="text-base sm:text-lg font-black text-slate-900 mt-0.5">
+                    {resultData.detectorReport.verdict}
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="text-right">
+                    <span className="text-xs font-bold text-slate-500">AI Probability:</span>
+                    <p className={`text-2xl font-black font-mono ${
+                      resultData.detectorReport.aiScore > 50 ? "text-rose-600" : "text-emerald-600"
+                    }`}>
+                      {resultData.detectorReport.aiScore}%
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Flagged AI Phrases */}
+              {resultData.detectorReport.flaggedPhrases && resultData.detectorReport.flaggedPhrases.length > 0 && (
+                <div className="p-3.5 rounded-2xl bg-amber-50/70 border border-amber-200 text-xs">
+                  <span className="font-bold text-amber-900 block mb-1.5 flex items-center gap-1.5">
+                    <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
+                    AI द्वारा पत्ता लगाइएका रोबोटिक वाक्यांशहरू (Detected AI Phrases):
+                  </span>
+                  <div className="flex flex-wrap gap-1.5">
+                    {resultData.detectorReport.flaggedPhrases.map((phrase, i) => (
+                      <span key={i} className="px-2 py-1 rounded-md bg-amber-100 text-amber-900 font-mono text-[11px]">
+                        "{phrase}"
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Native Language Analysis Breakdown */}
+              <div className="bg-white rounded-2xl p-4 border border-slate-200 text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2 whitespace-pre-wrap">
+                <span className="font-bold text-slate-900 block">विस्तृत विश्लेषण (Forensic Analysis):</span>
+                {resultData.detectorReport.analysis}
+              </div>
+
+              {/* Humanized Alternative */}
+              {resultData.detectorReport.humanizedSuggestion && (
+                <div className="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200 text-xs sm:text-sm">
+                  <div className="flex justify-between items-center mb-1.5">
+                    <span className="font-bold text-emerald-900">
+                      १००% प्राकृतिक मानव शैलीमा लेखिएको विकल्प (Human Alternative):
+                    </span>
+                    <button
+                      onClick={() => handleCopy(resultData.detectorReport?.humanizedSuggestion || "")}
+                      className="text-xs text-emerald-700 hover:underline font-bold"
+                    >
+                      Copy Human Text
+                    </button>
+                  </div>
+                  <p className="text-slate-800 leading-relaxed font-sans italic">
+                    "{resultData.detectorReport.humanizedSuggestion}"
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* VIEW B: MULTI-MODEL REVERSE VISION PROMPTS */}
+          {resultData.multiPrompts && (
             <div className="space-y-4">
               {resultData.multiPrompts.summary && (
                 <p className="text-xs text-slate-500 italic bg-slate-50 p-2.5 rounded-xl border border-slate-100">
@@ -745,7 +910,6 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 </p>
               )}
 
-              {/* Tabs for Midjourney, Flux, SDXL */}
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-1">
                 {resultData.multiPrompts.midjourney && (
                   <div className="bg-slate-50 rounded-2xl p-3.5 border border-slate-200/80">
@@ -753,7 +917,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                       <span className="text-xs font-bold text-slate-800">Midjourney v6</span>
                       <button
                         onClick={() => handleCopy(resultData.multiPrompts?.midjourney || "")}
-                        className="text-[11px] text-purple-600 hover:underline font-semibold"
+                        className="text-[11px] text-purple-600 hover:underline font-semibold cursor-pointer"
                       >
                         Copy
                       </button>
@@ -770,7 +934,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                       <span className="text-xs font-bold text-slate-800">Flux.1 Schnell/Dev</span>
                       <button
                         onClick={() => handleCopy(resultData.multiPrompts?.flux || "")}
-                        className="text-[11px] text-purple-600 hover:underline font-semibold"
+                        className="text-[11px] text-purple-600 hover:underline font-semibold cursor-pointer"
                       >
                         Copy
                       </button>
@@ -787,7 +951,7 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                       <span className="text-xs font-bold text-slate-800">Stable Diffusion XL</span>
                       <button
                         onClick={() => handleCopy(resultData.multiPrompts?.stableDiffusion || "")}
-                        className="text-[11px] text-purple-600 hover:underline font-semibold"
+                        className="text-[11px] text-purple-600 hover:underline font-semibold cursor-pointer"
                       >
                         Copy
                       </button>
@@ -806,8 +970,11 @@ export function PromptGeneratorStudio({ compact = false, onToggleAllServices, sh
                 </div>
               )}
             </div>
-          ) : (
-            <div className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 font-mono text-xs sm:text-sm text-slate-800 leading-relaxed select-all">
+          )}
+
+          {/* VIEW C: STANDARD PROMPT / PDF RESULT */}
+          {!resultData.detectorReport && !resultData.multiPrompts && resultData.prompt && (
+            <div className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 font-mono text-xs sm:text-sm text-slate-800 leading-relaxed select-all whitespace-pre-wrap">
               {resultData.prompt}
             </div>
           )}
