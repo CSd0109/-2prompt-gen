@@ -553,7 +553,10 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         <div className="flex items-center gap-1 bg-white p-1 rounded-full border border-slate-200 shadow-2xs font-sans">
           <button
             type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[0])} // AI Image Generator
+            onClick={() => {
+              const s = ALL_SERVICES_CATALOG.find((item) => item.id === "ai-image-generator");
+              if (s) setSelectedService(s);
+            }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedService.id === "ai-image-generator"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -568,7 +571,8 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           <button
             type="button"
             onClick={() => {
-              setSelectedService(ALL_SERVICES_CATALOG[1]); // Image to Prompt
+              const s = ALL_SERVICES_CATALOG.find((item) => item.id === "image-to-prompt");
+              if (s) setSelectedService(s);
               if (!uploadedImage) fileInputRef.current?.click();
             }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
@@ -584,7 +588,10 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
           <button
             type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[2])} // AI Text Detector
+            onClick={() => {
+              const s = ALL_SERVICES_CATALOG.find((item) => item.id === "ai-text-detector");
+              if (s) setSelectedService(s);
+            }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedService.id === "ai-text-detector"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -597,7 +604,10 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
           <button
             type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[4])} // Image to PDF
+            onClick={() => {
+              const s = ALL_SERVICES_CATALOG.find((item) => item.id === "image-to-pdf");
+              if (s) setSelectedService(s);
+            }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedService.id === "image-to-pdf"
                 ? "bg-slate-900 text-white shadow-xs"
@@ -610,7 +620,10 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
 
           <button
             type="button"
-            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[7])} // Master Prompt Generator
+            onClick={() => {
+              const s = ALL_SERVICES_CATALOG.find((item) => item.id === "ai-prompt-generator");
+              if (s) setSelectedService(s);
+            }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
               selectedService.id === "ai-prompt-generator"
                 ? "bg-slate-900 text-white shadow-xs"
