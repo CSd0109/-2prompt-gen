@@ -48,10 +48,20 @@ export interface ServiceItem {
 }
 
 export const ALL_SERVICES_CATALOG: ServiceItem[] = [
-  // 1. Vision & Reverse
+  // 1. Vision & Image Generation (Free, No Signup)
+  {
+    id: "ai-image-generator",
+    name: "AI Image Generator (FLUX.1 Pro)",
+    desc: "100% Free & Unlimited Text-to-Image AI without signup",
+    category: "Vision & Reverse",
+    iconName: "ai-image-generator",
+    actionPlaceholder: "Describe anything you want to create (e.g. futuristic cyberpunk samurai in Tokyo rain, 8k cinematic)...",
+    actionButtonLabel: "Generate AI Image",
+    isVisionTool: true,
+  },
   {
     id: "image-to-prompt",
-    name: "Image to Prompt (Reverse AI)",
+    name: "Image to Prompt (Nano Banana)",
     desc: "Extract 100% replica Midjourney, Flux & SDXL prompts",
     category: "Vision & Reverse",
     iconName: "image-to-prompt",
@@ -215,6 +225,8 @@ export const ALL_SERVICES_CATALOG: ServiceItem[] = [
 
 function ServiceBadgeIcon({ id, className = "w-4 h-4" }: { id: string; className?: string }) {
   switch (id) {
+    case "ai-image-generator":
+      return <Sparkles className={`${className} text-indigo-500`} />;
     case "image-to-prompt":
       return <Maximize2 className={`${className} text-amber-500`} />;
     case "image-to-text":
@@ -454,6 +466,31 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         return;
       }
 
+      // CASE 3.5: Direct AI Image Generation (FLUX.1 Pro - 100% Free & Unlimited)
+      if (selectedService.id === "ai-image-generator") {
+        const fluxWidth = aspectRatio === "9:16" ? 576 : aspectRatio === "1:1" ? 768 : 896;
+        const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 768 : 512;
+        const seed = Math.floor(Math.random() * 1000000);
+        const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(inputTopic)}?width=${fluxWidth}&height=${fluxHeight}&model=flux&nologo=true&seed=${seed}`;
+
+        clearInterval(progressInterval);
+        setProgress(100);
+
+        setResultData({
+          prompt: inputTopic,
+          previewImage: imageUrl,
+          specs: `Engine: FLUX.1 Pro | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | Free & Unlimited`,
+        });
+
+        confetti({
+          particleCount: 50,
+          spread: 65,
+          origin: { y: 0.8 },
+          colors: ["#6366f1", "#a855f7", "#ec4899"],
+        });
+        return;
+      }
+
       // CASE 4: Standard Text Prompt via /api/generate
       const res = await fetch("/api/generate", {
         method: "POST",
@@ -510,8 +547,22 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         <div className="flex items-center gap-1 bg-white p-1 rounded-full border border-slate-200 shadow-2xs font-sans">
           <button
             type="button"
+            onClick={() => setSelectedService(ALL_SERVICES_CATALOG[0])} // AI Image Generator
+            className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
+              selectedService.id === "ai-image-generator"
+                ? "bg-slate-900 text-white shadow-xs"
+                : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
+            }`}
+          >
+            <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+            <span>AI Image Gen</span>
+            <span className="px-1 py-0.2 rounded bg-indigo-600 text-white text-[9px] font-bold">FREE</span>
+          </button>
+
+          <button
+            type="button"
             onClick={() => {
-              setSelectedService(ALL_SERVICES_CATALOG[0]); // Image to Prompt
+              setSelectedService(ALL_SERVICES_CATALOG[1]); // Image to Prompt
               if (!uploadedImage) fileInputRef.current?.click();
             }}
             className={`flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-semibold transition-all ${
@@ -1012,10 +1063,50 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
             </div>
           )}
 
-          {/* VIEW C: STANDARD PROMPT / PDF RESULT */}
-          {!resultData.detectorReport && !resultData.multiPrompts && resultData.prompt && (
-            <div className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 font-mono text-xs sm:text-sm text-slate-800 leading-relaxed select-all whitespace-pre-wrap">
-              {resultData.prompt}
+          {/* VIEW C: STANDARD PROMPT / AI GENERATED IMAGE / PDF RESULT */}
+          {!resultData.detectorReport && !resultData.multiPrompts && (resultData.prompt || resultData.previewImage) && (
+            <div className="space-y-4">
+              {/* Generated AI Image Display */}
+              {resultData.previewImage && (
+                <div className="p-4 rounded-2xl bg-gradient-to-r from-indigo-500/10 via-purple-500/10 to-pink-500/10 border border-indigo-200">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+                      Generated Image (FLUX.1 Pro AI Engine):
+                    </span>
+                    <a
+                      href={resultData.previewImage}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download="ai_generated_art.jpg"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition shadow-xs cursor-pointer"
+                    >
+                      <Download className="w-3.5 h-3.5" />
+                      <span>Download High-Res</span>
+                    </a>
+                  </div>
+                  <div className="relative rounded-xl overflow-hidden bg-slate-900 aspect-video max-h-[380px] flex items-center justify-center border border-slate-200 shadow-inner">
+                    <img
+                      src={resultData.previewImage}
+                      alt="AI Generated Artwork"
+                      className="w-full h-full object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                  {resultData.specs && (
+                    <div className="mt-2 text-[11px] font-mono text-slate-500 text-center">
+                      {resultData.specs}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Text Prompt */}
+              {resultData.prompt && (
+                <div className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 font-mono text-xs sm:text-sm text-slate-800 leading-relaxed select-all whitespace-pre-wrap">
+                  {resultData.prompt}
+                </div>
+              )}
             </div>
           )}
         </div>
