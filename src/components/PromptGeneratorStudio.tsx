@@ -419,9 +419,19 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         
         if (json.success && json.data) {
           const d = json.data;
+          const bestPrompt = d.prompts.flux || d.prompts.midjourney || d.prompts.stableDiffusion || "";
+          
+          // Generate real-time Flux clone preview using headless AI engine
+          const fluxWidth = aspectRatio === "9:16" ? 576 : aspectRatio === "1:1" ? 768 : 896;
+          const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 768 : 512;
+          const previewUrl = bestPrompt
+            ? `https://image.pollinations.ai/prompt/${encodeURIComponent(bestPrompt.slice(0, 400))}?width=${fluxWidth}&height=${fluxHeight}&model=flux&nologo=true&seed=${Math.floor(Math.random() * 100000)}`
+            : undefined;
+
           setResultData({
             prompt: d.prompts.midjourney || d.prompts.flux || "Prompt generated successfully",
             negative: d.prompts.negative,
+            previewImage: previewUrl,
             multiPrompts: {
               midjourney: d.prompts.midjourney,
               flux: d.prompts.flux,
@@ -904,6 +914,36 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           {/* VIEW B: MULTI-MODEL REVERSE VISION PROMPTS */}
           {resultData.multiPrompts && (
             <div className="space-y-4">
+              {/* Generated AI Visual Clone Preview */}
+              {resultData.previewImage && (
+                <div className="p-3 sm:p-4 rounded-2xl bg-gradient-to-r from-purple-500/10 via-pink-500/10 to-blue-500/10 border border-purple-200/80">
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5 text-purple-600" />
+                      Live AI Clone Preview (FLUX.1 Engine):
+                    </span>
+                    <a
+                      href={resultData.previewImage}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download="ai_generated_clone.jpg"
+                      className="text-xs font-bold text-purple-700 hover:text-purple-900 flex items-center gap-1 bg-white px-2.5 py-1 rounded-lg border border-purple-200 shadow-2xs hover:bg-purple-50 transition"
+                    >
+                      <Download className="w-3 h-3" />
+                      Download High-Res
+                    </a>
+                  </div>
+                  <div className="relative rounded-xl overflow-hidden bg-slate-900 aspect-video max-h-[320px] flex items-center justify-center border border-slate-200">
+                    <img
+                      src={resultData.previewImage}
+                      alt="AI Generated Clone"
+                      className="w-full h-full object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              )}
+
               {resultData.multiPrompts.summary && (
                 <p className="text-xs text-slate-500 italic bg-slate-50 p-2.5 rounded-xl border border-slate-100">
                   "{resultData.multiPrompts.summary}"

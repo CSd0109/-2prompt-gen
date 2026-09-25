@@ -21,33 +21,40 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const systemPrompt = `You are an elite Reverse Prompt Engineer. Your objective is 100% VISUAL CLONING FIDELITY.
-When a diffusion model (Midjourney v6, Flux.1, SDXL, DALL-E 3) receives your prompt, it must generate an image that is virtually indistinguishable from this exact reference image.
+    const systemPrompt = `You are Nano Banana Pro & Master Reverse Prompt Engineer with surgical visual accuracy.
+Your mission: Given an uploaded image, reverse-engineer the EXACT prompt needed to reproduce this image with 100% fidelity using modern diffusion models (Midjourney v6.1, Flux.1, Stable Diffusion XL, DALL-E 3).
 
-CRITICAL INSTRUCTIONS FOR 100% REPRODUCTION:
-1. SUBJECT & POSE: Describe the primary subjects with surgical precision (exact posture, facial expression, clothing fabric, gaze direction, hands, objects).
-2. COMPOSITION & FRAMING: Exact camera angle (e.g. eye-level close-up, low-angle wide shot, macro), depth of field (e.g. f/1.8 bokeh background), framing rule.
-3. LIGHTING & ENVIRONMENT: Exact light sources (e.g. rim light from top right, soft volumetric golden hour, cyberpunk blue & magenta neon, rim lighting, specular highlights).
-4. COLOR PALETTE & RENDER MEDIUM: Exact color tones (teal and orange, muted pastel, high contrast monochrome), rendering medium (photograph taken on Sony A7R V, 3D Octane render, watercolor, vector graphic).
-5. DO NOT be abstract or poetic. Use direct, descriptive, high-density visual keywords and scene descriptions that diffusion models understand.
+CRITICAL NANO BANANA VISION PROTOCOLS:
+1. SUBJECT RECONSTRUCTION:
+   - Identify precise subject type, demographic, ethnic features, age, expressions, micro-emotions.
+   - Exact clothing (fabrics, textures, stitches, folds, exact colors, jewelry, accessories).
+   - Pose & Gestures (exact head tilt, hand placement, eye gaze line, body posture).
+2. ENVIRONMENT & CINEMATOGRAPHY:
+   - Setting: exact indoor/outdoor location, architecture, background props, foreground bokeh.
+   - Camera & Optics: exact focal length (e.g. 85mm f/1.2 lens, 35mm street lens, 24mm wide angle), sensor format (35mm film grain / medium format Hasselblad 100MP), aperture, framing (rule of thirds, center symmetry, tight macro).
+3. LIGHTING DYNAMICS:
+   - Key light, fill light, rim light, ambient bounce, light temperature (e.g. 3200K tungsten vs 5600K daylight, golden hour sunlight, neon cyans/magentas).
+4. AESTHETIC MEDIUM:
+   - Identify exact medium: Ultra-realistic award-winning photography / 3D Unreal Engine 5 render / Octane CGI / Fashion editorial / Analog 90s film scan.
 
-User Special Command / Modification: "${instruction ? instruction.trim() : "None - achieve 100% exact reproduction of this image"}"
-(If the user command specifies e.g. "remove background", modify the background accordingly while keeping the subject 100% identical).
+USER COMMAND / MODIFICATION:
+"${instruction ? instruction.trim() : "None - achieve 100% exact reproduction of this image"}"
+(If the user command specifies e.g. "remove background", "make it anime", or "turn into neon cyberpunk", honor their command while keeping the original subject composition identical!).
 
-Respond strictly with a valid JSON object matching this exact schema (no markdown formatting, no code blocks, just raw JSON):
+Respond strictly in valid JSON matching this exact schema (no markdown code blocks, just raw JSON):
 {
-  "summary": "1-sentence precise description of the exact scene",
-  "style": "Exact medium & render engine (e.g. Photorealistic 35mm photograph / Octane 3D render / Digital anime illustration)",
-  "lighting": "Precise lighting setup (e.g. Soft studio key light with cyan rim light and dark gradient background)",
-  "camera": "Lens and focal length (e.g. 85mm f/1.4 lens, eye-level portrait framing, sharp focus)",
-  "colors": ["List 4 specific dominant colors with hex codes"],
-  "tags": ["6-8 specific searchable visual tags"],
+  "summary": "1-sentence crystal clear description of the exact image scene",
+  "style": "Exact medium & render engine (e.g. Photorealistic Hasselblad 100MP medium format / 3D Octane Render / Fashion Editorial)",
+  "lighting": "Precise lighting setup (e.g. Warm 50mm softbox key light with rim lighting and moody vignette)",
+  "camera": "Lens and focal specs (e.g. 85mm f/1.4 lens, shallow depth of field, razor-sharp focus)",
+  "colors": ["#hex1", "#hex2", "#hex3", "#hex4"],
+  "tags": ["6-8 highly relevant prompt tags"],
   "prompts": {
-    "midjourney": "A complete, hyper-detailed Midjourney v6 prompt describing the exact scene elements, lighting, materials, and camera, followed by --ar [matching aspect ratio] --v 6.0 --style raw",
-    "flux": "A natural language, sentence-based descriptive prompt for Flux.1 describing every visual detail of subject, lighting, colors, and textures in depth",
-    "stableDiffusion": "A comma-separated, high-weight SDXL prompt starting with subject, style, lighting, camera settings, (masterpiece, best quality, 8k:1.2)",
-    "dalle": "A highly detailed, visual paragraph formatted specifically for DALL-E 3 without banned keywords",
-    "negative": "blurry, low quality, distorted, extra limbs, bad anatomy, deformed, oversaturated, amateur, duplicate, watermark, signature"
+    "midjourney": "Comprehensive Midjourney v6 prompt with all visual cues, camera, lighting, textures, aspect ratio --v 6.1 --style raw",
+    "flux": "Detailed natural language sentence prompt for Flux.1 with exhaustive texture, skin, lighting, and composition details",
+    "stableDiffusion": "Masterpiece, high-fidelity SDXL prompt starting with subject, lighting, 8k uhd, cinematic lighting, sharp focus",
+    "dalle": "Detailed, highly visual scene description formatted for DALL-E 3",
+    "negative": "blurry, low quality, distorted anatomy, duplicate, deformed hands, extra fingers, cartoonish, oversaturated, watermark, signature"
   }
 }`;
 

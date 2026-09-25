@@ -17,6 +17,7 @@ import {
   HelpCircle,
   FileCheck,
   Share2,
+  Download,
 } from "lucide-react";
 
 interface PromptResult {
@@ -396,6 +397,36 @@ export default function ImageToPromptPage() {
                   </div>
                 )}
               </div>
+
+              {/* Live AI Clone Preview using FLUX.1 Engine */}
+              {result.prompts && (
+                <div className="bg-gradient-to-r from-cyan-950/40 via-purple-950/40 to-slate-900 border border-cyan-500/30 rounded-2xl p-5 shadow-lg">
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4 text-cyan-400" />
+                      <span className="text-sm font-bold text-white tracking-wide">
+                        Live AI Clone Preview (FLUX.1 Engine)
+                      </span>
+                    </div>
+                    <a
+                      href={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=896&height=512&model=flux&nologo=true`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/40 text-cyan-300 text-xs font-semibold transition"
+                    >
+                      <Download className="w-3.5 h-3.5" /> Download High-Res
+                    </a>
+                  </div>
+                  <div className="relative rounded-xl overflow-hidden bg-black/60 aspect-video max-h-[340px] flex items-center justify-center border border-slate-800">
+                    <img
+                      src={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=896&height=512&model=flux&nologo=true`}
+                      alt="AI Generated Visual Clone"
+                      className="w-full h-full object-contain"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              )}
 
               {/* Model Cards */}
               <div className="space-y-4">
