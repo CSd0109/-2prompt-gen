@@ -25,6 +25,13 @@ export function HeaderNav() {
 
         <div className="flex items-center gap-3">
           <Link
+            href="/tools/image-to-prompt"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-50 hover:bg-cyan-100 text-cyan-700 text-xs font-bold border border-cyan-200 transition"
+          >
+            <span>Image to Prompt</span>
+            <span className="px-1 py-0.2 rounded bg-cyan-600 text-white text-[9px]">AI</span>
+          </Link>
+          <Link
             href="/"
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold transition shadow-xs"
           >

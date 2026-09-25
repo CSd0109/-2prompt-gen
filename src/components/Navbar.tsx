@@ -88,6 +88,13 @@ export function Navbar({ onToggleSidebar, onOpenGenerator, onGoHome, onSelectCat
           Examples
         </button>
         <Link 
+          href="/tools/image-to-prompt"
+          className="hover:text-[#7c5cfc] transition cursor-pointer flex items-center gap-1.5 text-slate-700 font-semibold"
+        >
+          <span>Image to Prompt</span>
+          <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-cyan-100 text-cyan-700 border border-cyan-200">NEW AI</span>
+        </Link>
+        <Link 
           href="/socialmediavdodownloder"
           className="hover:text-[#7c5cfc] transition cursor-pointer flex items-center gap-1.5"
         >
