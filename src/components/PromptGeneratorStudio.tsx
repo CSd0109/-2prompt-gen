@@ -466,7 +466,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         return;
       }
 
-      // CASE 3.5: Direct AI Image Generation (Ultra-HD FLUX Realism Engine - 100% Free)
+      // CASE 3.5: Direct AI Image Generation (Puter.ai + FLUX-Realism Ultra HD Engine)
       if (selectedService.id === "ai-image-generator") {
         const fluxWidth = aspectRatio === "9:16" ? 768 : aspectRatio === "1:1" ? 1024 : 1024;
         const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 1024 : 576;
@@ -477,15 +477,35 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           ? `${inputTopic.trim()}, 8k resolution, highly detailed, photorealistic, cinematic studio lighting, sharp focus, masterpiece`
           : inputTopic.trim();
 
-        const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(enhancedPrompt)}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${seed}`;
+        let generatedImgSrc: string | null = null;
+        let engineUsed = "Puter AI (FLUX & SDXL)";
+
+        // 1. Try Puter.ai client if available in window
+        if (typeof window !== "undefined" && (window as any).puter?.ai?.txt2img) {
+          try {
+            const puterImg = await (window as any).puter.ai.txt2img(enhancedPrompt);
+            if (puterImg && puterImg.src) {
+              generatedImgSrc = puterImg.src;
+              engineUsed = "Puter.ai Ultra-HD Engine";
+            }
+          } catch (puterErr) {
+            console.warn("Puter.ai generation fallback:", puterErr);
+          }
+        }
+
+        // 2. Fallback to FLUX-Realism HD
+        if (!generatedImgSrc) {
+          generatedImgSrc = `https://image.pollinations.ai/prompt/${encodeURIComponent(enhancedPrompt)}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${seed}`;
+          engineUsed = "FLUX-Realism Pro 8K Engine";
+        }
 
         clearInterval(progressInterval);
         setProgress(100);
 
         setResultData({
           prompt: inputTopic,
-          previewImage: imageUrl,
-          specs: `Engine: FLUX-Realism Ultra HD | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | 100% Free`,
+          previewImage: generatedImgSrc,
+          specs: `Engine: ${engineUsed} | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | 100% Free`,
         });
 
         confetti({
