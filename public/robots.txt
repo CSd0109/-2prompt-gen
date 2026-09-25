@@ -44,5 +44,7 @@ User-agent: Luminous-Bot
 Allow: /
 
 # XML Sitemaps
-Sitemap: https://www.aipromptgenerate.xyz/sitemap.xml
 Sitemap: https://www.aipromptgenerate.xyz/sitemap_index.xml
+Sitemap: https://www.aipromptgenerate.xyz/sitemap.xml
+Sitemap: https://www.aipromptgenerate.xyz/sitemap-pages.xml
+Sitemap: https://www.aipromptgenerate.xyz/sitemap-prompts.xml
