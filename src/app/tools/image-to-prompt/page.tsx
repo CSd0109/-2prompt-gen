@@ -409,7 +409,7 @@ export default function ImageToPromptPage() {
                       </span>
                     </div>
                     <a
-                      href={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=896&height=512&model=flux&nologo=true`}
+                      href={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=1024&height=1024&model=flux-realism&nologo=true&enhance=true`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/40 text-cyan-300 text-xs font-semibold transition"
@@ -419,7 +419,7 @@ export default function ImageToPromptPage() {
                   </div>
                   <div className="relative rounded-xl overflow-hidden bg-black/60 aspect-video max-h-[340px] flex items-center justify-center border border-slate-800">
                     <img
-                      src={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=896&height=512&model=flux&nologo=true`}
+                      src={`https://image.pollinations.ai/prompt/${encodeURIComponent((result.prompts.flux || result.prompts.midjourney || "").slice(0, 400))}?width=1024&height=1024&model=flux-realism&nologo=true&enhance=true`}
                       alt="AI Generated Visual Clone"
                       className="w-full h-full object-contain"
                       loading="lazy"

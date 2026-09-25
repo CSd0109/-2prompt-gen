@@ -434,10 +434,10 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
           const bestPrompt = d.prompts.flux || d.prompts.midjourney || d.prompts.stableDiffusion || "";
           
           // Generate real-time Flux clone preview using headless AI engine
-          const fluxWidth = aspectRatio === "9:16" ? 576 : aspectRatio === "1:1" ? 768 : 896;
-          const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 768 : 512;
+          const fluxWidth = aspectRatio === "9:16" ? 768 : aspectRatio === "1:1" ? 1024 : 1024;
+          const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 1024 : 576;
           const previewUrl = bestPrompt
-            ? `https://image.pollinations.ai/prompt/${encodeURIComponent(bestPrompt.slice(0, 400))}?width=${fluxWidth}&height=${fluxHeight}&model=flux&nologo=true&seed=${Math.floor(Math.random() * 100000)}`
+            ? `https://image.pollinations.ai/prompt/${encodeURIComponent(bestPrompt.slice(0, 400))}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${Math.floor(Math.random() * 100000)}`
             : undefined;
 
           setResultData({
@@ -466,12 +466,18 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         return;
       }
 
-      // CASE 3.5: Direct AI Image Generation (FLUX.1 Pro - 100% Free & Unlimited)
+      // CASE 3.5: Direct AI Image Generation (Ultra-HD FLUX Realism Engine - 100% Free)
       if (selectedService.id === "ai-image-generator") {
-        const fluxWidth = aspectRatio === "9:16" ? 576 : aspectRatio === "1:1" ? 768 : 896;
-        const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 768 : 512;
+        const fluxWidth = aspectRatio === "9:16" ? 768 : aspectRatio === "1:1" ? 1024 : 1024;
+        const fluxHeight = aspectRatio === "9:16" ? 1024 : aspectRatio === "1:1" ? 1024 : 576;
         const seed = Math.floor(Math.random() * 1000000);
-        const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(inputTopic)}?width=${fluxWidth}&height=${fluxHeight}&model=flux&nologo=true&seed=${seed}`;
+        
+        // Enhance prompt with cinematic photorealistic quality keywords if short
+        const enhancedPrompt = inputTopic.length < 100
+          ? `${inputTopic.trim()}, 8k resolution, highly detailed, photorealistic, cinematic studio lighting, sharp focus, masterpiece`
+          : inputTopic.trim();
+
+        const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(enhancedPrompt)}?width=${fluxWidth}&height=${fluxHeight}&model=flux-realism&nologo=true&enhance=true&seed=${seed}`;
 
         clearInterval(progressInterval);
         setProgress(100);
@@ -479,7 +485,7 @@ export function PromptGeneratorStudio({ compact = false }: PromptGeneratorStudio
         setResultData({
           prompt: inputTopic,
           previewImage: imageUrl,
-          specs: `Engine: FLUX.1 Pro | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | Free & Unlimited`,
+          specs: `Engine: FLUX-Realism Ultra HD | Resolution: ${fluxWidth}x${fluxHeight} | Seed: ${seed} | 100% Free`,
         });
 
         confetti({
